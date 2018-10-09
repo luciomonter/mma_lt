@@ -96,10 +96,7 @@
     </platform>
     <plugin name="cordova-plugin-file" spec="^6.0.1" />
     <plugin name="cordova-plugin-file-transfer" spec="^1.7.1" />
-    <plugin name="cordova-plugin-camera" spec="^4.0.3" >
-	<!-- plugin name="cordova-plugin-file" spec="^4.3.1" />
-	<plugin name="cordova-plugin-file-transfer" spec="^1.6.1" />	
-	<plugin name="cordova-plugin-camera" spec="^2.4.1" -->
+    <plugin name="cordova-plugin-camera" spec="^4.0.3">
         <variable name="CAMERA_USAGE_DESCRIPTION" value="We need camera access to take pictures so you can attach them as part of your submissions." />
         <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="We need photo library access to get pictures from there so you can attach them as part of your submissions." />
     </plugin>
@@ -121,7 +118,7 @@
         <variable name="SENDER_ID" value="694767596569" />
     </plugin>
     <plugin name="cordova-plugin-customurlscheme" spec="^4.3.0">
-        <variable name="URL_SCHEME" value="moodlemobile" />
+        <variable name="URL_SCHEME" value="skilla_bcc_moodlemobile" />
     </plugin>
     <plugin name="ionic-plugin-keyboard" spec="^2.2.1" />
     <plugin name="cordova-plugin-zip" spec="^3.1.0" />
