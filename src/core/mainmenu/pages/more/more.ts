@@ -19,6 +19,29 @@ import { CoreSitesProvider } from '@providers/sites';
 import { CoreMainMenuDelegate, CoreMainMenuHandlerData } from '../../providers/delegate';
 import { CoreMainMenuProvider, CoreMainMenuCustomItem } from '../../providers/mainmenu';
 
+/// Lucio from site.ts
+import { Injector } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+import { HttpClient } from '@angular/common/http';
+import { SQLiteDB } from './sqlitedb';
+import { CoreAppProvider } from '@providers/app';
+import { CoreDbProvider } from '@providers/db';
+import { CoreFileProvider } from '@providers/file';
+import { CoreLoggerProvider } from '@providers/logger';
+import { CoreWSProvider, CoreWSPreSets, CoreWSFileUploadOptions } from '@providers/ws';
+import { CoreDomUtilsProvider } from '@providers/utils/dom';
+import { CoreTextUtilsProvider } from '@providers/utils/text';
+import { CoreTimeUtilsProvider } from '@providers/utils/time';
+import { CoreUrlUtilsProvider } from '@providers/utils/url';
+import { CoreUtilsProvider } from '@providers/utils/utils';
+import { CoreConstants } from '@core/constants';
+import { CoreConfigConstants } from '../configconstants';
+import { Md5 } from 'ts-md5/dist/md5';
+import { InAppBrowserObject } from '@ionic-native/in-app-browser';
+
+
+
+
 /**
  * Page that displays the list of main menu options that aren't in the tabs.
  */
@@ -43,8 +66,9 @@ export class CoreMainMenuMorePage implements OnDestroy {
 
     constructor(private menuDelegate: CoreMainMenuDelegate, private sitesProvider: CoreSitesProvider,
             private navCtrl: NavController, private mainMenuProvider: CoreMainMenuProvider,
-            eventsProvider: CoreEventsProvider) {
+            eventsProvider: CoreEventsProvider, injector: Injector) {
 
+		this.utils = injector.get(CoreUtilsProvider);	
         this.langObserver = eventsProvider.on(CoreEventsProvider.LANGUAGE_CHANGED, this.loadSiteInfo.bind(this));
         this.updateSiteObserver = eventsProvider.on(CoreEventsProvider.SITE_UPDATED, this.loadSiteInfo.bind(this),
             sitesProvider.getCurrentSiteId());
@@ -123,4 +147,17 @@ export class CoreMainMenuMorePage implements OnDestroy {
     logout(): void {
         this.sitesProvider.logout();
     }
+	
+    /**
+     * LUCIO - add a webView Navigation to external link
+     */
+    visitExternalLinkWithWebview(url: string, options?: any): void {
+        //this.sitesProvider.logout();
+		alert("ciao1");
+		//this.utils.openInBrowser(url);
+		this.utils.openInApp(url, options);
+		alert("ciao2");
+    }		
+	
+	
 }
