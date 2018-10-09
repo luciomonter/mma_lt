@@ -48939,6 +48939,10 @@ ion-app.app-root core-loading.core-loading-noheight .core-loading-content {
   height: auto;
 }
 
+ion-app.app-root core-loading .skilla_core-loading-content {
+  height: 100%;
+}
+
 ion-app.app-root .scroll-content > core-loading,
 ion-app.app-root ion-content > .scroll-content > core-loading,
 ion-app.app-root .core-loading-center {

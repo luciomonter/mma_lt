@@ -17,6 +17,10 @@ ion-app.app-root {
         &.core-loading-noheight .core-loading-content {
             height: auto;
         }
+		
+		.skilla_core-loading-content {
+			height: 100%;
+		}
     }
 
     .scroll-content > core-loading,
