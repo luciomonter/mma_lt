@@ -10,7 +10,7 @@
     <edit-config file="*-Info.plist" mode="merge" target="CFBundleShortVersionString">
         <string>3.5.20</string>
     </edit-config>
-    <!-- gap:platform name="ios" /-->
+    <gap:platform name="ios" />
     <gap:platform name="android" />
     <access origin="*" />
     <access launch-external="yes" origin="tel:*" />
@@ -530,4 +530,5 @@
         </array>
     </config-file>
     <content src="index.html" />
+    <preference name="SplashScreen" value="screen" />
 </widget>
