@@ -4,7 +4,7 @@
     <description>
         BCC Skilla Moodle app
     </description>
-    <author email="mobile@moodle.com" href="http://moodle.com">
+    <author email="info@skilla.com" href="http://moodle.com">
         Skilla Moodle Mobile team
     </author>
     <edit-config file="*-Info.plist" mode="merge" target="CFBundleShortVersionString">
@@ -34,7 +34,7 @@
     <preference name="webviewbounce" value="false" />
     <preference name="prerendered-icon" value="true" />
     <preference name="load-url-timeout" value="60000" />
-    <preference name="AppendUserAgent" value="MoodleMobile" />
+    <preference name="AppendUserAgent" value="SkillaMoodleMobile" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="android-targetSdkVersion" value="26" />
     <preference name="android-installLocation" value="auto" />
@@ -124,7 +124,7 @@
         <param name="SENDER_ID" value="694767596569" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
-        <param name="URL_SCHEME" value="moodlemobile" />
+        <param name="URL_SCHEME" value="skillamoodlemobile" />
     </gap:plugin>
     <gap:plugin name="ionic-plugin-keyboard" source="npm" />
     <gap:plugin name="cordova-plugin-zip" source="npm" />
@@ -137,7 +137,7 @@
     <gap:plugin name="cordova-android-support-gradle-release" source="npm">
         <param name="ANDROID_SUPPORT_VERSION" value="27.1.0" />
     </gap:plugin>
-    <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity[@android:name='BCCskillaMoodle']">
+    <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity[@android:name='com.skilla.bcc_moodlemobile']">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true" />
     </edit-config>
     <preference name="permissions" value="none" />
