@@ -22,8 +22,8 @@ edit in config.xml:
 **** bug della lingua:
 installare il language_pack
 
-
-
+****
+ios certificate passphrase (Amicucci Pesce Caldo)
 
 
 
