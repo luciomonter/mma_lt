@@ -1,0 +1,40 @@
+
+mio GIT HUB:
+https://github.com/luciomonter/bcc_custom_mma
+
+moodle git hub:
+https://github.com/moodlehq
+https://github.com/moodlehq/moodlemobile-phonegapbuild
+
+MOODLE custom app docs:
+https://docs.moodle.org/dev/Moodle_Mobile_custom_apps#Clone_the_repo_in_your_desktop
+
+MOODLE set up emviroment:
+https://docs.moodle.org/dev/Setting_up_your_development_environment_for_Moodle_Mobile_2#Clone_the_app_base_code
+
+
+**** per cambiare nome
+edit in config.xml:
+<edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity[@android:name='BCCSkillaMoodle']">
+        <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true" />
+    </edit-config>
+
+**** bug della lingua:
+installare il language_pack
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -111,19 +111,19 @@ var CoreViewerIframePage = /** @class */ (function () {
         else {
             this.url = url;
         }
-        /*
-        jQuery( document ).ready(function() {
+        jQuery(document).ready(function () {
             var customPage = jQuery("ng-component.app-root").attr("skilla_page_name");
-            if(customPage == "skilla_bcc_comp"){
+            if (customPage == "skilla_bcc_comp") {
                 //jQuery(".scroll-content").css("margin-bottom","0");
                 jQuery(".scroll-content").addClass("iframe_without_margin_bottom");
                 jQuery(".show-tabbar").hide('slide', { direction: "down" }, 500);
-                
-                if(jQuery("button.back-button").hasClass("back_from_skilla_bcc_comp")){
+                if (jQuery("button.back-button").hasClass("back_from_skilla_bcc_comp")) {
                     /// already passed by
-                } else {
+                }
+                else {
                     /// kind of first run
                     jQuery("button.back-button").addClass("back_from_skilla_bcc_comp");
+                    /*
                     jQuery("button.back-button").click(function() {
                         /// EXIT - back from split page
                         jQuery("ng-component.app-root").attr("skilla_page_name","");
@@ -135,10 +135,10 @@ var CoreViewerIframePage = /** @class */ (function () {
                         //jQuery(".show-tabbar").show("slow");
                         //alert( "Handler for .click() called." );
                     });
+                    */
                 }
             }
         });
-        */
     }
     CoreViewerIframePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({

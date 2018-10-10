@@ -49,7 +49,7 @@ export class CoreViewerIframePage {
             this.url = url;
         }
 		
-		/*
+		
 		jQuery( document ).ready(function() {
 			var customPage = jQuery("ng-component.app-root").attr("skilla_page_name");
 			if(customPage == "skilla_bcc_comp"){
@@ -62,6 +62,8 @@ export class CoreViewerIframePage {
 				} else {
 					/// kind of first run
 					jQuery("button.back-button").addClass("back_from_skilla_bcc_comp");
+
+					/*
 					jQuery("button.back-button").click(function() {
 						/// EXIT - back from split page
 						jQuery("ng-component.app-root").attr("skilla_page_name","");
@@ -72,11 +74,12 @@ export class CoreViewerIframePage {
 						jQuery(".show-tabbar").show('slide', { direction: "down" }, 500);
 						//jQuery(".show-tabbar").show("slow");
 						//alert( "Handler for .click() called." );
-					});					
+					});		
+					*/
 				}
 			}
 		});
-		*/		
+				
 		
 		
     }
