@@ -39,18 +39,17 @@ export class CoreViewerIframePage {
 
         const url = params.get('url'),
             currentSite = sitesProvider.getCurrentSite();
-
-		/*
-		setTimeout(function(){ 
-			//alert("Hello"); 
-			//jQuery(".back-button").hide();
-			jQuery(".show-tabbar").hide();
-			jQuery("button.back-button").click(function() {
-			  alert( "Handler for .click() called." );
-			});				
-		}, 3000);
-		*/
+			
+        if (currentSite && (this.autoLogin == 'yes' || (this.autoLogin == 'check' && currentSite.containsUrl(url)))) {
+            // Format the URL to add auto-login.
+            currentSite.getAutoLoginUrl(url, false).then((url) => {
+                this.url = url;
+            });
+        } else {
+            this.url = url;
+        }
 		
+		/*
 		jQuery( document ).ready(function() {
 			var customPage = jQuery("ng-component.app-root").attr("skilla_page_name");
 			if(customPage == "skilla_bcc_comp"){
@@ -75,29 +74,10 @@ export class CoreViewerIframePage {
 						//alert( "Handler for .click() called." );
 					});					
 				}
-				
-				
-				
 			}
-		
-
 		});
-		
-		/*
-		jQuery("button.back-button").addClass("back_from_bcc");
-		jQuery("button.back-button").click(function() {
-		  alert( "Handler for .click() called." );
-		});		
 		*/		
-			
-        if (currentSite && (this.autoLogin == 'yes' || (this.autoLogin == 'check' && currentSite.containsUrl(url)))) {
-            // Format the URL to add auto-login.
-            currentSite.getAutoLoginUrl(url, false).then((url) => {
-                this.url = url;
-            });
-        } else {
-            this.url = url;
-        }
+		
 		
     }
 }
