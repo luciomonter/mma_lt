@@ -180,6 +180,7 @@ var CoreMainMenuMorePage = /** @class */ (function () {
      * LUCIO - add a webView Navigation to external link
      */
     CoreMainMenuMorePage.prototype.visitExternalLinkWithIframe = function () {
+        jQuery("ng-component.app-root").attr("skilla_page_name", "skilla_bcc_comp");
         this.navCtrl.push('CoreViewerIframePage', { title: "BCC sample", url: "http://link.skilla.com/bcc_redirect/index.html", autoLogin: "yes" });
     };
     CoreMainMenuMorePage = __decorate([

@@ -102,6 +102,48 @@ var CoreViewerIframePage = /** @class */ (function () {
         this.title = params.get('title');
         this.autoLogin = params.get('autoLogin') || 'check';
         var url = params.get('url'), currentSite = sitesProvider.getCurrentSite();
+        /*
+        setTimeout(function(){
+            //alert("Hello");
+            //jQuery(".back-button").hide();
+            jQuery(".show-tabbar").hide();
+            jQuery("button.back-button").click(function() {
+              alert( "Handler for .click() called." );
+            });
+        }, 3000);
+        */
+        jQuery(document).ready(function () {
+            var customPage = jQuery("ng-component.app-root").attr("skilla_page_name");
+            if (customPage == "skilla_bcc_comp") {
+                //jQuery(".scroll-content").css("margin-bottom","0");
+                jQuery(".scroll-content").addClass("iframe_without_margin_bottom");
+                jQuery(".show-tabbar").hide('slide', { direction: "down" }, 500);
+                if (jQuery("button.back-button").hasClass("back_from_skilla_bcc_comp")) {
+                    /// already passed by
+                }
+                else {
+                    /// kind of first run
+                    jQuery("button.back-button").addClass("back_from_skilla_bcc_comp");
+                    jQuery("button.back-button").click(function () {
+                        /// EXIT - back from split page
+                        jQuery("ng-component.app-root").attr("skilla_page_name", "");
+                        //jQuery(".scroll-content").css("margin-bottom","56px");
+                        jQuery(".scroll-content").removeClass("iframe_without_margin_bottom");
+                        jQuery("button.back-button").unbind("click");
+                        jQuery("button.back-button").removeClass("back_from_skilla_bcc_comp");
+                        jQuery(".show-tabbar").show('slide', { direction: "down" }, 500);
+                        //jQuery(".show-tabbar").show("slow");
+                        //alert( "Handler for .click() called." );
+                    });
+                }
+            }
+        });
+        /*
+        jQuery("button.back-button").addClass("back_from_bcc");
+        jQuery("button.back-button").click(function() {
+          alert( "Handler for .click() called." );
+        });
+        */
         if (currentSite && (this.autoLogin == 'yes' || (this.autoLogin == 'check' && currentSite.containsUrl(url)))) {
             // Format the URL to add auto-login.
             currentSite.getAutoLoginUrl(url, false).then(function (url) {
@@ -114,7 +156,7 @@ var CoreViewerIframePage = /** @class */ (function () {
     }
     CoreViewerIframePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-viewer-iframe',template:/*ion-inline-start:"C:\wamp\www\BBC_mobapp\moodlemobile2_git\src\core\viewer\pages\iframe\iframe.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ title }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <core-loading [hideUntil]="url" class="skilla_iframe_container">\n\n        <core-iframe *ngIf="url" [src]="url" class="skilla_iframe_div" ></core-iframe>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BBC_mobapp\moodlemobile2_git\src\core\viewer\pages\iframe\iframe.html"*/,
+            selector: 'page-core-viewer-iframe',template:/*ion-inline-start:"C:\wamp\www\BBC_mobapp\moodlemobile2_git\src\core\viewer\pages\iframe\iframe.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ title }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <core-loading [hideUntil]="url">\n\n        <core-iframe *ngIf="url" [src]="url"></core-iframe>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BBC_mobapp\moodlemobile2_git\src\core\viewer\pages\iframe\iframe.html"*/,
         }),
         __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */]) === "function" && _b || Object])
     ], CoreViewerIframePage);
