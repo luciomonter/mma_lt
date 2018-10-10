@@ -63,7 +63,7 @@ export class CoreViewerIframePage {
 					/// kind of first run
 					jQuery("button.back-button").addClass("back_from_skilla_bcc_comp");
 
-					/*
+					
 					jQuery("button.back-button").click(function() {
 						/// EXIT - back from split page
 						jQuery("ng-component.app-root").attr("skilla_page_name","");
@@ -75,7 +75,7 @@ export class CoreViewerIframePage {
 						//jQuery(".show-tabbar").show("slow");
 						//alert( "Handler for .click() called." );
 					});		
-					*/
+					
 				}
 			}
 		});

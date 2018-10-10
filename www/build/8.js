@@ -123,10 +123,9 @@ var CoreViewerIframePage = /** @class */ (function () {
                 else {
                     /// kind of first run
                     jQuery("button.back-button").addClass("back_from_skilla_bcc_comp");
-                    /*
-                    jQuery("button.back-button").click(function() {
+                    jQuery("button.back-button").click(function () {
                         /// EXIT - back from split page
-                        jQuery("ng-component.app-root").attr("skilla_page_name","");
+                        jQuery("ng-component.app-root").attr("skilla_page_name", "");
                         //jQuery(".scroll-content").css("margin-bottom","56px");
                         jQuery(".scroll-content").removeClass("iframe_without_margin_bottom");
                         jQuery("button.back-button").unbind("click");
@@ -135,7 +134,6 @@ var CoreViewerIframePage = /** @class */ (function () {
                         //jQuery(".show-tabbar").show("slow");
                         //alert( "Handler for .click() called." );
                     });
-                    */
                 }
             }
         });
