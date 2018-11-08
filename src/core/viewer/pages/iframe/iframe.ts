@@ -74,6 +74,7 @@ export class CoreViewerIframePage {
 						jQuery(".show-tabbar").show('slide', { direction: "down" }, 500);
 						//jQuery(".show-tabbar").show("slow");
 						//alert( "Handler for .click() called." );
+						
 					});		
 					
 				}

@@ -1,6 +1,6 @@
 webpackJsonp([77],{
 
-/***/ 1822:
+/***/ 1830:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12,7 +12,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__entry__ = __webpack_require__(1943);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__entry__ = __webpack_require__(1951);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -63,7 +63,7 @@ var AddonModForumDiscussionPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 1943:
+/***/ 1951:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -176,7 +176,7 @@ var AddonModGlossaryEntryPage = /** @class */ (function () {
     };
     AddonModGlossaryEntryPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-glossary-entry',template:/*ion-inline-start:"C:\wamp\www\BBC_mobapp\moodlemobile2_git\src\addon\mod\glossary\pages\entry\entry.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title *ngIf="entry"><core-format-text [text]="entry.concept"></core-format-text></ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="loaded" (ionRefresh)="doRefresh($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n\n\n    <core-loading [hideUntil]="loaded">\n\n        <ng-container *ngIf="entry">\n\n            <ion-item text-wrap *ngIf="showAuthor">\n\n                <ion-avatar item-start (click)="openUserProfile(post.userid)">\n\n                    <img [src]="entry.userpictureurl" onError="this.src=\'assets/img/user-avatar.png\'" core-external-content [alt]="\'core.pictureof\' | translate:{$a: entry.userfullname}" role="presentation">\n\n                </ion-avatar>\n\n                <h2><core-format-text [text]="entry.concept"></core-format-text></h2>\n\n                <ion-note item-end *ngIf="showDate">{{ entry.timemodified | coreDateDayOrTime }}</ion-note>\n\n                <p><core-format-text [text]="entry.userfullname"></core-format-text></p>\n\n            </ion-item>\n\n            <ion-item text-wrap *ngIf="!showAuthor">\n\n                <h2><core-format-text [text]="entry.concept"></core-format-text></h2>\n\n                <ion-note item-end *ngIf="showDate">{{ entry.timemodified | coreDateDayOrTime }}</ion-note>\n\n            </ion-item>\n\n            <ion-item text-wrap>\n\n                <core-format-text [component]="component" [componentId]="componentId" [text]="entry.definition"></core-format-text>\n\n            </ion-item>\n\n            <ng-container *ngIf="entry.attachment">\n\n                <core-file *ngFor="let file of entry.attachments" [file]="file" [component]="component" [componentId]="componentId"></core-file>\n\n            </ng-container>\n\n            <ion-item text-wrap *ngIf="entry.approved != 1">\n\n                <p><em>{{ \'addon.mod_glossary.entrypendingapproval\' | translate }}</em></p>\n\n            </ion-item>\n\n        </ng-container>\n\n\n\n        <ion-card *ngIf="!entry">\n\n            <ion-item class="core-error-card">\n\n                {{ \'addon.mod_glossary.errorloadingentry\' | translate }}\n\n            </ion-item>\n\n        </ion-card>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BBC_mobapp\moodlemobile2_git\src\addon\mod\glossary\pages\entry\entry.html"*/,
+            selector: 'page-addon-mod-glossary-entry',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\moodlemobile2_git\src\addon\mod\glossary\pages\entry\entry.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title *ngIf="entry"><core-format-text [text]="entry.concept"></core-format-text></ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="loaded" (ionRefresh)="doRefresh($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n\n\n    <core-loading [hideUntil]="loaded">\n\n        <ng-container *ngIf="entry">\n\n            <ion-item text-wrap *ngIf="showAuthor">\n\n                <ion-avatar item-start (click)="openUserProfile(post.userid)">\n\n                    <img [src]="entry.userpictureurl" onError="this.src=\'assets/img/user-avatar.png\'" core-external-content [alt]="\'core.pictureof\' | translate:{$a: entry.userfullname}" role="presentation">\n\n                </ion-avatar>\n\n                <h2><core-format-text [text]="entry.concept"></core-format-text></h2>\n\n                <ion-note item-end *ngIf="showDate">{{ entry.timemodified | coreDateDayOrTime }}</ion-note>\n\n                <p><core-format-text [text]="entry.userfullname"></core-format-text></p>\n\n            </ion-item>\n\n            <ion-item text-wrap *ngIf="!showAuthor">\n\n                <h2><core-format-text [text]="entry.concept"></core-format-text></h2>\n\n                <ion-note item-end *ngIf="showDate">{{ entry.timemodified | coreDateDayOrTime }}</ion-note>\n\n            </ion-item>\n\n            <ion-item text-wrap>\n\n                <core-format-text [component]="component" [componentId]="componentId" [text]="entry.definition"></core-format-text>\n\n            </ion-item>\n\n            <ng-container *ngIf="entry.attachment">\n\n                <core-file *ngFor="let file of entry.attachments" [file]="file" [component]="component" [componentId]="componentId"></core-file>\n\n            </ng-container>\n\n            <ion-item text-wrap *ngIf="entry.approved != 1">\n\n                <p><em>{{ \'addon.mod_glossary.entrypendingapproval\' | translate }}</em></p>\n\n            </ion-item>\n\n        </ng-container>\n\n\n\n        <ion-card *ngIf="!entry">\n\n            <ion-item class="core-error-card">\n\n                {{ \'addon.mod_glossary.errorloadingentry\' | translate }}\n\n            </ion-item>\n\n        </ion-card>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\moodlemobile2_git\src\addon\mod\glossary\pages\entry\entry.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */],
             __WEBPACK_IMPORTED_MODULE_2__providers_utils_dom__["a" /* CoreDomUtilsProvider */],

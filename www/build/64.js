@@ -1,6 +1,6 @@
 webpackJsonp([64],{
 
-/***/ 1835:
+/***/ 1834:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModQuizPreflightModalModule", function() { return AddonModQuizPreflightModalModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__preflight_modal__ = __webpack_require__(1956);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__preflight_modal__ = __webpack_require__(1955);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
@@ -60,7 +60,7 @@ var AddonModQuizPreflightModalModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 1956:
+/***/ 1955:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -181,7 +181,7 @@ var AddonModQuizPreflightModalPage = /** @class */ (function () {
     ], AddonModQuizPreflightModalPage.prototype, "content", void 0);
     AddonModQuizPreflightModalPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-quiz-preflight-modal',template:/*ion-inline-start:"C:\wamp\www\BBC_mobapp\moodlemobile2_git\src\addon\mod\quiz\pages\preflight-modal\preflight-modal.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ title | translate }}</ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n\n                <ion-icon name="close"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content padding class="addon-mod_quiz-preflight-modal">\n\n    <core-loading [hideUntil]="loaded">\n\n        <form ion-list [formGroup]="preflightForm" (ngSubmit)="sendData()">\n\n            <!-- Access rules. -->\n\n            <ng-container *ngFor="let data of accessRulesData; let last = last">\n\n                <core-dynamic-component [component]="data.component" [data]="data.data">\n\n                    <p padding>Couldn\'t find the directive to render this access rule.</p>\n\n                </core-dynamic-component>\n\n                <ion-item-divider color="light" *ngIf="!last"></ion-item-divider>\n\n            </ng-container>\n\n\n\n            <button ion-button block type="submit">\n\n                {{ title | translate }}\n\n            </button>\n\n        </form>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BBC_mobapp\moodlemobile2_git\src\addon\mod\quiz\pages\preflight-modal\preflight-modal.html"*/,
+            selector: 'page-addon-mod-quiz-preflight-modal',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\moodlemobile2_git\src\addon\mod\quiz\pages\preflight-modal\preflight-modal.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ title | translate }}</ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n\n                <ion-icon name="close"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content padding class="addon-mod_quiz-preflight-modal">\n\n    <core-loading [hideUntil]="loaded">\n\n        <form ion-list [formGroup]="preflightForm" (ngSubmit)="sendData()">\n\n            <!-- Access rules. -->\n\n            <ng-container *ngFor="let data of accessRulesData; let last = last">\n\n                <core-dynamic-component [component]="data.component" [data]="data.data">\n\n                    <p padding>Couldn\'t find the directive to render this access rule.</p>\n\n                </core-dynamic-component>\n\n                <ion-item-divider color="light" *ngIf="!last"></ion-item-divider>\n\n            </ng-container>\n\n\n\n            <button ion-button block type="submit">\n\n                {{ title | translate }}\n\n            </button>\n\n        </form>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\moodlemobile2_git\src\addon\mod\quiz\pages\preflight-modal\preflight-modal.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_4__providers_sites__["a" /* CoreSitesProvider */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["D" /* ViewController */], __WEBPACK_IMPORTED_MODULE_6__providers_access_rules_delegate__["a" /* AddonModQuizAccessRuleDelegate */],

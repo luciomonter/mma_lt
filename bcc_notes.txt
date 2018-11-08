@@ -6,6 +6,9 @@ moodle git hub:
 https://github.com/moodlehq
 https://github.com/moodlehq/moodlemobile-phonegapbuild
 
+
+
+**** GUIDE:
 MOODLE custom app docs:
 https://docs.moodle.org/dev/Moodle_Mobile_custom_apps#Clone_the_repo_in_your_desktop
 
@@ -22,14 +25,20 @@ edit in config.xml:
 **** bug della lingua:
 installare il language_pack
 
+**** build error IOS:
+<icon src="resources/ios/icon/icon.png" /> (aggiornare in config.xml)
+
 ****
 ios certificate passphrase (Amicucci Pesce Caldo)
 
 
 
 
-
-
+***************
+gulp
+ionic serve -b
+resave a TS file
+http://localhost:8100
 
 
 
