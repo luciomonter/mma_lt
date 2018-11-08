@@ -33,8 +33,7 @@ ios certificate passphrase (Amicucci Pesce Caldo)
 
 
 
-
-***************
+3***************
 gulp
 ionic serve -b
 resave a TS file
