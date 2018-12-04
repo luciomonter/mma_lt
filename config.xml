@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget android-versionCode="35200" id="com.skilla.bccmoodlemobile" version="3.5.2" versionCode="35200" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>BCC Skilla Moodle</name>
+    <name>GBI Accademy</name>
     <description>
-        BCC Skilla Moodle app
+        GBI Accademy app
     </description>
     <author email="info@skilla.com" href="http://moodle.com">
         Skilla Moodle Mobile team
@@ -34,7 +34,7 @@
     <preference name="webviewbounce" value="false" />
     <preference name="prerendered-icon" value="true" />
     <preference name="load-url-timeout" value="60000" />
-    <preference name="AppendUserAgent" value="SkillaMoodleMobile" />
+    <preference name="AppendUserAgent" value="SkillaBccMoodleMobile" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="android-targetSdkVersion" value="26" />
     <preference name="android-installLocation" value="auto" />
@@ -124,7 +124,7 @@
         <param name="SENDER_ID" value="694767596569" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
-        <param name="URL_SCHEME" value="skillamoodlemobile" />
+        <param name="URL_SCHEME" value="skilla_bccmoodlemobile" />
     </gap:plugin>
     <gap:plugin name="ionic-plugin-keyboard" source="npm" />
     <gap:plugin name="cordova-plugin-zip" source="npm" />
