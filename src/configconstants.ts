@@ -11,7 +11,7 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-
+ 
 // tslint:disable: variable-name
 export class CoreConfigConstants {
     static app_id = 'com.skilla.bccmoodlemobile';
@@ -34,5 +34,5 @@ export class CoreConfigConstants {
     static skipssoconfirmation = false;
     static forcedefaultlanguage = false;
     static privacypolicy = 'https://moodle.org/mod/page/view.php?id=8148';
-    static compilationtime = 1543943522379;
+    static compilationtime = 1544025566402;
 }
