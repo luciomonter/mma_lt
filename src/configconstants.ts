@@ -30,9 +30,9 @@ export class CoreConfigConstants {
     static demo_sites = '';
     static gcmpn = '';
     static customurlscheme = 'skilla_bccmoodlemobile';
-    static siteurl = 'https://test.gbiacademy.bcc.it/';
+    static siteurl = 'https://gbiacademy.bcc.it/';
     static skipssoconfirmation = false;
     static forcedefaultlanguage = false;
     static privacypolicy = 'https://moodle.org/mod/page/view.php?id=8148';
-    static compilationtime = 1544028447632;
+    static compilationtime = 1544029273485;
 }
