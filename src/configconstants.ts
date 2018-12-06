@@ -29,10 +29,10 @@ export class CoreConfigConstants {
     static wsextservice = 'local_mobile';
     static demo_sites = '';
     static gcmpn = '';
-    static customurlscheme = 'skilla_bccmoodlemobile';
+    static customurlscheme = 'skillabccmoodlemobile';
     static siteurl = 'https://gbiacademy.bcc.it/';
     static skipssoconfirmation = false;
     static forcedefaultlanguage = false;
     static privacypolicy = 'http://www.gruppobancarioiccrea.it/Pagine/Utility/Privacy.aspx';
-    static compilationtime = 1544110147073;
+    static compilationtime = 1544112860058;
 }

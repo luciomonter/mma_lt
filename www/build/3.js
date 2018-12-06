@@ -269,7 +269,7 @@ var AddonAxificationsListPage = /** @class */ (function () {
             //alert("axification READY");
         });
         var site = this.sitesProvider.getCurrentSite();
-        // Get username and fullname.
+        // Get username and fullname. 
         /// BCC SVIL:
         //var AUTH_USER_KEY_wsToken = "23dfa2e513f8416e91bf133af800c3e0"; 
         /// BCC TEST:

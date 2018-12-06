@@ -11,7 +11,7 @@
     "wsextservice" : "local_mobile",
     "demo_sites": "",
     "gcmpn": "",
-    "customurlscheme": "skilla_bccmoodlemobile",
+    "customurlscheme": "skillabccmoodlemobile",
     "siteurl": "https://gbiacademy.bcc.it/",
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,
