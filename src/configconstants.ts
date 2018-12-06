@@ -15,8 +15,8 @@
 // tslint:disable: variable-name
 export class CoreConfigConstants {
     static app_id = 'com.skilla.bccmoodlemobile';
-    static appname = 'GBI Accademy';
-    static desktopappname = 'GBI Accademy Desktop';
+    static appname = 'GBI Academy';
+    static desktopappname = 'GBI Academy Desktop';
     static versioncode = 3521;
     static versionname = '3.5.2';
     static cache_expiration_time = 300000;
@@ -30,9 +30,9 @@ export class CoreConfigConstants {
     static demo_sites = '';
     static gcmpn = '';
     static customurlscheme = 'skilla_bccmoodlemobile';
-    static siteurl = 'https://gbiacademy.bcc.it/';
+    static siteurl = 'http://svilmdlaxapp.amicucci.local/bcc/';
     static skipssoconfirmation = false;
     static forcedefaultlanguage = false;
-    static privacypolicy = 'https://moodle.org/mod/page/view.php?id=8148';
-    static compilationtime = 1544029273485;
+    static privacypolicy = 'http://www.gruppobancarioiccrea.it/Pagine/Utility/Privacy.aspx';
+    static compilationtime = 1544108022343;
 }

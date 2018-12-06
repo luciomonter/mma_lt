@@ -1,18 +1,19 @@
 webpackJsonp([88],{
 
-/***/ 1810:
+/***/ 1819:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModDataSearchPageModule", function() { return AddonModDataSearchPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModFeedbackAttemptPageModule", function() { return AddonModFeedbackAttemptPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(385);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__search__ = __webpack_require__(1931);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_compile_components_compile_html_compile_html_module__ = __webpack_require__(386);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(925);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__attempt__ = __webpack_require__(1944);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -39,43 +40,43 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var AddonModDataSearchPageModule = /** @class */ (function () {
-    function AddonModDataSearchPageModule() {
+
+var AddonModFeedbackAttemptPageModule = /** @class */ (function () {
+    function AddonModFeedbackAttemptPageModule() {
     }
-    AddonModDataSearchPageModule = __decorate([
+    AddonModFeedbackAttemptPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__search__["a" /* AddonModDataSearchPage */],
+                __WEBPACK_IMPORTED_MODULE_7__attempt__["a" /* AddonModFeedbackAttemptPage */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModDataComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_6__core_compile_components_compile_html_compile_html_module__["a" /* CoreCompileHtmlComponentModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__search__["a" /* AddonModDataSearchPage */]),
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
+                __WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* AddonModFeedbackComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_7__attempt__["a" /* AddonModFeedbackAttemptPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], AddonModDataSearchPageModule);
-    return AddonModDataSearchPageModule;
+    ], AddonModFeedbackAttemptPageModule);
+    return AddonModFeedbackAttemptPageModule;
 }());
 
-//# sourceMappingURL=search.module.js.map
+//# sourceMappingURL=attempt.module.js.map
 
 /***/ }),
 
-/***/ 1931:
+/***/ 1944:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModDataSearchPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModFeedbackAttemptPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_utils__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_feedback__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_helper__ = __webpack_require__(248);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(385);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_fields_delegate__ = __webpack_require__(63);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -104,170 +105,77 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
-
 /**
- * Page that displays the search modal.
+ * Page that displays a feedback attempt review.
  */
-var AddonModDataSearchPage = /** @class */ (function () {
-    function AddonModDataSearchPage(params, viewCtrl, fb, utils, domUtils, fieldsDelegate, textUtils) {
-        var _this = this;
-        this.viewCtrl = viewCtrl;
-        this.utils = utils;
+var AddonModFeedbackAttemptPage = /** @class */ (function () {
+    function AddonModFeedbackAttemptPage(navParams, feedbackProvider, navCtrl, domUtils, feedbackHelper, textUtils) {
+        this.feedbackProvider = feedbackProvider;
+        this.navCtrl = navCtrl;
         this.domUtils = domUtils;
-        this.fieldsDelegate = fieldsDelegate;
+        this.feedbackHelper = feedbackHelper;
         this.textUtils = textUtils;
-        this.extraImports = [__WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* AddonModDataComponentsModule */]];
-        this.search = params.get('search');
-        this.fields = params.get('fields');
-        this.data = params.get('data');
-        var advanced = {};
-        if (typeof this.search.advanced == 'object') {
-            Object.keys(this.search.advanced).forEach(function (index) {
-                if (typeof _this.search.advanced[index] != 'undefined' && typeof _this.search.advanced[index].name != 'undefined') {
-                    advanced[_this.search.advanced[index].name] = _this.search.advanced[index].value ?
-                        _this.textUtils.parseJSON(_this.search.advanced[index].value) : '';
-                }
-                else {
-                    advanced[index] = _this.search.advanced[index] ?
-                        _this.textUtils.parseJSON(_this.search.advanced[index]) : '';
-                }
-            });
-        }
-        else {
-            this.search.advanced.forEach(function (field) {
-                advanced[field.name] = field.value ? _this.textUtils.parseJSON(field.value) : '';
-            });
-        }
-        this.search.advanced = advanced;
-        this.searchForm = fb.group({
-            text: [this.search.text],
-            sortBy: [this.search.sortBy || '0'],
-            sortDirection: [this.search.sortDirection || 'DESC'],
-            firstname: [this.search.advanced['firstname'] || ''],
-            lastname: [this.search.advanced['lastname'] || '']
-        });
-        this.fieldsArray = this.utils.objectToArray(this.fields);
-        this.advancedSearch = this.renderAdvancedSearchFields();
+        this.component = __WEBPACK_IMPORTED_MODULE_2__providers_feedback__["a" /* AddonModFeedbackProvider */].COMPONENT;
+        this.feedbackLoaded = false;
+        this.feedbackId = navParams.get('feedbackId') || 0;
+        this.courseId = navParams.get('courseId');
+        this.attempt = navParams.get('attempt') || false;
+        this.componentId = navParams.get('moduleId');
     }
     /**
-     * Displays Advanced Search Fields.
-     *
-     * @return {string}         Generated HTML.
+     * View loaded.
      */
-    AddonModDataSearchPage.prototype.renderAdvancedSearchFields = function () {
-        if (!this.data.asearchtemplate) {
-            return '';
-        }
-        this.jsData = {
-            fields: this.fields,
-            form: this.searchForm,
-            search: this.search.advanced
-        };
-        var template = this.data.asearchtemplate, replace, render;
-        // Replace the fields found on template.
-        this.fieldsArray.forEach(function (field) {
-            replace = '[[' + field.name + ']]';
-            replace = replace.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, '\\$&');
-            replace = new RegExp(replace, 'gi');
-            // Replace field by a generic directive.
-            render = '<addon-mod-data-field-plugin mode="search" [field]="fields[' + field.id +
-                ']" [form]="form" [search]="search"></addon-mod-data-field-plugin>';
-            template = template.replace(replace, render);
-        });
-        // Not pluginable other search elements.
-        // Replace firstname field by the text input.
-        replace = new RegExp('##firstname##', 'gi');
-        render = '<span [formGroup]="form"><ion-input type="text" name="firstname" \
-        [placeholder]="\'addon.mod_data.authorfirstname\' | translate" formControlName="firstname"></ion-input></span>';
-        template = template.replace(replace, render);
-        // Replace lastname field by the text input.
-        replace = new RegExp('##lastname##', 'gi');
-        render = '<span [formGroup]="form"><ion-input type="text" name="lastname" \
-        [placeholder]="\'addon.mod_data.authorlastname\' | translate" formControlName="lastname"></ion-input></span>';
-        template = template.replace(replace, render);
-        return template;
+    AddonModFeedbackAttemptPage.prototype.ionViewDidLoad = function () {
+        this.fetchData();
     };
     /**
-     * Retrieve the entered data in search in a form.
+     * Fetch all the data required for the view.
      *
-     * @param {any} searchedData Array with the entered form values.
-     * @return {any[]}          Array with the answers.
+     * @return {Promise<any>} Promise resolved when done.
      */
-    AddonModDataSearchPage.prototype.getSearchDataFromForm = function (searchedData) {
+    AddonModFeedbackAttemptPage.prototype.fetchData = function () {
         var _this = this;
-        var advancedSearch = [];
-        // Filter and translate fields to each field plugin.
-        this.fieldsArray.forEach(function (field) {
-            var fieldData = _this.fieldsDelegate.getFieldSearchData(field, searchedData);
-            if (fieldData) {
-                fieldData.forEach(function (data) {
-                    data.value = JSON.stringify(data.value);
-                    // WS wants values in Json format.
-                    advancedSearch.push(data);
-                });
-            }
+        // Get the feedback to be able to now if questions should be autonumbered.
+        return this.feedbackProvider.getFeedbackById(this.courseId, this.feedbackId).then(function (feedback) {
+            _this.feedback = feedback;
+            return _this.feedbackProvider.getItems(_this.feedbackId);
+        }).then(function (items) {
+            // Add responses and format items.
+            _this.items = items.items.map(function (item) {
+                if (item.typ == 'label') {
+                    item.submittedValue = _this.textUtils.replacePluginfileUrls(item.presentation, item.itemfiles);
+                }
+                else {
+                    for (var x in _this.attempt.responses) {
+                        if (_this.attempt.responses[x].id == item.id) {
+                            item.submittedValue = _this.attempt.responses[x].printval;
+                            break;
+                        }
+                    }
+                }
+                return _this.feedbackHelper.getItemForm(item, true);
+            });
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
+            // Some call failed on first fetch, go back.
+            _this.navCtrl.pop();
+            return Promise.reject(null);
+        }).finally(function () {
+            _this.feedbackLoaded = true;
         });
-        // Not pluginable other search elements.
-        if (searchedData['firstname']) {
-            // WS wants values in Json format.
-            advancedSearch.push({
-                name: 'firstname',
-                value: JSON.stringify(searchedData['firstname'])
-            });
-        }
-        if (searchedData['lastname']) {
-            // WS wants values in Json format.
-            advancedSearch.push({
-                name: 'lastname',
-                value: JSON.stringify(searchedData['lastname'])
-            });
-        }
-        return advancedSearch;
     };
-    /**
-     * Close modal.
-     *
-     * @param {any} [data] Data to return to the page.
-     */
-    AddonModDataSearchPage.prototype.closeModal = function (data) {
-        this.viewCtrl.dismiss(data);
-    };
-    /**
-     * Toggles between advanced to normal search.
-     */
-    AddonModDataSearchPage.prototype.toggleAdvanced = function () {
-        this.search.searchingAdvanced = !this.search.searchingAdvanced;
-    };
-    /**
-     * Done editing.
-     */
-    AddonModDataSearchPage.prototype.searchEntries = function () {
-        var searchedData = this.searchForm.value;
-        if (this.search.searchingAdvanced) {
-            this.search.advanced = this.getSearchDataFromForm(searchedData);
-            this.search.searching = this.search.advanced.length > 0;
-        }
-        else {
-            this.search.text = searchedData.text;
-            this.search.searching = this.search.text.length > 0;
-        }
-        this.search.sortBy = searchedData.sortBy;
-        this.search.sortDirection = searchedData.sortDirection;
-        this.closeModal(this.search);
-    };
-    AddonModDataSearchPage = __decorate([
+    AddonModFeedbackAttemptPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-data-search',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\data\pages\search\search.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.mod_data.search\' | translate }}</ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n\n                <ion-icon name="close"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <div class="fixed-content core-tabs-bar">\n\n        <a class="tab-slide" [attr.aria-selected]="!search.searchingAdvanced" (click)="toggleAdvanced()">{{ \'addon.mod_data.search\' | translate}}</a>\n\n        <a class="tab-slide" [attr.aria-selected]="search.searchingAdvanced" (click)="toggleAdvanced()">{{ \'addon.mod_data.advancedsearch\' | translate }}</a>\n\n    </div>\n\n    <form (ngSubmit)="searchEntries()" [formGroup]="searchForm">\n\n        <ion-list no-margin>\n\n            <ion-item [hidden]="search.searchingAdvanced">\n\n                <ion-input type="text" placeholder="{{ \'addon.mod_data.search\' | translate}}" [(ngModel)]="search.text" name="text" formControlName="text"></ion-input>\n\n            </ion-item>\n\n            <ion-item text-wrap>\n\n                <ion-label stacked>{{ \'core.sortby\' | translate }}</ion-label>\n\n                <ion-select interface="popover" name="sortBy" formControlName="sortBy">\n\n                    <optgroup *ngIf="fieldsArray.length" label="{{ \'addon.mod_data.fields\' | translate }}">\n\n                        <ion-option *ngFor="let field of fieldsArray" [value]="field.id">{{field.name}}</ion-option>\n\n                    </optgroup>\n\n                    <optgroup label="{{ \'addon.mod_data.other\' | translate }}">\n\n                        <ion-option value="0">{{ \'addon.mod_data.timeadded\' | translate }}</ion-option>\n\n                        <ion-option value="-4">{{ \'addon.mod_data.timemodified\' | translate }}</ion-option>\n\n                        <ion-option value="-1">{{ \'addon.mod_data.authorfirstname\' | translate }}</ion-option>\n\n                        <ion-option value="-2">{{ \'addon.mod_data.authorlastname\' | translate }}</ion-option>\n\n                        <ion-option value="-3" *ngIf="data.approval">{{ \'addon.mod_data.approved\' | translate }}</ion-option>\n\n                    </optgroup>\n\n                </ion-select>\n\n            </ion-item>\n\n            <ion-list radio-group [(ngModel)]="search.sortDirection" name="sortDirection" formControlName="sortDirection">\n\n                <ion-item>\n\n                    <ion-label>{{ \'addon.mod_data.ascending\' | translate }}</ion-label>\n\n                    <ion-radio value="ASC"></ion-radio>\n\n                </ion-item>\n\n                <ion-item>\n\n                    <ion-label>{{ \'addon.mod_data.descending\' | translate }}</ion-label>\n\n                    <ion-radio value="DESC"></ion-radio>\n\n                </ion-item>\n\n            </ion-list>\n\n            <div padding [hidden]="!advancedSearch || !search.searchingAdvanced" class="addon-data-advanced-search">\n\n                <core-compile-html [text]="advancedSearch" [jsData]="jsData" [extraImports]="extraImports"></core-compile-html>\n\n            </div>\n\n        </ion-list>\n\n        <div padding>\n\n            <button ion-button block type="submit" icon-start>\n\n                <ion-icon name="search"></ion-icon>\n\n                {{ \'addon.mod_data.search\' | translate }}\n\n            </button>\n\n        </div>\n\n    </form>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\data\pages\search\search.html"*/,
+            selector: 'page-addon-mod-feedback-attempt',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\feedback\pages\attempt\attempt.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text  [text]=" attempt.fullname "></core-format-text></ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <core-loading [hideUntil]="feedbackLoaded">\n\n        <ion-list no-margin>\n\n            <a *ngIf="attempt.fullname" ion-item text-wrap core-user-link [userId]="attempt.userid" [attr.aria-label]=" \'core.user.viewprofile\' | translate" core-user-link [courseId]="attempt.courseid" [title]="attempt.fullname">\n\n                <ion-avatar item-start>\n\n                    <img [src]="attempt.profileimageurl" [alt]="\'core.pictureof\' | translate:{$a: attempt.fullname}" core-external-content onError="this.src=\'assets/img/user-avatar.png\'">\n\n                </ion-avatar>\n\n                <h2>{{attempt.fullname}}</h2>\n\n                <p *ngIf="attempt.timemodified">{{attempt.timemodified * 1000 | coreFormatDate:"LLL"}}</p>\n\n            </a>\n\n\n\n            <ion-item text-wrap *ngIf="!attempt.fullname">\n\n                <h2>{{ \'addon.mod_feedback.response_nr\' |translate }}: {{attempt.number}} ({{ \'addon.mod_feedback.anonymous\' |translate }})</h2>\n\n                <p *ngIf="attempt.timemodified">{{attempt.timemodified * 1000 | coreFormatDate:"LLL"}}</p>\n\n            </ion-item >\n\n            <ng-container *ngIf="items && items.length">\n\n                <ng-container *ngFor="let item of items">\n\n                    <ion-item-divider *ngIf="item.typ == \'pagebreak\'" color="light"></ion-item-divider>\n\n                    <ion-item text-wrap *ngIf="item.typ != \'pagebreak\'" [color]="item.dependitem > 0 ? \'light\' : \'\'">\n\n                        <h2 *ngIf="item.name" [core-mark-required]="item.required">\n\n                            <span *ngIf="feedback.autonumbering && item.itemnumber">{{item.itemnumber}}. </span><core-format-text  [component]="component" [componentId]="componentId" [text]="item.name"></core-format-text>\n\n                        </h2>\n\n                        <p *ngIf="item.submittedValue"><core-format-text  [component]="component" [componentId]="componentId" [text]=" item.submittedValue"></core-format-text></p>\n\n                    </ion-item>\n\n                </ng-container>\n\n            </ng-container>\n\n        </ion-list>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\feedback\pages\attempt\attempt.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["D" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_utils__["a" /* CoreUtilsProvider */],
-            __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_7__providers_fields_delegate__["a" /* AddonModDataFieldsDelegate */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_feedback__["a" /* AddonModFeedbackProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_helper__["a" /* AddonModFeedbackHelperProvider */],
             __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__["a" /* CoreTextUtilsProvider */]])
-    ], AddonModDataSearchPage);
-    return AddonModDataSearchPage;
+    ], AddonModFeedbackAttemptPage);
+    return AddonModFeedbackAttemptPage;
 }());
 
-//# sourceMappingURL=search.js.map
+//# sourceMappingURL=attempt.js.map
 
 /***/ })
 

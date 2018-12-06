@@ -1,0 +1,14 @@
+﻿<!-- ion-header>
+    <ion-navbar core-back-button>
+        <ion-title>{{ 'addon.axifications.axifications' | translate }}</ion-title>
+    </ion-navbar>
+</ion-header -->
+<ion-content>
+    <ion-refresher [enabled]="axificationsLoaded" (ionRefresh)="refreshAxifications($event)">
+        <ion-refresher-content pullingText="{{ 'core.pulltorefresh' | translate }}"></ion-refresher-content>
+    </ion-refresher>
+	
+	<iframe id="embeded_iframe" src="" class="iframe" scrolling="yes" ></iframe>
+	
+	
+</ion-content>

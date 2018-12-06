@@ -160,7 +160,7 @@ export class AddonRemoteThemesProvider {
                     this.filepoolProvider.removeFilesByComponent(siteId, AddonRemoteThemesProvider.COMPONENT, 1);
                 }
 
-                return;
+                return; 
             }
 
             return promise.then((url) => {

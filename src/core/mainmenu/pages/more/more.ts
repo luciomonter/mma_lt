@@ -134,5 +134,5 @@ export class CoreMainMenuMorePage implements OnDestroy {
 		this.navCtrl.push('CoreViewerIframePage', {title: "BCC sample", url: "http://link.skilla.com/bcc_redirect/index.html", autoLogin:"yes"});
     }		
 	
-	
+	 
 }

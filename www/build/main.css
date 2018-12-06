@@ -44477,6 +44477,22 @@ ion-navbar.toolbar {
   padding-bottom: calc(env(safe-area-inset-bottom) + 4px);
 }
 
+#embeded_iframe {
+  margin: 0;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+ion-app.app-root page-addon-axifications-settings .list-header {
+  margin-bottom: 0;
+  border-top: 0;
+}
+
+ion-app.app-root page-addon-axifications-settings .toggle {
+  display: inline-block;
+}
+
 ion-app.app-root addon-messages-discussions h2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -45781,6 +45797,10 @@ addon-qtype-multianswer select {
 
 [dir="ltr"] addon-qtype-multianswer input[type="radio"], [dir="ltr"] addon-qtype-multianswer input[type="checkbox"], [dir="rtl"] addon-qtype-multianswer input[type="radio"], [dir="rtl"] addon-qtype-multianswer input[type="checkbox"] {
   margin-top: -4px;
+}
+
+body {
+  margin: 0;
 }
 
 ion-app.app-root {

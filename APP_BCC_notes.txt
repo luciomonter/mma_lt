@@ -31,13 +31,15 @@ installare il language_pack
 ****
 ios certificate passphrase (Amicucci Pesce Caldo)
 
-SVIL:
-http://svilmdlaxapp.amicucci.local
-TEST:
+**** SVIL:
+http://svilmdlaxapp.amicucci.local/bcc/
+ws token:: 23dfa2e513f8416e91bf133af800c3e0 | src\addon\axifications\pages\list\list.ts
+**** TEST:
 https://test.gbiacademy.bcc.it/
-PROD:
-https://gbiacademy.bcc.it
-
+ws token:: 
+**** PROD:
+https://gbiacademy.bcc.it/
+ws token:: 
 
 3***************
 gulp

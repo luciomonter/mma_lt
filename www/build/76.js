@@ -1,17 +1,17 @@
 webpackJsonp([76],{
 
-/***/ 1823:
+/***/ 1831:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModGlossaryIndexPageModule", function() { return AddonModGlossaryIndexPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModImscpIndexPageModule", function() { return AddonModImscpIndexPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(950);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(1944);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(952);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(1956);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -37,37 +37,37 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var AddonModGlossaryIndexPageModule = /** @class */ (function () {
-    function AddonModGlossaryIndexPageModule() {
+var AddonModImscpIndexPageModule = /** @class */ (function () {
+    function AddonModImscpIndexPageModule() {
     }
-    AddonModGlossaryIndexPageModule = __decorate([
+    AddonModImscpIndexPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModGlossaryIndexPage */],
+                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModImscpIndexPage */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModGlossaryComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModGlossaryIndexPage */]),
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModImscpComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModImscpIndexPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], AddonModGlossaryIndexPageModule);
-    return AddonModGlossaryIndexPageModule;
+    ], AddonModImscpIndexPageModule);
+    return AddonModImscpIndexPageModule;
 }());
 
 //# sourceMappingURL=index.module.js.map
 
 /***/ }),
 
-/***/ 1944:
+/***/ 1956:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModGlossaryIndexPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModImscpIndexPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(406);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(408);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -94,33 +94,33 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Page that displays a glossary.
+ * Imscp that displays a IMSCP.
  */
-var AddonModGlossaryIndexPage = /** @class */ (function () {
-    function AddonModGlossaryIndexPage(navParams) {
+var AddonModImscpIndexPage = /** @class */ (function () {
+    function AddonModImscpIndexPage(navParams) {
         this.module = navParams.get('module') || {};
         this.courseId = navParams.get('courseId');
         this.title = this.module.name;
     }
     /**
-     * Update some data based on the glossary instance.
+     * Update some data based on the imscp instance.
      *
-     * @param {any} glossary Glossary instance.
+     * @param {any} imscp Imscp instance.
      */
-    AddonModGlossaryIndexPage.prototype.updateData = function (glossary) {
-        this.title = glossary.name || this.title;
+    AddonModImscpIndexPage.prototype.updateData = function (imscp) {
+        this.title = imscp.name || this.title;
     };
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModGlossaryIndexComponent */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModGlossaryIndexComponent */])
-    ], AddonModGlossaryIndexPage.prototype, "glossaryComponent", void 0);
-    AddonModGlossaryIndexPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModImscpIndexComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModImscpIndexComponent */])
+    ], AddonModImscpIndexPage.prototype, "imscpComponent", void 0);
+    AddonModImscpIndexPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-glossary-index',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\glossary\pages\index\index.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <!-- The buttons defined by the component will be added in here. -->\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<addon-mod-glossary-index [module]="module" [courseId]="courseId" (dataRetrieved)="updateData($event)"></addon-mod-glossary-index>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\glossary\pages\index\index.html"*/,
+            selector: 'page-addon-mod-imscp-index',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\imscp\pages\index\index.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <!-- The buttons defined by the component will be added in here. -->\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <addon-mod-imscp-index [module]="module" [courseId]="courseId" (dataRetrieved)="updateData($event)"></addon-mod-imscp-index>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\imscp\pages\index\index.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]])
-    ], AddonModGlossaryIndexPage);
-    return AddonModGlossaryIndexPage;
+    ], AddonModImscpIndexPage);
+    return AddonModImscpIndexPage;
 }());
 
 //# sourceMappingURL=index.js.map
