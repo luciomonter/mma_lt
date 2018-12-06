@@ -30,9 +30,9 @@ export class CoreConfigConstants {
     static demo_sites = '';
     static gcmpn = '';
     static customurlscheme = 'skillabccmoodlemobile';
-    static siteurl = 'http://svilmdlaxapp.amicucci.local/bcc/';
+    static siteurl = 'https://gbiacademy.bcc.it/';
     static skipssoconfirmation = false;
     static forcedefaultlanguage = false;
     static privacypolicy = 'http://www.gruppobancarioiccrea.it/Pagine/Utility/Privacy.aspx';
-    static compilationtime = 1544115147919;
+    static compilationtime = 1544115696655;
 }
