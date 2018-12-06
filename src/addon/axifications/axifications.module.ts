@@ -59,7 +59,7 @@ export class AddonAxificationsModule {
 			pushNotificationsDelegate: AddonPushNotificationsDelegate) 
 		{
 			mainMenuDelegate.registerHandler(mainMenuHandler);
-			settingsDelegate.registerHandler(settingsHandler);
+			//settingsDelegate.registerHandler(settingsHandler);
 			cronDelegate.register(cronHandler);
 
         const axificationClicked = (axification: any): void => {

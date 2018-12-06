@@ -61,17 +61,17 @@ export class AddonAxificationsListPage {
 			console.log( "ax jQuery ready!" );
 			//alert("axification READY");
  
-		});		
+		});	
 
 		var site = this.sitesProvider.getCurrentSite()
 	
 		// Get username and fullname. 
 		/// BCC SVIL:
-		//var AUTH_USER_KEY_wsToken = "23dfa2e513f8416e91bf133af800c3e0"; 
+		var AUTH_USER_KEY_wsToken = "23dfa2e513f8416e91bf133af800c3e0"; 
 		/// BCC TEST:
 		//var AUTH_USER_KEY_wsToken = "eb15b5da943a5546296e027bee29f1b1"; 
 		/// BCC PROD:
-		var AUTH_USER_KEY_wsToken = "6c7eb64adb7bbcadbedf13dbdd85ae99"; 
+		//var AUTH_USER_KEY_wsToken = "6c7eb64adb7bbcadbedf13dbdd85ae99"; 
 		
 		var userId =  site.getUserId();
 		var fullName = site.getInfo().fullname;
@@ -83,7 +83,7 @@ export class AddonAxificationsListPage {
 		console.log( "---siteUrl:: " + siteUrl );
 		console.log( "---wsToken:: " + wsToken );
 		*/
-		var wantsURL = siteUrl + "/local/axperformance/index.php";
+		var wantsURL = siteUrl + "/local/axperformance/splash.php";
 		var functionOnWS = 'auth_userkey_request_login_url';
 		
 		this.getMyLoginUrl(userName,wantsURL,AUTH_USER_KEY_wsToken,siteUrl,functionOnWS);
