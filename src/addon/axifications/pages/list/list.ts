@@ -66,7 +66,7 @@ export class AddonAxificationsListPage {
 		var site = this.sitesProvider.getCurrentSite()
 	
 		// Get username and fullname.
-		var AUTH_USER_KEY_wsToken = "23dfa2e513f8416e91bf133af800c3e0";
+		var AUTH_USER_KEY_wsToken = "eb15b5da943a5546296e027bee29f1b1"; 
 		var userId =  site.getUserId();
 		var fullName = site.getInfo().fullname;
 		var userName = site.getInfo().username;

@@ -35,11 +35,16 @@ ios certificate passphrase (Amicucci Pesce Caldo)
 http://svilmdlaxapp.amicucci.local/bcc/
 ws token:: 23dfa2e513f8416e91bf133af800c3e0 | src\addon\axifications\pages\list\list.ts
 **** TEST:
+https://test.gbiacademy.bcc.it/login/index.php?saml=false
 https://test.gbiacademy.bcc.it/
-ws token:: 
+ws token:: eb15b5da943a5546296e027bee29f1b1 | src\addon\axifications\pages\list\list.ts
 **** PROD:
+https://gbiacademy.bcc.it/login/index.php?saml=false
 https://gbiacademy.bcc.it/
-ws token:: 
+ws token:: 6c7eb64adb7bbcadbedf13dbdd85ae99 | src\addon\axifications\pages\list\list.ts
+
+admin
+Amicucci1_
 
 3***************
 gulp

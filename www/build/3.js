@@ -270,7 +270,7 @@ var AddonAxificationsListPage = /** @class */ (function () {
         });
         var site = this.sitesProvider.getCurrentSite();
         // Get username and fullname.
-        var AUTH_USER_KEY_wsToken = "23dfa2e513f8416e91bf133af800c3e0";
+        var AUTH_USER_KEY_wsToken = "eb15b5da943a5546296e027bee29f1b1";
         var userId = site.getUserId();
         var fullName = site.getInfo().fullname;
         var userName = site.getInfo().username;
@@ -284,28 +284,6 @@ var AddonAxificationsListPage = /** @class */ (function () {
         var wantsURL = siteUrl + "/local/axperformance/index.php";
         var functionOnWS = 'auth_userkey_request_login_url';
         this.getMyLoginUrl(userName, wantsURL, AUTH_USER_KEY_wsToken, siteUrl, functionOnWS);
-        /*
-        this.sitesProvider.getSite(siteId).then((site) => {
-
-            var site = this.sitesProvider.getCurrentSite()
-        
-            // Get username and fullname.
-            var userId =  site.getUserId();
-            var fullName = site.getInfo().fullname;
-            var userName = site.getInfo().username;
-            console.log( "---userName:: " + userName );
-        }).then(() => {
- 
-            console.log( "ax ready EXT1 !"  );
-            var wsToken = "23dfa2e513f8416e91bf133af800c3e0";
-            var username = "sim1";
-            var wantsURL = "http://svilmdlaxapp.amicucci.local/bcc/local/axperformance/index.php";
-            var serverLink = "http://svilmdlaxapp.amicucci.local/bcc/";
-            var functionOnWS = 'auth_userkey_request_login_url';
-            
-            this.getMyLoginUrl(username,wantsURL,wsToken,serverLink,functionOnWS);
-        }
-        */
     };
     AddonAxificationsListPage.prototype.getMyLoginUrl = function (usernameToLogin, wantsUrl, wsToken, moodleDomain, functionNameOnWS) {
         var serverUrl = moodleDomain + '/webservice/rest/server.php' + '?wstoken=' + wsToken + '&wsfunction=' + functionNameOnWS + '&moodlewsrestformat=json';
