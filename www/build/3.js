@@ -270,7 +270,12 @@ var AddonAxificationsListPage = /** @class */ (function () {
         });
         var site = this.sitesProvider.getCurrentSite();
         // Get username and fullname.
-        var AUTH_USER_KEY_wsToken = "eb15b5da943a5546296e027bee29f1b1";
+        /// BCC SVIL:
+        //var AUTH_USER_KEY_wsToken = "23dfa2e513f8416e91bf133af800c3e0"; 
+        /// BCC TEST:
+        //var AUTH_USER_KEY_wsToken = "eb15b5da943a5546296e027bee29f1b1"; 
+        /// BCC PROD:
+        var AUTH_USER_KEY_wsToken = "6c7eb64adb7bbcadbedf13dbdd85ae99";
         var userId = site.getUserId();
         var fullName = site.getInfo().fullname;
         var userName = site.getInfo().username;
