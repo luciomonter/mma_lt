@@ -54,18 +54,11 @@ export class AddonAxificationsListPage {
 	{
 			
     }
-
+ 
     /**
      * View loaded.
      */
     ionViewDidLoad(): void {
-		/*
-		jQuery( document ).ready(function() {
-			console.log( "ax jQuery ready!" );
-			//alert("axification READY");
- 
-		});	
-		*/
 
 		var site = this.sitesProvider.getCurrentSite()
 
@@ -92,7 +85,6 @@ export class AddonAxificationsListPage {
 		
 		this.getMyLoginUrl(userName,wantsURL,AUTH_USER_KEY_wsToken,siteUrl,functionOnWS)
         .subscribe(resp => {
-			//console.log("goo:: " + resp.loginurl);
 			this.afterDirectLoginUrlObtained(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL) );
         });		
 		
@@ -101,7 +93,7 @@ export class AddonAxificationsListPage {
 	getMyLoginUrl(usernameToLogin,wantsUrl,wsToken,moodleDomain,functionNameOnWS): void {
 		var serverUrl = moodleDomain + '/webservice/rest/server.php' + '?wstoken=' + wsToken + '&wsfunction=' + functionNameOnWS + '&moodlewsrestformat=json';
 		
-		//console.log( "ax jQuery ready1!" );
+		// console.log( "ax jQuery ready1!" );
 		const userToWs = {	user:{username:usernameToLogin} }
 		
 		return this._http.post(serverUrl,
@@ -165,7 +157,7 @@ export class AddonAxificationsListPage {
   
 	
 	afterDirectLoginUrlObtained(loginUrl): void {
-		console.log("goo:: " + loginUrl);
+		// console.log("goo:: " + loginUrl);
 		this.safeLoginUrl = this.sanitizer.bypassSecurityTrustResourceUrl(loginUrl);
 		//this.currentLoginUrl = loginUrl;
 		
@@ -196,7 +188,7 @@ export class AddonAxificationsListPage {
      */
     refreshAxifications(refresher?: any): void {
 	
-		console.log("refreshAxifications");
+		// console.log("refreshAxifications");
 		
 
 		

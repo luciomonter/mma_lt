@@ -13,13 +13,7 @@
 // limitations under the License.
 
 import { Injectable } from '@angular/core';
-import { CoreEventsProvider } from '@providers/events';
-import { CoreSitesProvider } from '@providers/sites';
-import { CoreUtilsProvider } from '@providers/utils/utils';
 import { CoreMainMenuHandler, CoreMainMenuHandlerData } from '@core/mainmenu/providers/delegate';
-import { AddonAxificationsProvider } from './axifications';
-import { AddonPushNotificationsProvider } from '@addon/pushnotifications/providers/pushnotifications';
-import { AddonPushNotificationsDelegate } from '@addon/pushnotifications/providers/delegate';
 
 /**
  * Handler to inject an option into main menu.
@@ -39,37 +33,7 @@ export class AddonAxificationsMainMenuHandler implements CoreMainMenuHandler {
         loading: true,
     };
 
-    constructor(eventsProvider: CoreEventsProvider, private sitesProvider: CoreSitesProvider,
-            utils: CoreUtilsProvider, private axificationsProvider: AddonAxificationsProvider,
-            private pushNotificationsProvider: AddonPushNotificationsProvider,
-            pushNotificationsDelegate: AddonPushNotificationsDelegate) {
-
-		/*
-        eventsProvider.on(AddonAxificationsProvider.READ_CHANGED_EVENT, (data) => {
-            this.updateBadge(data.siteId);
-        });
-
-        eventsProvider.on(AddonAxificationsProvider.READ_CRON_EVENT, (data) => {
-            this.updateBadge(data.siteId);
-        });
-
-        // Reset info on logout.
-        eventsProvider.on(CoreEventsProvider.LOGOUT, (data) => {
-            this.handler.badge = '';
-            this.handler.loading = true;
-        });
-
-        // If a push notification is received, refresh the count.
-        pushNotificationsDelegate.on('receive').subscribe((notification) => {
-            // New notification received. If it's from current site, refresh the data.
-            if (utils.isTrueOrOne(notification.notif) && this.sitesProvider.isCurrentSite(notification.site)) {
-                this.updateBadge(notification.site);
-            }
-        });
-
-        // Register Badge counter.
-        pushNotificationsDelegate.registerCounterHandler('AddonAxifications');
-		*/
+    constructor(	) {
 		
     }
 
@@ -101,21 +65,5 @@ export class AddonAxificationsMainMenuHandler implements CoreMainMenuHandler {
      *
      * @param {string} [siteId] Site ID or current Site if undefined.
      */
-	 /*
-    updateBadge(siteId?: string): void {
-        siteId = siteId || this.sitesProvider.getCurrentSiteId();
-        if (!siteId) {
-            return;
-        }
 
-        this.axificationsProvider.getUnreadAxificationsCount(null, siteId).then((unread) => {
-            this.handler.badge = unread > 0 ? String(unread) : '';
-            this.pushNotificationsProvider.updateAddonCounter('AddonAxifications', unread, siteId);
-        }).catch(() => {
-            this.handler.badge = '';
-        }).finally(() => {
-            this.handler.loading = false;
-        });
-    }
-	*/
 }

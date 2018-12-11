@@ -261,13 +261,6 @@ var AddonAxificationsListPage = /** @class */ (function () {
      * View loaded.
      */
     AddonAxificationsListPage.prototype.ionViewDidLoad = function () {
-        /*
-        jQuery( document ).ready(function() {
-            console.log( "ax jQuery ready!" );
-            //alert("axification READY");
- 
-        });
-        */
         var _this = this;
         var site = this.sitesProvider.getCurrentSite();
         // Get username and fullname.  
@@ -290,13 +283,12 @@ var AddonAxificationsListPage = /** @class */ (function () {
         //var responseFromWs = this.getMyLoginUrl(userName,wantsURL,AUTH_USER_KEY_wsToken,siteUrl,functionOnWS);
         this.getMyLoginUrl(userName, wantsURL, AUTH_USER_KEY_wsToken, siteUrl, functionOnWS)
             .subscribe(function (resp) {
-            //console.log("goo:: " + resp.loginurl);
             _this.afterDirectLoginUrlObtained(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL));
         });
     };
     AddonAxificationsListPage.prototype.getMyLoginUrl = function (usernameToLogin, wantsUrl, wsToken, moodleDomain, functionNameOnWS) {
         var serverUrl = moodleDomain + '/webservice/rest/server.php' + '?wstoken=' + wsToken + '&wsfunction=' + functionNameOnWS + '&moodlewsrestformat=json';
-        //console.log( "ax jQuery ready1!" );
+        // console.log( "ax jQuery ready1!" );
         var userToWs = { user: { username: usernameToLogin } };
         return this._http.post(serverUrl, userToWs, {
             headers: new __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["d" /* HttpHeaders */]()
@@ -342,7 +334,7 @@ var AddonAxificationsListPage = /** @class */ (function () {
         return Object(__WEBPACK_IMPORTED_MODULE_5_rxjs__["throwError"])('Something bad happened; please try again later.');
     };
     AddonAxificationsListPage.prototype.afterDirectLoginUrlObtained = function (loginUrl) {
-        console.log("goo:: " + loginUrl);
+        // console.log("goo:: " + loginUrl);
         this.safeLoginUrl = this.sanitizer.bypassSecurityTrustResourceUrl(loginUrl);
         //this.currentLoginUrl = loginUrl;
         //jQuery("#embeded_iframe").attr("src",loginUrl);
@@ -367,7 +359,7 @@ var AddonAxificationsListPage = /** @class */ (function () {
      * @param {any} [refresher] Refresher.
      */
     AddonAxificationsListPage.prototype.refreshAxifications = function (refresher) {
-        console.log("refreshAxifications");
+        // console.log("refreshAxifications");
     };
     /**
      * Page destroyed.
@@ -380,7 +372,7 @@ var AddonAxificationsListPage = /** @class */ (function () {
     };
     AddonAxificationsListPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-axifications-list',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\axifications\pages\list\list.html"*/'﻿<!-- ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.axifications.axifications\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header -->\n\n<ion-content>\n\n    <ion-refresher [enabled]="axificationsLoaded" (ionRefresh)="refreshAxifications($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n	\n\n	<iframe id="embeded_iframe" [src]="safeLoginUrl" class="iframe" scrolling="yes" ></iframe> \n\n	\n\n	\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\axifications\pages\list\list.html"*/,
+            selector: 'page-addon-axifications-list',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\axifications\pages\list\list.html"*/'﻿<!-- ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.axifications.axifications\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header -->\n\n<ion-content>\n\n    <ion-refresher [enabled]="axificationsLoaded" (ionRefresh)="refreshAxifications($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n	 \n\n	<iframe id="embeded_iframe" [src]="safeLoginUrl" class="iframe" scrolling="yes" ></iframe> \n\n	\n\n	\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\axifications\pages\list\list.html"*/,
         }),
         __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["b" /* HttpClient */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["b" /* HttpClient */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser__["c" /* DomSanitizer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser__["c" /* DomSanitizer */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_3__providers_axifications__["a" /* AddonAxificationsProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__providers_axifications__["a" /* AddonAxificationsProvider */]) === "function" && _e || Object])
     ], AddonAxificationsListPage);
