@@ -85,10 +85,10 @@ import { CoreSitePluginsAssignFeedbackComponent } from '@core/siteplugins/compon
 import { CoreSitePluginsAssignSubmissionComponent } from '@core/siteplugins/components/assign-submission/assign-submission';
 
 // Import addon providers. Do not import database module because it causes circular dependencies.
-import { ADDON_BADGES_PROVIDERS } from '@addon/badges/badges.module';
+//import { ADDON_BADGES_PROVIDERS } from '@addon/badges/badges.module';
 import { ADDON_CALENDAR_PROVIDERS } from '@addon/calendar/calendar.module';
-import { ADDON_COMPETENCY_PROVIDERS } from '@addon/competency/competency.module';
-import { ADDON_FILES_PROVIDERS } from '@addon/files/files.module';
+//import { ADDON_COMPETENCY_PROVIDERS } from '@addon/competency/competency.module';
+//import { ADDON_FILES_PROVIDERS } from '@addon/files/files.module';
 import { ADDON_MESSAGEOUTPUT_PROVIDERS } from '@addon/messageoutput/messageoutput.module';
 import { ADDON_MESSAGES_PROVIDERS } from '@addon/messages/messages.module';
 import { ADDON_MOD_ASSIGN_PROVIDERS } from '@addon/mod/assign/assign.module';
@@ -110,7 +110,7 @@ import { ADDON_MOD_SURVEY_PROVIDERS } from '@addon/mod/survey/survey.module';
 import { ADDON_MOD_URL_PROVIDERS } from '@addon/mod/url/url.module';
 import { ADDON_MOD_WIKI_PROVIDERS } from '@addon/mod/wiki/wiki.module';
 import { ADDON_MOD_WORKSHOP_PROVIDERS } from '@addon/mod/workshop/workshop.module';
-import { ADDON_NOTES_PROVIDERS } from '@addon/notes/notes.module';
+//import { ADDON_NOTES_PROVIDERS } from '@addon/notes/notes.module';
 import { ADDON_NOTIFICATIONS_PROVIDERS } from '@addon/notifications/notifications.module';
 import { ADDON_PUSHNOTIFICATIONS_PROVIDERS } from '@addon/pushnotifications/pushnotifications.module';
 /* AX_lucio */

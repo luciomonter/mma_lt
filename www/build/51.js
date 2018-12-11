@@ -1,6 +1,6 @@
 webpackJsonp([51],{
 
-/***/ 1860:
+/***/ 1824:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CorePlaceholderPageModule", function() { return CorePlaceholderPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__placeholder__ = __webpack_require__(1990);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__placeholder__ = __webpack_require__(1944);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_module__ = __webpack_require__(16);
 // (C) Copyright 2015 Martin Dougiamas
@@ -61,7 +61,7 @@ var CorePlaceholderPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 1990:
+/***/ 1944:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

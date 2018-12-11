@@ -52,7 +52,14 @@ ionic serve -b
 resave a TS file
 http://localhost:8100
 
+-----------------------
+provo a togliere::
+-----------------------
 
+-badges
+-competency
+-files
+-notes
 
 
 

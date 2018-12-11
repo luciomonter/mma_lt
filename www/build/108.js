@@ -1,18 +1,17 @@
 webpackJsonp([108],{
 
-/***/ 1794:
+/***/ 1761:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonCompetencyPlanPageModule", function() { return AddonCompetencyPlanPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonAxificationsSettingsPageModule", function() { return AddonAxificationsSettingsPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__plan__ = __webpack_require__(1919);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__settings__ = __webpack_require__(1876);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(15);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -38,44 +37,48 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-
-var AddonCompetencyPlanPageModule = /** @class */ (function () {
-    function AddonCompetencyPlanPageModule() {
+var AddonAxificationsSettingsPageModule = /** @class */ (function () {
+    function AddonAxificationsSettingsPageModule() {
     }
-    AddonCompetencyPlanPageModule = __decorate([
+    AddonAxificationsSettingsPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_6__plan__["a" /* AddonCompetencyPlanPage */],
+                __WEBPACK_IMPORTED_MODULE_3__settings__["a" /* AddonAxificationsSettingsPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__plan__["a" /* AddonCompetencyPlanPage */]),
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__settings__["a" /* AddonAxificationsSettingsPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], AddonCompetencyPlanPageModule);
-    return AddonCompetencyPlanPageModule;
+    ], AddonAxificationsSettingsPageModule);
+    return AddonAxificationsSettingsPageModule;
 }());
 
-//# sourceMappingURL=plan.module.js.map
+//# sourceMappingURL=settings.module.js.map
 
 /***/ }),
 
-/***/ 1919:
+/***/ 1876:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonCompetencyPlanPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonAxificationsSettingsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_axifications__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_user_providers_user__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_split_view_split_view__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_competency__ = __webpack_require__(159);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_helper__ = __webpack_require__(392);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_settings_providers_helper__ = __webpack_require__(914);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__addon_messageoutput_providers_delegate__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_local_notifications__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_config__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_constants__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_split_view_split_view__ = __webpack_require__(103);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -109,119 +112,245 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 
 
 
+
+
+
+
+
+
 /**
- * Page that displays a learning plan.
+ * Page that displays axifications settings.
  */
-var AddonCompetencyPlanPage = /** @class */ (function () {
-    function AddonCompetencyPlanPage(navCtrl, navParams, translate, appProvider, domUtils, svComponent, competencyProvider, competencyHelperProvider) {
-        this.navCtrl = navCtrl;
-        this.translate = translate;
-        this.appProvider = appProvider;
+var AddonAxificationsSettingsPage = /** @class */ (function () {
+    function AddonAxificationsSettingsPage(axificationsProvider, domUtils, settingsHelper, userProvider, navCtrl, messageOutputDelegate, appProvider, configProvider, eventsProvider, localNotificationsProvider, sitesProvider, svComponent) {
+        var _this = this;
+        this.axificationsProvider = axificationsProvider;
         this.domUtils = domUtils;
+        this.settingsHelper = settingsHelper;
+        this.userProvider = userProvider;
+        this.navCtrl = navCtrl;
+        this.messageOutputDelegate = messageOutputDelegate;
+        this.configProvider = configProvider;
+        this.eventsProvider = eventsProvider;
+        this.localNotificationsProvider = localNotificationsProvider;
+        this.sitesProvider = sitesProvider;
         this.svComponent = svComponent;
-        this.competencyProvider = competencyProvider;
-        this.competencyHelperProvider = competencyHelperProvider;
-        this.planLoaded = false;
-        this.planId = navParams.get('planId');
+        this.processorHandlers = [];
+        this.notifPrefsEnabled = axificationsProvider.isAxificationPreferencesEnabled();
+        this.canChangeSound = localNotificationsProvider.isAvailable() && !appProvider.isDesktop();
+        if (this.canChangeSound) {
+            configProvider.get(__WEBPACK_IMPORTED_MODULE_10__core_constants__["a" /* CoreConstants */].SETTINGS_AXIFICATIONS_SOUND, true).then(function (enabled) {
+                _this.axificationSound = !!enabled;
+            });
+        }
     }
     /**
      * View loaded.
      */
-    AddonCompetencyPlanPage.prototype.ionViewDidLoad = function () {
-        var _this = this;
-        this.fetchLearningPlan().finally(function () {
-            _this.planLoaded = true;
-        });
-    };
-    /**
-     * Fetches the learning plan and updates the view.
-     *
-     * @return {Promise<void>} Promise resolved when done.
-     */
-    AddonCompetencyPlanPage.prototype.fetchLearningPlan = function () {
-        var _this = this;
-        return this.competencyProvider.getLearningPlan(this.planId).then(function (plan) {
-            plan.plan.statusname = _this.getStatusName(plan.plan.status);
-            // Get the user profile image.
-            _this.competencyHelperProvider.getProfile(plan.plan.userid).then(function (user) {
-                _this.user = user;
-            });
-            _this.plan = plan;
-        }).catch(function (message) {
-            _this.domUtils.showErrorModalDefault(message, 'Error getting learning plan data.');
-        });
-    };
-    /**
-     * Navigates to a particular competency.
-     *
-     * @param {number} competencyId
-     */
-    AddonCompetencyPlanPage.prototype.openCompetency = function (competencyId) {
-        var navCtrl = this.svComponent ? this.svComponent.getMasterNav() : this.navCtrl;
-        if (this.appProvider.isWide()) {
-            navCtrl.push('AddonCompetencyCompetenciesPage', { competencyId: competencyId, planId: this.planId });
+    AddonAxificationsSettingsPage.prototype.ionViewDidLoad = function () {
+        if (this.notifPrefsEnabled) {
+            this.fetchPreferences();
         }
         else {
-            navCtrl.push('AddonCompetencyCompetencyPage', { competencyId: competencyId, planId: this.planId });
+            this.preferencesLoaded = true;
         }
     };
     /**
-     * Convenience function to get the status name translated.
+     * Fetches preference data.
      *
-     * @param {number} status
-     * @return {string}
+     * @return {Promise<any>} Resolved when done.
      */
-    AddonCompetencyPlanPage.prototype.getStatusName = function (status) {
-        var statusTranslateName;
-        switch (status) {
-            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].STATUS_DRAFT:
-                statusTranslateName = 'draft';
-                break;
-            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].REVIEW_STATUS_IN_REVIEW:
-                statusTranslateName = 'inreview';
-                break;
-            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].REVIEW_STATUS_WAITING_FOR_REVIEW:
-                statusTranslateName = 'waitingforreview';
-                break;
-            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].STATUS_ACTIVE:
-                statusTranslateName = 'active';
-                break;
-            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].STATUS_COMPLETE:
-                statusTranslateName = 'complete';
-                break;
-            default:
-                // We can use the current status name.
-                return String(status);
-        }
-        return this.translate.instant('addon.competency.planstatus' + statusTranslateName);
-    };
-    /**
-     * Refreshes the learning plan.
-     *
-     * @param {any} refresher Refresher.
-     */
-    AddonCompetencyPlanPage.prototype.refreshLearningPlan = function (refresher) {
+    AddonAxificationsSettingsPage.prototype.fetchPreferences = function () {
         var _this = this;
-        this.competencyProvider.invalidateLearningPlan(this.planId).finally(function () {
-            _this.fetchLearningPlan().finally(function () {
-                refresher.complete();
+        return this.axificationsProvider.getAxificationPreferences().then(function (preferences) {
+            if (!_this.currentProcessor) {
+                // Initialize current processor. Load "Mobile" (airnotifier) if available.
+                _this.currentProcessor = _this.settingsHelper.getProcessor(preferences.processors, 'airnotifier');
+            }
+            if (!_this.currentProcessor) {
+                // Shouldn't happen.
+                return Promise.reject('No processor found');
+            }
+            preferences.disableall = !!preferences.disableall; // Convert to boolean.
+            _this.preferences = preferences;
+            _this.loadProcessor(_this.currentProcessor);
+            // Get display data of message output handlers (thery are displayed in the context menu),
+            _this.processorHandlers = [];
+            if (preferences.processors) {
+                preferences.processors.forEach(function (processor) {
+                    processor.supported = _this.messageOutputDelegate.hasHandler(processor.name, true);
+                    if (processor.hassettings && processor.supported) {
+                        _this.processorHandlers.push(_this.messageOutputDelegate.getDisplayData(processor));
+                    }
+                });
+            }
+        }).catch(function (message) {
+            _this.domUtils.showErrorModal(message);
+        }).finally(function () {
+            _this.preferencesLoaded = true;
+        });
+    };
+    /**
+     * Load a processor.
+     *
+     * @param {any} processor Processor object.
+     */
+    AddonAxificationsSettingsPage.prototype.loadProcessor = function (processor) {
+        if (!processor) {
+            return;
+        }
+        this.currentProcessor = processor;
+        this.components = this.settingsHelper.getProcessorComponents(processor.name, this.preferences.components);
+    };
+    /**
+     * Update preferences after a certain time. The purpose is to store the updated data, it won't be reflected in the view.
+     */
+    AddonAxificationsSettingsPage.prototype.updatePreferencesAfterDelay = function () {
+        var _this = this;
+        // Cancel pending updates.
+        clearTimeout(this.updateTimeout);
+        this.updateTimeout = setTimeout(function () {
+            _this.updateTimeout = null;
+            _this.updatePreferences();
+        }, 5000);
+    };
+    /**
+     * Update preferences. The purpose is to store the updated data, it won't be reflected in the view.
+     */
+    AddonAxificationsSettingsPage.prototype.updatePreferences = function () {
+        var _this = this;
+        this.axificationsProvider.invalidateAxificationPreferences().finally(function () {
+            _this.axificationsProvider.getAxificationPreferences();
+        });
+    };
+    /**
+     * The selected processor was changed.
+     *
+     * @param {string} name Name of the selected processor.
+     */
+    AddonAxificationsSettingsPage.prototype.changeProcessor = function (name) {
+        var _this = this;
+        this.preferences.processors.forEach(function (processor) {
+            if (processor.name == name) {
+                _this.loadProcessor(processor);
+            }
+        });
+    };
+    /**
+     * Refresh the list of preferences.
+     *
+     * @param {any} [refresher] Refresher.
+     */
+    AddonAxificationsSettingsPage.prototype.refreshPreferences = function (refresher) {
+        var _this = this;
+        this.axificationsProvider.invalidateAxificationPreferences().finally(function () {
+            _this.fetchPreferences().finally(function () {
+                refresher && refresher.complete();
             });
         });
     };
-    AddonCompetencyPlanPage = __decorate([
+    /**
+     * Open extra preferences.
+     *
+     * @param {AddonMessageOutputHandlerData} handlerData
+     */
+    AddonAxificationsSettingsPage.prototype.openExtraPreferences = function (handlerData) {
+        // Decide which navCtrl to use. If this page is inside a split view, use the split view's master nav.
+        var navCtrl = this.svComponent ? this.svComponent.getMasterNav() : this.navCtrl;
+        navCtrl.push(handlerData.page, handlerData.pageParams);
+    };
+    /**
+     * Change the value of a certain preference.
+     *
+     * @param {any} axification Axification object.
+     * @param {string} state State name, ['loggedin', 'loggedoff'].
+     */
+    AddonAxificationsSettingsPage.prototype.changePreference = function (axification, state) {
+        var _this = this;
+        var processorState = axification.currentProcessor[state];
+        var preferenceName = axification.preferencekey + '_' + processorState.name;
+        var value;
+        axification.processors.forEach(function (processor) {
+            if (processor[state].checked) {
+                if (!value) {
+                    value = processor.name;
+                }
+                else {
+                    value += ',' + processor.name;
+                }
+            }
+        });
+        if (!value) {
+            value = 'none';
+        }
+        processorState.updating = true;
+        this.userProvider.updateUserPreference(preferenceName, value).then(function () {
+            // Update the preferences since they were modified.
+            _this.updatePreferencesAfterDelay();
+        }).catch(function (message) {
+            // Show error and revert change.
+            _this.domUtils.showErrorModal(message);
+            axification.currentProcessor[state].checked = !axification.currentProcessor[state].checked;
+        }).finally(function () {
+            processorState.updating = false;
+        });
+    };
+    /**
+     * Disable all axifications changed.
+     */
+    AddonAxificationsSettingsPage.prototype.disableAll = function (disable) {
+        var _this = this;
+        var modal = this.domUtils.showModalLoading('core.sending', true);
+        this.userProvider.updateUserPreferences([], disable).then(function () {
+            // Update the preferences since they were modified.
+            _this.updatePreferencesAfterDelay();
+        }).catch(function (message) {
+            // Show error and revert change.
+            _this.domUtils.showErrorModal(message);
+            _this.preferences.disableall = !_this.preferences.disableall;
+        }).finally(function () {
+            modal.dismiss();
+        });
+    };
+    /**
+     * Change the axification sound setting.
+     *
+     * @param {enabled} enabled True to enable the axification sound, false to disable it.
+     */
+    AddonAxificationsSettingsPage.prototype.changeAxificationSound = function (enabled) {
+        var _this = this;
+        this.configProvider.set(__WEBPACK_IMPORTED_MODULE_10__core_constants__["a" /* CoreConstants */].SETTINGS_NOTIFICATION_SOUND, enabled ? 1 : 0).finally(function () {
+            var siteId = _this.sitesProvider.getCurrentSiteId();
+            _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_11__providers_events__["a" /* CoreEventsProvider */].NOTIFICATION_SOUND_CHANGED, { enabled: enabled }, siteId);
+            _this.localNotificationsProvider.rescheduleAll();
+        });
+    };
+    /**
+     * Page destroyed.
+     */
+    AddonAxificationsSettingsPage.prototype.ngOnDestroy = function () {
+        // If there is a pending action to update preferences, execute it right now.
+        if (this.updateTimeout) {
+            clearTimeout(this.updateTimeout);
+            this.updatePreferences();
+        }
+    };
+    AddonAxificationsSettingsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-competency-plan',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\competency\pages\plan\plan.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title *ngIf="plan">{{plan.plan.name}}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="planLoaded" (ionRefresh)="refreshLearningPlan($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-loading [hideUntil]="planLoaded">\n\n        <ion-card *ngIf="user">\n\n            <ion-item text-wrap>\n\n                <ion-avatar *ngIf="user.profileimageurl && user.profileimageurl !== true" item-start>\n\n                    <img  [src]="user.profileimageurl" [alt]="\'core.pictureof\' | translate:{$a: user.fullname}" core-external-content>\n\n                </ion-avatar>\n\n                <span *ngIf="user.profileimageurl === true" item-start>\n\n                    <ion-icon name="person"></ion-icon>\n\n                </span>\n\n                <h2><core-format-text [text]="user.fullname"></core-format-text></h2>\n\n            </ion-item>\n\n       </ion-card>\n\n        <ion-card *ngIf="plan">\n\n            <ion-list>\n\n                <ion-item text-wrap>\n\n                    <strong>{{ \'addon.competency.status\' | translate }}</strong>:\n\n                    {{ plan.plan.statusname }}\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="plan.plan.duedate > 0">\n\n                    <strong>{{ \'addon.competency.duedate\' | translate }}</strong>:\n\n                    {{ plan.plan.duedate | coreToLocaleString }}\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="plan.plan.template">\n\n                    <strong>{{ \'addon.competency.template\' | translate }}</strong>:\n\n                    {{ plan.plan.template.shortname }}\n\n                </ion-item>\n\n                <ion-item text-wrap>\n\n                    <strong>{{ \'addon.competency.progress\' | translate }}</strong>:\n\n                    {{ \'addon.competency.xcompetenciesproficientoutofy\' | translate: {$a: {x: plan.proficientcompetencycount, y: plan.competencycount} } }}\n\n                    <core-progress-bar [progress]="plan.proficientcompetencypercentage" [text]="plan.proficientcompetencypercentageformatted"></core-progress-bar>\n\n                </ion-item>\n\n            </ion-list>\n\n        </ion-card>\n\n        <ion-card *ngIf="plan">\n\n            <ion-card-header text-wrap>{{ \'addon.competency.learningplancompetencies\' | translate }}</ion-card-header>\n\n            <ion-list>\n\n                <ion-item text-wrap *ngIf="plan.competencycount == 0">\n\n                    {{ \'addon.competency.nocompetencies\' | translate }}\n\n                </ion-item>\n\n                <a ion-item text-wrap *ngFor="let competency of plan.competencies" (click)="openCompetency(competency.competency.id)" [title]="competency.competency.shortname">\n\n                    {{competency.competency.shortname}} <small>{{competency.competency.idnumber}}</small>\n\n                    <ion-badge item-end [color]="competency.usercompetency.proficiency ? \'success\' : \'danger\'">{{ competency.usercompetency.gradename }}</ion-badge>\n\n                </a>\n\n            </ion-list>\n\n        </ion-card>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\competency\pages\plan\plan.html"*/,
+            selector: 'page-addon-axifications-settings',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\axifications\pages\settings\settings.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.axifications.axificationpreferences\' | translate }}</ion-title>\n\n        <ion-buttons end>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<core-navbar-buttons>\n\n    <core-context-menu *ngIf="processorHandlers.length > 0">\n\n        <core-context-menu-item *ngFor="let handler of processorHandlers" [priority]="handler.priority" [content]="handler.label | translate" (action)="openExtraPreferences(handler)" [iconAction]="handler.icon"></core-context-menu-item>\n\n    </core-context-menu>\n\n</core-navbar-buttons>\n\n<ion-content>\n\n    <ion-refresher [enabled]="preferencesLoaded && notifPrefsEnabled" (ionRefresh)="refreshPreferences($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-loading [hideUntil]="preferencesLoaded">\n\n        <!-- If notification preferences aren\'t enabled, show only the notification sound setting. -->\n\n        <ion-item *ngIf="canChangeSound && !notifPrefsEnabled">\n\n            <ion-label>{{ \'addon.axifications.playsound\' | translate }}</ion-label>\n\n            <ion-toggle [(ngModel)]="axificationsSound" (ionChange)="changeAxificationsSound(axificationsSound)"></ion-toggle>\n\n        </ion-item>\n\n\n\n        <ng-container *ngIf="notifPrefsEnabled">\n\n            <ion-card>\n\n                <ion-item text-wrap *ngIf="preferences">\n\n                    <ion-label>{{ \'core.settings.disableall\' | translate }}</ion-label>\n\n                    <ion-toggle [(ngModel)]="preferences.disableall" (ionChange)="disableAll(preferences.disableall)"></ion-toggle>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="canChangeSound">\n\n                    <ion-label>{{ \'addon.axifications.playsound\' | translate }}</ion-label>\n\n                    <ion-toggle [(ngModel)]="axificationsSound" (ionChange)="changeAxificationsSound(axificationsSound)"></ion-toggle>\n\n                </ion-item>\n\n            </ion-card>\n\n\n\n            <!-- Show processor selector. -->\n\n            <ion-select *ngIf="preferences && preferences.processors && preferences.processors.length > 0" [ngModel]="currentProcessor.name" (ngModelChange)="changeProcessor($event)" interface="popover">\n\n                <ion-option *ngFor="let processor of preferences.processors" [value]="processor.name">{{ processor.displayname }}</ion-option>\n\n            </ion-select>\n\n\n\n            <ion-card list *ngFor="let component of components">\n\n                <ion-item-divider color="light" text-wrap>\n\n                    <ion-row no-padding>\n\n                        <ion-col no-padding>{{ component.displayname }}</ion-col>\n\n                        <ion-col col-2 text-center no-padding class="hidden-phone">{{ \'core.settings.loggedin\' | translate }}</ion-col>\n\n                        <ion-col col-2 text-center no-padding class="hidden-phone">{{ \'core.settings.loggedoff\' | translate }}</ion-col>\n\n                    </ion-row>\n\n                </ion-item-divider>\n\n                <ng-container *ngFor="let notification of component.axifications">\n\n                    <!-- Tablet view -->\n\n                    <ion-row text-wrap class="hidden-phone" align-items-center>\n\n                        <ion-col margin-horizontal>{{ notification.displayname }}</ion-col>\n\n                        <ion-col col-2 text-center *ngFor="let state of [\'loggedin\', \'loggedoff\']">\n\n                            <!-- If axifications not disabled, show toggle. -->\n\n                            <ion-spinner [hidden]="preferences.disableall || !(notification.currentProcessor[state] && notification.currentProcessor[state].updating)"></ion-spinner>\n\n                            <ion-toggle *ngIf="!preferences.disableall" [(ngModel)]="notification.currentProcessor[state].checked" (ionChange)="changePreference(notification, state)" [disabled]="notification.currentProcessor.locked || notification.currentProcessor[state].updating">\n\n                            </ion-toggle>\n\n                            <!-- If axifications are disabled, show "Disabled" instead of toggle. -->\n\n                            <span *ngIf="preferences.disableall">{{ \'core.settings.disabled\' | translate }}</span>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                    <!-- Phone view -->\n\n                    <ion-list-header text-wrap no-margin class="hidden-tablet">{{ notification.displayname }}</ion-list-header>\n\n                    <!-- If axifications not disabled, show toggles. If axifications are disabled, show "Disabled" instead of toggle. -->\n\n                    <ion-item *ngFor="let state of [\'loggedin\', \'loggedoff\']" text-wrap class="hidden-tablet">\n\n                        <ion-label>{{ \'core.settings.\' + state | translate }}</ion-label>\n\n                        <ion-spinner item-end *ngIf="!preferences.disableall && (notification.currentProcessor[state] && notification.currentProcessor[state].updating)"></ion-spinner>\n\n                        <ion-toggle item-end *ngIf="!preferences.disableall" [(ngModel)]="notification.currentProcessor[state].checked" (ionChange)="changePreference(notification, state)" [disabled]="notification.currentProcessor.locked || notification.currentProcessor[state].updating">\n\n                        </ion-toggle>\n\n                        <ion-note item-end *ngIf="preferences.disableall">{{ \'core.settings.disabled\' | translate }}</ion-note>\n\n                    </ion-item>\n\n                </ng-container>\n\n            </ion-card>\n\n        </ng-container>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\axifications\pages\settings\settings.html"*/,
         }),
-        __param(5, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Optional */])()),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */],
-            __WEBPACK_IMPORTED_MODULE_3__providers_app__["a" /* CoreAppProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
-            __WEBPACK_IMPORTED_MODULE_5__components_split_view_split_view__["a" /* CoreSplitViewComponent */], __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */],
-            __WEBPACK_IMPORTED_MODULE_7__providers_helper__["a" /* AddonCompetencyHelperProvider */]])
-    ], AddonCompetencyPlanPage);
-    return AddonCompetencyPlanPage;
+        __param(11, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Optional */])()),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__providers_axifications__["a" /* AddonAxificationsProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__core_settings_providers_helper__["a" /* CoreSettingsHelper */], __WEBPACK_IMPORTED_MODULE_3__core_user_providers_user__["a" /* CoreUserProvider */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_6__addon_messageoutput_providers_delegate__["a" /* AddonMessageOutputDelegate */],
+            __WEBPACK_IMPORTED_MODULE_9__providers_app__["a" /* CoreAppProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_config__["a" /* CoreConfigProvider */], __WEBPACK_IMPORTED_MODULE_11__providers_events__["a" /* CoreEventsProvider */],
+            __WEBPACK_IMPORTED_MODULE_7__providers_local_notifications__["a" /* CoreLocalNotificationsProvider */], __WEBPACK_IMPORTED_MODULE_12__providers_sites__["a" /* CoreSitesProvider */],
+            __WEBPACK_IMPORTED_MODULE_13__components_split_view_split_view__["a" /* CoreSplitViewComponent */]])
+    ], AddonAxificationsSettingsPage);
+    return AddonAxificationsSettingsPage;
 }());
 
-//# sourceMappingURL=plan.js.map
+//# sourceMappingURL=settings.js.map
 
 /***/ })
 

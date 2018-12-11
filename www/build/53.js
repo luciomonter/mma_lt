@@ -1,16 +1,17 @@
 webpackJsonp([53],{
 
-/***/ 1857:
+/***/ 1820:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonNotesAddPageModule", function() { return AddonNotesAddPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModWorkshopPhaseInfoPageModule", function() { return AddonModWorkshopPhaseInfoPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__add__ = __webpack_require__(1985);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__phase__ = __webpack_require__(1937);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_compile_components_compile_html_compile_html_module__ = __webpack_require__(381);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -35,38 +36,38 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var AddonNotesAddPageModule = /** @class */ (function () {
-    function AddonNotesAddPageModule() {
+
+var AddonModWorkshopPhaseInfoPageModule = /** @class */ (function () {
+    function AddonModWorkshopPhaseInfoPageModule() {
     }
-    AddonNotesAddPageModule = __decorate([
+    AddonModWorkshopPhaseInfoPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__add__["a" /* AddonNotesAddPage */]
+                __WEBPACK_IMPORTED_MODULE_4__phase__["a" /* AddonModWorkshopPhaseInfoPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__add__["a" /* AddonNotesAddPage */]),
-                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ]
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_5__core_compile_components_compile_html_compile_html_module__["a" /* CoreCompileHtmlComponentModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_4__phase__["a" /* AddonModWorkshopPhaseInfoPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
         })
-    ], AddonNotesAddPageModule);
-    return AddonNotesAddPageModule;
+    ], AddonModWorkshopPhaseInfoPageModule);
+    return AddonModWorkshopPhaseInfoPageModule;
 }());
 
-//# sourceMappingURL=add.module.js.map
+//# sourceMappingURL=phase.module.js.map
 
 /***/ }),
 
-/***/ 1985:
+/***/ 1937:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonNotesAddPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModWorkshopPhaseInfoPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_app__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_notes__ = __webpack_require__(163);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_utils_utils__ = __webpack_require__(5);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -92,61 +93,60 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
-
 /**
- * Component that displays a text area for composing a note.
+ * Page that displays the phase info modal.
  */
-var AddonNotesAddPage = /** @class */ (function () {
-    function AddonNotesAddPage(params, viewCtrl, appProvider, domUtils, notesProvider) {
+var AddonModWorkshopPhaseInfoPage = /** @class */ (function () {
+    function AddonModWorkshopPhaseInfoPage(params, viewCtrl, utils) {
         this.viewCtrl = viewCtrl;
-        this.appProvider = appProvider;
-        this.domUtils = domUtils;
-        this.notesProvider = notesProvider;
-        this.publishState = 'personal';
-        this.text = '';
-        this.processing = false;
-        this.userId = params.get('userId');
-        this.courseId = params.get('courseId');
-    }
-    /**
-     * Send the note or store it offline.
-     */
-    AddonNotesAddPage.prototype.addNote = function () {
-        var _this = this;
-        this.appProvider.closeKeyboard();
-        var loadingModal = this.domUtils.showModalLoading('core.sending', true);
-        // Freeze the add note button.
-        this.processing = true;
-        this.notesProvider.addNote(this.userId, this.courseId, this.publishState, this.text).then(function (sent) {
-            _this.viewCtrl.dismiss().finally(function () {
-                var message = sent ? 'addon.notes.eventnotecreated' : 'core.datastoredoffline';
-                _this.domUtils.showAlertTranslated('core.success', message);
+        this.utils = utils;
+        this.phases = params.get('phases');
+        this.workshopPhase = params.get('workshopPhase');
+        var externalUrl = params.get('externalUrl');
+        // Treat phases.
+        for (var x in this.phases) {
+            this.phases[x].tasks.forEach(function (task) {
+                if (!task.link && (task.code == 'examples' || task.code == 'prepareexamples')) {
+                    // Add links to manage examples.
+                    task.link = externalUrl;
+                }
             });
-        }).catch(function (error) {
-            _this.domUtils.showErrorModal(error);
-            _this.processing = false;
-        }).finally(function () {
-            loadingModal.dismiss();
-        });
-    };
+            var action = this.phases[x].actions.find(function (action) {
+                return action.url && action.type == 'switchphase';
+            });
+            this.phases[x].switchUrl = action ? action.url : '';
+        }
+    }
     /**
      * Close modal.
      */
-    AddonNotesAddPage.prototype.closeModal = function () {
+    AddonModWorkshopPhaseInfoPage.prototype.closeModal = function () {
         this.viewCtrl.dismiss();
     };
-    AddonNotesAddPage = __decorate([
+    /**
+     * Open task.
+     *
+     * @param {any} task Task to be done.
+     */
+    AddonModWorkshopPhaseInfoPage.prototype.runTask = function (task) {
+        if (task.code == 'submit') {
+            // This will close the modal and go to the submit.
+            this.viewCtrl.dismiss(true);
+        }
+        else if (task.link) {
+            this.utils.openInBrowser(task.link);
+        }
+    };
+    AddonModWorkshopPhaseInfoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-notes-add',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\notes\pages\add\add.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.notes.addnewnote\' | translate }}</ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n\n                <ion-icon name="close"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n\n    <form name="itemEdit" (ngSubmit)="addNote()">\n\n        <ion-item>\n\n            <ion-label>{{ \'addon.notes.publishstate\' | translate }}</ion-label>\n\n            <ion-select [(ngModel)]="publishState" name="publishState" interface="popover">\n\n                <ion-option value="personal">{{ \'addon.notes.personalnotes\' | translate }}</ion-option>\n\n                <ion-option value="course">{{ \'addon.notes.coursenotes\' | translate }}</ion-option>\n\n                <ion-option value="site">{{ \'addon.notes.sitenotes\' | translate }}</ion-option>\n\n            </ion-select>\n\n        </ion-item>\n\n        <ion-item>\n\n            <ion-textarea placeholder="{{ \'addon.notes.note\' | translate }}" rows="5" [(ngModel)]="text" name="text" required="required"></ion-textarea>\n\n        </ion-item>\n\n        <button ion-button block margin-vertical type="submit" [disabled]="processing || text.length < 2">\n\n            {{ \'addon.notes.addnewnote\' | translate }}\n\n        </button>\n\n    </form>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\notes\pages\add\add.html"*/,
+            selector: 'page-addon-mod-workshop-phase-info',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\workshop\pages\phase\phase.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.mod_workshop.userplan\' | translate }}</ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n\n                <ion-icon name="close"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-list>\n\n        <ng-container *ngFor="let phase of phases">\n\n            <ion-item-divider color="light" [class.core-workshop-phase-selected]="workshopPhase == phase.code">\n\n                <h2>{{ phase.title }}</h2>\n\n                <p text-wrap *ngIf="workshopPhase == phase.code">{{ \'addon.mod_workshop.userplancurrentphase\' | translate }}</p>\n\n            </ion-item-divider>\n\n            <a ion-item text-wrap *ngIf="phase.switchUrl" [href]="phase.switchUrl" detail-none>\n\n                <ion-icon item-start name="swap"></ion-icon>\n\n                {{ \'addon.mod_workshop.switchphase\' + phase.code | translate }}\n\n                <ion-icon item-end name="open"></ion-icon>\n\n            </a>\n\n            <a ion-item text-wrap *ngFor="let task of phase.tasks" [class.item-dimmed]="phase.code != workshopPhase" (click)="runTask(task)" detail-none>\n\n                <ion-icon item-start name="radio-button-off" *ngIf="task.completed == null"></ion-icon>\n\n                <ion-icon item-start name="close-circle" color="danger" *ngIf="task.completed == \'\'"></ion-icon>\n\n                <ion-icon item-start name="information-circle" color="info" *ngIf="task.completed == \'info\'"></ion-icon>\n\n                <ion-icon item-start name="checkmark-circle" color="success" *ngIf="task.completed == \'1\'"></ion-icon>\n\n\n\n                <h2 text-wrap>{{task.title}}</h2>\n\n                <p *ngIf="task.details"><core-format-text [text]="task.details"></core-format-text></p>\n\n                <ion-icon item-end *ngIf="task.link && task.code != \'submit\'" name="open"></ion-icon>\n\n            </a>\n\n        </ng-container>\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\workshop\pages\phase\phase.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["D" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__providers_app__["a" /* CoreAppProvider */],
-            __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_notes__["a" /* AddonNotesProvider */]])
-    ], AddonNotesAddPage);
-    return AddonNotesAddPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["D" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__providers_utils_utils__["a" /* CoreUtilsProvider */]])
+    ], AddonModWorkshopPhaseInfoPage);
+    return AddonModWorkshopPhaseInfoPage;
 }());
 
-//# sourceMappingURL=add.js.map
+//# sourceMappingURL=phase.js.map
 
 /***/ })
 
