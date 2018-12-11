@@ -54,7 +54,7 @@ export class AddonAxificationsListPage {
 	{
 			
     }
- 
+  
     /**
      * View loaded.
      */
