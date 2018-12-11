@@ -15,17 +15,8 @@
 import { NgModule } from '@angular/core';
 import { AddonAxificationsProvider } from './providers/axifications';
 import { AddonAxificationsMainMenuHandler } from './providers/mainmenu-handler';
-import { AddonAxificationsSettingsHandler } from './providers/settings-handler';
-import { AddonAxificationsCronHandler } from './providers/cron-handler';
-import { CoreAppProvider } from '@providers/app';
 import { CoreContentLinksHelperProvider } from '@core/contentlinks/providers/helper';
 import { CoreMainMenuDelegate } from '@core/mainmenu/providers/delegate';
-import { CoreSettingsDelegate } from '@core/settings/providers/delegate';
-import { CoreCronDelegate } from '@providers/cron';
-import { CoreLocalNotificationsProvider } from '@providers/local-notifications';
-import { CoreSitesProvider } from '@providers/sites';
-import { CoreUtilsProvider } from '@providers/utils/utils';
-import { AddonPushNotificationsDelegate } from '@addon/pushnotifications/providers/delegate';
 
 // List of providers (without handlers).
 export const ADDON_AXIFICATIONS_PROVIDERS: any[] = [
@@ -40,57 +31,24 @@ export const ADDON_AXIFICATIONS_PROVIDERS: any[] = [
     providers: [
         AddonAxificationsProvider,
         AddonAxificationsMainMenuHandler,
-        AddonAxificationsSettingsHandler,
-        AddonAxificationsCronHandler,
     ]
 })
 export class AddonAxificationsModule {
+			
     constructor(mainMenuDelegate: CoreMainMenuDelegate, 
 			mainMenuHandler: AddonAxificationsMainMenuHandler,
-            settingsDelegate: CoreSettingsDelegate, 
-			settingsHandler: AddonAxificationsSettingsHandler,
-            cronDelegate: CoreCronDelegate, cronHandler: AddonAxificationsCronHandler,
-            appProvider: CoreAppProvider, 
-			utils: CoreUtilsProvider, 
-			sitesProvider: CoreSitesProvider,
-            axificationsProvider: AddonAxificationsProvider, 
-			localNotifications: CoreLocalNotificationsProvider,
-            linkHelper: CoreContentLinksHelperProvider, 
-			pushNotificationsDelegate: AddonPushNotificationsDelegate) 
+			linkHelper: CoreContentLinksHelperProvider, 
+            axificationsProvider: AddonAxificationsProvider) 			
+			
 		{
 			mainMenuDelegate.registerHandler(mainMenuHandler);
-			//settingsDelegate.registerHandler(settingsHandler);
-			cronDelegate.register(cronHandler);
 
         const axificationClicked = (axification: any): void => {
-            sitesProvider.isFeatureDisabled('CoreMainMenuDelegate_AddonAxifications', axification.site).then((disabled) => {
-                if (disabled) {
-                    // Axifications are disabled, stop.
-                    return;
-                }
- 
-				
-                axificationsProvider.invalidateAxificationsList().finally(() => {
-                    linkHelper.goInSite(undefined, 'AddonAxificationsListPage', undefined, axification.site);
-                });
-				
-            });
+		
+			linkHelper.goInSite(undefined, 'AddonAxificationsListPage', undefined, axification.site);
+
         };
 
-        if (appProvider.isDesktop()) {
-            // Listen for clicks in simulated push axifications.
-            //localNotifications.registerClick(AddonAxificationsProvider.PUSH_SIMULATION_COMPONENT, axificationClicked);
-        }
-
-        // Register push axification clicks.
-		/*
-        pushNotificationsDelegate.on('click').subscribe((axification) => {
-            if (utils.isTrueOrOne(axification.notif)) {
-                axificationClicked(axification);
-
-                return true;
-            }
-        });
-		*/
+        
     }
 }

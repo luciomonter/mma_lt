@@ -8,7 +8,7 @@
         <ion-refresher-content pullingText="{{ 'core.pulltorefresh' | translate }}"></ion-refresher-content>
     </ion-refresher>
 	
-	<iframe id="embeded_iframe" src="" class="iframe" scrolling="yes" ></iframe>
+	<iframe id="embeded_iframe" [src]="safeLoginUrl" class="iframe" scrolling="yes" ></iframe> 
 	
 	
 </ion-content>

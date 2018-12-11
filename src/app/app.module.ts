@@ -77,12 +77,12 @@ import { CoreQuestionModule } from '@core/question/question.module';
 import { CoreCommentsModule } from '@core/comments/comments.module';
 
 // Addon modules.
-//import { AddonBadgesModule } from '@addon/badges/badges.module';
+import { AddonBadgesModule } from '@addon/badges/badges.module';
 import { AddonCalendarModule } from '@addon/calendar/calendar.module';
-//import { AddonCompetencyModule } from '@addon/competency/competency.module';
+import { AddonCompetencyModule } from '@addon/competency/competency.module';
 import { AddonCourseCompletionModule } from '@addon/coursecompletion/coursecompletion.module';
 import { AddonUserProfileFieldModule } from '@addon/userprofilefield/userprofilefield.module';
-//import { AddonFilesModule } from '@addon/files/files.module';
+import { AddonFilesModule } from '@addon/files/files.module';
 import { AddonModAssignModule } from '@addon/mod/assign/assign.module';
 import { AddonModBookModule } from '@addon/mod/book/book.module';
 import { AddonModChatModule } from '@addon/mod/chat/chat.module';
@@ -107,7 +107,7 @@ import { AddonModWikiModule } from '@addon/mod/wiki/wiki.module';
 import { AddonMessageOutputModule } from '@addon/messageoutput/messageoutput.module';
 import { AddonMessageOutputAirnotifierModule } from '@addon/messageoutput/airnotifier/airnotifier.module';
 import { AddonMessagesModule } from '@addon/messages/messages.module';
-//import { AddonNotesModule } from '../addon/notes/notes.module';
+import { AddonNotesModule } from '../addon/notes/notes.module';
 import { AddonPushNotificationsModule } from '@addon/pushnotifications/pushnotifications.module';
 import { AddonNotificationsModule } from '@addon/notifications/notifications.module';
 import { AddonRemoteThemesModule } from '@addon/remotethemes/remotethemes.module';
@@ -189,12 +189,12 @@ export const CORE_PROVIDERS: any[] = [
         CoreCompileModule,
         CoreQuestionModule,
         CoreCommentsModule,
-        //AddonBadgesModule,
+        AddonBadgesModule,
         AddonCalendarModule,
-        //AddonCompetencyModule,
+        AddonCompetencyModule,
         AddonCourseCompletionModule,
         AddonUserProfileFieldModule,
-        //AddonFilesModule,
+        AddonFilesModule,
         AddonModAssignModule,
         AddonModBookModule,
         AddonModChatModule,
@@ -219,7 +219,7 @@ export const CORE_PROVIDERS: any[] = [
         AddonMessageOutputModule,
         AddonMessageOutputAirnotifierModule,
         AddonMessagesModule,
-        //AddonNotesModule,
+        AddonNotesModule,
         AddonNotificationsModule,
 		AddonAxificationsModule,
         AddonPushNotificationsModule,

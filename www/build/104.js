@@ -1,17 +1,17 @@
 webpackJsonp([104],{
 
-/***/ 1765:
+/***/ 1798:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModFolderIndexPageModule", function() { return AddonModFolderIndexPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonMessageOutputAirnotifierDevicesPageModule", function() { return AddonMessageOutputAirnotifierDevicesPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(929);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__report__ = __webpack_require__(1880);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__devices__ = __webpack_require__(1922);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -37,36 +37,38 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var AddonModFolderIndexPageModule = /** @class */ (function () {
-    function AddonModFolderIndexPageModule() {
+var AddonMessageOutputAirnotifierDevicesPageModule = /** @class */ (function () {
+    function AddonMessageOutputAirnotifierDevicesPageModule() {
     }
-    AddonModFolderIndexPageModule = __decorate([
+    AddonMessageOutputAirnotifierDevicesPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__report__["a" /* AddonCourseCompletionReportPage */],
+                __WEBPACK_IMPORTED_MODULE_5__devices__["a" /* AddonMessageOutputAirnotifierDevicesPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonCourseCompletionComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__report__["a" /* AddonCourseCompletionReportPage */]),
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__devices__["a" /* AddonMessageOutputAirnotifierDevicesPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], AddonModFolderIndexPageModule);
-    return AddonModFolderIndexPageModule;
+    ], AddonMessageOutputAirnotifierDevicesPageModule);
+    return AddonMessageOutputAirnotifierDevicesPageModule;
 }());
 
-//# sourceMappingURL=report.module.js.map
+//# sourceMappingURL=devices.module.js.map
 
 /***/ }),
 
-/***/ 1880:
+/***/ 1922:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonCourseCompletionReportPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessageOutputAirnotifierDevicesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__addon_pushnotifications_providers_pushnotifications__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_airnotifier__ = __webpack_require__(394);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -91,24 +93,123 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
+
 /**
- * Page that displays the course completion report.
+ * Page that displays the list of devices.
  */
-var AddonCourseCompletionReportPage = /** @class */ (function () {
-    function AddonCourseCompletionReportPage(navParams) {
-        this.courseId = navParams.get('courseId');
-        this.userId = navParams.get('userId');
+var AddonMessageOutputAirnotifierDevicesPage = /** @class */ (function () {
+    function AddonMessageOutputAirnotifierDevicesPage(domUtils, airnotifierProivder, pushNotificationsProvider) {
+        this.domUtils = domUtils;
+        this.airnotifierProivder = airnotifierProivder;
+        this.pushNotificationsProvider = pushNotificationsProvider;
+        this.devices = [];
+        this.devicesLoaded = false;
     }
-    AddonCourseCompletionReportPage = __decorate([
+    /**
+     * View loaded.
+     */
+    AddonMessageOutputAirnotifierDevicesPage.prototype.ionViewDidLoad = function () {
+        this.fetchDevices();
+    };
+    /**
+     * Fetches the list of devices.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonMessageOutputAirnotifierDevicesPage.prototype.fetchDevices = function () {
+        var _this = this;
+        return this.airnotifierProivder.getUserDevices().then(function (devices) {
+            var pushId = _this.pushNotificationsProvider.getPushId();
+            // Convert enabled to boolean and search current device.
+            devices.forEach(function (device) {
+                device.enable = !!device.enable;
+                device.current = pushId && pushId == device.pushid;
+            });
+            _this.devices = devices;
+        }).catch(function (message) {
+            _this.domUtils.showErrorModal(message);
+        }).finally(function () {
+            _this.devicesLoaded = true;
+        });
+    };
+    /**
+     * Update list of devices after a certain time. The purpose is to store the updated data, it won't be reflected in the view.
+     */
+    AddonMessageOutputAirnotifierDevicesPage.prototype.updateDevicesAfterDelay = function () {
+        var _this = this;
+        // Cancel pending updates.
+        if (this.updateTimeout) {
+            clearTimeout(this.updateTimeout);
+        }
+        this.updateTimeout = setTimeout(function () {
+            _this.updateTimeout = null;
+            _this.updateDevices();
+        }, 5000);
+    };
+    /**
+     * Fetch devices. The purpose is to store the updated data, it won't be reflected in the view.
+     */
+    AddonMessageOutputAirnotifierDevicesPage.prototype.updateDevices = function () {
+        var _this = this;
+        this.airnotifierProivder.invalidateUserDevices().finally(function () {
+            _this.airnotifierProivder.getUserDevices();
+        });
+    };
+    /**
+     * Refresh the list of devices.
+     *
+     * @param {any} refresher Refresher.
+     */
+    AddonMessageOutputAirnotifierDevicesPage.prototype.refreshDevices = function (refresher) {
+        var _this = this;
+        this.airnotifierProivder.invalidateUserDevices().finally(function () {
+            _this.fetchDevices().finally(function () {
+                refresher.complete();
+            });
+        });
+    };
+    /**
+     * Enable or disable a certain device.
+     *
+     * @param {any} device The device object.
+     * @param {boolean} enable True to enable the device, false to disable it.
+     */
+    AddonMessageOutputAirnotifierDevicesPage.prototype.enableDevice = function (device, enable) {
+        var _this = this;
+        device.updating = true;
+        this.airnotifierProivder.enableDevice(device.id, enable).then(function () {
+            // Update the list of devices since it was modified.
+            _this.updateDevicesAfterDelay();
+        }).catch(function (message) {
+            // Show error and revert change.
+            _this.domUtils.showErrorModal(message);
+            device.enable = !device.enable;
+        }).finally(function () {
+            device.updating = false;
+        });
+    };
+    /**
+     * Page destroyed.
+     */
+    AddonMessageOutputAirnotifierDevicesPage.prototype.ngOnDestroy = function () {
+        // If there is a pending action to update devices, execute it right now.
+        if (this.updateTimeout) {
+            clearTimeout(this.updateTimeout);
+            this.updateDevices();
+        }
+    };
+    AddonMessageOutputAirnotifierDevicesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-course-completion-report',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\coursecompletion\pages\report\report.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.coursecompletion.coursecompletion\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<addon-course-completion-report class="core-avoid-header" [courseId]="courseId" [userId]="userId"></addon-course-completion-report>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\coursecompletion\pages\report\report.html"*/,
+            selector: 'page-addon-message-output-airnotifier-devices',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\messageoutput\airnotifier\pages\devices\devices.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.messageoutput_airnotifier.processorsettingsdesc\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="devicesLoaded" (ionRefresh)="refreshDevices($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-loading [hideUntil]="devicesLoaded">\n\n        <ion-list>\n\n            <ion-item text-wrap *ngFor="let device of devices">\n\n                <ion-label [class.core-bold]="device.current">\n\n                    {{ device.model }}\n\n                    <span *ngIf="device.current">({{ \'core.currentdevice\' | translate }})</span>\n\n                </ion-label>\n\n                <ion-spinner *ngIf="device.updating" item-end></ion-spinner>\n\n                <ion-toggle [disabled]="device.updating" [(ngModel)]="device.enable" (ngModelChange)="enableDevice(device, device.enable)"></ion-toggle>\n\n            </ion-item>\n\n        </ion-list>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\messageoutput\airnotifier\pages\devices\devices.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]])
-    ], AddonCourseCompletionReportPage);
-    return AddonCourseCompletionReportPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_airnotifier__["a" /* AddonMessageOutputAirnotifierProvider */],
+            __WEBPACK_IMPORTED_MODULE_2__addon_pushnotifications_providers_pushnotifications__["a" /* AddonPushNotificationsProvider */]])
+    ], AddonMessageOutputAirnotifierDevicesPage);
+    return AddonMessageOutputAirnotifierDevicesPage;
 }());
 
-//# sourceMappingURL=report.js.map
+//# sourceMappingURL=devices.js.map
 
 /***/ })
 

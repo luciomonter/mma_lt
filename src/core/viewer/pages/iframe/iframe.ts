@@ -49,7 +49,7 @@ export class CoreViewerIframePage {
             this.url = url;
         }
 		
-		
+		/*
 		jQuery( document ).ready(function() {
 			var customPage = jQuery("ng-component.app-root").attr("skilla_page_name");
 			if(customPage == "skilla_bcc_comp"){
@@ -80,7 +80,7 @@ export class CoreViewerIframePage {
 				}
 			}
 		});
-				
+		*/		
 		
 		
     }

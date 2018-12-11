@@ -28,7 +28,7 @@ import { AddonPushNotificationsDelegate } from '@addon/pushnotifications/provide
 export class AddonAxificationsMainMenuHandler implements CoreMainMenuHandler {
     name = 'AddonAxifications';
     priority = 703;
-	
+	 
     protected handler: CoreMainMenuHandlerData = {
         icon: 'people',
         title: 'addon.axifications.axifications',

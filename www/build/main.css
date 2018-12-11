@@ -44484,15 +44484,6 @@ ion-navbar.toolbar {
   height: 100%;
 }
 
-ion-app.app-root page-addon-axifications-settings .list-header {
-  margin-bottom: 0;
-  border-top: 0;
-}
-
-ion-app.app-root page-addon-axifications-settings .toggle {
-  display: inline-block;
-}
-
 ion-app.app-root addon-messages-discussions h2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -50490,9 +50481,9 @@ ion-app.app-root page-core-login-forgotten-password .content {
 }
 
 ion-app.app-root page-core-login-init .scroll-content {
-  background-color: #ff5c00;
+  background-color: #264D7A;
   /* Change this to add a bg image or change color */
-  background: radial-gradient(#ff7600, #ff5c00);
+  background: radial-gradient(#306095, #264D7A);
   background-repeat: no-repeat;
   background-position: center center;
 }

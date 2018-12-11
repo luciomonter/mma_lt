@@ -1,6 +1,6 @@
 webpackJsonp([3],{
 
-/***/ 1760:
+/***/ 1784:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10,10 +10,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(1873);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__list__ = __webpack_require__(1875);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(1906);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__list__ = __webpack_require__(1908);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -66,7 +66,7 @@ var AddonAxificationsListPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 1873:
+/***/ 1906:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -75,7 +75,7 @@ var AddonAxificationsListPageModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__actions_actions__ = __webpack_require__(1874);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__actions_actions__ = __webpack_require__(1907);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -126,13 +126,13 @@ var AddonAxificationsComponentsModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 1874:
+/***/ 1907:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonAxificationsActionsComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core_contentlinks_providers_delegate__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core_contentlinks_providers_delegate__ = __webpack_require__(33);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -195,20 +195,21 @@ var AddonAxificationsActionsComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 1875:
+/***/ 1908:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonAxificationsListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_text__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_utils__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_axifications__ = __webpack_require__(192);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__addon_pushnotifications_providers_delegate__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_axifications__ = __webpack_require__(391);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_common_http__ = __webpack_require__(149);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_operators__ = __webpack_require__(939);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_operators___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_operators__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser__ = __webpack_require__(78);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -239,19 +240,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
 /**
  * Page that displays the list of axifications.
  */
 var AddonAxificationsListPage = /** @class */ (function () {
-    function AddonAxificationsListPage(navParams, domUtils, eventsProvider, sitesProvider, textUtils, utils, axificationsProvider, pushNotificationsDelegate) {
-        this.domUtils = domUtils;
-        this.eventsProvider = eventsProvider;
+    function AddonAxificationsListPage(navParams, _http, sitesProvider, sanitizer, axificationsProvider) {
+        this._http = _http;
         this.sitesProvider = sitesProvider;
-        this.textUtils = textUtils;
-        this.utils = utils;
+        this.sanitizer = sanitizer;
         this.axificationsProvider = axificationsProvider;
-        this.pushNotificationsDelegate = pushNotificationsDelegate;
         this.axifications = [];
         this.axificationsLoaded = false;
         this.canLoadMore = false;
@@ -263,15 +260,19 @@ var AddonAxificationsListPage = /** @class */ (function () {
     /**
      * View loaded.
      */
-    AddonAxificationsListPage.prototype.ionViewDidLoad = function (siteId) {
-        jQuery(document).ready(function () {
-            console.log("ax jQuery ready!");
+    AddonAxificationsListPage.prototype.ionViewDidLoad = function () {
+        /*
+        jQuery( document ).ready(function() {
+            console.log( "ax jQuery ready!" );
             //alert("axification READY");
+ 
         });
+        */
+        var _this = this;
         var site = this.sitesProvider.getCurrentSite();
         // Get username and fullname.  
         /// BCC SVIL:
-        var AUTH_USER_KEY_wsToken = "23dfa2e513f8416e91bf133af800c3e0";
+        var AUTH_USER_KEY_wsToken = "8c98e14eef68957f1aacb7451388b4e2";
         /// BCC TEST:
         //var AUTH_USER_KEY_wsToken = "eb15b5da943a5546296e027bee29f1b1"; 
         /// BCC PROD:
@@ -280,154 +281,85 @@ var AddonAxificationsListPage = /** @class */ (function () {
         var fullName = site.getInfo().fullname;
         var userName = site.getInfo().username;
         var siteUrl = site.getURL();
-        var wsToken = site.getToken();
         /*
         console.log( "---userName:: " + userName );
         console.log( "---siteUrl:: " + siteUrl );
-        console.log( "---wsToken:: " + wsToken );
         */
         var wantsURL = siteUrl + "/local/axperformance/splash.php";
         var functionOnWS = 'auth_userkey_request_login_url';
-        this.getMyLoginUrl(userName, wantsURL, AUTH_USER_KEY_wsToken, siteUrl, functionOnWS);
+        //var responseFromWs = this.getMyLoginUrl(userName,wantsURL,AUTH_USER_KEY_wsToken,siteUrl,functionOnWS);
+        this.getMyLoginUrl(userName, wantsURL, AUTH_USER_KEY_wsToken, siteUrl, functionOnWS)
+            .subscribe(function (resp) {
+            //console.log("goo:: " + resp.loginurl);
+            _this.afterDirectLoginUrlObtained(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL));
+        });
     };
     AddonAxificationsListPage.prototype.getMyLoginUrl = function (usernameToLogin, wantsUrl, wsToken, moodleDomain, functionNameOnWS) {
         var serverUrl = moodleDomain + '/webservice/rest/server.php' + '?wstoken=' + wsToken + '&wsfunction=' + functionNameOnWS + '&moodlewsrestformat=json';
+        //console.log( "ax jQuery ready1!" );
+        var userToWs = { user: { username: usernameToLogin } };
+        return this._http.post(serverUrl, userToWs, {
+            headers: new __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["d" /* HttpHeaders */]()
+                .set('Content-Type', 'application/x-www-form-urlencoded')
+        })
+            .pipe(Object(__WEBPACK_IMPORTED_MODULE_6_rxjs_operators__["catchError"])(this.handleError) // then handle the error
+        );
+        /*
+        /// INTERNAL APP APPROACH
+        var site = this.sitesProvider.getCurrentSite()
+        const preSets = {
+            getFromCache: false,
+            wstoken:wsToken,
+            saveToCache: false
+        };
+        var siteResponse = site.read(functionNameOnWS, userToWs, preSets);
+        */
+        /*
+        /// JQUERY APPROACH
         var wantsUrltoAdd = '&wantsurl=' + encodeURI(wantsUrl);
-        var loginUrl = '';
         var bindToApp = this;
-        jQuery.post(serverUrl, "user[username]=" + usernameToLogin)
-            .done(function (data) {
+        jQuery.post( serverUrl, "user[username]="+usernameToLogin)
+          .done(function( data ) {
             //alert( "Data Loaded: " + data );
             console.log(data.loginurl);
             loginUrl = data.loginurl + wantsUrltoAdd;
             bindToApp.afterDirectLoginUrlObtained(loginUrl);
         });
+        */
+    };
+    AddonAxificationsListPage.prototype.handleError = function (error) {
+        if (error.error instanceof ErrorEvent) {
+            // A client-side or network error occurred. Handle it accordingly.
+            console.error('An error occurred:', error.error.message);
+        }
+        else {
+            // The backend returned an unsuccessful response code.
+            // The response body may contain clues as to what went wrong,
+            console.error("Backend returned code " + error.status + ", " +
+                ("body was: " + error.error));
+        }
+        // return an observable with a user-facing error message
+        return Object(__WEBPACK_IMPORTED_MODULE_5_rxjs__["throwError"])('Something bad happened; please try again later.');
     };
     AddonAxificationsListPage.prototype.afterDirectLoginUrlObtained = function (loginUrl) {
         console.log("goo:: " + loginUrl);
-        jQuery("#embeded_iframe").attr("src", loginUrl);
+        this.safeLoginUrl = this.sanitizer.bypassSecurityTrustResourceUrl(loginUrl);
+        //this.currentLoginUrl = loginUrl;
+        //jQuery("#embeded_iframe").attr("src",loginUrl);
         /// binding to bottom menu
-        jQuery("a.tab-button").click(function () {
+        /*
+        jQuery("a.tab-button").click(function() {
             console.log("change TAB");
-            /*
+            
             if( !(jQuery("ion-header.header").is(':visible') )){
                 jQuery("ion-header.header").show('slide', { direction: "up" }, 500, function() {
                     $("div.scroll-content").css("margin-top","51px");
                 });
             }
-            */
+            
+            
         });
-    };
-    /**
-     * Convenience function to get axifications. Gets unread axifications first.
-     *
-     * @param {boolean} refreh Whether we're refreshing data.
-     * @return {Promise<any>} Resolved when done.
-     */
-    AddonAxificationsListPage.prototype.fetchAxifications = function (refresh) {
-        var _this = this;
-        if (refresh) {
-            this.readCount = 0;
-            this.unreadCount = 0;
-        }
-        var limit = __WEBPACK_IMPORTED_MODULE_7__providers_axifications__["a" /* AddonAxificationsProvider */].LIST_LIMIT;
-        return this.axificationsProvider.getUnreadAxifications(this.unreadCount, limit).then(function (unread) {
-            var promises = [];
-            unread.forEach(_this.formatText.bind(_this));
-            /* Don't add the unread axifications to this.axifications yet. If there are no unread axifications
-               that causes that the "There are no axifications" message is shown in pull to refresh. */
-            _this.unreadCount += unread.length;
-            if (unread.length < limit) {
-                // Limit not reached. Get read axifications until reach the limit.
-                var readLimit_1 = limit - unread.length;
-                promises.push(_this.axificationsProvider.getReadAxifications(_this.readCount, readLimit_1).then(function (read) {
-                    read.forEach(_this.formatText.bind(_this));
-                    _this.readCount += read.length;
-                    if (refresh) {
-                        _this.axifications = unread.concat(read);
-                    }
-                    else {
-                        _this.axifications = _this.axifications.concat(unread, read);
-                    }
-                    _this.canLoadMore = read.length >= readLimit_1;
-                }).catch(function (error) {
-                    if (unread.length == 0) {
-                        //alert("ax error");
-                        _this.domUtils.showErrorModalDefault(error, 'addon.axifications.errorgetaxifications', true);
-                        _this.canLoadMore = false; // Set to false to prevent infinite calls with infinite-loading.
-                    }
-                }));
-            }
-            else {
-                if (refresh) {
-                    _this.axifications = unread;
-                }
-                else {
-                    _this.axifications = _this.axifications.concat(unread);
-                }
-                _this.canLoadMore = true;
-            }
-            return Promise.all(promises).then(function () {
-                // Mark retrieved axifications as read if they are not.
-                _this.markAxificationsAsRead(unread);
-            });
-        }).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'addon.axifications.errorgetaxifications', true);
-            _this.canLoadMore = false; // Set to false to prevent infinite calls with infinite-loading.
-        });
-    };
-    /**
-     * Mark all axifications as read.
-     */
-    AddonAxificationsListPage.prototype.markAllAxificationsAsRead = function () {
-        var _this = this;
-        this.loadingMarkAllAxificationsAsRead = true;
-        this.axificationsProvider.markAllAxificationsAsRead().catch(function () {
-            // Omit failure.
-        }).finally(function () {
-            var siteId = _this.sitesProvider.getCurrentSiteId();
-            _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_7__providers_axifications__["a" /* AddonAxificationsProvider */].READ_CHANGED_EVENT, null, siteId);
-            _this.axificationsProvider.getUnreadAxificationsCount().then(function (unread) {
-                _this.canMarkAllAxificationsAsRead = unread > 0;
-                _this.loadingMarkAllAxificationsAsRead = false;
-            });
-        });
-    };
-    /**
-     * Mark axifications as read.
-     *
-     * @param {any[]} axifications Array of notification objects.
-     */
-    AddonAxificationsListPage.prototype.markAxificationsAsRead = function (axifications) {
-        var _this = this;
-        var promise;
-        if (axifications.length > 0) {
-            var promises = axifications.map(function (notification) {
-                return _this.axificationsProvider.markNotificationRead(notification.id);
-            });
-            promise = Promise.all(promises).catch(function () {
-                // Ignore errors.
-            }).finally(function () {
-                _this.axificationsProvider.invalidateAxificationsList().finally(function () {
-                    var siteId = _this.sitesProvider.getCurrentSiteId();
-                    _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_7__providers_axifications__["a" /* AddonAxificationsProvider */].READ_CHANGED_EVENT, null, siteId);
-                });
-            });
-        }
-        else {
-            promise = Promise.resolve();
-        }
-        promise.finally(function () {
-            // Check if mark all axifications as read is enabled and there are some to read.
-            if (_this.axificationsProvider.isMarkAllAxificationsAsReadEnabled()) {
-                _this.loadingMarkAllAxificationsAsRead = true;
-                return _this.axificationsProvider.getUnreadAxificationsCount().then(function (unread) {
-                    _this.canMarkAllAxificationsAsRead = unread > 0;
-                    _this.loadingMarkAllAxificationsAsRead = false;
-                });
-            }
-            _this.canMarkAllAxificationsAsRead = false;
-        });
+        */
     };
     /**
      * Refresh axifications.
@@ -435,50 +367,25 @@ var AddonAxificationsListPage = /** @class */ (function () {
      * @param {any} [refresher] Refresher.
      */
     AddonAxificationsListPage.prototype.refreshAxifications = function (refresher) {
-        var _this = this;
-        alert("hey babe!");
-        this.axificationsProvider.invalidateAxificationsList().finally(function () {
-            return _this.fetchAxifications(true).finally(function () {
-                if (refresher) {
-                    refresher.complete();
-                }
-            });
-        });
-    };
-    /**
-     * Load more results.
-     *
-     * @param {any} infiniteScroll The infinit scroll instance.
-     */
-    AddonAxificationsListPage.prototype.loadMoreAxifications = function (infiniteScroll) {
-        this.fetchAxifications().finally(function () {
-            infiniteScroll.complete();
-        });
-    };
-    /**
-     * Formats the text of a notification.
-     *
-     * @param {any} notification The notification object.
-     */
-    AddonAxificationsListPage.prototype.formatText = function (notification) {
-        var text = notification.mobiletext.replace(/-{4,}/ig, '');
-        notification.mobiletext = this.textUtils.replaceNewLines(text, '<br>');
+        console.log("refreshAxifications");
     };
     /**
      * Page destroyed.
      */
     AddonAxificationsListPage.prototype.ngOnDestroy = function () {
+        /*
         this.cronObserver && this.cronObserver.off();
         this.pushObserver && this.pushObserver.unsubscribe();
+        */
     };
     AddonAxificationsListPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-axifications-list',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\axifications\pages\list\list.html"*/'﻿<!-- ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.axifications.axifications\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header -->\n\n<ion-content>\n\n    <ion-refresher [enabled]="axificationsLoaded" (ionRefresh)="refreshAxifications($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n	\n\n	<iframe id="embeded_iframe" src="" class="iframe" scrolling="yes" ></iframe>\n\n	\n\n	\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\axifications\pages\list\list.html"*/,
+            selector: 'page-addon-axifications-list',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\axifications\pages\list\list.html"*/'﻿<!-- ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.axifications.axifications\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header -->\n\n<ion-content>\n\n    <ion-refresher [enabled]="axificationsLoaded" (ionRefresh)="refreshAxifications($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n	\n\n	<iframe id="embeded_iframe" [src]="safeLoginUrl" class="iframe" scrolling="yes" ></iframe> \n\n	\n\n	\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\axifications\pages\list\list.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__providers_utils_dom__["a" /* CoreDomUtilsProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_utils_dom__["a" /* CoreDomUtilsProvider */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_4__providers_events__["a" /* CoreEventsProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__providers_events__["a" /* CoreEventsProvider */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_3__providers_utils_text__["a" /* CoreTextUtilsProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__providers_utils_text__["a" /* CoreTextUtilsProvider */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_6__providers_utils_utils__["a" /* CoreUtilsProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__providers_utils_utils__["a" /* CoreUtilsProvider */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_7__providers_axifications__["a" /* AddonAxificationsProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__providers_axifications__["a" /* AddonAxificationsProvider */]) === "function" && _g || Object, typeof (_h = typeof __WEBPACK_IMPORTED_MODULE_8__addon_pushnotifications_providers_delegate__["a" /* AddonPushNotificationsDelegate */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_8__addon_pushnotifications_providers_delegate__["a" /* AddonPushNotificationsDelegate */]) === "function" && _h || Object])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["b" /* HttpClient */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["b" /* HttpClient */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser__["c" /* DomSanitizer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser__["c" /* DomSanitizer */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_3__providers_axifications__["a" /* AddonAxificationsProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__providers_axifications__["a" /* AddonAxificationsProvider */]) === "function" && _e || Object])
     ], AddonAxificationsListPage);
     return AddonAxificationsListPage;
-    var _a, _b, _c, _d, _e, _f, _g, _h;
+    var _a, _b, _c, _d, _e;
 }());
 
 //# sourceMappingURL=list.js.map

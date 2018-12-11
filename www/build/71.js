@@ -1,17 +1,18 @@
 webpackJsonp([71],{
 
-/***/ 1800:
+/***/ 1833:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModLessonPlayerPageModule", function() { return AddonModLessonPlayerPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModLessonUserRetakePageModule", function() { return AddonModLessonUserRetakePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__player__ = __webpack_require__(1915);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__user_retake__ = __webpack_require__(1957);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -37,51 +38,46 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var AddonModLessonPlayerPageModule = /** @class */ (function () {
-    function AddonModLessonPlayerPageModule() {
+
+var AddonModLessonUserRetakePageModule = /** @class */ (function () {
+    function AddonModLessonUserRetakePageModule() {
     }
-    AddonModLessonPlayerPageModule = __decorate([
+    AddonModLessonUserRetakePageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__player__["a" /* AddonModLessonPlayerPage */],
+                __WEBPACK_IMPORTED_MODULE_6__user_retake__["a" /* AddonModLessonUserRetakePage */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
                 __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__player__["a" /* AddonModLessonPlayerPage */]),
+                __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__user_retake__["a" /* AddonModLessonUserRetakePage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], AddonModLessonPlayerPageModule);
-    return AddonModLessonPlayerPageModule;
+    ], AddonModLessonUserRetakePageModule);
+    return AddonModLessonUserRetakePageModule;
 }());
 
-//# sourceMappingURL=player.module.js.map
+//# sourceMappingURL=user-retake.module.js.map
 
 /***/ }),
 
-/***/ 1915:
+/***/ 1957:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModLessonPlayerPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModLessonUserRetakePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_app__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_logger__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_sync__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_utils_time__ = __webpack_require__(22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_utils_url__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_utils_utils__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_lesson__ = __webpack_require__(96);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_lesson_offline__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__providers_lesson_sync__ = __webpack_require__(254);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__providers_helper__ = __webpack_require__(924);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_time__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__core_user_providers_user__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_lesson__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_helper__ = __webpack_require__(936);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -114,546 +110,188 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
-
-
-
-
-
-
 /**
- * Page that allows attempting and reviewing a lesson.
+ * Page that displays a retake made by a certain user.
  */
-var AddonModLessonPlayerPage = /** @class */ (function () {
-    function AddonModLessonPlayerPage(navParams, logger, translate, eventsProvider, sitesProvider, syncProvider, domUtils, popoverCtrl, timeUtils, lessonProvider, lessonHelper, lessonSync, lessonOfflineProvider, cdr, modalCtrl, navCtrl, appProvider, utils, urlUtils, fb) {
-        this.navParams = navParams;
+var AddonModLessonUserRetakePage = /** @class */ (function () {
+    function AddonModLessonUserRetakePage(navParams, sitesProvider, textUtils, translate, domUtils, userProvider, timeUtils, lessonProvider, lessonHelper) {
+        this.textUtils = textUtils;
         this.translate = translate;
-        this.eventsProvider = eventsProvider;
-        this.sitesProvider = sitesProvider;
-        this.syncProvider = syncProvider;
         this.domUtils = domUtils;
+        this.userProvider = userProvider;
         this.timeUtils = timeUtils;
         this.lessonProvider = lessonProvider;
         this.lessonHelper = lessonHelper;
-        this.lessonSync = lessonSync;
-        this.lessonOfflineProvider = lessonOfflineProvider;
-        this.cdr = cdr;
-        this.navCtrl = navCtrl;
-        this.appProvider = appProvider;
-        this.utils = utils;
-        this.urlUtils = urlUtils;
-        this.fb = fb;
-        this.component = __WEBPACK_IMPORTED_MODULE_13__providers_lesson__["a" /* AddonModLessonProvider */].COMPONENT;
-        this.LESSON_EOL = __WEBPACK_IMPORTED_MODULE_13__providers_lesson__["a" /* AddonModLessonProvider */].LESSON_EOL;
-        this.forceLeave = false; // If true, don't perform any check when leaving the view.
+        this.component = __WEBPACK_IMPORTED_MODULE_8__providers_lesson__["a" /* AddonModLessonProvider */].COMPONENT;
         this.lessonId = navParams.get('lessonId');
         this.courseId = navParams.get('courseId');
-        this.password = navParams.get('password');
-        this.review = !!navParams.get('review');
-        this.currentPage = navParams.get('pageId');
-        // Block the lesson so it cannot be synced.
-        this.syncProvider.blockOperation(this.component, this.lessonId);
-        // Create the navigation modal.
-        this.menuModal = modalCtrl.create('AddonModLessonMenuModalPage', {
-            page: this
-        });
+        this.userId = navParams.get('userId') || sitesProvider.getCurrentSiteUserId();
+        this.retakeNumber = navParams.get('retake');
     }
     /**
      * Component being initialized.
      */
-    AddonModLessonPlayerPage.prototype.ngOnInit = function () {
+    AddonModLessonUserRetakePage.prototype.ngOnInit = function () {
         var _this = this;
-        // Fetch the Lesson data.
-        this.fetchLessonData().then(function (success) {
-            if (success) {
-                // Review data loaded or new retake started, remove any retake being finished in sync.
-                _this.lessonSync.deleteRetakeFinishedInSync(_this.lessonId);
-            }
+        // Fetch the data.
+        this.fetchData().finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Change the retake displayed.
+     *
+     * @param {number} retakeNumber The new retake number.
+     */
+    AddonModLessonUserRetakePage.prototype.changeRetake = function (retakeNumber) {
+        var _this = this;
+        this.loaded = false;
+        this.setRetake(retakeNumber).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'Error getting attempt.');
         }).finally(function () {
             _this.loaded = true;
         });
     };
     /**
-     * Component being destroyed.
-     */
-    AddonModLessonPlayerPage.prototype.ngOnDestroy = function () {
-        // Unblock the lesson so it can be synced.
-        this.syncProvider.unblockOperation(this.component, this.lessonId);
-    };
-    /**
-     * Check if we can leave the page or not.
+     * Pull to refresh.
      *
-     * @return {boolean|Promise<void>} Resolved if we can leave it, rejected if not.
+     * @param {any} refresher Refresher.
      */
-    AddonModLessonPlayerPage.prototype.ionViewCanLeave = function () {
-        if (this.forceLeave) {
-            return true;
-        }
-        if (this.question && !this.eolData && !this.processData && this.originalData) {
-            // Question shown. Check if there is any change.
-            if (!this.utils.basicLeftCompare(this.questionForm.getRawValue(), this.originalData, 3)) {
-                return this.domUtils.showConfirm(this.translate.instant('core.confirmcanceledit'));
-            }
-        }
-        return Promise.resolve();
-    };
-    /**
-     * A button was clicked.
-     *
-     * @param {any} data Button data.
-     */
-    AddonModLessonPlayerPage.prototype.buttonClicked = function (data) {
-        this.processPage(data);
-    };
-    /**
-     * Call a function and go offline if allowed and the call fails.
-     *
-     * @param {Function} func Function to call.
-     * @param {any[]} args Arguments to pass to the function.
-     * @param {number} offlineParamPos Position of the offline parameter in the args.
-     * @param {number} [jumpsParamPos] Position of the jumps parameter in the args.
-     * @return {Promise<any>} Promise resolved in success, rejected otherwise.
-     */
-    AddonModLessonPlayerPage.prototype.callFunction = function (func, args, offlineParamPos, jumpsParamPos) {
-        var _this = this;
-        return func.apply(func, args).catch(function (error) {
-            if (!_this.offline && !_this.review && _this.lessonProvider.isLessonOffline(_this.lesson) &&
-                !_this.utils.isWebServiceError(error)) {
-                // If it fails, go offline.
-                _this.offline = true;
-                // Get the possible jumps now.
-                return _this.lessonProvider.getPagesPossibleJumps(_this.lesson.id, true).then(function (jumpList) {
-                    _this.jumps = jumpList;
-                    // Call the function again with offline set to true and the new jumps.
-                    args[offlineParamPos] = true;
-                    if (typeof jumpsParamPos != 'undefined') {
-                        args[jumpsParamPos] = _this.jumps;
-                    }
-                    return func.apply(func, args);
-                });
-            }
-            return Promise.reject(error);
+    AddonModLessonUserRetakePage.prototype.doRefresh = function (refresher) {
+        this.refreshData().finally(function () {
+            refresher.complete();
         });
     };
     /**
-     * Change the page from menu or when continuing from a feedback page.
+     * Get lesson and retake data.
      *
-     * @param {number} pageId Page to load.
-     * @param {boolean} [ignoreCurrent] If true, allow loading current page.
+     * @return {Promise<any>} Promise resolved when done.
      */
-    AddonModLessonPlayerPage.prototype.changePage = function (pageId, ignoreCurrent) {
+    AddonModLessonUserRetakePage.prototype.fetchData = function () {
         var _this = this;
-        if (!ignoreCurrent && !this.eolData && this.currentPage == pageId) {
-            // Page already loaded, stop.
-            return;
-        }
-        this.loaded = true;
-        this.messages = [];
-        this.loadPage(pageId).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'Error loading page');
-        }).finally(function () {
-            _this.loaded = true;
-        });
-    };
-    /**
-     * Get the lesson data and load the page.
-     *
-     * @return {Promise<boolean>} Promise resolved with true if success, resolved with false otherwise.
-     */
-    AddonModLessonPlayerPage.prototype.fetchLessonData = function () {
-        var _this = this;
-        // Wait for any ongoing sync to finish. We won't sync a lesson while it's being played.
-        return this.lessonSync.waitForSync(this.lessonId).then(function () {
-            return _this.lessonProvider.getLessonById(_this.courseId, _this.lessonId);
-        }).then(function (lessonData) {
+        return this.lessonProvider.getLessonById(this.courseId, this.lessonId).then(function (lessonData) {
             _this.lesson = lessonData;
-            _this.title = _this.lesson.name; // Temporary title.
-            // If lesson has offline data already, use offline mode.
-            return _this.lessonOfflineProvider.hasOfflineData(_this.lessonId);
-        }).then(function (offlineMode) {
-            _this.offline = offlineMode;
-            if (!offlineMode && !_this.appProvider.isOnline() && _this.lessonProvider.isLessonOffline(_this.lesson) && !_this.review) {
-                // Lesson doesn't have offline data, but it allows offline and the device is offline. Use offline mode.
-                _this.offline = true;
-            }
-            return _this.callFunction(_this.lessonProvider.getAccessInformation.bind(_this.lessonProvider), [_this.lesson.id, _this.offline, true], 1);
-        }).then(function (info) {
-            var promises = [];
-            _this.accessInfo = info;
-            _this.canManage = info.canmanage;
-            _this.retake = info.attemptscount;
-            _this.showRetake = !_this.currentPage && _this.retake > 0; // Only show it in first page if it isn't the first retake.
-            if (info.preventaccessreasons && info.preventaccessreasons.length) {
-                // If it's a password protected lesson and we have the password, allow playing it.
-                if (!_this.password || info.preventaccessreasons.length > 1 || !_this.lessonProvider.isPasswordProtected(info)) {
-                    // Lesson cannot be played, show message and go back.
-                    return Promise.reject(info.preventaccessreasons[0].message);
-                }
-            }
-            if (_this.review && _this.navParams.get('retake') != info.attemptscount - 1) {
-                // Reviewing a retake that isn't the last one. Error.
-                return Promise.reject(_this.translate.instant('addon.mod_lesson.errorreviewretakenotlast'));
-            }
-            if (_this.password) {
-                // Lesson uses password, get the whole lesson object.
-                promises.push(_this.callFunction(_this.lessonProvider.getLessonWithPassword.bind(_this.lessonProvider), [_this.lesson.id, _this.password, true, _this.offline, true], 3).then(function (lesson) {
-                    _this.lesson = lesson;
-                }));
-            }
-            if (_this.offline) {
-                // Offline mode, get the list of possible jumps to allow navigation.
-                promises.push(_this.lessonProvider.getPagesPossibleJumps(_this.lesson.id, true).then(function (jumpList) {
-                    _this.jumps = jumpList;
-                }));
-            }
-            return Promise.all(promises);
-        }).then(function () {
-            _this.mediaFile = _this.lesson.mediafiles && _this.lesson.mediafiles[0];
-            _this.lessonWidth = _this.lesson.slideshow ? _this.domUtils.formatPixelsSize(_this.lesson.mediawidth) : '';
-            _this.lessonHeight = _this.lesson.slideshow ? _this.domUtils.formatPixelsSize(_this.lesson.mediaheight) : '';
-            return _this.launchRetake(_this.currentPage);
-        }).then(function () {
-            return true;
-        }).catch(function (error) {
-            // An error occurred.
-            var promise;
-            if (_this.review && _this.navParams.get('retake') && _this.utils.isWebServiceError(error)) {
-                // The user cannot review the retake. Unmark the retake as being finished in sync.
-                promise = _this.lessonSync.deleteRetakeFinishedInSync(_this.lessonId);
-            }
-            else {
-                promise = Promise.resolve();
-            }
-            return promise.then(function () {
-                _this.domUtils.showErrorModalDefault(error, 'core.course.errorgetmodule', true);
-                _this.forceLeave = true;
-                _this.navCtrl.pop();
-                return false;
-            });
-        });
-    };
-    /**
-     * Finish the retake.
-     *
-     * @param {boolean} [outOfTime] Whether the retake is finished because the user ran out of time.
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonModLessonPlayerPage.prototype.finishRetake = function (outOfTime) {
-        var _this = this;
-        var promise;
-        this.messages = [];
-        if (this.offline && this.appProvider.isOnline()) {
-            // Offline mode but the app is online. Try to sync the data.
-            promise = this.lessonSync.syncLesson(this.lesson.id, true, true).then(function (result) {
-                if (result.warnings && result.warnings.length) {
-                    var error_1 = result.warnings[0];
-                    // Some data was deleted. Check if the retake has changed.
-                    return _this.lessonProvider.getAccessInformation(_this.lesson.id).then(function (info) {
-                        if (info.attemptscount != _this.accessInfo.attemptscount) {
-                            // The retake has changed. Leave the view and show the error.
-                            _this.forceLeave = true;
-                            _this.navCtrl.pop();
-                            return Promise.reject(error_1);
-                        }
-                        // Retake hasn't changed, show the warning and finish the retake in offline.
-                        _this.offline = false;
-                        _this.domUtils.showErrorModal(error_1);
-                    });
-                }
-                _this.offline = false;
-            }, function () {
-                // Ignore errors.
-            });
-        }
-        else {
-            promise = Promise.resolve();
-        }
-        return promise.then(function () {
-            // Now finish the retake.
-            var args = [_this.lesson, _this.courseId, _this.password, outOfTime, _this.review, _this.offline, _this.accessInfo];
-            return _this.callFunction(_this.lessonProvider.finishRetake.bind(_this.lessonProvider), args, 5);
+            // Get the retakes overview for all participants.
+            return _this.lessonProvider.getRetakesOverview(_this.lesson.id);
         }).then(function (data) {
-            _this.title = _this.lesson.name;
-            _this.eolData = data.data;
-            _this.messages = _this.messages.concat(data.messages);
-            _this.processData = undefined;
-            // Format activity link if present.
-            if (_this.eolData && _this.eolData.activitylink) {
-                _this.eolData.activitylink.value = _this.lessonHelper.formatActivityLink(_this.eolData.activitylink.value);
-            }
-            // Format review lesson if present.
-            if (_this.eolData && _this.eolData.reviewlesson) {
-                var params = _this.urlUtils.extractUrlParams(_this.eolData.reviewlesson.value);
-                if (!params || !params.pageid) {
-                    // No pageid in the URL, the user cannot review (probably didn't answer any question).
-                    delete _this.eolData.reviewlesson;
-                }
-                else {
-                    _this.eolData.reviewlesson.pageid = params.pageid;
+            // Search the student.
+            var student;
+            if (data && data.students) {
+                for (var i = 0; i < data.students.length; i++) {
+                    if (data.students[i].id == _this.userId) {
+                        student = data.students[i];
+                        break;
+                    }
                 }
             }
+            if (!student) {
+                // Student not found.
+                return Promise.reject(_this.translate.instant('addon.mod_lesson.cannotfinduser'));
+            }
+            if (!student.attempts || !student.attempts.length) {
+                // No retakes.
+                return Promise.reject(_this.translate.instant('addon.mod_lesson.cannotfindattempt'));
+            }
+            student.bestgrade = _this.textUtils.roundToDecimals(student.bestgrade, 2);
+            student.attempts.forEach(function (retake) {
+                if (_this.retakeNumber == retake.try) {
+                    // The retake specified as parameter exists. Use it.
+                    _this.selectedRetake = _this.retakeNumber;
+                }
+                retake.label = _this.lessonHelper.getRetakeLabel(retake);
+            });
+            if (!_this.selectedRetake) {
+                // Retake number not specified or not valid, use the last retake.
+                _this.selectedRetake = student.attempts[student.attempts.length - 1].try;
+            }
+            // Get the profile image of the user.
+            return _this.userProvider.getProfile(student.id, _this.courseId, true).then(function (user) {
+                student.profileimageurl = user.profileimageurl;
+                return student;
+            }).catch(function () {
+                // Error getting profile, resolve promise without adding any extra data.
+                return student;
+            });
+        }).then(function (student) {
+            _this.student = student;
+            return _this.setRetake(_this.selectedRetake);
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'Error getting data.', true);
         });
     };
     /**
-     * Jump to a certain page after performing an action.
+     * Refreshes data.
      *
-     * @param {number} pageId The page to load.
      * @return {Promise<any>} Promise resolved when done.
      */
-    AddonModLessonPlayerPage.prototype.jumpToPage = function (pageId) {
-        if (pageId === 0) {
-            // Not a valid page, return to entry view.
-            // This happens, for example, when the user clicks to go to previous page and there is no previous page.
-            this.forceLeave = true;
-            this.navCtrl.pop();
-            return Promise.resolve();
+    AddonModLessonUserRetakePage.prototype.refreshData = function () {
+        var _this = this;
+        var promises = [];
+        promises.push(this.lessonProvider.invalidateLessonData(this.courseId));
+        if (this.lesson) {
+            promises.push(this.lessonProvider.invalidateRetakesOverview(this.lesson.id));
+            promises.push(this.lessonProvider.invalidateUserRetakesForUser(this.lesson.id, this.userId));
         }
-        else if (pageId == __WEBPACK_IMPORTED_MODULE_13__providers_lesson__["a" /* AddonModLessonProvider */].LESSON_EOL) {
-            // End of lesson reached.
-            return this.finishRetake();
-        }
-        // Load new page.
-        this.messages = [];
-        return this.loadPage(pageId);
+        return Promise.all(promises).catch(function () {
+            // Ignore errors.
+        }).then(function () {
+            return _this.fetchData();
+        });
     };
     /**
-     * Start or continue a retake.
+     * Set the retake to view and load its data.
      *
-     * @param {number} pageId The page to load.
+     * @param {number}retakeNumber Retake number to set.
      * @return {Promise<any>} Promise resolved when done.
      */
-    AddonModLessonPlayerPage.prototype.launchRetake = function (pageId) {
+    AddonModLessonUserRetakePage.prototype.setRetake = function (retakeNumber) {
         var _this = this;
-        var promise;
-        if (this.review) {
-            // Review mode, no need to launch the retake.
-            promise = Promise.resolve({});
-        }
-        else if (!this.offline) {
-            // Not in offline mode, launch the retake.
-            promise = this.lessonProvider.launchRetake(this.lesson.id, this.password, pageId);
-        }
-        else {
-            // Check if there is a finished offline retake.
-            promise = this.lessonOfflineProvider.hasFinishedRetake(this.lesson.id).then(function (finished) {
-                if (finished) {
-                    // Always show EOL page.
-                    pageId = __WEBPACK_IMPORTED_MODULE_13__providers_lesson__["a" /* AddonModLessonProvider */].LESSON_EOL;
-                }
-                return {};
-            });
-        }
-        return promise.then(function (data) {
-            _this.currentPage = pageId || _this.accessInfo.firstpageid;
-            _this.messages = data.messages || [];
-            if (_this.lesson.timelimit && !_this.accessInfo.canmanage) {
-                // Get the last lesson timer.
-                return _this.lessonProvider.getTimers(_this.lesson.id, false, true).then(function (timers) {
-                    _this.endTime = timers[timers.length - 1].starttime + _this.lesson.timelimit;
+        this.selectedRetake = retakeNumber;
+        return this.lessonProvider.getUserRetake(this.lessonId, retakeNumber, this.userId).then(function (data) {
+            if (data && data.completed != -1) {
+                // Completed.
+                data.userstats.grade = _this.textUtils.roundToDecimals(data.userstats.grade, 2);
+                data.userstats.timetakenReadable = _this.timeUtils.formatTime(data.userstats.timetotake);
+            }
+            if (data && data.answerpages) {
+                // Format pages data.
+                data.answerpages.forEach(function (page) {
+                    if (_this.lessonProvider.answerPageIsContent(page)) {
+                        page.isContent = true;
+                        if (page.answerdata && page.answerdata.answers) {
+                            page.answerdata.answers.forEach(function (answer) {
+                                // Content pages only have 1 valid field in the answer array.
+                                answer[0] = _this.lessonHelper.getContentPageAnswerDataFromHtml(answer[0]);
+                            });
+                        }
+                    }
+                    else if (_this.lessonProvider.answerPageIsQuestion(page)) {
+                        page.isQuestion = true;
+                        if (page.answerdata && page.answerdata.answers) {
+                            page.answerdata.answers.forEach(function (answer) {
+                                // Only the first field of the answer array requires to be parsed.
+                                answer[0] = _this.lessonHelper.getQuestionPageAnswerDataFromHtml(answer[0]);
+                            });
+                        }
+                    }
                 });
             }
-        }).then(function () {
-            return _this.loadPage(_this.currentPage);
+            _this.retake = data;
         });
     };
-    /**
-     * Load the lesson menu.
-     *
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonModLessonPlayerPage.prototype.loadMenu = function () {
-        var _this = this;
-        if (this.loadingMenu) {
-            // Already loading.
-            return;
-        }
-        this.loadingMenu = true;
-        var args = [this.lessonId, this.password, this.offline, true];
-        return this.callFunction(this.lessonProvider.getPages.bind(this.lessonProvider), args, 2).then(function (pages) {
-            _this.lessonPages = pages.map(function (entry) {
-                return entry.page;
-            });
-        }).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'Error loading menu.');
-        }).finally(function () {
-            _this.loadingMenu = false;
-        });
-    };
-    /**
-     * Load a certain page.
-     *
-     * @param {number} pageId The page to load.
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonModLessonPlayerPage.prototype.loadPage = function (pageId) {
-        var _this = this;
-        if (pageId == __WEBPACK_IMPORTED_MODULE_13__providers_lesson__["a" /* AddonModLessonProvider */].LESSON_EOL) {
-            // End of lesson reached.
-            return this.finishRetake();
-        }
-        var args = [this.lesson, pageId, this.password, this.review, true, this.offline, true, this.accessInfo, this.jumps];
-        return this.callFunction(this.lessonProvider.getPageData.bind(this.lessonProvider), args, 5, 8).then(function (data) {
-            if (data.newpageid == __WEBPACK_IMPORTED_MODULE_13__providers_lesson__["a" /* AddonModLessonProvider */].LESSON_EOL) {
-                // End of lesson reached.
-                return _this.finishRetake();
-            }
-            _this.pageData = data;
-            _this.title = data.page.title;
-            _this.pageContent = _this.lessonHelper.getPageContentsFromPageData(data);
-            _this.loaded = true;
-            _this.currentPage = pageId;
-            _this.messages = _this.messages.concat(data.messages);
-            // Page loaded, hide EOL and feedback data if shown.
-            _this.eolData = _this.processData = undefined;
-            if (_this.lessonProvider.isQuestionPage(data.page.type)) {
-                // Create an empty FormGroup without controls, they will be added in getQuestionFromPageData.
-                _this.questionForm = _this.fb.group({});
-                _this.pageButtons = [];
-                _this.question = _this.lessonHelper.getQuestionFromPageData(_this.questionForm, data);
-                _this.originalData = _this.questionForm.getRawValue(); // Use getRawValue to include disabled values.
-            }
-            else {
-                _this.pageButtons = _this.lessonHelper.getPageButtonsFromHtml(data.pagecontent);
-                _this.question = undefined;
-                _this.originalData = undefined;
-            }
-            if (data.displaymenu && !_this.displayMenu) {
-                // Load the menu.
-                _this.loadMenu();
-            }
-            _this.displayMenu = !!data.displaymenu;
-            if (!_this.firstPageLoaded) {
-                _this.firstPageLoaded = true;
-            }
-            else {
-                _this.showRetake = false;
-            }
-        });
-    };
-    /**
-     * Process a page, sending some data.
-     *
-     * @param {any} data The data to send.
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonModLessonPlayerPage.prototype.processPage = function (data) {
-        var _this = this;
-        this.loaded = false;
-        var args = [this.lesson, this.courseId, this.pageData, data, this.password, this.review, this.offline, this.accessInfo,
-            this.jumps];
-        return this.callFunction(this.lessonProvider.processPage.bind(this.lessonProvider), args, 6, 8).then(function (result) {
-            if (!_this.offline && !_this.review && _this.lessonProvider.isLessonOffline(_this.lesson)) {
-                // Lesson allows offline and the user changed some data in server. Update cached data.
-                var retake = _this.accessInfo.attemptscount;
-                if (_this.lessonProvider.isQuestionPage(_this.pageData.page.type)) {
-                    _this.lessonProvider.getQuestionsAttemptsOnline(_this.lessonId, retake, false, undefined, false, true);
-                }
-                else {
-                    _this.lessonProvider.getContentPagesViewedOnline(_this.lessonId, retake, false, true);
-                }
-            }
-            if (result.nodefaultresponse || result.inmediatejump) {
-                // Don't display feedback or force a redirect to a new page. Load the new page.
-                return _this.jumpToPage(result.newpageid);
-            }
-            else {
-                // Not inmediate jump, show the feedback.
-                result.feedback = _this.lessonHelper.removeQuestionFromFeedback(result.feedback);
-                _this.messages = result.messages;
-                _this.processData = result;
-                _this.processData.buttons = [];
-                if (_this.lesson.review && !result.correctanswer && !result.noanswer && !result.isessayquestion &&
-                    !result.maxattemptsreached && !result.reviewmode) {
-                    // User can try again, show button to do so.
-                    _this.processData.buttons.push({
-                        label: 'addon.mod_lesson.reviewquestionback',
-                        pageId: _this.currentPage
-                    });
-                }
-                // Button to continue.
-                if (_this.lesson.review && !result.correctanswer && !result.noanswer && !result.isessayquestion &&
-                    !result.maxattemptsreached) {
-                    _this.processData.buttons.push({
-                        label: 'addon.mod_lesson.reviewquestioncontinue',
-                        pageId: result.newpageid
-                    });
-                }
-                else {
-                    _this.processData.buttons.push({
-                        label: 'addon.mod_lesson.continue',
-                        pageId: result.newpageid
-                    });
-                }
-            }
-        }).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'Error processing page');
-        }).finally(function () {
-            _this.loaded = true;
-        });
-    };
-    /**
-     * Review the lesson.
-     *
-     * @param {number} pageId Page to load.
-     */
-    AddonModLessonPlayerPage.prototype.reviewLesson = function (pageId) {
-        var _this = this;
-        this.loaded = false;
-        this.review = true;
-        this.offline = false; // Don't allow offline mode in review.
-        this.loadPage(pageId).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'Error loading page');
-        }).finally(function () {
-            _this.loaded = true;
-        });
-    };
-    /**
-     * Submit a question.
-     */
-    AddonModLessonPlayerPage.prototype.submitQuestion = function () {
-        var _this = this;
-        this.loaded = false;
-        // Use getRawValue to include disabled values.
-        var data = this.lessonHelper.prepareQuestionData(this.question, this.questionForm.getRawValue());
-        this.processPage(data).finally(function () {
-            _this.loaded = true;
-        });
-    };
-    /**
-     * Time up.
-     */
-    AddonModLessonPlayerPage.prototype.timeUp = function () {
-        var _this = this;
-        // Time up called, hide the timer.
-        this.endTime = undefined;
-        this.loaded = false;
-        this.finishRetake(true).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'Error finishing attempt');
-        }).finally(function () {
-            _this.loaded = true;
-        });
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* Content */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* Content */])
-    ], AddonModLessonPlayerPage.prototype, "content", void 0);
-    AddonModLessonPlayerPage = __decorate([
+    AddonModLessonUserRetakePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-lesson-player',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\lesson\pages\player\player.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button *ngIf="displayMenu || mediaFile" ion-button icon-only [attr.aria-label]="\'addon.mod_lesson.lessonmenu\' | translate" (click)="menuModal.present()">\n\n                <ion-icon name="bookmark"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <core-loading [hideUntil]="loaded">\n\n        <!-- Info messages. Only show the first one. -->\n\n        <div class="core-info-card" icon-start *ngIf="lesson && messages && messages.length">\n\n            <ion-icon name="information-circle"></ion-icon>\n\n            <core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="messages[0].message"></core-format-text>\n\n        </div>\n\n\n\n        <div *ngIf="lesson" [ngClass]=\'{"addon-mod_lesson-slideshow": lesson.slideshow}\' [ngStyle]="{\'width\': lessonWidth, \'height\': lessonHeight}">\n\n\n\n            <core-timer *ngIf="endTime" [endTime]="endTime" (finished)="timeUp()" [timerText]="\'addon.mod_lesson.timeremaining\' | translate"></core-timer>\n\n\n\n            <!-- Retake and ongoing score. -->\n\n            <ion-item text-wrap *ngIf="showRetake && !eolData && !processData">\n\n                <p>{{ \'addon.mod_lesson.attempt\' | translate:{$a: retake} }}</p>\n\n            </ion-item>\n\n            <ion-item text-wrap *ngIf="pageData && pageData.ongoingscore && !eolData && !processData" class="addon-mod_lesson-ongoingscore">\n\n                <core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="pageData.ongoingscore"></core-format-text>\n\n            </ion-item>\n\n\n\n            <!-- Page content. -->\n\n            <ion-card *ngIf="!eolData && !processData">\n\n                <!-- Content page. -->\n\n                <ion-item text-wrap *ngIf="!question">\n\n                    <core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="pageContent"></core-format-text>\n\n                </ion-item>\n\n\n\n                <!-- Question page. -->\n\n                <!-- We need to set ngIf loaded to make formGroup directive restart every time a page changes, see MOBILE-2540. -->\n\n                <form *ngIf="question && loaded" ion-list [formGroup]="questionForm">\n\n                    <ion-item-divider text-wrap color="light">\n\n                        <core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="pageContent"></core-format-text>\n\n                    </ion-item-divider>\n\n\n\n                    <input *ngFor="let input of question.hiddenInputs" type="hidden" [name]="input.name" [value]="input.value" />\n\n\n\n                    <!-- Render a different input depending on the type of the question. -->\n\n                    <ng-container [ngSwitch]="question.template">\n\n\n\n                        <!-- Short answer. -->\n\n                        <ng-container *ngSwitchCase="\'shortanswer\'">\n\n                            <ion-input padding-left [type]="question.input.type" placeholder="{{ \'addon.mod_lesson.youranswer\' | translate }}" [id]="question.input.id" [formControlName]="question.input.name" autocorrect="off" [maxlength]="question.input.maxlength">\n\n                            </ion-input>\n\n                        </ng-container>\n\n\n\n                        <!-- Essay. -->\n\n                        <ng-container *ngSwitchCase="\'essay\'">\n\n                            <ion-item *ngIf="question.textarea">\n\n                                <core-rich-text-editor item-content placeholder="{{ \'addon.mod_lesson.youranswer\' | translate }}" [control]="question.control" [component]="component" [componentId]="lesson.coursemodule"></core-rich-text-editor>\n\n                            </ion-item>\n\n                            <ion-item text-wrap *ngIf="!question.textarea && question.useranswer">\n\n                                <p class="item-heading">{{ \'addon.mod_lesson.youranswer\' | translate }}</p>\n\n                                <p><core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="question.useranswer"></core-format-text></p>\n\n                            </ion-item>\n\n                        </ng-container>\n\n\n\n                        <!-- Multichoice. -->\n\n                        <ng-container *ngSwitchCase="\'multichoice\'">\n\n                            <!-- Single choice. -->\n\n                            <div *ngIf="!question.multi" radio-group [formControlName]="question.controlName">\n\n                                <ion-item text-wrap *ngFor="let option of question.options">\n\n                                    <ion-label>\n\n                                        <core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="option.text"></core-format-text>\n\n                                    </ion-label>\n\n                                    <ion-radio [id]="option.id" [value]="option.value" [disabled]="option.disabled"></ion-radio>\n\n                                </ion-item>\n\n                            </div>\n\n\n\n                            <!-- Multiple choice. -->\n\n                            <ng-container *ngIf="question.multi">\n\n                                <ion-item text-wrap *ngFor="let option of question.options">\n\n                                    <ion-label>\n\n                                        <core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="option.text"></core-format-text>\n\n                                    </ion-label>\n\n                                    <ion-checkbox [id]="option.id" [formControlName]="option.name" item-end></ion-checkbox>\n\n                                </ion-item>\n\n                            </ng-container>\n\n                        </ng-container>\n\n\n\n                        <!-- Matching. -->\n\n                        <ng-container *ngSwitchCase="\'matching\'">\n\n                            <ion-item text-wrap *ngFor="let row of question.rows">\n\n                                <ion-grid item-content>\n\n                                    <ion-row>\n\n                                        <ion-col>\n\n                                            <p><core-format-text id="addon-mod_lesson-matching-{{row.id}}" [component]="component" [componentId]="lesson.coursemodule" [text]="row.text"></core-format-text></p>\n\n                                        </ion-col>\n\n                                        <ion-col>\n\n                                            <ion-select [id]="row.id" [formControlName]="row.name" [attr.aria-labelledby]="\'addon-mod_lesson-matching-\' + row.id" interface="popover">\n\n                                                <ion-option *ngFor="let option of row.options" [value]="option.value">{{option.label}}</ion-option>\n\n                                            </ion-select>\n\n                                        </ion-col>\n\n                                    </ion-row>\n\n                                </ion-grid>\n\n                            </ion-item>\n\n                        </ng-container>\n\n                    </ng-container>\n\n\n\n                    <ion-item>\n\n                        <button ion-button block (click)="submitQuestion()" class="button-no-uppercase">{{ question.submitLabel }}</button>\n\n                    </ion-item>\n\n                </form>\n\n            </ion-card>\n\n\n\n            <!-- Page buttons and progress. -->\n\n            <ion-list *ngIf="!eolData && !processData">\n\n                <ion-grid text-wrap *ngIf="pageButtons && pageButtons.length" class="addon-mod_lesson-pagebuttons">\n\n                    <ion-row align-items-center>\n\n                        <ion-col *ngFor="let button of pageButtons" col-12 col-md-6 col-lg-3 col-xl>\n\n                            <a ion-button block outline text-wrap [id]="button.id" (click)="buttonClicked(button.data)" class="button-no-uppercase">{{ button.content }}</a>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n                <ion-item text-wrap *ngIf="lesson && lesson.progressbar && !canManage && pageData">\n\n                    <p>{{ \'addon.mod_lesson.progresscompleted\' | translate:{$a: pageData.progress} }}</p>\n\n                    <core-progress-bar [progress]="pageData.progress"></core-progress-bar>\n\n                </ion-item>\n\n                <div class="core-info-card" icon-start *ngIf="lesson && lesson.progressbar && canManage">\n\n                    <ion-icon name="information-circle"></ion-icon>\n\n                    {{ \'addon.mod_lesson.progressbarteacherwarning2\' | translate }}\n\n                </div>\n\n            </ion-list>\n\n\n\n            <!-- End of lesson reached. -->\n\n            <ion-card *ngIf="eolData && !processData">\n\n                <div class="core-warning-card" icon-start *ngIf="eolData.offline && eolData.offline.value">\n\n                    <ion-icon name="warning"></ion-icon>\n\n                    {{ \'addon.mod_lesson.finishretakeoffline\' | translate }}\n\n                </div>\n\n\n\n                <h3 padding *ngIf="eolData.gradelesson">{{ \'addon.mod_lesson.congratulations\' | translate }}</h3>\n\n                <ion-item text-wrap *ngIf="eolData.notenoughtimespent">\n\n                    <core-format-text [text]="eolData.notenoughtimespent.message"></core-format-text>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="eolData.numberofpagesviewed">\n\n                    <core-format-text [text]="eolData.numberofpagesviewed.message"></core-format-text>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="eolData.youshouldview">\n\n                    <core-format-text [text]="eolData.youshouldview.message"></core-format-text>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="eolData.numberofcorrectanswers">\n\n                    <core-format-text [text]="eolData.numberofcorrectanswers.message"></core-format-text>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="eolData.displayscorewithessays">\n\n                    <core-format-text [text]="eolData.displayscorewithessays.message"></core-format-text>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="!eolData.displayscorewithessays && eolData.displayscorewithoutessays">\n\n                    <core-format-text [text]="eolData.displayscorewithoutessays.message"></core-format-text>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="eolData.yourcurrentgradeisoutof">\n\n                    <core-format-text [text]="eolData.yourcurrentgradeisoutof.message"></core-format-text>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="eolData.eolstudentoutoftimenoanswers">\n\n                    <core-format-text [text]="eolData.eolstudentoutoftimenoanswers.message"></core-format-text>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="eolData.welldone">\n\n                    <core-format-text [text]="eolData.welldone.message"></core-format-text>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="lesson.progressbar && eolData.progresscompleted">\n\n                    <p>{{ \'addon.mod_lesson.progresscompleted\' | translate:{$a: eolData.progresscompleted.value} }}</p>\n\n                    <core-progress-bar [progress]="eolData.progresscompleted.value"></core-progress-bar>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="eolData.displayofgrade">\n\n                    <core-format-text [text]="eolData.displayofgrade.message"></core-format-text>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="eolData.reviewlesson">\n\n                    <a ion-button block (click)="reviewLesson(eolData.reviewlesson.pageid)" class="button-no-uppercase">\n\n                        <core-format-text [text]="\'addon.mod_lesson.reviewlesson\' | translate"></core-format-text>\n\n                    </a>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="eolData.modattemptsnoteacher">\n\n                    <core-format-text [text]="eolData.modattemptsnoteacher.message"></core-format-text>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="eolData.activitylink && eolData.activitylink.value">\n\n                    <ng-container *ngIf="eolData.activitylink.value.formatted">\n\n                        <!-- Activity link was successfully formatted, render the button. -->\n\n                        <a ion-button block color="light" [href]="eolData.activitylink.value.href" core-link [capture]="true" class="button-no-uppercase">\n\n                            <core-format-text [text]="eolData.activitylink.value.label"></core-format-text>\n\n                        </a>\n\n                    </ng-container>\n\n                    <ng-container *ngIf="!eolData.activitylink.value.formatted">\n\n                        <!-- Activity link wasn\'t formatted, render the original link. -->\n\n                        <core-format-text [text]="eolData.activitylink.value.label"></core-format-text>\n\n                    </ng-container>\n\n                </ion-item>\n\n            </ion-card>\n\n\n\n            <!-- Feedback returned when processing an action. -->\n\n            <ion-list *ngIf="processData">\n\n                <ion-item text-wrap *ngIf="processData.ongoingscore && !processData.reviewmode" >\n\n                    <core-format-text class="addon-mod_lesson-ongoingscore" [text]="processData.ongoingscore"></core-format-text>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="!processData.reviewmode || review">\n\n                    <p *ngIf="!processData.reviewmode">\n\n                        <core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="processData.feedback"></core-format-text>\n\n                    </p>\n\n                    <div *ngIf="review">\n\n                        <p>{{ \'addon.mod_lesson.gotoendoflesson\' | translate }}</p>\n\n                        <p>{{ \'addon.mod_lesson.or\' | translate }}</p>\n\n                        <p>{{ \'addon.mod_lesson.continuetonextpage\' | translate }}</p>\n\n                    </div>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="review || (processData.buttons && processData.buttons.length)">\n\n                    <a ion-button block color="light" *ngIf="review" (click)="changePage(LESSON_EOL)">{{ \'addon.mod_lesson.finish\' | translate }}</a>\n\n                    <a ion-button block color="light" *ngFor="let button of processData.buttons" (click)="changePage(button.pageId, true)">{{ button.label | translate }}</a>\n\n                </ion-item>\n\n            </ion-list>\n\n        </div>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\lesson\pages\player\player.html"*/,
+            selector: 'page-addon-mod-lesson-user-retake',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\lesson\pages\user-retake\user-retake.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.mod_lesson.detailedstats\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="loaded" (ionRefresh)="doRefresh($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n\n\n    <core-loading [hideUntil]="loaded">\n\n        <ion-list *ngIf="student">\n\n            <!-- Student data. -->\n\n            <a ion-item text-wrap core-user-link [userId]="student.id" [courseId]="courseId" [title]="student.fullname">\n\n                <ion-avatar *ngIf="student.profileimageurl" item-start>\n\n                    <img [src]="student.profileimageurl" [alt]="\'core.pictureof\' | translate:{$a: student.fullname}" core-external-content role="presentation">\n\n                </ion-avatar>\n\n                <h2>{{student.fullname}}</h2>\n\n                <core-progress-bar [progress]="student.bestgrade"></core-progress-bar>\n\n            </a>\n\n\n\n            <!-- Retake selector if there is more than one retake. -->\n\n            <ion-item text-wrap *ngIf="student.attempts && student.attempts.length > 1">\n\n                <ion-label id="addon-mod_lesson-retakeslabel">{{ \'addon.mod_lesson.attemptheader\' | translate }}</ion-label>\n\n                <ion-select [(ngModel)]="selectedRetake" (ionChange)="changeRetake(selectedRetake)" aria-labelledby="addon-mod_lesson-retakeslabel" interface="popover">\n\n                    <ion-option *ngFor="let retake of student.attempts" [value]="retake.try">{{retake.label}}</ion-option>\n\n                </ion-select>\n\n            </ion-item>\n\n\n\n            <!-- Retake stats. -->\n\n            <div *ngIf="retake && retake.userstats && retake.userstats.gradeinfo" class="addon-mod_lesson-userstats">\n\n                <ion-item text-wrap>\n\n                    <ion-row>\n\n                        <ion-col>\n\n                            <p class="item-heading">{{ \'addon.mod_lesson.grade\' | translate }}</p>\n\n                            <p>{{ \'core.percentagenumber\' | translate:{$a: retake.userstats.grade} }}</p>\n\n                        </ion-col>\n\n\n\n                        <ion-col>\n\n                            <p class="item-heading">{{ \'addon.mod_lesson.rawgrade\' | translate }}</p>\n\n                            <p>{{ retake.userstats.gradeinfo.earned }} / {{ retake.userstats.gradeinfo.total }}</p>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-item>\n\n                <ion-item text-wrap>\n\n                    <p class="item-heading">{{ \'addon.mod_lesson.timetaken\' | translate }}</p>\n\n                    <p>{{ retake.userstats.timetakenReadable }}</p>\n\n                </ion-item>\n\n                <ion-item text-wrap>\n\n                    <p class="item-heading">{{ \'addon.mod_lesson.completed\' | translate }}</p>\n\n                    <p>{{ retake.userstats.completed * 1000 | coreFormatDate:"dfmediumdate" }}</p>\n\n                </ion-item>\n\n            </div>\n\n\n\n            <!-- Not completed, no stats. -->\n\n            <ion-item text-wrap *ngIf="retake && (!retake.userstats || !retake.userstats.gradeinfo)">\n\n                {{ \'addon.mod_lesson.notcompleted\' | translate }}\n\n            </ion-item>\n\n\n\n            <!-- Pages. -->\n\n            <ng-container *ngIf="retake">\n\n                <!-- The "text-dimmed" class does nothing, but the same goes for the "dimmed" class in Moodle. -->\n\n                <ion-card *ngFor="let page of retake.answerpages" class="addon-mod_lesson-answerpage" [ngClass]="{\'text-dimmed\': page.grayout}">\n\n                    <ion-card-header text-wrap>\n\n                        <h2>{{page.qtype}}: {{page.title}}</h2>\n\n                    </ion-card-header>\n\n                    <ion-item text-wrap>\n\n                        <p class="item-heading">{{ \'addon.mod_lesson.question\' | translate }}</p>\n\n                        <p><core-format-text [component]="component" [componentId]="lesson.coursemodule" [maxHeight]="50" [text]="page.contents"></core-format-text></p>\n\n                    </ion-item>\n\n                    <ion-item text-wrap>\n\n                        <p class="item-heading">{{ \'addon.mod_lesson.answer\' | translate }}</p>\n\n                    </ion-item>\n\n                    <ion-item text-wrap *ngIf="!page.answerdata || !page.answerdata.answers || !page.answerdata.answers.length">\n\n                        <p>{{ \'addon.mod_lesson.didnotanswerquestion\' | translate }}</p>\n\n                    </ion-item>\n\n                    <div *ngIf="page.answerdata && page.answerdata.answers && page.answerdata.answers.length" class="addon-mod_lesson-answer">\n\n                        <div *ngFor="let answer of page.answerdata.answers">\n\n                            <ion-item text-wrap *ngIf="page.isContent">\n\n                                <!-- Content page, display a button and the content. -->\n\n                                <ion-row>\n\n                                    <ion-col>\n\n                                        <button ion-button block color="light" [disabled]="true">{{ answer[0].buttonText }}</button>\n\n                                    </ion-col>\n\n                                    <ion-col>\n\n                                        <p [innerHTML]="answer[0].content"></p>\n\n                                    </ion-col>\n\n                                </ion-row>\n\n                            </ion-item>\n\n\n\n                            <div *ngIf="page.isQuestion">\n\n                                <!-- Question page, show the right input for the answer. -->\n\n\n\n                                <!-- Truefalse or matching. -->\n\n                                <ion-item text-wrap *ngIf="answer[0].isCheckbox" [ngClass]="{\'addon-mod_lesson-highlight\': answer[0].highlight}">\n\n                                    <ion-label>\n\n                                        <p><core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[0].content"></core-format-text></p>\n\n                                        <ion-badge *ngIf="answer[1]" color="dark">\n\n                                            <core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[1]"></core-format-text>\n\n                                        </ion-badge>\n\n                                    </ion-label>\n\n                                    <ion-checkbox [attr.name]="answer[0].name" [ngModel]="answer[0].checked" [disabled]="true" item-end>\n\n                                    </ion-checkbox>\n\n                                </ion-item>\n\n\n\n                                <!-- Short answer or numeric. -->\n\n                                <ion-item text-wrap *ngIf="answer[0].isText">\n\n                                    <p>{{ answer[0].value }}</p>\n\n                                    <ion-badge *ngIf="answer[1]" color="dark">\n\n                                        <core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[1]"></core-format-text>\n\n                                    </ion-badge>\n\n                                </ion-item>\n\n\n\n                                <!-- Matching. -->\n\n                                <ion-item text-wrap *ngIf="answer[0].isSelect">\n\n                                    <ion-row>\n\n                                        <ion-col>\n\n                                            <p><core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]=" answer[0].content"></core-format-text></p>\n\n                                        </ion-col>\n\n                                        <ion-col>\n\n                                            <p>{{answer[0].value}}</p>\n\n                                            <ion-badge *ngIf="answer[1]" color="dark">\n\n                                                <core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[1]"></core-format-text>\n\n                                            </ion-badge>\n\n                                        </ion-col>\n\n                                    </ion-row>\n\n                                </ion-item>\n\n\n\n                                <!-- Essay or couldn\'t determine. -->\n\n                                <ion-item text-wrap *ngIf="!answer[0].isCheckbox && !answer[0].isText && !answer[0].isSelect">\n\n                                    <p><core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[0]"></core-format-text></p>\n\n                                    <ion-badge *ngIf="answer[1]" color="dark">\n\n                                        <core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[1]"></core-format-text>\n\n                                    </ion-badge>\n\n                                </ion-item>\n\n                            </div>\n\n\n\n                            <ion-item text-wrap *ngIf="!page.isContent && !page.isQuestion">\n\n                                <!-- Another page (end of branch, ...). -->\n\n                                <p><core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[0]"></core-format-text></p>\n\n                                <ion-badge *ngIf="answer[1]" color="dark">\n\n                                    <core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[1]"></core-format-text>\n\n                                </ion-badge>\n\n                            </ion-item>\n\n                        </div>\n\n\n\n                        <ion-item text-wrap *ngIf="page.answerdata.response">\n\n                            <p class="item-heading">{{ \'addon.mod_lesson.response\' | translate }}</p>\n\n                            <p><core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="page.answerdata.response"></core-format-text></p>\n\n                        </ion-item>\n\n                        <ion-item text-wrap *ngIf="page.answerdata.score">\n\n                            <p>{{page.answerdata.score}}</p>\n\n                        </ion-item>\n\n                    </div>\n\n                </ion-card>\n\n            </ng-container>\n\n        </ion-list>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\lesson\pages\user-retake\user-retake.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_6__providers_logger__["a" /* CoreLoggerProvider */], __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */],
-            __WEBPACK_IMPORTED_MODULE_5__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_7__providers_sites__["a" /* CoreSitesProvider */],
-            __WEBPACK_IMPORTED_MODULE_8__providers_sync__["a" /* CoreSyncProvider */], __WEBPACK_IMPORTED_MODULE_9__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["v" /* PopoverController */],
-            __WEBPACK_IMPORTED_MODULE_10__providers_utils_time__["a" /* CoreTimeUtilsProvider */], __WEBPACK_IMPORTED_MODULE_13__providers_lesson__["a" /* AddonModLessonProvider */],
-            __WEBPACK_IMPORTED_MODULE_16__providers_helper__["a" /* AddonModLessonHelperProvider */], __WEBPACK_IMPORTED_MODULE_15__providers_lesson_sync__["a" /* AddonModLessonSyncProvider */],
-            __WEBPACK_IMPORTED_MODULE_14__providers_lesson_offline__["a" /* AddonModLessonOfflineProvider */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ChangeDetectorRef */],
-            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["p" /* ModalController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_4__providers_app__["a" /* CoreAppProvider */],
-            __WEBPACK_IMPORTED_MODULE_12__providers_utils_utils__["a" /* CoreUtilsProvider */], __WEBPACK_IMPORTED_MODULE_11__providers_utils_url__["a" /* CoreUrlUtilsProvider */], __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* FormBuilder */]])
-    ], AddonModLessonPlayerPage);
-    return AddonModLessonPlayerPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__["a" /* CoreTextUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_7__core_user_providers_user__["a" /* CoreUserProvider */], __WEBPACK_IMPORTED_MODULE_6__providers_utils_time__["a" /* CoreTimeUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_8__providers_lesson__["a" /* AddonModLessonProvider */], __WEBPACK_IMPORTED_MODULE_9__providers_helper__["a" /* AddonModLessonHelperProvider */]])
+    ], AddonModLessonUserRetakePage);
+    return AddonModLessonUserRetakePage;
 }());
 
-//# sourceMappingURL=player.js.map
+//# sourceMappingURL=user-retake.js.map
 
 /***/ })
 
