@@ -2,7 +2,7 @@
     "app_id" : "com.skilla.bccmoodlemobile",
     "appname": "GBI Academy",
     "desktopappname": "GBI Academy Desktop",
-    "versioncode" : 3522,
+    "versioncode" : 3521,
     "versionname" : "3.5.2",
     "cache_expiration_time" : 300000,
     "default_lang" : "it",
