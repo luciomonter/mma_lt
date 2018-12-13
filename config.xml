@@ -8,7 +8,7 @@
         Skilla Moodle Mobile team
     </author>
     <edit-config file="*-Info.plist" mode="merge" target="CFBundleShortVersionString">
-        <string>3.5.20</string>
+        <string>3.5.21</string>
     </edit-config>
     <gap:platform name="ios" />
     <gap:platform name="android" />
