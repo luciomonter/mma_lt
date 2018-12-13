@@ -124,7 +124,7 @@
         <param name="SENDER_ID" value="694767596569" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
-        <param name="URL_SCHEME" value="skilla_bccmoodlemobile" />
+        <param name="URL_SCHEME" value="skillabccmoodlemobile" />
     </gap:plugin>
     <gap:plugin name="ionic-plugin-keyboard" source="npm" />
     <gap:plugin name="cordova-plugin-zip" source="npm" />
