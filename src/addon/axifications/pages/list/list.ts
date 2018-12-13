@@ -11,7 +11,7 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-
+ 
 import { Component } from '@angular/core';
 import { IonicPage, NavParams } from 'ionic-angular';
 import { CoreSitesProvider } from '@providers/sites';
@@ -64,11 +64,11 @@ export class AddonAxificationsListPage {
 
 		// Get username and fullname.  
 		/// BCC SVIL:
-		var AUTH_USER_KEY_wsToken = "8c98e14eef68957f1aacb7451388b4e2"; 
+		//var AUTH_USER_KEY_wsToken = "8c98e14eef68957f1aacb7451388b4e2"; 
 		/// BCC TEST:
 		//var AUTH_USER_KEY_wsToken = "eb15b5da943a5546296e027bee29f1b1"; 
 		/// BCC PROD:
-		//var AUTH_USER_KEY_wsToken = "6c7eb64adb7bbcadbedf13dbdd85ae99"; 
+		var AUTH_USER_KEY_wsToken = "6c7eb64adb7bbcadbedf13dbdd85ae99"; 
 		
 		var userId =  site.getUserId();
 		var fullName = site.getInfo().fullname;
@@ -85,8 +85,24 @@ export class AddonAxificationsListPage {
 		
 		this.getMyLoginUrl(userName,wantsURL,AUTH_USER_KEY_wsToken,siteUrl,functionOnWS)
         .subscribe(resp => {
-			this.afterDirectLoginUrlObtained(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL) );
+			//this.afterDirectLoginUrlObtained(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL) );
+			this.safeLoginUrl = this.sanitizer.bypassSecurityTrustResourceUrl(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL));
         });		
+		
+		/// binding to bottom menu
+		/*
+		jQuery("a.tab-button").click(function() {
+			console.log("change TAB");
+			
+			if( !(jQuery("ion-header.header").is(':visible') )){
+				jQuery("ion-header.header").show('slide', { direction: "up" }, 500, function() {
+					$("div.scroll-content").css("margin-top","51px");
+				});	
+			}
+			
+			
+		});
+		*/		
 		
     }
 
@@ -155,7 +171,7 @@ export class AddonAxificationsListPage {
 
 
   
-	
+	/*
 	afterDirectLoginUrlObtained(loginUrl): void {
 		// console.log("goo:: " + loginUrl);
 		this.safeLoginUrl = this.sanitizer.bypassSecurityTrustResourceUrl(loginUrl);
@@ -164,22 +180,9 @@ export class AddonAxificationsListPage {
 		
 		//jQuery("#embeded_iframe").attr("src",loginUrl);
 		
-		/// binding to bottom menu
-		/*
-		jQuery("a.tab-button").click(function() {
-			console.log("change TAB");
-			
-			if( !(jQuery("ion-header.header").is(':visible') )){
-				jQuery("ion-header.header").show('slide', { direction: "up" }, 500, function() {
-					$("div.scroll-content").css("margin-top","51px");
-				});	
-			}
-			
-			
-		});
-		*/
+		
 	}	
-	
+	*/
     
     /**
      * Refresh axifications.

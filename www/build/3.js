@@ -265,11 +265,11 @@ var AddonAxificationsListPage = /** @class */ (function () {
         var site = this.sitesProvider.getCurrentSite();
         // Get username and fullname.  
         /// BCC SVIL:
-        var AUTH_USER_KEY_wsToken = "8c98e14eef68957f1aacb7451388b4e2";
+        //var AUTH_USER_KEY_wsToken = "8c98e14eef68957f1aacb7451388b4e2"; 
         /// BCC TEST:
         //var AUTH_USER_KEY_wsToken = "eb15b5da943a5546296e027bee29f1b1"; 
         /// BCC PROD:
-        //var AUTH_USER_KEY_wsToken = "6c7eb64adb7bbcadbedf13dbdd85ae99"; 
+        var AUTH_USER_KEY_wsToken = "6c7eb64adb7bbcadbedf13dbdd85ae99";
         var userId = site.getUserId();
         var fullName = site.getInfo().fullname;
         var userName = site.getInfo().username;
@@ -283,8 +283,23 @@ var AddonAxificationsListPage = /** @class */ (function () {
         //var responseFromWs = this.getMyLoginUrl(userName,wantsURL,AUTH_USER_KEY_wsToken,siteUrl,functionOnWS);
         this.getMyLoginUrl(userName, wantsURL, AUTH_USER_KEY_wsToken, siteUrl, functionOnWS)
             .subscribe(function (resp) {
-            _this.afterDirectLoginUrlObtained(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL));
+            //this.afterDirectLoginUrlObtained(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL) );
+            _this.safeLoginUrl = _this.sanitizer.bypassSecurityTrustResourceUrl(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL));
         });
+        /// binding to bottom menu
+        /*
+        jQuery("a.tab-button").click(function() {
+            console.log("change TAB");
+            
+            if( !(jQuery("ion-header.header").is(':visible') )){
+                jQuery("ion-header.header").show('slide', { direction: "up" }, 500, function() {
+                    $("div.scroll-content").css("margin-top","51px");
+                });
+            }
+            
+            
+        });
+        */
     };
     AddonAxificationsListPage.prototype.getMyLoginUrl = function (usernameToLogin, wantsUrl, wsToken, moodleDomain, functionNameOnWS) {
         var serverUrl = moodleDomain + '/webservice/rest/server.php' + '?wstoken=' + wsToken + '&wsfunction=' + functionNameOnWS + '&moodlewsrestformat=json';
@@ -333,26 +348,18 @@ var AddonAxificationsListPage = /** @class */ (function () {
         // return an observable with a user-facing error message
         return Object(__WEBPACK_IMPORTED_MODULE_5_rxjs__["throwError"])('Something bad happened; please try again later.');
     };
-    AddonAxificationsListPage.prototype.afterDirectLoginUrlObtained = function (loginUrl) {
+    /*
+    afterDirectLoginUrlObtained(loginUrl): void {
         // console.log("goo:: " + loginUrl);
         this.safeLoginUrl = this.sanitizer.bypassSecurityTrustResourceUrl(loginUrl);
         //this.currentLoginUrl = loginUrl;
+        
+        
         //jQuery("#embeded_iframe").attr("src",loginUrl);
-        /// binding to bottom menu
-        /*
-        jQuery("a.tab-button").click(function() {
-            console.log("change TAB");
-            
-            if( !(jQuery("ion-header.header").is(':visible') )){
-                jQuery("ion-header.header").show('slide', { direction: "up" }, 500, function() {
-                    $("div.scroll-content").css("margin-top","51px");
-                });
-            }
-            
-            
-        });
-        */
-    };
+        
+        
+    }
+    */
     /**
      * Refresh axifications.
      *
