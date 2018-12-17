@@ -157,9 +157,13 @@
 	<config-file platform="ios" target="*-Info.plist" parent="LSSupportsOpeningDocumentsInPlace">
       <true/>
 	</config-file>
-	<config-file platform="ios"  parent="aps-environment">
+	<config-file platform="ios" target="*-Release.plist" parent="aps-environment">
 		<string>production</string>
 	</config-file>
+	<config-file platform="ios" target="*-Debug.plist" parent="aps-environment">
+		<string>development</string>
+	</config-file>
+	
 	
     <config-file parent="CFBundleDocumentTypes" target="*-Info.plist">
         <array>
