@@ -33,6 +33,7 @@ export class CoreIframeComponent implements OnInit, OnChanges {
     @Output() loaded?: EventEmitter<HTMLIFrameElement> = new EventEmitter<HTMLIFrameElement>();
     loading: boolean;
     safeUrl: SafeResourceUrl;
+	src = '';
 
     protected logger;
     protected IFRAME_TIMEOUT = 15000;

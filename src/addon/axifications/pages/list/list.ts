@@ -25,7 +25,7 @@ import { Observable, throwError } from 'rxjs';
 import { catchError, retry } from 'rxjs/operators';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { coreShowHideAnimation } from '@classes/animations';
-import { CoreIframeUtilsProvider } from '@providers/utils/iframe';
+//import { CoreIframeUtilsProvider } from '@providers/utils/iframe';
 
 /**
  * Page that displays the list of axifications.
@@ -52,7 +52,6 @@ export class AddonAxificationsListPage {
     constructor(
 			navParams: NavParams, 
 			private _http: HttpClient,
-			private iframeUtils: CoreIframeUtilsProvider,
             private sitesProvider: CoreSitesProvider,
 			private sanitizer: DomSanitizer,			
 			private axificationsProvider: AddonAxificationsProvider) 
@@ -64,7 +63,7 @@ export class AddonAxificationsListPage {
      * View loaded.
      */
     ionViewDidLoad(): void {
-		const iframe: HTMLIFrameElement = this.iframe && this.iframe.nativeElement;
+		//const iframe: HTMLIFrameElement = this.iframe && this.iframe.nativeElement;
 		var site = this.sitesProvider.getCurrentSite()
 
 		// Get username and fullname.  
@@ -91,8 +90,9 @@ export class AddonAxificationsListPage {
 		this.getMyLoginUrl(userName,wantsURL,AUTH_USER_KEY_wsToken,siteUrl,functionOnWS)
         .subscribe(resp => {
 			//this.afterDirectLoginUrlObtained(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL) );
-			this.safeLoginUrl = this.sanitizer.bypassSecurityTrustResourceUrl(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL));
-			this.iframeUtils.treatFrame(iframe);
+			//this.safeLoginUrl = this.sanitizer.bypassSecurityTrustResourceUrl(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL));
+			this.safeLoginUrl = resp.loginurl + '&wantsurl=' + encodeURI(wantsURL);
+			//this.iframeUtils.treatFrame(iframe);
 			this.hideUntil = true;
         });		
 		
@@ -216,5 +216,3 @@ export class AddonAxificationsListPage {
 		*/
     }
 }
-
-

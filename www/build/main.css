@@ -44477,7 +44477,7 @@ ion-navbar.toolbar {
   padding-bottom: calc(env(safe-area-inset-bottom) + 4px);
 }
 
-#embeded_iframe {
+div.loading, #embeded_iframe {
   margin: 0;
   border: none;
   width: 100%;
