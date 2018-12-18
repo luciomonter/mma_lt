@@ -3,12 +3,22 @@
         <ion-title>{{ 'addon.axifications.axifications' | translate }}</ion-title>
     </ion-navbar>
 </ion-header -->
+
 <ion-content>
-    <ion-refresher [enabled]="axificationsLoaded" (ionRefresh)="refreshAxifications($event)">
+    <!-- ion-refresher [enabled]="axificationsLoaded" (ionRefresh)="refreshAxifications($event)">
         <ion-refresher-content pullingText="{{ 'core.pulltorefresh' | translate }}"></ion-refresher-content>
-    </ion-refresher>
-	 
-	<iframe id="embeded_iframe" [src]="safeLoginUrl" class="iframe" scrolling="yes" ></iframe> 
+    </ion-refresher -->
+ 	
+	<div [@coreShowHideAnimation] class="core-loading-container" *ngIf="!hideUntil">
+		<span class="core-loading-spinner spinner-ax-valutazione">
+			<ion-spinner></ion-spinner>
+			<!--p class="core-loading-message" >Caricamento Valutazione Professionale</p-->
+		</span>
+	</div>	 
+	
+	<iframe id="embeded_iframe" [src]="safeLoginUrl" class="iframe" scrolling="yes" [@coreShowHideAnimation] *ngIf="hideUntil" >
+		
+	</iframe> 
 	
 	
 </ion-content>

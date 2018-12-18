@@ -210,6 +210,7 @@ var AddonAxificationsActionsComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_operators__ = __webpack_require__(938);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_operators___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_operators__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__classes_animations__ = __webpack_require__(939);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -240,6 +241,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 /**
  * Page that displays the list of axifications.
  */
@@ -249,6 +251,7 @@ var AddonAxificationsListPage = /** @class */ (function () {
         this.sitesProvider = sitesProvider;
         this.sanitizer = sanitizer;
         this.axificationsProvider = axificationsProvider;
+        this.hideUntil = false;
         this.axifications = [];
         this.axificationsLoaded = false;
         this.canLoadMore = false;
@@ -265,11 +268,11 @@ var AddonAxificationsListPage = /** @class */ (function () {
         var site = this.sitesProvider.getCurrentSite();
         // Get username and fullname.  
         /// BCC SVIL:
-        //var AUTH_USER_KEY_wsToken = "8c98e14eef68957f1aacb7451388b4e2";  
+        var AUTH_USER_KEY_wsToken = "8c98e14eef68957f1aacb7451388b4e2";
         /// BCC TEST:
         //var AUTH_USER_KEY_wsToken = "eb15b5da943a5546296e027bee29f1b1"; 
         /// BCC PROD:   
-        var AUTH_USER_KEY_wsToken = "6c7eb64adb7bbcadbedf13dbdd85ae99";
+        //var AUTH_USER_KEY_wsToken = "6c7eb64adb7bbcadbedf13dbdd85ae99"; 
         var userId = site.getUserId();
         var fullName = site.getInfo().fullname;
         var userName = site.getInfo().username;
@@ -285,6 +288,7 @@ var AddonAxificationsListPage = /** @class */ (function () {
             .subscribe(function (resp) {
             //this.afterDirectLoginUrlObtained(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL) );
             _this.safeLoginUrl = _this.sanitizer.bypassSecurityTrustResourceUrl(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL));
+            _this.hideUntil = true;
         });
         /// binding to bottom menu
         /*
@@ -379,7 +383,8 @@ var AddonAxificationsListPage = /** @class */ (function () {
     };
     AddonAxificationsListPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-axifications-list',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\axifications\pages\list\list.html"*/'﻿<!-- ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.axifications.axifications\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header -->\n\n<ion-content>\n\n    <ion-refresher [enabled]="axificationsLoaded" (ionRefresh)="refreshAxifications($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n	 \n\n	<iframe id="embeded_iframe" [src]="safeLoginUrl" class="iframe" scrolling="yes" ></iframe> \n\n	\n\n	\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\axifications\pages\list\list.html"*/,
+            selector: 'page-addon-axifications-list',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\axifications\pages\list\list.html"*/'﻿<!-- ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.axifications.axifications\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header -->\n\n\n\n<ion-content>\n\n    <!-- ion-refresher [enabled]="axificationsLoaded" (ionRefresh)="refreshAxifications($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher -->\n\n 	\n\n	<div [@coreShowHideAnimation] class="core-loading-container" *ngIf="!hideUntil">\n\n		<span class="core-loading-spinner spinner-ax-valutazione">\n\n			<ion-spinner></ion-spinner>\n\n			<!--p class="core-loading-message" >Caricamento Valutazione Professionale</p-->\n\n		</span>\n\n	</div>	 \n\n	\n\n	<iframe id="embeded_iframe" [src]="safeLoginUrl" class="iframe" scrolling="yes" [@coreShowHideAnimation] *ngIf="hideUntil" >\n\n		\n\n	</iframe> \n\n	\n\n	\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\axifications\pages\list\list.html"*/,
+            animations: [__WEBPACK_IMPORTED_MODULE_8__classes_animations__["a" /* coreShowHideAnimation */]]
         }),
         __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["b" /* HttpClient */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["b" /* HttpClient */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser__["c" /* DomSanitizer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser__["c" /* DomSanitizer */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_3__providers_axifications__["a" /* AddonAxificationsProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__providers_axifications__["a" /* AddonAxificationsProvider */]) === "function" && _e || Object])
     ], AddonAxificationsListPage);

@@ -44484,6 +44484,11 @@ ion-navbar.toolbar {
   height: 100%;
 }
 
+.spinner-ax-valutazione ion-spinner {
+  left: 45%;
+  top: 100px;
+}
+
 ion-app.app-root addon-messages-discussions h2 {
   display: -webkit-box;
   display: -webkit-flex;

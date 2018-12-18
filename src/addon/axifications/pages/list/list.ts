@@ -24,6 +24,7 @@ import { HttpErrorResponse, HttpResponse } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError, retry } from 'rxjs/operators';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
+import { coreShowHideAnimation } from '@classes/animations';
 
 /**
  * Page that displays the list of axifications.
@@ -32,9 +33,11 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 @Component({
     selector: 'page-addon-axifications-list',
     templateUrl: 'list.html',
+	animations: [coreShowHideAnimation]
 })
 export class AddonAxificationsListPage {
-
+	
+	hideUntil = false;
     axifications = [];
     axificationsLoaded = false;
     canLoadMore = false;
@@ -64,11 +67,11 @@ export class AddonAxificationsListPage {
 
 		// Get username and fullname.  
 		/// BCC SVIL:
-		//var AUTH_USER_KEY_wsToken = "8c98e14eef68957f1aacb7451388b4e2";  
+		var AUTH_USER_KEY_wsToken = "8c98e14eef68957f1aacb7451388b4e2";  
 		/// BCC TEST:
 		//var AUTH_USER_KEY_wsToken = "eb15b5da943a5546296e027bee29f1b1"; 
 		/// BCC PROD:   
-		var AUTH_USER_KEY_wsToken = "6c7eb64adb7bbcadbedf13dbdd85ae99"; 
+		//var AUTH_USER_KEY_wsToken = "6c7eb64adb7bbcadbedf13dbdd85ae99"; 
 		
 		var userId =  site.getUserId();
 		var fullName = site.getInfo().fullname;
@@ -87,6 +90,7 @@ export class AddonAxificationsListPage {
         .subscribe(resp => {
 			//this.afterDirectLoginUrlObtained(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL) );
 			this.safeLoginUrl = this.sanitizer.bypassSecurityTrustResourceUrl(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL));
+			this.hideUntil = true;
         });		
 		
 		/// binding to bottom menu
