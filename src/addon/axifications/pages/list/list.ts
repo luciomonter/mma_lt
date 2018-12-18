@@ -18,13 +18,14 @@ import { CoreSitesProvider } from '@providers/sites';
 import { AddonAxificationsProvider } from '../../providers/axifications';
 
 /// Lucio for different WS
-import { Injectable } from '@angular/core';
+import { Injectable, ViewChild, ElementRef } from '@angular/core';
 import { HttpParams, HttpClient, HttpHeaders } from '@angular/common/http';
 import { HttpErrorResponse, HttpResponse } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError, retry } from 'rxjs/operators';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { coreShowHideAnimation } from '@classes/animations';
+import { CoreIframeUtilsProvider } from '@providers/utils/iframe';
 
 /**
  * Page that displays the list of axifications.
@@ -36,7 +37,7 @@ import { coreShowHideAnimation } from '@classes/animations';
 	animations: [coreShowHideAnimation]
 })
 export class AddonAxificationsListPage {
-	
+	@ViewChild('iframe') iframe: ElementRef;
 	hideUntil = false;
     axifications = [];
     axificationsLoaded = false;
@@ -51,6 +52,7 @@ export class AddonAxificationsListPage {
     constructor(
 			navParams: NavParams, 
 			private _http: HttpClient,
+			private iframeUtils: CoreIframeUtilsProvider,
             private sitesProvider: CoreSitesProvider,
 			private sanitizer: DomSanitizer,			
 			private axificationsProvider: AddonAxificationsProvider) 
@@ -62,12 +64,12 @@ export class AddonAxificationsListPage {
      * View loaded.
      */
     ionViewDidLoad(): void {
-
+		const iframe: HTMLIFrameElement = this.iframe && this.iframe.nativeElement;
 		var site = this.sitesProvider.getCurrentSite()
 
 		// Get username and fullname.  
 		/// BCC SVIL:
-		var AUTH_USER_KEY_wsToken = "8c98e14eef68957f1aacb7451388b4e2";  
+		var AUTH_USER_KEY_wsToken = "8c98e14eef68957f1aacb7451388b4e2";   
 		/// BCC TEST:
 		//var AUTH_USER_KEY_wsToken = "eb15b5da943a5546296e027bee29f1b1"; 
 		/// BCC PROD:   
@@ -90,6 +92,7 @@ export class AddonAxificationsListPage {
         .subscribe(resp => {
 			//this.afterDirectLoginUrlObtained(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL) );
 			this.safeLoginUrl = this.sanitizer.bypassSecurityTrustResourceUrl(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL));
+			this.iframeUtils.treatFrame(iframe);
 			this.hideUntil = true;
         });		
 		

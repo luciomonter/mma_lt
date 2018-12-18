@@ -81,8 +81,8 @@ var AddonModForumNewDiscussionPageModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_rich_text_editor_rich_text_editor_ts__ = __webpack_require__(941);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_forum__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__providers_offline__ = __webpack_require__(147);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__providers_helper__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__providers_sync__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__providers_helper__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__providers_sync__ = __webpack_require__(195);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
