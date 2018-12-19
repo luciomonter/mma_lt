@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="35202" id="com.skilla.bccmoodlemobile" version="3.5.2" versionCode="35202" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget android-versionCode="35203" id="com.skilla.bccmoodlemobile" version="3.5.23" versionCode="35203" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>GBIAcademy</name>
     <description>
-        GBIAcademy app
+        GBI Academy app
     </description>
-    <author email="info@skilla.com" href="http://moodle.com">
+    <author email="info@skilla.com" href="http://www.skilla.com">
         Skilla Moodle Mobile team
     </author>
     <edit-config file="*-Info.plist" mode="merge" target="CFBundleShortVersionString">
-        <string>3.5.22</string>
+        <string>3.5.23</string>
     </edit-config>
     <gap:platform name="ios" />
     <gap:platform name="android" />
@@ -150,21 +150,18 @@
     <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryUsageDescription">
         <string>We need photo library access to get pictures from there so you can attach them as part of your submissions.</string>
     </edit-config>
-	
-	<config-file platform="ios" target="*-Info.plist" parent="UISupportsDocumentBrowser">
-      <true/>
-	</config-file>	
-	<config-file platform="ios" target="*-Info.plist" parent="LSSupportsOpeningDocumentsInPlace">
-      <true/>
-	</config-file>
-	<config-file platform="ios" target="*-Release.plist" parent="aps-environment">
-		<string>production</string>
-	</config-file>
-	<config-file platform="ios" target="*-Debug.plist" parent="aps-environment">
-		<string>development</string>
-	</config-file>
-	
-	
+    <config-file parent="UISupportsDocumentBrowser" platform="ios" target="*-Info.plist">
+        <true />
+    </config-file>
+    <config-file parent="LSSupportsOpeningDocumentsInPlace" platform="ios" target="*-Info.plist">
+        <true />
+    </config-file>
+    <config-file parent="aps-environment" platform="ios" target="*-Release.plist">
+        <string>production</string>
+    </config-file>
+    <config-file parent="aps-environment" platform="ios" target="*-Debug.plist">
+        <string>development</string>
+    </config-file>
     <config-file parent="CFBundleDocumentTypes" target="*-Info.plist">
         <array>
             <dict>
