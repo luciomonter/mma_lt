@@ -59,7 +59,7 @@ export class AddonAxificationsListPage {
 			
     }
   
-    /**
+    /** 
      * View loaded.
      */
     ionViewDidLoad(): void {

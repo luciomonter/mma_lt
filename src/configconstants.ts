@@ -17,8 +17,8 @@ export class CoreConfigConstants {
     static app_id = 'com.skilla.bccmoodlemobile';
     static appname = 'GBIAcademy';
     static desktopappname = 'GBIAcademy Desktop';
-    static versioncode = 3521;
-    static versionname = '3.5.2';
+    static versioncode = 3523;
+    static versionname = '3.5.23';
     static cache_expiration_time = 300000;
     static default_lang = 'it';
     static languages: any = {
@@ -34,5 +34,5 @@ export class CoreConfigConstants {
     static skipssoconfirmation = false;
     static forcedefaultlanguage = false;
     static privacypolicy = 'http://www.gruppobancarioiccrea.it/Pagine/Utility/Privacy.aspx';
-    static compilationtime = 1545212524990;
+    static compilationtime = 1545215625007;
 }
