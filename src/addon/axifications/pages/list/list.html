@@ -1,10 +1,9 @@
-﻿	<div [@coreShowHideAnimation] class="core-loading-container" *ngIf="!hideUntil">
+﻿	<div class="core-loading-container" *ngIf="!hideUntil">
 		<span class="core-loading-spinner spinner-ax-valutazione">
 			<ion-spinner></ion-spinner>
-			<!--p class="core-loading-message" >Caricamento Valutazione Professionale</p-->
 		</span>
 	</div>	 
 	
-    <core-iframe id="embeded_iframe" [hidden]="loading" class="core-iframe iframe" scrolling="yes"  [src]="safeLoginUrl" *ngIf="hideUntil"></core-iframe>
+    <core-iframe id="embeded_iframe" class="core-iframe iframe" scrolling="yes"  [src]="safeLoginUrl" *ngIf="hideUntil"></core-iframe>
 
 	

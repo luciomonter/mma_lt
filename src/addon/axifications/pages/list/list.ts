@@ -22,9 +22,7 @@ import { HttpParams, HttpClient, HttpHeaders } from '@angular/common/http';
 import { HttpErrorResponse, HttpResponse } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError, retry } from 'rxjs/operators';
-import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
-import { coreShowHideAnimation } from '@classes/animations';
-//import { CoreIframeUtilsProvider } from '@providers/utils/iframe';
+
 
 /**
  * Page that displays the list of axifications.
@@ -32,8 +30,7 @@ import { coreShowHideAnimation } from '@classes/animations';
 @IonicPage({ segment: 'addon-axifications-list' })
 @Component({
     selector: 'page-addon-axifications-list',
-    templateUrl: 'list.html',
-	animations: [coreShowHideAnimation]
+    templateUrl: 'list.html'
 })
 export class AddonAxificationsListPage {
 	hideUntil = false;
@@ -42,7 +39,7 @@ export class AddonAxificationsListPage {
     canLoadMore = false;
     canMarkAllAxificationsAsRead = false;
     loadingMarkAllAxificationsAsRead = false;
-	safeLoginUrl: SafeResourceUrl;
+	safeLoginUrl: string;
 
     protected readCount = 0;
     protected unreadCount = 0;
@@ -50,8 +47,7 @@ export class AddonAxificationsListPage {
     constructor(
 			navParams: NavParams, 
 			private _http: HttpClient,
-            private sitesProvider: CoreSitesProvider,
-			private sanitizer: DomSanitizer,			
+            private sitesProvider: CoreSitesProvider,			
 			private axificationsProvider: AddonAxificationsProvider) 
 	{
 			
@@ -86,8 +82,6 @@ export class AddonAxificationsListPage {
 		
 		this.getMyLoginUrl(userName,wantsURL,AUTH_USER_KEY_wsToken,siteUrl,functionOnWS)
         .subscribe(resp => {
-			//this.afterDirectLoginUrlObtained(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL) );
-			//this.safeLoginUrl = this.sanitizer.bypassSecurityTrustResourceUrl(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL));
 			this.safeLoginUrl = resp.loginurl + '&wantsurl=' + encodeURI(wantsURL);
 			this.hideUntil = true;
         });		
@@ -177,7 +171,6 @@ export class AddonAxificationsListPage {
 	/*
 	afterDirectLoginUrlObtained(loginUrl): void {
 		// console.log("goo:: " + loginUrl);
-		this.safeLoginUrl = this.sanitizer.bypassSecurityTrustResourceUrl(loginUrl);
 		//this.currentLoginUrl = loginUrl;
 		
 		
