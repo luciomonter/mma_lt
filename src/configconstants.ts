@@ -34,5 +34,5 @@ export class CoreConfigConstants {
     static skipssoconfirmation = false;
     static forcedefaultlanguage = false;
     static privacypolicy = 'http://www.gruppobancarioiccrea.it/Pagine/Utility/Privacy.aspx';
-    static compilationtime = 1545404854429;
+    static compilationtime = 1545406700472;
 }

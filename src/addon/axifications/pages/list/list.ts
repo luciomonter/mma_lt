@@ -18,7 +18,6 @@ import { CoreSitesProvider } from '@providers/sites';
 import { AddonAxificationsProvider } from '../../providers/axifications';
 
 /// Lucio for different WS
-import { Injectable, ViewChild, ElementRef } from '@angular/core';
 import { HttpParams, HttpClient, HttpHeaders } from '@angular/common/http';
 import { HttpErrorResponse, HttpResponse } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
@@ -37,7 +36,6 @@ import { coreShowHideAnimation } from '@classes/animations';
 	animations: [coreShowHideAnimation]
 })
 export class AddonAxificationsListPage {
-	@ViewChild('iframe') iframe: ElementRef;
 	hideUntil = false;
     axifications = [];
     axificationsLoaded = false;
@@ -63,7 +61,6 @@ export class AddonAxificationsListPage {
      * View loaded.
      */
     ionViewDidLoad(): void {
-		//const iframe: HTMLIFrameElement = this.iframe && this.iframe.nativeElement;
 		var site = this.sitesProvider.getCurrentSite()
 
 		// Get username and fullname.  
@@ -92,7 +89,6 @@ export class AddonAxificationsListPage {
 			//this.afterDirectLoginUrlObtained(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL) );
 			//this.safeLoginUrl = this.sanitizer.bypassSecurityTrustResourceUrl(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL));
 			this.safeLoginUrl = resp.loginurl + '&wantsurl=' + encodeURI(wantsURL);
-			//this.iframeUtils.treatFrame(iframe);
 			this.hideUntil = true;
         });		
 		

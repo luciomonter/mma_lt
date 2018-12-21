@@ -243,7 +243,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
 //import { CoreIframeUtilsProvider } from '@providers/utils/iframe';
 /**
  * Page that displays the list of axifications.
@@ -268,7 +267,6 @@ var AddonAxificationsListPage = /** @class */ (function () {
      */
     AddonAxificationsListPage.prototype.ionViewDidLoad = function () {
         var _this = this;
-        //const iframe: HTMLIFrameElement = this.iframe && this.iframe.nativeElement;
         var site = this.sitesProvider.getCurrentSite();
         // Get username and fullname.  
         /// BCC SVIL:
@@ -293,7 +291,6 @@ var AddonAxificationsListPage = /** @class */ (function () {
             //this.afterDirectLoginUrlObtained(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL) );
             //this.safeLoginUrl = this.sanitizer.bypassSecurityTrustResourceUrl(resp.loginurl + '&wantsurl=' + encodeURI(wantsURL));
             _this.safeLoginUrl = resp.loginurl + '&wantsurl=' + encodeURI(wantsURL);
-            //this.iframeUtils.treatFrame(iframe);
             _this.hideUntil = true;
         });
         /// binding to bottom menu
@@ -387,19 +384,15 @@ var AddonAxificationsListPage = /** @class */ (function () {
         this.pushObserver && this.pushObserver.unsubscribe();
         */
     };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('iframe'),
-        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */]) === "function" && _a || Object)
-    ], AddonAxificationsListPage.prototype, "iframe", void 0);
     AddonAxificationsListPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-addon-axifications-list',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\axifications\pages\list\list.html"*/'﻿	<div [@coreShowHideAnimation] class="core-loading-container" *ngIf="!hideUntil">\n\n		<span class="core-loading-spinner spinner-ax-valutazione">\n\n			<ion-spinner></ion-spinner>\n\n			<!--p class="core-loading-message" >Caricamento Valutazione Professionale</p-->\n\n		</span>\n\n	</div>	 \n\n	\n\n    <core-iframe id="embeded_iframe" [hidden]="loading" class="core-iframe iframe" scrolling="yes"  [src]="safeLoginUrl" *ngIf="hideUntil"></core-iframe>\n\n\n\n	\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\axifications\pages\list\list.html"*/,
             animations: [__WEBPACK_IMPORTED_MODULE_8__classes_animations__["a" /* coreShowHideAnimation */]]
         }),
-        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["b" /* HttpClient */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["b" /* HttpClient */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser__["c" /* DomSanitizer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser__["c" /* DomSanitizer */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_3__providers_axifications__["a" /* AddonAxificationsProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__providers_axifications__["a" /* AddonAxificationsProvider */]) === "function" && _f || Object])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["b" /* HttpClient */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["b" /* HttpClient */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser__["c" /* DomSanitizer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser__["c" /* DomSanitizer */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_3__providers_axifications__["a" /* AddonAxificationsProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__providers_axifications__["a" /* AddonAxificationsProvider */]) === "function" && _e || Object])
     ], AddonAxificationsListPage);
     return AddonAxificationsListPage;
-    var _a, _b, _c, _d, _e, _f;
+    var _a, _b, _c, _d, _e;
 }());
 
 //# sourceMappingURL=list.js.map
