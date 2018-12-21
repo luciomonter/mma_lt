@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="35203" id="com.skilla.bccmoodlemobile" version="3.5.23" versionCode="35203" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget android-versionCode="35204" id="com.skilla.bccmoodlemobile" version="3.5.24" versionCode="35204" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>GBIAcademy</name>
     <description>
         GBI Academy app
@@ -8,7 +8,7 @@
         Skilla Moodle Mobile team
     </author>
     <edit-config file="*-Info.plist" mode="merge" target="CFBundleShortVersionString">
-        <string>3.5.23</string>
+        <string>3.5.24</string>
     </edit-config>
     <gap:platform name="ios" />
     <gap:platform name="android" />
@@ -27,7 +27,8 @@
     <allow-intent href="geo:*" />
     <preference name="phonegap-version" value="cli-8.0.0" />
     <preference name="LoadUrlTimeoutValue" value="60000" />
-    <preference name="orientation" value="default" />
+    <!--preference name="orientation" value="default" /-->
+	<preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />
     <preference name="stay-in-webview" value="false" />
