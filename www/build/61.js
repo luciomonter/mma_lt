@@ -1,17 +1,17 @@
 webpackJsonp([61],{
 
-/***/ 1845:
+/***/ 1838:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModSurveyIndexPageModule", function() { return AddonModSurveyIndexPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModScormIndexPageModule", function() { return AddonModScormIndexPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(962);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(1971);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(958);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(1960);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -37,37 +37,37 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var AddonModSurveyIndexPageModule = /** @class */ (function () {
-    function AddonModSurveyIndexPageModule() {
+var AddonModScormIndexPageModule = /** @class */ (function () {
+    function AddonModScormIndexPageModule() {
     }
-    AddonModSurveyIndexPageModule = __decorate([
+    AddonModScormIndexPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModSurveyIndexPage */],
+                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModScormIndexPage */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModSurveyComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModSurveyIndexPage */]),
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModScormComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModScormIndexPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], AddonModSurveyIndexPageModule);
-    return AddonModSurveyIndexPageModule;
+    ], AddonModScormIndexPageModule);
+    return AddonModScormIndexPageModule;
 }());
 
 //# sourceMappingURL=index.module.js.map
 
 /***/ }),
 
-/***/ 1971:
+/***/ 1960:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModSurveyIndexPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModScormIndexPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(415);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(414);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -94,33 +94,45 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Page that displays a survey.
+ * Page that displays the SCORM entry page.
  */
-var AddonModSurveyIndexPage = /** @class */ (function () {
-    function AddonModSurveyIndexPage(navParams) {
+var AddonModScormIndexPage = /** @class */ (function () {
+    function AddonModScormIndexPage(navParams) {
         this.module = navParams.get('module') || {};
         this.courseId = navParams.get('courseId');
         this.title = this.module.name;
     }
     /**
-     * Update some data based on the survey instance.
+     * Update some data based on the SCORM instance.
      *
-     * @param {any} survey Survey instance.
+     * @param {any} scorm SCORM instance.
      */
-    AddonModSurveyIndexPage.prototype.updateData = function (survey) {
-        this.title = survey.name || this.title;
+    AddonModScormIndexPage.prototype.updateData = function (scorm) {
+        this.title = scorm.name || this.title;
+    };
+    /**
+     * User entered the page.
+     */
+    AddonModScormIndexPage.prototype.ionViewDidEnter = function () {
+        this.scormComponent.ionViewDidEnter();
+    };
+    /**
+     * User left the page.
+     */
+    AddonModScormIndexPage.prototype.ionViewDidLeave = function () {
+        this.scormComponent.ionViewDidLeave();
     };
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModSurveyIndexComponent */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModSurveyIndexComponent */])
-    ], AddonModSurveyIndexPage.prototype, "surveyComponent", void 0);
-    AddonModSurveyIndexPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModScormIndexComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModScormIndexComponent */])
+    ], AddonModScormIndexPage.prototype, "scormComponent", void 0);
+    AddonModScormIndexPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-survey-index',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\survey\pages\index\index.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <!-- The buttons defined by the component will be added in here. -->\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="surveyComponent.loaded" (ionRefresh)="surveyComponent.doRefresh($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n\n\n    <addon-mod-survey-index [module]="module" [courseId]="courseId" (dataRetrieved)="updateData($event)"></addon-mod-survey-index>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\survey\pages\index\index.html"*/,
+            selector: 'page-addon-mod-scorm-index',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\scorm\pages\index\index.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <!-- The buttons defined by the component will be added in here. -->\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="scormComponent.loaded" (ionRefresh)="scormComponent.doRefresh($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n\n\n    <addon-mod-scorm-index [module]="module" [courseId]="courseId" (dataRetrieved)="updateData($event)"></addon-mod-scorm-index>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\scorm\pages\index\index.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]])
-    ], AddonModSurveyIndexPage);
-    return AddonModSurveyIndexPage;
+    ], AddonModScormIndexPage);
+    return AddonModScormIndexPage;
 }());
 
 //# sourceMappingURL=index.js.map

@@ -1,18 +1,17 @@
 webpackJsonp([98],{
 
-/***/ 1805:
+/***/ 1801:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModAssignSubmissionReviewPageModule", function() { return AddonModAssignSubmissionReviewPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModAssignSubmissionListPageModule", function() { return AddonModAssignSubmissionListPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(925);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__submission_review__ = __webpack_require__(1929);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__submission_list__ = __webpack_require__(1922);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -38,42 +37,44 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-
-var AddonModAssignSubmissionReviewPageModule = /** @class */ (function () {
-    function AddonModAssignSubmissionReviewPageModule() {
+var AddonModAssignSubmissionListPageModule = /** @class */ (function () {
+    function AddonModAssignSubmissionListPageModule() {
     }
-    AddonModAssignSubmissionReviewPageModule = __decorate([
+    AddonModAssignSubmissionListPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_6__submission_review__["a" /* AddonModAssignSubmissionReviewPage */],
+                __WEBPACK_IMPORTED_MODULE_5__submission_list__["a" /* AddonModAssignSubmissionListPage */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
                 __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* AddonModAssignComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__submission_review__["a" /* AddonModAssignSubmissionReviewPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__submission_list__["a" /* AddonModAssignSubmissionListPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], AddonModAssignSubmissionReviewPageModule);
-    return AddonModAssignSubmissionReviewPageModule;
+    ], AddonModAssignSubmissionListPageModule);
+    return AddonModAssignSubmissionListPageModule;
 }());
 
-//# sourceMappingURL=submission-review.module.js.map
+//# sourceMappingURL=submission-list.module.js.map
 
 /***/ }),
 
-/***/ 1929:
+/***/ 1922:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModAssignSubmissionReviewPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModAssignSubmissionListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_app__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_course_providers_course__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_assign__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_submission_submission__ = __webpack_require__(396);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_assign__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_assign_offline__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_helper__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_split_view_split_view__ = __webpack_require__(104);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -102,79 +103,163 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
+
+
+
 /**
- * Page that displays a submission.
+ * Page that displays a list of submissions of an assignment.
  */
-var AddonModAssignSubmissionReviewPage = /** @class */ (function () {
-    function AddonModAssignSubmissionReviewPage(navParams, navCtrl, courseProvider, appProvider, assignProvider) {
-        this.navCtrl = navCtrl;
-        this.courseProvider = courseProvider;
-        this.appProvider = appProvider;
+var AddonModAssignSubmissionListPage = /** @class */ (function () {
+    function AddonModAssignSubmissionListPage(navParams, sitesProvider, eventsProvider, domUtils, translate, assignProvider, assignOfflineProvider, assignHelper) {
+        var _this = this;
+        this.domUtils = domUtils;
+        this.translate = translate;
         this.assignProvider = assignProvider;
-        this.forceLeave = false; // To allow leaving the page without checking for changes.
+        this.assignOfflineProvider = assignOfflineProvider;
+        this.assignHelper = assignHelper;
         this.moduleId = navParams.get('moduleId');
         this.courseId = navParams.get('courseId');
-        this.submitId = navParams.get('submitId');
-        this.blindId = navParams.get('blindId');
-        this.showGrade = !!navParams.get('showGrade');
+        this.selectedStatus = navParams.get('status');
+        if (this.selectedStatus) {
+            if (this.selectedStatus == __WEBPACK_IMPORTED_MODULE_6__providers_assign__["a" /* AddonModAssignProvider */].NEED_GRADING) {
+                this.title = this.translate.instant('addon.mod_assign.numberofsubmissionsneedgrading');
+            }
+            else {
+                this.title = this.translate.instant('addon.mod_assign.submissionstatus_' + this.selectedStatus);
+            }
+        }
+        else {
+            this.title = this.translate.instant('addon.mod_assign.numberofparticipants');
+        }
+        // Update data if some grade changes.
+        this.gradedObserver = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_6__providers_assign__["a" /* AddonModAssignProvider */].GRADED_EVENT, function (data) {
+            if (_this.assign && data.assignmentId == _this.assign.id && data.userId == sitesProvider.getCurrentSiteUserId()) {
+                // Grade changed, refresh the data.
+                _this.loaded = false;
+                _this.refreshAllData().finally(function () {
+                    _this.loaded = true;
+                });
+            }
+        }, sitesProvider.getCurrentSiteId());
     }
     /**
      * Component being initialized.
      */
-    AddonModAssignSubmissionReviewPage.prototype.ngOnInit = function () {
+    AddonModAssignSubmissionListPage.prototype.ngOnInit = function () {
         var _this = this;
-        this.fetchSubmission().finally(function () {
+        this.fetchAssignment().finally(function () {
+            if (!_this.selectedSubmissionId && _this.splitviewCtrl.isOn() && _this.submissions.length > 0) {
+                // Take first and load it.
+                _this.loadSubmission(_this.submissions[0]);
+            }
             _this.loaded = true;
         });
     };
     /**
-     * Check if we can leave the page or not.
-     *
-     * @return {boolean|Promise<void>} Resolved if we can leave it, rejected if not.
-     */
-    AddonModAssignSubmissionReviewPage.prototype.ionViewCanLeave = function () {
-        if (!this.submissionComponent || this.forceLeave) {
-            return true;
-        }
-        // Check if data has changed.
-        return this.submissionComponent.canLeave();
-    };
-    /**
-     * User entered the page.
-     */
-    AddonModAssignSubmissionReviewPage.prototype.ionViewDidEnter = function () {
-        this.submissionComponent && this.submissionComponent.ionViewDidEnter();
-    };
-    /**
-     * User left the page.
-     */
-    AddonModAssignSubmissionReviewPage.prototype.ionViewDidLeave = function () {
-        this.submissionComponent && this.submissionComponent.ionViewDidLeave();
-    };
-    /**
-     * Get the submission.
+     * Fetch assignment data.
      *
      * @return {Promise<any>} Promise resolved when done.
      */
-    AddonModAssignSubmissionReviewPage.prototype.fetchSubmission = function () {
+    AddonModAssignSubmissionListPage.prototype.fetchAssignment = function () {
         var _this = this;
-        return this.assignProvider.getAssignment(this.courseId, this.moduleId).then(function (assignment) {
-            _this.assign = assignment;
-            _this.title = _this.assign.name;
-            _this.blindMarking = _this.assign.blindmarking && !_this.assign.revealidentities;
-            return _this.courseProvider.getModuleBasicGradeInfo(_this.moduleId).then(function (gradeInfo) {
-                if (gradeInfo) {
-                    // Grades can be saved if simple grading.
-                    if (gradeInfo.advancedgrading && gradeInfo.advancedgrading[0] &&
-                        typeof gradeInfo.advancedgrading[0].method != 'undefined') {
-                        var method = gradeInfo.advancedgrading[0].method || 'simple';
-                        _this.canSaveGrades = method == 'simple';
-                    }
-                    else {
-                        _this.canSaveGrades = true;
-                    }
+        var participants, submissionsData;
+        // Get assignment data.
+        return this.assignProvider.getAssignment(this.courseId, this.moduleId).then(function (assign) {
+            _this.title = assign.name || _this.title;
+            _this.assign = assign;
+            _this.haveAllParticipants = true;
+            // Get assignment submissions.
+            return _this.assignProvider.getSubmissions(assign.id);
+        }).then(function (data) {
+            if (!data.canviewsubmissions) {
+                // User shouldn't be able to reach here.
+                return Promise.reject(null);
+            }
+            submissionsData = data;
+            // Get the participants.
+            return _this.assignHelper.getParticipants(_this.assign).then(function (parts) {
+                _this.haveAllParticipants = true;
+                participants = parts;
+            }).catch(function () {
+                _this.haveAllParticipants = false;
+            });
+        }).then(function () {
+            // We want to show the user data on each submission.
+            return _this.assignProvider.getSubmissionsUserData(submissionsData.submissions, _this.courseId, _this.assign.id, _this.assign.blindmarking && !_this.assign.revealidentities, participants);
+        }).then(function (submissions) {
+            // Filter the submissions to get only the ones with the right status and add some extra data.
+            var getNeedGrading = _this.selectedStatus == __WEBPACK_IMPORTED_MODULE_6__providers_assign__["a" /* AddonModAssignProvider */].NEED_GRADING, searchStatus = getNeedGrading ? __WEBPACK_IMPORTED_MODULE_6__providers_assign__["a" /* AddonModAssignProvider */].SUBMISSION_STATUS_SUBMITTED : _this.selectedStatus, promises = [];
+            _this.submissions = [];
+            submissions.forEach(function (submission) {
+                if (!searchStatus || searchStatus == submission.status) {
+                    promises.push(_this.assignOfflineProvider.getSubmissionGrade(_this.assign.id, submission.userid).catch(function () {
+                        // Ignore errors.
+                    }).then(function (data) {
+                        var promise, notSynced = false;
+                        // Load offline grades.
+                        if (data && submission.timemodified < data.timemodified) {
+                            notSynced = true;
+                        }
+                        if (getNeedGrading) {
+                            // Only show the submissions that need to be graded.
+                            promise = _this.assignProvider.needsSubmissionToBeGraded(submission, _this.assign.id);
+                        }
+                        else {
+                            promise = Promise.resolve(true);
+                        }
+                        return promise.then(function (add) {
+                            if (!add) {
+                                return;
+                            }
+                            submission.statusColor = _this.assignProvider.getSubmissionStatusColor(submission.status);
+                            submission.gradingColor = _this.assignProvider.getSubmissionGradingStatusColor(submission.gradingstatus);
+                            // Show submission status if not submitted for grading.
+                            if (submission.statusColor != 'success' || !submission.gradingstatus) {
+                                submission.statusTranslated = _this.translate.instant('addon.mod_assign.submissionstatus_' +
+                                    submission.status);
+                            }
+                            else {
+                                submission.statusTranslated = false;
+                            }
+                            if (notSynced) {
+                                submission.gradingStatusTranslationId = 'addon.mod_assign.gradenotsynced';
+                                submission.gradingColor = '';
+                            }
+                            else if (submission.statusColor != 'danger' || submission.gradingColor != 'danger') {
+                                // Show grading status if one of the statuses is not done.
+                                submission.gradingStatusTranslationId =
+                                    _this.assignProvider.getSubmissionGradingStatusTranslationId(submission.gradingstatus);
+                            }
+                            else {
+                                submission.gradingStatusTranslationId = false;
+                            }
+                            _this.submissions.push(submission);
+                        });
+                    }));
                 }
             });
+            return Promise.all(promises);
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'Error getting assigment data.');
+        });
+    };
+    /**
+     * Load a certain submission.
+     *
+     * @param {any} submission The submission to load.
+     */
+    AddonModAssignSubmissionListPage.prototype.loadSubmission = function (submission) {
+        if (this.selectedSubmissionId === submission.id && this.splitviewCtrl.isOn()) {
+            // Already selected.
+            return;
+        }
+        this.selectedSubmissionId = submission.id;
+        this.splitviewCtrl.push('AddonModAssignSubmissionReviewPage', {
+            courseId: this.courseId,
+            moduleId: this.moduleId,
+            submitId: submission.submitid,
+            blindId: submission.blindid
         });
     };
     /**
@@ -182,60 +267,52 @@ var AddonModAssignSubmissionReviewPage = /** @class */ (function () {
      *
      * @return {Promise<any>} Promise resolved when done.
      */
-    AddonModAssignSubmissionReviewPage.prototype.refreshAllData = function () {
+    AddonModAssignSubmissionListPage.prototype.refreshAllData = function () {
         var _this = this;
         var promises = [];
         promises.push(this.assignProvider.invalidateAssignmentData(this.courseId));
         if (this.assign) {
-            promises.push(this.assignProvider.invalidateSubmissionData(this.assign.id));
+            promises.push(this.assignProvider.invalidateAllSubmissionData(this.assign.id));
             promises.push(this.assignProvider.invalidateAssignmentUserMappingsData(this.assign.id));
-            promises.push(this.assignProvider.invalidateSubmissionStatusData(this.assign.id, this.submitId, this.blindMarking));
+            promises.push(this.assignProvider.invalidateListParticipantsData(this.assign.id));
         }
         return Promise.all(promises).finally(function () {
-            _this.submissionComponent && _this.submissionComponent.invalidateAndRefresh();
-            return _this.fetchSubmission();
+            return _this.fetchAssignment();
         });
     };
     /**
-     * Refresh the data.
+     * Refresh the list.
      *
      * @param {any} refresher Refresher.
      */
-    AddonModAssignSubmissionReviewPage.prototype.refreshSubmission = function (refresher) {
+    AddonModAssignSubmissionListPage.prototype.refreshList = function (refresher) {
         this.refreshAllData().finally(function () {
             refresher.complete();
         });
     };
     /**
-     * Submit a grade and feedback.
+     * Component being destroyed.
      */
-    AddonModAssignSubmissionReviewPage.prototype.submitGrade = function () {
-        var _this = this;
-        if (this.submissionComponent) {
-            this.submissionComponent.submitGrade().then(function () {
-                // Grade submitted, leave the view if not in tablet.
-                if (!_this.appProvider.isWide()) {
-                    _this.forceLeave = true;
-                    _this.navCtrl.pop();
-                }
-            });
-        }
+    AddonModAssignSubmissionListPage.prototype.ngOnDestroy = function () {
+        this.gradedObserver && this.gradedObserver.off();
     };
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_5__components_submission_submission__["a" /* AddonModAssignSubmissionComponent */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_5__components_submission_submission__["a" /* AddonModAssignSubmissionComponent */])
-    ], AddonModAssignSubmissionReviewPage.prototype, "submissionComponent", void 0);
-    AddonModAssignSubmissionReviewPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_9__components_split_view_split_view__["a" /* CoreSplitViewComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_9__components_split_view_split_view__["a" /* CoreSplitViewComponent */])
+    ], AddonModAssignSubmissionListPage.prototype, "splitviewCtrl", void 0);
+    AddonModAssignSubmissionListPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-assign-submission-review',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\assign\pages\submission-review\submission-review.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n\n\n        <ion-buttons end></ion-buttons>\n\n    </ion-navbar>\n\n\n\n    <core-navbar-buttons end>\n\n        <button [hidden]="!canSaveGrades" ion-button button-clear (click)="submitGrade()" [attr.aria-label]="\'core.done\' | translate">\n\n            {{ \'core.done\' | translate }}\n\n        </button>\n\n    </core-navbar-buttons>\n\n</ion-header>\n\n<ion-content>\n\n\n\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshSubmission($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-loading [hideUntil]="loaded">\n\n        <addon-mod-assign-submission [courseId]="courseId" [moduleId]="moduleId" [submitId]="submitId" [blindId]="blindId" [showGrade]="showGrade"></addon-mod-assign-submission>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\assign\pages\submission-review\submission-review.html"*/,
+            selector: 'page-addon-mod-assign-submission-list',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\assign\pages\submission-list\submission-list.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n\n\n        <ion-buttons end></ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<core-split-view>\n\n    <ion-content>\n\n        <ion-refresher [enabled]="loaded" (ionRefresh)="refreshList($event)">\n\n            <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n        </ion-refresher>\n\n        <core-loading [hideUntil]="loaded">\n\n            <core-empty-box *ngIf="!submissions || submissions.length == 0" icon="paper" [message]="\'addon.mod_assign.submissionstatus_\' | translate">\n\n            </core-empty-box>\n\n\n\n            <ion-list>\n\n                <!-- List of submissions. -->\n\n                <ng-container *ngFor="let submission of submissions">\n\n                    <a ion-item text-wrap (click)="loadSubmission(submission)" [class.core-split-item-selected]="submission.id == selectedSubmissionId">\n\n                        <ion-avatar item-start *ngIf="submission.userprofileimageurl">\n\n                            <img [src]="submission.userprofileimageurl" [alt]="\'core.pictureof\' | translate:{$a: submission.userfullname}" core-external-content role="presentation" onError="this.src=\'assets/img/user-avatar.png\'">\n\n                        </ion-avatar>\n\n                        <h2 *ngIf="submission.userfullname">{{submission.userfullname}}</h2>\n\n                        <h2 *ngIf="!submission.userfullname">{{ \'addon.mod_assign.hiddenuser\' | translate }}{{submission.blindid}}</h2>\n\n                        <p *ngIf="assign.teamsubmission">\n\n                            <span *ngIf="submission.groupname">{{submission.groupname}}</span>\n\n                            <span *ngIf="assign.preventsubmissionnotingroup && !submission.groupname && !submission.manyGroups && !submission.blindid">{{ \'addon.mod_assign.noteam\' | translate }}</span>\n\n                            <span *ngIf="assign.preventsubmissionnotingroup && !submission.groupname && submission.manyGroups && !submission.blindid">{{ \'addon.mod_assign.multipleteams\' | translate }}</span>\n\n                            <span *ngIf="!assign.preventsubmissionnotingroup && !submission.groupname">{{ \'addon.mod_assign.defaultteam\' | translate }}</span>\n\n                        </p>\n\n                        <ion-badge text-center [color]="submission.statusColor" *ngIf="submission.statusTranslated">\n\n                            {{ submission.statusTranslated }}\n\n                        </ion-badge>\n\n                        <ion-badge text-center [color]="submission.gradingColor" *ngIf="submission.gradingStatusTranslationId">\n\n                            {{ submission.gradingStatusTranslationId | translate }}\n\n                        </ion-badge>\n\n                    </a>\n\n                </ng-container>\n\n\n\n                <ion-item text-wrap class="core-warning-card" *ngIf="!haveAllParticipants" icon-start>\n\n                    <ion-icon name="warning"></ion-icon>\n\n                    {{ \'addon.mod_assign.notallparticipantsareshown\' | translate }}\n\n                </ion-item>\n\n            </ion-list>\n\n        </core-loading>\n\n    </ion-content>\n\n</core-split-view>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\assign\pages\submission-list\submission-list.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_3__core_course_providers_course__["a" /* CoreCourseProvider */],
-            __WEBPACK_IMPORTED_MODULE_2__providers_app__["a" /* CoreAppProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_assign__["a" /* AddonModAssignProvider */]])
-    ], AddonModAssignSubmissionReviewPage);
-    return AddonModAssignSubmissionReviewPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_events__["a" /* CoreEventsProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */],
+            __WEBPACK_IMPORTED_MODULE_6__providers_assign__["a" /* AddonModAssignProvider */], __WEBPACK_IMPORTED_MODULE_7__providers_assign_offline__["a" /* AddonModAssignOfflineProvider */],
+            __WEBPACK_IMPORTED_MODULE_8__providers_helper__["a" /* AddonModAssignHelperProvider */]])
+    ], AddonModAssignSubmissionListPage);
+    return AddonModAssignSubmissionListPage;
 }());
 
-//# sourceMappingURL=submission-review.js.map
+//# sourceMappingURL=submission-list.js.map
 
 /***/ })
 
