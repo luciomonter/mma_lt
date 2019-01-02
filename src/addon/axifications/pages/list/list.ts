@@ -56,7 +56,12 @@ export class AddonAxificationsListPage {
     /** 
      * View loaded.
      */
-    ionViewDidLoad(): void {
+    ionViewDidLoad(): void { 
+	
+		this.safeLoginUrl = "https://www.google.it";
+		this.hideUntil = true; 
+		
+		/*
 		var site = this.sitesProvider.getCurrentSite()
 
 		// Get username and fullname.  
@@ -71,10 +76,7 @@ export class AddonAxificationsListPage {
 		var fullName = site.getInfo().fullname;
 		var userName = site.getInfo().username;
 		var siteUrl = site.getURL();
-		/*
-		console.log( "---userName:: " + userName );
-		console.log( "---siteUrl:: " + siteUrl );
-		*/
+
 		var wantsURL = siteUrl + "/local/axperformance/splash.php";
 		var functionOnWS = 'auth_userkey_request_login_url';
 		

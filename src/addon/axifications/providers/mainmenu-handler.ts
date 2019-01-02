@@ -24,12 +24,10 @@ export class AddonAxificationsMainMenuHandler implements CoreMainMenuHandler {
     priority = 703;
 	 
     protected handler: CoreMainMenuHandlerData = {
-        icon: 'people',
+        icon: 'analytics',
         title: 'addon.axifications.axifications',
         page: 'AddonAxificationsListPage',
         class: 'addon-axifications-handler',
-        showBadge: true,
-        badge: '',
         loading: true,
     };
 

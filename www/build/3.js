@@ -260,25 +260,29 @@ var AddonAxificationsListPage = /** @class */ (function () {
      * View loaded.
      */
     AddonAxificationsListPage.prototype.ionViewDidLoad = function () {
-        var site = this.sitesProvider.getCurrentSite();
-        // Get username and fullname.  
+        this.safeLoginUrl = "https://www.google.it";
+        this.hideUntil = true;
+        /*
+        var site = this.sitesProvider.getCurrentSite()
+
+        // Get username and fullname.
         /// BCC SVIL:
-        //var AUTH_USER_KEY_wsToken = "8c98e14eef68957f1aacb7451388b4e2";   
+        //var AUTH_USER_KEY_wsToken = "8c98e14eef68957f1aacb7451388b4e2";
         /// BCC TEST:
-        //var AUTH_USER_KEY_wsToken = "eb15b5da943a5546296e027bee29f1b1"; 
+        //var AUTH_USER_KEY_wsToken = "eb15b5da943a5546296e027bee29f1b1";
         /// BCC PROD:
         var AUTH_USER_KEY_wsToken = "6c7eb64adb7bbcadbedf13dbdd85ae99";
-        var userId = site.getUserId();
+        
+        var userId =  site.getUserId();
         var fullName = site.getInfo().fullname;
         var userName = site.getInfo().username;
         var siteUrl = site.getURL();
-        /*
-        console.log( "---userName:: " + userName );
-        console.log( "---siteUrl:: " + siteUrl );
-        */
+
         var wantsURL = siteUrl + "/local/axperformance/splash.php";
         var functionOnWS = 'auth_userkey_request_login_url';
+        
         //var responseFromWs = this.getMyLoginUrl(userName,wantsURL,AUTH_USER_KEY_wsToken,siteUrl,functionOnWS);
+        
         /*
         this.getMyLoginUrl(userName,wantsURL,AUTH_USER_KEY_wsToken,siteUrl,functionOnWS)
         .subscribe(resp => {
