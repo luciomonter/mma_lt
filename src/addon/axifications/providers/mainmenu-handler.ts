@@ -24,7 +24,7 @@ export class AddonAxificationsMainMenuHandler implements CoreMainMenuHandler {
     priority = 703;
 	 
     protected handler: CoreMainMenuHandlerData = {
-        icon: 'analytics',
+        icon: 'aperture',
         title: 'addon.axifications.axifications',
         page: 'AddonAxificationsListPage',
         class: 'addon-axifications-handler',
@@ -50,10 +50,12 @@ export class AddonAxificationsMainMenuHandler implements CoreMainMenuHandler {
      * @return {CoreMainMenuHandlerData} Data needed to render the handler.
      */
     getDisplayData(): CoreMainMenuHandlerData {
+		/*
         if (this.handler.loading) {
             //this.updateBadge();
 			
         }
+		*/
 
         return this.handler;
     }
