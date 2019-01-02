@@ -279,11 +279,13 @@ var AddonAxificationsListPage = /** @class */ (function () {
         var wantsURL = siteUrl + "/local/axperformance/splash.php";
         var functionOnWS = 'auth_userkey_request_login_url';
         //var responseFromWs = this.getMyLoginUrl(userName,wantsURL,AUTH_USER_KEY_wsToken,siteUrl,functionOnWS);
-        this.getMyLoginUrl(userName, wantsURL, AUTH_USER_KEY_wsToken, siteUrl, functionOnWS)
-            .subscribe(function (resp) {
-            //this.safeLoginUrl = resp.loginurl + '&wantsurl=' + encodeURI(wantsURL);
-            //this.hideUntil = true; 
+        /*
+        this.getMyLoginUrl(userName,wantsURL,AUTH_USER_KEY_wsToken,siteUrl,functionOnWS)
+        .subscribe(resp => {
+            this.safeLoginUrl = resp.loginurl + '&wantsurl=' + encodeURI(wantsURL);
+            this.hideUntil = true;
         });
+        */
         /// binding to bottom menu
         /*
         jQuery("a.tab-button").click(function() {
