@@ -260,7 +260,6 @@ var AddonAxificationsListPage = /** @class */ (function () {
      * View loaded.
      */
     AddonAxificationsListPage.prototype.ionViewDidLoad = function () {
-        var _this = this;
         var site = this.sitesProvider.getCurrentSite();
         // Get username and fullname.  
         /// BCC SVIL:
@@ -282,8 +281,8 @@ var AddonAxificationsListPage = /** @class */ (function () {
         //var responseFromWs = this.getMyLoginUrl(userName,wantsURL,AUTH_USER_KEY_wsToken,siteUrl,functionOnWS);
         this.getMyLoginUrl(userName, wantsURL, AUTH_USER_KEY_wsToken, siteUrl, functionOnWS)
             .subscribe(function (resp) {
-            _this.safeLoginUrl = resp.loginurl + '&wantsurl=' + encodeURI(wantsURL);
-            _this.hideUntil = true;
+            //this.safeLoginUrl = resp.loginurl + '&wantsurl=' + encodeURI(wantsURL);
+            //this.hideUntil = true; 
         });
         /// binding to bottom menu
         /*

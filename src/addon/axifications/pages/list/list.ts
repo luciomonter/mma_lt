@@ -82,8 +82,8 @@ export class AddonAxificationsListPage {
 		
 		this.getMyLoginUrl(userName,wantsURL,AUTH_USER_KEY_wsToken,siteUrl,functionOnWS)
         .subscribe(resp => {
-			this.safeLoginUrl = resp.loginurl + '&wantsurl=' + encodeURI(wantsURL);
-			this.hideUntil = true;
+			//this.safeLoginUrl = resp.loginurl + '&wantsurl=' + encodeURI(wantsURL);
+			//this.hideUntil = true; 
         });		
 		
 		/// binding to bottom menu
