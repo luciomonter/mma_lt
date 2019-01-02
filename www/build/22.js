@@ -1,6 +1,6 @@
 webpackJsonp([22],{
 
-/***/ 1878:
+/***/ 1879:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9,7 +9,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__more__ = __webpack_require__(2003);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__more__ = __webpack_require__(2004);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
 // (C) Copyright 2015 Martin Dougiamas
@@ -60,7 +60,7 @@ var CoreMainMenuPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2003:
+/***/ 2004:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -175,6 +175,13 @@ var CoreMainMenuMorePage = /** @class */ (function () {
      */
     CoreMainMenuMorePage.prototype.logout = function () {
         this.sitesProvider.logout();
+    };
+    /**
+     * LUCIO - add a webView Navigation to external link
+     */
+    CoreMainMenuMorePage.prototype.visitExternalLinkWithIframe = function () {
+        jQuery("ng-component.app-root").attr("skilla_page_name", "skilla_bcc_comp");
+        this.navCtrl.push('CoreViewerIframePage', { title: "BCC sample", url: "http://link.skilla.com/bcc_redirect/index.html", autoLogin: "yes" });
     };
     CoreMainMenuMorePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({

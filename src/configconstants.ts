@@ -11,7 +11,6 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-
 // tslint:disable: variable-name
 export class CoreConfigConstants {
     static app_id = 'com.skilla.bccmoodlemobile';
@@ -34,5 +33,5 @@ export class CoreConfigConstants {
     static skipssoconfirmation = false;
     static forcedefaultlanguage = false;
     static privacypolicy = 'http://www.gruppobancarioiccrea.it/Pagine/Utility/Privacy.aspx';
-    static compilationtime = 1546441715968;
+    static compilationtime = 1546448106566;
 }
