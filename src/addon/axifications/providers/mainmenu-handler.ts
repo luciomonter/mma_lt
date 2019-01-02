@@ -24,7 +24,7 @@ export class AddonAxificationsMainMenuHandler implements CoreMainMenuHandler {
     priority = 703;
 	 
     protected handler: CoreMainMenuHandlerData = {
-        icon: 'aperture',
+        icon: 'apps',
         title: 'addon.axifications.axifications',
         page: 'AddonAxificationsListPage',
         class: 'addon-axifications-handler',
