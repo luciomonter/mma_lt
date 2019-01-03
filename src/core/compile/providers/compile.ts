@@ -114,7 +114,7 @@ import { ADDON_NOTES_PROVIDERS } from '@addon/notes/notes.module';
 import { ADDON_NOTIFICATIONS_PROVIDERS } from '@addon/notifications/notifications.module';
 import { ADDON_PUSHNOTIFICATIONS_PROVIDERS } from '@addon/pushnotifications/pushnotifications.module';
 /* AX_lucio */
-//import { ADDON_AXIFICATIONS_PROVIDERS } from '@addon/axifications/axifications.module';
+import { ADDON_AXIFICATIONS_PROVIDERS } from '@addon/axifications/axifications.module';
 import { ADDON_REMOTETHEMES_PROVIDERS } from '@addon/remotethemes/remotethemes.module';
 
 // Import some addon modules that define components, directives and pipes. Only import the important ones.

@@ -44477,6 +44477,18 @@ ion-navbar.toolbar {
   padding-bottom: calc(env(safe-area-inset-bottom) + 4px);
 }
 
+div.loading, #embeded_iframe {
+  margin: 0;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+.spinner-ax-valutazione ion-spinner {
+  left: 45%;
+  top: 100px;
+}
+
 ion-app.app-root addon-messages-discussions h2 {
   display: -webkit-box;
   display: -webkit-flex;

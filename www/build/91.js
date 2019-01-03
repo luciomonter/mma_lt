@@ -1,11 +1,11 @@
 webpackJsonp([91],{
 
-/***/ 1808:
+/***/ 1812:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModDataEditPageModule", function() { return AddonModDataEditPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModDataEntryPageModule", function() { return AddonModDataEntryPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
@@ -14,7 +14,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_comments_components_components_module__ = __webpack_require__(387);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_compile_components_compile_html_compile_html_module__ = __webpack_require__(386);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_components_module__ = __webpack_require__(385);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__edit__ = __webpack_require__(1929);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__entry__ = __webpack_require__(1936);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -43,13 +43,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var AddonModDataEditPageModule = /** @class */ (function () {
-    function AddonModDataEditPageModule() {
+var AddonModDataEntryPageModule = /** @class */ (function () {
+    function AddonModDataEntryPageModule() {
     }
-    AddonModDataEditPageModule = __decorate([
+    AddonModDataEntryPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_8__edit__["a" /* AddonModDataEditPage */],
+                __WEBPACK_IMPORTED_MODULE_8__entry__["a" /* AddonModDataEntryPage */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
@@ -57,39 +57,37 @@ var AddonModDataEditPageModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_7__components_components_module__["a" /* AddonModDataComponentsModule */],
                 __WEBPACK_IMPORTED_MODULE_6__core_compile_components_compile_html_compile_html_module__["a" /* CoreCompileHtmlComponentModule */],
                 __WEBPACK_IMPORTED_MODULE_5__core_comments_components_components_module__["a" /* CoreCommentsComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_8__edit__["a" /* AddonModDataEditPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_8__entry__["a" /* AddonModDataEntryPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], AddonModDataEditPageModule);
-    return AddonModDataEditPageModule;
+    ], AddonModDataEntryPageModule);
+    return AddonModDataEntryPageModule;
 }());
 
-//# sourceMappingURL=edit.module.js.map
+//# sourceMappingURL=entry.module.js.map
 
 /***/ }),
 
-/***/ 1929:
+/***/ 1936:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModDataEditPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModDataEntryPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_utils__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_groups__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__core_fileuploader_providers_fileuploader__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_course_providers_course__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_data__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_helper__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_offline__ = __webpack_require__(148);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_fields_delegate__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_components_module__ = __webpack_require__(385);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_utils_utils__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_groups__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__core_course_providers_course__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_data__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_helper__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_offline__ = __webpack_require__(148);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_sync__ = __webpack_require__(260);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_fields_delegate__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_components_module__ = __webpack_require__(385);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -126,13 +124,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
-
 /**
- * Page that displays the view edit page.
+ * Page that displays the view entry page.
  */
-var AddonModDataEditPage = /** @class */ (function () {
-    function AddonModDataEditPage(params, utils, groupsProvider, domUtils, fieldsDelegate, courseProvider, dataProvider, dataOffline, dataHelper, sitesProvider, navCtrl, translate, eventsProvider, fileUploaderProvider) {
+var AddonModDataEntryPage = /** @class */ (function () {
+    function AddonModDataEntryPage(params, utils, groupsProvider, domUtils, fieldsDelegate, courseProvider, dataProvider, dataOffline, dataHelper, sitesProvider, navCtrl, eventsProvider) {
         this.utils = utils;
         this.groupsProvider = groupsProvider;
         this.domUtils = domUtils;
@@ -142,189 +138,175 @@ var AddonModDataEditPage = /** @class */ (function () {
         this.dataOffline = dataOffline;
         this.dataHelper = dataHelper;
         this.navCtrl = navCtrl;
-        this.translate = translate;
         this.eventsProvider = eventsProvider;
-        this.fileUploaderProvider = fileUploaderProvider;
-        this.offlineActions = [];
         this.fields = {};
-        this.fieldsArray = [];
-        this.forceLeave = false; // To allow leaving the page without checking for changes.
         this.title = '';
-        this.component = __WEBPACK_IMPORTED_MODULE_11__providers_data__["a" /* AddonModDataProvider */].COMPONENT;
-        this.loaded = false;
+        this.moduleName = 'data';
+        this.component = __WEBPACK_IMPORTED_MODULE_8__providers_data__["a" /* AddonModDataProvider */].COMPONENT;
+        this.entryLoaded = false;
         this.selectedGroup = 0;
-        this.cssClass = '';
+        this.offlineActions = [];
+        this.hasOffline = false;
         this.cssTemplate = '';
-        this.editFormRender = '';
-        this.extraImports = [__WEBPACK_IMPORTED_MODULE_15__components_components_module__["a" /* AddonModDataComponentsModule */]];
-        this.errors = {};
+        this.entryRendered = '';
+        this.cssClass = '';
+        this.extraImports = [__WEBPACK_IMPORTED_MODULE_13__components_components_module__["a" /* AddonModDataComponentsModule */]];
         this.module = params.get('module') || {};
         this.entryId = params.get('entryId') || null;
         this.courseId = params.get('courseId');
         this.selectedGroup = params.get('group') || 0;
+        this.page = params.get('page') || null;
         this.siteId = sitesProvider.getCurrentSiteId();
         this.title = this.module.name;
-        this.editForm = new __WEBPACK_IMPORTED_MODULE_3__angular_forms__["c" /* FormGroup */]({});
+        this.moduleName = this.courseProvider.translateModuleName('data');
     }
     /**
      * View loaded.
      */
-    AddonModDataEditPage.prototype.ionViewDidLoad = function () {
-        this.fetchEntryData();
-    };
-    /**
-     * Check if we can leave the page or not and ask to confirm the lost of data.
-     *
-     * @return {boolean | Promise<void>} Resolved if we can leave it, rejected if not.
-     */
-    AddonModDataEditPage.prototype.ionViewCanLeave = function () {
+    AddonModDataEntryPage.prototype.ionViewDidLoad = function () {
         var _this = this;
-        if (this.forceLeave) {
-            return true;
-        }
-        var inputData = this.editForm.value;
-        return this.dataHelper.hasEditDataChanged(inputData, this.fieldsArray, this.data.id, this.entry.contents).then(function (changed) {
-            if (!changed) {
-                return Promise.resolve();
+        this.fetchEntryData();
+        // Refresh data if this discussion is synchronized automatically.
+        this.syncObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_11__providers_sync__["a" /* AddonModDataSyncProvider */].AUTO_SYNCED, function (data) {
+            if ((data.entryId == _this.entryId || data.offlineEntryId == _this.entryId) && _this.data.id == data.dataId) {
+                if (data.deleted) {
+                    // If deleted, go back.
+                    _this.navCtrl.pop();
+                }
+                else {
+                    _this.entryId = data.entryid;
+                    _this.entryLoaded = false;
+                    _this.fetchEntryData(true);
+                }
             }
-            // Show confirmation if some data has been modified.
-            return _this.domUtils.showConfirm(_this.translate.instant('core.confirmcanceledit'));
-        }).then(function () {
-            // Delete the local files from the tmp folder.
-            return _this.dataHelper.getEditTmpFiles(inputData, _this.fieldsArray, _this.data.id, _this.entry.contents).then(function (files) {
-                _this.fileUploaderProvider.clearTmpFiles(files);
-            });
-        });
+        }, this.siteId);
+        // Refresh entry on change.
+        this.entryChangedObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_8__providers_data__["a" /* AddonModDataProvider */].ENTRY_CHANGED, function (data) {
+            if (data.entryId == _this.entryId && _this.data.id == data.dataId) {
+                if (data.deleted) {
+                    // If deleted, go back.
+                    _this.navCtrl.pop();
+                }
+                else {
+                    _this.entryLoaded = false;
+                    _this.fetchEntryData(true);
+                }
+            }
+        }, this.siteId);
     };
     /**
      * Fetch the entry data.
      *
+     * @param  {boolean}      refresh If refresh the current data or not.
      * @return {Promise<any>}         Resolved when done.
      */
-    AddonModDataEditPage.prototype.fetchEntryData = function () {
+    AddonModDataEntryPage.prototype.fetchEntryData = function (refresh) {
         var _this = this;
+        var fieldsArray;
         return this.dataProvider.getDatabase(this.courseId, this.module.id).then(function (data) {
             _this.title = data.name || _this.title;
             _this.data = data;
             _this.cssClass = 'addon-data-entries-' + data.id;
-            return _this.dataProvider.getDatabaseAccessInformation(data.id);
+            return _this.setEntryIdFromPage(data.id, _this.page, _this.selectedGroup).then(function () {
+                return _this.dataProvider.getDatabaseAccessInformation(data.id);
+            });
         }).then(function (accessData) {
-            _this.cssTemplate = _this.dataHelper.prefixCSS(_this.data.csstemplate, '.' + _this.cssClass);
-            if (_this.entryId) {
-                return _this.groupsProvider.getActivityGroupInfo(_this.data.coursemodule, accessData.canmanageentries)
-                    .then(function (groupInfo) {
-                    _this.groupInfo = groupInfo;
-                    // Check selected group is accessible.
-                    if (groupInfo && groupInfo.groups && groupInfo.groups.length > 0) {
-                        if (!groupInfo.groups.some(function (group) { return _this.selectedGroup == group.id; })) {
-                            _this.selectedGroup = groupInfo.groups[0].id;
-                        }
+            _this.access = accessData;
+            return _this.groupsProvider.getActivityGroupInfo(_this.data.coursemodule, accessData.canmanageentries)
+                .then(function (groupInfo) {
+                _this.groupInfo = groupInfo;
+                // Check selected group is accessible.
+                if (groupInfo && groupInfo.groups && groupInfo.groups.length > 0) {
+                    if (!groupInfo.groups.some(function (group) { return _this.selectedGroup == group.id; })) {
+                        _this.selectedGroup = groupInfo.groups[0].id;
                     }
-                });
-            }
-        }).then(function () {
-            return _this.dataOffline.getEntryActions(_this.data.id, _this.entryId);
+                }
+                return _this.dataOffline.getEntryActions(_this.data.id, _this.entryId);
+            });
         }).then(function (actions) {
             _this.offlineActions = actions;
-            return _this.dataProvider.getFields(_this.data.id);
-        }).then(function (fieldsData) {
-            _this.fieldsArray = fieldsData;
-            _this.fields = _this.utils.arrayToObject(fieldsData, 'id');
-            return _this.dataHelper.getEntry(_this.data, _this.entryId, _this.offlineActions);
+            _this.hasOffline = !!actions.length;
+            return _this.dataProvider.getFields(_this.data.id).then(function (fieldsData) {
+                _this.fields = _this.utils.arrayToObject(fieldsData, 'id');
+                return _this.dataHelper.getEntry(_this.data, _this.entryId, _this.offlineActions);
+            });
         }).then(function (entry) {
-            if (entry) {
-                entry = entry.entry;
-                // Index contents by fieldid.
-                entry.contents = _this.utils.arrayToObject(entry.contents, 'fieldid');
-            }
-            else {
-                entry = {
-                    contents: {}
-                };
-            }
-            return _this.dataHelper.applyOfflineActions(entry, _this.offlineActions, _this.fieldsArray);
+            entry = entry.entry;
+            _this.cssTemplate = _this.dataHelper.prefixCSS(_this.data.csstemplate, '.' + _this.cssClass);
+            // Index contents by fieldid.
+            entry.contents = _this.utils.arrayToObject(entry.contents, 'fieldid');
+            fieldsArray = _this.utils.objectToArray(_this.fields);
+            return _this.dataHelper.applyOfflineActions(entry, _this.offlineActions, fieldsArray);
         }).then(function (entryData) {
             _this.entry = entryData;
-            _this.editFormRender = _this.displayEditFields();
+            var actions = _this.dataHelper.getActions(_this.data, _this.access, _this.entry);
+            _this.entryRendered = _this.dataHelper.displayShowFields(_this.data.singletemplate, fieldsArray, _this.entry, 'show', actions);
+            _this.showComments = actions.comments;
+            var entries = {};
+            entries[_this.entryId] = _this.entry;
+            // Pass the input data to the component.
+            _this.jsData = {
+                fields: _this.fields,
+                entries: entries,
+                data: _this.data
+            };
+            return _this.dataHelper.getPageInfoByEntry(_this.data.id, _this.entryId, _this.selectedGroup).then(function (result) {
+                _this.previousId = result.previousId;
+                _this.nextId = result.nextId;
+            });
         }).catch(function (message) {
+            if (!refresh) {
+                // Some call failed, retry without using cache since it might be a new activity.
+                return _this.refreshAllData();
+            }
             _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
         }).finally(function () {
-            _this.loaded = true;
+            _this.domUtils.scrollToTop(_this.content);
+            _this.entryLoaded = true;
         });
     };
     /**
-     * Saves data.
+     * Go to selected entry without changing state.
      *
-     * @return {Promise<any>} Resolved when done.
+     * @param  {number}       entry Entry Id where to go.
+     * @return {Promise<any>}       Resolved when done.
      */
-    AddonModDataEditPage.prototype.save = function () {
+    AddonModDataEntryPage.prototype.gotoEntry = function (entry) {
+        this.entryId = entry;
+        this.page = null;
+        this.entryLoaded = false;
+        return this.fetchEntryData();
+    };
+    /**
+     * Refresh all the data.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModDataEntryPage.prototype.refreshAllData = function () {
         var _this = this;
-        var inputData = this.editForm.value;
-        return this.dataHelper.hasEditDataChanged(inputData, this.fieldsArray, this.data.id, this.entry.contents).then(function (changed) {
-            if (!changed) {
-                if (_this.entryId) {
-                    return _this.returnToEntryList();
-                }
-                // New entry, no changes means no field filled, warn the user.
-                return Promise.reject('addon.mod_data.emptyaddform');
-            }
-            var modal = _this.domUtils.showModalLoading('core.sending', true);
-            // Create an ID to assign files.
-            var entryTemp = _this.entryId ? _this.entryId : -(new Date().getTime());
-            return _this.dataHelper.getEditDataFromForm(inputData, _this.fieldsArray, _this.data.id, entryTemp, _this.entry.contents, _this.offline).catch(function (e) {
-                if (!_this.offline) {
-                    // Cannot submit in online, prepare for offline usage.
-                    _this.offline = true;
-                    return _this.dataHelper.getEditDataFromForm(inputData, _this.fieldsArray, _this.data.id, entryTemp, _this.entry.contents, _this.offline);
-                }
-                return Promise.reject(e);
-            }).then(function (editData) {
-                if (editData.length > 0) {
-                    if (_this.entryId) {
-                        return _this.dataProvider.editEntry(_this.data.id, _this.entryId, _this.courseId, editData, _this.fields, undefined, _this.offline);
-                    }
-                    return _this.dataProvider.addEntry(_this.data.id, entryTemp, _this.courseId, editData, _this.selectedGroup, _this.fields, undefined, _this.offline);
-                }
-                return false;
-            }).then(function (result) {
-                if (!result) {
-                    // No field filled, warn the user.
-                    return Promise.reject('addon.mod_data.emptyaddform');
-                }
-                // This is done if entry is updated when editing or creating if not.
-                if ((_this.entryId && result.updated) || (!_this.entryId && result.newentryid)) {
-                    var promises = [];
-                    _this.entryId = _this.entryId || result.newentryid;
-                    promises.push(_this.dataProvider.invalidateEntryData(_this.data.id, _this.entryId, _this.siteId));
-                    promises.push(_this.dataProvider.invalidateEntriesData(_this.data.id, _this.siteId));
-                    return Promise.all(promises).then(function () {
-                        _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_11__providers_data__["a" /* AddonModDataProvider */].ENTRY_CHANGED, { dataId: _this.data.id, entryId: _this.entryId }, _this.siteId);
-                    }).finally(function () {
-                        return _this.returnToEntryList();
-                    });
-                }
-                else {
-                    _this.errors = {};
-                    if (result.fieldnotifications) {
-                        result.fieldnotifications.forEach(function (fieldNotif) {
-                            var field = _this.fieldsArray.find(function (field) { return field.name == fieldNotif.fieldname; });
-                            if (field) {
-                                _this.errors[field.id] = fieldNotif.notification;
-                            }
-                        });
-                    }
-                    _this.jsData['errors'] = _this.errors;
-                    setTimeout(function () {
-                        _this.scrollToFirstError();
-                    });
-                }
-            }).finally(function () {
-                modal.dismiss();
-            });
-        }).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'Cannot edit entry', true);
-            return Promise.reject(null);
+        var promises = [];
+        promises.push(this.dataProvider.invalidateDatabaseData(this.courseId));
+        if (this.data) {
+            promises.push(this.dataProvider.invalidateEntryData(this.data.id, this.entryId));
+            promises.push(this.groupsProvider.invalidateActivityGroupInfo(this.data.coursemodule));
+            promises.push(this.dataProvider.invalidateEntriesData(this.data.id));
+        }
+        return Promise.all(promises).finally(function () {
+            return _this.fetchEntryData(true);
         });
+    };
+    /**
+     * Refresh the data.
+     *
+     * @param {any} [refresher] Refresher.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModDataEntryPage.prototype.refreshDatabase = function (refresher) {
+        if (this.entryLoaded) {
+            return this.refreshAllData().finally(function () {
+                refresher && refresher.complete();
+            });
+        }
     };
     /**
      * Set group to see the database.
@@ -332,89 +314,58 @@ var AddonModDataEditPage = /** @class */ (function () {
      * @param  {number}       groupId Group identifier to set.
      * @return {Promise<any>}         Resolved when done.
      */
-    AddonModDataEditPage.prototype.setGroup = function (groupId) {
-        this.selectedGroup = groupId;
-        this.loaded = false;
-        return this.fetchEntryData();
-    };
-    /**
-     * Displays Edit Search Fields.
-     *
-     * @return {string}  Generated HTML.
-     */
-    AddonModDataEditPage.prototype.displayEditFields = function () {
-        if (!this.data.addtemplate) {
-            return '';
-        }
-        this.jsData = {
-            fields: this.fields,
-            contents: this.entry.contents,
-            form: this.editForm,
-            data: this.data,
-            errors: this.errors
-        };
-        var replace, render, template = this.data.addtemplate;
-        // Replace the fields found on template.
-        this.fieldsArray.forEach(function (field) {
-            replace = '[[' + field.name + ']]';
-            replace = replace.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, '\\$&');
-            replace = new RegExp(replace, 'gi');
-            // Replace field by a generic directive.
-            render = '<addon-mod-data-field-plugin mode="edit" [field]="fields[' + field.id + ']"\
-                [value]="contents[' + field.id + ']" [form]="form" [database]="data" [error]="errors[' + field.id + ']">\
-                </addon-mod-data-field-plugin>';
-            template = template.replace(replace, render);
-            // Replace the field id tag.
-            replace = '[[' + field.name + '#id]]';
-            replace = replace.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, '\\$&');
-            replace = new RegExp(replace, 'gi');
-            template = template.replace(replace, 'field_' + field.id);
-        });
-        return template;
-    };
-    /**
-     * Return to the entry list (previous page) discarding temp data.
-     *
-     * @return {Promise<any>}  Resolved when done.
-     */
-    AddonModDataEditPage.prototype.returnToEntryList = function () {
+    AddonModDataEntryPage.prototype.setGroup = function (groupId) {
         var _this = this;
-        var inputData = this.editForm.value;
-        return this.dataHelper.getEditTmpFiles(inputData, this.fieldsArray, this.data.id, this.entry.contents).then(function (files) {
-            _this.fileUploaderProvider.clearTmpFiles(files);
-        }).finally(function () {
-            // Go back to entry list.
-            _this.forceLeave = true;
-            _this.navCtrl.pop();
+        this.selectedGroup = groupId;
+        this.entryLoaded = false;
+        return this.setEntryIdFromPage(this.data.id, 0, this.selectedGroup).then(function () {
+            return _this.fetchEntryData();
         });
     };
     /**
-     * Scroll to first error or to the top if not found.
+     * Convenience function to translate page number to entry identifier.
+     *
+     * @param  {number}       dataId       Data Id.
+     * @param  {number}       [pageNumber] Page number where to go
+     * @param  {number}       group        Group Id to get the entry.
+     * @return {Promise<any>}              Resolved when done.
      */
-    AddonModDataEditPage.prototype.scrollToFirstError = function () {
-        if (!this.domUtils.scrollToElementBySelector(this.content, '.addon-data-error')) {
-            this.domUtils.scrollToTop(this.content);
+    AddonModDataEntryPage.prototype.setEntryIdFromPage = function (dataId, pageNumber, group) {
+        var _this = this;
+        if (typeof pageNumber == 'number') {
+            return this.dataHelper.getPageInfoByPage(dataId, pageNumber, group).then(function (result) {
+                _this.entryId = result.entryId;
+                _this.page = null;
+            });
         }
+        return Promise.resolve();
+    };
+    /**
+     * Component being destroyed.
+     */
+    AddonModDataEntryPage.prototype.ngOnDestroy = function () {
+        this.syncObserver && this.syncObserver.off();
+        this.entryChangedObserver && this.entryChangedObserver.off();
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
-    ], AddonModDataEditPage.prototype, "content", void 0);
-    AddonModDataEditPage = __decorate([
+    ], AddonModDataEntryPage.prototype, "content", void 0);
+    AddonModDataEntryPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-data-edit',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\data\pages\edit\edit.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="save()" [attr.aria-label]="\'core.save\' | translate">\n\n                {{ \'core.save\' | translate }}\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <core-loading [hideUntil]="loaded">\n\n        <ion-item text-wrap *ngIf="groupInfo && (groupInfo.separateGroups || groupInfo.visibleGroups)">\n\n            <ion-label id="addon-data-groupslabel" *ngIf="groupInfo.separateGroups">{{ \'core.groupsseparate\' | translate }}</ion-label>\n\n            <ion-label id="addon-data-groupslabel" *ngIf="groupInfo.visibleGroups">{{ \'core.groupsvisible\' | translate }}</ion-label>\n\n            <ion-select [(ngModel)]="selectedGroup" (ionChange)="setGroup(selectedGroup)" aria-labelledby="addon-data-groupslabel" interface="popover">\n\n                <ion-option *ngFor="let groupOpt of groupInfo.groups" [value]="groupOpt.id">{{groupOpt.name}}</ion-option>\n\n            </ion-select>\n\n        </ion-item>\n\n\n\n        <div class="addon-data-contents {{cssClass}}">\n\n            <style *ngIf="cssTemplate">\n\n                {{ cssTemplate }}\n\n            </style>\n\n\n\n            <form (ngSubmit)="save()" [formGroup]="editForm">\n\n                <core-compile-html [text]="editFormRender" [jsData]="jsData" [extraImports]="extraImports"></core-compile-html>\n\n            </form>\n\n        </div>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\data\pages\edit\edit.html"*/,
+            selector: 'page-addon-mod-data-entry',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\data\pages\entry\entry.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="entryLoaded" (ionRefresh)="refreshDatabase($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-loading [hideUntil]="entryLoaded">\n\n        <!-- Database entries found to be synchronized -->\n\n        <div class="core-warning-card" icon-start *ngIf="hasOffline">\n\n            <ion-icon name="warning"></ion-icon>\n\n            {{ \'core.hasdatatosync\' | translate: {$a: moduleName} }}\n\n        </div>\n\n\n\n        <ion-item text-wrap *ngIf="groupInfo && (groupInfo.separateGroups || groupInfo.visibleGroups)">\n\n            <ion-label id="addon-data-groupslabel" *ngIf="groupInfo.separateGroups">{{ \'core.groupsseparate\' | translate }}</ion-label>\n\n            <ion-label id="addon-data-groupslabel" *ngIf="groupInfo.visibleGroups">{{ \'core.groupsvisible\' | translate }}</ion-label>\n\n            <ion-select [(ngModel)]="selectedGroup" (ionChange)="setGroup(selectedGroup)" aria-labelledby="addon-data-groupslabel" interface="popover">\n\n                <ion-option *ngFor="let groupOpt of groupInfo.groups" [value]="groupOpt.id">{{groupOpt.name}}</ion-option>\n\n            </ion-select>\n\n        </ion-item>\n\n\n\n        <div class="addon-data-contents {{cssClass}}">\n\n            <style *ngIf="cssTemplate">\n\n                {{ cssTemplate }}\n\n            </style>\n\n\n\n            <core-compile-html [text]="entryRendered" [jsData]="jsData" [extraImports]="extraImports"></core-compile-html>\n\n        </div>\n\n\n\n        <ion-item *ngIf="data && entry">\n\n            <core-comments contextLevel="module" [instanceId]="data.coursemodule" component="mod_data" [itemId]="entry.id" area="database_entry"></core-comments>\n\n        </ion-item>\n\n\n\n        <ion-grid *ngIf="previousId || nextId">\n\n            <ion-row align-items-center>\n\n                <ion-col *ngIf="previousId">\n\n                    <button ion-button block outline icon-start (click)="gotoEntry(previousId)">\n\n                        <ion-icon name="arrow-back" md="ios-arrow-back"></ion-icon>\n\n                        {{ \'core.previous\' | translate }}\n\n                    </button>\n\n                </ion-col>\n\n                <ion-col *ngIf="nextId">\n\n                    <button ion-button block icon-end (click)="gotoEntry(nextId)">\n\n                        {{ \'core.next\' | translate }}\n\n                        <ion-icon name="arrow-forward" md="ios-arrow-forward"></ion-icon>\n\n                    </button>\n\n                </ion-col>\n\n            </ion-row>\n\n        </ion-grid>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\data\pages\entry\entry.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__providers_utils_utils__["a" /* CoreUtilsProvider */], __WEBPACK_IMPORTED_MODULE_7__providers_groups__["a" /* CoreGroupsProvider */],
-            __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_14__providers_fields_delegate__["a" /* AddonModDataFieldsDelegate */],
-            __WEBPACK_IMPORTED_MODULE_10__core_course_providers_course__["a" /* CoreCourseProvider */], __WEBPACK_IMPORTED_MODULE_11__providers_data__["a" /* AddonModDataProvider */],
-            __WEBPACK_IMPORTED_MODULE_13__providers_offline__["a" /* AddonModDataOfflineProvider */], __WEBPACK_IMPORTED_MODULE_12__providers_helper__["a" /* AddonModDataHelperProvider */],
-            __WEBPACK_IMPORTED_MODULE_6__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */],
-            __WEBPACK_IMPORTED_MODULE_8__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_9__core_fileuploader_providers_fileuploader__["a" /* CoreFileUploaderProvider */]])
-    ], AddonModDataEditPage);
-    return AddonModDataEditPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_utils_utils__["a" /* CoreUtilsProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_groups__["a" /* CoreGroupsProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_12__providers_fields_delegate__["a" /* AddonModDataFieldsDelegate */],
+            __WEBPACK_IMPORTED_MODULE_7__core_course_providers_course__["a" /* CoreCourseProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_data__["a" /* AddonModDataProvider */],
+            __WEBPACK_IMPORTED_MODULE_10__providers_offline__["a" /* AddonModDataOfflineProvider */], __WEBPACK_IMPORTED_MODULE_9__providers_helper__["a" /* AddonModDataHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_6__providers_events__["a" /* CoreEventsProvider */]])
+    ], AddonModDataEntryPage);
+    return AddonModDataEntryPage;
 }());
 
-//# sourceMappingURL=edit.js.map
+//# sourceMappingURL=entry.js.map
 
 /***/ })
 

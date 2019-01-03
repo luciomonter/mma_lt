@@ -129,11 +129,11 @@ export class CoreMainMenuMorePage implements OnDestroy {
     /**
      * LUCIO - add a webView Navigation to external link
      */
-	 
+	/* 
     visitExternalLinkWithIframe(): void {
 		jQuery("ng-component.app-root").attr("skilla_page_name","skilla_bcc_comp");
 		this.navCtrl.push('CoreViewerIframePage', {title: "BCC sample", url: "http://link.skilla.com/bcc_redirect/index.html", autoLogin:"yes"});
     }		
-	
+	*/
 	 
 }

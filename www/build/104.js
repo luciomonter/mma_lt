@@ -1,17 +1,17 @@
 webpackJsonp([104],{
 
-/***/ 1793:
+/***/ 1801:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonFilesListPageModule", function() { return AddonFilesListPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonMessageOutputAirnotifierDevicesPageModule", function() { return AddonMessageOutputAirnotifierDevicesPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__list__ = __webpack_require__(1914);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__devices__ = __webpack_require__(1925);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -37,44 +37,38 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var AddonFilesListPageModule = /** @class */ (function () {
-    function AddonFilesListPageModule() {
+var AddonMessageOutputAirnotifierDevicesPageModule = /** @class */ (function () {
+    function AddonMessageOutputAirnotifierDevicesPageModule() {
     }
-    AddonFilesListPageModule = __decorate([
+    AddonMessageOutputAirnotifierDevicesPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__list__["a" /* AddonFilesListPage */],
+                __WEBPACK_IMPORTED_MODULE_5__devices__["a" /* AddonMessageOutputAirnotifierDevicesPage */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
                 __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__list__["a" /* AddonFilesListPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__devices__["a" /* AddonMessageOutputAirnotifierDevicesPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], AddonFilesListPageModule);
-    return AddonFilesListPageModule;
+    ], AddonMessageOutputAirnotifierDevicesPageModule);
+    return AddonMessageOutputAirnotifierDevicesPageModule;
 }());
 
-//# sourceMappingURL=list.module.js.map
+//# sourceMappingURL=devices.module.js.map
 
 /***/ }),
 
-/***/ 1914:
+/***/ 1925:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonFilesListPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessageOutputAirnotifierDevicesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_app__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_text__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_files__ = __webpack_require__(251);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_helper__ = __webpack_require__(943);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__addon_pushnotifications_providers_pushnotifications__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_airnotifier__ = __webpack_require__(394);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -101,190 +95,121 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
-
-
-
-
-
 /**
- * Page that displays the list of files.
+ * Page that displays the list of devices.
  */
-var AddonFilesListPage = /** @class */ (function () {
-    function AddonFilesListPage(navParams, eventsProvider, sitesProvider, domUtils, translate, appProvider, filesProvider, filesHelper, textUtils) {
-        var _this = this;
-        this.sitesProvider = sitesProvider;
+var AddonMessageOutputAirnotifierDevicesPage = /** @class */ (function () {
+    function AddonMessageOutputAirnotifierDevicesPage(domUtils, airnotifierProivder, pushNotificationsProvider) {
         this.domUtils = domUtils;
-        this.translate = translate;
-        this.appProvider = appProvider;
-        this.filesProvider = filesProvider;
-        this.filesHelper = filesHelper;
-        this.textUtils = textUtils;
-        this.title = navParams.get('title') || this.translate.instant('addon.files.files');
-        this.root = navParams.get('root');
-        this.path = navParams.get('path');
-        // Update visibility if current site info is updated.
-        this.updateSiteObserver = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_4__providers_events__["a" /* CoreEventsProvider */].SITE_UPDATED, function () {
-            _this.setVisibility();
-        }, sitesProvider.getCurrentSiteId());
+        this.airnotifierProivder = airnotifierProivder;
+        this.pushNotificationsProvider = pushNotificationsProvider;
+        this.devices = [];
+        this.devicesLoaded = false;
     }
     /**
      * View loaded.
      */
-    AddonFilesListPage.prototype.ionViewDidLoad = function () {
-        this.setVisibility();
-        this.userQuota = this.sitesProvider.getCurrentSite().getInfo().userquota;
-        if (!this.root) {
-            // Load private files by default.
-            if (this.showPrivateFiles) {
-                this.root = 'my';
-            }
-            else if (this.showSiteFiles) {
-                this.root = 'site';
-            }
-        }
-        if (this.root) {
-            this.rootChanged();
-        }
-        else {
-            this.filesLoaded = true;
-        }
+    AddonMessageOutputAirnotifierDevicesPage.prototype.ionViewDidLoad = function () {
+        this.fetchDevices();
     };
     /**
-     * Refresh the data.
+     * Fetches the list of devices.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonMessageOutputAirnotifierDevicesPage.prototype.fetchDevices = function () {
+        var _this = this;
+        return this.airnotifierProivder.getUserDevices().then(function (devices) {
+            var pushId = _this.pushNotificationsProvider.getPushId();
+            // Convert enabled to boolean and search current device.
+            devices.forEach(function (device) {
+                device.enable = !!device.enable;
+                device.current = pushId && pushId == device.pushid;
+            });
+            _this.devices = devices;
+        }).catch(function (message) {
+            _this.domUtils.showErrorModal(message);
+        }).finally(function () {
+            _this.devicesLoaded = true;
+        });
+    };
+    /**
+     * Update list of devices after a certain time. The purpose is to store the updated data, it won't be reflected in the view.
+     */
+    AddonMessageOutputAirnotifierDevicesPage.prototype.updateDevicesAfterDelay = function () {
+        var _this = this;
+        // Cancel pending updates.
+        if (this.updateTimeout) {
+            clearTimeout(this.updateTimeout);
+        }
+        this.updateTimeout = setTimeout(function () {
+            _this.updateTimeout = null;
+            _this.updateDevices();
+        }, 5000);
+    };
+    /**
+     * Fetch devices. The purpose is to store the updated data, it won't be reflected in the view.
+     */
+    AddonMessageOutputAirnotifierDevicesPage.prototype.updateDevices = function () {
+        var _this = this;
+        this.airnotifierProivder.invalidateUserDevices().finally(function () {
+            _this.airnotifierProivder.getUserDevices();
+        });
+    };
+    /**
+     * Refresh the list of devices.
      *
      * @param {any} refresher Refresher.
      */
-    AddonFilesListPage.prototype.refreshData = function (refresher) {
-        this.refreshFiles().finally(function () {
-            refresher.complete();
-        });
-    };
-    /**
-     * Function called when the root has changed.
-     */
-    AddonFilesListPage.prototype.rootChanged = function () {
+    AddonMessageOutputAirnotifierDevicesPage.prototype.refreshDevices = function (refresher) {
         var _this = this;
-        this.filesLoaded = false;
-        this.component = this.root == 'my' ? __WEBPACK_IMPORTED_MODULE_8__providers_files__["a" /* AddonFilesProvider */].PRIVATE_FILES_COMPONENT : __WEBPACK_IMPORTED_MODULE_8__providers_files__["a" /* AddonFilesProvider */].SITE_FILES_COMPONENT;
-        this.fetchFiles().finally(function () {
-            _this.filesLoaded = true;
+        this.airnotifierProivder.invalidateUserDevices().finally(function () {
+            _this.fetchDevices().finally(function () {
+                refresher.complete();
+            });
         });
     };
     /**
-     * Upload a new file.
-     */
-    AddonFilesListPage.prototype.uploadFile = function () {
-        var _this = this;
-        this.filesProvider.versionCanUploadFiles().then(function (canUpload) {
-            if (!canUpload) {
-                _this.domUtils.showAlertTranslated('core.notice', 'addon.files.erroruploadnotworking');
-            }
-            else if (!_this.appProvider.isOnline()) {
-                _this.domUtils.showErrorModal('core.fileuploader.errormustbeonlinetoupload', true);
-            }
-            else {
-                _this.filesHelper.uploadPrivateFile(_this.filesInfo).then(function () {
-                    // File uploaded, refresh the list.
-                    _this.filesLoaded = false;
-                    _this.refreshFiles().finally(function () {
-                        _this.filesLoaded = true;
-                    });
-                }).catch(function () {
-                    // Ignore errors, they're handled inside the function.
-                });
-            }
-        });
-    };
-    /**
-     * Set visibility of some items based on site data.
-     */
-    AddonFilesListPage.prototype.setVisibility = function () {
-        this.showPrivateFiles = this.filesProvider.canViewPrivateFiles();
-        this.showSiteFiles = this.filesProvider.canViewSiteFiles();
-        this.showUpload = this.filesProvider.canUploadFiles();
-    };
-    /**
-     * Fetch the files.
+     * Enable or disable a certain device.
      *
-     * @return {Promise<any>} Promise resolved when done.
+     * @param {any} device The device object.
+     * @param {boolean} enable True to enable the device, false to disable it.
      */
-    AddonFilesListPage.prototype.fetchFiles = function () {
+    AddonMessageOutputAirnotifierDevicesPage.prototype.enableDevice = function (device, enable) {
         var _this = this;
-        var promise;
-        if (!this.path) {
-            // The path is unknown, the user must be requesting a root.
-            if (this.root == 'site') {
-                this.title = this.translate.instant('addon.files.sitefiles');
-                promise = this.filesProvider.getSiteFiles();
-            }
-            else if (this.root == 'my') {
-                this.title = this.translate.instant('addon.files.files');
-                promise = this.filesProvider.getPrivateFiles().then(function (files) {
-                    if (_this.showUpload && _this.filesProvider.canGetPrivateFilesInfo() && _this.userQuota > 0) {
-                        // Get the info to calculate the available size.
-                        return _this.filesProvider.getPrivateFilesInfo().then(function (info) {
-                            _this.filesInfo = info;
-                            _this.spaceUsed = _this.textUtils.bytesToSize(info.filesizewithoutreferences, 1);
-                            _this.userQuotaReadable = _this.textUtils.bytesToSize(_this.userQuota, 1);
-                            return files;
-                        });
-                    }
-                    else {
-                        // User quota isn't useful, delete it.
-                        delete _this.userQuota;
-                    }
-                    return files;
-                });
-            }
-            else {
-                // Unknown root.
-                promise = Promise.reject(null);
-            }
-        }
-        else {
-            // Path is set, serve the files the user requested.
-            promise = this.filesProvider.getFiles(this.path);
-        }
-        return promise.then(function (files) {
-            _this.files = files;
-        }).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'addon.files.couldnotloadfiles', true);
-        });
-    };
-    /**
-     * Refresh the displayed files.
-     *
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonFilesListPage.prototype.refreshFiles = function () {
-        var _this = this;
-        var promises = [];
-        promises.push(this.filesProvider.invalidateDirectory(this.root, this.path));
-        promises.push(this.filesProvider.invalidatePrivateFilesInfoForUser());
-        return Promise.all(promises).finally(function () {
-            return _this.fetchFiles();
+        device.updating = true;
+        this.airnotifierProivder.enableDevice(device.id, enable).then(function () {
+            // Update the list of devices since it was modified.
+            _this.updateDevicesAfterDelay();
+        }).catch(function (message) {
+            // Show error and revert change.
+            _this.domUtils.showErrorModal(message);
+            device.enable = !device.enable;
+        }).finally(function () {
+            device.updating = false;
         });
     };
     /**
      * Page destroyed.
      */
-    AddonFilesListPage.prototype.ngOnDestroy = function () {
-        this.updateSiteObserver && this.updateSiteObserver.off();
+    AddonMessageOutputAirnotifierDevicesPage.prototype.ngOnDestroy = function () {
+        // If there is a pending action to update devices, execute it right now.
+        if (this.updateTimeout) {
+            clearTimeout(this.updateTimeout);
+            this.updateDevices();
+        }
     };
-    AddonFilesListPage = __decorate([
+    AddonMessageOutputAirnotifierDevicesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-files-list',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\files\pages\list\list.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content [class.has-fab]="showUpload && root != \'site\' && !path">\n\n    <ion-refresher [enabled]="filesLoaded && (showPrivateFiles || showSiteFiles)" (ionRefresh)="refreshData($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n\n\n    <core-loading [hideUntil]="filesLoaded" *ngIf="showPrivateFiles || showSiteFiles">\n\n        <!-- Allow selecting the files to see: private or site. -->\n\n        <div padding *ngIf="showPrivateFiles && showSiteFiles && !path">\n\n            <ion-select [(ngModel)]="root" (ngModelChange)="rootChanged()" interface="popover">\n\n                <ion-option value="my">{{ \'addon.files.privatefiles\' | translate }}</ion-option>\n\n                <ion-option value="site">{{ \'addon.files.sitefiles\' | translate }}</ion-option>\n\n            </ion-select>\n\n        </div>\n\n\n\n        <!-- Display info about space used and space left. -->\n\n        <p class="core-info-card" *ngIf="userQuota && filesInfo && filesInfo.filecount > 0">{{ \'core.quotausage\' | translate:{$a: {used: spaceUsed, total: userQuotaReadable} } }}</p>\n\n\n\n        <!-- List of files. -->\n\n        <ion-list *ngIf="files && files.length > 0">\n\n            <div *ngFor="let file of files">\n\n                <a *ngIf="file.isdir" ion-item class="item-media" [navPush]="\'AddonFilesListPage\'" [navParams]="{path: file.link, title: file.filename}">\n\n                    <img [src]="file.imgPath" alt="" role="presentation" item-start>\n\n                    <p>{{file.filename}}</p>\n\n                </a>\n\n                <core-file *ngIf="!file.isdir" [file]="file" [component]="component" [componentId]="file.contextid"></core-file>\n\n            </div>\n\n        </ion-list>\n\n\n\n        <!-- Message telling there are no files. -->\n\n        <core-empty-box *ngIf="!files || !files.length" icon="folder" [message]="\'addon.files.emptyfilelist\' | translate"></core-empty-box>\n\n    </core-loading>\n\n\n\n    <!-- Upload a private file. -->\n\n    <ion-fab bottom end *ngIf="showUpload && root != \'site\' && !path">\n\n        <button ion-fab (click)="uploadFile()" [attr.aria-label]="\'core.fileuploader.uploadafile\' | translate">\n\n            <ion-icon name="add"></ion-icon>\n\n        </button>\n\n    </ion-fab>\n\n</ion-content>'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\files\pages\list\list.html"*/,
+            selector: 'page-addon-message-output-airnotifier-devices',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\messageoutput\airnotifier\pages\devices\devices.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.messageoutput_airnotifier.processorsettingsdesc\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="devicesLoaded" (ionRefresh)="refreshDevices($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-loading [hideUntil]="devicesLoaded">\n\n        <ion-list>\n\n            <ion-item text-wrap *ngFor="let device of devices">\n\n                <ion-label [class.core-bold]="device.current">\n\n                    {{ device.model }}\n\n                    <span *ngIf="device.current">({{ \'core.currentdevice\' | translate }})</span>\n\n                </ion-label>\n\n                <ion-spinner *ngIf="device.updating" item-end></ion-spinner>\n\n                <ion-toggle [disabled]="device.updating" [(ngModel)]="device.enable" (ngModelChange)="enableDevice(device, device.enable)"></ion-toggle>\n\n            </ion-item>\n\n        </ion-list>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\messageoutput\airnotifier\pages\devices\devices.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */],
-            __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_3__providers_app__["a" /* CoreAppProvider */],
-            __WEBPACK_IMPORTED_MODULE_8__providers_files__["a" /* AddonFilesProvider */], __WEBPACK_IMPORTED_MODULE_9__providers_helper__["a" /* AddonFilesHelperProvider */],
-            __WEBPACK_IMPORTED_MODULE_7__providers_utils_text__["a" /* CoreTextUtilsProvider */]])
-    ], AddonFilesListPage);
-    return AddonFilesListPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_airnotifier__["a" /* AddonMessageOutputAirnotifierProvider */],
+            __WEBPACK_IMPORTED_MODULE_2__addon_pushnotifications_providers_pushnotifications__["a" /* AddonPushNotificationsProvider */]])
+    ], AddonMessageOutputAirnotifierDevicesPage);
+    return AddonMessageOutputAirnotifierDevicesPage;
 }());
 
-//# sourceMappingURL=list.js.map
+//# sourceMappingURL=devices.js.map
 
 /***/ })
 
