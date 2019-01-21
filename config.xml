@@ -6,14 +6,14 @@
         versionCode = "352043"
         android-versionCode="352043"
         version   = "3.5.243">
-    <name>GBIAcademy</name>
+    <name>Skilla LT2019</name>
 
     <description>
-        GBIAcademy official app
+        Skilla Learning Technologies 2019
     </description>
 
     <author href="http://www.skilla.com" email="info@skilla.com">
-        GBIAcademy Mobile team
+        Skilla Mobile team
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
@@ -48,7 +48,7 @@
     <preference name="webviewbounce"    value="false" />
     <preference name="prerendered-icon" value="true" />
     <preference name="load-url-timeout" value="60000" />
-    <preference name="AppendUserAgent" value="SkillaBccMoodleMobile" />
+    <preference name="AppendUserAgent" value="SkillaLT2019" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="android-targetSdkVersion" value="26" />
     <preference name="android-installLocation" value="auto" />
@@ -144,7 +144,7 @@
         <param name="SENDER_ID" value="694767596569" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm" >
-        <param name="URL_SCHEME" value="axbcc" />
+        <param name="URL_SCHEME" value="ltmma" />
     </gap:plugin>
     <gap:plugin name="ionic-plugin-keyboard" source="npm" />
     <gap:plugin name="cordova-plugin-zip" source="npm" />
@@ -158,7 +158,7 @@
         <param name="ANDROID_SUPPORT_VERSION" value="27.1.0" />
     </gap:plugin>
 
-    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='GBIAcademy']" mode="merge">
+    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='SkillaLT2019']" mode="merge">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true"></activity>
     </edit-config>
 
