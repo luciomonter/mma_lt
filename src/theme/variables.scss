@@ -26,9 +26,10 @@ $blue:            #0064d2; // Link, background.
 $turquoise:       #007982; // Accent.
 $green:           #5e8100; // Accent.
 $red:             #cb3d4d;
+$skilla_blue:     #1f90a3; // Accent (never text).
 $orange:          #f98012; // Accent (never text).
 $yellow:          #fbad1a; // Accent (never text).
-$core-color:      $orange;
+$core-color:      $skilla_blue;
 
 // Branded apps customization
 // --------------------------------------------------
@@ -47,7 +48,7 @@ $green-dark:      darken($green, 10%) !default;
 $red-light:       mix($red, white, 20%) !default;
 $red-dark:        darken($red, 10%) !default;
 
-$orange-light:    lighten($orange, 10%) !default;
+$skilla_blue-light:    lighten($skilla_blue, 10%) !default;
 
 $yellow-light:    mix($yellow, white, 20%) !default;
 $yellow-dark:     mix($yellow, black, 40%) !default;
