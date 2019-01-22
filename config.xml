@@ -529,6 +529,5 @@
             </dict>
         </array>
     </config-file>
-    <content src="index.html" />
     <preference name="SplashScreen" value="screen" />
 </widget>
