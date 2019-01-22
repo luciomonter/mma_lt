@@ -1,7 +1,7 @@
-Moodle Mobile
+Skilla LT 2019 Mobile
 =================
 
-This is the primary repository of source code for the official Moodle Mobile app.
+This is the primary repository of source code for the official Skilla LT 2019 Mobile app.
 
 * [User documentation](http://docs.moodle.org/en/Moodle_Mobile)
 * [Developer documentation](http://docs.moodle.org/dev/Moodle_Mobile)
