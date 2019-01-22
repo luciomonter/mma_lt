@@ -1,6 +1,6 @@
 webpackJsonp([6],{
 
-/***/ 1912:
+/***/ 1911:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11,7 +11,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__player__ = __webpack_require__(2041);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__player__ = __webpack_require__(2040);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -60,7 +60,7 @@ var AddonModScormPlayerPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2041:
+/***/ 2040:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -75,7 +75,7 @@ var AddonModScormPlayerPageModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_scorm__ = __webpack_require__(141);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_helper__ = __webpack_require__(425);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_scorm_sync__ = __webpack_require__(266);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__classes_data_model_12__ = __webpack_require__(2042);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__classes_data_model_12__ = __webpack_require__(2041);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_toc_popover_toc_popover__ = __webpack_require__(978);
 // (C) Copyright 2015 Martin Dougiamas
 //
@@ -486,7 +486,7 @@ var AddonModScormPlayerPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2042:
+/***/ 2041:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
