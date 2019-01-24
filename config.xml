@@ -167,7 +167,7 @@
     <gap:plugin name="cordova-sqlite-storage" source="git" version="https://github.com/moodlemobile/Cordova-sqlite-storage.git#moodle-phonegapbuild" />
     <gap:plugin name="nl.kingsquare.cordova.background-audio" source="npm" spec="1.0.1" />
     <gap:plugin name="phonegap-plugin-push" source="git" version="https://github.com/moodlemobile/phonegap-plugin-push.git#moodle">
-        <param name="SENDER_ID" value="694767596569" />
+        <param name="SENDER_ID" value="117648747151" />
     </gap:plugin>
 	
     <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity[@android:name='SkillaLT2019']">
