@@ -1,31 +1,17 @@
 webpackJsonp([16],{
 
-<<<<<<< HEAD
-/***/ 1893:
-=======
-/***/ 1963:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1899:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreSharedFilesListPageModule", function() { return CoreSharedFilesListPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreSitePluginsPluginPageModule", function() { return CoreSitePluginsPluginPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__list__ = __webpack_require__(2021);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreSiteHomeIndexPageModule", function() { return CoreSiteHomeIndexPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__index__ = __webpack_require__(2095);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(950);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__plugin_page__ = __webpack_require__(2040);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(937);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -51,78 +37,40 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
-var CoreSharedFilesListPageModule = /** @class */ (function () {
-    function CoreSharedFilesListPageModule() {
+/**
+ * Module to lazy load the page.
+ */
+var CoreSitePluginsPluginPageModule = /** @class */ (function () {
+    function CoreSitePluginsPluginPageModule() {
     }
-    CoreSharedFilesListPageModule = __decorate([
+    CoreSitePluginsPluginPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__list__["a" /* CoreSharedFilesListPage */]
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__list__["a" /* CoreSharedFilesListPage */]),
-                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ]
-        })
-    ], CoreSharedFilesListPageModule);
-    return CoreSharedFilesListPageModule;
-}());
-
-//# sourceMappingURL=list.module.js.map
-
-/***/ }),
-
-/***/ 2021:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreSharedFilesListPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_file__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_text__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_sharedfiles__ = __webpack_require__(400);
-=======
-var CoreSiteHomeIndexPageModule = /** @class */ (function () {
-    function CoreSiteHomeIndexPageModule() {
-    }
-    CoreSiteHomeIndexPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_4__index__["a" /* CoreSiteHomeIndexPage */],
+                __WEBPACK_IMPORTED_MODULE_4__plugin_page__["a" /* CoreSitePluginsPluginPage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* CoreSiteHomeComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_4__index__["a" /* CoreSiteHomeIndexPage */]),
+                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* CoreSitePluginsComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_4__plugin_page__["a" /* CoreSitePluginsPluginPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ]
         })
-    ], CoreSiteHomeIndexPageModule);
-    return CoreSiteHomeIndexPageModule;
+    ], CoreSitePluginsPluginPageModule);
+    return CoreSitePluginsPluginPageModule;
 }());
 
-//# sourceMappingURL=index.module.js.map
+//# sourceMappingURL=plugin-page.module.js.map
 
 /***/ }),
 
-/***/ 2095:
+/***/ 2040:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreSiteHomeIndexPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreSitePluginsPluginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_course_providers_helper__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_index_index__ = __webpack_require__(951);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_plugin_content_plugin_content__ = __webpack_require__(120);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -148,191 +96,42 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
-
-<<<<<<< HEAD
-
-
-
 /**
- * Modal to display the list of shared files.
+ * Page to render a site plugin page.
  */
-var CoreSharedFilesListPage = /** @class */ (function () {
-    function CoreSharedFilesListPage(viewCtrl, navParams, sharedFilesProvider, sitesProvider, textUtils, translate, fileProvider, eventsProvider, navCtrl) {
-        this.viewCtrl = viewCtrl;
-        this.sharedFilesProvider = sharedFilesProvider;
-        this.sitesProvider = sitesProvider;
-        this.textUtils = textUtils;
-        this.translate = translate;
-        this.fileProvider = fileProvider;
-        this.eventsProvider = eventsProvider;
-        this.navCtrl = navCtrl;
-        this.path = '';
-        this.siteId = navParams.get('siteId') || this.sitesProvider.getCurrentSiteId();
-        this.mimetypes = navParams.get('mimetypes');
-        this.isModal = !!navParams.get('isModal');
-        this.manage = !!navParams.get('manage');
-        this.pick = !!navParams.get('pick');
-        this.path = navParams.get('path') || '';
+var CoreSitePluginsPluginPage = /** @class */ (function () {
+    function CoreSitePluginsPluginPage(params) {
+        this.title = params.get('title');
+        this.component = params.get('component');
+        this.method = params.get('method');
+        this.args = params.get('args');
+        this.initResult = params.get('initResult');
+        this.jsData = params.get('jsData');
     }
     /**
-     * Component being initialized.
-     */
-    CoreSharedFilesListPage.prototype.ngOnInit = function () {
-        var _this = this;
-        this.loadFiles();
-        // Listen for new files shared with the app.
-        this.shareObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_3__providers_events__["a" /* CoreEventsProvider */].FILE_SHARED, function (data) {
-            if (data.siteId == _this.siteId) {
-                // File was stored in current site, refresh the list.
-                _this.filesLoaded = false;
-                _this.loadFiles().finally(function () {
-                    _this.filesLoaded = true;
-                });
-            }
-        });
-    };
-    /**
-     * Load the files.
-     *
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    CoreSharedFilesListPage.prototype.loadFiles = function () {
-        var _this = this;
-        if (this.path) {
-            this.title = this.fileProvider.getFileAndDirectoryFromPath(this.path).name;
-        }
-        else {
-            this.title = this.translate.instant('core.sharedfiles.sharedfiles');
-        }
-        return this.sharedFilesProvider.getSiteSharedFiles(this.siteId, this.path, this.mimetypes).then(function (files) {
-            _this.files = files;
-            _this.filesLoaded = true;
-        });
-    };
-    /**
-     * Close modal.
-     */
-    CoreSharedFilesListPage.prototype.closeModal = function () {
-        this.viewCtrl.dismiss();
-    };
-    /**
-     * Refresh the list of files.
+     * Refresh the data.
      *
      * @param {any} refresher Refresher.
      */
-    CoreSharedFilesListPage.prototype.refreshFiles = function (refresher) {
-        this.loadFiles().finally(function () {
+    CoreSitePluginsPluginPage.prototype.refreshData = function (refresher) {
+        this.content.refreshContent(false).finally(function () {
             refresher.complete();
         });
     };
-    /**
-     * Called when a file is deleted. Remove the file from the list.
-     *
-     * @param {number} index Position of the file.
-     */
-    CoreSharedFilesListPage.prototype.fileDeleted = function (index) {
-        this.files.splice(index, 1);
-    };
-    /**
-     * Called when a file is renamed. Update the list.
-     *
-     * @param {number} index Position of the file.
-     * @param {any} data Data containing the new FileEntry.
-     */
-    CoreSharedFilesListPage.prototype.fileRenamed = function (index, data) {
-        this.files[index] = data.file;
-    };
-    /**
-     * Open a subfolder.
-     *
-     * @param {any} folder The folder to open.
-     */
-    CoreSharedFilesListPage.prototype.openFolder = function (folder) {
-        var path = this.textUtils.concatenatePaths(this.path, folder.name);
-        if (this.isModal) {
-            // In Modal we don't want to open a new page because we cannot dismiss the modal from the new page.
-            this.path = path;
-            this.filesLoaded = false;
-            this.loadFiles();
-        }
-        else {
-            this.navCtrl.push('CoreSharedFilesListPage', {
-                path: path,
-                manage: this.manage,
-                pick: this.pick,
-                siteId: this.siteId,
-                mimetypes: this.mimetypes,
-                isModal: this.isModal
-            });
-        }
-    };
-    /**
-     * Change site loaded.
-     *
-     * @param {string} id Site to load.
-     */
-    CoreSharedFilesListPage.prototype.changeSite = function (id) {
-        this.siteId = id;
-        this.path = '';
-        this.filesLoaded = false;
-        this.loadFiles();
-    };
-    /**
-     * A file was picked.
-     *
-     * @param {any} file Picked file.
-     */
-    CoreSharedFilesListPage.prototype.filePicked = function (file) {
-        this.viewCtrl.dismiss(file);
-    };
-    /**
-     * Component destroyed.
-     */
-    CoreSharedFilesListPage.prototype.ngOnDestroy = function () {
-        if (this.shareObserver) {
-            this.shareObserver.off();
-        }
-    };
-    CoreSharedFilesListPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-shared-files-list',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\core\sharedfiles\pages\list\list.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n\n\n        <ion-buttons end *ngIf="isModal">\n\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n\n                <ion-icon name="close"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="filesLoaded" (ionRefresh)="refreshFiles($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <!-- Allow selecting the site to view. -->\n\n    <core-site-picker [hidden]="!filesLoaded" [initialSite]="siteId" (siteSelected)="changeSite($event)"></core-site-picker>\n\n    <ion-item-divider color="light"></ion-item-divider>\n\n    <core-loading [hideUntil]="filesLoaded">\n\n        <ion-list *ngIf="files && files.length > 0">\n\n            <div *ngFor="let file of files; let idx = index">\n\n                <core-local-file *ngIf="file.isFile" [file]="file" [manage]="manage" [overrideClick]="pick" (onClick)="filePicked(file)" (onDelete)="fileDeleted(idx)" (onRename)="fileRenamed(idx, $event)"></core-local-file>\n\n                <a ion-item text-wrap class="item-media" *ngIf="!file.isFile" (click)="openFolder(file)">\n\n                    <img src="assets/img/files/folder-64.png" alt="{{ \'core.folder\' | translate }}" role="presentation" item-start>\n\n                    <p>{{ file.name }}</p>\n\n                </a>\n\n            </div>\n\n        </ion-list>\n\n        <core-empty-box *ngIf="files && !files.length && manage" icon="folder" [message]="\'core.sharedfiles.nosharedfiles\' | translate"></core-empty-box>\n\n        <core-empty-box *ngIf="files && !files.length && !manage" icon="folder" [message]="\'core.sharedfiles.nosharedfilestoupload\' | translate"></core-empty-box>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\core\sharedfiles\pages\list\list.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["D" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_7__providers_sharedfiles__["a" /* CoreSharedFilesProvider */],
-            __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_6__providers_utils_text__["a" /* CoreTextUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */],
-            __WEBPACK_IMPORTED_MODULE_4__providers_file__["a" /* CoreFileProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */]])
-    ], CoreSharedFilesListPage);
-    return CoreSharedFilesListPage;
-}());
-
-//# sourceMappingURL=list.js.map
-=======
-/**
- * Page that displays site home index.
- */
-var CoreSiteHomeIndexPage = /** @class */ (function () {
-    function CoreSiteHomeIndexPage(navParams, navCtrl, courseHelper, sitesProvider) {
-        var module = navParams.get('module');
-        if (module) {
-            courseHelper.openModule(navCtrl, module, sitesProvider.getCurrentSite().getSiteHomeId());
-        }
-    }
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_4__components_index_index__["a" /* CoreSiteHomeIndexComponent */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_4__components_index_index__["a" /* CoreSiteHomeIndexComponent */])
-    ], CoreSiteHomeIndexPage.prototype, "siteHomeComponent", void 0);
-    CoreSiteHomeIndexPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_plugin_content_plugin_content__["a" /* CoreSitePluginsPluginContentComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_plugin_content_plugin_content__["a" /* CoreSitePluginsPluginContentComponent */])
+    ], CoreSitePluginsPluginPage.prototype, "content", void 0);
+    CoreSitePluginsPluginPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-sitehome-index',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\sitehome\pages\index\index.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'core.sitehome.sitehome\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="siteHomeComponent && siteHomeComponent.dataLoaded" (ionRefresh)="siteHomeComponent.doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-sitehome-index></core-sitehome-index>\n</ion-content>'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\sitehome\pages\index\index.html"*/,
+            selector: 'page-core-site-plugins-plugin',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\siteplugins\pages\plugin-page\plugin-page.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ title | translate }}</ion-title>\n\n\n\n        <ion-buttons end>\n\n            <!-- If the site plugin defines some buttons using core-nav-buttons, they will be added here. -->\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="content && content.dataLoaded" (ionRefresh)="refreshData($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-site-plugins-plugin-content [component]="component" [method]="method" [args]="args" [initResult]="initResult" [data]="jsData"></core-site-plugins-plugin-content>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\siteplugins\pages\plugin-page\plugin-page.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavController */], __WEBPACK_IMPORTED_MODULE_3__core_course_providers_helper__["a" /* CoreCourseHelperProvider */],
-            __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */]])
-    ], CoreSiteHomeIndexPage);
-    return CoreSiteHomeIndexPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]])
+    ], CoreSitePluginsPluginPage);
+    return CoreSitePluginsPluginPage;
 }());
 
-//# sourceMappingURL=index.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+//# sourceMappingURL=plugin-page.js.map
 
 /***/ })
 

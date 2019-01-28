@@ -1,32 +1,17 @@
 webpackJsonp([78],{
 
-<<<<<<< HEAD
-/***/ 1827:
-=======
-/***/ 1896:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1831:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModForumDiscussionPageModule", function() { return AddonModForumDiscussionPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModLessonMenuModalPageModule", function() { return AddonModLessonMenuModalPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__entry__ = __webpack_require__(1951);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModImscpIndexPageModule", function() { return AddonModImscpIndexPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_components_module__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(970);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(2024);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__menu_modal__ = __webpack_require__(1964);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ngx_translate_core__ = __webpack_require__(1);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -52,74 +37,36 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
-
-var AddonModForumDiscussionPageModule = /** @class */ (function () {
-    function AddonModForumDiscussionPageModule() {
+var AddonModLessonMenuModalPageModule = /** @class */ (function () {
+    function AddonModLessonMenuModalPageModule() {
     }
-    AddonModForumDiscussionPageModule = __decorate([
+    AddonModLessonMenuModalPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_6__entry__["a" /* AddonModGlossaryEntryPage */],
+                __WEBPACK_IMPORTED_MODULE_4__menu_modal__["a" /* AddonModLessonMenuModalPage */]
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__entry__["a" /* AddonModGlossaryEntryPage */]),
-                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ],
+                __WEBPACK_IMPORTED_MODULE_2__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_4__menu_modal__["a" /* AddonModLessonMenuModalPage */]),
+                __WEBPACK_IMPORTED_MODULE_5__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ]
         })
-    ], AddonModForumDiscussionPageModule);
-    return AddonModForumDiscussionPageModule;
+    ], AddonModLessonMenuModalPageModule);
+    return AddonModLessonMenuModalPageModule;
 }());
 
-//# sourceMappingURL=entry.module.js.map
+//# sourceMappingURL=menu-modal.module.js.map
 
 /***/ }),
 
-/***/ 1951:
+/***/ 1964:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModGlossaryEntryPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModLessonMenuModalPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_glossary__ = __webpack_require__(136);
-=======
-var AddonModImscpIndexPageModule = /** @class */ (function () {
-    function AddonModImscpIndexPageModule() {
-    }
-    AddonModImscpIndexPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModImscpIndexPage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModImscpComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModImscpIndexPage */]),
-                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ],
-        })
-    ], AddonModImscpIndexPageModule);
-    return AddonModImscpIndexPageModule;
-}());
-
-//# sourceMappingURL=index.module.js.map
-
-/***/ }),
-
-/***/ 2024:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModImscpIndexPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(419);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -144,130 +91,39 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-
-<<<<<<< HEAD
-
 /**
- * Page that displays a glossary entry.
+ * Modal that renders the lesson menu and media file.
  */
-var AddonModGlossaryEntryPage = /** @class */ (function () {
-    function AddonModGlossaryEntryPage(navParams, domUtils, glossaryProvider) {
-        this.domUtils = domUtils;
-        this.glossaryProvider = glossaryProvider;
-        this.component = __WEBPACK_IMPORTED_MODULE_3__providers_glossary__["a" /* AddonModGlossaryProvider */].COMPONENT;
-        this.loaded = false;
-        this.showAuthor = false;
-        this.showDate = false;
-        this.courseId = navParams.get('courseId');
-        this.entryId = navParams.get('entryId');
+var AddonModLessonMenuModalPage = /** @class */ (function () {
+    function AddonModLessonMenuModalPage(params, viewCtrl) {
+        this.viewCtrl = viewCtrl;
+        this.pageInstance = params.get('page');
     }
     /**
-     * View loaded.
+     * Close modal.
      */
-    AddonModGlossaryEntryPage.prototype.ionViewDidLoad = function () {
-        var _this = this;
-        this.fetchEntry().then(function () {
-            _this.glossaryProvider.logEntryView(_this.entry.id);
-        }).finally(function () {
-            _this.loaded = true;
-        });
+    AddonModLessonMenuModalPage.prototype.closeModal = function () {
+        this.viewCtrl.dismiss();
     };
     /**
-     * Refresh the data.
+     * Load a certain page.
      *
-     * @param {any} [refresher] Refresher.
-     * @return {Promise<any>} Promise resolved when done.
+     * @param {number} pageId The page ID to load.
      */
-    AddonModGlossaryEntryPage.prototype.doRefresh = function (refresher) {
-        var _this = this;
-        return this.glossaryProvider.invalidateEntry(this.entry.id).catch(function () {
-            // Ignore errors.
-        }).then(function () {
-            return _this.fetchEntry(true);
-        }).finally(function () {
-            refresher && refresher.complete();
-        });
+    AddonModLessonMenuModalPage.prototype.loadPage = function (pageId) {
+        this.pageInstance.changePage && this.pageInstance.changePage(pageId);
+        this.closeModal();
     };
-    /**
-     * Convenience function to get the glossary entry.
-     *
-     * @param {boolean} [refresh] Whether we're refreshing data.
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonModGlossaryEntryPage.prototype.fetchEntry = function (refresh) {
-        var _this = this;
-        return this.glossaryProvider.getEntry(this.entryId).then(function (result) {
-            _this.entry = result;
-            if (!refresh) {
-                // Load the glossary.
-                return _this.glossaryProvider.getGlossaryById(_this.courseId, _this.entry.glossaryid).then(function (glossary) {
-                    _this.componentId = glossary.coursemodule;
-                    switch (glossary.displayformat) {
-                        case 'fullwithauthor':
-                        case 'encyclopedia':
-                            _this.showAuthor = true;
-                            _this.showDate = true;
-                            break;
-                        case 'fullwithoutauthor':
-                            _this.showAuthor = false;
-                            _this.showDate = true;
-                            break;
-                        default:// Default, and faq, simple, entrylist, continuous.
-                            _this.showAuthor = false;
-                            _this.showDate = false;
-                    }
-                });
-            }
-        }).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'addon.mod_glossary.errorloadingentry', true);
-            return Promise.reject(null);
-        });
-    };
-    AddonModGlossaryEntryPage = __decorate([
+    AddonModLessonMenuModalPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-glossary-entry',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\glossary\pages\entry\entry.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title *ngIf="entry"><core-format-text [text]="entry.concept"></core-format-text></ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="loaded" (ionRefresh)="doRefresh($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n\n\n    <core-loading [hideUntil]="loaded">\n\n        <ng-container *ngIf="entry">\n\n            <ion-item text-wrap *ngIf="showAuthor">\n\n                <ion-avatar item-start (click)="openUserProfile(post.userid)">\n\n                    <img [src]="entry.userpictureurl" onError="this.src=\'assets/img/user-avatar.png\'" core-external-content [alt]="\'core.pictureof\' | translate:{$a: entry.userfullname}" role="presentation">\n\n                </ion-avatar>\n\n                <h2><core-format-text [text]="entry.concept"></core-format-text></h2>\n\n                <ion-note item-end *ngIf="showDate">{{ entry.timemodified | coreDateDayOrTime }}</ion-note>\n\n                <p><core-format-text [text]="entry.userfullname"></core-format-text></p>\n\n            </ion-item>\n\n            <ion-item text-wrap *ngIf="!showAuthor">\n\n                <h2><core-format-text [text]="entry.concept"></core-format-text></h2>\n\n                <ion-note item-end *ngIf="showDate">{{ entry.timemodified | coreDateDayOrTime }}</ion-note>\n\n            </ion-item>\n\n            <ion-item text-wrap>\n\n                <core-format-text [component]="component" [componentId]="componentId" [text]="entry.definition"></core-format-text>\n\n            </ion-item>\n\n            <ng-container *ngIf="entry.attachment">\n\n                <core-file *ngFor="let file of entry.attachments" [file]="file" [component]="component" [componentId]="componentId"></core-file>\n\n            </ng-container>\n\n            <ion-item text-wrap *ngIf="entry.approved != 1">\n\n                <p><em>{{ \'addon.mod_glossary.entrypendingapproval\' | translate }}</em></p>\n\n            </ion-item>\n\n        </ng-container>\n\n\n\n        <ion-card *ngIf="!entry">\n\n            <ion-item class="core-error-card">\n\n                {{ \'addon.mod_glossary.errorloadingentry\' | translate }}\n\n            </ion-item>\n\n        </ion-card>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\glossary\pages\entry\entry.html"*/,
+            selector: 'page-addon-mod-lesson-menu-modal',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\mod\lesson\pages\menu-modal\menu-modal.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ pageInstance.lesson.name }}</ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n\n                <ion-icon name="close"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content class="addon-mod_lesson-menu-modal">\n\n    <nav>\n\n        <ion-list>\n\n            <!-- Media file. -->\n\n            <ng-container *ngIf="pageInstance.mediaFile">\n\n                <ion-item-divider color="light"><h2>{{ \'addon.mod_lesson.linkedmedia\' | translate }}</h2></ion-item-divider>\n\n                <core-file [file]="pageInstance.mediaFile" [component]="pageInstance.component" [componentId]="pageInstance.lesson.coursemodule"></core-file>\n\n            </ng-container>\n\n\n\n            <!-- Lesson menu. -->\n\n            <ng-container *ngIf="pageInstance.displayMenu">\n\n                <ion-item-divider color="light"><h2>{{ \'addon.mod_lesson.lessonmenu\' | translate }}</h2></ion-item-divider>\n\n                <ion-item text-center *ngIf="pageInstance.loadingMenu">\n\n                    <ion-spinner></ion-spinner>\n\n                </ion-item>\n\n                <div *ngIf="!pageInstance.loadingMenu">\n\n                    <ng-container *ngFor="let page of pageInstance.lessonPages">\n\n                        <a ion-item text-wrap *ngIf="page.display && page.displayinmenublock" (click)="loadPage(page.id)" [ngClass]=\'{"addon-mod_lesson-selected core-white-push-arrow": !pageInstance.eolData && pageInstance.currentPage == page.id}\'>\n\n                            <p><core-format-text [text]="page.title"></core-format-text></p>\n\n                        </a>\n\n                    </ng-container>\n\n                </div>\n\n            </ng-container>\n\n        </ion-list>\n\n    </nav>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\mod\lesson\pages\menu-modal\menu-modal.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_2__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
-            __WEBPACK_IMPORTED_MODULE_3__providers_glossary__["a" /* AddonModGlossaryProvider */]])
-    ], AddonModGlossaryEntryPage);
-    return AddonModGlossaryEntryPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["D" /* ViewController */]])
+    ], AddonModLessonMenuModalPage);
+    return AddonModLessonMenuModalPage;
 }());
 
-//# sourceMappingURL=entry.js.map
-=======
-/**
- * Imscp that displays a IMSCP.
- */
-var AddonModImscpIndexPage = /** @class */ (function () {
-    function AddonModImscpIndexPage(navParams) {
-        this.module = navParams.get('module') || {};
-        this.courseId = navParams.get('courseId');
-        this.title = this.module.name;
-    }
-    /**
-     * Update some data based on the imscp instance.
-     *
-     * @param {any} imscp Imscp instance.
-     */
-    AddonModImscpIndexPage.prototype.updateData = function (imscp) {
-        this.title = imscp.name || this.title;
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModImscpIndexComponent */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModImscpIndexComponent */])
-    ], AddonModImscpIndexPage.prototype, "imscpComponent", void 0);
-    AddonModImscpIndexPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-imscp-index',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\mod\imscp\pages\index\index.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <!-- The buttons defined by the component will be added in here. -->\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <addon-mod-imscp-index [module]="module" [courseId]="courseId" (dataRetrieved)="updateData($event)"></addon-mod-imscp-index>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\mod\imscp\pages\index\index.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */]])
-    ], AddonModImscpIndexPage);
-    return AddonModImscpIndexPage;
-}());
-
-//# sourceMappingURL=index.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+//# sourceMappingURL=menu-modal.js.map
 
 /***/ })
 

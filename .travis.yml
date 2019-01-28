@@ -13,12 +13,4 @@ before_script:
   - rm -Rf node_modules/electron-builder-squirrel-windows node_modules/electron-windows-notifications #Avoid electron fail
 
 script:
-<<<<<<< HEAD
 - npm run build
-=======
-  - npm run build
-
-after_success:
-  - chmod +x scripts/aot.sh
-  - scripts/aot.sh
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d

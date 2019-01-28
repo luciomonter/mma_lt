@@ -1,31 +1,17 @@
 webpackJsonp([56],{
 
-<<<<<<< HEAD
-/***/ 1850:
-=======
-/***/ 1919:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1857:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModWorkshopEditSubmissionPageModule", function() { return AddonModWorkshopEditSubmissionPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonNotificationsSettingsPageModule", function() { return AddonNotificationsSettingsPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__edit_submission__ = __webpack_require__(1976);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModWorkshopPhaseInfoPageModule", function() { return AddonModWorkshopPhaseInfoPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__phase__ = __webpack_require__(2049);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_compile_components_compile_html_compile_html_module__ = __webpack_require__(394);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__settings__ = __webpack_require__(1995);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -51,82 +37,48 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
-var AddonModWorkshopEditSubmissionPageModule = /** @class */ (function () {
-    function AddonModWorkshopEditSubmissionPageModule() {
+var AddonNotificationsSettingsPageModule = /** @class */ (function () {
+    function AddonNotificationsSettingsPageModule() {
     }
-    AddonModWorkshopEditSubmissionPageModule = __decorate([
+    AddonNotificationsSettingsPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__edit_submission__["a" /* AddonModWorkshopEditSubmissionPage */],
+                __WEBPACK_IMPORTED_MODULE_3__settings__["a" /* AddonNotificationsSettingsPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__edit_submission__["a" /* AddonModWorkshopEditSubmissionPage */]),
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__settings__["a" /* AddonNotificationsSettingsPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], AddonModWorkshopEditSubmissionPageModule);
-    return AddonModWorkshopEditSubmissionPageModule;
+    ], AddonNotificationsSettingsPageModule);
+    return AddonNotificationsSettingsPageModule;
 }());
 
-//# sourceMappingURL=edit-submission.module.js.map
+//# sourceMappingURL=settings.module.js.map
 
 /***/ }),
 
-/***/ 1976:
+/***/ 1995:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModWorkshopEditSubmissionPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonNotificationsSettingsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_sync__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_file_session__ = __webpack_require__(121);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_utils_text__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_fileuploader_providers_fileuploader__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_workshop__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_helper__ = __webpack_require__(134);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_offline__ = __webpack_require__(117);
-=======
-var AddonModWorkshopPhaseInfoPageModule = /** @class */ (function () {
-    function AddonModWorkshopPhaseInfoPageModule() {
-    }
-    AddonModWorkshopPhaseInfoPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_4__phase__["a" /* AddonModWorkshopPhaseInfoPage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_5__core_compile_components_compile_html_compile_html_module__["a" /* CoreCompileHtmlComponentModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_4__phase__["a" /* AddonModWorkshopPhaseInfoPage */]),
-                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ],
-        })
-    ], AddonModWorkshopPhaseInfoPageModule);
-    return AddonModWorkshopPhaseInfoPageModule;
-}());
-
-//# sourceMappingURL=phase.module.js.map
-
-/***/ }),
-
-/***/ 2049:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModWorkshopPhaseInfoPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_utils_utils__ = __webpack_require__(5);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_notifications__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_user_providers_user__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_settings_providers_helper__ = __webpack_require__(936);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__addon_messageoutput_providers_delegate__ = __webpack_require__(256);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_local_notifications__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_config__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_constants__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_split_view_split_view__ = __webpack_require__(104);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -149,10 +101,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
 
 
 
-<<<<<<< HEAD
 
 
 
@@ -165,376 +119,238 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Page that displays the workshop edit submission.
+ * Page that displays notifications settings.
  */
-var AddonModWorkshopEditSubmissionPage = /** @class */ (function () {
-    function AddonModWorkshopEditSubmissionPage(navParams, sitesProvider, fileUploaderProvider, workshopProvider, workshopOffline, workshopHelper, navCtrl, fileSessionprovider, syncProvider, textUtils, domUtils, fb, translate, eventsProvider) {
-        this.fileUploaderProvider = fileUploaderProvider;
-        this.workshopProvider = workshopProvider;
-        this.workshopOffline = workshopOffline;
-        this.workshopHelper = workshopHelper;
-        this.navCtrl = navCtrl;
-        this.fileSessionprovider = fileSessionprovider;
-        this.syncProvider = syncProvider;
-        this.textUtils = textUtils;
+var AddonNotificationsSettingsPage = /** @class */ (function () {
+    function AddonNotificationsSettingsPage(notificationsProvider, domUtils, settingsHelper, userProvider, navCtrl, messageOutputDelegate, appProvider, configProvider, eventsProvider, localNotificationsProvider, sitesProvider, svComponent) {
+        var _this = this;
+        this.notificationsProvider = notificationsProvider;
         this.domUtils = domUtils;
-        this.fb = fb;
-        this.translate = translate;
+        this.settingsHelper = settingsHelper;
+        this.userProvider = userProvider;
+        this.navCtrl = navCtrl;
+        this.messageOutputDelegate = messageOutputDelegate;
+        this.configProvider = configProvider;
         this.eventsProvider = eventsProvider;
-        this.submission = {
-            id: 0,
-            title: '',
-            content: '',
-            attachmentfiles: [],
-        };
-        this.loaded = false;
-        this.component = __WEBPACK_IMPORTED_MODULE_11__providers_workshop__["a" /* AddonModWorkshopProvider */].COMPONENT;
-        this.originalData = {};
-        this.hasOffline = false;
-        this.editing = false;
-        this.forceLeave = false;
-        this.isDestroyed = false;
-        this.module = navParams.get('module');
-        this.courseId = navParams.get('courseId');
-        this.access = navParams.get('access');
-        this.submissionId = navParams.get('submissionId');
-        this.workshopId = this.module.instance;
-        this.componentId = this.module.id;
-        this.userId = sitesProvider.getCurrentSiteUserId();
-        this.siteId = sitesProvider.getCurrentSiteId();
-        this.editForm = new __WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* FormGroup */]({});
-        this.editForm.addControl('title', this.fb.control('', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].required));
-        this.editForm.addControl('content', this.fb.control(''));
+        this.localNotificationsProvider = localNotificationsProvider;
+        this.sitesProvider = sitesProvider;
+        this.svComponent = svComponent;
+        this.processorHandlers = [];
+        this.notifPrefsEnabled = notificationsProvider.isNotificationPreferencesEnabled();
+        this.canChangeSound = localNotificationsProvider.isAvailable() && !appProvider.isDesktop();
+        if (this.canChangeSound) {
+            configProvider.get(__WEBPACK_IMPORTED_MODULE_10__core_constants__["a" /* CoreConstants */].SETTINGS_NOTIFICATION_SOUND, true).then(function (enabled) {
+                _this.notificationSound = !!enabled;
+            });
+        }
     }
     /**
-     * Component being initialized.
+     * View loaded.
      */
-    AddonModWorkshopEditSubmissionPage.prototype.ngOnInit = function () {
-        if (!this.isDestroyed) {
-            // Block the workshop.
-            this.syncProvider.blockOperation(this.component, this.workshopId);
-        }
-        this.fetchSubmissionData();
-    };
-    /**
-     * Check if we can leave the page or not.
-     *
-     * @return {boolean|Promise<void>} Resolved if we can leave it, rejected if not.
-     */
-    AddonModWorkshopEditSubmissionPage.prototype.ionViewCanLeave = function () {
-        var _this = this;
-        if (this.forceLeave) {
-            return true;
-        }
-        var promise;
-        // Check if data has changed.
-        if (!this.hasDataChanged()) {
-            promise = Promise.resolve();
+    AddonNotificationsSettingsPage.prototype.ionViewDidLoad = function () {
+        if (this.notifPrefsEnabled) {
+            this.fetchPreferences();
         }
         else {
-            // Show confirmation if some data has been modified.
-            promise = this.domUtils.showConfirm(this.translate.instant('core.confirmcanceledit'));
-        }
-        return promise.then(function () {
-            if (_this.submission.attachmentfiles) {
-                // Delete the local files from the tmp folder.
-                _this.fileUploaderProvider.clearTmpFiles(_this.submission.attachmentfiles);
-            }
-        });
-    };
-    /**
-     * Fetch the submission data.
-     *
-     * @return {Promise<void>} Resolved when done.
-     */
-    AddonModWorkshopEditSubmissionPage.prototype.fetchSubmissionData = function () {
-        var _this = this;
-        return this.workshopProvider.getWorkshop(this.courseId, this.module.id).then(function (workshopData) {
-            _this.workshop = workshopData;
-            if (_this.submissionId > 0) {
-                _this.editing = true;
-                return _this.workshopHelper.getSubmissionById(_this.workshopId, _this.submissionId).then(function (submissionData) {
-                    _this.submission = submissionData;
-                    var canEdit = (_this.userId == submissionData.authorid && _this.access.cansubmit &&
-                        _this.access.modifyingsubmissionallowed);
-                    if (!canEdit) {
-                        // Should not happen, but go back if does.
-                        _this.forceLeavePage();
-                        return;
-                    }
-                });
-            }
-            else if (!_this.access.cansubmit || !_this.access.creatingsubmissionallowed) {
-                // Should not happen, but go back if does.
-                _this.forceLeavePage();
-                return;
-            }
-        }).then(function () {
-            return _this.workshopOffline.getSubmissions(_this.workshopId).then(function (submissionsActions) {
-                if (submissionsActions && submissionsActions.length) {
-                    _this.hasOffline = true;
-                    var actions = _this.workshopHelper.filterSubmissionActions(submissionsActions, _this.editing ?
-                        _this.submission.id : 0);
-                    return _this.workshopHelper.applyOfflineData(_this.submission, actions);
-                }
-                else {
-                    _this.hasOffline = false;
-                }
-            }).finally(function () {
-                _this.originalData.title = _this.submission.title;
-                _this.originalData.content = _this.submission.content;
-                _this.originalData.attachmentfiles = [];
-                _this.submission.attachmentfiles.forEach(function (file) {
-                    var filename;
-                    if (file.filename) {
-                        filename = file.filename;
-                    }
-                    else {
-                        // We don't have filename, extract it from the path.
-                        filename = file.filepath[0] == '/' ? file.filepath.substr(1) : file.filepath;
-                    }
-                    _this.originalData.attachmentfiles.push({
-                        filename: filename,
-                        fileurl: file.fileurl
-                    });
-                });
-            });
-        }).then(function () {
-            _this.editForm.controls['title'].setValue(_this.submission.title);
-            _this.editForm.controls['content'].setValue(_this.submission.content);
-            var submissionId = _this.submission.id || 'newsub';
-            _this.fileSessionprovider.setFiles(_this.component, _this.workshopId + '_' + submissionId, _this.submission.attachmentfiles || []);
-            _this.loaded = true;
-        }).catch(function (message) {
-            _this.loaded = false;
-            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
-            _this.forceLeavePage();
-        });
-    };
-    /**
-     * Force leaving the page, without checking for changes.
-     */
-    AddonModWorkshopEditSubmissionPage.prototype.forceLeavePage = function () {
-        this.forceLeave = true;
-        this.navCtrl.pop();
-    };
-    /**
-     * Get the form input data.
-     *
-     * @return {any} Object with all the info.
-     */
-    AddonModWorkshopEditSubmissionPage.prototype.getInputData = function () {
-        var submissionId = this.submission.id || 'newsub';
-        var values = this.editForm.value;
-        values['attachmentfiles'] = this.fileSessionprovider.getFiles(this.component, this.workshopId + '_' + submissionId) || [];
-        return values;
-    };
-    /**
-     * Check if data has changed.
-     *
-     * @return {boolean} True if changed or false if not.
-     */
-    AddonModWorkshopEditSubmissionPage.prototype.hasDataChanged = function () {
-        if (!this.loaded) {
-            return false;
-        }
-        var inputData = this.getInputData();
-        if (!this.originalData || typeof this.originalData.title == 'undefined') {
-            // There is no original data, assume it hasn't changed.
-            return false;
-        }
-        if (this.originalData.title != inputData.title || this.originalData.content != inputData.content) {
-            return true;
-        }
-        return this.fileUploaderProvider.areFileListDifferent(inputData.attachmentfiles, this.originalData.attachmentfiles);
-    };
-    /**
-     * Pull to refresh.
-     *
-     * @param {any} refresher Refresher.
-     */
-    AddonModWorkshopEditSubmissionPage.prototype.refreshSubmission = function (refresher) {
-        var _this = this;
-        if (this.loaded) {
-            var promises = [];
-            promises.push(this.workshopProvider.invalidateSubmissionData(this.workshopId, this.submission.id));
-            promises.push(this.workshopProvider.invalidateSubmissionsData(this.workshopId));
-            Promise.all(promises).finally(function () {
-                return _this.fetchSubmissionData();
-            }).finally(function () {
-                refresher.complete();
-            });
+            this.preferencesLoaded = true;
         }
     };
     /**
-     * Save the submission.
-     */
-    AddonModWorkshopEditSubmissionPage.prototype.save = function () {
-        var _this = this;
-        // Check if data has changed.
-        if (this.hasDataChanged()) {
-            this.saveSubmission().then(function () {
-                // Go back to entry list.
-                _this.forceLeavePage();
-            }).catch(function () {
-                // Nothing to do.
-            });
-        }
-        else {
-            // Nothing to save, just go back.
-            this.forceLeavePage();
-        }
-    };
-    /**
-     * Send submission and save.
+     * Fetches preference data.
      *
      * @return {Promise<any>} Resolved when done.
      */
-    AddonModWorkshopEditSubmissionPage.prototype.saveSubmission = function () {
+    AddonNotificationsSettingsPage.prototype.fetchPreferences = function () {
         var _this = this;
-        var inputData = this.getInputData();
-        if (!inputData.title) {
-            this.domUtils.showAlertTranslated('core.notice', 'addon.mod_workshop.submissionrequiredtitle');
-            return Promise.reject(null);
-        }
-        if (!inputData.content) {
-            this.domUtils.showAlertTranslated('core.notice', 'addon.mod_workshop.submissionrequiredcontent');
-            return Promise.reject(null);
-        }
-        var allowOffline = true, saveOffline = false;
-        var modal = this.domUtils.showModalLoading('core.sending', true), submissionId = this.submission.id;
-        // Add some HTML to the message if needed.
-        inputData.content = this.textUtils.formatHtmlLines(inputData.content);
-        // Upload attachments first if any.
-        allowOffline = !inputData.attachmentfiles.length;
-        return this.workshopHelper.uploadOrStoreSubmissionFiles(this.workshopId, this.submission.id, inputData.attachmentfiles, this.editing, saveOffline).catch(function () {
-            // Cannot upload them in online, save them in offline.
-            saveOffline = true;
-            allowOffline = true;
-            return _this.workshopHelper.uploadOrStoreSubmissionFiles(_this.workshopId, _this.submission.id, inputData.attachmentfiles, _this.editing, saveOffline);
-        }).then(function (attachmentsId) {
-            if (_this.editing) {
-                if (saveOffline) {
-                    // Save submission in offline.
-                    return _this.workshopOffline.saveSubmission(_this.workshopId, _this.courseId, inputData.title, inputData.content, attachmentsId, submissionId, 'update').then(function () {
-                        // Don't return anything.
-                    });
-                }
-                // Try to send it to server.
-                // Don't allow offline if there are attachments since they were uploaded fine.
-                return _this.workshopProvider.updateSubmission(_this.workshopId, submissionId, _this.courseId, inputData.title, inputData.content, attachmentsId, undefined, allowOffline);
+        return this.notificationsProvider.getNotificationPreferences().then(function (preferences) {
+            if (!_this.currentProcessor) {
+                // Initialize current processor. Load "Mobile" (airnotifier) if available.
+                _this.currentProcessor = _this.settingsHelper.getProcessor(preferences.processors, 'airnotifier');
             }
-            if (saveOffline) {
-                // Save submission in offline.
-                return _this.workshopOffline.saveSubmission(_this.workshopId, _this.courseId, inputData.title, inputData.content, attachmentsId, submissionId, 'add').then(function () {
-                    // Don't return anything.
+            if (!_this.currentProcessor) {
+                // Shouldn't happen.
+                return Promise.reject('No processor found');
+            }
+            preferences.disableall = !!preferences.disableall; // Convert to boolean.
+            _this.preferences = preferences;
+            _this.loadProcessor(_this.currentProcessor);
+            // Get display data of message output handlers (thery are displayed in the context menu),
+            _this.processorHandlers = [];
+            if (preferences.processors) {
+                preferences.processors.forEach(function (processor) {
+                    processor.supported = _this.messageOutputDelegate.hasHandler(processor.name, true);
+                    if (processor.hassettings && processor.supported) {
+                        _this.processorHandlers.push(_this.messageOutputDelegate.getDisplayData(processor));
+                    }
                 });
             }
-            // Try to send it to server.
-            // Don't allow offline if there are attachments since they were uploaded fine.
-            return _this.workshopProvider.addSubmission(_this.workshopId, _this.courseId, inputData.title, inputData.content, attachmentsId, undefined, submissionId, allowOffline);
-        }).then(function (newSubmissionId) {
-            var data = {
-                workshopId: _this.workshopId,
-                cmId: _this.module.cmid
-            };
-            if (newSubmissionId && submissionId) {
-                // Data sent to server, delete stored files (if any).
-                _this.workshopOffline.deleteSubmissionAction(_this.workshopId, submissionId, _this.editing ? 'update' : 'add');
-                _this.workshopHelper.deleteSubmissionStoredFiles(_this.workshopId, submissionId, _this.editing);
-                data['submissionId'] = newSubmissionId;
-            }
-            var promise = newSubmissionId ? _this.workshopProvider.invalidateSubmissionData(_this.workshopId, newSubmissionId) :
-                Promise.resolve();
-            return promise.finally(function () {
-                _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_11__providers_workshop__["a" /* AddonModWorkshopProvider */].SUBMISSION_CHANGED, data, _this.siteId);
-                // Delete the local files from the tmp folder.
-                _this.fileUploaderProvider.clearTmpFiles(inputData.attachmentfiles);
-            });
         }).catch(function (message) {
-            _this.domUtils.showErrorModalDefault(message, 'Cannot save submission');
+            _this.domUtils.showErrorModal(message);
+        }).finally(function () {
+            _this.preferencesLoaded = true;
+        });
+    };
+    /**
+     * Load a processor.
+     *
+     * @param {any} processor Processor object.
+     */
+    AddonNotificationsSettingsPage.prototype.loadProcessor = function (processor) {
+        if (!processor) {
+            return;
+        }
+        this.currentProcessor = processor;
+        this.components = this.settingsHelper.getProcessorComponents(processor.name, this.preferences.components);
+    };
+    /**
+     * Update preferences after a certain time. The purpose is to store the updated data, it won't be reflected in the view.
+     */
+    AddonNotificationsSettingsPage.prototype.updatePreferencesAfterDelay = function () {
+        var _this = this;
+        // Cancel pending updates.
+        clearTimeout(this.updateTimeout);
+        this.updateTimeout = setTimeout(function () {
+            _this.updateTimeout = null;
+            _this.updatePreferences();
+        }, 5000);
+    };
+    /**
+     * Update preferences. The purpose is to store the updated data, it won't be reflected in the view.
+     */
+    AddonNotificationsSettingsPage.prototype.updatePreferences = function () {
+        var _this = this;
+        this.notificationsProvider.invalidateNotificationPreferences().finally(function () {
+            _this.notificationsProvider.getNotificationPreferences();
+        });
+    };
+    /**
+     * The selected processor was changed.
+     *
+     * @param {string} name Name of the selected processor.
+     */
+    AddonNotificationsSettingsPage.prototype.changeProcessor = function (name) {
+        var _this = this;
+        this.preferences.processors.forEach(function (processor) {
+            if (processor.name == name) {
+                _this.loadProcessor(processor);
+            }
+        });
+    };
+    /**
+     * Refresh the list of preferences.
+     *
+     * @param {any} [refresher] Refresher.
+     */
+    AddonNotificationsSettingsPage.prototype.refreshPreferences = function (refresher) {
+        var _this = this;
+        this.notificationsProvider.invalidateNotificationPreferences().finally(function () {
+            _this.fetchPreferences().finally(function () {
+                refresher && refresher.complete();
+            });
+        });
+    };
+    /**
+     * Open extra preferences.
+     *
+     * @param {AddonMessageOutputHandlerData} handlerData
+     */
+    AddonNotificationsSettingsPage.prototype.openExtraPreferences = function (handlerData) {
+        // Decide which navCtrl to use. If this page is inside a split view, use the split view's master nav.
+        var navCtrl = this.svComponent ? this.svComponent.getMasterNav() : this.navCtrl;
+        navCtrl.push(handlerData.page, handlerData.pageParams);
+    };
+    /**
+     * Change the value of a certain preference.
+     *
+     * @param {any} notification Notification object.
+     * @param {string} state State name, ['loggedin', 'loggedoff'].
+     */
+    AddonNotificationsSettingsPage.prototype.changePreference = function (notification, state) {
+        var _this = this;
+        var processorState = notification.currentProcessor[state];
+        var preferenceName = notification.preferencekey + '_' + processorState.name;
+        var value;
+        notification.processors.forEach(function (processor) {
+            if (processor[state].checked) {
+                if (!value) {
+                    value = processor.name;
+                }
+                else {
+                    value += ',' + processor.name;
+                }
+            }
+        });
+        if (!value) {
+            value = 'none';
+        }
+        processorState.updating = true;
+        this.userProvider.updateUserPreference(preferenceName, value).then(function () {
+            // Update the preferences since they were modified.
+            _this.updatePreferencesAfterDelay();
+        }).catch(function (message) {
+            // Show error and revert change.
+            _this.domUtils.showErrorModal(message);
+            notification.currentProcessor[state].checked = !notification.currentProcessor[state].checked;
+        }).finally(function () {
+            processorState.updating = false;
+        });
+    };
+    /**
+     * Disable all notifications changed.
+     */
+    AddonNotificationsSettingsPage.prototype.disableAll = function (disable) {
+        var _this = this;
+        var modal = this.domUtils.showModalLoading('core.sending', true);
+        this.userProvider.updateUserPreferences([], disable).then(function () {
+            // Update the preferences since they were modified.
+            _this.updatePreferencesAfterDelay();
+        }).catch(function (message) {
+            // Show error and revert change.
+            _this.domUtils.showErrorModal(message);
+            _this.preferences.disableall = !_this.preferences.disableall;
         }).finally(function () {
             modal.dismiss();
         });
     };
     /**
-     * Component being destroyed.
-     */
-    AddonModWorkshopEditSubmissionPage.prototype.ngOnDestroy = function () {
-        this.isDestroyed = true;
-        this.syncProvider.unblockOperation(this.component, this.workshopId);
-    };
-    AddonModWorkshopEditSubmissionPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-workshop-edit-submission',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\workshop\pages\edit-submission\edit-submission.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.mod_workshop.editsubmission\' | translate }}</ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="save()" [attr.aria-label]="\'core.save\' | translate">\n\n                {{ \'core.save\' | translate }}\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshSubmission($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-loading [hideUntil]="loaded">\n\n        <form ion-list [formGroup]="editForm" *ngIf="workshop">\n\n            <ion-item text-wrap>\n\n                <ion-label stacked core-mark-required="true">{{ \'addon.mod_workshop.submissiontitle\' | translate }}</ion-label>\n\n                <ion-input name="title" type="text" [placeholder]="\'addon.mod_workshop.submissiontitle\' | translate" formControlName="title"></ion-input>\n\n            </ion-item>\n\n\n\n            <ion-item>\n\n                <ion-label stacked>{{ \'addon.mod_workshop.submissioncontent\' | translate }}</ion-label>\n\n                <core-rich-text-editor item-content [control]="editForm.controls[\'content\']" formControlName="content" [placeholder]="\'addon.mod_workshop.submissioncontent\' | translate"  name="content" [component]="component" [componentId]="componentId"></core-rich-text-editor>\n\n            </ion-item>\n\n\n\n            <core-attachments *ngIf="workshop.nattachments > 0" [files]="submission.attachmentfiles" [maxSize]="workshop.maxbytes" [maxSubmissions]="workshop.nattachments" [component]="component" [componentId]="workshop.cmid" allowOffline="true" [acceptedTypes]="workshop.submissionfiletypes"></core-attachments>\n\n        </form>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\workshop\pages\edit-submission\edit-submission.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_10__core_fileuploader_providers_fileuploader__["a" /* CoreFileUploaderProvider */],
-            __WEBPACK_IMPORTED_MODULE_11__providers_workshop__["a" /* AddonModWorkshopProvider */], __WEBPACK_IMPORTED_MODULE_13__providers_offline__["a" /* AddonModWorkshopOfflineProvider */],
-            __WEBPACK_IMPORTED_MODULE_12__providers_helper__["a" /* AddonModWorkshopHelperProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_7__providers_file_session__["a" /* CoreFileSessionProvider */], __WEBPACK_IMPORTED_MODULE_6__providers_sync__["a" /* CoreSyncProvider */],
-            __WEBPACK_IMPORTED_MODULE_9__providers_utils_text__["a" /* CoreTextUtilsProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */],
-            __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_4__providers_events__["a" /* CoreEventsProvider */]])
-    ], AddonModWorkshopEditSubmissionPage);
-    return AddonModWorkshopEditSubmissionPage;
-}());
-
-//# sourceMappingURL=edit-submission.js.map
-=======
-/**
- * Page that displays the phase info modal.
- */
-var AddonModWorkshopPhaseInfoPage = /** @class */ (function () {
-    function AddonModWorkshopPhaseInfoPage(params, viewCtrl, utils) {
-        this.viewCtrl = viewCtrl;
-        this.utils = utils;
-        this.phases = params.get('phases');
-        this.workshopPhase = params.get('workshopPhase');
-        var externalUrl = params.get('externalUrl');
-        // Treat phases.
-        for (var x in this.phases) {
-            this.phases[x].tasks.forEach(function (task) {
-                if (!task.link && (task.code == 'examples' || task.code == 'prepareexamples')) {
-                    // Add links to manage examples.
-                    task.link = externalUrl;
-                }
-            });
-            var action = this.phases[x].actions.find(function (action) {
-                return action.url && action.type == 'switchphase';
-            });
-            this.phases[x].switchUrl = action ? action.url : '';
-        }
-    }
-    /**
-     * Close modal.
-     */
-    AddonModWorkshopPhaseInfoPage.prototype.closeModal = function () {
-        this.viewCtrl.dismiss();
-    };
-    /**
-     * Open task.
+     * Change the notification sound setting.
      *
-     * @param {any} task Task to be done.
+     * @param {enabled} enabled True to enable the notification sound, false to disable it.
      */
-    AddonModWorkshopPhaseInfoPage.prototype.runTask = function (task) {
-        if (task.code == 'submit') {
-            // This will close the modal and go to the submit.
-            this.viewCtrl.dismiss(true);
-        }
-        else if (task.link) {
-            this.utils.openInBrowser(task.link);
+    AddonNotificationsSettingsPage.prototype.changeNotificationSound = function (enabled) {
+        var _this = this;
+        this.configProvider.set(__WEBPACK_IMPORTED_MODULE_10__core_constants__["a" /* CoreConstants */].SETTINGS_NOTIFICATION_SOUND, enabled ? 1 : 0).finally(function () {
+            var siteId = _this.sitesProvider.getCurrentSiteId();
+            _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_11__providers_events__["a" /* CoreEventsProvider */].NOTIFICATION_SOUND_CHANGED, { enabled: enabled }, siteId);
+            _this.localNotificationsProvider.rescheduleAll();
+        });
+    };
+    /**
+     * Page destroyed.
+     */
+    AddonNotificationsSettingsPage.prototype.ngOnDestroy = function () {
+        // If there is a pending action to update preferences, execute it right now.
+        if (this.updateTimeout) {
+            clearTimeout(this.updateTimeout);
+            this.updatePreferences();
         }
     };
-    AddonModWorkshopPhaseInfoPage = __decorate([
+    AddonNotificationsSettingsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-workshop-phase-info',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\mod\workshop\pages\phase\phase.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.mod_workshop.userplan\' | translate }}</ion-title>\n        <ion-buttons end>\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n                <ion-icon name="close"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-list>\n        <ng-container *ngFor="let phase of phases">\n            <ion-item-divider [class.core-workshop-phase-selected]="workshopPhase == phase.code">\n                <h2>{{ phase.title }}</h2>\n                <p text-wrap *ngIf="workshopPhase == phase.code">{{ \'addon.mod_workshop.userplancurrentphase\' | translate }}</p>\n            </ion-item-divider>\n            <a ion-item text-wrap *ngIf="phase.switchUrl" [href]="phase.switchUrl" detail-none>\n                <ion-icon item-start name="swap"></ion-icon>\n                {{ \'addon.mod_workshop.switchphase\' + phase.code | translate }}\n                <ion-icon item-end name="open"></ion-icon>\n            </a>\n            <a ion-item text-wrap *ngFor="let task of phase.tasks" [class.item-dimmed]="phase.code != workshopPhase" (click)="runTask(task)" detail-none>\n                <ion-icon item-start name="radio-button-off" *ngIf="task.completed == null"></ion-icon>\n                <ion-icon item-start name="close-circle" color="danger" *ngIf="task.completed == \'\'"></ion-icon>\n                <ion-icon item-start name="information-circle" color="info" *ngIf="task.completed == \'info\'"></ion-icon>\n                <ion-icon item-start name="checkmark-circle" color="success" *ngIf="task.completed == \'1\'"></ion-icon>\n\n                <h2 text-wrap>{{task.title}}</h2>\n                <p *ngIf="task.details"><core-format-text [text]="task.details"></core-format-text></p>\n                <ion-icon item-end *ngIf="task.link && task.code != \'submit\'" name="open"></ion-icon>\n            </a>\n        </ng-container>\n    </ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\mod\workshop\pages\phase\phase.html"*/,
+            selector: 'page-addon-notifications-settings',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\notifications\pages\settings\settings.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.notifications.notificationpreferences\' | translate }}</ion-title>\n\n        <ion-buttons end>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<core-navbar-buttons>\n\n    <core-context-menu *ngIf="processorHandlers.length > 0">\n\n        <core-context-menu-item *ngFor="let handler of processorHandlers" [priority]="handler.priority" [content]="handler.label | translate" (action)="openExtraPreferences(handler)" [iconAction]="handler.icon"></core-context-menu-item>\n\n    </core-context-menu>\n\n</core-navbar-buttons>\n\n<ion-content>\n\n    <ion-refresher [enabled]="preferencesLoaded && notifPrefsEnabled" (ionRefresh)="refreshPreferences($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-loading [hideUntil]="preferencesLoaded">\n\n        <!-- If notification preferences aren\'t enabled, show only the notification sound setting. -->\n\n        <ion-item *ngIf="canChangeSound && !notifPrefsEnabled">\n\n            <ion-label>{{ \'addon.notifications.playsound\' | translate }}</ion-label>\n\n            <ion-toggle [(ngModel)]="notificationSound" (ionChange)="changeNotificationSound(notificationSound)"></ion-toggle>\n\n        </ion-item>\n\n\n\n        <ng-container *ngIf="notifPrefsEnabled">\n\n            <ion-card>\n\n                <ion-item text-wrap *ngIf="preferences">\n\n                    <ion-label>{{ \'core.settings.disableall\' | translate }}</ion-label>\n\n                    <ion-toggle [(ngModel)]="preferences.disableall" (ionChange)="disableAll(preferences.disableall)"></ion-toggle>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="canChangeSound">\n\n                    <ion-label>{{ \'addon.notifications.playsound\' | translate }}</ion-label>\n\n                    <ion-toggle [(ngModel)]="notificationSound" (ionChange)="changeNotificationSound(notificationSound)"></ion-toggle>\n\n                </ion-item>\n\n            </ion-card>\n\n\n\n            <!-- Show processor selector. -->\n\n            <ion-select *ngIf="preferences && preferences.processors && preferences.processors.length > 0" [ngModel]="currentProcessor.name" (ngModelChange)="changeProcessor($event)" interface="popover">\n\n                <ion-option *ngFor="let processor of preferences.processors" [value]="processor.name">{{ processor.displayname }}</ion-option>\n\n            </ion-select>\n\n\n\n            <ion-card list *ngFor="let component of components">\n\n                <ion-item-divider color="light" text-wrap>\n\n                    <ion-row no-padding>\n\n                        <ion-col no-padding>{{ component.displayname }}</ion-col>\n\n                        <ion-col col-2 text-center no-padding class="hidden-phone">{{ \'core.settings.loggedin\' | translate }}</ion-col>\n\n                        <ion-col col-2 text-center no-padding class="hidden-phone">{{ \'core.settings.loggedoff\' | translate }}</ion-col>\n\n                    </ion-row>\n\n                </ion-item-divider>\n\n                <ng-container *ngFor="let notification of component.notifications">\n\n                    <!-- Tablet view -->\n\n                    <ion-row text-wrap class="hidden-phone" align-items-center>\n\n                        <ion-col margin-horizontal>{{ notification.displayname }}</ion-col>\n\n                        <ion-col col-2 text-center *ngFor="let state of [\'loggedin\', \'loggedoff\']">\n\n                            <!-- If notifications not disabled, show toggle. -->\n\n                            <ion-spinner [hidden]="preferences.disableall || !(notification.currentProcessor[state] && notification.currentProcessor[state].updating)"></ion-spinner>\n\n                            <ion-toggle *ngIf="!preferences.disableall" [(ngModel)]="notification.currentProcessor[state].checked" (ionChange)="changePreference(notification, state)" [disabled]="notification.currentProcessor.locked || notification.currentProcessor[state].updating">\n\n                            </ion-toggle>\n\n                            <!-- If notifications are disabled, show "Disabled" instead of toggle. -->\n\n                            <span *ngIf="preferences.disableall">{{ \'core.settings.disabled\' | translate }}</span>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                    <!-- Phone view -->\n\n                    <ion-list-header text-wrap no-margin class="hidden-tablet">{{ notification.displayname }}</ion-list-header>\n\n                    <!-- If notifications not disabled, show toggles. If notifications are disabled, show "Disabled" instead of toggle. -->\n\n                    <ion-item *ngFor="let state of [\'loggedin\', \'loggedoff\']" text-wrap class="hidden-tablet">\n\n                        <ion-label>{{ \'core.settings.\' + state | translate }}</ion-label>\n\n                        <ion-spinner item-end *ngIf="!preferences.disableall && (notification.currentProcessor[state] && notification.currentProcessor[state].updating)"></ion-spinner>\n\n                        <ion-toggle item-end *ngIf="!preferences.disableall" [(ngModel)]="notification.currentProcessor[state].checked" (ionChange)="changePreference(notification, state)" [disabled]="notification.currentProcessor.locked || notification.currentProcessor[state].updating">\n\n                        </ion-toggle>\n\n                        <ion-note item-end *ngIf="preferences.disableall">{{ \'core.settings.disabled\' | translate }}</ion-note>\n\n                    </ion-item>\n\n                </ng-container>\n\n            </ion-card>\n\n        </ng-container>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\notifications\pages\settings\settings.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["E" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__providers_utils_utils__["a" /* CoreUtilsProvider */]])
-    ], AddonModWorkshopPhaseInfoPage);
-    return AddonModWorkshopPhaseInfoPage;
+        __param(11, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Optional */])()),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__providers_notifications__["a" /* AddonNotificationsProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__core_settings_providers_helper__["a" /* CoreSettingsHelper */], __WEBPACK_IMPORTED_MODULE_3__core_user_providers_user__["a" /* CoreUserProvider */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_6__addon_messageoutput_providers_delegate__["a" /* AddonMessageOutputDelegate */],
+            __WEBPACK_IMPORTED_MODULE_9__providers_app__["a" /* CoreAppProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_config__["a" /* CoreConfigProvider */], __WEBPACK_IMPORTED_MODULE_11__providers_events__["a" /* CoreEventsProvider */],
+            __WEBPACK_IMPORTED_MODULE_7__providers_local_notifications__["a" /* CoreLocalNotificationsProvider */], __WEBPACK_IMPORTED_MODULE_12__providers_sites__["a" /* CoreSitesProvider */],
+            __WEBPACK_IMPORTED_MODULE_13__components_split_view_split_view__["a" /* CoreSplitViewComponent */]])
+    ], AddonNotificationsSettingsPage);
+    return AddonNotificationsSettingsPage;
 }());
 
-//# sourceMappingURL=phase.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+//# sourceMappingURL=settings.js.map
 
 /***/ })
 

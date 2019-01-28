@@ -1,31 +1,20 @@
 webpackJsonp([0],{
 
-<<<<<<< HEAD
-/***/ 1801:
-=======
 /***/ 1869:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonMessagesSettingsPageModule", function() { return AddonMessagesSettingsPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreCoursesDashboardPageModule", function() { return CoreCoursesDashboardPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__settings__ = __webpack_require__(1925);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__dashboard__ = __webpack_require__(2006);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(1903);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__settings__ = __webpack_require__(1997);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(1972);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(923);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__core_sitehome_components_components_module__ = __webpack_require__(926);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__core_block_components_components_module__ = __webpack_require__(2010);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -52,483 +41,45 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var AddonMessagesSettingsPageModule = /** @class */ (function () {
-    function AddonMessagesSettingsPageModule() {
+
+
+var CoreCoursesDashboardPageModule = /** @class */ (function () {
+    function CoreCoursesDashboardPageModule() {
     }
-    AddonMessagesSettingsPageModule = __decorate([
+    CoreCoursesDashboardPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_3__settings__["a" /* AddonMessagesSettingsPage */],
+                __WEBPACK_IMPORTED_MODULE_3__dashboard__["a" /* CoreCoursesDashboardPage */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
                 __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* AddonMessagesComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__settings__["a" /* AddonMessagesSettingsPage */]),
+                __WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* CoreCoursesComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_7__core_sitehome_components_components_module__["a" /* CoreSiteHomeComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_8__core_block_components_components_module__["a" /* CoreBlockComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__dashboard__["a" /* CoreCoursesDashboardPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], AddonMessagesSettingsPageModule);
-    return AddonMessagesSettingsPageModule;
+    ], CoreCoursesDashboardPageModule);
+    return CoreCoursesDashboardPageModule;
 }());
 
-//# sourceMappingURL=settings.module.js.map
+//# sourceMappingURL=dashboard.module.js.map
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 1903:
-=======
-/***/ 1972:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1909:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesComponentsModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreBlockDelegate; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-<<<<<<< HEAD
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pipes_pipes_module__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_discussions_discussions__ = __webpack_require__(1904);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_contacts_contacts__ = __webpack_require__(1905);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pipes_pipes_module__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_discussions_discussions__ = __webpack_require__(1973);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_confirmed_contacts_confirmed_contacts__ = __webpack_require__(1974);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_contact_requests_contact_requests__ = __webpack_require__(1975);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_contacts_contacts__ = __webpack_require__(1976);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-// (C) Copyright 2015 Martin Dougiamas
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-var AddonMessagesComponentsModule = /** @class */ (function () {
-    function AddonMessagesComponentsModule() {
-    }
-    AddonMessagesComponentsModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_7__components_discussions_discussions__["a" /* AddonMessagesDiscussionsComponent */],
-<<<<<<< HEAD
-                __WEBPACK_IMPORTED_MODULE_8__components_contacts_contacts__["a" /* AddonMessagesContactsComponent */]
-=======
-                __WEBPACK_IMPORTED_MODULE_8__components_confirmed_contacts_confirmed_contacts__["a" /* AddonMessagesConfirmedContactsComponent */],
-                __WEBPACK_IMPORTED_MODULE_9__components_contact_requests_contact_requests__["a" /* AddonMessagesContactRequestsComponent */],
-                __WEBPACK_IMPORTED_MODULE_10__components_contacts_contacts__["a" /* AddonMessagesContactsComponent */]
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_1__angular_common__["b" /* CommonModule */],
-                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["k" /* IonicModule */],
-                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild(),
-                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_6__pipes_pipes_module__["a" /* CorePipesModule */]
-            ],
-            providers: [],
-            exports: [
-                __WEBPACK_IMPORTED_MODULE_7__components_discussions_discussions__["a" /* AddonMessagesDiscussionsComponent */],
-<<<<<<< HEAD
-                __WEBPACK_IMPORTED_MODULE_8__components_contacts_contacts__["a" /* AddonMessagesContactsComponent */]
-=======
-                __WEBPACK_IMPORTED_MODULE_8__components_confirmed_contacts_confirmed_contacts__["a" /* AddonMessagesConfirmedContactsComponent */],
-                __WEBPACK_IMPORTED_MODULE_9__components_contact_requests_contact_requests__["a" /* AddonMessagesContactRequestsComponent */],
-                __WEBPACK_IMPORTED_MODULE_10__components_contacts_contacts__["a" /* AddonMessagesContactsComponent */]
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-            ]
-        })
-    ], AddonMessagesComponentsModule);
-    return AddonMessagesComponentsModule;
-}());
-
-//# sourceMappingURL=components.module.js.map
-
-/***/ }),
-
-<<<<<<< HEAD
-/***/ 1904:
-=======
-/***/ 1973:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesDiscussionsComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-<<<<<<< HEAD
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_messages__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_utils__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_app__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__addon_pushnotifications_providers_delegate__ = __webpack_require__(146);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_messages__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_utils__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_app__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__addon_pushnotifications_providers_delegate__ = __webpack_require__(152);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-// (C) Copyright 2015 Martin Dougiamas
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-
-
-/**
- * Component that displays the list of discussions.
- */
-var AddonMessagesDiscussionsComponent = /** @class */ (function () {
-    function AddonMessagesDiscussionsComponent(eventsProvider, sitesProvider, translate, messagesProvider, domUtils, navParams, appProvider, platform, utils, pushNotificationsDelegate) {
-        var _this = this;
-        this.eventsProvider = eventsProvider;
-        this.messagesProvider = messagesProvider;
-        this.domUtils = domUtils;
-        this.appProvider = appProvider;
-<<<<<<< HEAD
-=======
-        this.utils = utils;
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-        this.loaded = false;
-        this.search = {
-            enabled: false,
-            showResults: false,
-            results: [],
-            loading: '',
-            text: ''
-        };
-        this.search.loading = translate.instant('core.searching');
-        this.loadingMessages = translate.instant('core.loading');
-        this.siteId = sitesProvider.getCurrentSiteId();
-        // Update discussions when new message is received.
-        this.newMessagesObserver = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].NEW_MESSAGE_EVENT, function (data) {
-            if (data.userId) {
-                var discussion = _this.discussions.find(function (disc) {
-                    return disc.message.user == data.userId;
-                });
-                if (typeof discussion == 'undefined') {
-                    _this.loaded = false;
-                    _this.refreshData().finally(function () {
-                        _this.loaded = true;
-                    });
-                }
-                else {
-                    // An existing discussion has a new message, update the last message.
-                    discussion.message.message = data.message;
-                    discussion.message.timecreated = data.timecreated;
-                }
-            }
-        }, this.siteId);
-        // Update discussions when a message is read.
-        this.readChangedObserver = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].READ_CHANGED_EVENT, function (data) {
-            if (data.userId) {
-                var discussion = _this.discussions.find(function (disc) {
-                    return disc.message.user == data.userId;
-                });
-                if (typeof discussion != 'undefined') {
-                    // A discussion has been read reset counter.
-                    discussion.unread = false;
-<<<<<<< HEAD
-                    // Discussions changed, invalidate them.
-                    _this.messagesProvider.invalidateDiscussionsCache();
-                }
-            }
-        }, this.siteId);
-        // Update discussions when cron read is executed.
-        this.cronObserver = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].READ_CRON_EVENT, function (data) {
-            _this.refreshData();
-        }, this.siteId);
-=======
-                    // Conversations changed, invalidate them and refresh unread counts.
-                    _this.messagesProvider.invalidateConversations();
-                    _this.messagesProvider.refreshUnreadConversationCounts();
-                }
-            }
-        }, this.siteId);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-        // Refresh the view when the app is resumed.
-        this.appResumeSubscription = platform.resume.subscribe(function () {
-            if (!_this.loaded) {
-                return;
-            }
-            _this.loaded = false;
-            _this.refreshData();
-        });
-        this.discussionUserId = navParams.get('discussionUserId') || false;
-        // If a message push notification is received, refresh the view.
-        this.pushObserver = pushNotificationsDelegate.on('receive').subscribe(function (notification) {
-            // New message received. If it's from current site, refresh the data.
-            if (utils.isFalseOrZero(notification.notif) && notification.site == _this.siteId) {
-<<<<<<< HEAD
-                _this.refreshData();
-=======
-                // Don't refresh unread counts, it's refreshed from the main menu handler in this case.
-                _this.refreshData(null, false);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-            }
-        });
-    }
-    /**
-     * Component loaded.
-     */
-    AddonMessagesDiscussionsComponent.prototype.ngOnInit = function () {
-        var _this = this;
-        if (this.discussionUserId) {
-            // There is a discussion to load, open the discussion in a new state.
-            this.gotoDiscussion(this.discussionUserId);
-        }
-        this.fetchData().then(function () {
-            if (!_this.discussionUserId && _this.discussions.length > 0) {
-                // Take first and load it.
-                _this.gotoDiscussion(_this.discussions[0].message.user, undefined, true);
-            }
-        });
-    };
-    /**
-     * Refresh the data.
-     *
-     * @param {any} [refresher] Refresher.
-<<<<<<< HEAD
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonMessagesDiscussionsComponent.prototype.refreshData = function (refresher) {
-        var _this = this;
-        return this.messagesProvider.invalidateDiscussionsCache().then(function () {
-            return _this.fetchData().finally(function () {
-                if (refresher) {
-                    // Actions to take if refresh comes from the user.
-                    _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].READ_CHANGED_EVENT, undefined, _this.siteId);
-=======
-     * @param {boolean} [refreshUnreadCounts=true] Whteher to refresh unread counts.
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonMessagesDiscussionsComponent.prototype.refreshData = function (refresher, refreshUnreadCounts) {
-        var _this = this;
-        if (refreshUnreadCounts === void 0) { refreshUnreadCounts = true; }
-        var promises = [];
-        promises.push(this.messagesProvider.invalidateDiscussionsCache());
-        if (refreshUnreadCounts) {
-            promises.push(this.messagesProvider.invalidateUnreadConversationCounts());
-        }
-        return this.utils.allPromises(promises).finally(function () {
-            return _this.fetchData().finally(function () {
-                if (refresher) {
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-                    refresher.complete();
-                }
-            });
-        });
-    };
-    /**
-     * Fetch discussions.
-     *
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonMessagesDiscussionsComponent.prototype.fetchData = function () {
-        var _this = this;
-        this.loadingMessage = this.loadingMessages;
-        this.search.enabled = this.messagesProvider.isSearchMessagesEnabled();
-<<<<<<< HEAD
-        return this.messagesProvider.getDiscussions().then(function (discussions) {
-=======
-        var promises = [];
-        promises.push(this.messagesProvider.getDiscussions().then(function (discussions) {
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-            // Convert to an array for sorting.
-            var discussionsSorted = [];
-            for (var userId in discussions) {
-                discussions[userId].unread = !!discussions[userId].unread;
-                discussionsSorted.push(discussions[userId]);
-            }
-            _this.discussions = discussionsSorted.sort(function (a, b) {
-                return b.message.timecreated - a.message.timecreated;
-            });
-<<<<<<< HEAD
-        }).catch(function (error) {
-=======
-        }));
-        promises.push(this.messagesProvider.getUnreadConversationCounts());
-        return Promise.all(promises).catch(function (error) {
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-            _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingdiscussions', true);
-        }).finally(function () {
-            _this.loaded = true;
-        });
-    };
-    /**
-     * Clear search and show discussions again.
-     */
-    AddonMessagesDiscussionsComponent.prototype.clearSearch = function () {
-        var _this = this;
-        this.loaded = false;
-        this.search.showResults = false;
-        this.search.text = ''; // Reset searched string.
-        this.fetchData().finally(function () {
-            _this.loaded = true;
-        });
-    };
-    /**
-     * Search messages cotaining text.
-     *
-     * @param  {string}       query Text to search for.
-     * @return {Promise<any>}       Resolved when done.
-     */
-    AddonMessagesDiscussionsComponent.prototype.searchMessage = function (query) {
-        var _this = this;
-        this.appProvider.closeKeyboard();
-        this.loaded = false;
-        this.loadingMessage = this.search.loading;
-        return this.messagesProvider.searchMessages(query).then(function (searchResults) {
-            _this.search.showResults = true;
-<<<<<<< HEAD
-            _this.search.results = searchResults;
-=======
-            _this.search.results = searchResults.messages;
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-        }).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingmessages', true);
-        }).finally(function () {
-            _this.loaded = true;
-        });
-    };
-    /**
-     * Navigate to a particular discussion.
-     *
-     * @param {number} discussionUserId Discussion Id to load.
-     * @param {number} [messageId]      Message to scroll after loading the discussion. Used when searching.
-     * @param {boolean} [onlyWithSplitView=false]  Only go to Discussion if split view is on.
-     */
-    AddonMessagesDiscussionsComponent.prototype.gotoDiscussion = function (discussionUserId, messageId, onlyWithSplitView) {
-        if (onlyWithSplitView === void 0) { onlyWithSplitView = false; }
-        this.discussionUserId = discussionUserId;
-        var params = {
-            discussion: discussionUserId,
-            onlyWithSplitView: onlyWithSplitView
-        };
-        if (messageId) {
-            params['message'] = messageId;
-        }
-        this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].SPLIT_VIEW_LOAD_EVENT, params, this.siteId);
-    };
-    /**
-     * Component destroyed.
-     */
-    AddonMessagesDiscussionsComponent.prototype.ngOnDestroy = function () {
-        this.newMessagesObserver && this.newMessagesObserver.off();
-        this.readChangedObserver && this.readChangedObserver.off();
-        this.cronObserver && this.cronObserver.off();
-        this.appResumeSubscription && this.appResumeSubscription.unsubscribe();
-        this.pushObserver && this.pushObserver.unsubscribe();
-    };
-    AddonMessagesDiscussionsComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-<<<<<<< HEAD
-            selector: 'addon-messages-discussions',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\messages\components\discussions\addon-messages-discussions.html"*/'<ion-content>\n\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshData($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n\n\n    <core-search-box *ngIf="search.enabled" (onSubmit)="searchMessage($event)" (onClear)="clearSearch($event)" [placeholder]=" \'addon.messages.message\' | translate" autocorrect="off" spellcheck="false" lengthCheck="2" [disabled]="!loaded"></core-search-box>\n\n\n\n    <core-loading [hideUntil]="loaded" [message]="loadingMessage">\n\n\n\n        <core-empty-box *ngIf="(!discussions || discussions.length <= 0) && !search.showResults" icon="chatbubbles" [message]="\'addon.messages.nomessages\' | translate"></core-empty-box>\n\n\n\n        <core-empty-box *ngIf="(!search.results || search.results.length <= 0) && search.showResults" icon="search" [message]="\'core.noresults\' | translate"></core-empty-box>\n\n\n\n        <ion-list *ngIf="search.showResults" no-margin>\n\n            <ion-item-divider color="light">\n\n                <h2>{{ \'core.searchresults\' | translate }}</h2>\n\n                <ion-note item-end>{{ search.results.length }}</ion-note>\n\n            </ion-item-divider>\n\n            <a ion-item text-wrap *ngFor="let result of search.results" [title]="result.fullname" (click)="gotoDiscussion(result.userid, result.messageid)" [class.core-split-item-selected]="result.userid == discussionUserId" detail-none>\n\n                <ion-avatar item-start>\n\n                    <img src="{{result.profileimageurl}}" [alt]="\'core.pictureof\' | translate:{$a: result.fullname}" core-external-content onError="this.src=\'assets/img/user-avatar.png\'">\n\n                </ion-avatar>\n\n                <h2><core-format-text [text]="result.fullname"></core-format-text></h2>\n\n                <p><core-format-text clean="true" singleLine="true" [text]="result.lastmessage"></core-format-text></p>\n\n            </a>\n\n        </ion-list>\n\n\n\n        <ion-list *ngIf="!search.showResults" no-margin>\n\n            <a ion-item text-wrap *ngFor="let discussion of discussions" [title]="discussion.fullname" (click)="gotoDiscussion(discussion.message.user)" [class.core-split-item-selected]="discussion.message.user == discussionUserId" detail-none>\n\n                <ion-avatar item-start>\n\n                    <img src="{{discussion.profileimageurl}}" [alt]="\'core.pictureof\' | translate:{$a: discussion.fullname}" core-external-content onError="this.src=\'assets/img/user-avatar.png\'">\n\n                </ion-avatar>\n\n                <h2>\n\n                    <core-format-text [text]="discussion.fullname"></core-format-text>\n\n                    <ion-note *ngIf="discussion.message.timecreated > 0 || discussion.unread">\n\n                        <span *ngIf="discussion.unread" class="core-primary-circle"></span>\n\n                        <span *ngIf="discussion.message.timecreated > 0">{{discussion.message.timecreated / 1000 | coreDateDayOrTime}}</span>\n\n                    </ion-note>\n\n                </h2>\n\n                <p><core-format-text clean="true" singleLine="true" [text]="discussion.message.message"></core-format-text></p>\n\n            </a>\n\n        </ion-list>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\messages\components\discussions\addon-messages-discussions.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */],
-            __WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */], __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_8__providers_app__["a" /* CoreAppProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["u" /* Platform */], __WEBPACK_IMPORTED_MODULE_7__providers_utils_utils__["a" /* CoreUtilsProvider */],
-=======
-            selector: 'addon-messages-discussions',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\messages\components\discussions\addon-messages-discussions.html"*/'<ion-content>\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshData($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <core-search-box *ngIf="search.enabled" (onSubmit)="searchMessage($event)" (onClear)="clearSearch($event)" [placeholder]=" \'addon.messages.message\' | translate" autocorrect="off" spellcheck="false" lengthCheck="2" [disabled]="!loaded"></core-search-box>\n\n    <core-loading [hideUntil]="loaded" [message]="loadingMessage">\n\n        <ion-list *ngIf="search.showResults" no-margin>\n            <ion-item-divider>\n                <h2>{{ \'core.searchresults\' | translate }}</h2>\n                <ion-note item-end>{{ search.results.length }}</ion-note>\n            </ion-item-divider>\n            <a ion-item text-wrap *ngFor="let result of search.results" [title]="result.fullname" (click)="gotoDiscussion(result.userid, result.messageid)" [class.core-split-item-selected]="result.userid == discussionUserId" class="addon-message-discussion">\n                <ion-avatar core-user-avatar [user]="result" item-start [checkOnline]="result.showonlinestatus"></ion-avatar>\n                <h2><core-format-text [text]="result.fullname"></core-format-text></h2>\n                <p><core-format-text clean="true" singleLine="true" [text]="result.lastmessage"></core-format-text></p>\n            </a>\n        </ion-list>\n\n        <ion-list *ngIf="!search.showResults" no-margin>\n            <a ion-item text-wrap *ngFor="let discussion of discussions" [title]="discussion.fullname" (click)="gotoDiscussion(discussion.message.user)" [class.core-split-item-selected]="discussion.message.user == discussionUserId" class="addon-message-discussion">\n                <ion-avatar core-user-avatar [user]="discussion" item-start [checkOnline]="discussion.showonlinestatus"></ion-avatar>\n                <h2>\n                    <core-format-text [text]="discussion.fullname"></core-format-text>\n                </h2>\n                <ion-note *ngIf="discussion.message.timecreated > 0 || discussion.unread">\n                    <span *ngIf="discussion.unread" class="core-primary-circle"></span>\n                    <span *ngIf="discussion.message.timecreated > 0">{{discussion.message.timecreated / 1000 | coreDateDayOrTime}}</span>\n                </ion-note>\n                <p><core-format-text clean="true" singleLine="true" [text]="discussion.message.message"></core-format-text></p>\n            </a>\n        </ion-list>\n\n        <core-empty-box *ngIf="(!discussions || discussions.length <= 0) && !search.showResults" icon="chatbubbles" [message]="\'addon.messages.nomessagesfound\' | translate"></core-empty-box>\n\n        <core-empty-box *ngIf="(!search.results || search.results.length <= 0) && search.showResults" icon="search" [message]="\'core.noresults\' | translate"></core-empty-box>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\messages\components\discussions\addon-messages-discussions.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */],
-            __WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */], __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_8__providers_app__["a" /* CoreAppProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["v" /* Platform */], __WEBPACK_IMPORTED_MODULE_7__providers_utils_utils__["a" /* CoreUtilsProvider */],
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-            __WEBPACK_IMPORTED_MODULE_9__addon_pushnotifications_providers_delegate__["a" /* AddonPushNotificationsDelegate */]])
-    ], AddonMessagesDiscussionsComponent);
-    return AddonMessagesDiscussionsComponent;
-}());
-
-//# sourceMappingURL=discussions.js.map
-
-/***/ }),
-
-<<<<<<< HEAD
-/***/ 1905:
-=======
-/***/ 1974:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesConfirmedContactsComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_logger__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_events__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_messages__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__classes_delegate__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__default_block_handler__ = __webpack_require__(2007);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -542,6 +93,16 @@ var AddonMessagesDiscussionsComponent = /** @class */ (function () {
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -558,157 +119,69 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Component that displays the list of confirmed contacts.
+ * Delegate to register block handlers.
  */
-var AddonMessagesConfirmedContactsComponent = /** @class */ (function () {
-    function AddonMessagesConfirmedContactsComponent(domUtils, eventsProvider, sitesProvider, messagesProvider) {
-        var _this = this;
-        this.domUtils = domUtils;
-        this.messagesProvider = messagesProvider;
-        this.onUserSelected = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* EventEmitter */]();
-        this.loaded = false;
-        this.canLoadMore = false;
-        this.loadMoreError = false;
-        this.contacts = [];
-        this.onUserSelected = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* EventEmitter */]();
-        // Update block status of a user.
-        this.memberInfoObserver = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_4__providers_messages__["a" /* AddonMessagesProvider */].MEMBER_INFO_CHANGED_EVENT, function (data) {
-            if (data.userBlocked || data.userUnblocked) {
-                var user = _this.contacts.find(function (user) { return user.id == data.userId; });
-                if (user) {
-                    user.isblocked = data.userBlocked;
-                }
-            }
-            else if (data.contactRemoved) {
-                var index = _this.contacts.findIndex(function (contact) { return contact.id == data.userId; });
-                if (index >= 0) {
-                    _this.contacts.splice(index, 1);
-                }
-            }
-            else if (data.contactRequestConfirmed) {
-                _this.refreshData();
-            }
-        }, sitesProvider.getCurrentSiteId());
+var CoreBlockDelegate = /** @class */ (function (_super) {
+    __extends(CoreBlockDelegate, _super);
+    function CoreBlockDelegate(logger, sitesProvider, eventsProvider, defaultHandler) {
+        var _this = _super.call(this, 'CoreBlockDelegate', logger, sitesProvider, eventsProvider) || this;
+        _this.defaultHandler = defaultHandler;
+        _this.handlerNameProperty = 'blockName';
+        _this.featurePrefix = 'CoreBlockDelegate_';
+        return _this;
     }
     /**
-     * Component loaded.
+     * Get the display data for a certain block.
+     *
+     * @param {Injector} injector Injector.
+     * @param {any} block The block to render.
+     * @param {string} contextLevel The context where the block will be used.
+     * @param {number} instanceId The instance ID associated with the context level.
+     * @return {Promise<CoreBlockHandlerData>} Promise resolved with the display data.
      */
-    AddonMessagesConfirmedContactsComponent.prototype.ngOnInit = function () {
+    CoreBlockDelegate.prototype.getBlockDisplayData = function (injector, block, contextLevel, instanceId) {
+        return Promise.resolve(this.executeFunctionOnEnabled(block.name, 'getDisplayData', [injector, block]));
+    };
+    /**
+     * Check if any of the blocks in a list is supported.
+     *
+     * @param {any[]} blocks The list of blocks.
+     * @return {boolean} Whether any of the blocks is supported.
+     */
+    CoreBlockDelegate.prototype.hasSupportedBlock = function (blocks) {
         var _this = this;
-        this.fetchData().then(function () {
-            if (_this.contacts.length) {
-                _this.selectUser(_this.contacts[0].id, true);
-            }
-        }).finally(function () {
-            _this.loaded = true;
-        });
-        // Workaround for infinite scrolling.
-        this.content.resize();
+        blocks = blocks || [];
+        return !!blocks.find(function (block) { return _this.isBlockSupported(block.name); });
     };
     /**
-     * Fetch contacts.
+     * Check if a block is supported.
      *
-     * @param {boolean} [refresh=false] True if we are refreshing contacts, false if we are loading more.
-     * @return {Promise<any>} Promise resolved when done.
+     * @param {string} name Block "name". E.g. 'activity_modules'.
+     * @return {boolean} Whether it's supported.
      */
-    AddonMessagesConfirmedContactsComponent.prototype.fetchData = function (refresh) {
-        var _this = this;
-        if (refresh === void 0) { refresh = false; }
-        this.loadMoreError = false;
-        var limitFrom = refresh ? 0 : this.contacts.length;
-        var promise;
-        if (limitFrom === 0) {
-            // Always try to get latest data from server.
-            promise = this.messagesProvider.invalidateUserContacts().catch(function () {
-                // Shouldn't happen.
-            });
-        }
-        else {
-            promise = Promise.resolve();
-        }
-        return promise.then(function () {
-            return _this.messagesProvider.getUserContacts(limitFrom);
-        }).then(function (result) {
-            _this.contacts = refresh ? result.contacts : _this.contacts.concat(result.contacts);
-            _this.canLoadMore = result.canLoadMore;
-        }).catch(function (error) {
-            _this.loadMoreError = true;
-            _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingcontacts', true);
-        });
+    CoreBlockDelegate.prototype.isBlockSupported = function (name) {
+        return this.hasHandler(name, true);
     };
-    /**
-     * Refresh contacts.
-     *
-     * @param {any} [refresher] Refresher.
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonMessagesConfirmedContactsComponent.prototype.refreshData = function (refresher) {
-        // No need to invalidate contacts, we always try to get the latest.
-        return this.fetchData(true).finally(function () {
-            refresher && refresher.complete();
-        });
-    };
-    /**
-     * Load more contacts.
-     *
-     * @param {any} [infiniteComplete] Infinite scroll complete function. Only used from core-infinite-loading.
-     * @return {Promise<any>} Resolved when done.
-     */
-    AddonMessagesConfirmedContactsComponent.prototype.loadMore = function (infiniteComplete) {
-        return this.fetchData().finally(function () {
-            infiniteComplete && infiniteComplete();
-        });
-    };
-    /**
-     * Notify that a contact has been selected.
-     *
-     * @param {number} userId User id.
-     * @param {boolean} [onInit=false] Whether the contact is selected on initial load.
-     */
-    AddonMessagesConfirmedContactsComponent.prototype.selectUser = function (userId, onInit) {
-        if (onInit === void 0) { onInit = false; }
-        this.selectedUserId = userId;
-        this.onUserSelected.emit({ userId: userId, onInit: onInit });
-    };
-    /**
-     * Component destroyed.
-     */
-    AddonMessagesConfirmedContactsComponent.prototype.ngOnDestroy = function () {
-        this.memberInfoObserver && this.memberInfoObserver.off();
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Output */])(),
-        __metadata("design:type", Object)
-    ], AddonMessagesConfirmedContactsComponent.prototype, "onUserSelected", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
-    ], AddonMessagesConfirmedContactsComponent.prototype, "content", void 0);
-    AddonMessagesConfirmedContactsComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'addon-messages-confirmed-contacts',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\messages\components\confirmed-contacts\addon-messages-confirmed-contacts.html"*/'<ion-content>\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshData($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="loaded" class="core-loading-center">\n        <ion-list no-margin>\n            <a ion-item text-wrap *ngFor="let contact of contacts" [title]="contact.fullname" (click)="selectUser(contact.id)" [class.core-split-item-selected]="contact.id == selectedUserId" class="addon-messages-conversation-item">\n                <ion-avatar item-start core-user-avatar [user]="contact" [checkOnline]="contact.showonlinestatus" [linkProfile]="false"></ion-avatar>\n                <h2>\n                    <core-format-text [text]="contact.fullname"></core-format-text>\n                    <core-icon *ngIf="contact.isblocked" name="fa-ban" item-end></core-icon>\n                </h2>\n            </a>\n        </ion-list>\n        <core-empty-box *ngIf="!contacts.length" icon="person" [message]="\'addon.messages.nocontactsgetstarted\' | translate"></core-empty-box>\n        <core-infinite-loading [enabled]="canLoadMore" (action)="loadMore($event)" [error]="loadMoreError" position="bottom"></core-infinite-loading>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\messages\components\confirmed-contacts\addon-messages-confirmed-contacts.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */],
-            __WEBPACK_IMPORTED_MODULE_4__providers_messages__["a" /* AddonMessagesProvider */]])
-    ], AddonMessagesConfirmedContactsComponent);
-    return AddonMessagesConfirmedContactsComponent;
-}());
+    CoreBlockDelegate = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__providers_logger__["a" /* CoreLoggerProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_2__providers_events__["a" /* CoreEventsProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__default_block_handler__["a" /* CoreBlockDefaultHandler */]])
+    ], CoreBlockDelegate);
+    return CoreBlockDelegate;
+}(__WEBPACK_IMPORTED_MODULE_4__classes_delegate__["a" /* CoreDelegate */]));
 
-//# sourceMappingURL=confirmed-contacts.js.map
+//# sourceMappingURL=delegate.js.map
 
 /***/ }),
 
-/***/ 1975:
+/***/ 1910:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesContactRequestsComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreBlockComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_messages__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_delegate__ = __webpack_require__(1909);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_dynamic_component_dynamic_component__ = __webpack_require__(151);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -734,730 +207,632 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
-
-
 /**
- * Component that displays the list of contact requests.
+ * Component to render a block.
  */
-var AddonMessagesContactRequestsComponent = /** @class */ (function () {
-    function AddonMessagesContactRequestsComponent(domUtils, eventsProvider, sitesProvider, messagesProvider) {
-        var _this = this;
-        this.domUtils = domUtils;
-        this.messagesProvider = messagesProvider;
-        this.onUserSelected = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* EventEmitter */]();
+var CoreBlockComponent = /** @class */ (function () {
+    function CoreBlockComponent(injector, blockDelegate) {
+        this.injector = injector;
+        this.blockDelegate = blockDelegate;
+        this.data = {}; // Data to pass to the component.
         this.loaded = false;
-        this.canLoadMore = false;
-        this.loadMoreError = false;
-        this.requests = [];
-        // Hide the "Would like to contact you" message when a contact request is confirmed.
-        this.memberInfoObserver = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_4__providers_messages__["a" /* AddonMessagesProvider */].MEMBER_INFO_CHANGED_EVENT, function (data) {
-            if (data.contactRequestConfirmed || data.contactRequestDeclined) {
-                var index = _this.requests.findIndex(function (request) { return request.id == data.userId; });
-                if (index >= 0) {
-                    _this.requests.splice(index, 1);
-                }
-            }
-        }, sitesProvider.getCurrentSiteId());
     }
     /**
-     * Component loaded.
+     * Component being initialized.
      */
-    AddonMessagesContactRequestsComponent.prototype.ngOnInit = function () {
+    CoreBlockComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this.fetchData().then(function () {
-            if (_this.requests.length) {
-                _this.selectUser(_this.requests[0].id, true);
-            }
-        }).finally(function () {
-            _this.loaded = true;
-        });
-        // Workaround for infinite scrolling.
-        this.content.resize();
-    };
-    /**
-     * Fetch contact requests.
-     *
-     * @param {boolean} [refresh=false] True if we are refreshing contact requests, false if we are loading more.
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonMessagesContactRequestsComponent.prototype.fetchData = function (refresh) {
-        var _this = this;
-        if (refresh === void 0) { refresh = false; }
-        this.loadMoreError = false;
-        var limitFrom = refresh ? 0 : this.requests.length;
-        var promise;
-        if (limitFrom === 0) {
-            // Always try to get latest data from server.
-            promise = this.messagesProvider.invalidateContactRequestsCache().catch(function () {
-                // Shouldn't happen.
-            });
-        }
-        else {
-            promise = Promise.resolve();
-        }
-        return promise.then(function () {
-            return _this.messagesProvider.getContactRequests(limitFrom);
-        }).then(function (result) {
-            _this.requests = refresh ? result.requests : _this.requests.concat(result.requests);
-            _this.canLoadMore = result.canLoadMore;
-        }).catch(function (error) {
-            _this.loadMoreError = true;
-            _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingcontacts', true);
-        });
-    };
-    /**
-     * Refresh contact requests.
-     *
-     * @param {any} [refresher] Refresher.
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonMessagesContactRequestsComponent.prototype.refreshData = function (refresher) {
-        // Refresh the number of contacts requests to update badges.
-        this.messagesProvider.refreshContactRequestsCount();
-        // No need to invalidate contact requests, we always try to get the latest.
-        return this.fetchData(true).finally(function () {
-            refresher && refresher.complete();
-        });
-    };
-    /**
-     * Load more contact requests.
-     *
-     * @param {any} [infiniteComplete] Infinite scroll complete function. Only used from core-infinite-loading.
-     * @return {Promise<any>} Resolved when done.
-     */
-    AddonMessagesContactRequestsComponent.prototype.loadMore = function (infiniteComplete) {
-        return this.fetchData().finally(function () {
-            infiniteComplete && infiniteComplete();
-        });
-    };
-    /**
-     * Notify that a contact has been selected.
-     *
-     * @param {number} userId User id.
-     * @param {boolean} [onInit=false] Whether the contact is selected on initial load.
-     */
-    AddonMessagesContactRequestsComponent.prototype.selectUser = function (userId, onInit) {
-        if (onInit === void 0) { onInit = false; }
-        this.selectedUserId = userId;
-        this.onUserSelected.emit({ userId: userId, onInit: onInit });
-    };
-    /**
-     * Component destroyed.
-     */
-    AddonMessagesContactRequestsComponent.prototype.ngOnDestroy = function () {
-        this.memberInfoObserver && this.memberInfoObserver.off();
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Output */])(),
-        __metadata("design:type", Object)
-    ], AddonMessagesContactRequestsComponent.prototype, "onUserSelected", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
-    ], AddonMessagesContactRequestsComponent.prototype, "content", void 0);
-    AddonMessagesContactRequestsComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'addon-messages-contact-requests',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\messages\components\contact-requests\addon-messages-contact-requests.html"*/'<ion-content>\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshData($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="loaded" class="core-loading-center">\n        <ion-list no-margin>\n            <a ion-item text-wrap *ngFor="let request of requests" [title]="request.fullname" (click)="selectUser(request.id)" [class.core-split-item-selected]="request.id == selectedUserId" class="addon-messages-conversation-item">\n                <ion-avatar item-start core-user-avatar [user]="request" [linkProfile]="false"></ion-avatar>\n                <h2><core-format-text [text]="request.fullname"></core-format-text></h2>\n                <p *ngIf="!request.iscontact && !request.confirmedOrDeclined">{{ \'addon.messages.wouldliketocontactyou\' | translate }}</p>\n            </a>\n        </ion-list>\n        <core-empty-box *ngIf="!requests.length" icon="person" [message]="\'addon.messages.nocontactrequests\' | translate"></core-empty-box>\n        <core-infinite-loading [enabled]="canLoadMore" (action)="loadMore($event)" [error]="loadMoreError" position="bottom"></core-infinite-loading>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\messages\components\contact-requests\addon-messages-contact-requests.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */],
-            __WEBPACK_IMPORTED_MODULE_4__providers_messages__["a" /* AddonMessagesProvider */]])
-    ], AddonMessagesContactRequestsComponent);
-    return AddonMessagesContactRequestsComponent;
-}());
-
-//# sourceMappingURL=contact-requests.js.map
-
-/***/ }),
-
-/***/ 1976:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesContactsComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-<<<<<<< HEAD
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_messages__ = __webpack_require__(105);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_messages__ = __webpack_require__(89);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_app__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_events__ = __webpack_require__(12);
-// (C) Copyright 2015 Martin Dougiamas
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-/**
- * Component that displays the list of contacts.
- */
-var AddonMessagesContactsComponent = /** @class */ (function () {
-    function AddonMessagesContactsComponent(sitesProvider, translate, appProvider, messagesProvider, domUtils, navParams, eventsProvider) {
-<<<<<<< HEAD
-=======
-        var _this = this;
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-        this.appProvider = appProvider;
-        this.messagesProvider = messagesProvider;
-        this.domUtils = domUtils;
-        this.eventsProvider = eventsProvider;
-        this.noSearchTypes = ['online', 'offline', 'blocked', 'strangers'];
-        this.loaded = false;
-        this.contactTypes = this.noSearchTypes;
-        this.searchType = 'search';
-        this.loadingMessage = '';
-        this.hasContacts = false;
-        this.contacts = {
-            search: []
-        };
-        this.searchString = '';
-        this.currentUserId = sitesProvider.getCurrentSiteUserId();
-        this.siteId = sitesProvider.getCurrentSiteId();
-        this.searchingMessages = translate.instant('core.searching');
-        this.loadingMessages = translate.instant('core.loading');
-        this.loadingMessage = this.loadingMessages;
-        this.discussionUserId = navParams.get('discussionUserId') || false;
-<<<<<<< HEAD
-=======
-        // Refresh the list when a contact request is confirmed.
-        this.memberInfoObserver = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_4__providers_messages__["a" /* AddonMessagesProvider */].MEMBER_INFO_CHANGED_EVENT, function (data) {
-            if (data.contactRequestConfirmed) {
-                _this.refreshData();
-            }
-        }, sitesProvider.getCurrentSiteId());
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-    }
-    /**
-     * Component loaded.
-     */
-    AddonMessagesContactsComponent.prototype.ngOnInit = function () {
-        var _this = this;
-        if (this.discussionUserId) {
-            // There is a discussion to load, open the discussion in a new state.
-            this.gotoDiscussion(this.discussionUserId);
-        }
-        this.fetchData().then(function () {
-            if (!_this.discussionUserId && _this.hasContacts) {
-                var contact = void 0;
-                for (var x in _this.contacts) {
-                    if (_this.contacts[x].length > 0) {
-                        contact = _this.contacts[x][0];
-                        break;
-                    }
-                }
-                if (contact) {
-                    // Take first and load it.
-                    _this.gotoDiscussion(contact.id, true);
-                }
-            }
-        }).finally(function () {
-            _this.loaded = true;
-        });
-    };
-    /**
-     * Refresh the data.
-     *
-     * @param {any} [refresher] Refresher.
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonMessagesContactsComponent.prototype.refreshData = function (refresher) {
-        var _this = this;
-        var promise;
-        if (this.searchString) {
-            // User has searched, update the search.
-            promise = this.performSearch(this.searchString);
-        }
-        else {
-            // Update contacts.
-            promise = this.messagesProvider.invalidateAllContactsCache(this.currentUserId).then(function () {
-                return _this.fetchData();
-            });
-        }
-        return promise.finally(function () {
-            refresher.complete();
-        });
-    };
-    /**
-     * Fetch contacts.
-     *
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonMessagesContactsComponent.prototype.fetchData = function () {
-        var _this = this;
-        this.loadingMessage = this.loadingMessages;
-        return this.messagesProvider.getAllContacts().then(function (contacts) {
-            for (var x in contacts) {
-                if (contacts[x].length > 0) {
-                    _this.contacts[x] = _this.sortUsers(contacts[x]);
-                }
-                else {
-                    _this.contacts[x] = [];
-                }
-            }
-            _this.clearSearch();
-        }).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingcontacts', true);
-        });
-    };
-    /**
-     * Sort user list by fullname
-     * @param  {any[]} list List to sort.
-     * @return {any[]}      Sorted list.
-     */
-    AddonMessagesContactsComponent.prototype.sortUsers = function (list) {
-        return list.sort(function (a, b) {
-            var compareA = a.fullname.toLowerCase(), compareB = b.fullname.toLowerCase();
-            return compareA.localeCompare(compareB);
-        });
-    };
-    /**
-     * Clear search and show all contacts again.
-     */
-    AddonMessagesContactsComponent.prototype.clearSearch = function () {
-        this.searchString = ''; // Reset searched string.
-        this.contactTypes = this.noSearchTypes;
-        this.hasContacts = false;
-        for (var x in this.contacts) {
-            if (this.contacts[x].length > 0) {
-                this.hasContacts = true;
-                return;
-            }
-        }
-    };
-    /**
-     * Search users from the UI.
-     *
-     * @param  {string}       query Text to search for.
-     * @return {Promise<any>}       Resolved when done.
-     */
-    AddonMessagesContactsComponent.prototype.search = function (query) {
-        var _this = this;
-        this.appProvider.closeKeyboard();
-        this.loaded = false;
-        this.loadingMessage = this.searchingMessages;
-        return this.performSearch(query).finally(function () {
-            _this.loaded = true;
-        });
-    };
-    /**
-     * Perform the search of users.
-     *
-     * @param  {string}       query Text to search for.
-     * @return {Promise<any>}       Resolved when done.
-     */
-    AddonMessagesContactsComponent.prototype.performSearch = function (query) {
-        var _this = this;
-        return this.messagesProvider.searchContacts(query).then(function (result) {
-            _this.hasContacts = result.length > 0;
-            _this.searchString = query;
-            _this.contactTypes = ['search'];
-            _this.contacts['search'] = _this.sortUsers(result);
-        }).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingcontacts', true);
-        });
-    };
-    /**
-     * Navigate to a particular discussion.
-     *
-     * @param {number} discussionUserId Discussion Id to load.
-     * @param {boolean} [onlyWithSplitView=false]  Only go to Discussion if split view is on.
-     */
-    AddonMessagesContactsComponent.prototype.gotoDiscussion = function (discussionUserId, onlyWithSplitView) {
-        if (onlyWithSplitView === void 0) { onlyWithSplitView = false; }
-        this.discussionUserId = discussionUserId;
-        var params = {
-            discussion: discussionUserId,
-            onlyWithSplitView: onlyWithSplitView
-        };
-        this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_4__providers_messages__["a" /* AddonMessagesProvider */].SPLIT_VIEW_LOAD_EVENT, params, this.siteId);
-    };
-<<<<<<< HEAD
-    AddonMessagesContactsComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'addon-messages-contacts',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\messages\components\contacts\addon-messages-contacts.html"*/'<ion-content>\n\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshData($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n\n\n    <core-search-box (onSubmit)="search($event)" (onClear)="clearSearch($event)" [placeholder]=" \'addon.messages.contactname\' | translate" autocorrect="off" spellcheck="false" lengthCheck="2" [disabled]="!loaded"></core-search-box>\n\n\n\n    <core-loading [hideUntil]="loaded" [message]="loadingMessage">\n\n        <core-empty-box *ngIf="!hasContacts && searchString == \'\'" icon="person" [message]="\'addon.messages.contactlistempty\' | translate"></core-empty-box>\n\n\n\n        <core-empty-box *ngIf="!hasContacts && searchString != \'\'" icon="person" [message]="\'addon.messages.nousersfound\' | translate"></core-empty-box>\n\n\n\n        <ion-list *ngFor="let contactType of contactTypes" no-margin>\n\n            <ng-container *ngIf="contacts[contactType] && (contacts[contactType].length > 0 || contactType === searchType)">\n\n                <ion-item-divider color="light">\n\n                    <h2>{{ \'addon.messages.type_\' + contactType | translate }}</h2>\n\n                    <ion-note item-end>{{ contacts[contactType].length }}</ion-note>\n\n                </ion-item-divider>\n\n                <ng-container *ngFor="let contact of contacts[contactType]">\n\n                    <!-- Don\'t show deleted users -->\n\n                    <a ion-item text-wrap *ngIf="contact.profileimageurl || contact.profileimageurlsmall"  [title]="contact.fullname" (click)="gotoDiscussion(contact.id)" [class.core-split-item-selected]="contact.id == discussionUserId" detail-none>\n\n                        <ion-avatar item-start>\n\n                            <img src="{{contact.profileimageurl || contact.profileimageurlsmall}}" [alt]="\'core.pictureof\' | translate:{$a: contact.fullname}" core-external-content onError="this.src=\'assets/img/user-avatar.png\'">\n\n                        </ion-avatar>\n\n                        <h2><core-format-text [text]="contact.fullname"></core-format-text></h2>\n\n                    </a>\n\n                </ng-container>\n\n            </ng-container>\n\n        </ion-list>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\messages\components\contacts\addon-messages-contacts.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_6__providers_app__["a" /* CoreAppProvider */],
-            __WEBPACK_IMPORTED_MODULE_4__providers_messages__["a" /* AddonMessagesProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */],
-=======
-    /**
-     * Component destroyed.
-     */
-    AddonMessagesContactsComponent.prototype.ngOnDestroy = function () {
-        this.memberInfoObserver && this.memberInfoObserver.off();
-    };
-    AddonMessagesContactsComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'addon-messages-contacts',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\messages\components\contacts\addon-messages-contacts.html"*/'<ion-content>\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshData($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <core-search-box (onSubmit)="search($event)" (onClear)="clearSearch($event)" [placeholder]=" \'addon.messages.contactname\' | translate" autocorrect="off" spellcheck="false" lengthCheck="2" [disabled]="!loaded"></core-search-box>\n\n    <core-loading [hideUntil]="loaded" [message]="loadingMessage">\n        <core-empty-box *ngIf="!hasContacts && searchString == \'\'" icon="person" [message]="\'addon.messages.contactlistempty\' | translate"></core-empty-box>\n\n        <core-empty-box *ngIf="!hasContacts && searchString != \'\'" icon="person" [message]="\'addon.messages.nousersfound\' | translate"></core-empty-box>\n\n        <ion-list *ngFor="let contactType of contactTypes" no-margin>\n            <ng-container *ngIf="contacts[contactType] && (contacts[contactType].length > 0 || contactType === searchType)">\n                <ion-item-divider>\n                    <h2>{{ \'addon.messages.type_\' + contactType | translate }}</h2>\n                    <ion-note item-end>{{ contacts[contactType].length }}</ion-note>\n                </ion-item-divider>\n                <ng-container *ngFor="let contact of contacts[contactType]">\n                    <!-- Don\'t show deleted users -->\n                    <a ion-item text-wrap *ngIf="contact.profileimageurl || contact.profileimageurlsmall"  [title]="contact.fullname" (click)="gotoDiscussion(contact.id)" [class.core-split-item-selected]="contact.id == discussionUserId" class="addon-messages-conversation-item">\n                        <ion-avatar core-user-avatar [user]="contact" item-start [checkOnline]="contact.showonlinestatus"></ion-avatar>\n                        <h2><core-format-text [text]="contact.fullname"></core-format-text></h2>\n                    </a>\n                </ng-container>\n            </ng-container>\n        </ion-list>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\messages\components\contacts\addon-messages-contacts.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_6__providers_app__["a" /* CoreAppProvider */],
-            __WEBPACK_IMPORTED_MODULE_4__providers_messages__["a" /* AddonMessagesProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */],
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-            __WEBPACK_IMPORTED_MODULE_7__providers_events__["a" /* CoreEventsProvider */]])
-    ], AddonMessagesContactsComponent);
-    return AddonMessagesContactsComponent;
-}());
-
-//# sourceMappingURL=contacts.js.map
-
-/***/ }),
-
-<<<<<<< HEAD
-/***/ 1925:
-=======
-/***/ 1997:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesSettingsPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-<<<<<<< HEAD
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_messages__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core_user_providers_user__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(8);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_messages__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core_user_providers_user__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_sites__ = __webpack_require__(2);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-// (C) Copyright 2015 Martin Dougiamas
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-/**
- * Page that displays the messages settings page.
- */
-var AddonMessagesSettingsPage = /** @class */ (function () {
-<<<<<<< HEAD
-    function AddonMessagesSettingsPage(messagesProvider, domUtils, userProvider) {
-        this.messagesProvider = messagesProvider;
-        this.domUtils = domUtils;
-        this.userProvider = userProvider;
-        this.blockNonContactsState = false;
-=======
-    function AddonMessagesSettingsPage(messagesProvider, domUtils, userProvider, sitesProvider) {
-        this.messagesProvider = messagesProvider;
-        this.domUtils = domUtils;
-        this.userProvider = userProvider;
-        this.advancedContactable = false; // Whether the site supports "advanced" contactable privacy.
-        this.allowSiteMessaging = false;
-        this.onlyContactsValue = __WEBPACK_IMPORTED_MODULE_1__providers_messages__["a" /* AddonMessagesProvider */].MESSAGE_PRIVACY_ONLYCONTACTS;
-        this.courseMemberValue = __WEBPACK_IMPORTED_MODULE_1__providers_messages__["a" /* AddonMessagesProvider */].MESSAGE_PRIVACY_COURSEMEMBER;
-        this.siteValue = __WEBPACK_IMPORTED_MODULE_1__providers_messages__["a" /* AddonMessagesProvider */].MESSAGE_PRIVACY_SITE;
-        var currentSite = sitesProvider.getCurrentSite();
-        this.advancedContactable = currentSite && currentSite.isVersionGreaterEqualThan('3.6');
-        this.allowSiteMessaging = currentSite && currentSite.canUseAdvancedFeature('messagingallusers');
-        this.groupMessagingEnabled = this.messagesProvider.isGroupMessagingEnabled();
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-    }
-    /**
-     * Runs when the page has loaded. This event only happens once per page being created.
-     * If a page leaves but is cached, then this event will not fire again on a subsequent viewing.
-     * Setup code for the page.
-     */
-    AddonMessagesSettingsPage.prototype.ionViewDidLoad = function () {
-        this.fetchPreferences();
-    };
-    /**
-     * Fetches preference data.
-     *
-     * @return {Promise<any>} Resolved when done.
-     */
-    AddonMessagesSettingsPage.prototype.fetchPreferences = function () {
-        var _this = this;
-        return this.messagesProvider.getMessagePreferences().then(function (preferences) {
-<<<<<<< HEAD
-            _this.preferences = preferences;
-            _this.blockNonContactsState = preferences.blocknoncontacts;
-=======
-            if (_this.groupMessagingEnabled) {
-                // Simplify the preferences.
-                for (var _i = 0, _a = preferences.components; _i < _a.length; _i++) {
-                    var component = _a[_i];
-                    // Only display get the notification preferences.
-                    component.notifications = component.notifications.filter(function (notification) {
-                        return notification.preferencekey == __WEBPACK_IMPORTED_MODULE_1__providers_messages__["a" /* AddonMessagesProvider */].NOTIFICATION_PREFERENCES_KEY;
-                    });
-                    for (var _b = 0, _c = component.notifications; _b < _c.length; _b++) {
-                        var notification = _c[_b];
-                        for (var _d = 0, _e = notification.processors; _d < _e.length; _d++) {
-                            var processor = _e[_d];
-                            processor.checked = processor.loggedin.checked || processor.loggedoff.checked;
-                        }
-                    }
-                }
-            }
-            _this.preferences = preferences;
-            _this.contactablePrivacy = preferences.blocknoncontacts;
-            _this.previousContactableValue = _this.contactablePrivacy;
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-        }).catch(function (message) {
-            _this.domUtils.showErrorModal(message);
-        }).finally(function () {
-            _this.preferencesLoaded = true;
-        });
-    };
-    /**
-     * Update preferences. The purpose is to store the updated data, it won't be reflected in the view.
-     */
-    AddonMessagesSettingsPage.prototype.updatePreferences = function () {
-        var _this = this;
-        this.messagesProvider.invalidateMessagePreferences().finally(function () {
-            _this.fetchPreferences();
-        });
-    };
-    /**
-     * Update preferences after a certain time. The purpose is to store the updated data, it won't be reflected in the view.
-     */
-    AddonMessagesSettingsPage.prototype.updatePreferencesAfterDelay = function () {
-        var _this = this;
-        // Cancel pending updates.
-        clearTimeout(this.updateTimeout);
-        this.updateTimeout = setTimeout(function () {
-            _this.updateTimeout = null;
-            _this.updatePreferences();
-        }, 5000);
-    };
-    /**
-<<<<<<< HEAD
-     * Block non contacts.
-     *
-     * @param {boolean} block If it should be blocked or not.
-     */
-    AddonMessagesSettingsPage.prototype.blockNonContacts = function (block) {
-        var _this = this;
-        var modal = this.domUtils.showModalLoading('core.sending', true);
-        this.userProvider.updateUserPreference('message_blocknoncontacts', block ? 1 : 0).then(function () {
-            // Update the preferences since they were modified.
-            _this.updatePreferencesAfterDelay();
-        }).catch(function (message) {
-            // Show error and revert change.
-            _this.domUtils.showErrorModal(message);
-            _this.blockNonContactsState = !_this.blockNonContactsState;
-=======
-     * Save the contactable privacy setting..
-     *
-     * @param {number|boolean} value The value to set.
-     */
-    AddonMessagesSettingsPage.prototype.saveContactablePrivacy = function (value) {
-        var _this = this;
-        if (this.contactablePrivacy == this.previousContactableValue) {
-            // Value hasn't changed from previous, it probably means that we just fetched the value from the server.
+        if (!this.block) {
+            this.loaded = true;
             return;
         }
-        var modal = this.domUtils.showModalLoading('core.sending', true);
-        if (!this.advancedContactable) {
-            // Convert from boolean to number.
-            value = value ? 1 : 0;
-        }
-        this.userProvider.updateUserPreference('message_blocknoncontacts', value).then(function () {
-            // Update the preferences since they were modified.
-            _this.updatePreferencesAfterDelay();
-            _this.previousContactableValue = _this.contactablePrivacy;
-        }).catch(function (message) {
-            // Show error and revert change.
-            _this.domUtils.showErrorModal(message);
-            _this.contactablePrivacy = _this.previousContactableValue;
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+        // Get the data to render the block.
+        this.blockDelegate.getBlockDisplayData(this.injector, this.block, this.contextLevel, this.instanceId).then(function (data) {
+            if (!data) {
+                // Block not supported, don't render it.
+                return;
+            }
+            _this.title = data.title;
+            _this.class = data.class;
+            _this.componentClass = data.component;
+            // Set up the data needed by the block component.
+            _this.data = Object.assign({
+                block: _this.block,
+                contextLevel: _this.contextLevel,
+                instanceId: _this.instanceId,
+            }, _this.extraData || {}, data.componentData || {});
+        }).catch(function () {
+            // Ignore errors.
         }).finally(function () {
-            modal.dismiss();
+            _this.loaded = true;
         });
     };
     /**
-     * Change the value of a certain preference.
+     * Refresh the data.
      *
-     * @param {any}    notification Notification object.
-     * @param {string} state        State name, ['loggedin', 'loggedoff'].
-     * @param {any}    processor    Notification processor.
+     * @param {any} [refresher] Refresher. Please pass this only if the refresher should finish when this function finishes.
+     * @param {Function} [done] Function to call when done.
+     * @param {boolean} [showErrors=false] If show errors to the user of hide them.
+     * @return {Promise<any>} Promise resolved when done.
      */
-    AddonMessagesSettingsPage.prototype.changePreference = function (notification, state, processor) {
-        var _this = this;
-<<<<<<< HEAD
-        var processorState = processor[state], preferenceName = notification.preferencekey + '_' + processorState.name, valueArray = [];
-        var value = 'none';
-        notification.processors.forEach(function (processor) {
-            if (processor[state].checked) {
-                valueArray.push(processor.name);
-            }
-        });
-        if (value.length > 0) {
-            value = valueArray.join(',');
+    CoreBlockComponent.prototype.doRefresh = function (refresher, done, showErrors) {
+        if (showErrors === void 0) { showErrors = false; }
+        if (this.dynamicComponent) {
+            return Promise.resolve(this.dynamicComponent.callComponentFunction('doRefresh', [refresher, done, showErrors]));
         }
-        if (!notification.updating) {
-            notification.updating = {};
-        }
-        notification.updating[state] = true;
-        this.userProvider.updateUserPreference(preferenceName, value).then(function () {
-            // Update the preferences since they were modified.
-            _this.updatePreferencesAfterDelay();
-        }).catch(function (message) {
-            // Show error and revert change.
-            _this.domUtils.showErrorModal(message);
-            processorState.checked = !processorState.checked;
-        }).finally(function () {
-            notification.updating[state] = false;
-        });
-=======
-        if (this.groupMessagingEnabled) {
-            // Update both states at the same time.
-            var valueArray_1 = [], promises = [];
-            var value = 'none';
-            notification.processors.forEach(function (processor) {
-                if (processor.checked) {
-                    valueArray_1.push(processor.name);
-                }
-            });
-            if (value.length > 0) {
-                value = valueArray_1.join(',');
-            }
-            notification.updating = true;
-            promises.push(this.userProvider.updateUserPreference(notification.preferencekey + '_loggedin', value));
-            promises.push(this.userProvider.updateUserPreference(notification.preferencekey + '_loggedoff', value));
-            Promise.all(promises).then(function () {
-                // Update the preferences since they were modified.
-                _this.updatePreferencesAfterDelay();
-            }).catch(function (error) {
-                // Show error and revert change.
-                _this.domUtils.showErrorModal(error);
-                processor.checked = !processor.checked;
-            }).finally(function () {
-                notification.updating = false;
-            });
-        }
-        else {
-            // Update only the specified state.
-            var processorState_1 = processor[state], preferenceName = notification.preferencekey + '_' + processorState_1.name, valueArray_2 = [];
-            var value = 'none';
-            notification.processors.forEach(function (processor) {
-                if (processor[state].checked) {
-                    valueArray_2.push(processor.name);
-                }
-            });
-            if (value.length > 0) {
-                value = valueArray_2.join(',');
-            }
-            if (!notification.updating) {
-                notification.updating = {};
-            }
-            notification.updating[state] = true;
-            this.userProvider.updateUserPreference(preferenceName, value).then(function () {
-                // Update the preferences since they were modified.
-                _this.updatePreferencesAfterDelay();
-            }).catch(function (message) {
-                // Show error and revert change.
-                _this.domUtils.showErrorModal(message);
-                processorState_1.checked = !processorState_1.checked;
-            }).finally(function () {
-                notification.updating[state] = false;
-            });
-        }
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+        return Promise.resolve();
     };
     /**
-     * Refresh the list of preferences.
+     * Invalidate some data.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    CoreBlockComponent.prototype.invalidate = function () {
+        if (this.dynamicComponent) {
+            return Promise.resolve(this.dynamicComponent.callComponentFunction('invalidateContent'));
+        }
+        return Promise.resolve();
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_dynamic_component_dynamic_component__["a" /* CoreDynamicComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_dynamic_component_dynamic_component__["a" /* CoreDynamicComponent */])
+    ], CoreBlockComponent.prototype, "dynamicComponent", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
+        __metadata("design:type", Object)
+    ], CoreBlockComponent.prototype, "block", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
+        __metadata("design:type", String)
+    ], CoreBlockComponent.prototype, "contextLevel", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
+        __metadata("design:type", Number)
+    ], CoreBlockComponent.prototype, "instanceId", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
+        __metadata("design:type", Object)
+    ], CoreBlockComponent.prototype, "extraData", void 0);
+    CoreBlockComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'core-block',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\block\components\block\core-block.html"*/'<!-- Only render the block if it\'s supported. -->\n\n<div *ngIf="loaded && componentClass" class="{{class}}">\n\n    <core-dynamic-component [component]="componentClass" [data]="data"></core-dynamic-component>\n\n</div>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\block\components\block\core-block.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_core__["C" /* Injector */], __WEBPACK_IMPORTED_MODULE_1__providers_delegate__["a" /* CoreBlockDelegate */]])
+    ], CoreBlockComponent);
+    return CoreBlockComponent;
+}());
+
+//# sourceMappingURL=block.js.map
+
+/***/ }),
+
+/***/ 2006:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreCoursesDashboardPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_tabs_tabs__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_block_providers_delegate__ = __webpack_require__(1909);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__core_block_components_block_block__ = __webpack_require__(1910);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__core_sitehome_providers_sitehome__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__core_sitehome_components_index_index__ = __webpack_require__(927);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_courses__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_dashboard__ = __webpack_require__(2009);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page that displays the dashboard.
+ */
+var CoreCoursesDashboardPage = /** @class */ (function () {
+    function CoreCoursesDashboardPage(navCtrl, coursesProvider, sitesProvider, siteHomeProvider, eventsProvider, dashboardProvider, domUtils, blockDelegate) {
+        this.navCtrl = navCtrl;
+        this.coursesProvider = coursesProvider;
+        this.sitesProvider = sitesProvider;
+        this.siteHomeProvider = siteHomeProvider;
+        this.eventsProvider = eventsProvider;
+        this.dashboardProvider = dashboardProvider;
+        this.domUtils = domUtils;
+        this.blockDelegate = blockDelegate;
+        this.siteHomeEnabled = false;
+        this.tabsReady = false;
+        this.tabs = [];
+        this.dashboardEnabled = false;
+        this.dashboardLoaded = false;
+        this.downloadEnabledIcon = 'square-outline'; // Disabled by default.
+        this.loadSiteName();
+    }
+    /**
+     * View loaded.
+     */
+    CoreCoursesDashboardPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        this.searchEnabled = !this.coursesProvider.isSearchCoursesDisabledInSite();
+        this.downloadCourseEnabled = !this.coursesProvider.isDownloadCourseDisabledInSite();
+        this.downloadCoursesEnabled = !this.coursesProvider.isDownloadCoursesDisabledInSite();
+        // Refresh the enabled flags if site is updated.
+        this.updateSiteObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_2__providers_events__["a" /* CoreEventsProvider */].SITE_UPDATED, function () {
+            _this.searchEnabled = !_this.coursesProvider.isSearchCoursesDisabledInSite();
+            _this.downloadCourseEnabled = !_this.coursesProvider.isDownloadCourseDisabledInSite();
+            _this.downloadCoursesEnabled = !_this.coursesProvider.isDownloadCoursesDisabledInSite();
+            _this.switchDownload(_this.downloadEnabled);
+            _this.loadSiteName();
+        }, this.sitesProvider.getCurrentSiteId());
+        var promises = [];
+        promises.push(this.siteHomeProvider.isAvailable().then(function (enabled) {
+            _this.siteHomeEnabled = enabled;
+        }));
+        promises.push(this.loadDashboardContent());
+        // Decide which tab to load first.
+        Promise.all(promises).finally(function () {
+            if (_this.siteHomeEnabled && _this.dashboardEnabled) {
+                var site = _this.sitesProvider.getCurrentSite(), displaySiteHome = site.getInfo() && site.getInfo().userhomepage === 0;
+                _this.firstSelectedTab = displaySiteHome ? 0 : 1;
+            }
+            else {
+                _this.firstSelectedTab = 0;
+            }
+            _this.tabsReady = true;
+        });
+    };
+    /**
+     * User entered the page.
+     */
+    CoreCoursesDashboardPage.prototype.ionViewDidEnter = function () {
+        this.tabsComponent && this.tabsComponent.ionViewDidEnter();
+    };
+    /**
+     * User left the page.
+     */
+    CoreCoursesDashboardPage.prototype.ionViewDidLeave = function () {
+        this.tabsComponent && this.tabsComponent.ionViewDidLeave();
+    };
+    /**
+     * Go to search courses.
+     */
+    CoreCoursesDashboardPage.prototype.openSearch = function () {
+        this.navCtrl.push('CoreCoursesSearchPage');
+    };
+    /**
+     * Load the site name.
+     */
+    CoreCoursesDashboardPage.prototype.loadSiteName = function () {
+        this.siteName = this.sitesProvider.getCurrentSite().getInfo().sitename;
+    };
+    /**
+     * Convenience function to fetch the dashboard data.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    CoreCoursesDashboardPage.prototype.loadDashboardContent = function () {
+        var _this = this;
+        return this.dashboardProvider.isAvailable().then(function (enabled) {
+            if (enabled) {
+                _this.userId = _this.sitesProvider.getCurrentSiteUserId();
+                return _this.dashboardProvider.getDashboardBlocks().then(function (blocks) {
+                    _this.blocks = blocks;
+                }).catch(function (error) {
+                    _this.domUtils.showErrorModal(error);
+                    // Cannot get the blocks, just show dashboard if needed.
+                    _this.loadFallbackBlocks();
+                });
+            }
+            // Not enabled, check separated tabs.
+            _this.loadFallbackBlocks();
+        }).finally(function () {
+            _this.dashboardEnabled = _this.blockDelegate.hasSupportedBlock(_this.blocks);
+            _this.dashboardLoaded = true;
+        });
+    };
+    /**
+     * Refresh the dashboard data.
      *
      * @param {any} refresher Refresher.
      */
-<<<<<<< HEAD
-    AddonMessagesSettingsPage.prototype.refreshEvent = function (refresher) {
-=======
-    AddonMessagesSettingsPage.prototype.refreshPreferences = function (refresher) {
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+    CoreCoursesDashboardPage.prototype.refreshDashboard = function (refresher) {
         var _this = this;
-        this.messagesProvider.invalidateMessagePreferences().finally(function () {
-            _this.fetchPreferences().finally(function () {
+        var promises = [];
+        promises.push(this.dashboardProvider.invalidateDashboardBlocks());
+        // Invalidate the blocks.
+        this.blocksComponents.forEach(function (blockComponent) {
+            promises.push(blockComponent.invalidate().catch(function () {
+                // Ignore errors.
+            }));
+        });
+        Promise.all(promises).finally(function () {
+            _this.loadDashboardContent().finally(function () {
                 refresher.complete();
             });
         });
     };
     /**
-     * Page destroyed.
+     * Toggle download enabled.
      */
-    AddonMessagesSettingsPage.prototype.ngOnDestroy = function () {
-        // If there is a pending action to update preferences, execute it right now.
-        if (this.updateTimeout) {
-            clearTimeout(this.updateTimeout);
-            this.updatePreferences();
-        }
+    CoreCoursesDashboardPage.prototype.toggleDownload = function () {
+        this.switchDownload(!this.downloadEnabled);
     };
-    AddonMessagesSettingsPage = __decorate([
+    /**
+     * Convenience function to switch download enabled.
+     *
+     * @param {boolean} enable If enable or disable.
+     */
+    CoreCoursesDashboardPage.prototype.switchDownload = function (enable) {
+        this.downloadEnabled = (this.downloadCourseEnabled || this.downloadCoursesEnabled) && enable;
+        this.downloadEnabledIcon = this.downloadEnabled ? 'checkbox-outline' : 'square-outline';
+        this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_10__providers_courses__["a" /* CoreCoursesProvider */].EVENT_DASHBOARD_DOWNLOAD_ENABLED_CHANGED, { enabled: this.downloadEnabled });
+    };
+    /**
+     * Load fallback blocks to shown before 3.6 when dashboard blocks are not supported.
+     */
+    CoreCoursesDashboardPage.prototype.loadFallbackBlocks = function () {
+        this.blocks = [
+            {
+                name: 'myoverview'
+            },
+            {
+                name: 'timeline'
+            }
+        ];
+    };
+    /**
+     * Component being destroyed.
+     */
+    CoreCoursesDashboardPage.prototype.ngOnDestroy = function () {
+        this.isDestroyed = true;
+        this.updateSiteObserver && this.updateSiteObserver.off();
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_5__components_tabs_tabs__["a" /* CoreTabsComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_5__components_tabs_tabs__["a" /* CoreTabsComponent */])
+    ], CoreCoursesDashboardPage.prototype, "tabsComponent", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_9__core_sitehome_components_index_index__["a" /* CoreSiteHomeIndexComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_9__core_sitehome_components_index_index__["a" /* CoreSiteHomeIndexComponent */])
+    ], CoreCoursesDashboardPage.prototype, "siteHomeComponent", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* ViewChildren */])(__WEBPACK_IMPORTED_MODULE_7__core_block_components_block_block__["a" /* CoreBlockComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["T" /* QueryList */])
+    ], CoreCoursesDashboardPage.prototype, "blocksComponents", void 0);
+    CoreCoursesDashboardPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-<<<<<<< HEAD
-            selector: 'page-addon-messages-settings',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\messages\pages\settings\settings.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.messages.messagepreferences\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="preferencesLoaded" (ionRefresh)="refreshPreferences($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-loading [hideUntil]="preferencesLoaded">\n\n        <!-- Block non contacts. -->\n\n        <ion-card>\n\n            <ion-item>\n\n              <ion-label>{{ \'addon.messages.blocknoncontacts\' | translate }}</ion-label>\n\n              <ion-toggle [(ngModel)]="blockNonContactsState" (ionChange)="blockNonContacts(blockNonContactsState)"></ion-toggle>\n\n            </ion-item>\n\n        </ion-card>\n\n\n\n        <ng-container *ngIf="preferences">\n\n            <div *ngFor="let component of preferences.components">\n\n                <ion-card list *ngFor="let notification of component.notifications">\n\n                    <ion-item-divider color="light" text-wrap>\n\n                        <ion-row no-padding>\n\n                            <ion-col no-padding>{{ notification.displayname }}</ion-col>\n\n                            <ion-col col-2 text-center no-padding class="hidden-phone">{{ \'core.settings.loggedin\' | translate }}</ion-col>\n\n                            <ion-col col-2 text-center no-padding class="hidden-phone">{{ \'core.settings.loggedoff\' | translate }}</ion-col>\n\n                        </ion-row>\n\n                    </ion-item-divider>\n\n                    <ng-container *ngFor="let processor of notification.processors">\n\n                        <!-- Tablet view -->\n\n                        <ion-row text-wrap class="hidden-phone" align-items-center>\n\n                            <ion-col margin-horizontal>{{ processor.displayname }}</ion-col>\n\n                            <ion-col col-2 text-center *ngFor="let state of [\'loggedin\', \'loggedoff\']">\n\n                                <!-- If notifications not disabled, show toggle. -->\n\n                                <ion-spinner [hidden]="preferences.disableall || !(notification.updating && notification.updating[state])"></ion-spinner>\n\n                                <ion-toggle *ngIf="!preferences.disableall" [(ngModel)]="processor[state].checked" (ionChange)="changePreference(notification, state, processor)" [disabled]="processor.locked || (notification.updating && notification.updating[state])">\n\n                                </ion-toggle>\n\n                                <!-- If notifications are disabled, show "Disabled" instead of toggle. -->\n\n                                <span *ngIf="preferences.disableall">{{ \'core.settings.disabled\' | translate }}</span>\n\n                            </ion-col>\n\n                        </ion-row>\n\n                        <!-- Phone view -->\n\n                        <ion-list-header text-wrap class="hidden-tablet">{{ processor.displayname }}</ion-list-header>\n\n                        <!-- If notifications not disabled, show toggles. If notifications are disabled, show "Disabled" instead of toggle. -->\n\n                        <ion-item *ngFor="let state of [\'loggedin\', \'loggedoff\']" text-wrap class="hidden-tablet">\n\n                            <ion-label>{{ \'core.settings.\' + state | translate }}</ion-label>\n\n                            <ion-spinner item-end *ngIf="!preferences.disableall && (notification.updating && notification.updating[state])"></ion-spinner>\n\n                            <ion-toggle item-end *ngIf="!preferences.disableall" [(ngModel)]="processor[state].checked" (ionChange)="changePreference(notification, state, processor)" [disabled]="processor.locked || (notification.updating && notification.updating[state])">\n\n                            </ion-toggle>\n\n                            <ion-note item-end *ngIf="preferences.disableall">{{ \'core.settings.disabled\' | translate }}</ion-note>\n\n                        </ion-item>\n\n                    </ng-container>\n\n                </ion-card>\n\n            </div>\n\n        </ng-container>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\messages\pages\settings\settings.html"*/,
+            selector: 'page-core-courses-dashboard',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\courses\pages\dashboard\dashboard.html"*/'    <ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="siteName"></core-format-text></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button *ngIf="searchEnabled" ion-button icon-only (click)="openSearch()" [attr.aria-label]="\'core.courses.searchcourses\' | translate">\n\n                <ion-icon name="search"></ion-icon>\n\n            </button>\n\n            <core-context-menu>\n\n                <core-context-menu-item *ngIf="downloadCourseEnabled || downloadCoursesEnabled" [priority]="1000" [content]="\'core.settings.showdownloadoptions\' | translate" (action)="toggleDownload()" [iconAction]="downloadEnabledIcon"></core-context-menu-item>\n\n            </core-context-menu>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <core-tabs [selectedIndex]="firstSelectedTab" [hideUntil]="tabsReady">\n\n        <!-- Site home tab. -->\n\n        <core-tab [show]="siteHomeEnabled" [title]="\'core.sitehome.sitehome\' | translate">\n\n            <ng-template>\n\n                <ion-content>\n\n                    <ion-refresher [enabled]="!!siteHomeComponent && siteHomeComponent.dataLoaded" (ionRefresh)="siteHomeComponent.doRefresh($event)">\n\n                        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n                    </ion-refresher>\n\n                    <core-sitehome-index></core-sitehome-index>\n\n                </ion-content>\n\n            </ng-template>\n\n        </core-tab>\n\n\n\n        <!-- Dashboard tab. -->\n\n        <core-tab [show]="dashboardEnabled" [title]="\'core.courses.mymoodle\' | translate">\n\n            <ng-template>\n\n                <ion-content>\n\n                    <ion-refresher [enabled]="dashboardLoaded" (ionRefresh)="refreshDashboard($event)">\n\n                        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n                    </ion-refresher>\n\n                    <core-loading [hideUntil]="dashboardLoaded" class="core-loading-center">\n\n                        <ion-list>\n\n                            <!-- Dashboard blocks. -->\n\n                            <ng-container *ngFor="let block of blocks">\n\n                                <core-block [block]="block" contextLevel="user" [instanceId]="userId" [extraData]="{\'downloadEnabled\': downloadEnabled}"></core-block>\n\n                            </ng-container>\n\n                        </ion-list>\n\n\n\n                        <core-empty-box *ngIf="blocks.length == 0" icon="qr-scanner" [message]="\'core.course.nocontentavailable\' | translate"></core-empty-box>\n\n                    </core-loading>\n\n                </ion-content>\n\n            </ng-template>\n\n        </core-tab>\n\n    </core-tabs>\n\n</ion-content>'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\courses\pages\dashboard\dashboard.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__providers_messages__["a" /* AddonMessagesProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
-            __WEBPACK_IMPORTED_MODULE_2__core_user_providers_user__["a" /* CoreUserProvider */]])
-=======
-            selector: 'page-addon-messages-settings',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\messages\pages\settings\settings.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.messages.messagepreferences\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="preferencesLoaded" (ionRefresh)="refreshPreferences($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="preferencesLoaded">\n        <!-- Contactable privacy. -->\n        <ion-card>\n            <ion-item *ngIf="!advancedContactable">\n              <ion-label>{{ \'addon.messages.blocknoncontacts\' | translate }}</ion-label>\n              <ion-toggle [(ngModel)]="contactablePrivacy" (ionChange)="saveContactablePrivacy(contactablePrivacy)"></ion-toggle>\n            </ion-item>\n\n            <ion-list *ngIf="advancedContactable" text-wrap radio-group [(ngModel)]="contactablePrivacy" (ionChange)="saveContactablePrivacy(contactablePrivacy)">\n                <ion-item-divider>{{ \'addon.messages.contactableprivacy\' | translate }}</ion-item-divider>\n                <ion-item>\n                    <ion-label>{{ \'addon.messages.contactableprivacy_onlycontacts\' | translate }}</ion-label>\n                    <ion-radio [value]="onlyContactsValue"></ion-radio>\n                </ion-item>\n                <ion-item>\n                    <ion-label>{{ \'addon.messages.contactableprivacy_coursemember\' | translate }}</ion-label>\n                    <ion-radio [value]="courseMemberValue"></ion-radio>\n                </ion-item>\n                <ion-item *ngIf="allowSiteMessaging">\n                    <ion-label>{{ \'addon.messages.contactableprivacy_site\' | translate }}</ion-label>\n                    <ion-radio [value]="siteValue"></ion-radio>\n                </ion-item>\n            </ion-list>\n        </ion-card>\n\n        <ng-container *ngIf="preferences">\n            <div *ngFor="let component of preferences.components">\n                <ion-card list *ngFor="let notification of component.notifications">\n                    <ion-item-divider text-wrap>\n                        <ion-row no-padding>\n                            <ng-container *ngIf="!groupMessagingEnabled">\n                                <ion-col no-padding>{{ notification.displayname }}</ion-col>\n                                <ion-col col-2 text-center no-padding class="hidden-phone">{{ \'core.settings.loggedin\' | translate }}</ion-col>\n                                <ion-col *ngIf="!groupMessagingEnabled" col-2 text-center no-padding class="hidden-phone">{{ \'core.settings.loggedoff\' | translate }}</ion-col>\n                            </ng-container>\n                            <ng-container *ngIf="groupMessagingEnabled">\n                                <ion-col no-padding>{{ \'addon.notifications.notificationpreferences\' | translate }}</ion-col>\n                            </ng-container>\n                        </ion-row>\n                    </ion-item-divider>\n                    <ng-container *ngFor="let processor of notification.processors">\n                        <!-- If group messaging is enabled, display a simplified view. -->\n                        <ng-container *ngIf="groupMessagingEnabled">\n                            <ion-item text-wrap>\n                                <ion-label>{{ processor.displayname }}</ion-label>\n                                <ion-spinner item-end *ngIf="!preferences.disableall && notification.updating"></ion-spinner>\n                                <ion-toggle item-end *ngIf="!preferences.disableall && !processor.locked" [(ngModel)]="processor.checked" (ionChange)="changePreference(notification, \'\', processor)" [disabled]="notification.updating">\n                                </ion-toggle>\n                                <ion-note item-end *ngIf="!preferences.disableall && processor.locked">{{ processor.lockedmessage }}</ion-note>\n                                <ion-note item-end *ngIf="preferences.disableall">{{ \'core.settings.disabled\' | translate }}</ion-note>\n                            </ion-item>\n                        </ng-container>\n\n                        <ng-container *ngIf="!groupMessagingEnabled">\n                            <!-- Tablet view -->\n                            <ion-row text-wrap class="hidden-phone" align-items-center>\n                                <ion-col margin-horizontal>{{ processor.displayname }}</ion-col>\n                                <ion-col col-2 text-center *ngFor="let state of [\'loggedin\', \'loggedoff\']">\n                                    <!-- If notifications not disabled, show toggle. -->\n                                    <ion-spinner [hidden]="preferences.disableall || !(notification.updating && notification.updating[state])"></ion-spinner>\n                                    <ion-toggle *ngIf="!preferences.disableall && !processor.locked" [(ngModel)]="processor[state].checked" (ionChange)="changePreference(notification, state, processor)" [disabled]="notification.updating && notification.updating[state]">\n                                    </ion-toggle>\n                                    <div padding class="text-gray" *ngIf="!preferences.disableall && processor.locked">{{\'core.settings.locked\' | translate }}</div>\n                                    <!-- If notifications are disabled, show "Disabled" instead of toggle. -->\n                                    <span *ngIf="preferences.disableall">{{ \'core.settings.disabled\' | translate }}</span>\n                                </ion-col>\n                            </ion-row>\n                            <!-- Phone view -->\n                            <ion-list-header text-wrap class="hidden-tablet">{{ processor.displayname }}</ion-list-header>\n                            <!-- If notifications not disabled, show toggles. If notifications are disabled, show "Disabled" instead of toggle. -->\n                            <ion-item *ngFor="let state of [\'loggedin\', \'loggedoff\']" text-wrap class="hidden-tablet">\n                                <ion-label>{{ \'core.settings.\' + state | translate }}</ion-label>\n                                <ion-spinner item-end *ngIf="!preferences.disableall && (notification.updating && notification.updating[state])"></ion-spinner>\n                                <ion-toggle item-end *ngIf="!preferences.disableall && !processor.locked" [(ngModel)]="processor[state].checked" (ionChange)="changePreference(notification, state, processor)" [disabled]="notification.updating && notification.updating[state]">\n                                </ion-toggle>\n                                <ion-note item-end *ngIf="!preferences.disableall && processor.locked">{{\'core.settings.locked\' | translate }}</ion-note>\n                                <ion-note item-end *ngIf="preferences.disableall">{{ \'core.settings.disabled\' | translate }}</ion-note>\n                            </ion-item>\n                        </ng-container>\n                    </ng-container>\n                </ion-card>\n            </div>\n        </ng-container>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\messages\pages\settings\settings.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__providers_messages__["a" /* AddonMessagesProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
-            __WEBPACK_IMPORTED_MODULE_2__core_user_providers_user__["a" /* CoreUserProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_sites__["a" /* CoreSitesProvider */]])
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-    ], AddonMessagesSettingsPage);
-    return AddonMessagesSettingsPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_10__providers_courses__["a" /* CoreCoursesProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_8__core_sitehome_providers_sitehome__["a" /* CoreSiteHomeProvider */],
+            __WEBPACK_IMPORTED_MODULE_2__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_11__providers_dashboard__["a" /* CoreCoursesDashboardProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_6__core_block_providers_delegate__["a" /* CoreBlockDelegate */]])
+    ], CoreCoursesDashboardPage);
+    return CoreCoursesDashboardPage;
 }());
 
-//# sourceMappingURL=settings.js.map
+//# sourceMappingURL=dashboard.js.map
+
+/***/ }),
+
+/***/ 2007:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreBlockDefaultHandler; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__classes_base_block_handler__ = __webpack_require__(2008);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Default handler used when a block type doesn't have a specific implementation.
+ */
+var CoreBlockDefaultHandler = /** @class */ (function (_super) {
+    __extends(CoreBlockDefaultHandler, _super);
+    function CoreBlockDefaultHandler() {
+        var _this = _super.call(this) || this;
+        _this.name = 'CoreBlockDefault';
+        _this.blockName = 'default';
+        return _this;
+    }
+    CoreBlockDefaultHandler = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [])
+    ], CoreBlockDefaultHandler);
+    return CoreBlockDefaultHandler;
+}(__WEBPACK_IMPORTED_MODULE_1__classes_base_block_handler__["a" /* CoreBlockBaseHandler */]));
+
+//# sourceMappingURL=default-block-handler.js.map
+
+/***/ }),
+
+/***/ 2008:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreBlockBaseHandler; });
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+/**
+ * Base handler for blocks.
+ *
+ * This class is needed because parent classes cannot have @Injectable in Angular v6, so the default handler cannot be a
+ * parent class.
+ */
+var CoreBlockBaseHandler = /** @class */ (function () {
+    function CoreBlockBaseHandler() {
+        this.name = 'CoreBlockBase';
+        this.blockName = 'base';
+        // Nothing to do.
+    }
+    /**
+     * Whether or not the handler is enabled on a site level.
+     *
+     * @return {boolean|Promise<boolean>} True or promise resolved with true if enabled.
+     */
+    CoreBlockBaseHandler.prototype.isEnabled = function () {
+        return true;
+    };
+    /**
+     * Returns the data needed to render the block.
+     *
+     * @param {Injector} injector Injector.
+     * @param {any} block The block to render.
+     * @param {string} contextLevel The context where the block will be used.
+     * @param {number} instanceId The instance ID associated with the context level.
+     * @return {CoreBlockHandlerData|Promise<CoreBlockHandlerData>} Data or promise resolved with the data.
+     */
+    CoreBlockBaseHandler.prototype.getDisplayData = function (injector, block, contextLevel, instanceId) {
+        // To be overridden.
+        return;
+    };
+    return CoreBlockBaseHandler;
+}());
+
+//# sourceMappingURL=base-block-handler.js.map
+
+/***/ }),
+
+/***/ 2009:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreCoursesDashboardProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_sites__ = __webpack_require__(2);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Service that provides some features regarding course overview.
+ */
+var CoreCoursesDashboardProvider = /** @class */ (function () {
+    function CoreCoursesDashboardProvider(sitesProvider) {
+        this.sitesProvider = sitesProvider;
+        this.ROOT_CACHE_KEY = 'CoreCoursesDashboard:';
+    }
+    /**
+     * Get cache key for dashboard blocks WS calls.
+     *
+     * @param {number} [userId] User ID. Default, 0 means current user.
+     * @return {string} Cache key.
+     */
+    CoreCoursesDashboardProvider.prototype.getDashboardBlocksCacheKey = function (userId) {
+        if (userId === void 0) { userId = 0; }
+        return this.ROOT_CACHE_KEY + 'blocks:' + userId;
+    };
+    /**
+     * Get dashboard blocks.
+     *
+     * @param {number} [userId] User ID. Default, current user.
+     * @param {string} [siteId] Site ID. If not defined, current site.
+     * @return {Promise<any[]>} Promise resolved with the list of blocks.
+     * @since 3.6
+     */
+    CoreCoursesDashboardProvider.prototype.getDashboardBlocks = function (userId, siteId) {
+        var _this = this;
+        return this.sitesProvider.getSite(siteId).then(function (site) {
+            var params = {}, preSets = {
+                cacheKey: _this.getDashboardBlocksCacheKey(userId)
+            };
+            if (userId) {
+                params['userid'] = userId;
+            }
+            return site.read('core_block_get_dashboard_blocks', params, preSets).then(function (result) {
+                return result.blocks || [];
+            });
+        });
+    };
+    /**
+     * Invalidates dashboard blocks WS call.
+     *
+     * @param {number} [userId] User ID. Default, current user.
+     * @param {string} [siteId] Site ID. If not defined, current site.
+     * @return {Promise<any>} Promise resolved when the data is invalidated.
+     */
+    CoreCoursesDashboardProvider.prototype.invalidateDashboardBlocks = function (userId, siteId) {
+        var _this = this;
+        return this.sitesProvider.getSite(siteId).then(function (site) {
+            return site.invalidateWsCacheForKey(_this.getDashboardBlocksCacheKey(userId));
+        });
+    };
+    /**
+     * Returns whether or not block based Dashboard is available for a certain site.
+     *
+     * @param {string} [siteId] Site ID. If not defined, current site.
+     * @return {Promise<boolean>} Promise resolved with true if available, resolved with false or rejected otherwise.
+     * @since 3.6
+     */
+    CoreCoursesDashboardProvider.prototype.isAvailable = function (siteId) {
+        return this.sitesProvider.getSite(siteId).then(function (site) {
+            return site.wsAvailable('core_block_get_dashboard_blocks');
+        });
+    };
+    CoreCoursesDashboardProvider = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__providers_sites__["a" /* CoreSitesProvider */]])
+    ], CoreCoursesDashboardProvider);
+    return CoreCoursesDashboardProvider;
+}());
+
+//# sourceMappingURL=dashboard.js.map
+
+/***/ }),
+
+/***/ 2010:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreBlockComponentsModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__block_block__ = __webpack_require__(1910);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(16);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var CoreBlockComponentsModule = /** @class */ (function () {
+    function CoreBlockComponentsModule() {
+    }
+    CoreBlockComponentsModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_4__block_block__["a" /* CoreBlockComponent */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1__angular_common__["b" /* CommonModule */],
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["k" /* IonicModule */],
+                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild(),
+                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* CoreComponentsModule */]
+            ],
+            providers: [],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_4__block_block__["a" /* CoreBlockComponent */]
+            ]
+        })
+    ], CoreBlockComponentsModule);
+    return CoreBlockComponentsModule;
+}());
+
+//# sourceMappingURL=components.module.js.map
 
 /***/ })
 

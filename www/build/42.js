@@ -1,34 +1,17 @@
 webpackJsonp([42],{
 
-<<<<<<< HEAD
-/***/ 1866:
-=======
-/***/ 1937:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1873:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreCoursesMyOverviewPageModule", function() { return CoreCoursesMyOverviewPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreEmulatorCaptureMediaPageModule", function() { return CoreEmulatorCaptureMediaPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__my_overview__ = __webpack_require__(1994);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__capture_media__ = __webpack_require__(2014);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(923);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__core_sitehome_components_components_module__ = __webpack_require__(931);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreCoursesSearchPageModule", function() { return CoreCoursesSearchPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__search__ = __webpack_require__(2069);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(167);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -54,88 +37,40 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-
-<<<<<<< HEAD
-
-var CoreCoursesMyOverviewPageModule = /** @class */ (function () {
-    function CoreCoursesMyOverviewPageModule() {
+var CoreEmulatorCaptureMediaPageModule = /** @class */ (function () {
+    function CoreEmulatorCaptureMediaPageModule() {
     }
-    CoreCoursesMyOverviewPageModule = __decorate([
+    CoreEmulatorCaptureMediaPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_3__my_overview__["a" /* CoreCoursesMyOverviewPage */],
-=======
-var CoreCoursesSearchPageModule = /** @class */ (function () {
-    function CoreCoursesSearchPageModule() {
-    }
-    CoreCoursesSearchPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_3__search__["a" /* CoreCoursesSearchPage */],
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+                __WEBPACK_IMPORTED_MODULE_2__capture_media__["a" /* CoreEmulatorCaptureMediaPage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
                 __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* CoreCoursesComponentsModule */],
-<<<<<<< HEAD
-                __WEBPACK_IMPORTED_MODULE_7__core_sitehome_components_components_module__["a" /* CoreSiteHomeComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__my_overview__["a" /* CoreCoursesMyOverviewPage */]),
-                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__capture_media__["a" /* CoreEmulatorCaptureMediaPage */]),
+                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ]
         })
-    ], CoreCoursesMyOverviewPageModule);
-    return CoreCoursesMyOverviewPageModule;
+    ], CoreEmulatorCaptureMediaPageModule);
+    return CoreEmulatorCaptureMediaPageModule;
 }());
 
-//# sourceMappingURL=my-overview.module.js.map
+//# sourceMappingURL=capture-media.module.js.map
 
 /***/ }),
 
-/***/ 1994:
+/***/ 2014:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreCoursesMyOverviewPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreEmulatorCaptureMediaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_utils__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_courses__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_helper__ = __webpack_require__(927);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_my_overview__ = __webpack_require__(253);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__core_course_providers_helper__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_course_providers_options_delegate__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__addon_coursecompletion_providers_coursecompletion__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__core_sitehome_providers_sitehome__ = __webpack_require__(150);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_moment__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_moment__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_tabs_tabs__ = __webpack_require__(135);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__core_sitehome_components_index_index__ = __webpack_require__(932);
-=======
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__search__["a" /* CoreCoursesSearchPage */]),
-                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ],
-        })
-    ], CoreCoursesSearchPageModule);
-    return CoreCoursesSearchPageModule;
-}());
-
-//# sourceMappingURL=search.module.js.map
-
-/***/ }),
-
-/***/ 2069:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreCoursesSearchPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_courses__ = __webpack_require__(33);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_file__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_text__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_time__ = __webpack_require__(22);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -161,543 +96,343 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
 
 
 
 /**
- * Page that displays My Overview.
+ * Page to capture media in browser or desktop.
  */
-var CoreCoursesMyOverviewPage = /** @class */ (function () {
-    function CoreCoursesMyOverviewPage(navCtrl, coursesProvider, domUtils, myOverviewProvider, courseHelper, sitesProvider, siteHomeProvider, courseOptionsDelegate, eventsProvider, coursesHelper, utils, courseCompletionProvider) {
-        this.navCtrl = navCtrl;
-        this.coursesProvider = coursesProvider;
+var CoreEmulatorCaptureMediaPage = /** @class */ (function () {
+    function CoreEmulatorCaptureMediaPage(viewCtrl, params, domUtils, timeUtils, fileProvider, textUtils, cdr) {
+        this.viewCtrl = viewCtrl;
         this.domUtils = domUtils;
-        this.myOverviewProvider = myOverviewProvider;
-        this.courseHelper = courseHelper;
-        this.sitesProvider = sitesProvider;
-        this.siteHomeProvider = siteHomeProvider;
-        this.courseOptionsDelegate = courseOptionsDelegate;
-        this.eventsProvider = eventsProvider;
-        this.coursesHelper = coursesHelper;
-        this.utils = utils;
-        this.courseCompletionProvider = courseCompletionProvider;
-        this.tabsReady = false;
-        this.tabShown = 'courses';
-        this.timeline = {
-            sort: 'sortbydates',
-            events: [],
-            loaded: false,
-            canLoadMore: undefined
-        };
-        this.timelineCourses = {
-            courses: [],
-            loaded: false,
-            canLoadMore: false
-        };
-        this.courses = {
-            selected: 'inprogress',
-            loaded: false,
-            filter: '',
-            past: [],
-            inprogress: [],
-            future: []
-        };
-        this.showFilter = false;
-        this.tabs = [];
-        this.prefetchCoursesData = {
-            inprogress: {},
-            past: {},
-            future: {}
-        };
-        this.prefetchIconsInitialized = false;
-        this.courseIds = '';
-        this.loadSiteName();
+        this.timeUtils = timeUtils;
+        this.fileProvider = fileProvider;
+        this.textUtils = textUtils;
+        this.cdr = cdr;
+        this.window = window;
+        this.type = params.get('type');
+        this.maxTime = params.get('maxTime');
+        this.facingMode = params.get('facingMode') || 'environment';
+        this.mimetype = params.get('mimetype');
+        this.extension = params.get('extension');
+        this.quality = params.get('quality') || 0.92;
+        this.returnDataUrl = !!params.get('returnDataUrl');
     }
     /**
-     * View loaded.
+     * Component being initialized.
      */
-    CoreCoursesMyOverviewPage.prototype.ionViewDidLoad = function () {
+    CoreEmulatorCaptureMediaPage.prototype.ngOnInit = function () {
         var _this = this;
-        this.searchEnabled = !this.coursesProvider.isSearchCoursesDisabledInSite();
-        this.downloadAllCoursesEnabled = !this.coursesProvider.isDownloadCoursesDisabledInSite();
-        // Refresh the enabled flags if site is updated.
-        this.updateSiteObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_2__providers_events__["a" /* CoreEventsProvider */].SITE_UPDATED, function () {
-            var wasEnabled = _this.downloadAllCoursesEnabled;
-            _this.searchEnabled = !_this.coursesProvider.isSearchCoursesDisabledInSite();
-            _this.downloadAllCoursesEnabled = !_this.coursesProvider.isDownloadCoursesDisabledInSite();
-            if (!wasEnabled && _this.downloadAllCoursesEnabled && _this.courses.loaded) {
-                // Download all courses is enabled now, initialize it.
-                _this.initPrefetchCoursesIcons();
-            }
-            _this.loadSiteName();
-        });
-        // Decide which tab to load first.
-        this.siteHomeProvider.isAvailable().then(function (enabled) {
-            var site = _this.sitesProvider.getCurrentSite(), displaySiteHome = site.getInfo() && site.getInfo().userhomepage === 0;
-            _this.siteHomeEnabled = enabled;
-            _this.firstSelectedTab = displaySiteHome ? 0 : 1;
-            _this.tabsReady = true;
-        });
-    };
-    /**
-     * User entered the page.
-     */
-    CoreCoursesMyOverviewPage.prototype.ionViewDidEnter = function () {
-        this.tabsComponent && this.tabsComponent.ionViewDidEnter();
-    };
-    /**
-     * User left the page.
-     */
-    CoreCoursesMyOverviewPage.prototype.ionViewDidLeave = function () {
-        this.tabsComponent && this.tabsComponent.ionViewDidLeave();
-    };
-    /**
-     * Fetch the timeline.
-     *
-     * @param {number} [afterEventId] The last event id.
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    CoreCoursesMyOverviewPage.prototype.fetchMyOverviewTimeline = function (afterEventId) {
-        var _this = this;
-        return this.myOverviewProvider.getActionEventsByTimesort(afterEventId).then(function (events) {
-            _this.timeline.events = events.events;
-            _this.timeline.canLoadMore = events.canLoadMore;
-        }).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'Error getting my overview data.');
-        });
-    };
-    /**
-     * Fetch the timeline by courses.
-     *
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    CoreCoursesMyOverviewPage.prototype.fetchMyOverviewTimelineByCourses = function () {
-        var _this = this;
-        return this.fetchUserCourses().then(function (courses) {
-            var today = __WEBPACK_IMPORTED_MODULE_13_moment__().unix();
-            var courseIds;
-            courses = courses.filter(function (course) {
-                return course.startdate <= today && (!course.enddate || course.enddate >= today);
-            });
-            _this.timelineCourses.courses = courses;
-            if (courses.length > 0) {
-                courseIds = courses.map(function (course) {
-                    return course.id;
-                });
-                return _this.myOverviewProvider.getActionEventsByCourses(courseIds).then(function (courseEvents) {
-                    _this.timelineCourses.courses.forEach(function (course) {
-                        course.events = courseEvents[course.id].events;
-                        course.canLoadMore = courseEvents[course.id].canLoadMore;
-                    });
-                });
-            }
-        }).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'Error getting my overview data.');
-        });
-    };
-    /**
-     * Fetch the courses for my overview.
-     *
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    CoreCoursesMyOverviewPage.prototype.fetchMyOverviewCourses = function () {
-        var _this = this;
-        return this.fetchUserCourses().then(function (courses) {
-            // Fetch course completion status.
-            return Promise.all(courses.map(function (course) {
-                if (typeof course.enablecompletion != 'undefined' && course.enablecompletion == 0) {
-                    // Completion is disabled for this course, there is no need to fetch the completion status.
-                    return Promise.resolve(course);
-                }
-                return _this.courseCompletionProvider.getCompletion(course.id).catch(function () {
-                    // Ignore error, maybe course compleiton is disabled or user ha no permission.
-                }).then(function (completion) {
-                    course.completed = completion && completion.completed;
-                    return course;
-                });
-            }));
-        }).then(function (courses) {
-            var today = __WEBPACK_IMPORTED_MODULE_13_moment__().unix();
-            _this.courses.past = [];
-            _this.courses.inprogress = [];
-            _this.courses.future = [];
-            courses.forEach(function (course) {
-                if ((course.enddate && course.enddate < today) || course.completed) {
-                    // Courses that have already ended.
-                    _this.courses.past.push(course);
-                }
-                else if (course.startdate > today) {
-                    // Courses that have not started yet.
-                    _this.courses.future.push(course);
+        this.initVariables();
+        var constraints = {
+            video: this.isAudio ? false : { facingMode: this.facingMode },
+            audio: !this.isImage
+        };
+        navigator.mediaDevices.getUserMedia(constraints).then(function (stream) {
+            var chunks = [];
+            _this.localMediaStream = stream;
+            if (!_this.isImage) {
+                if (_this.isVideo) {
+                    _this.previewMedia = _this.previewVideo.nativeElement;
                 }
                 else {
-                    // Courses still in progress.
-                    _this.courses.inprogress.push(course);
+                    _this.previewMedia = _this.previewAudio.nativeElement;
+                    _this.initAudioDrawer(_this.localMediaStream);
+                    _this.audioDrawer.start();
                 }
-            });
-            _this.courses.filter = '';
-            _this.showFilter = false;
-            _this.filteredCourses = _this.courses[_this.courses.selected];
-            _this.initPrefetchCoursesIcons();
-        }).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'Error getting my overview data.');
-        });
-    };
-    /**
-     * Fetch user courses.
-     *
-     * @return {Promise<any[]>} Promise resolved when done.
-     */
-    CoreCoursesMyOverviewPage.prototype.fetchUserCourses = function () {
-        var _this = this;
-        return this.coursesProvider.getUserCourses().then(function (courses) {
-            var promises = [], courseIds = courses.map(function (course) {
-                return course.id;
-            });
-            if (_this.coursesProvider.canGetAdminAndNavOptions()) {
-                // Load course options of the course.
-                promises.push(_this.coursesProvider.getCoursesAdminAndNavOptions(courseIds).then(function (options) {
-                    courses.forEach(function (course) {
-                        course.navOptions = options.navOptions[course.id];
-                        course.admOptions = options.admOptions[course.id];
-                    });
-                }));
-            }
-            _this.courseIds = courseIds.join(',');
-            promises.push(_this.coursesHelper.loadCoursesExtraInfo(courses));
-            return Promise.all(promises).then(function () {
-                return courses.sort(function (a, b) {
-                    var compareA = a.fullname.toLowerCase(), compareB = b.fullname.toLowerCase();
-                    return compareA.localeCompare(compareB);
-                });
-            });
-        });
-    };
-    /**
-     * Show or hide the filter.
-     */
-    CoreCoursesMyOverviewPage.prototype.switchFilter = function () {
-        var _this = this;
-        this.showFilter = !this.showFilter;
-        this.courses.filter = '';
-        this.filteredCourses = this.courses[this.courses.selected];
-        if (this.showFilter) {
-            setTimeout(function () {
-                _this.searchbar.setFocus();
-            }, 500);
-        }
-    };
-    /**
-     * The filter has changed.
-     *
-     * @param {any} Received Event.
-     */
-    CoreCoursesMyOverviewPage.prototype.filterChanged = function (event) {
-        var newValue = event.target.value && event.target.value.trim().toLowerCase();
-        if (!newValue || !this.courses[this.courses.selected]) {
-            this.filteredCourses = this.courses[this.courses.selected];
-        }
-        else {
-            this.filteredCourses = this.courses[this.courses.selected].filter(function (course) {
-                return course.fullname.toLowerCase().indexOf(newValue) > -1;
-            });
-        }
-    };
-    /**
-     * Refresh the data.
-     *
-     * @param {any} refresher Refresher.
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    CoreCoursesMyOverviewPage.prototype.refreshMyOverview = function (refresher) {
-        var _this = this;
-        var promises = [];
-        if (this.tabShown == 'timeline') {
-            promises.push(this.myOverviewProvider.invalidateActionEventsByTimesort());
-            promises.push(this.myOverviewProvider.invalidateActionEventsByCourses());
-        }
-        promises.push(this.coursesProvider.invalidateUserCourses().finally(function () {
-            // Invalidate course completion data.
-            return _this.coursesProvider.getUserCourses().then(function (courses) {
-                return _this.utils.allPromises(courses.map(function (course) {
-                    return _this.courseCompletionProvider.invalidateCourseCompletion(course.id);
-                }));
-            });
-        }));
-        promises.push(this.courseOptionsDelegate.clearAndInvalidateCoursesOptions());
-        if (this.courseIds) {
-            promises.push(this.coursesProvider.invalidateCoursesByField('ids', this.courseIds));
-        }
-        return this.utils.allPromises(promises).finally(function () {
-            switch (_this.tabShown) {
-                case 'timeline':
-                    switch (_this.timeline.sort) {
-                        case 'sortbydates':
-                            return _this.fetchMyOverviewTimeline();
-                        case 'sortbycourses':
-                            return _this.fetchMyOverviewTimelineByCourses();
-                        default:
+                _this.mediaRecorder = new _this.window.MediaRecorder(_this.localMediaStream, { mimeType: _this.mimetype });
+                // When video or audio is recorded, add it to the list of chunks.
+                _this.mediaRecorder.ondataavailable = function (e) {
+                    if (e.data.size > 0) {
+                        chunks.push(e.data);
                     }
-                    break;
-                case 'courses':
-                    _this.prefetchIconsInitialized = false;
-                    return _this.fetchMyOverviewCourses();
-                default:
+                };
+                // When recording stops, create a Blob element with the recording and set it to the video or audio.
+                _this.mediaRecorder.onstop = function () {
+                    _this.mediaBlob = new Blob(chunks);
+                    chunks = [];
+                    _this.previewMedia.src = window.URL.createObjectURL(_this.mediaBlob);
+                };
             }
-        }).finally(function () {
-            refresher.complete();
-        });
-    };
-    /**
-     * Change timeline sort being viewed.
-     */
-    CoreCoursesMyOverviewPage.prototype.switchSort = function () {
-        var _this = this;
-        switch (this.timeline.sort) {
-            case 'sortbydates':
-                if (!this.timeline.loaded) {
-                    this.fetchMyOverviewTimeline().finally(function () {
-                        _this.timeline.loaded = true;
-                    });
-                }
-                break;
-            case 'sortbycourses':
-                if (!this.timelineCourses.loaded) {
-                    this.fetchMyOverviewTimelineByCourses().finally(function () {
-                        _this.timelineCourses.loaded = true;
-                    });
-                }
-                break;
-            default:
-        }
-    };
-    /**
-     * The tab has changed.
-     *
-     * @param {string} tab Name of the new tab.
-     */
-    CoreCoursesMyOverviewPage.prototype.tabChanged = function (tab) {
-        var _this = this;
-        this.tabShown = tab;
-        switch (this.tabShown) {
-            case 'timeline':
-                if (!this.timeline.loaded) {
-                    this.fetchMyOverviewTimeline().finally(function () {
-                        _this.timeline.loaded = true;
-                    });
-                }
-                break;
-            case 'courses':
-                if (!this.courses.loaded) {
-                    this.fetchMyOverviewCourses().finally(function () {
-                        _this.courses.loaded = true;
-                    });
-                }
-                break;
-            default:
-        }
-    };
-    /**
-     * Load more events.
-     */
-    CoreCoursesMyOverviewPage.prototype.loadMoreTimeline = function () {
-        return this.fetchMyOverviewTimeline(this.timeline.canLoadMore);
-    };
-    /**
-     * Load more events.
-     *
-     * @param {any} course Course.
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    CoreCoursesMyOverviewPage.prototype.loadMoreCourse = function (course) {
-        return this.myOverviewProvider.getActionEventsByCourse(course.id, course.canLoadMore).then(function (courseEvents) {
-            course.events = course.events.concat(courseEvents.events);
-            course.canLoadMore = courseEvents.canLoadMore;
-        });
-    };
-    /**
-     * Go to search courses.
-     */
-    CoreCoursesMyOverviewPage.prototype.openSearch = function () {
-        this.navCtrl.push('CoreCoursesSearchPage');
-    };
-    /**
-     * The selected courses have changed.
-     */
-    CoreCoursesMyOverviewPage.prototype.selectedChanged = function () {
-        this.filteredCourses = this.courses[this.courses.selected];
-    };
-    /**
-     * Prefetch all the shown courses.
-     *
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    CoreCoursesMyOverviewPage.prototype.prefetchCourses = function () {
-        var _this = this;
-        var selected = this.courses.selected, selectedData = this.prefetchCoursesData[selected], initialIcon = selectedData.icon;
-        selectedData.icon = 'spinner';
-        selectedData.badge = '';
-        return this.courseHelper.confirmAndPrefetchCourses(this.courses[selected], function (progress) {
-            selectedData.badge = progress.count + ' / ' + progress.total;
-        }).then(function () {
-            selectedData.icon = 'refresh';
-        }).catch(function (error) {
-            if (!_this.isDestroyed) {
-                _this.domUtils.showErrorModalDefault(error, 'core.course.errordownloadingcourse', true);
-                selectedData.icon = initialIcon;
-            }
-        }).finally(function () {
-            selectedData.badge = '';
-        });
-    };
-    /**
-     * Initialize the prefetch icon for selected courses.
-     */
-    CoreCoursesMyOverviewPage.prototype.initPrefetchCoursesIcons = function () {
-        var _this = this;
-        if (this.prefetchIconsInitialized || !this.downloadAllCoursesEnabled) {
-            // Already initialized.
-            return;
-        }
-        this.prefetchIconsInitialized = true;
-        Object.keys(this.prefetchCoursesData).forEach(function (filter) {
-            if (!_this.courses[filter] || _this.courses[filter].length < 2) {
-                // Not enough courses.
-                _this.prefetchCoursesData[filter].icon = '';
-                return;
-            }
-            _this.courseHelper.determineCoursesStatus(_this.courses[filter]).then(function (status) {
-                var icon = _this.courseHelper.getCourseStatusIconAndTitleFromStatus(status).icon;
-                if (icon == 'spinner') {
-                    // It seems all courses are being downloaded, show a download button instead.
-                    icon = 'cloud-download';
-                }
-                _this.prefetchCoursesData[filter].icon = icon;
-            });
-        });
-    };
-    /**
-     * Load the site name.
-     */
-    CoreCoursesMyOverviewPage.prototype.loadSiteName = function () {
-        this.siteName = this.sitesProvider.getCurrentSite().getInfo().sitename;
-    };
-    /**
-     * Component being destroyed.
-     */
-    CoreCoursesMyOverviewPage.prototype.ngOnDestroy = function () {
-        this.isDestroyed = true;
-        this.updateSiteObserver && this.updateSiteObserver.off();
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_14__components_tabs_tabs__["a" /* CoreTabsComponent */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_14__components_tabs_tabs__["a" /* CoreTabsComponent */])
-    ], CoreCoursesMyOverviewPage.prototype, "tabsComponent", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('searchbar'),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["x" /* Searchbar */])
-    ], CoreCoursesMyOverviewPage.prototype, "searchbar", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_15__core_sitehome_components_index_index__["a" /* CoreSiteHomeIndexComponent */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_15__core_sitehome_components_index_index__["a" /* CoreSiteHomeIndexComponent */])
-    ], CoreCoursesMyOverviewPage.prototype, "siteHomeComponent", void 0);
-    CoreCoursesMyOverviewPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-courses-my-overview',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\core\courses\pages\my-overview\my-overview.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="siteName"></core-format-text></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button *ngIf="tabShown == \'courses\' && courses[courses.selected] && courses[courses.selected].length > 5" ion-button icon-only [attr.aria-label]="\'core.courses.filtermycourses\' | translate" (click)="switchFilter()">\n\n                <ion-icon name="funnel"></ion-icon>\n\n            </button>\n\n            <button *ngIf="searchEnabled" ion-button icon-only (click)="openSearch()" [attr.aria-label]="\'core.courses.searchcourses\' | translate">\n\n                <ion-icon name="search"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <core-tabs [selectedIndex]="firstSelectedTab" [hideUntil]="tabsReady">\n\n        <!-- Site home tab. -->\n\n        <core-tab [show]="siteHomeEnabled" [title]="\'core.sitehome.sitehome\' | translate" (ionSelect)="tabChanged(\'sitehome\')">\n\n            <ng-template>\n\n                <ion-content>\n\n                    <ion-refresher [enabled]="siteHomeComponent && siteHomeComponent.dataLoaded" (ionRefresh)="siteHomeComponent.doRefresh($event)">\n\n                        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n                    </ion-refresher>\n\n                    <core-sitehome-index></core-sitehome-index>\n\n                </ion-content>\n\n            </ng-template>\n\n        </core-tab>\n\n\n\n        <!-- Courses tab. -->\n\n        <core-tab [title]="\'core.courses.courses\' | translate" (ionSelect)="tabChanged(\'courses\')">\n\n            <ng-template>\n\n                <ion-content>\n\n                    <ion-refresher [enabled]="timeline.loaded || timelineCourses.loaded || courses.loaded" (ionRefresh)="refreshMyOverview($event)">\n\n                        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n                    </ion-refresher>\n\n\n\n                    <core-loading [hideUntil]="courses.loaded" class="core-loading-center">\n\n                        <!-- "Time" selector. -->\n\n                        <div padding class="clearfix" [hidden]="showFilter" ion-row justify-content-between>\n\n                            <ion-select float-start [title]="\'core.show\' | translate" [(ngModel)]="courses.selected" ion-col (ngModelChange)="selectedChanged()" interface="popover" class="core-button-select">\n\n                                <ion-option value="inprogress">{{ \'core.courses.inprogress\' | translate }}</ion-option>\n\n                                <ion-option value="future">{{ \'core.courses.future\' | translate }}</ion-option>\n\n                                <ion-option value="past">{{ \'core.courses.past\' | translate }}</ion-option>\n\n                            </ion-select>\n\n                            <!-- Download all courses. -->\n\n                            <div *ngIf="downloadAllCoursesEnabled && courses[courses.selected] && courses[courses.selected].length > 1" class="core-button-spinner">\n\n                                <button *ngIf="prefetchCoursesData[courses.selected].icon && prefetchCoursesData[courses.selected].icon != \'spinner\'" ion-button icon-only clear color="dark" (click)="prefetchCourses()">\n\n                                    <core-icon [name]="prefetchCoursesData[courses.selected].icon"></core-icon>\n\n                                </button>\n\n                                <ion-badge class="core-course-download-courses-progress" *ngIf="prefetchCoursesData[courses.selected].badge">{{prefetchCoursesData[courses.selected].badge}}</ion-badge>\n\n                                <ion-spinner *ngIf="!prefetchCoursesData[courses.selected].icon || prefetchCoursesData[courses.selected].icon == \'spinner\'"></ion-spinner>\n\n                            </div>\n\n                        </div>\n\n                        <core-empty-box *ngIf="courses[courses.selected].length == 0 && courses.selected == \'inprogress\'" image="assets/img/icons/courses.svg" [message]="\'core.courses.nocoursesinprogress\' | translate"></core-empty-box>\n\n                        <core-empty-box *ngIf="courses[courses.selected].length == 0 && courses.selected == \'future\'" image="assets/img/icons/courses.svg" [message]="\'core.courses.nocoursesfuture\' | translate"></core-empty-box>\n\n                        <core-empty-box *ngIf="courses[courses.selected].length == 0 && courses.selected == \'past\'" image="assets/img/icons/courses.svg" [message]="\'core.courses.nocoursespast\' | translate"></core-empty-box>\n\n\n\n                        <!-- Filter courses. -->\n\n                        <ion-searchbar #searchbar *ngIf="showFilter" [(ngModel)]="courses.filter" (ionInput)="filterChanged($event)" (ionCancel)="filterChanged()" [placeholder]="\'core.courses.filtermycourses\' | translate">\n\n                        </ion-searchbar>\n\n                        <!-- List of courses. -->\n\n                        <div>\n\n                            <ion-grid no-padding>\n\n                                <ion-row no-padding>\n\n                                    <ion-col *ngFor="let course of filteredCourses" no-padding col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 align-self-stretch>\n\n                                        <core-courses-course-progress [course]="course" class="core-courseoverview"></core-courses-course-progress>\n\n                                    </ion-col>\n\n                                </ion-row>\n\n                            </ion-grid>\n\n                        </div>\n\n                    </core-loading>\n\n                </ion-content>\n\n            </ng-template>\n\n        </core-tab>\n\n\n\n        <!-- Timeline tab. -->\n\n        <core-tab [title]="\'core.courses.timeline\' | translate" (ionSelect)="tabChanged(\'timeline\')">\n\n            <ng-template>\n\n                <ion-content>\n\n                    <ion-refresher [enabled]="timeline.loaded || timelineCourses.loaded || courses.loaded" (ionRefresh)="refreshMyOverview($event)">\n\n                        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n                    </ion-refresher>\n\n\n\n                    <div padding [hidden]="!(timeline.loaded || timelineCourses.loaded)">\n\n                        <ion-select [(ngModel)]="timeline.sort" (ngModelChange)="switchSort()" interface="popover" class="core-button-select">\n\n                            <ion-option value="sortbydates">{{ \'core.courses.sortbydates\' | translate }}</ion-option>\n\n                            <ion-option value="sortbycourses">{{ \'core.courses.sortbycourses\' | translate }}</ion-option>\n\n                        </ion-select>\n\n                    </div>\n\n                    <core-loading [hideUntil]="timeline.loaded" [hidden]="timeline.sort != \'sortbydates\'" class="core-loading-center">\n\n                        <core-courses-overview-events [events]="timeline.events" showCourse="true" [canLoadMore]="timeline.canLoadMore" (loadMore)="loadMoreTimeline()"></core-courses-overview-events>\n\n                    </core-loading>\n\n                    <core-loading [hideUntil]="timelineCourses.loaded" [hidden]="timeline.sort != \'sortbycourses\'" class="core-loading-center">\n\n                        <ion-grid no-padding>\n\n                            <ion-row no-padding>\n\n                                <ion-col *ngFor="let course of timelineCourses.courses" no-padding col-12 col-md-6>\n\n                                    <core-courses-course-progress [course]="course">\n\n                                        <core-courses-overview-events [events]="course.events" [canLoadMore]="course.canLoadMore" (loadMore)="loadMoreCourse(course)"></core-courses-overview-events>\n\n                                    </core-courses-course-progress>\n\n                                </ion-col>\n\n                            </ion-row>\n\n                        </ion-grid>\n\n                        <core-empty-box *ngIf="timelineCourses.courses.length == 0" image="assets/img/icons/courses.svg" [message]="\'core.courses.nocoursesoverview\' | translate"></core-empty-box>\n\n                    </core-loading>\n\n                </ion-content>\n\n            </ng-template>\n\n        </core-tab>\n\n    </core-tabs>\n\n</ion-content>'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\core\courses\pages\my-overview\my-overview.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_6__providers_courses__["a" /* CoreCoursesProvider */],
-            __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_my_overview__["a" /* CoreCoursesMyOverviewProvider */],
-            __WEBPACK_IMPORTED_MODULE_9__core_course_providers_helper__["a" /* CoreCourseHelperProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */],
-            __WEBPACK_IMPORTED_MODULE_12__core_sitehome_providers_sitehome__["a" /* CoreSiteHomeProvider */], __WEBPACK_IMPORTED_MODULE_10__core_course_providers_options_delegate__["a" /* CoreCourseOptionsDelegate */],
-            __WEBPACK_IMPORTED_MODULE_2__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_7__providers_helper__["a" /* CoreCoursesHelperProvider */],
-            __WEBPACK_IMPORTED_MODULE_5__providers_utils_utils__["a" /* CoreUtilsProvider */], __WEBPACK_IMPORTED_MODULE_11__addon_coursecompletion_providers_coursecompletion__["a" /* AddonCourseCompletionProvider */]])
-    ], CoreCoursesMyOverviewPage);
-    return CoreCoursesMyOverviewPage;
-}());
-
-//# sourceMappingURL=my-overview.js.map
-=======
-/**
- * Page that allows searching for courses.
- */
-var CoreCoursesSearchPage = /** @class */ (function () {
-    function CoreCoursesSearchPage(domUtils, coursesProvider) {
-        this.domUtils = domUtils;
-        this.coursesProvider = coursesProvider;
-        this.total = 0;
-        this.loadMoreError = false;
-        this.page = 0;
-        this.currentSearch = '';
-    }
-    /**
-     * Search a new text.
-     *
-     * @param {string} text The text to search.
-     */
-    CoreCoursesSearchPage.prototype.search = function (text) {
-        this.currentSearch = text;
-        this.courses = undefined;
-        this.page = 0;
-        var modal = this.domUtils.showModalLoading('core.searching', true);
-        this.searchCourses().finally(function () {
-            modal.dismiss();
-        });
-    };
-    /**
-     * Load more results.
-     *
-     * @param {any} [infiniteComplete] Infinite scroll complete function. Only used from core-infinite-loading.
-     */
-    CoreCoursesSearchPage.prototype.loadMoreResults = function (infiniteComplete) {
-        this.searchCourses().finally(function () {
-            infiniteComplete && infiniteComplete();
-        });
-    };
-    /**
-     * Search courses or load the next page of current search.
-     *
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    CoreCoursesSearchPage.prototype.searchCourses = function () {
-        var _this = this;
-        this.loadMoreError = false;
-        return this.coursesProvider.search(this.currentSearch, this.page).then(function (response) {
-            if (_this.page === 0) {
-                _this.courses = response.courses;
+            if (_this.isImage || _this.isVideo) {
+                var hasLoaded_1 = false, waitTimeout_1;
+                // Listen for stream ready to display the stream.
+                _this.streamVideo.nativeElement.onloadedmetadata = function () {
+                    if (hasLoaded_1) {
+                        // Already loaded or timeout triggered, stop.
+                        return;
+                    }
+                    hasLoaded_1 = true;
+                    clearTimeout(waitTimeout_1);
+                    _this.readyToCapture = true;
+                    _this.streamVideo.nativeElement.onloadedmetadata = null;
+                    // Force change detection. Angular doesn't detect these async operations.
+                    _this.cdr.detectChanges();
+                };
+                // Set the stream as the source of the video.
+                _this.streamVideo.nativeElement.src = window.URL.createObjectURL(_this.localMediaStream);
+                // If stream isn't ready in a while, show error.
+                waitTimeout_1 = setTimeout(function () {
+                    if (!hasLoaded_1) {
+                        // Show error.
+                        hasLoaded_1 = true;
+                        _this.dismissWithError(-1, 'Cannot connect to webcam.');
+                    }
+                }, 10000);
             }
             else {
-                _this.courses = _this.courses.concat(response.courses);
+                // It's ready to capture.
+                _this.readyToCapture = true;
             }
-            _this.total = response.total;
-            _this.page++;
-            _this.canLoadMore = _this.courses.length < _this.total;
         }).catch(function (error) {
-            _this.loadMoreError = true; // Set to prevent infinite calls with infinite-loading.
-            _this.domUtils.showErrorModalDefault(error, 'core.courses.errorsearching', true);
+            _this.dismissWithError(-1, error.message || error);
         });
     };
-    CoreCoursesSearchPage = __decorate([
+    /**
+     * Initialize the audio drawer. This code has been extracted from MDN's example on MediaStream Recording:
+     * https://github.com/mdn/web-dictaphone
+     *
+     * @param {MediaStream} stream Stream returned by getUserMedia.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.initAudioDrawer = function (stream) {
+        var skip = true, running = false;
+        var audioCtx = new (this.window.AudioContext || this.window.webkitAudioContext)(), canvasCtx = this.streamAudio.nativeElement.getContext('2d'), source = audioCtx.createMediaStreamSource(stream), analyser = audioCtx.createAnalyser(), bufferLength = analyser.frequencyBinCount, dataArray = new Uint8Array(bufferLength), width = this.streamAudio.nativeElement.width, height = this.streamAudio.nativeElement.height, drawAudio = function () {
+            if (!running) {
+                return;
+            }
+            // Update the draw every animation frame.
+            requestAnimationFrame(drawAudio);
+            // Skip half of the frames to improve performance, shouldn't affect the smoothness.
+            skip = !skip;
+            if (skip) {
+                return;
+            }
+            var sliceWidth = width / bufferLength;
+            var x = 0;
+            analyser.getByteTimeDomainData(dataArray);
+            canvasCtx.fillStyle = 'rgb(200, 200, 200)';
+            canvasCtx.fillRect(0, 0, width, height);
+            canvasCtx.lineWidth = 1;
+            canvasCtx.strokeStyle = 'rgb(0, 0, 0)';
+            canvasCtx.beginPath();
+            for (var i = 0; i < bufferLength; i++) {
+                var v = dataArray[i] / 128.0, y = v * height / 2;
+                if (i === 0) {
+                    canvasCtx.moveTo(x, y);
+                }
+                else {
+                    canvasCtx.lineTo(x, y);
+                }
+                x += sliceWidth;
+            }
+            canvasCtx.lineTo(width, height / 2);
+            canvasCtx.stroke();
+        };
+        analyser.fftSize = 2048;
+        source.connect(analyser);
+        this.audioDrawer = {
+            start: function () {
+                if (running) {
+                    return;
+                }
+                running = true;
+                drawAudio();
+            },
+            stop: function () {
+                running = false;
+            }
+        };
+    };
+    /**
+     * Initialize some variables based on the params.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.initVariables = function () {
+        if (this.type == 'captureimage') {
+            this.isCaptureImage = true;
+            this.type = 'image';
+        }
+        // Initialize some data based on the type of media to capture.
+        if (this.type == 'video') {
+            this.isVideo = true;
+            this.title = 'core.capturevideo';
+        }
+        else if (this.type == 'audio') {
+            this.isAudio = true;
+            this.title = 'core.captureaudio';
+        }
+        else if (this.type == 'image') {
+            this.isImage = true;
+            this.title = 'core.captureimage';
+        }
+    };
+    /**
+     * Main action clicked: record or stop recording.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.actionClicked = function () {
+        var _this = this;
+        if (this.isCapturing) {
+            // It's capturing, stop.
+            this.stopCapturing();
+            this.cdr.detectChanges();
+        }
+        else {
+            if (!this.isImage) {
+                // Start the capture.
+                this.isCapturing = true;
+                this.resetChrono = false;
+                this.mediaRecorder.start();
+                this.cdr.detectChanges();
+            }
+            else {
+                // Get the image from the video and set it to the canvas, using video width/height.
+                var width = this.streamVideo.nativeElement.videoWidth, height = this.streamVideo.nativeElement.videoHeight, loadingModal_1 = this.domUtils.showModalLoading();
+                this.imgCanvas.nativeElement.width = width;
+                this.imgCanvas.nativeElement.height = height;
+                this.imgCanvas.nativeElement.getContext('2d').drawImage(this.streamVideo.nativeElement, 0, 0, width, height);
+                // Convert the image to blob and show it in an image element.
+                this.imgCanvas.nativeElement.toBlob(function (blob) {
+                    loadingModal_1.dismiss();
+                    _this.mediaBlob = blob;
+                    _this.previewImage.nativeElement.setAttribute('src', window.URL.createObjectURL(_this.mediaBlob));
+                    _this.hasCaptured = true;
+                }, this.mimetype, this.quality);
+            }
+        }
+    };
+    /**
+     * User cancelled.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.cancel = function () {
+        // Send a "cancelled" error like the Cordova plugin does.
+        this.dismissWithError(3, 'Canceled.', 'Camera cancelled');
+    };
+    /**
+     * Discard the captured media.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.discard = function () {
+        this.previewMedia && this.previewMedia.pause();
+        this.streamVideo && this.streamVideo.nativeElement.play();
+        this.audioDrawer && this.audioDrawer.start();
+        this.hasCaptured = false;
+        this.isCapturing = false;
+        this.resetChrono = true;
+        delete this.mediaBlob;
+        this.cdr.detectChanges();
+    };
+    /**
+     * Close the modal, returning some data (success).
+     *
+     * @param {any} data Data to return.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.dismissWithData = function (data) {
+        this.viewCtrl.dismiss(data, 'success');
+    };
+    /**
+     * Close the modal, returning an error.
+     *
+     * @param {number} code Error code. Will not be used if it's a Camera capture.
+     * @param {string} message Error message.
+     * @param {string} [cameraMessage] A specific message to use if it's a Camera capture. If not set, message will be used.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.dismissWithError = function (code, message, cameraMessage) {
+        var isCamera = this.isImage && !this.isCaptureImage, error = isCamera ? (cameraMessage || message) : { code: code, message: message };
+        this.viewCtrl.dismiss(error, 'error');
+    };
+    /**
+     * Done capturing, write the file.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.done = function () {
+        var _this = this;
+        if (this.returnDataUrl) {
+            // Return the image as a base64 string.
+            this.dismissWithData(this.imgCanvas.nativeElement.toDataURL(this.mimetype, this.quality));
+            return;
+        }
+        if (!this.mediaBlob) {
+            // Shouldn't happen.
+            this.domUtils.showErrorModal('Please capture the media first.');
+            return;
+        }
+        // Create the file and return it.
+        var fileName = this.type + '_' + this.timeUtils.readableTimestamp() + '.' + this.extension, path = this.textUtils.concatenatePaths(__WEBPACK_IMPORTED_MODULE_2__providers_file__["a" /* CoreFileProvider */].TMPFOLDER, 'media/' + fileName), loadingModal = this.domUtils.showModalLoading();
+        this.fileProvider.writeFile(path, this.mediaBlob).then(function (fileEntry) {
+            if (_this.isImage && !_this.isCaptureImage) {
+                _this.dismissWithData(fileEntry.toURL());
+            }
+            else {
+                // The capture plugin returns a MediaFile, not a FileEntry.
+                // The only difference is that it supports a new function that won't be supported in desktop.
+                fileEntry.getFormatData = function (successFn, errorFn) {
+                    // Nothing to do.
+                };
+                _this.dismissWithData([fileEntry]);
+            }
+        }).catch(function (err) {
+            _this.domUtils.showErrorModal(err);
+        }).finally(function () {
+            loadingModal.dismiss();
+        });
+    };
+    /**
+     * Stop capturing. Only for video and audio.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.stopCapturing = function () {
+        this.streamVideo && this.streamVideo.nativeElement.pause();
+        this.audioDrawer && this.audioDrawer.stop();
+        this.mediaRecorder && this.mediaRecorder.stop();
+        this.isCapturing = false;
+        this.hasCaptured = true;
+    };
+    /**
+     * Page destroyed.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.ngOnDestroy = function () {
+        var tracks = this.localMediaStream.getTracks();
+        tracks.forEach(function (track) {
+            track.stop();
+        });
+        this.streamVideo && this.streamVideo.nativeElement.pause();
+        this.previewMedia && this.previewMedia.pause();
+        this.audioDrawer && this.audioDrawer.stop();
+        delete this.mediaBlob;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('streamVideo'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "streamVideo", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('previewVideo'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "previewVideo", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('imgCanvas'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "imgCanvas", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('previewImage'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "previewImage", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('streamAudio'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "streamAudio", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('previewAudio'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "previewAudio", void 0);
+    CoreEmulatorCaptureMediaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-courses-search',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\courses\pages\search\search.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'core.courses.searchcourses\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <core-search-box (onSubmit)="search($event)" [placeholder]="\'core.courses.search\' | translate" [searchLabel]="\'core.courses.search\' | translate" autoFocus="true" showClear="false"></core-search-box>\n\n    <div *ngIf="courses">\n        <ion-item-divider>{{ \'core.courses.totalcoursesearchresults\' | translate:{$a: total} }}</ion-item-divider>\n        <core-empty-box *ngIf="total == 0" icon="search" [message]="\'core.courses.nosearchresults\' | translate"></core-empty-box>\n        <core-courses-course-list-item *ngFor="let course of courses" [course]="course"></core-courses-course-list-item>\n        <core-infinite-loading [enabled]="canLoadMore" (action)="loadMoreResults($event)" [error]="loadMoreError"></core-infinite-loading>\n    </div>\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\courses\pages\search\search.html"*/,
+            selector: 'page-core-emulator-capture-media',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\emulator\pages\capture-media\capture-media.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-buttons start>\n\n            <button ion-button (click)="cancel()">{{ \'core.cancel\' | translate }}</button>\n\n        </ion-buttons>\n\n\n\n        <ion-title>{{ title | translate }}</ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button *ngIf="hasCaptured" (click)="done()">{{ \'core.done\' | translate }}</button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content  class="has-footer">\n\n    <core-loading [hideUntil]="readyToCapture">\n\n        <div class="core-av-wrapper">\n\n            <!-- Video stream for image and video. -->\n\n            <video *ngIf="!isAudio" [hidden]="hasCaptured" class="core-webcam-stream" autoplay #streamVideo></video>\n\n\n\n            <!-- For video recording, use 2 videos and show/hide them because a CSS rule caused problems with the controls. -->\n\n            <video *ngIf="isVideo" [hidden]="!hasCaptured" class="core-webcam-video-captured" controls #previewVideo></video>\n\n\n\n            <!-- Canvas to treat the image and an img to show the result. -->\n\n            <canvas *ngIf="isImage" class="core-webcam-image-canvas" #imgCanvas></canvas>\n\n            <img *ngIf="isImage" [hidden]="!hasCaptured" class="core-webcam-image" alt="{{ \'core.capturedimage\' | translate }}" #previewImage>\n\n\n\n            <!-- Canvas to show audio waves when recording audio and audio player to listen to the result. -->\n\n            <div *ngIf="isAudio" class="core-audio-record-container">\n\n                <canvas [hidden]="hasCaptured" class="core-audio-canvas" #streamAudio></canvas>\n\n                <audio [hidden]="!hasCaptured" class="core-audio-captured" controls #previewAudio></audio>\n\n            </div>\n\n        </div>\n\n    </core-loading>\n\n</ion-content>\n\n\n\n<ion-footer>\n\n    <ion-row *ngIf="readyToCapture">\n\n        <ion-col></ion-col>\n\n        <ion-col text-center>\n\n            <button ion-button icon-only clear *ngIf="!hasCaptured" (click)="actionClicked()" [attr.aria-label]="title">\n\n                <ion-icon *ngIf="!isCapturing && isAudio" name="microphone"></ion-icon>\n\n                <ion-icon *ngIf="!isCapturing && isVideo" name="videocam"></ion-icon>\n\n                <ion-icon *ngIf="isImage" name="camera"></ion-icon>\n\n                <ion-icon *ngIf="isCapturing" name="square"></ion-icon>\n\n            </button>\n\n            <button ion-button icon-only clear *ngIf="hasCaptured" (click)="discard()" [attr.aria-label]="\'core.discard\' | translate">\n\n                <ion-icon name="trash"></ion-icon>\n\n            </button>\n\n        </ion-col>\n\n        <ion-col padding text-end class="chrono-container">\n\n            <core-chrono *ngIf="!isImage" [hidden]="hasCaptured" [running]="isCapturing" [reset]="resetChrono" [endTime]="maxTime" (onEnd)="stopCapturing()"></core-chrono>\n\n        </ion-col>\n\n    </ion-row>\n\n</ion-footer>\n\n\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\emulator\pages\capture-media\capture-media.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__providers_courses__["a" /* CoreCoursesProvider */]])
-    ], CoreCoursesSearchPage);
-    return CoreCoursesSearchPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["D" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_utils_time__["a" /* CoreTimeUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__providers_file__["a" /* CoreFileProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_utils_text__["a" /* CoreTextUtilsProvider */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ChangeDetectorRef */]])
+    ], CoreEmulatorCaptureMediaPage);
+    return CoreEmulatorCaptureMediaPage;
 }());
 
-//# sourceMappingURL=search.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+//# sourceMappingURL=capture-media.js.map
 
 /***/ })
 

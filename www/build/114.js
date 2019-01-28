@@ -1,32 +1,18 @@
 webpackJsonp([114],{
 
-<<<<<<< HEAD
-/***/ 1788:
-=======
-/***/ 1855:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1790:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonCalendarListPageModule", function() { return AddonCalendarListPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonCompetencyPlanPageModule", function() { return AddonCompetencyPlanPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__list__ = __webpack_require__(1912);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonCompetencyCompetencySummaryPageModule", function() { return AddonCompetencyCompetencySummaryPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__competencysummary__ = __webpack_require__(1983);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__plan__ = __webpack_require__(1923);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -52,85 +38,44 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
 
-var AddonCalendarListPageModule = /** @class */ (function () {
-    function AddonCalendarListPageModule() {
+var AddonCompetencyPlanPageModule = /** @class */ (function () {
+    function AddonCompetencyPlanPageModule() {
     }
-    AddonCalendarListPageModule = __decorate([
+    AddonCompetencyPlanPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_6__list__["a" /* AddonCalendarListPage */],
-=======
-var AddonCompetencyCompetencySummaryPageModule = /** @class */ (function () {
-    function AddonCompetencyCompetencySummaryPageModule() {
-    }
-    AddonCompetencyCompetencySummaryPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__competencysummary__["a" /* AddonCompetencyCompetencySummaryPage */],
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+                __WEBPACK_IMPORTED_MODULE_6__plan__["a" /* AddonCompetencyPlanPage */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
                 __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
-<<<<<<< HEAD
                 __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__list__["a" /* AddonCalendarListPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__plan__["a" /* AddonCompetencyPlanPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], AddonCalendarListPageModule);
-    return AddonCalendarListPageModule;
+    ], AddonCompetencyPlanPageModule);
+    return AddonCompetencyPlanPageModule;
 }());
 
-//# sourceMappingURL=list.module.js.map
+//# sourceMappingURL=plan.module.js.map
 
 /***/ }),
 
-/***/ 1912:
+/***/ 1923:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonCalendarListPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonCompetencyPlanPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_calendar__ = __webpack_require__(247);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_helper__ = __webpack_require__(926);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_courses_providers_courses__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_utils__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_local_notifications__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_course_picker_menu_course_picker_menu_popover__ = __webpack_require__(940);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_app__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_split_view_split_view__ = __webpack_require__(104);
-=======
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__competencysummary__["a" /* AddonCompetencyCompetencySummaryPage */]),
-                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ],
-        })
-    ], AddonCompetencyCompetencySummaryPageModule);
-    return AddonCompetencyCompetencySummaryPageModule;
-}());
-
-//# sourceMappingURL=competencysummary.module.js.map
-
-/***/ }),
-
-/***/ 1983:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonCompetencyCompetencySummaryPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_split_view_split_view__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_competency__ = __webpack_require__(153);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_split_view_split_view__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_competency__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_helper__ = __webpack_require__(391);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -153,400 +98,130 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-=======
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+
+
+
 
 
 
 
 
 /**
-<<<<<<< HEAD
- * Page that displays the list of calendar events.
- */
-var AddonCalendarListPage = /** @class */ (function () {
-    function AddonCalendarListPage(translate, calendarProvider, navParams, domUtils, coursesProvider, utils, calendarHelper, sitesProvider, localNotificationsProvider, popoverCtrl, eventsProvider, navCtrl, appProvider) {
-        var _this = this;
-        this.translate = translate;
-        this.calendarProvider = calendarProvider;
-        this.domUtils = domUtils;
-        this.coursesProvider = coursesProvider;
-        this.utils = utils;
-        this.calendarHelper = calendarHelper;
-        this.popoverCtrl = popoverCtrl;
-        this.navCtrl = navCtrl;
-        this.daysLoaded = 0;
-        this.emptyEventsTimes = 0; // Variable to identify consecutive calls returning 0 events.
-        this.categoriesRetrieved = false;
-        this.getCategories = false;
-        this.allCourses = {
-            id: -1,
-            fullname: this.translate.instant('core.fulllistofcourses'),
-            category: -1
-        };
-        this.categories = {};
-        this.eventsLoaded = false;
-        this.events = [];
-        this.notificationsEnabled = false;
-        this.filteredEvents = [];
-        this.canLoadMore = false;
-        this.filter = {
-            course: this.allCourses
-        };
-        this.siteHomeId = sitesProvider.getCurrentSite().getSiteHomeId();
-        this.notificationsEnabled = localNotificationsProvider.isAvailable();
-        if (this.notificationsEnabled) {
-            // Re-schedule events if default time changes.
-            this.obsDefaultTimeChange = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_3__providers_calendar__["a" /* AddonCalendarProvider */].DEFAULT_NOTIFICATION_TIME_CHANGED, function () {
-                calendarProvider.scheduleEventsNotifications(_this.events);
-            }, sitesProvider.getCurrentSiteId());
-        }
-        this.eventId = navParams.get('eventId') || false;
-=======
  * Page that displays a learning plan.
  */
-var AddonCompetencyCompetencySummaryPage = /** @class */ (function () {
-    function AddonCompetencyCompetencySummaryPage(navCtrl, navParams, domUtils, svComponent, competencyProvider) {
+var AddonCompetencyPlanPage = /** @class */ (function () {
+    function AddonCompetencyPlanPage(navCtrl, navParams, translate, appProvider, domUtils, svComponent, competencyProvider, competencyHelperProvider) {
         this.navCtrl = navCtrl;
+        this.translate = translate;
+        this.appProvider = appProvider;
         this.domUtils = domUtils;
         this.svComponent = svComponent;
         this.competencyProvider = competencyProvider;
-        this.competencyLoaded = false;
-        this.competencyId = navParams.get('competencyId');
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+        this.competencyHelperProvider = competencyHelperProvider;
+        this.planLoaded = false;
+        this.planId = navParams.get('planId');
     }
     /**
      * View loaded.
      */
-<<<<<<< HEAD
-    AddonCalendarListPage.prototype.ionViewDidLoad = function () {
+    AddonCompetencyPlanPage.prototype.ionViewDidLoad = function () {
         var _this = this;
-        if (this.eventId) {
-            // There is an event to load, open the event in a new state.
-            this.gotoEvent(this.eventId);
-        }
-        this.fetchData().then(function () {
-            if (!_this.eventId && _this.splitviewCtrl.isOn() && _this.events.length > 0) {
-                // Take first and load it.
-                _this.gotoEvent(_this.events[0].id);
-            }
-        }).finally(function () {
-            _this.eventsLoaded = true;
+        this.fetchLearningPlan().finally(function () {
+            _this.planLoaded = true;
         });
     };
     /**
-     * Fetch all the data required for the view.
-     *
-     * @param {boolean} [refresh] Empty events array first.
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonCalendarListPage.prototype.fetchData = function (refresh) {
-        var _this = this;
-        if (refresh === void 0) { refresh = false; }
-        this.daysLoaded = 0;
-        this.emptyEventsTimes = 0;
-        // Load courses for the popover.
-        return this.coursesProvider.getUserCourses(false).then(function (courses) {
-            // Add "All courses".
-            courses.unshift(_this.allCourses);
-            _this.courses = courses;
-            return _this.fetchEvents(refresh);
-        });
-    };
-    /**
-     * Fetches the events and updates the view.
-     *
-     * @param {boolean} [refresh] Empty events array first.
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonCalendarListPage.prototype.fetchEvents = function (refresh) {
-        var _this = this;
-        if (refresh === void 0) { refresh = false; }
-        return this.calendarProvider.getEventsList(this.daysLoaded, __WEBPACK_IMPORTED_MODULE_3__providers_calendar__["a" /* AddonCalendarProvider */].DAYS_INTERVAL).then(function (events) {
-            _this.daysLoaded += __WEBPACK_IMPORTED_MODULE_3__providers_calendar__["a" /* AddonCalendarProvider */].DAYS_INTERVAL;
-            if (events.length === 0) {
-                _this.emptyEventsTimes++;
-                if (_this.emptyEventsTimes > 5) {
-                    _this.canLoadMore = false;
-                    if (refresh) {
-                        _this.events = [];
-                        _this.filteredEvents = [];
-                    }
-                }
-                else {
-                    // No events returned, load next events.
-                    return _this.fetchEvents();
-                }
-            }
-            else {
-                // Sort the events by timestart, they're ordered by id.
-                events.sort(function (a, b) {
-                    return a.timestart - b.timestart;
-                });
-                events.forEach(_this.calendarHelper.formatEventData.bind(_this.calendarHelper));
-                _this.getCategories = _this.shouldLoadCategories(events);
-                if (refresh) {
-                    _this.events = events;
-                }
-                else {
-                    // Filter events with same ID. Repeated events are returned once per WS call, show them only once.
-                    _this.events = _this.utils.mergeArraysWithoutDuplicates(_this.events, events, 'id');
-                }
-                _this.filteredEvents = _this.getFilteredEvents();
-                _this.canLoadMore = true;
-                // Schedule notifications for the events retrieved (might have new events).
-                _this.calendarProvider.scheduleEventsNotifications(_this.events);
-            }
-            // Resize the content so infinite loading is able to calculate if it should load more items or not.
-            // @todo: Infinite loading is not working if content is not high enough.
-            _this.content.resize();
-        }).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'addon.calendar.errorloadevents', true);
-            _this.canLoadMore = false; // Set to false to prevent infinite calls with infinite-loading.
-        }).then(function () {
-            // Success retrieving events. Get categories if needed.
-            if (_this.getCategories) {
-                _this.getCategories = false;
-                return _this.loadCategories();
-            }
-        });
-    };
-    /**
-     * Get filtered events.
-     *
-     * @return {any[]} Filtered events.
-     */
-    AddonCalendarListPage.prototype.getFilteredEvents = function () {
-        if (this.filter.course.id == -1) {
-            // No filter, display everything.
-            return this.events;
-        }
-        return this.events.filter(this.shouldDisplayEvent.bind(this));
-    };
-    /**
-     * Check if an event should be displayed based on the filter.
-     *
-     * @param {any} event Event object.
-     * @return {boolean} Whether it should be displayed.
-     */
-    AddonCalendarListPage.prototype.shouldDisplayEvent = function (event) {
-        if (event.eventtype == 'user' || event.eventtype == 'site') {
-            // User or site event, display it.
-            return true;
-        }
-        if (event.eventtype == 'category') {
-            if (!event.categoryid || !Object.keys(this.categories).length) {
-                // We can't tell if the course belongs to the category, display them all.
-                return true;
-            }
-            if (event.categoryid == this.filter.course.category) {
-                // The event is in the same category as the course, display it.
-                return true;
-            }
-            // Check parent categories.
-            var category = this.categories[this.filter.course.category];
-            while (category) {
-                if (!category.parent) {
-                    // Category doesn't have parent, stop.
-                    break;
-                }
-                if (event.categoryid == category.parent) {
-                    return true;
-                }
-                category = this.categories[category.parent];
-            }
-            return false;
-        }
-        // Show the event if it is from site home or if it matches the selected course.
-        return event.courseid === this.siteHomeId || event.courseid == this.filter.course.id;
-    };
-    /**
-     * Returns if the current state should load categories or not.
-     * @param {any[]} events Events to parse.
-     * @return {boolean}  True if categories should be loaded.
-     */
-    AddonCalendarListPage.prototype.shouldLoadCategories = function (events) {
-        if (this.categoriesRetrieved || this.getCategories) {
-            // Use previous value
-            return this.getCategories;
-        }
-        // Categories not loaded yet. We should get them if there's any category event.
-        var found = events.some(function (event) { return event.categoryid != 'undefined' && event.categoryid > 0; });
-        return found || this.getCategories;
-    };
-    /**
-     * Load categories to be able to filter events.
-     *
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonCalendarListPage.prototype.loadCategories = function () {
-        var _this = this;
-        return this.coursesProvider.getCategories(0, true).then(function (cats) {
-            _this.categoriesRetrieved = true;
-            _this.categories = {};
-            // Index categories by ID.
-            cats.forEach(function (category) {
-                _this.categories[category.id] = category;
-            });
-        }).catch(function () {
-            // Ignore errors.
-        });
-    };
-    /**
-     * Refresh the events.
-     *
-     * @param {any} refresher Refresher.
-     */
-    AddonCalendarListPage.prototype.refreshEvents = function (refresher) {
-        var _this = this;
-        var promises = [];
-        promises.push(this.calendarProvider.invalidateEventsList(this.courses));
-        if (this.categoriesRetrieved) {
-            promises.push(this.coursesProvider.invalidateCategories(0, true));
-            this.categoriesRetrieved = false;
-        }
-        Promise.all(promises).finally(function () {
-            _this.fetchData(true).finally(function () {
-=======
-    AddonCompetencyCompetencySummaryPage.prototype.ionViewDidLoad = function () {
-        var _this = this;
-        this.fetchCompetency().then(function () {
-            _this.competencyProvider.logCompetencyView(_this.competencyId).catch(function () {
-                // Ignore errors.
-            });
-        }).finally(function () {
-            _this.competencyLoaded = true;
-        });
-    };
-    /**
-     * Fetches the competency summary and updates the view.
+     * Fetches the learning plan and updates the view.
      *
      * @return {Promise<void>} Promise resolved when done.
      */
-    AddonCompetencyCompetencySummaryPage.prototype.fetchCompetency = function () {
+    AddonCompetencyPlanPage.prototype.fetchLearningPlan = function () {
         var _this = this;
-        return this.competencyProvider.getCompetencySummary(this.competencyId).then(function (competency) {
-            _this.competency = competency;
+        return this.competencyProvider.getLearningPlan(this.planId).then(function (plan) {
+            plan.plan.statusname = _this.getStatusName(plan.plan.status);
+            // Get the user profile image.
+            _this.competencyHelperProvider.getProfile(plan.plan.userid).then(function (user) {
+                _this.user = user;
+            });
+            _this.plan = plan;
         }).catch(function (message) {
-            _this.domUtils.showErrorModalDefault(message, 'Error getting competency summary data.');
+            _this.domUtils.showErrorModalDefault(message, 'Error getting learning plan data.');
         });
     };
     /**
-     * Refreshes the competency summary.
+     * Navigates to a particular competency.
+     *
+     * @param {number} competencyId
+     */
+    AddonCompetencyPlanPage.prototype.openCompetency = function (competencyId) {
+        var navCtrl = this.svComponent ? this.svComponent.getMasterNav() : this.navCtrl;
+        if (this.appProvider.isWide()) {
+            navCtrl.push('AddonCompetencyCompetenciesPage', { competencyId: competencyId, planId: this.planId });
+        }
+        else {
+            navCtrl.push('AddonCompetencyCompetencyPage', { competencyId: competencyId, planId: this.planId });
+        }
+    };
+    /**
+     * Convenience function to get the status name translated.
+     *
+     * @param {number} status
+     * @return {string}
+     */
+    AddonCompetencyPlanPage.prototype.getStatusName = function (status) {
+        var statusTranslateName;
+        switch (status) {
+            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].STATUS_DRAFT:
+                statusTranslateName = 'draft';
+                break;
+            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].REVIEW_STATUS_IN_REVIEW:
+                statusTranslateName = 'inreview';
+                break;
+            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].REVIEW_STATUS_WAITING_FOR_REVIEW:
+                statusTranslateName = 'waitingforreview';
+                break;
+            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].STATUS_ACTIVE:
+                statusTranslateName = 'active';
+                break;
+            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].STATUS_COMPLETE:
+                statusTranslateName = 'complete';
+                break;
+            default:
+                // We can use the current status name.
+                return String(status);
+        }
+        return this.translate.instant('addon.competency.planstatus' + statusTranslateName);
+    };
+    /**
+     * Refreshes the learning plan.
      *
      * @param {any} refresher Refresher.
      */
-    AddonCompetencyCompetencySummaryPage.prototype.refreshCompetency = function (refresher) {
+    AddonCompetencyPlanPage.prototype.refreshLearningPlan = function (refresher) {
         var _this = this;
-        this.competencyProvider.invalidateCompetencySummary(this.competencyId).finally(function () {
-            _this.fetchCompetency().finally(function () {
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+        this.competencyProvider.invalidateLearningPlan(this.planId).finally(function () {
+            _this.fetchLearningPlan().finally(function () {
                 refresher.complete();
             });
         });
     };
-    /**
-<<<<<<< HEAD
-     * Show the context menu.
-     *
-     * @param {MouseEvent} event Event.
-     */
-    AddonCalendarListPage.prototype.openCourseFilter = function (event) {
-        var _this = this;
-        var popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_10__components_course_picker_menu_course_picker_menu_popover__["a" /* CoreCoursePickerMenuPopoverComponent */], {
-            courses: this.courses,
-            courseId: this.filter.course.id
-        });
-        popover.onDidDismiss(function (course) {
-            if (course) {
-                _this.filter.course = course;
-                _this.domUtils.scrollToTop(_this.content);
-                _this.filteredEvents = _this.getFilteredEvents();
-            }
-        });
-        popover.present({
-            ev: event
-        });
-    };
-    /**
-     * Open calendar events settings.
-     */
-    AddonCalendarListPage.prototype.openSettings = function () {
-        this.navCtrl.push('AddonCalendarSettingsPage');
-    };
-    /**
-     * Navigate to a particular event.
-     *
-     * @param {number} eventId Event to load.
-     */
-    AddonCalendarListPage.prototype.gotoEvent = function (eventId) {
-        this.eventId = eventId;
-        this.splitviewCtrl.push('AddonCalendarEventPage', { id: eventId });
-    };
-    /**
-     * Page destroyed.
-     */
-    AddonCalendarListPage.prototype.ngOnDestroy = function () {
-        this.obsDefaultTimeChange && this.obsDefaultTimeChange.off();
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
-    ], AddonCalendarListPage.prototype, "content", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_13__components_split_view_split_view__["a" /* CoreSplitViewComponent */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_13__components_split_view_split_view__["a" /* CoreSplitViewComponent */])
-    ], AddonCalendarListPage.prototype, "splitviewCtrl", void 0);
-    AddonCalendarListPage = __decorate([
+    AddonCompetencyPlanPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-calendar-list',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\calendar\pages\list\list.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.calendar.calendarevents\' | translate }}</ion-title>\n\n        <ion-buttons end>\n\n            <button *ngIf="courses && courses.length" ion-button icon-only (click)="openCourseFilter($event)" [attr.aria-label]="\'core.courses.filter\' | translate">\n\n                <ion-icon name="funnel"></ion-icon>\n\n            </button>\n\n            <core-context-menu>\n\n                <core-context-menu-item [hidden]="!notificationsEnabled" [priority]="600" [content]="\'core.settings.settings\' | translate" (action)="openSettings()" [iconAction]="\'cog\'"></core-context-menu-item>\n\n            </core-context-menu>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<core-split-view>\n\n    <ion-content>\n\n        <ion-refresher [enabled]="eventsLoaded" (ionRefresh)="refreshEvents($event)">\n\n            <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n        </ion-refresher>\n\n        <core-loading [hideUntil]="eventsLoaded">\n\n            <core-empty-box *ngIf="!filteredEvents || !filteredEvents.length" icon="calendar" [message]="\'addon.calendar.noevents\' | translate">\n\n            </core-empty-box>\n\n\n\n            <ion-list *ngIf="filteredEvents && filteredEvents.length" no-margin>\n\n                <a ion-item text-wrap *ngFor="let event of filteredEvents" [title]="event.name" (click)="gotoEvent(event.id)" [class.core-split-item-selected]="event.id == eventId">\n\n                    <img *ngIf="event.moduleIcon" src="{{event.moduleIcon}}" item-start class="core-module-icon">\n\n                    <core-icon *ngIf="event.icon && !event.moduleIcon" [name]="event.icon" item-start></core-icon>\n\n                    <h2><core-format-text [text]="event.name"></core-format-text></h2>\n\n                    <p>{{ event.timestart | coreToLocaleString }}</p>\n\n                </a>\n\n            </ion-list>\n\n\n\n            <ion-infinite-scroll [enabled]="canLoadMore" (ionInfinite)="$event.waitFor(fetchEvents())">\n\n               <ion-infinite-scroll-content></ion-infinite-scroll-content>\n\n            </ion-infinite-scroll>\n\n        </core-loading>\n\n    </ion-content>\n\n</core-split-view>'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\calendar\pages\list\list.html"*/,
+            selector: 'page-addon-competency-plan',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\competency\pages\plan\plan.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title *ngIf="plan">{{plan.plan.name}}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="planLoaded" (ionRefresh)="refreshLearningPlan($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-loading [hideUntil]="planLoaded">\n\n        <ion-card *ngIf="user">\n\n            <ion-item text-wrap>\n\n                <ion-avatar *ngIf="user.profileimageurl && user.profileimageurl !== true" item-start>\n\n                    <img  [src]="user.profileimageurl" [alt]="\'core.pictureof\' | translate:{$a: user.fullname}" core-external-content>\n\n                </ion-avatar>\n\n                <span *ngIf="user.profileimageurl === true" item-start>\n\n                    <ion-icon name="person"></ion-icon>\n\n                </span>\n\n                <h2><core-format-text [text]="user.fullname"></core-format-text></h2>\n\n            </ion-item>\n\n       </ion-card>\n\n        <ion-card *ngIf="plan">\n\n            <ion-list>\n\n                <ion-item text-wrap>\n\n                    <strong>{{ \'addon.competency.status\' | translate }}</strong>:\n\n                    {{ plan.plan.statusname }}\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="plan.plan.duedate > 0">\n\n                    <strong>{{ \'addon.competency.duedate\' | translate }}</strong>:\n\n                    {{ plan.plan.duedate | coreToLocaleString }}\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="plan.plan.template">\n\n                    <strong>{{ \'addon.competency.template\' | translate }}</strong>:\n\n                    {{ plan.plan.template.shortname }}\n\n                </ion-item>\n\n                <ion-item text-wrap>\n\n                    <strong>{{ \'addon.competency.progress\' | translate }}</strong>:\n\n                    {{ \'addon.competency.xcompetenciesproficientoutofy\' | translate: {$a: {x: plan.proficientcompetencycount, y: plan.competencycount} } }}\n\n                    <core-progress-bar [progress]="plan.proficientcompetencypercentage" [text]="plan.proficientcompetencypercentageformatted"></core-progress-bar>\n\n                </ion-item>\n\n            </ion-list>\n\n        </ion-card>\n\n        <ion-card *ngIf="plan">\n\n            <ion-card-header text-wrap>{{ \'addon.competency.learningplancompetencies\' | translate }}</ion-card-header>\n\n            <ion-list>\n\n                <ion-item text-wrap *ngIf="plan.competencycount == 0">\n\n                    {{ \'addon.competency.nocompetencies\' | translate }}\n\n                </ion-item>\n\n                <a ion-item text-wrap *ngFor="let competency of plan.competencies" (click)="openCompetency(competency.competency.id)" [title]="competency.competency.shortname">\n\n                    {{competency.competency.shortname}} <small>{{competency.competency.idnumber}}</small>\n\n                    <ion-badge item-end [color]="competency.usercompetency.proficiency ? \'success\' : \'danger\'">{{ competency.usercompetency.gradename }}</ion-badge>\n\n                </a>\n\n            </ion-list>\n\n        </ion-card>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\competency\pages\plan\plan.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_3__providers_calendar__["a" /* AddonCalendarProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_5__core_courses_providers_courses__["a" /* CoreCoursesProvider */], __WEBPACK_IMPORTED_MODULE_7__providers_utils_utils__["a" /* CoreUtilsProvider */],
-            __WEBPACK_IMPORTED_MODULE_4__providers_helper__["a" /* AddonCalendarHelperProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_sites__["a" /* CoreSitesProvider */],
-            __WEBPACK_IMPORTED_MODULE_9__providers_local_notifications__["a" /* CoreLocalNotificationsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["v" /* PopoverController */],
-            __WEBPACK_IMPORTED_MODULE_11__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_12__providers_app__["a" /* CoreAppProvider */]])
-    ], AddonCalendarListPage);
-    return AddonCalendarListPage;
+        __param(5, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Optional */])()),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_app__["a" /* CoreAppProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__components_split_view_split_view__["a" /* CoreSplitViewComponent */], __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */],
+            __WEBPACK_IMPORTED_MODULE_7__providers_helper__["a" /* AddonCompetencyHelperProvider */]])
+    ], AddonCompetencyPlanPage);
+    return AddonCompetencyPlanPage;
 }());
 
-//# sourceMappingURL=list.js.map
-=======
-     * Opens the summary of a competency.
-     *
-     * @param {number} competencyId
-     */
-    AddonCompetencyCompetencySummaryPage.prototype.openCompetencySummary = function (competencyId) {
-        // Decide which navCtrl to use. If this page is inside a split view, use the split view's master nav.
-        var navCtrl = this.svComponent ? this.svComponent.getMasterNav() : this.navCtrl;
-        navCtrl.push('AddonCompetencyCompetencySummaryPage', { competencyId: competencyId });
-    };
-    AddonCompetencyCompetencySummaryPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-competency-competency-summary',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\competency\pages\competencysummary\competencysummary.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title *ngIf="competency">{{ competency.competency.shortname }} <small>{{ competency.competency.idnumber }}</small></ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="competencyLoaded" (ionRefresh)="refreshCompetency($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="competencyLoaded">\n        <ion-card *ngIf="competency">\n            <ion-item text-wrap *ngIf="competency.competency.description">\n                <core-format-text [text]="competency.competency.description"></core-format-text>\n            </ion-item>\n            <ion-item text-wrap>\n                <strong>{{ \'addon.competency.path\' | translate }}</strong>\n                {{ competency.comppath.framework.name }}\n                <span *ngFor="let ancestor of competency.comppath.ancestors">\n                    &nbsp;/&nbsp;<a (click)="openCompetencySummary(ancestor.id)">{{ ancestor.name }}</a>\n                </span>\n            </ion-item>\n        </ion-card>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\competency\pages\competencysummary\competencysummary.html"*/,
-        }),
-        __param(3, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Optional */])()),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
-            __WEBPACK_IMPORTED_MODULE_3__components_split_view_split_view__["a" /* CoreSplitViewComponent */], __WEBPACK_IMPORTED_MODULE_4__providers_competency__["a" /* AddonCompetencyProvider */]])
-    ], AddonCompetencyCompetencySummaryPage);
-    return AddonCompetencyCompetencySummaryPage;
-}());
-
-//# sourceMappingURL=competencysummary.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+//# sourceMappingURL=plan.js.map
 
 /***/ })
 

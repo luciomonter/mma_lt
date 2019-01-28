@@ -1,30 +1,17 @@
 webpackJsonp([10],{
 
-<<<<<<< HEAD
-/***/ 1899:
-=======
-/***/ 1969:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1905:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreUserProfilePageModule", function() { return CoreUserProfilePageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreViewerTextPageModule", function() { return CoreViewerTextPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__profile__ = __webpack_require__(2027);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(16);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreViewerIframePageModule", function() { return CoreViewerIframePageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__iframe__ = __webpack_require__(2101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__text__ = __webpack_require__(2046);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -49,81 +36,41 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
 
-var CoreUserProfilePageModule = /** @class */ (function () {
-    function CoreUserProfilePageModule() {
+/**
+ * Module to lazy load the page.
+ */
+var CoreViewerTextPageModule = /** @class */ (function () {
+    function CoreViewerTextPageModule() {
     }
-    CoreUserProfilePageModule = __decorate([
+    CoreViewerTextPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_3__profile__["a" /* CoreUserProfilePage */],
+                __WEBPACK_IMPORTED_MODULE_3__text__["a" /* CoreViewerTextPage */]
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* CoreComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__profile__["a" /* CoreUserProfilePage */]),
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__text__["a" /* CoreViewerTextPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ],
-        })
-    ], CoreUserProfilePageModule);
-    return CoreUserProfilePageModule;
-}());
-
-//# sourceMappingURL=profile.module.js.map
-
-/***/ }),
-
-/***/ 2027:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreUserProfilePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_user__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_helper__ = __webpack_require__(930);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_courses_providers_courses__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_utils_mimetype__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_fileuploader_providers_helper__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_user_delegate__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_split_view_split_view__ = __webpack_require__(104);
-=======
-var CoreViewerIframePageModule = /** @class */ (function () {
-    function CoreViewerIframePageModule() {
-    }
-    CoreViewerIframePageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__iframe__["a" /* CoreViewerIframePage */]
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__iframe__["a" /* CoreViewerIframePage */])
             ]
         })
-    ], CoreViewerIframePageModule);
-    return CoreViewerIframePageModule;
+    ], CoreViewerTextPageModule);
+    return CoreViewerTextPageModule;
 }());
 
-//# sourceMappingURL=iframe.module.js.map
+//# sourceMappingURL=text.module.js.map
 
 /***/ }),
 
-/***/ 2101:
+/***/ 2046:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreViewerIframePage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreViewerTextPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_sites__ = __webpack_require__(2);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_utils_text__ = __webpack_require__(11);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -146,239 +93,37 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-<<<<<<< HEAD
-var __param = (this && this.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
-
-
-
-
-
-
-
-
-
-
-=======
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 
 
 
 /**
-<<<<<<< HEAD
- * Page that displays an user profile page.
+ * Page to render a certain text. If opened as a modal, it will have a button to close the modal.
  */
-var CoreUserProfilePage = /** @class */ (function () {
-    function CoreUserProfilePage(navParams, userProvider, userHelper, domUtils, translate, eventsProvider, coursesProvider, sitesProvider, mimetypeUtils, fileUploaderHelper, userDelegate, navCtrl, svComponent) {
-        var _this = this;
-        this.userProvider = userProvider;
-        this.userHelper = userHelper;
-        this.domUtils = domUtils;
-        this.translate = translate;
-        this.eventsProvider = eventsProvider;
-        this.coursesProvider = coursesProvider;
-        this.sitesProvider = sitesProvider;
-        this.mimetypeUtils = mimetypeUtils;
-        this.fileUploaderHelper = fileUploaderHelper;
-        this.userDelegate = userDelegate;
-        this.navCtrl = navCtrl;
-        this.svComponent = svComponent;
-        this.userLoaded = false;
-        this.isLoadingHandlers = false;
-        this.isDeleted = false;
-        this.canChangeProfilePicture = false;
-        this.actionHandlers = [];
-        this.newPageHandlers = [];
-        this.communicationHandlers = [];
-        this.userId = navParams.get('userId');
-        this.courseId = navParams.get('courseId');
-        this.site = this.sitesProvider.getCurrentSite();
-        // Allow to change the profile image only in the app profile page.
-        this.canChangeProfilePicture =
-            (!this.courseId || this.courseId == this.site.getSiteHomeId()) &&
-                this.userId == this.site.getUserId() &&
-                this.site.canUploadFiles() &&
-                this.site.wsAvailable('core_user_update_picture') &&
-                !this.userProvider.isUpdatePictureDisabledInSite(this.site);
-        this.obsProfileRefreshed = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_2__providers_user__["a" /* CoreUserProvider */].PROFILE_REFRESHED, function (data) {
-            if (_this.user && typeof data.user != 'undefined') {
-                _this.user.email = data.user.email;
-                _this.user.address = _this.userHelper.formatAddress('', data.user.city, data.user.country);
-            }
-        }, sitesProvider.getCurrentSiteId());
-    }
-    /**
-     * View loaded.
-     */
-    CoreUserProfilePage.prototype.ionViewDidLoad = function () {
-        var _this = this;
-        this.fetchUser().then(function () {
-            return _this.userProvider.logView(_this.userId, _this.courseId).catch(function (error) {
-                _this.isDeleted = error.errorcode === 'userdeleted';
-            });
-        }).finally(function () {
-            _this.userLoaded = true;
-        });
-    };
-    /**
-     * Fetches the user and updates the view.
-     */
-    CoreUserProfilePage.prototype.fetchUser = function () {
-        var _this = this;
-        return this.userProvider.getProfile(this.userId, this.courseId).then(function (user) {
-            user.address = _this.userHelper.formatAddress('', user.city, user.country);
-            user.roles = _this.userHelper.formatRoleList(user.roles);
-            _this.user = user;
-            _this.title = user.fullname;
-            _this.subscription = _this.userDelegate.getProfileHandlersFor(user, _this.courseId).subscribe(function (handlers) {
-                _this.actionHandlers = [];
-                _this.newPageHandlers = [];
-                _this.communicationHandlers = [];
-                handlers.forEach(function (handler) {
-                    switch (handler.type) {
-                        case __WEBPACK_IMPORTED_MODULE_11__providers_user_delegate__["a" /* CoreUserDelegate */].TYPE_COMMUNICATION:
-                            _this.communicationHandlers.push(handler.data);
-                            break;
-                        case __WEBPACK_IMPORTED_MODULE_11__providers_user_delegate__["a" /* CoreUserDelegate */].TYPE_ACTION:
-                            _this.actionHandlers.push(handler.data);
-                            break;
-                        case __WEBPACK_IMPORTED_MODULE_11__providers_user_delegate__["a" /* CoreUserDelegate */].TYPE_NEW_PAGE:
-                        default:
-                            _this.newPageHandlers.push(handler.data);
-                            break;
-                    }
-                });
-                _this.isLoadingHandlers = !_this.userDelegate.areHandlersLoaded(user.id);
-            });
-        }).catch(function (error) {
-            // Error is null for deleted users, do not show the modal.
-            if (error) {
-                _this.domUtils.showErrorModal(error);
-            }
-        });
-    };
-    /**
-     * Opens dialog to change profile picture.
-     */
-    CoreUserProfilePage.prototype.changeProfilePicture = function () {
-        var _this = this;
-        var maxSize = -1, title = this.translate.instant('core.user.newpicture'), mimetypes = this.mimetypeUtils.getGroupMimeInfo('image', 'mimetypes');
-        return this.fileUploaderHelper.selectAndUploadFile(maxSize, title, mimetypes).then(function (result) {
-            var modal = _this.domUtils.showModalLoading('core.sending', true);
-            return _this.userProvider.changeProfilePicture(result.itemid, _this.userId).then(function (profileImageURL) {
-                _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_2__providers_user__["a" /* CoreUserProvider */].PROFILE_PICTURE_UPDATED, {
-                    userId: _this.userId,
-                    picture: profileImageURL
-                });
-                _this.sitesProvider.updateSiteInfo(_this.site.getId());
-                _this.refreshUser();
-            }).finally(function () {
-                modal.dismiss();
-            });
-        }).catch(function (message) {
-            if (message) {
-                _this.domUtils.showErrorModal(message);
-            }
-        });
-    };
-    /**
-     * Refresh the user.
-     *
-     * @param {any} refresher Refresher.
-     */
-    CoreUserProfilePage.prototype.refreshUser = function (refresher) {
-        var _this = this;
-        var promises = [];
-        promises.push(this.userProvider.invalidateUserCache(this.userId));
-        promises.push(this.coursesProvider.invalidateUserNavigationOptions());
-        promises.push(this.coursesProvider.invalidateUserAdministrationOptions());
-        Promise.all(promises).finally(function () {
-            _this.fetchUser().finally(function () {
-                _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_2__providers_user__["a" /* CoreUserProvider */].PROFILE_REFRESHED, {
-                    courseId: _this.courseId,
-                    userId: _this.userId,
-                    user: _this.user
-                }, _this.site.getId());
-                refresher && refresher.complete();
-            });
-        });
-    };
-    /**
-     * Open the page with the user details.
-     */
-    CoreUserProfilePage.prototype.openUserDetails = function () {
-        // Decide which navCtrl to use. If this page is inside a split view, use the split view's master nav.
-        var navCtrl = this.svComponent ? this.svComponent.getMasterNav() : this.navCtrl;
-        navCtrl.push('CoreUserAboutPage', { courseId: this.courseId, userId: this.userId });
-    };
-    /**
-     * A handler was clicked.
-     *
-     * @param {Event} event Click event.
-     * @param {CoreUserProfileHandlerData} handler Handler that was clicked.
-     */
-    CoreUserProfilePage.prototype.handlerClicked = function (event, handler) {
-        // Decide which navCtrl to use. If this page is inside a split view, use the split view's master nav.
-        var navCtrl = this.svComponent ? this.svComponent.getMasterNav() : this.navCtrl;
-        handler.action(event, navCtrl, this.user, this.courseId);
-    };
-    /**
-     * Page destroyed.
-     */
-    CoreUserProfilePage.prototype.ngOnDestroy = function () {
-        this.subscription && this.subscription.unsubscribe();
-        this.obsProfileRefreshed && this.obsProfileRefreshed.off();
-    };
-    CoreUserProfilePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-user-profile',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\core\user\pages\profile\profile.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="userLoaded" (ionRefresh)="refreshUser($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-loading [hideUntil]="userLoaded">\n\n        <ion-list *ngIf="user && !isDeleted">\n\n            <ion-item text-center>\n\n                <div class="item-avatar-center">\n\n                    <img class="avatar" [src]="user.profileimageurl" core-external-content alt="{{ \'core.pictureof\' | translate:{$a: user.fullname} }}" role="presentation" onError="this.src=\'assets/img/user-avatar.png\'">\n\n                    <ion-icon name="create" class="core-icon-foreground" *ngIf="canChangeProfilePicture" (click)="changeProfilePicture()"></ion-icon>\n\n                </div>\n\n                <h2><core-format-text [text]="user.fullname"></core-format-text></h2>\n\n                <p><core-format-text *ngIf="user.address" [text]="user.address"></core-format-text></p>\n\n                <p *ngIf="user.roles">\n\n                    <strong>{{ \'core.user.roles\' | translate}}</strong>{{\'core.labelsep\' | translate}}\n\n                    <core-format-text [text]="user.roles"></core-format-text>\n\n                </p>\n\n            </ion-item>\n\n\n\n            <ion-grid class="core-user-communication-handlers" *ngIf="(communicationHandlers && communicationHandlers.length) || isLoadingHandlers">\n\n                <ion-row no-padding justify-content-between *ngIf="communicationHandlers && communicationHandlers.length">\n\n                    <ion-col align-self-center *ngFor="let comHandler of communicationHandlers" text-center>\n\n                        <a (click)="handlerClicked($event, comHandler)" [ngClass]="[\'core-user-profile-handler\', comHandler.class]" title="{{comHandler.title | translate}}" tappable>\n\n                            <core-icon [name]="comHandler.icon"></core-icon>\n\n                            <p>{{comHandler.title | translate}}</p>\n\n                        </a>\n\n                    </ion-col>\n\n                </ion-row>\n\n                <ion-row no-padding>\n\n                    <ion-col text-center class="core-loading-handlers" *ngIf="isLoadingHandlers">\n\n                        <ion-spinner></ion-spinner>\n\n                    </ion-col>\n\n                </ion-row>\n\n            </ion-grid>\n\n\n\n            <a ion-item text-wrap class="core-user-profile-handler" (click)="openUserDetails()" title="{{ \'core.user.details\' | translate }}">\n\n                <ion-icon name="person" item-start></ion-icon>\n\n                <h2>{{ \'core.user.details\' | translate }}</h2>\n\n            </a>\n\n            <ion-item text-center class="core-loading-handlers" *ngIf="isLoadingHandlers">\n\n                <ion-spinner></ion-spinner>\n\n            </ion-item>\n\n\n\n            <a *ngFor="let npHandler of newPageHandlers" ion-item text-wrap [ngClass]="[\'core-user-profile-handler\', npHandler.class]" (click)="handlerClicked($event, npHandler)" [hidden]="npHandler.hidden" title="{{ npHandler.title | translate }}">\n\n                <core-icon *ngIf="npHandler.icon" [name]="npHandler.icon" item-start></core-icon>\n\n                <h2>{{ npHandler.title | translate }}</h2>\n\n            </a>\n\n\n\n            <ion-item *ngIf="actionHandlers && actionHandlers.length">\n\n                <button *ngFor="let actHandler of actionHandlers" ion-button block outline [ngClass]="[\'core-user-profile-handler\', actHandler.class]" (click)="handlerClicked($event, actHandler)" [hidden]="actHandler.hidden" title="{{ actHandler.title | translate }}" icon-start [disabled]="actHandler.spinner">\n\n                    <core-icon *ngIf="actHandler.icon" [name]="actHandler.icon" start></core-icon>\n\n                    <span>{{ actHandler.title | translate }}</span>\n\n                    <ion-spinner *ngIf="actHandler.spinner"></ion-spinner>\n\n                </button>\n\n            </ion-item>\n\n        </ion-list>\n\n        <core-empty-box *ngIf="!user && !isDeleted" icon="person" [message]=" \'core.user.detailsnotavailable\' | translate"></core-empty-box>\n\n\n\n        <core-empty-box *ngIf="isDeleted" icon="person" [message]="\'core.userdeleted\' | translate"></core-empty-box>\n\n    </core-loading>\n\n</ion-content>'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\core\user\pages\profile\profile.html"*/,
-        }),
-        __param(12, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Optional */])()),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_user__["a" /* CoreUserProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_helper__["a" /* CoreUserHelperProvider */],
-            __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_5__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_7__providers_events__["a" /* CoreEventsProvider */],
-            __WEBPACK_IMPORTED_MODULE_6__core_courses_providers_courses__["a" /* CoreCoursesProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_sites__["a" /* CoreSitesProvider */],
-            __WEBPACK_IMPORTED_MODULE_9__providers_utils_mimetype__["a" /* CoreMimetypeUtilsProvider */], __WEBPACK_IMPORTED_MODULE_10__core_fileuploader_providers_helper__["a" /* CoreFileUploaderHelperProvider */],
-            __WEBPACK_IMPORTED_MODULE_11__providers_user_delegate__["a" /* CoreUserDelegate */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_12__components_split_view_split_view__["a" /* CoreSplitViewComponent */]])
-    ], CoreUserProfilePage);
-    return CoreUserProfilePage;
-}());
-
-//# sourceMappingURL=profile.js.map
-=======
- * Page to display a URL in an iframe.
- */
-var CoreViewerIframePage = /** @class */ (function () {
-    //   "yes" -> Always auto-login.
-    //   "no" -> Never auto-login.
-    //   "check" -> Auto-login only if it points to the current site. Default value.
-    function CoreViewerIframePage(params, sitesProvider) {
-        var _this = this;
+var CoreViewerTextPage = /** @class */ (function () {
+    function CoreViewerTextPage(viewCtrl, params, textUtils) {
+        this.viewCtrl = viewCtrl;
         this.title = params.get('title');
-        this.autoLogin = params.get('autoLogin') || 'check';
-        var url = params.get('url'), currentSite = sitesProvider.getCurrentSite();
-        if (currentSite && (this.autoLogin == 'yes' || (this.autoLogin == 'check' && currentSite.containsUrl(url)))) {
-            // Format the URL to add auto-login.
-            currentSite.getAutoLoginUrl(url, false).then(function (url) {
-                _this.url = url;
-            });
-        }
-        else {
-            this.url = url;
-        }
+        this.content = params.get('content');
+        this.component = params.get('component');
+        this.componentId = params.get('componentId');
+        this.files = params.get('files');
     }
-    CoreViewerIframePage = __decorate([
+    /**
+     * Close modal.
+     */
+    CoreViewerTextPage.prototype.closeModal = function () {
+        this.viewCtrl.dismiss();
+    };
+    CoreViewerTextPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-viewer-iframe',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\viewer\pages\iframe\iframe.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ title }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <core-loading [hideUntil]="url">\n        <core-iframe *ngIf="url" [src]="url"></core-iframe>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\viewer\pages\iframe\iframe.html"*/,
+            selector: 'page-core-viewer-text',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\viewer\pages\text\text.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ title }}</ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n\n                <ion-icon name="close"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n\n    <core-format-text [text]="content" [component]="component" [componentId]="componentId"></core-format-text>\n\n\n\n    <ion-card *ngIf="files && files.length">\n\n        <core-file *ngFor="let file of files" [file]="file" [component]="component" [componentId]="componentId"></core-file>\n\n    </ion-card>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\viewer\pages\text\text.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */]])
-    ], CoreViewerIframePage);
-    return CoreViewerIframePage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["D" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_utils_text__["a" /* CoreTextUtilsProvider */]])
+    ], CoreViewerTextPage);
+    return CoreViewerTextPage;
 }());
 
-//# sourceMappingURL=iframe.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+//# sourceMappingURL=text.js.map
 
 /***/ })
 

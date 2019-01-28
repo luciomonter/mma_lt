@@ -1,32 +1,18 @@
 webpackJsonp([102],{
 
-<<<<<<< HEAD
-/***/ 1802:
-=======
-/***/ 1873:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1805:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModAssignEditFeedbackModalPageModule", function() { return AddonModAssignEditFeedbackModalPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModAssignSubmissionReviewPageModule", function() { return AddonModAssignSubmissionReviewPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__edit_feedback_modal__ = __webpack_require__(1926);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(925);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModAssignIndexPageModule", function() { return AddonModAssignIndexPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(945);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(2001);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(925);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__submission_review__ = __webpack_require__(1938);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -52,75 +38,42 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
 
-var AddonModAssignEditFeedbackModalPageModule = /** @class */ (function () {
-    function AddonModAssignEditFeedbackModalPageModule() {
+var AddonModAssignSubmissionReviewPageModule = /** @class */ (function () {
+    function AddonModAssignSubmissionReviewPageModule() {
     }
-    AddonModAssignEditFeedbackModalPageModule = __decorate([
+    AddonModAssignSubmissionReviewPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__edit_feedback_modal__["a" /* AddonModAssignEditFeedbackModalPage */]
+                __WEBPACK_IMPORTED_MODULE_6__submission_review__["a" /* AddonModAssignSubmissionReviewPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* AddonModAssignComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__edit_feedback_modal__["a" /* AddonModAssignEditFeedbackModalPage */]),
-                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ]
-        })
-    ], AddonModAssignEditFeedbackModalPageModule);
-    return AddonModAssignEditFeedbackModalPageModule;
-}());
-
-//# sourceMappingURL=edit-feedback-modal.module.js.map
-
-/***/ }),
-
-/***/ 1926:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModAssignEditFeedbackModalPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_feedback_delegate__ = __webpack_require__(113);
-=======
-var AddonModAssignIndexPageModule = /** @class */ (function () {
-    function AddonModAssignIndexPageModule() {
-    }
-    AddonModAssignIndexPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModAssignIndexPage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModAssignComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModAssignIndexPage */]),
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* AddonModAssignComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__submission_review__["a" /* AddonModAssignSubmissionReviewPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], AddonModAssignIndexPageModule);
-    return AddonModAssignIndexPageModule;
+    ], AddonModAssignSubmissionReviewPageModule);
+    return AddonModAssignSubmissionReviewPageModule;
 }());
 
-//# sourceMappingURL=index.module.js.map
+//# sourceMappingURL=submission-review.module.js.map
 
 /***/ }),
 
-/***/ 2001:
+/***/ 1938:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModAssignIndexPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModAssignSubmissionReviewPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(404);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_course_providers_course__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_assign__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_submission_submission__ = __webpack_require__(396);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -146,136 +99,143 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-<<<<<<< HEAD
+
 
 
 /**
- * Modal that allows editing a feedback plugin.
+ * Page that displays a submission.
  */
-var AddonModAssignEditFeedbackModalPage = /** @class */ (function () {
-    function AddonModAssignEditFeedbackModalPage(params, viewCtrl, domUtils, translate, feedbackDelegate) {
-        this.viewCtrl = viewCtrl;
-        this.domUtils = domUtils;
-        this.translate = translate;
-        this.feedbackDelegate = feedbackDelegate;
+var AddonModAssignSubmissionReviewPage = /** @class */ (function () {
+    function AddonModAssignSubmissionReviewPage(navParams, navCtrl, courseProvider, appProvider, assignProvider) {
+        this.navCtrl = navCtrl;
+        this.courseProvider = courseProvider;
+        this.appProvider = appProvider;
+        this.assignProvider = assignProvider;
         this.forceLeave = false; // To allow leaving the page without checking for changes.
-        this.assign = params.get('assign');
-        this.submission = params.get('submission');
-        this.plugin = params.get('plugin');
-        this.userId = params.get('userId');
+        this.moduleId = navParams.get('moduleId');
+        this.courseId = navParams.get('courseId');
+        this.submitId = navParams.get('submitId');
+        this.blindId = navParams.get('blindId');
+        this.showGrade = !!navParams.get('showGrade');
     }
+    /**
+     * Component being initialized.
+     */
+    AddonModAssignSubmissionReviewPage.prototype.ngOnInit = function () {
+        var _this = this;
+        this.fetchSubmission().finally(function () {
+            _this.loaded = true;
+        });
+    };
     /**
      * Check if we can leave the page or not.
      *
      * @return {boolean|Promise<void>} Resolved if we can leave it, rejected if not.
      */
-    AddonModAssignEditFeedbackModalPage.prototype.ionViewCanLeave = function () {
-        var _this = this;
-        if (this.forceLeave) {
+    AddonModAssignSubmissionReviewPage.prototype.ionViewCanLeave = function () {
+        if (!this.submissionComponent || this.forceLeave) {
             return true;
         }
-        return this.hasDataChanged().then(function (changed) {
-            if (changed) {
-                return _this.domUtils.showConfirm(_this.translate.instant('core.confirmcanceledit'));
-            }
+        // Check if data has changed.
+        return this.submissionComponent.canLeave();
+    };
+    /**
+     * User entered the page.
+     */
+    AddonModAssignSubmissionReviewPage.prototype.ionViewDidEnter = function () {
+        this.submissionComponent && this.submissionComponent.ionViewDidEnter();
+    };
+    /**
+     * User left the page.
+     */
+    AddonModAssignSubmissionReviewPage.prototype.ionViewDidLeave = function () {
+        this.submissionComponent && this.submissionComponent.ionViewDidLeave();
+    };
+    /**
+     * Get the submission.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModAssignSubmissionReviewPage.prototype.fetchSubmission = function () {
+        var _this = this;
+        return this.assignProvider.getAssignment(this.courseId, this.moduleId).then(function (assignment) {
+            _this.assign = assignment;
+            _this.title = _this.assign.name;
+            _this.blindMarking = _this.assign.blindmarking && !_this.assign.revealidentities;
+            return _this.courseProvider.getModuleBasicGradeInfo(_this.moduleId).then(function (gradeInfo) {
+                if (gradeInfo) {
+                    // Grades can be saved if simple grading.
+                    if (gradeInfo.advancedgrading && gradeInfo.advancedgrading[0] &&
+                        typeof gradeInfo.advancedgrading[0].method != 'undefined') {
+                        var method = gradeInfo.advancedgrading[0].method || 'simple';
+                        _this.canSaveGrades = method == 'simple';
+                    }
+                    else {
+                        _this.canSaveGrades = true;
+                    }
+                }
+            });
         });
     };
     /**
-     * Close modal.
+     * Refresh all the data.
      *
-     * @param {any} data Data to return to the page.
+     * @return {Promise<any>} Promise resolved when done.
      */
-    AddonModAssignEditFeedbackModalPage.prototype.closeModal = function (data) {
-        this.viewCtrl.dismiss(data);
-    };
-    /**
-     * Done editing.
-     */
-    AddonModAssignEditFeedbackModalPage.prototype.done = function () {
-        // Close the modal, sending the input data.
-        this.forceLeave = true;
-        this.closeModal(this.getInputData());
-    };
-    /**
-     * Get the input data.
-     *
-     * @return {any} Object with the data.
-     */
-    AddonModAssignEditFeedbackModalPage.prototype.getInputData = function () {
-        return this.domUtils.getDataFromForm(document.forms['addon-mod_assign-edit-feedback-form']);
-    };
-    /**
-     * Check if data has changed.
-     *
-     * @return {Promise<boolean>} Promise resolved with boolean: whether the data has changed.
-     */
-    AddonModAssignEditFeedbackModalPage.prototype.hasDataChanged = function () {
-        return this.feedbackDelegate.hasPluginDataChanged(this.assign, this.userId, this.plugin, this.getInputData(), this.userId)
-            .catch(function () {
-            // Ignore errors.
-            return true;
+    AddonModAssignSubmissionReviewPage.prototype.refreshAllData = function () {
+        var _this = this;
+        var promises = [];
+        promises.push(this.assignProvider.invalidateAssignmentData(this.courseId));
+        if (this.assign) {
+            promises.push(this.assignProvider.invalidateSubmissionData(this.assign.id));
+            promises.push(this.assignProvider.invalidateAssignmentUserMappingsData(this.assign.id));
+            promises.push(this.assignProvider.invalidateSubmissionStatusData(this.assign.id, this.submitId, this.blindMarking));
+        }
+        return Promise.all(promises).finally(function () {
+            _this.submissionComponent && _this.submissionComponent.invalidateAndRefresh();
+            return _this.fetchSubmission();
         });
     };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
-        __metadata("design:type", Object)
-    ], AddonModAssignEditFeedbackModalPage.prototype, "assign", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
-        __metadata("design:type", Object)
-    ], AddonModAssignEditFeedbackModalPage.prototype, "submission", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
-        __metadata("design:type", Object)
-    ], AddonModAssignEditFeedbackModalPage.prototype, "plugin", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
-        __metadata("design:type", Number)
-    ], AddonModAssignEditFeedbackModalPage.prototype, "userId", void 0);
-    AddonModAssignEditFeedbackModalPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-assign-edit-feedback-modal',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\assign\pages\edit-feedback-modal\edit-feedback-modal.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="plugin.name"></core-format-text></ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n\n                <ion-icon name="close"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <form name="addon-mod_assign-edit-feedback-form" *ngIf="userId && plugin">\n\n        <addon-mod-assign-feedback-plugin [assign]="assign" [submission]="submission" [userId]="userId" [plugin]="plugin" [edit]="true"></addon-mod-assign-feedback-plugin>\n\n        <button ion-button block (click)="done()">{{ \'core.done\' | translate }}</button>\n\n    </form>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\assign\pages\edit-feedback-modal\edit-feedback-modal.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["D" /* ViewController */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
-            __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_4__providers_feedback_delegate__["a" /* AddonModAssignFeedbackDelegate */]])
-    ], AddonModAssignEditFeedbackModalPage);
-    return AddonModAssignEditFeedbackModalPage;
-}());
-
-//# sourceMappingURL=edit-feedback-modal.js.map
-=======
-/**
- * Page that displays an assign.
- */
-var AddonModAssignIndexPage = /** @class */ (function () {
-    function AddonModAssignIndexPage(navParams) {
-        this.module = navParams.get('module') || {};
-        this.courseId = navParams.get('courseId');
-        this.title = this.module.name;
-    }
     /**
-     * Update some data based on the assign instance.
+     * Refresh the data.
      *
-     * @param {any} assign Assign instance.
+     * @param {any} refresher Refresher.
      */
-    AddonModAssignIndexPage.prototype.updateData = function (assign) {
-        this.title = assign.name || this.title;
+    AddonModAssignSubmissionReviewPage.prototype.refreshSubmission = function (refresher) {
+        this.refreshAllData().finally(function () {
+            refresher.complete();
+        });
+    };
+    /**
+     * Submit a grade and feedback.
+     */
+    AddonModAssignSubmissionReviewPage.prototype.submitGrade = function () {
+        var _this = this;
+        if (this.submissionComponent) {
+            this.submissionComponent.submitGrade().then(function () {
+                // Grade submitted, leave the view if not in tablet.
+                if (!_this.appProvider.isWide()) {
+                    _this.forceLeave = true;
+                    _this.navCtrl.pop();
+                }
+            });
+        }
     };
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModAssignIndexComponent */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModAssignIndexComponent */])
-    ], AddonModAssignIndexPage.prototype, "assignComponent", void 0);
-    AddonModAssignIndexPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_5__components_submission_submission__["a" /* AddonModAssignSubmissionComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_5__components_submission_submission__["a" /* AddonModAssignSubmissionComponent */])
+    ], AddonModAssignSubmissionReviewPage.prototype, "submissionComponent", void 0);
+    AddonModAssignSubmissionReviewPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-assign-index',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\mod\assign\pages\index\index.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <!-- The buttons defined by the component will be added in here. -->\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="assignComponent.loaded" (ionRefresh)="assignComponent.doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <addon-mod-assign-index [module]="module" [courseId]="courseId" (dataRetrieved)="updateData($event)"></addon-mod-assign-index>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\mod\assign\pages\index\index.html"*/,
+            selector: 'page-addon-mod-assign-submission-review',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\mod\assign\pages\submission-review\submission-review.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n\n\n        <ion-buttons end></ion-buttons>\n\n    </ion-navbar>\n\n\n\n    <core-navbar-buttons end>\n\n        <button [hidden]="!canSaveGrades" ion-button button-clear (click)="submitGrade()" [attr.aria-label]="\'core.done\' | translate">\n\n            {{ \'core.done\' | translate }}\n\n        </button>\n\n    </core-navbar-buttons>\n\n</ion-header>\n\n<ion-content>\n\n\n\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshSubmission($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-loading [hideUntil]="loaded">\n\n        <addon-mod-assign-submission [courseId]="courseId" [moduleId]="moduleId" [submitId]="submitId" [blindId]="blindId" [showGrade]="showGrade"></addon-mod-assign-submission>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\mod\assign\pages\submission-review\submission-review.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */]])
-    ], AddonModAssignIndexPage);
-    return AddonModAssignIndexPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_3__core_course_providers_course__["a" /* CoreCourseProvider */],
+            __WEBPACK_IMPORTED_MODULE_2__providers_app__["a" /* CoreAppProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_assign__["a" /* AddonModAssignProvider */]])
+    ], AddonModAssignSubmissionReviewPage);
+    return AddonModAssignSubmissionReviewPage;
 }());
 
-//# sourceMappingURL=index.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+//# sourceMappingURL=submission-review.js.map
 
 /***/ })
 

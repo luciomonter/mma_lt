@@ -1,32 +1,17 @@
 webpackJsonp([13],{
 
-<<<<<<< HEAD
-/***/ 1895:
-=======
-/***/ 1967:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1901:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreSitePluginsPluginPageModule", function() { return CoreSitePluginsPluginPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreUserProfilePageModule", function() { return CoreUserProfilePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__plugin_page__ = __webpack_require__(2023);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(937);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreUserAboutPageModule", function() { return CoreUserAboutPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about__ = __webpack_require__(2099);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__profile__ = __webpack_require__(2042);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(397);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(16);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -52,81 +37,47 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
-/**
- * Module to lazy load the page.
- */
-var CoreSitePluginsPluginPageModule = /** @class */ (function () {
-    function CoreSitePluginsPluginPageModule() {
+var CoreUserProfilePageModule = /** @class */ (function () {
+    function CoreUserProfilePageModule() {
     }
-    CoreSitePluginsPluginPageModule = __decorate([
+    CoreUserProfilePageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_4__plugin_page__["a" /* CoreSitePluginsPluginPage */]
+                __WEBPACK_IMPORTED_MODULE_3__profile__["a" /* CoreUserProfilePage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* CoreSitePluginsComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_4__plugin_page__["a" /* CoreSitePluginsPluginPage */]),
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__profile__["a" /* CoreUserProfilePage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ]
+            ],
         })
-    ], CoreSitePluginsPluginPageModule);
-    return CoreSitePluginsPluginPageModule;
+    ], CoreUserProfilePageModule);
+    return CoreUserProfilePageModule;
 }());
 
-//# sourceMappingURL=plugin-page.module.js.map
+//# sourceMappingURL=profile.module.js.map
 
 /***/ }),
 
-/***/ 2023:
+/***/ 2042:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreSitePluginsPluginPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreUserProfilePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_plugin_content_plugin_content__ = __webpack_require__(120);
-=======
-
-var CoreUserAboutPageModule = /** @class */ (function () {
-    function CoreUserAboutPageModule() {
-    }
-    CoreUserAboutPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_3__about__["a" /* CoreUserAboutPage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* CoreComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* CoreUserComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__about__["a" /* CoreUserAboutPage */]),
-                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ],
-        })
-    ], CoreUserAboutPageModule);
-    return CoreUserAboutPageModule;
-}());
-
-//# sourceMappingURL=about.module.js.map
-
-/***/ }),
-
-/***/ 2099:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreUserAboutPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_user__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_helper__ = __webpack_require__(949);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_user__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_helper__ = __webpack_require__(932);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_text__ = __webpack_require__(11);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_courses_providers_courses__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_utils_mimetype__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_fileuploader_providers_helper__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_user_delegate__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_split_view_split_view__ = __webpack_require__(104);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -149,96 +100,136 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
 
 
 
-<<<<<<< HEAD
-/**
- * Page to render a site plugin page.
- */
-var CoreSitePluginsPluginPage = /** @class */ (function () {
-    function CoreSitePluginsPluginPage(params) {
-        this.title = params.get('title');
-        this.component = params.get('component');
-        this.method = params.get('method');
-        this.args = params.get('args');
-        this.initResult = params.get('initResult');
-        this.jsData = params.get('jsData');
-    }
-    /**
-     * Refresh the data.
-     *
-     * @param {any} refresher Refresher.
-     */
-    CoreSitePluginsPluginPage.prototype.refreshData = function (refresher) {
-        this.content.refreshContent(false).finally(function () {
-            refresher.complete();
-        });
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_plugin_content_plugin_content__["a" /* CoreSitePluginsPluginContentComponent */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_plugin_content_plugin_content__["a" /* CoreSitePluginsPluginContentComponent */])
-    ], CoreSitePluginsPluginPage.prototype, "content", void 0);
-    CoreSitePluginsPluginPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-site-plugins-plugin',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\core\siteplugins\pages\plugin-page\plugin-page.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ title | translate }}</ion-title>\n\n\n\n        <ion-buttons end>\n\n            <!-- If the site plugin defines some buttons using core-nav-buttons, they will be added here. -->\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="content && content.dataLoaded" (ionRefresh)="refreshData($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-site-plugins-plugin-content [component]="component" [method]="method" [args]="args" [initResult]="initResult" [data]="jsData"></core-site-plugins-plugin-content>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\core\siteplugins\pages\plugin-page\plugin-page.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]])
-    ], CoreSitePluginsPluginPage);
-    return CoreSitePluginsPluginPage;
-}());
 
-//# sourceMappingURL=plugin-page.js.map
-=======
+
+
+
+
 
 
 
 
 
 /**
- * Page that displays an user about page.
+ * Page that displays an user profile page.
  */
-var CoreUserAboutPage = /** @class */ (function () {
-    function CoreUserAboutPage(navParams, userProvider, userHelper, domUtils, eventsProvider, sitesProvider, textUtils) {
+var CoreUserProfilePage = /** @class */ (function () {
+    function CoreUserProfilePage(navParams, userProvider, userHelper, domUtils, translate, eventsProvider, coursesProvider, sitesProvider, mimetypeUtils, fileUploaderHelper, userDelegate, navCtrl, svComponent) {
+        var _this = this;
         this.userProvider = userProvider;
         this.userHelper = userHelper;
         this.domUtils = domUtils;
+        this.translate = translate;
         this.eventsProvider = eventsProvider;
+        this.coursesProvider = coursesProvider;
         this.sitesProvider = sitesProvider;
-        this.textUtils = textUtils;
+        this.mimetypeUtils = mimetypeUtils;
+        this.fileUploaderHelper = fileUploaderHelper;
+        this.userDelegate = userDelegate;
+        this.navCtrl = navCtrl;
+        this.svComponent = svComponent;
         this.userLoaded = false;
-        this.hasContact = false;
-        this.hasDetails = false;
-        this.user = {};
+        this.isLoadingHandlers = false;
+        this.isDeleted = false;
+        this.canChangeProfilePicture = false;
+        this.actionHandlers = [];
+        this.newPageHandlers = [];
+        this.communicationHandlers = [];
         this.userId = navParams.get('userId');
         this.courseId = navParams.get('courseId');
-        this.siteId = this.sitesProvider.getCurrentSite().getId();
+        this.site = this.sitesProvider.getCurrentSite();
+        // Allow to change the profile image only in the app profile page.
+        this.canChangeProfilePicture =
+            (!this.courseId || this.courseId == this.site.getSiteHomeId()) &&
+                this.userId == this.site.getUserId() &&
+                this.site.canUploadFiles() &&
+                this.site.wsAvailable('core_user_update_picture') &&
+                !this.userProvider.isUpdatePictureDisabledInSite(this.site);
+        this.obsProfileRefreshed = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_2__providers_user__["a" /* CoreUserProvider */].PROFILE_REFRESHED, function (data) {
+            if (_this.user && typeof data.user != 'undefined') {
+                _this.user.email = data.user.email;
+                _this.user.address = _this.userHelper.formatAddress('', data.user.city, data.user.country);
+            }
+        }, sitesProvider.getCurrentSiteId());
     }
     /**
      * View loaded.
      */
-    CoreUserAboutPage.prototype.ionViewDidLoad = function () {
+    CoreUserProfilePage.prototype.ionViewDidLoad = function () {
         var _this = this;
-        this.fetchUser().finally(function () {
+        this.fetchUser().then(function () {
+            return _this.userProvider.logView(_this.userId, _this.courseId).catch(function (error) {
+                _this.isDeleted = error.errorcode === 'userdeleted';
+            });
+        }).finally(function () {
             _this.userLoaded = true;
         });
     };
     /**
      * Fetches the user and updates the view.
      */
-    CoreUserAboutPage.prototype.fetchUser = function () {
+    CoreUserProfilePage.prototype.fetchUser = function () {
         var _this = this;
         return this.userProvider.getProfile(this.userId, this.courseId).then(function (user) {
-            if (user.address) {
-                user.address = _this.userHelper.formatAddress(user.address, user.city, user.country);
-                user.encodedAddress = _this.textUtils.buildAddressURL(user.address);
-            }
-            _this.hasContact = user.email || user.phone1 || user.phone2 || user.city || user.country || user.address;
-            _this.hasDetails = user.url || user.interests || (user.customfields && user.customfields.length > 0);
+            user.address = _this.userHelper.formatAddress('', user.city, user.country);
+            user.roles = _this.userHelper.formatRoleList(user.roles);
             _this.user = user;
             _this.title = user.fullname;
+            _this.subscription = _this.userDelegate.getProfileHandlersFor(user, _this.courseId).subscribe(function (handlers) {
+                _this.actionHandlers = [];
+                _this.newPageHandlers = [];
+                _this.communicationHandlers = [];
+                handlers.forEach(function (handler) {
+                    switch (handler.type) {
+                        case __WEBPACK_IMPORTED_MODULE_11__providers_user_delegate__["a" /* CoreUserDelegate */].TYPE_COMMUNICATION:
+                            _this.communicationHandlers.push(handler.data);
+                            break;
+                        case __WEBPACK_IMPORTED_MODULE_11__providers_user_delegate__["a" /* CoreUserDelegate */].TYPE_ACTION:
+                            _this.actionHandlers.push(handler.data);
+                            break;
+                        case __WEBPACK_IMPORTED_MODULE_11__providers_user_delegate__["a" /* CoreUserDelegate */].TYPE_NEW_PAGE:
+                        default:
+                            _this.newPageHandlers.push(handler.data);
+                            break;
+                    }
+                });
+                _this.isLoadingHandlers = !_this.userDelegate.areHandlersLoaded(user.id);
+            });
         }).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'core.user.errorloaduser', true);
+            // Error is null for deleted users, do not show the modal.
+            if (error) {
+                _this.domUtils.showErrorModal(error);
+            }
+        });
+    };
+    /**
+     * Opens dialog to change profile picture.
+     */
+    CoreUserProfilePage.prototype.changeProfilePicture = function () {
+        var _this = this;
+        var maxSize = -1, title = this.translate.instant('core.user.newpicture'), mimetypes = this.mimetypeUtils.getGroupMimeInfo('image', 'mimetypes');
+        return this.fileUploaderHelper.selectAndUploadFile(maxSize, title, mimetypes).then(function (result) {
+            var modal = _this.domUtils.showModalLoading('core.sending', true);
+            return _this.userProvider.changeProfilePicture(result.itemid, _this.userId).then(function (profileImageURL) {
+                _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_2__providers_user__["a" /* CoreUserProvider */].PROFILE_PICTURE_UPDATED, {
+                    userId: _this.userId,
+                    picture: profileImageURL
+                });
+                _this.sitesProvider.updateSiteInfo(_this.site.getId());
+                _this.refreshUser();
+            }).finally(function () {
+                modal.dismiss();
+            });
+        }).catch(function (message) {
+            if (message) {
+                _this.domUtils.showErrorModal(message);
+            }
         });
     };
     /**
@@ -246,31 +237,65 @@ var CoreUserAboutPage = /** @class */ (function () {
      *
      * @param {any} refresher Refresher.
      */
-    CoreUserAboutPage.prototype.refreshUser = function (refresher) {
+    CoreUserProfilePage.prototype.refreshUser = function (refresher) {
         var _this = this;
-        this.userProvider.invalidateUserCache(this.userId).finally(function () {
+        var promises = [];
+        promises.push(this.userProvider.invalidateUserCache(this.userId));
+        promises.push(this.coursesProvider.invalidateUserNavigationOptions());
+        promises.push(this.coursesProvider.invalidateUserAdministrationOptions());
+        Promise.all(promises).finally(function () {
             _this.fetchUser().finally(function () {
                 _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_2__providers_user__["a" /* CoreUserProvider */].PROFILE_REFRESHED, {
-                    courseId: _this.courseId, userId: _this.userId,
+                    courseId: _this.courseId,
+                    userId: _this.userId,
                     user: _this.user
-                }, _this.siteId);
+                }, _this.site.getId());
                 refresher && refresher.complete();
             });
         });
     };
-    CoreUserAboutPage = __decorate([
+    /**
+     * Open the page with the user details.
+     */
+    CoreUserProfilePage.prototype.openUserDetails = function () {
+        // Decide which navCtrl to use. If this page is inside a split view, use the split view's master nav.
+        var navCtrl = this.svComponent ? this.svComponent.getMasterNav() : this.navCtrl;
+        navCtrl.push('CoreUserAboutPage', { courseId: this.courseId, userId: this.userId });
+    };
+    /**
+     * A handler was clicked.
+     *
+     * @param {Event} event Click event.
+     * @param {CoreUserProfileHandlerData} handler Handler that was clicked.
+     */
+    CoreUserProfilePage.prototype.handlerClicked = function (event, handler) {
+        // Decide which navCtrl to use. If this page is inside a split view, use the split view's master nav.
+        var navCtrl = this.svComponent ? this.svComponent.getMasterNav() : this.navCtrl;
+        handler.action(event, navCtrl, this.user, this.courseId);
+    };
+    /**
+     * Page destroyed.
+     */
+    CoreUserProfilePage.prototype.ngOnDestroy = function () {
+        this.subscription && this.subscription.unsubscribe();
+        this.obsProfileRefreshed && this.obsProfileRefreshed.off();
+    };
+    CoreUserProfilePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-user-about',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\user\pages\about\about.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="userLoaded" (ionRefresh)="refreshUser($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="userLoaded">\n        <div *ngIf="user">\n            <ion-item-group *ngIf="hasContact">\n                <ion-item-divider>{{ \'core.user.contact\' | translate}}</ion-item-divider>\n                <ion-item text-wrap *ngIf="user.email">\n                    <h2>{{ \'core.user.email\' | translate }}</h2>\n                    <p><a href="mailto:{{user.email}}" core-link auto-login="no">\n                        <core-format-text [text]="user.email"></core-format-text>\n                    </a></p>\n                </ion-item>\n                <ion-item text-wrap *ngIf="user.phone1">\n                    <h2>{{ \'core.user.phone1\' | translate}}</h2>\n                    <p><a href="tel:{{user.phone1}}" core-link auto-login="no">\n                        <core-format-text [text]="user.phone1"></core-format-text>\n                    </a></p>\n                </ion-item>\n                <ion-item text-wrap *ngIf="user.phone2">\n                    <h2>{{ \'core.user.phone2\' | translate}}</h2>\n                    <p><a href="tel:{{user.phone2}}" core-link auto-login="no">\n                        <core-format-text [text]="user.phone2"></core-format-text>\n                    </a></p>\n                </ion-item>\n                <ion-item text-wrap *ngIf="user.address">\n                    <h2>{{ \'core.user.address\' | translate}}</h2>\n                    <p><a [href]="user.encodedAddress" core-link auto-login="no">\n                            <core-format-text [text]="user.address"></core-format-text>\n                        </a>\n                    </p>\n                </ion-item>\n                <ion-item text-wrap *ngIf="user.city && !user.address">\n                    <h2>{{ \'core.user.city\' | translate}}</h2>\n                    <p><core-format-text [text]="user.city"></core-format-text></p>\n                </ion-item>\n                <ion-item text-wrap *ngIf="user.country && !user.address">\n                    <h2>{{ \'core.user.country\' | translate}}</h2>\n                    <p><core-format-text [text]="user.country"></core-format-text></p>\n                </ion-item>\n            </ion-item-group>\n            <ion-item-group *ngIf="hasDetails">\n                <ion-item-divider>{{ \'core.userdetails\' | translate}}</ion-item-divider>\n                <ion-item text-wrap *ngIf="user.url">\n                    <h2>{{ \'core.user.webpage\' | translate}}</h2>\n                    <p><a href="{{user.url}}" core-link>\n                        <core-format-text [text]="user.url"></core-format-text>\n                    </a></p>\n                </ion-item>\n                <ion-item text-wrap *ngIf="user.interests">\n                    <h2>{{ \'core.user.interests\' | translate}}</h2>\n                    <p><core-format-text [text]="user.interests"></core-format-text></p>\n                </ion-item>\n                <core-user-profile-field *ngFor="let field of user.customfields" [field]="field"></core-user-profile-field>\n            </ion-item-group>\n            <ion-item-group *ngIf="user.description">\n                <ion-item-divider>{{ \'core.user.description\' | translate}}</ion-item-divider>\n                <ion-item text-wrap>\n                    <p><core-format-text [text]="user.description"></core-format-text></p>\n                </ion-item>\n            </ion-item-group>\n        </div>\n        <core-empty-box *ngIf="!user || (!hasContact && !hasDetails && !user.description)" icon="person" [message]=" \'core.user.detailsnotavailable\' | translate"></core-empty-box>\n    </core-loading>'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\user\pages\about\about.html"*/,
+            selector: 'page-core-user-profile',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\user\pages\profile\profile.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="userLoaded" (ionRefresh)="refreshUser($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-loading [hideUntil]="userLoaded">\n\n        <ion-list *ngIf="user && !isDeleted">\n\n            <ion-item text-center>\n\n                <div class="item-avatar-center">\n\n                    <img class="avatar" [src]="user.profileimageurl" core-external-content alt="{{ \'core.pictureof\' | translate:{$a: user.fullname} }}" role="presentation" onError="this.src=\'assets/img/user-avatar.png\'">\n\n                    <ion-icon name="create" class="core-icon-foreground" *ngIf="canChangeProfilePicture" (click)="changeProfilePicture()"></ion-icon>\n\n                </div>\n\n                <h2><core-format-text [text]="user.fullname"></core-format-text></h2>\n\n                <p><core-format-text *ngIf="user.address" [text]="user.address"></core-format-text></p>\n\n                <p *ngIf="user.roles">\n\n                    <strong>{{ \'core.user.roles\' | translate}}</strong>{{\'core.labelsep\' | translate}}\n\n                    <core-format-text [text]="user.roles"></core-format-text>\n\n                </p>\n\n            </ion-item>\n\n\n\n            <ion-grid class="core-user-communication-handlers" *ngIf="(communicationHandlers && communicationHandlers.length) || isLoadingHandlers">\n\n                <ion-row no-padding justify-content-between *ngIf="communicationHandlers && communicationHandlers.length">\n\n                    <ion-col align-self-center *ngFor="let comHandler of communicationHandlers" text-center>\n\n                        <a (click)="handlerClicked($event, comHandler)" [ngClass]="[\'core-user-profile-handler\', comHandler.class]" title="{{comHandler.title | translate}}" tappable>\n\n                            <core-icon [name]="comHandler.icon"></core-icon>\n\n                            <p>{{comHandler.title | translate}}</p>\n\n                        </a>\n\n                    </ion-col>\n\n                </ion-row>\n\n                <ion-row no-padding>\n\n                    <ion-col text-center class="core-loading-handlers" *ngIf="isLoadingHandlers">\n\n                        <ion-spinner></ion-spinner>\n\n                    </ion-col>\n\n                </ion-row>\n\n            </ion-grid>\n\n\n\n            <a ion-item text-wrap class="core-user-profile-handler" (click)="openUserDetails()" title="{{ \'core.user.details\' | translate }}">\n\n                <ion-icon name="person" item-start></ion-icon>\n\n                <h2>{{ \'core.user.details\' | translate }}</h2>\n\n            </a>\n\n            <ion-item text-center class="core-loading-handlers" *ngIf="isLoadingHandlers">\n\n                <ion-spinner></ion-spinner>\n\n            </ion-item>\n\n\n\n            <a *ngFor="let npHandler of newPageHandlers" ion-item text-wrap [ngClass]="[\'core-user-profile-handler\', npHandler.class]" (click)="handlerClicked($event, npHandler)" [hidden]="npHandler.hidden" title="{{ npHandler.title | translate }}">\n\n                <core-icon *ngIf="npHandler.icon" [name]="npHandler.icon" item-start></core-icon>\n\n                <h2>{{ npHandler.title | translate }}</h2>\n\n            </a>\n\n\n\n            <ion-item *ngIf="actionHandlers && actionHandlers.length">\n\n                <button *ngFor="let actHandler of actionHandlers" ion-button block outline [ngClass]="[\'core-user-profile-handler\', actHandler.class]" (click)="handlerClicked($event, actHandler)" [hidden]="actHandler.hidden" title="{{ actHandler.title | translate }}" icon-start [disabled]="actHandler.spinner">\n\n                    <core-icon *ngIf="actHandler.icon" [name]="actHandler.icon" start></core-icon>\n\n                    <span>{{ actHandler.title | translate }}</span>\n\n                    <ion-spinner *ngIf="actHandler.spinner"></ion-spinner>\n\n                </button>\n\n            </ion-item>\n\n        </ion-list>\n\n        <core-empty-box *ngIf="!user && !isDeleted" icon="person" [message]=" \'core.user.detailsnotavailable\' | translate"></core-empty-box>\n\n\n\n        <core-empty-box *ngIf="isDeleted" icon="person" [message]="\'core.userdeleted\' | translate"></core-empty-box>\n\n    </core-loading>\n\n</ion-content>'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\user\pages\profile\profile.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_user__["a" /* CoreUserProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_helper__["a" /* CoreUserHelperProvider */],
-            __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_events__["a" /* CoreEventsProvider */],
-            __WEBPACK_IMPORTED_MODULE_6__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_7__providers_utils_text__["a" /* CoreTextUtilsProvider */]])
-    ], CoreUserAboutPage);
-    return CoreUserAboutPage;
+        __param(12, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Optional */])()),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_user__["a" /* CoreUserProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_helper__["a" /* CoreUserHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_5__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_7__providers_events__["a" /* CoreEventsProvider */],
+            __WEBPACK_IMPORTED_MODULE_6__core_courses_providers_courses__["a" /* CoreCoursesProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_sites__["a" /* CoreSitesProvider */],
+            __WEBPACK_IMPORTED_MODULE_9__providers_utils_mimetype__["a" /* CoreMimetypeUtilsProvider */], __WEBPACK_IMPORTED_MODULE_10__core_fileuploader_providers_helper__["a" /* CoreFileUploaderHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_11__providers_user_delegate__["a" /* CoreUserDelegate */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_12__components_split_view_split_view__["a" /* CoreSplitViewComponent */]])
+    ], CoreUserProfilePage);
+    return CoreUserProfilePage;
 }());
 
-//# sourceMappingURL=about.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+//# sourceMappingURL=profile.js.map
 
 /***/ })
 

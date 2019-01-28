@@ -1,34 +1,19 @@
 webpackJsonp([92],{
 
-<<<<<<< HEAD
-/***/ 1812:
-=======
-/***/ 1882:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1818:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModDataEditPageModule", function() { return AddonModDataEditPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModFeedbackAttemptPageModule", function() { return AddonModFeedbackAttemptPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_comments_components_components_module__ = __webpack_require__(387);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_compile_components_compile_html_compile_html_module__ = __webpack_require__(386);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_components_module__ = __webpack_require__(385);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__edit__ = __webpack_require__(1936);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModDataIndexPageModule", function() { return AddonModDataIndexPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(393);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(2010);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(924);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__attempt__ = __webpack_require__(1951);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -54,90 +39,44 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
 
 
-
-var AddonModDataEditPageModule = /** @class */ (function () {
-    function AddonModDataEditPageModule() {
+var AddonModFeedbackAttemptPageModule = /** @class */ (function () {
+    function AddonModFeedbackAttemptPageModule() {
     }
-    AddonModDataEditPageModule = __decorate([
+    AddonModFeedbackAttemptPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_8__edit__["a" /* AddonModDataEditPage */],
+                __WEBPACK_IMPORTED_MODULE_7__attempt__["a" /* AddonModFeedbackAttemptPage */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
                 __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_7__components_components_module__["a" /* AddonModDataComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_6__core_compile_components_compile_html_compile_html_module__["a" /* CoreCompileHtmlComponentModule */],
-                __WEBPACK_IMPORTED_MODULE_5__core_comments_components_components_module__["a" /* CoreCommentsComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_8__edit__["a" /* AddonModDataEditPage */]),
+                __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
+                __WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* AddonModFeedbackComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_7__attempt__["a" /* AddonModFeedbackAttemptPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], AddonModDataEditPageModule);
-    return AddonModDataEditPageModule;
+    ], AddonModFeedbackAttemptPageModule);
+    return AddonModFeedbackAttemptPageModule;
 }());
 
-//# sourceMappingURL=edit.module.js.map
+//# sourceMappingURL=attempt.module.js.map
 
 /***/ }),
 
-/***/ 1936:
+/***/ 1951:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModDataEditPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModFeedbackAttemptPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_utils__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_groups__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__core_fileuploader_providers_fileuploader__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_course_providers_course__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_data__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_helper__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_offline__ = __webpack_require__(148);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_fields_delegate__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_components_module__ = __webpack_require__(385);
-=======
-var AddonModDataIndexPageModule = /** @class */ (function () {
-    function AddonModDataIndexPageModule() {
-    }
-    AddonModDataIndexPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModDataIndexPage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModDataComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModDataIndexPage */]),
-                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ],
-        })
-    ], AddonModDataIndexPageModule);
-    return AddonModDataIndexPageModule;
-}());
-
-//# sourceMappingURL=index.module.js.map
-
-/***/ }),
-
-/***/ 2010:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModDataIndexPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(431);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_feedback__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_helper__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__ = __webpack_require__(11);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -163,341 +102,80 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
 
 
 
 /**
- * Page that displays the view edit page.
+ * Page that displays a feedback attempt review.
  */
-var AddonModDataEditPage = /** @class */ (function () {
-    function AddonModDataEditPage(params, utils, groupsProvider, domUtils, fieldsDelegate, courseProvider, dataProvider, dataOffline, dataHelper, sitesProvider, navCtrl, translate, eventsProvider, fileUploaderProvider) {
-        this.utils = utils;
-        this.groupsProvider = groupsProvider;
-        this.domUtils = domUtils;
-        this.fieldsDelegate = fieldsDelegate;
-        this.courseProvider = courseProvider;
-        this.dataProvider = dataProvider;
-        this.dataOffline = dataOffline;
-        this.dataHelper = dataHelper;
+var AddonModFeedbackAttemptPage = /** @class */ (function () {
+    function AddonModFeedbackAttemptPage(navParams, feedbackProvider, navCtrl, domUtils, feedbackHelper, textUtils) {
+        this.feedbackProvider = feedbackProvider;
         this.navCtrl = navCtrl;
-        this.translate = translate;
-        this.eventsProvider = eventsProvider;
-        this.fileUploaderProvider = fileUploaderProvider;
-        this.offlineActions = [];
-        this.fields = {};
-        this.fieldsArray = [];
-        this.forceLeave = false; // To allow leaving the page without checking for changes.
-        this.title = '';
-        this.component = __WEBPACK_IMPORTED_MODULE_11__providers_data__["a" /* AddonModDataProvider */].COMPONENT;
-        this.loaded = false;
-        this.selectedGroup = 0;
-        this.cssClass = '';
-        this.cssTemplate = '';
-        this.editFormRender = '';
-        this.extraImports = [__WEBPACK_IMPORTED_MODULE_15__components_components_module__["a" /* AddonModDataComponentsModule */]];
-        this.errors = {};
-        this.module = params.get('module') || {};
-        this.entryId = params.get('entryId') || null;
-        this.courseId = params.get('courseId');
-        this.selectedGroup = params.get('group') || 0;
-        this.siteId = sitesProvider.getCurrentSiteId();
-        this.title = this.module.name;
-        this.editForm = new __WEBPACK_IMPORTED_MODULE_3__angular_forms__["c" /* FormGroup */]({});
+        this.domUtils = domUtils;
+        this.feedbackHelper = feedbackHelper;
+        this.textUtils = textUtils;
+        this.component = __WEBPACK_IMPORTED_MODULE_2__providers_feedback__["a" /* AddonModFeedbackProvider */].COMPONENT;
+        this.feedbackLoaded = false;
+        this.feedbackId = navParams.get('feedbackId') || 0;
+        this.courseId = navParams.get('courseId');
+        this.attempt = navParams.get('attempt') || false;
+        this.componentId = navParams.get('moduleId');
     }
     /**
      * View loaded.
      */
-    AddonModDataEditPage.prototype.ionViewDidLoad = function () {
-        this.fetchEntryData();
+    AddonModFeedbackAttemptPage.prototype.ionViewDidLoad = function () {
+        this.fetchData();
     };
     /**
-     * Check if we can leave the page or not and ask to confirm the lost of data.
+     * Fetch all the data required for the view.
      *
-     * @return {boolean | Promise<void>} Resolved if we can leave it, rejected if not.
+     * @return {Promise<any>} Promise resolved when done.
      */
-    AddonModDataEditPage.prototype.ionViewCanLeave = function () {
+    AddonModFeedbackAttemptPage.prototype.fetchData = function () {
         var _this = this;
-        if (this.forceLeave) {
-            return true;
-        }
-        var inputData = this.editForm.value;
-        return this.dataHelper.hasEditDataChanged(inputData, this.fieldsArray, this.data.id, this.entry.contents).then(function (changed) {
-            if (!changed) {
-                return Promise.resolve();
-            }
-            // Show confirmation if some data has been modified.
-            return _this.domUtils.showConfirm(_this.translate.instant('core.confirmcanceledit'));
-        }).then(function () {
-            // Delete the local files from the tmp folder.
-            return _this.dataHelper.getEditTmpFiles(inputData, _this.fieldsArray, _this.data.id, _this.entry.contents).then(function (files) {
-                _this.fileUploaderProvider.clearTmpFiles(files);
-            });
-        });
-    };
-    /**
-     * Fetch the entry data.
-     *
-     * @return {Promise<any>}         Resolved when done.
-     */
-    AddonModDataEditPage.prototype.fetchEntryData = function () {
-        var _this = this;
-        return this.dataProvider.getDatabase(this.courseId, this.module.id).then(function (data) {
-            _this.title = data.name || _this.title;
-            _this.data = data;
-            _this.cssClass = 'addon-data-entries-' + data.id;
-            return _this.dataProvider.getDatabaseAccessInformation(data.id);
-        }).then(function (accessData) {
-            _this.cssTemplate = _this.dataHelper.prefixCSS(_this.data.csstemplate, '.' + _this.cssClass);
-            if (_this.entryId) {
-                return _this.groupsProvider.getActivityGroupInfo(_this.data.coursemodule, accessData.canmanageentries)
-                    .then(function (groupInfo) {
-                    _this.groupInfo = groupInfo;
-                    // Check selected group is accessible.
-                    if (groupInfo && groupInfo.groups && groupInfo.groups.length > 0) {
-                        if (!groupInfo.groups.some(function (group) { return _this.selectedGroup == group.id; })) {
-                            _this.selectedGroup = groupInfo.groups[0].id;
-                        }
-                    }
-                });
-            }
-        }).then(function () {
-            return _this.dataOffline.getEntryActions(_this.data.id, _this.entryId);
-        }).then(function (actions) {
-            _this.offlineActions = actions;
-            return _this.dataProvider.getFields(_this.data.id);
-        }).then(function (fieldsData) {
-            _this.fieldsArray = fieldsData;
-            _this.fields = _this.utils.arrayToObject(fieldsData, 'id');
-            return _this.dataHelper.getEntry(_this.data, _this.entryId, _this.offlineActions);
-        }).then(function (entry) {
-            if (entry) {
-                entry = entry.entry;
-                // Index contents by fieldid.
-                entry.contents = _this.utils.arrayToObject(entry.contents, 'fieldid');
-            }
-            else {
-                entry = {
-                    contents: {}
-                };
-            }
-            return _this.dataHelper.applyOfflineActions(entry, _this.offlineActions, _this.fieldsArray);
-        }).then(function (entryData) {
-            _this.entry = entryData;
-            _this.editFormRender = _this.displayEditFields();
-        }).catch(function (message) {
-            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
-        }).finally(function () {
-            _this.loaded = true;
-        });
-    };
-    /**
-     * Saves data.
-     *
-     * @return {Promise<any>} Resolved when done.
-     */
-    AddonModDataEditPage.prototype.save = function () {
-        var _this = this;
-        var inputData = this.editForm.value;
-        return this.dataHelper.hasEditDataChanged(inputData, this.fieldsArray, this.data.id, this.entry.contents).then(function (changed) {
-            if (!changed) {
-                if (_this.entryId) {
-                    return _this.returnToEntryList();
-                }
-                // New entry, no changes means no field filled, warn the user.
-                return Promise.reject('addon.mod_data.emptyaddform');
-            }
-            var modal = _this.domUtils.showModalLoading('core.sending', true);
-            // Create an ID to assign files.
-            var entryTemp = _this.entryId ? _this.entryId : -(new Date().getTime());
-            return _this.dataHelper.getEditDataFromForm(inputData, _this.fieldsArray, _this.data.id, entryTemp, _this.entry.contents, _this.offline).catch(function (e) {
-                if (!_this.offline) {
-                    // Cannot submit in online, prepare for offline usage.
-                    _this.offline = true;
-                    return _this.dataHelper.getEditDataFromForm(inputData, _this.fieldsArray, _this.data.id, entryTemp, _this.entry.contents, _this.offline);
-                }
-                return Promise.reject(e);
-            }).then(function (editData) {
-                if (editData.length > 0) {
-                    if (_this.entryId) {
-                        return _this.dataProvider.editEntry(_this.data.id, _this.entryId, _this.courseId, editData, _this.fields, undefined, _this.offline);
-                    }
-                    return _this.dataProvider.addEntry(_this.data.id, entryTemp, _this.courseId, editData, _this.selectedGroup, _this.fields, undefined, _this.offline);
-                }
-                return false;
-            }).then(function (result) {
-                if (!result) {
-                    // No field filled, warn the user.
-                    return Promise.reject('addon.mod_data.emptyaddform');
-                }
-                // This is done if entry is updated when editing or creating if not.
-                if ((_this.entryId && result.updated) || (!_this.entryId && result.newentryid)) {
-                    var promises = [];
-                    _this.entryId = _this.entryId || result.newentryid;
-                    promises.push(_this.dataProvider.invalidateEntryData(_this.data.id, _this.entryId, _this.siteId));
-                    promises.push(_this.dataProvider.invalidateEntriesData(_this.data.id, _this.siteId));
-                    return Promise.all(promises).then(function () {
-                        _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_11__providers_data__["a" /* AddonModDataProvider */].ENTRY_CHANGED, { dataId: _this.data.id, entryId: _this.entryId }, _this.siteId);
-                    }).finally(function () {
-                        return _this.returnToEntryList();
-                    });
+        // Get the feedback to be able to now if questions should be autonumbered.
+        return this.feedbackProvider.getFeedbackById(this.courseId, this.feedbackId).then(function (feedback) {
+            _this.feedback = feedback;
+            return _this.feedbackProvider.getItems(_this.feedbackId);
+        }).then(function (items) {
+            // Add responses and format items.
+            _this.items = items.items.map(function (item) {
+                if (item.typ == 'label') {
+                    item.submittedValue = _this.textUtils.replacePluginfileUrls(item.presentation, item.itemfiles);
                 }
                 else {
-                    _this.errors = {};
-                    if (result.fieldnotifications) {
-                        result.fieldnotifications.forEach(function (fieldNotif) {
-                            var field = _this.fieldsArray.find(function (field) { return field.name == fieldNotif.fieldname; });
-                            if (field) {
-                                _this.errors[field.id] = fieldNotif.notification;
-                            }
-                        });
+                    for (var x in _this.attempt.responses) {
+                        if (_this.attempt.responses[x].id == item.id) {
+                            item.submittedValue = _this.attempt.responses[x].printval;
+                            break;
+                        }
                     }
-                    _this.jsData['errors'] = _this.errors;
-                    setTimeout(function () {
-                        _this.scrollToFirstError();
-                    });
                 }
-            }).finally(function () {
-                modal.dismiss();
+                return _this.feedbackHelper.getItemForm(item, true);
             });
-        }).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'Cannot edit entry', true);
-            return Promise.reject(null);
-        });
-    };
-    /**
-     * Set group to see the database.
-     *
-     * @param  {number}       groupId Group identifier to set.
-     * @return {Promise<any>}         Resolved when done.
-     */
-    AddonModDataEditPage.prototype.setGroup = function (groupId) {
-        this.selectedGroup = groupId;
-        this.loaded = false;
-        return this.fetchEntryData();
-    };
-    /**
-     * Displays Edit Search Fields.
-     *
-     * @return {string}  Generated HTML.
-     */
-    AddonModDataEditPage.prototype.displayEditFields = function () {
-        if (!this.data.addtemplate) {
-            return '';
-        }
-        this.jsData = {
-            fields: this.fields,
-            contents: this.entry.contents,
-            form: this.editForm,
-            data: this.data,
-            errors: this.errors
-        };
-        var replace, render, template = this.data.addtemplate;
-        // Replace the fields found on template.
-        this.fieldsArray.forEach(function (field) {
-            replace = '[[' + field.name + ']]';
-            replace = replace.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, '\\$&');
-            replace = new RegExp(replace, 'gi');
-            // Replace field by a generic directive.
-            render = '<addon-mod-data-field-plugin mode="edit" [field]="fields[' + field.id + ']"\
-                [value]="contents[' + field.id + ']" [form]="form" [database]="data" [error]="errors[' + field.id + ']">\
-                </addon-mod-data-field-plugin>';
-            template = template.replace(replace, render);
-            // Replace the field id tag.
-            replace = '[[' + field.name + '#id]]';
-            replace = replace.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, '\\$&');
-            replace = new RegExp(replace, 'gi');
-            template = template.replace(replace, 'field_' + field.id);
-        });
-        return template;
-    };
-    /**
-     * Return to the entry list (previous page) discarding temp data.
-     *
-     * @return {Promise<any>}  Resolved when done.
-     */
-    AddonModDataEditPage.prototype.returnToEntryList = function () {
-        var _this = this;
-        var inputData = this.editForm.value;
-        return this.dataHelper.getEditTmpFiles(inputData, this.fieldsArray, this.data.id, this.entry.contents).then(function (files) {
-            _this.fileUploaderProvider.clearTmpFiles(files);
-        }).finally(function () {
-            // Go back to entry list.
-            _this.forceLeave = true;
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
+            // Some call failed on first fetch, go back.
             _this.navCtrl.pop();
+            return Promise.reject(null);
+        }).finally(function () {
+            _this.feedbackLoaded = true;
         });
     };
-    /**
-     * Scroll to first error or to the top if not found.
-     */
-    AddonModDataEditPage.prototype.scrollToFirstError = function () {
-        if (!this.domUtils.scrollToElementBySelector(this.content, '.addon-data-error')) {
-            this.domUtils.scrollToTop(this.content);
-        }
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
-    ], AddonModDataEditPage.prototype, "content", void 0);
-    AddonModDataEditPage = __decorate([
+    AddonModFeedbackAttemptPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-data-edit',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\data\pages\edit\edit.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="save()" [attr.aria-label]="\'core.save\' | translate">\n\n                {{ \'core.save\' | translate }}\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <core-loading [hideUntil]="loaded">\n\n        <ion-item text-wrap *ngIf="groupInfo && (groupInfo.separateGroups || groupInfo.visibleGroups)">\n\n            <ion-label id="addon-data-groupslabel" *ngIf="groupInfo.separateGroups">{{ \'core.groupsseparate\' | translate }}</ion-label>\n\n            <ion-label id="addon-data-groupslabel" *ngIf="groupInfo.visibleGroups">{{ \'core.groupsvisible\' | translate }}</ion-label>\n\n            <ion-select [(ngModel)]="selectedGroup" (ionChange)="setGroup(selectedGroup)" aria-labelledby="addon-data-groupslabel" interface="popover">\n\n                <ion-option *ngFor="let groupOpt of groupInfo.groups" [value]="groupOpt.id">{{groupOpt.name}}</ion-option>\n\n            </ion-select>\n\n        </ion-item>\n\n\n\n        <div class="addon-data-contents {{cssClass}}">\n\n            <style *ngIf="cssTemplate">\n\n                {{ cssTemplate }}\n\n            </style>\n\n\n\n            <form (ngSubmit)="save()" [formGroup]="editForm">\n\n                <core-compile-html [text]="editFormRender" [jsData]="jsData" [extraImports]="extraImports"></core-compile-html>\n\n            </form>\n\n        </div>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\data\pages\edit\edit.html"*/,
+            selector: 'page-addon-mod-feedback-attempt',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\mod\feedback\pages\attempt\attempt.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text  [text]=" attempt.fullname "></core-format-text></ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <core-loading [hideUntil]="feedbackLoaded">\n\n        <ion-list no-margin>\n\n            <a *ngIf="attempt.fullname" ion-item text-wrap core-user-link [userId]="attempt.userid" [attr.aria-label]=" \'core.user.viewprofile\' | translate" core-user-link [courseId]="attempt.courseid" [title]="attempt.fullname">\n\n                <ion-avatar item-start>\n\n                    <img [src]="attempt.profileimageurl" [alt]="\'core.pictureof\' | translate:{$a: attempt.fullname}" core-external-content onError="this.src=\'assets/img/user-avatar.png\'">\n\n                </ion-avatar>\n\n                <h2>{{attempt.fullname}}</h2>\n\n                <p *ngIf="attempt.timemodified">{{attempt.timemodified * 1000 | coreFormatDate:"LLL"}}</p>\n\n            </a>\n\n\n\n            <ion-item text-wrap *ngIf="!attempt.fullname">\n\n                <h2>{{ \'addon.mod_feedback.response_nr\' |translate }}: {{attempt.number}} ({{ \'addon.mod_feedback.anonymous\' |translate }})</h2>\n\n                <p *ngIf="attempt.timemodified">{{attempt.timemodified * 1000 | coreFormatDate:"LLL"}}</p>\n\n            </ion-item >\n\n            <ng-container *ngIf="items && items.length">\n\n                <ng-container *ngFor="let item of items">\n\n                    <ion-item-divider *ngIf="item.typ == \'pagebreak\'" color="light"></ion-item-divider>\n\n                    <ion-item text-wrap *ngIf="item.typ != \'pagebreak\'" [color]="item.dependitem > 0 ? \'light\' : \'\'">\n\n                        <h2 *ngIf="item.name" [core-mark-required]="item.required">\n\n                            <span *ngIf="feedback.autonumbering && item.itemnumber">{{item.itemnumber}}. </span><core-format-text  [component]="component" [componentId]="componentId" [text]="item.name"></core-format-text>\n\n                        </h2>\n\n                        <p *ngIf="item.submittedValue"><core-format-text  [component]="component" [componentId]="componentId" [text]=" item.submittedValue"></core-format-text></p>\n\n                    </ion-item>\n\n                </ng-container>\n\n            </ng-container>\n\n        </ion-list>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\mod\feedback\pages\attempt\attempt.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__providers_utils_utils__["a" /* CoreUtilsProvider */], __WEBPACK_IMPORTED_MODULE_7__providers_groups__["a" /* CoreGroupsProvider */],
-            __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_14__providers_fields_delegate__["a" /* AddonModDataFieldsDelegate */],
-            __WEBPACK_IMPORTED_MODULE_10__core_course_providers_course__["a" /* CoreCourseProvider */], __WEBPACK_IMPORTED_MODULE_11__providers_data__["a" /* AddonModDataProvider */],
-            __WEBPACK_IMPORTED_MODULE_13__providers_offline__["a" /* AddonModDataOfflineProvider */], __WEBPACK_IMPORTED_MODULE_12__providers_helper__["a" /* AddonModDataHelperProvider */],
-            __WEBPACK_IMPORTED_MODULE_6__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */],
-            __WEBPACK_IMPORTED_MODULE_8__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_9__core_fileuploader_providers_fileuploader__["a" /* CoreFileUploaderProvider */]])
-    ], AddonModDataEditPage);
-    return AddonModDataEditPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_feedback__["a" /* AddonModFeedbackProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_helper__["a" /* AddonModFeedbackHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__["a" /* CoreTextUtilsProvider */]])
+    ], AddonModFeedbackAttemptPage);
+    return AddonModFeedbackAttemptPage;
 }());
 
-//# sourceMappingURL=edit.js.map
-=======
-/**
- * Page that displays a data.
- */
-var AddonModDataIndexPage = /** @class */ (function () {
-    function AddonModDataIndexPage(navParams) {
-        this.module = navParams.get('module') || {};
-        this.courseId = navParams.get('courseId');
-        this.group = navParams.get('group') || 0;
-        this.title = this.module.name;
-    }
-    /**
-     * Update some data based on the data instance.
-     *
-     * @param {any} data Data instance.
-     */
-    AddonModDataIndexPage.prototype.updateData = function (data) {
-        this.title = data.name || this.title;
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModDataIndexComponent */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModDataIndexComponent */])
-    ], AddonModDataIndexPage.prototype, "dataComponent", void 0);
-    AddonModDataIndexPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-data-index',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\mod\data\pages\index\index.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <!-- The buttons defined by the component will be added in here. -->\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="dataComponent.loaded" (ionRefresh)="dataComponent.doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <addon-mod-data-index [module]="module" [courseId]="courseId" [group]="group" (dataRetrieved)="updateData($event)"></addon-mod-data-index>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\mod\data\pages\index\index.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */]])
-    ], AddonModDataIndexPage);
-    return AddonModDataIndexPage;
-}());
-
-//# sourceMappingURL=index.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+//# sourceMappingURL=attempt.js.map
 
 /***/ })
 

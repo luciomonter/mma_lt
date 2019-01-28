@@ -1,34 +1,19 @@
 webpackJsonp([4],{
 
-<<<<<<< HEAD
-/***/ 1853:
-=======
-/***/ 1923:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1796:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModWorkshopSubmissionPageModule", function() { return AddonModWorkshopSubmissionPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonMessagesContactsPageModule", function() { return AddonMessagesContactsPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(389);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__submission__ = __webpack_require__(1979);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonNotificationsListPageModule", function() { return AddonNotificationsListPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(2054);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__list__ = __webpack_require__(2056);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__contacts__ = __webpack_require__(1929);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pipes_pipes_module__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_components_module__ = __webpack_require__(1906);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -55,90 +40,46 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
-var AddonModWorkshopSubmissionPageModule = /** @class */ (function () {
-    function AddonModWorkshopSubmissionPageModule() {
+
+var AddonMessagesContactsPageModule = /** @class */ (function () {
+    function AddonMessagesContactsPageModule() {
     }
-    AddonModWorkshopSubmissionPageModule = __decorate([
+    AddonMessagesContactsPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_6__submission__["a" /* AddonModWorkshopSubmissionPage */],
+                __WEBPACK_IMPORTED_MODULE_3__contacts__["a" /* AddonMessagesContactsPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* AddonModWorkshopComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__submission__["a" /* AddonModWorkshopSubmissionPage */]),
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_6__pipes_pipes_module__["a" /* CorePipesModule */],
+                __WEBPACK_IMPORTED_MODULE_7__components_components_module__["a" /* AddonMessagesComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__contacts__["a" /* AddonMessagesContactsPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], AddonModWorkshopSubmissionPageModule);
-    return AddonModWorkshopSubmissionPageModule;
+    ], AddonMessagesContactsPageModule);
+    return AddonMessagesContactsPageModule;
 }());
 
-//# sourceMappingURL=submission.module.js.map
+//# sourceMappingURL=contacts.module.js.map
 
 /***/ }),
 
-/***/ 1979:
+/***/ 1906:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModWorkshopSubmissionPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesComponentsModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_sync__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_utils_text__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__core_course_providers_course__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_user_providers_user__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__core_grades_providers_helper__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_assessment_strategy_assessment_strategy__ = __webpack_require__(965);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_workshop__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_helper__ = __webpack_require__(134);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__providers_offline__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__providers_sync__ = __webpack_require__(250);
-=======
-
-var AddonNotificationsListPageModule = /** @class */ (function () {
-    function AddonNotificationsListPageModule() {
-    }
-    AddonNotificationsListPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_7__list__["a" /* AddonNotificationsListPage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_7__list__["a" /* AddonNotificationsListPage */]),
-                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild(),
-                __WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* AddonNotificationsComponentsModule */],
-            ],
-        })
-    ], AddonNotificationsListPageModule);
-    return AddonNotificationsListPageModule;
-}());
-
-//# sourceMappingURL=list.module.js.map
-
-/***/ }),
-
-/***/ 2054:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonNotificationsComponentsModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__actions_actions__ = __webpack_require__(2055);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pipes_pipes_module__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_discussions_discussions__ = __webpack_require__(1907);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_contacts_contacts__ = __webpack_require__(1908);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -163,40 +104,56 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var AddonNotificationsComponentsModule = /** @class */ (function () {
-    function AddonNotificationsComponentsModule() {
+
+
+
+
+var AddonMessagesComponentsModule = /** @class */ (function () {
+    function AddonMessagesComponentsModule() {
     }
-    AddonNotificationsComponentsModule = __decorate([
+    AddonMessagesComponentsModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_4__actions_actions__["a" /* AddonNotificationsActionsComponent */]
+                __WEBPACK_IMPORTED_MODULE_7__components_discussions_discussions__["a" /* AddonMessagesDiscussionsComponent */],
+                __WEBPACK_IMPORTED_MODULE_8__components_contacts_contacts__["a" /* AddonMessagesContactsComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_1__angular_common__["b" /* CommonModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["k" /* IonicModule */],
                 __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild(),
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_6__pipes_pipes_module__["a" /* CorePipesModule */]
             ],
             providers: [],
             exports: [
-                __WEBPACK_IMPORTED_MODULE_4__actions_actions__["a" /* AddonNotificationsActionsComponent */]
-            ],
+                __WEBPACK_IMPORTED_MODULE_7__components_discussions_discussions__["a" /* AddonMessagesDiscussionsComponent */],
+                __WEBPACK_IMPORTED_MODULE_8__components_contacts_contacts__["a" /* AddonMessagesContactsComponent */]
+            ]
         })
-    ], AddonNotificationsComponentsModule);
-    return AddonNotificationsComponentsModule;
+    ], AddonMessagesComponentsModule);
+    return AddonMessagesComponentsModule;
 }());
 
 //# sourceMappingURL=components.module.js.map
 
 /***/ }),
 
-/***/ 2055:
+/***/ 1907:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonNotificationsActionsComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesDiscussionsComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core_contentlinks_providers_delegate__ = __webpack_require__(36);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_messages__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_utils__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__addon_pushnotifications_providers_delegate__ = __webpack_require__(146);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -219,96 +176,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-<<<<<<< HEAD
-var __param = (this && this.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
 
-
-
-
-
-
-
-
-=======
-
-
-/**
- * Component that displays the actions for a notification.
- */
-var AddonNotificationsActionsComponent = /** @class */ (function () {
-    function AddonNotificationsActionsComponent(contentLinksDelegate) {
-        this.contentLinksDelegate = contentLinksDelegate;
-        this.actions = [];
-    }
-    /**
-     * Component being initialized.
-     */
-    AddonNotificationsActionsComponent.prototype.ngOnInit = function () {
-        var _this = this;
-        this.contentLinksDelegate.getActionsFor(this.contextUrl, this.courseId).then(function (actions) {
-            _this.actions = actions;
-        });
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
-        __metadata("design:type", String)
-    ], AddonNotificationsActionsComponent.prototype, "contextUrl", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
-        __metadata("design:type", Number)
-    ], AddonNotificationsActionsComponent.prototype, "courseId", void 0);
-    AddonNotificationsActionsComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'addon-notifications-actions',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\notifications\components\actions\addon-notifications-actions.html"*/'<ion-row *ngIf="actions && actions.length > 0" justify-content-around>\n    <ion-col *ngFor="let action of actions">\n        <button ion-button icon-left clear small block (click)="action.action()">\n            <ion-icon name="{{action.icon}}"></ion-icon>\n            {{ action.message | translate }}\n        </button>\n    </ion-col>\n</ion-row>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\notifications\components\actions\addon-notifications-actions.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__core_contentlinks_providers_delegate__["a" /* CoreContentLinksDelegate */]])
-    ], AddonNotificationsActionsComponent);
-    return AddonNotificationsActionsComponent;
-}());
-
-//# sourceMappingURL=actions.js.map
-
-/***/ }),
-
-/***/ 2056:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonNotificationsListPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_text__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_utils__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_notifications__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__addon_pushnotifications_providers_delegate__ = __webpack_require__(152);
-// (C) Copyright 2015 Martin Dougiamas
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 
 
 
@@ -319,674 +187,579 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
-<<<<<<< HEAD
- * Page that displays a workshop submission.
+ * Component that displays the list of discussions.
  */
-var AddonModWorkshopSubmissionPage = /** @class */ (function () {
-    function AddonModWorkshopSubmissionPage(navParams, sitesProvider, workshopProvider, workshopOffline, syncProvider, workshopHelper, navCtrl, textUtils, domUtils, fb, translate, eventsProvider, courseProvider, content, gradesHelper, userProvider) {
+var AddonMessagesDiscussionsComponent = /** @class */ (function () {
+    function AddonMessagesDiscussionsComponent(eventsProvider, sitesProvider, translate, messagesProvider, domUtils, navParams, appProvider, platform, utils, pushNotificationsDelegate) {
         var _this = this;
-        this.workshopProvider = workshopProvider;
-        this.workshopOffline = workshopOffline;
-        this.syncProvider = syncProvider;
-        this.workshopHelper = workshopHelper;
-        this.navCtrl = navCtrl;
-        this.textUtils = textUtils;
-        this.domUtils = domUtils;
-        this.fb = fb;
-        this.translate = translate;
         this.eventsProvider = eventsProvider;
-        this.courseProvider = courseProvider;
-        this.content = content;
-        this.gradesHelper = gradesHelper;
-        this.userProvider = userProvider;
+        this.messagesProvider = messagesProvider;
+        this.domUtils = domUtils;
+        this.appProvider = appProvider;
         this.loaded = false;
-        this.ownAssessment = false;
-        this.canAddFeedback = false;
-        this.canEdit = false;
-        this.canDelete = false;
-        this.originalEvaluation = {
-            published: '',
-            text: '',
-            grade: ''
+        this.search = {
+            enabled: false,
+            showResults: false,
+            results: [],
+            loading: '',
+            text: ''
         };
-        this.hasOffline = false;
-        this.component = __WEBPACK_IMPORTED_MODULE_13__providers_workshop__["a" /* AddonModWorkshopProvider */].COMPONENT;
-        this.forceLeave = false;
-        this.isDestroyed = false;
-        this.module = navParams.get('module');
-        this.workshop = navParams.get('workshop');
-        this.access = navParams.get('access');
-        this.courseId = navParams.get('courseId');
-        this.profile = navParams.get('profile');
-        this.submissionInfo = navParams.get('submission') || {};
-        this.assessment = navParams.get('assessment') || null;
-        this.title = this.module.name;
-        this.workshopId = this.module.instance;
-        this.currentUserId = sitesProvider.getCurrentSiteUserId();
+        this.search.loading = translate.instant('core.searching');
+        this.loadingMessages = translate.instant('core.loading');
         this.siteId = sitesProvider.getCurrentSiteId();
-        this.submissionId = this.submissionInfo.submissionid || this.submissionInfo.id;
-        this.userId = this.submissionInfo.userid || null;
-        this.strategy = (this.assessment && this.assessment.strategy) || (this.workshop && this.workshop.strategy);
-        this.assessmentId = this.assessment && (this.assessment.assessmentid || this.assessment.id);
-        this.assessmentUserId = this.assessment && (this.assessment.reviewerid || this.assessment.userid);
-        this.feedbackForm = new __WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* FormGroup */]({});
-        this.feedbackForm.addControl('published', this.fb.control(''));
-        this.feedbackForm.addControl('grade', this.fb.control(''));
-        this.feedbackForm.addControl('text', this.fb.control(''));
-        this.obsAssessmentSaved = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_13__providers_workshop__["a" /* AddonModWorkshopProvider */].ASSESSMENT_SAVED, function (data) {
-            _this.eventReceived(data);
-        }, this.siteId);
-        // Refresh workshop on sync.
-        this.syncObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_16__providers_sync__["a" /* AddonModWorkshopSyncProvider */].AUTO_SYNCED, function (data) {
-            // Update just when all database is synced.
-            _this.eventReceived(data);
-        }, this.siteId);
-    }
-    /**
-     * Component being initialized.
-     */
-    AddonModWorkshopSubmissionPage.prototype.ngOnInit = function () {
-        var _this = this;
-        this.fetchSubmissionData().then(function () {
-            _this.workshopProvider.logViewSubmission(_this.submissionId).then(function () {
-                _this.courseProvider.checkModuleCompletion(_this.courseId, _this.module.completionstatus);
-            });
-        });
-    };
-    /**
-     * Check if we can leave the page or not.
-     *
-     * @return {boolean|Promise<void>} Resolved if we can leave it, rejected if not.
-     */
-    AddonModWorkshopSubmissionPage.prototype.ionViewCanLeave = function () {
-        var assessmentHasChanged = this.assessmentStrategy && this.assessmentStrategy.hasDataChanged();
-        if (this.forceLeave || (!this.hasEvaluationChanged() && !assessmentHasChanged)) {
-            return true;
-        }
-        // Show confirmation if some data has been modified.
-        return this.domUtils.showConfirm(this.translate.instant('core.confirmcanceledit'));
-    };
-    /**
-     * Goto edit submission page.
-     */
-    AddonModWorkshopSubmissionPage.prototype.editSubmission = function () {
-        var params = {
-            module: module,
-            access: this.access,
-            courseid: this.courseId,
-            submissionId: this.submission.id
-        };
-        this.navCtrl.push('AddonModWorkshopEditSubmissionPage', params);
-    };
-    /**
-     * Function called when we receive an event of submission changes.
-     *
-     * @param {any} data Event data received.
-     */
-    AddonModWorkshopSubmissionPage.prototype.eventReceived = function (data) {
-        if (this.workshopId === data.workshopId) {
-            this.domUtils.scrollToTop(this.content);
-            this.loaded = false;
-            this.refreshAllData();
-        }
-    };
-    /**
-     * Fetch the submission data.
-     *
-     * @return {Promise<void>} Resolved when done.
-     */
-    AddonModWorkshopSubmissionPage.prototype.fetchSubmissionData = function () {
-        var _this = this;
-        return this.workshopHelper.getSubmissionById(this.workshopId, this.submissionId).then(function (submissionData) {
-            var promises = [];
-            _this.submission = submissionData;
-            _this.submission.attachmentfiles = submissionData.attachmentfiles || [];
-            _this.submission.submissiongrade = _this.submissionInfo && _this.submissionInfo.submissiongrade;
-            _this.submission.gradinggrade = _this.submissionInfo && _this.submissionInfo.gradinggrade;
-            _this.submission.submissiongradeover = _this.submissionInfo && _this.submissionInfo.submissiongradeover;
-            _this.userId = submissionData.authorid || _this.userId;
-            _this.canEdit = _this.currentUserId == _this.userId && _this.access.cansubmit && _this.access.modifyingsubmissionallowed;
-            _this.canDelete = _this.access.candeletesubmissions;
-            _this.canAddFeedback = !_this.assessmentId && _this.workshop.phase > __WEBPACK_IMPORTED_MODULE_13__providers_workshop__["a" /* AddonModWorkshopProvider */].PHASE_ASSESSMENT &&
-                _this.workshop.phase < __WEBPACK_IMPORTED_MODULE_13__providers_workshop__["a" /* AddonModWorkshopProvider */].PHASE_CLOSED && _this.access.canoverridegrades;
-            _this.ownAssessment = false;
-            if (_this.access.canviewallassessments) {
-                // Get new data, different that came from stateParams.
-                promises.push(_this.workshopProvider.getSubmissionAssessments(_this.workshopId, _this.submissionId)
-                    .then(function (subAssessments) {
-                    // Only allow the student to delete their own submission if it's still editable and hasn't been assessed.
-                    if (_this.canDelete) {
-                        _this.canDelete = !subAssessments.length;
-                    }
-                    _this.submissionInfo.reviewedby = subAssessments;
-                    _this.submissionInfo.reviewedby.forEach(function (assessment) {
-                        assessment.userid = assessment.reviewerid;
-                        assessment = _this.workshopHelper.realGradeValue(_this.workshop, assessment);
-                        if (_this.currentUserId == assessment.userid) {
-                            _this.ownAssessment = assessment;
-                            assessment.ownAssessment = true;
-                        }
-                    });
-                }));
-            }
-            else if (_this.currentUserId == _this.userId && _this.assessmentId) {
-                // Get new data, different that came from stateParams.
-                promises.push(_this.workshopProvider.getAssessment(_this.workshopId, _this.assessmentId).then(function (assessment) {
-                    // Only allow the student to delete their own submission if it's still editable and hasn't been assessed.
-                    if (_this.canDelete) {
-                        _this.canDelete = !assessment;
-                    }
-                    assessment.userid = assessment.reviewerid;
-                    assessment = _this.workshopHelper.realGradeValue(_this.workshop, assessment);
-                    if (_this.currentUserId == assessment.userid) {
-                        _this.ownAssessment = assessment;
-                        assessment.ownAssessment = true;
-                    }
-                    _this.submissionInfo.reviewedby = [assessment];
-                }));
-            }
-            if (_this.canAddFeedback || _this.workshop.phase == __WEBPACK_IMPORTED_MODULE_13__providers_workshop__["a" /* AddonModWorkshopProvider */].PHASE_CLOSED) {
-                _this.evaluate = {
-                    published: submissionData.published,
-                    text: submissionData.feedbackauthor || ''
-                };
-            }
-            if (_this.canAddFeedback) {
-                if (!_this.isDestroyed) {
-                    // Block the workshop.
-                    _this.syncProvider.blockOperation(_this.component, _this.workshopId);
-                }
-                var defaultGrade_1 = _this.translate.instant('addon.mod_workshop.notoverridden');
-                promises.push(_this.gradesHelper.makeGradesMenu(_this.workshop.grade, _this.workshopId, defaultGrade_1, -1)
-                    .then(function (grades) {
-                    _this.evaluationGrades = grades;
-                    _this.evaluate.grade = {
-                        label: _this.gradesHelper.getGradeLabelFromValue(grades, _this.submissionInfo.submissiongradeover) ||
-                            defaultGrade_1,
-                        value: _this.submissionInfo.submissiongradeover || -1
-                    };
-                    return _this.workshopOffline.getEvaluateSubmission(_this.workshopId, _this.submissionId)
-                        .then(function (offlineSubmission) {
-                        _this.hasOffline = true;
-                        _this.evaluate.published = offlineSubmission.published;
-                        _this.evaluate.text = offlineSubmission.feedbacktext;
-                        _this.evaluate.grade = {
-                            label: _this.gradesHelper.getGradeLabelFromValue(grades, offlineSubmission.gradeover) || defaultGrade_1,
-                            value: offlineSubmission.gradeover || -1
-                        };
-                    }).catch(function () {
-                        _this.hasOffline = false;
-                        // Ignore errors.
-                    }).finally(function () {
-                        _this.originalEvaluation.published = _this.evaluate.published;
-                        _this.originalEvaluation.text = _this.evaluate.text;
-                        _this.originalEvaluation.grade = _this.evaluate.grade.value;
-                        _this.feedbackForm.controls['published'].setValue(_this.evaluate.published);
-                        _this.feedbackForm.controls['grade'].setValue(_this.evaluate.grade.value);
-                        _this.feedbackForm.controls['text'].setValue(_this.evaluate.text);
-                    });
-                }));
-            }
-            else if (_this.workshop.phase == __WEBPACK_IMPORTED_MODULE_13__providers_workshop__["a" /* AddonModWorkshopProvider */].PHASE_CLOSED && submissionData.gradeoverby) {
-                promises.push(_this.userProvider.getProfile(submissionData.gradeoverby, _this.courseId, true).then(function (profile) {
-                    _this.evaluateByProfile = profile;
-                }));
-            }
-            if (_this.assessmentId && !_this.access.assessingallowed && _this.assessment.feedbackreviewer &&
-                _this.assessment.gradinggradeoverby) {
-                promises.push(_this.userProvider.getProfile(_this.assessment.gradinggradeoverby, _this.courseId, true)
-                    .then(function (profile) {
-                    _this.evaluateGradingByProfile = profile;
-                }));
-            }
-            return Promise.all(promises);
-        }).then(function () {
-            return _this.workshopOffline.getSubmissions(_this.workshopId).then(function (submissionsActions) {
-                var actions = _this.workshopHelper.filterSubmissionActions(submissionsActions, _this.submissionId);
-                return _this.workshopHelper.applyOfflineData(_this.submission, actions).then(function (submission) {
-                    _this.submission = submission;
+        // Update discussions when new message is received.
+        this.newMessagesObserver = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].NEW_MESSAGE_EVENT, function (data) {
+            if (data.userId) {
+                var discussion = _this.discussions.find(function (disc) {
+                    return disc.message.user == data.userId;
                 });
-            });
-        }).catch(function (message) {
-            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
-        }).finally(function () {
-            _this.loaded = true;
-        });
-    };
-    /**
-     * Force leaving the page, without checking for changes.
-     */
-    AddonModWorkshopSubmissionPage.prototype.forceLeavePage = function () {
-        this.forceLeave = true;
-        this.navCtrl.pop();
-    };
-    /**
-     * Check if data has changed.
-     *
-     * @return {boolean} True if changed, false otherwise.
-     */
-    AddonModWorkshopSubmissionPage.prototype.hasEvaluationChanged = function () {
-        if (!this.loaded || !this.access.canoverridegrades) {
-            return false;
-        }
-        var inputData = this.feedbackForm.value;
-        if (this.originalEvaluation.published != inputData.published) {
-            return true;
-        }
-        if (this.originalEvaluation.text != inputData.text) {
-            return true;
-        }
-        if (this.originalEvaluation.grade != inputData.grade) {
-            return true;
-        }
-        return false;
-    };
-    /**
-     * Convenience function to refresh all the data.
-     *
-     * @return {Promise<any>} Resolved when done.
-     */
-    AddonModWorkshopSubmissionPage.prototype.refreshAllData = function () {
-        var _this = this;
-        var promises = [];
-        promises.push(this.workshopProvider.invalidateSubmissionData(this.workshopId, this.submissionId));
-        promises.push(this.workshopProvider.invalidateSubmissionsData(this.workshopId));
-        promises.push(this.workshopProvider.invalidateSubmissionAssesmentsData(this.workshopId, this.submissionId));
-        if (this.assessmentId) {
-            promises.push(this.workshopProvider.invalidateAssessmentFormData(this.workshopId, this.assessmentId));
-            promises.push(this.workshopProvider.invalidateAssessmentData(this.workshopId, this.assessmentId));
-        }
-        return Promise.all(promises).finally(function () {
-            _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_13__providers_workshop__["a" /* AddonModWorkshopProvider */].ASSESSMENT_INVALIDATED, _this.siteId);
-            return _this.fetchSubmissionData();
-        });
-    };
-    /**
-     * Pull to refresh.
-     *
-     * @param {any} refresher Refresher.
-     */
-    AddonModWorkshopSubmissionPage.prototype.refreshSubmission = function (refresher) {
-        if (this.loaded) {
-            this.refreshAllData().finally(function () {
-                refresher.complete();
-            });
-        }
-    };
-    /**
-     * Save the assessment.
-     */
-    AddonModWorkshopSubmissionPage.prototype.saveAssessment = function () {
-        var _this = this;
-        if (this.assessmentStrategy && this.assessmentStrategy.hasDataChanged()) {
-            this.assessmentStrategy.saveAssessment().then(function () {
-                _this.forceLeavePage();
-            }).catch(function () {
-                // Error, stay on the page.
-            });
-        }
-        else {
-            // Nothing to save, just go back.
-            this.forceLeavePage();
-        }
-    };
-    /**
-     * Save the submission evaluation.
-     */
-    AddonModWorkshopSubmissionPage.prototype.saveEvaluation = function () {
-        var _this = this;
-        // Check if data has changed.
-        if (this.hasEvaluationChanged()) {
-            this.sendEvaluation().then(function () {
-                _this.forceLeavePage();
-            });
-        }
-        else {
-            // Nothing to save, just go back.
-            this.forceLeavePage();
-        }
-    };
-    /**
-     * Sends the evaluation to be saved on the server.
-     *
-     * @return {Promise<any>} Resolved when done.
-     */
-    AddonModWorkshopSubmissionPage.prototype.sendEvaluation = function () {
-        var _this = this;
-        var modal = this.domUtils.showModalLoading('core.sending', true);
-        var inputData = this.feedbackForm.value;
-        inputData.grade = inputData.grade >= 0 ? inputData.grade : '';
-        // Add some HTML to the message if needed.
-        inputData.text = this.textUtils.formatHtmlLines(inputData.text);
-        // Try to send it to server.
-        return this.workshopProvider.evaluateSubmission(this.workshopId, this.submissionId, this.courseId, inputData.text, inputData.published, inputData.grade).then(function () {
-            var data = {
-                workshopId: _this.workshopId,
-                cmId: _this.module.cmid,
-                submissionId: _this.submissionId
-            };
-            return _this.workshopProvider.invalidateSubmissionData(_this.workshopId, _this.submissionId).finally(function () {
-                _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_13__providers_workshop__["a" /* AddonModWorkshopProvider */].SUBMISSION_CHANGED, data, _this.siteId);
-            });
-        }).catch(function (message) {
-            _this.domUtils.showErrorModalDefault(message, 'Cannot save submission evaluation');
-        }).finally(function () {
-            modal.dismiss();
-        });
-    };
-    /**
-     * Perform the submission delete action.
-     */
-    AddonModWorkshopSubmissionPage.prototype.deleteSubmission = function () {
-        var _this = this;
-        this.domUtils.showConfirm(this.translate.instant('addon.mod_workshop.submissiondeleteconfirm')).then(function () {
-            var modal = _this.domUtils.showModalLoading('core.deleting', true);
-            var success = false;
-            _this.workshopProvider.deleteSubmission(_this.workshopId, _this.submissionId, _this.courseId).then(function () {
-                success = true;
-                return _this.workshopProvider.invalidateSubmissionData(_this.workshopId, _this.submissionId);
-            }).catch(function (error) {
-                _this.domUtils.showErrorModalDefault(error, 'Cannot delete submission');
-            }).finally(function () {
-                modal.dismiss();
-                if (success) {
-                    var data = {
-                        workshopId: _this.workshopId,
-                        cmId: _this.module.cmid,
-                        submissionId: _this.submissionId
-                    };
-                    _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_13__providers_workshop__["a" /* AddonModWorkshopProvider */].SUBMISSION_CHANGED, data, _this.siteId);
-                    _this.forceLeavePage();
-                }
-            });
-        });
-    };
-    /**
-     * Undo the submission delete action.
-     *
-     * @return {Promise<any>} Resolved when done.
-     */
-    AddonModWorkshopSubmissionPage.prototype.undoDeleteSubmission = function () {
-        var _this = this;
-        return this.workshopOffline.deleteSubmissionAction(this.workshopId, this.submissionId, 'delete').finally(function () {
-            var data = {
-                workshopId: _this.workshopId,
-                cmId: _this.module.cmid,
-                submissionId: _this.submissionId
-            };
-            _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_13__providers_workshop__["a" /* AddonModWorkshopProvider */].SUBMISSION_CHANGED, data, _this.siteId);
-            return _this.refreshAllData();
-        });
-    };
-    /**
-     * Component being destroyed.
-     */
-    AddonModWorkshopSubmissionPage.prototype.ngOnDestroy = function () {
-        this.isDestroyed = true;
-        this.syncObserver && this.syncObserver.off();
-        this.obsAssessmentSaved && this.obsAssessmentSaved.off();
-        // Restore original back functions.
-        this.syncProvider.unblockOperation(this.component, this.workshopId);
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_12__components_assessment_strategy_assessment_strategy__["a" /* AddonModWorkshopAssessmentStrategyComponent */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_12__components_assessment_strategy_assessment_strategy__["a" /* AddonModWorkshopAssessmentStrategyComponent */])
-    ], AddonModWorkshopSubmissionPage.prototype, "assessmentStrategy", void 0);
-    AddonModWorkshopSubmissionPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-workshop-submission-page',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\workshop\pages\submission\submission.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end [hidden]="!loaded">\n\n            <button *ngIf="assessmentId" ion-button clear (click)="saveAssessment()" [attr.aria-label]="\'core.save\' | translate">\n\n                {{ \'core.save\' | translate }}\n\n            </button>\n\n            <button *ngIf="canAddFeedback" ion-button clear (click)="saveEvaluation()" [attr.aria-label]="\'core.save\' | translate">\n\n                {{ \'core.save\' | translate }}\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshSubmission($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-loading [hideUntil]="loaded">\n\n        <ion-list *ngIf="submission">\n\n            <addon-mod-workshop-submission [submission]="submission" [courseId]="courseId" [module]="module" [workshop]="workshop" [access]="access"></addon-mod-workshop-submission>\n\n            <ion-item text-wrap *ngIf="canEdit || canDelete">\n\n                <button ion-button block icon-start *ngIf="canEdit" (click)="editSubmission()">\n\n                    <ion-icon name="create"></ion-icon>\n\n                    {{ \'addon.mod_workshop.editsubmission\' | translate }}\n\n                </button>\n\n                <button ion-button block icon-start *ngIf="!submission.deleted && canDelete" color="danger" (click)="deleteSubmission()">\n\n                    <ion-icon name="trash"></ion-icon>\n\n                    {{ \'addon.mod_workshop.deletesubmission\' | translate }}\n\n                </button>\n\n                <button ion-button block icon-start outline *ngIf="submission.deleted && canDelete" color="danger" (click)="undoDeleteSubmission()">\n\n                    <ion-icon name="undo"></ion-icon>\n\n                    {{ \'core.restore\' | translate }}\n\n                </button>\n\n            </ion-item>\n\n        </ion-list>\n\n\n\n        <ion-list *ngIf="!canAddFeedback && evaluate && evaluate.text">\n\n            <ion-item text-wrap>\n\n                <ion-avatar item-start *ngIf="evaluateByProfile">\n\n                    <img [src]="evaluateByProfile.profileimageurl" core-external-content core-user-link [courseId]="courseId" [userId]="evaluateByProfile.id" [alt]="\'core.pictureof\' | translate:{$a: evaluateByProfile.fullname}" role="presentation" onError="this.src=\'assets/img/user-avatar.png\'">\n\n                </ion-avatar>\n\n                <h2 *ngIf="evaluateByProfile && evaluateByProfile.fullname">{{ \'addon.mod_workshop.feedbackby\' | translate : {$a: evaluateByProfile.fullname} }}</h2>\n\n                <core-format-text [text]="evaluate.text"></core-format-text>\n\n            </ion-item>\n\n        </ion-list>\n\n\n\n        <ion-list *ngIf="ownAssessment && !assessment">\n\n            <ion-item text-wrap>\n\n                <h2>{{ \'addon.mod_workshop.yourassessment\' | translate }}</h2>\n\n            </ion-item>\n\n            <addon-mod-workshop-assessment [submission]="submission" [assessment]="ownAssessment" [courseId]="courseId" summary="true" [access]="access" [module]="module" [workshop]="workshop"></addon-mod-workshop-assessment>\n\n        </ion-list>\n\n\n\n        <ion-list *ngIf="submissionInfo && submissionInfo.reviewedby && submissionInfo.reviewedby.length && !assessment">\n\n            <ion-item text-wrap>\n\n                <h2>{{ \'addon.mod_workshop.receivedgrades\' | translate }}</h2>\n\n            </ion-item>\n\n            <ng-container *ngFor="let reviewer of submissionInfo.reviewedby">\n\n                <addon-mod-workshop-assessment *ngIf="!reviewer.ownAssessment" [submission]="submission" [assessment]="reviewer" [courseId]="courseId" summary="true" [access]="access" [workshop]="workshop"></addon-mod-workshop-assessment>\n\n            </ng-container>\n\n        </ion-list>\n\n\n\n        <ion-list *ngIf="submissionInfo && submissionInfo.reviewerof && submissionInfo.reviewerof.length && !assessment">\n\n            <ion-item text-wrap>\n\n                <h2>{{ \'addon.mod_workshop.givengrades\' | translate }}</h2>\n\n            </ion-item>\n\n            <addon-mod-workshop-assessment *ngFor="let reviewer of submissionInfo.reviewerof" [assessment]="reviewer" [courseId]="courseId" summary="true" [workshop]="workshop" [access]="access"></addon-mod-workshop-assessment>\n\n        </ion-list>\n\n\n\n        <form ion-list [formGroup]="feedbackForm" *ngIf="canAddFeedback">\n\n            <ion-item text-wrap>\n\n                <h2>{{ \'addon.mod_workshop.feedbackauthor\' | translate }}</h2>\n\n            </ion-item>\n\n            <ion-item text-wrap *ngIf="access.canpublishsubmissions">\n\n                <ion-label>{{ \'addon.mod_workshop.publishsubmission\' | translate }}</ion-label>\n\n                <ion-toggle formControlName="published"></ion-toggle>\n\n                <p class="item-help">{{ \'addon.mod_workshop.publishsubmission_help\' | translate }}</p>\n\n            </ion-item>\n\n\n\n            <ion-item text-wrap>\n\n                <h2>{{ \'addon.mod_workshop.gradecalculated\' | translate }}</h2>\n\n                <p>{{ submission.submissiongrade }}</p>\n\n            </ion-item>\n\n            <ion-item text-wrap>\n\n                <ion-label stacked>{{ \'addon.mod_workshop.gradeover\' | translate }}</ion-label>\n\n                <ion-select formControlName="grade" interface="popover">\n\n                    <ion-option *ngFor="let grade of evaluationGrades" [value]="grade.value">{{grade.label}}</ion-option>\n\n                </ion-select>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-label stacked>{{ \'addon.mod_workshop.feedbackauthor\' | translate }}</ion-label>\n\n                <core-rich-text-editor item-content [control]="feedbackForm.controls[\'text\']" formControlName="text"></core-rich-text-editor>\n\n            </ion-item>\n\n        </form>\n\n\n\n        <addon-mod-workshop-assessment-strategy *ngIf="assessmentId" [workshop]="workshop" [access]="access" [assessmentId]="assessmentId" [userId]="assessmentUserId" [strategy]="strategy" [edit]="access.assessingallowed"></addon-mod-workshop-assessment-strategy>\n\n\n\n        <ion-list *ngIf="assessmentId && !access.assessingallowed && assessment.feedbackreviewer">\n\n            <ion-item text-wrap>\n\n                <ion-avatar item-start *ngIf="evaluateGradingByProfile">\n\n                    <img [src]="evaluateGradingByProfile.profileimageurl" core-external-content core-user-link [courseId]="courseId" [userId]="evaluateGradingByProfile.id" [alt]="\'core.pictureof\' | translate:{$a: evaluateGradingByProfile.fullname}" role="presentation" onError="this.src=\'assets/img/user-avatar.png\'">\n\n                </ion-avatar>\n\n                <h2 *ngIf="evaluateGradingByProfile && evaluateGradingByProfile.fullname">{{ \'addon.mod_workshop.feedbackby\' | translate : {$a: evaluateGradingByProfile.fullname} }}</h2>\n\n                <core-format-text [text]="assessment.feedbackreviewer"></core-format-text>\n\n            </ion-item>\n\n        </ion-list>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\workshop\pages\submission\submission.html"*/,
-        }),
-        __param(13, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Optional */])()),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_13__providers_workshop__["a" /* AddonModWorkshopProvider */],
-            __WEBPACK_IMPORTED_MODULE_15__providers_offline__["a" /* AddonModWorkshopOfflineProvider */], __WEBPACK_IMPORTED_MODULE_6__providers_sync__["a" /* CoreSyncProvider */],
-            __WEBPACK_IMPORTED_MODULE_14__providers_helper__["a" /* AddonModWorkshopHelperProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_8__providers_utils_text__["a" /* CoreTextUtilsProvider */], __WEBPACK_IMPORTED_MODULE_7__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */],
-            __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_4__providers_events__["a" /* CoreEventsProvider */],
-            __WEBPACK_IMPORTED_MODULE_9__core_course_providers_course__["a" /* CoreCourseProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */],
-            __WEBPACK_IMPORTED_MODULE_11__core_grades_providers_helper__["a" /* CoreGradesHelperProvider */], __WEBPACK_IMPORTED_MODULE_10__core_user_providers_user__["a" /* CoreUserProvider */]])
-    ], AddonModWorkshopSubmissionPage);
-    return AddonModWorkshopSubmissionPage;
-}());
-
-//# sourceMappingURL=submission.js.map
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1980)(module)))
-
-/***/ }),
-
-/***/ 1980:
-/***/ (function(module, exports) {
-
-module.exports = function(originalModule) {
-	if(!originalModule.webpackPolyfill) {
-		var module = Object.create(originalModule);
-		// module.parent = undefined by default
-		if(!module.children) module.children = [];
-		Object.defineProperty(module, "loaded", {
-			enumerable: true,
-			get: function() {
-				return module.l;
-			}
-		});
-		Object.defineProperty(module, "id", {
-			enumerable: true,
-			get: function() {
-				return module.i;
-			}
-		});
-		Object.defineProperty(module, "exports", {
-			enumerable: true,
-		});
-		module.webpackPolyfill = 1;
-	}
-	return module;
-};
-
-=======
- * Page that displays the list of notifications.
- */
-var AddonNotificationsListPage = /** @class */ (function () {
-    function AddonNotificationsListPage(navParams, domUtils, eventsProvider, sitesProvider, textUtils, utils, notificationsProvider, pushNotificationsDelegate) {
-        this.domUtils = domUtils;
-        this.eventsProvider = eventsProvider;
-        this.sitesProvider = sitesProvider;
-        this.textUtils = textUtils;
-        this.utils = utils;
-        this.notificationsProvider = notificationsProvider;
-        this.pushNotificationsDelegate = pushNotificationsDelegate;
-        this.notifications = [];
-        this.notificationsLoaded = false;
-        this.canLoadMore = false;
-        this.loadMoreError = false;
-        this.canMarkAllNotificationsAsRead = false;
-        this.loadingMarkAllNotificationsAsRead = false;
-        this.readCount = 0;
-        this.unreadCount = 0;
-    }
-    /**
-     * View loaded.
-     */
-    AddonNotificationsListPage.prototype.ionViewDidLoad = function () {
-        var _this = this;
-        this.fetchNotifications().finally(function () {
-            _this.notificationsLoaded = true;
-        });
-        this.cronObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_7__providers_notifications__["a" /* AddonNotificationsProvider */].READ_CRON_EVENT, function () { return _this.refreshNotifications(); }, this.sitesProvider.getCurrentSiteId());
-        this.pushObserver = this.pushNotificationsDelegate.on('receive').subscribe(function (notification) {
-            // New notification received. If it's from current site, refresh the data.
-            if (_this.utils.isTrueOrOne(notification.notif) && _this.sitesProvider.isCurrentSite(notification.site)) {
-                _this.refreshNotifications();
-            }
-        });
-    };
-    /**
-     * Convenience function to get notifications. Gets unread notifications first.
-     *
-     * @param {boolean} refreh Whether we're refreshing data.
-     * @return {Promise<any>} Resolved when done.
-     */
-    AddonNotificationsListPage.prototype.fetchNotifications = function (refresh) {
-        var _this = this;
-        this.loadMoreError = false;
-        if (refresh) {
-            this.readCount = 0;
-            this.unreadCount = 0;
-        }
-        var limit = __WEBPACK_IMPORTED_MODULE_7__providers_notifications__["a" /* AddonNotificationsProvider */].LIST_LIMIT;
-        return this.notificationsProvider.getUnreadNotifications(this.unreadCount, limit).then(function (unread) {
-            var promises = [];
-            unread.forEach(_this.formatText.bind(_this));
-            /* Don't add the unread notifications to this.notifications yet. If there are no unread notifications
-               that causes that the "There are no notifications" message is shown in pull to refresh. */
-            _this.unreadCount += unread.length;
-            if (unread.length < limit) {
-                // Limit not reached. Get read notifications until reach the limit.
-                var readLimit_1 = limit - unread.length;
-                promises.push(_this.notificationsProvider.getReadNotifications(_this.readCount, readLimit_1).then(function (read) {
-                    read.forEach(_this.formatText.bind(_this));
-                    _this.readCount += read.length;
-                    if (refresh) {
-                        _this.notifications = unread.concat(read);
-                    }
-                    else {
-                        _this.notifications = _this.notifications.concat(unread, read);
-                    }
-                    _this.canLoadMore = read.length >= readLimit_1;
-                }).catch(function (error) {
-                    if (unread.length == 0) {
-                        _this.domUtils.showErrorModalDefault(error, 'addon.notifications.errorgetnotifications', true);
-                        _this.loadMoreError = true; // Set to prevent infinite calls with infinite-loading.
-                    }
-                }));
-            }
-            else {
-                if (refresh) {
-                    _this.notifications = unread;
+                if (typeof discussion == 'undefined') {
+                    _this.loaded = false;
+                    _this.refreshData().finally(function () {
+                        _this.loaded = true;
+                    });
                 }
                 else {
-                    _this.notifications = _this.notifications.concat(unread);
+                    // An existing discussion has a new message, update the last message.
+                    discussion.message.message = data.message;
+                    discussion.message.timecreated = data.timecreated;
                 }
-                _this.canLoadMore = true;
             }
-            return Promise.all(promises).then(function () {
-                // Mark retrieved notifications as read if they are not.
-                _this.markNotificationsAsRead(unread);
-            });
-        }).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'addon.notifications.errorgetnotifications', true);
-            _this.loadMoreError = true; // Set to prevent infinite calls with infinite-loading.
-        });
-    };
-    /**
-     * Mark all notifications as read.
-     */
-    AddonNotificationsListPage.prototype.markAllNotificationsAsRead = function () {
-        var _this = this;
-        this.loadingMarkAllNotificationsAsRead = true;
-        this.notificationsProvider.markAllNotificationsAsRead().catch(function () {
-            // Omit failure.
-        }).then(function () {
-            var siteId = _this.sitesProvider.getCurrentSiteId();
-            _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_7__providers_notifications__["a" /* AddonNotificationsProvider */].READ_CHANGED_EVENT, null, siteId);
-            // All marked as read, refresh the list.
-            _this.notificationsLoaded = false;
-            return _this.refreshNotifications().finally(function () {
-                _this.notificationsLoaded = true;
-            });
-        });
-    };
-    /**
-     * Mark notifications as read.
-     *
-     * @param {any[]} notifications Array of notification objects.
-     */
-    AddonNotificationsListPage.prototype.markNotificationsAsRead = function (notifications) {
-        var _this = this;
-        var promise;
-        if (notifications.length > 0) {
-            var promises = notifications.map(function (notification) {
-                return _this.notificationsProvider.markNotificationRead(notification.id);
-            });
-            promise = Promise.all(promises).catch(function () {
-                // Ignore errors.
-            }).finally(function () {
-                _this.notificationsProvider.invalidateNotificationsList().finally(function () {
-                    var siteId = _this.sitesProvider.getCurrentSiteId();
-                    _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_7__providers_notifications__["a" /* AddonNotificationsProvider */].READ_CHANGED_EVENT, null, siteId);
+        }, this.siteId);
+        // Update discussions when a message is read.
+        this.readChangedObserver = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].READ_CHANGED_EVENT, function (data) {
+            if (data.userId) {
+                var discussion = _this.discussions.find(function (disc) {
+                    return disc.message.user == data.userId;
                 });
-            });
-        }
-        else {
-            promise = Promise.resolve();
-        }
-        promise.finally(function () {
-            // Check if mark all notifications as read is enabled and there are some to read.
-            if (_this.notificationsProvider.isMarkAllNotificationsAsReadEnabled()) {
-                _this.loadingMarkAllNotificationsAsRead = true;
-                return _this.notificationsProvider.getUnreadNotificationsCount().then(function (unread) {
-                    _this.canMarkAllNotificationsAsRead = unread > 0;
-                }).finally(function () {
-                    _this.loadingMarkAllNotificationsAsRead = false;
-                });
+                if (typeof discussion != 'undefined') {
+                    // A discussion has been read reset counter.
+                    discussion.unread = false;
+                    // Discussions changed, invalidate them.
+                    _this.messagesProvider.invalidateDiscussionsCache();
+                }
             }
-            _this.canMarkAllNotificationsAsRead = false;
+        }, this.siteId);
+        // Update discussions when cron read is executed.
+        this.cronObserver = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].READ_CRON_EVENT, function (data) {
+            _this.refreshData();
+        }, this.siteId);
+        // Refresh the view when the app is resumed.
+        this.appResumeSubscription = platform.resume.subscribe(function () {
+            if (!_this.loaded) {
+                return;
+            }
+            _this.loaded = false;
+            _this.refreshData();
+        });
+        this.discussionUserId = navParams.get('discussionUserId') || false;
+        // If a message push notification is received, refresh the view.
+        this.pushObserver = pushNotificationsDelegate.on('receive').subscribe(function (notification) {
+            // New message received. If it's from current site, refresh the data.
+            if (utils.isFalseOrZero(notification.notif) && notification.site == _this.siteId) {
+                _this.refreshData();
+            }
+        });
+    }
+    /**
+     * Component loaded.
+     */
+    AddonMessagesDiscussionsComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        if (this.discussionUserId) {
+            // There is a discussion to load, open the discussion in a new state.
+            this.gotoDiscussion(this.discussionUserId);
+        }
+        this.fetchData().then(function () {
+            if (!_this.discussionUserId && _this.discussions.length > 0) {
+                // Take first and load it.
+                _this.gotoDiscussion(_this.discussions[0].message.user, undefined, true);
+            }
         });
     };
     /**
-     * Refresh notifications.
+     * Refresh the data.
      *
      * @param {any} [refresher] Refresher.
-     * @return Promise<any> Promise resolved when done.
+     * @return {Promise<any>} Promise resolved when done.
      */
-    AddonNotificationsListPage.prototype.refreshNotifications = function (refresher) {
+    AddonMessagesDiscussionsComponent.prototype.refreshData = function (refresher) {
         var _this = this;
-        return this.notificationsProvider.invalidateNotificationsList().finally(function () {
-            return _this.fetchNotifications(true).finally(function () {
+        return this.messagesProvider.invalidateDiscussionsCache().then(function () {
+            return _this.fetchData().finally(function () {
                 if (refresher) {
+                    // Actions to take if refresh comes from the user.
+                    _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].READ_CHANGED_EVENT, undefined, _this.siteId);
                     refresher.complete();
                 }
             });
         });
     };
     /**
-     * Load more results.
+     * Fetch discussions.
      *
-     * @param {any} [infiniteComplete] Infinite scroll complete function. Only used from core-infinite-loading.
+     * @return {Promise<any>} Promise resolved when done.
      */
-    AddonNotificationsListPage.prototype.loadMoreNotifications = function (infiniteComplete) {
-        this.fetchNotifications().finally(function () {
-            infiniteComplete && infiniteComplete();
+    AddonMessagesDiscussionsComponent.prototype.fetchData = function () {
+        var _this = this;
+        this.loadingMessage = this.loadingMessages;
+        this.search.enabled = this.messagesProvider.isSearchMessagesEnabled();
+        return this.messagesProvider.getDiscussions().then(function (discussions) {
+            // Convert to an array for sorting.
+            var discussionsSorted = [];
+            for (var userId in discussions) {
+                discussions[userId].unread = !!discussions[userId].unread;
+                discussionsSorted.push(discussions[userId]);
+            }
+            _this.discussions = discussionsSorted.sort(function (a, b) {
+                return b.message.timecreated - a.message.timecreated;
+            });
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingdiscussions', true);
+        }).finally(function () {
+            _this.loaded = true;
         });
     };
     /**
-     * Formats the text of a notification.
-     *
-     * @param {any} notification The notification object.
+     * Clear search and show discussions again.
      */
-    AddonNotificationsListPage.prototype.formatText = function (notification) {
-        var text = notification.mobiletext.replace(/-{4,}/ig, '');
-        notification.mobiletext = this.textUtils.replaceNewLines(text, '<br>');
+    AddonMessagesDiscussionsComponent.prototype.clearSearch = function () {
+        var _this = this;
+        this.loaded = false;
+        this.search.showResults = false;
+        this.search.text = ''; // Reset searched string.
+        this.fetchData().finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Search messages cotaining text.
+     *
+     * @param  {string}       query Text to search for.
+     * @return {Promise<any>}       Resolved when done.
+     */
+    AddonMessagesDiscussionsComponent.prototype.searchMessage = function (query) {
+        var _this = this;
+        this.appProvider.closeKeyboard();
+        this.loaded = false;
+        this.loadingMessage = this.search.loading;
+        return this.messagesProvider.searchMessages(query).then(function (searchResults) {
+            _this.search.showResults = true;
+            _this.search.results = searchResults;
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingmessages', true);
+        }).finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Navigate to a particular discussion.
+     *
+     * @param {number} discussionUserId Discussion Id to load.
+     * @param {number} [messageId]      Message to scroll after loading the discussion. Used when searching.
+     * @param {boolean} [onlyWithSplitView=false]  Only go to Discussion if split view is on.
+     */
+    AddonMessagesDiscussionsComponent.prototype.gotoDiscussion = function (discussionUserId, messageId, onlyWithSplitView) {
+        if (onlyWithSplitView === void 0) { onlyWithSplitView = false; }
+        this.discussionUserId = discussionUserId;
+        var params = {
+            discussion: discussionUserId,
+            onlyWithSplitView: onlyWithSplitView
+        };
+        if (messageId) {
+            params['message'] = messageId;
+        }
+        this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].SPLIT_VIEW_LOAD_EVENT, params, this.siteId);
+    };
+    /**
+     * Component destroyed.
+     */
+    AddonMessagesDiscussionsComponent.prototype.ngOnDestroy = function () {
+        this.newMessagesObserver && this.newMessagesObserver.off();
+        this.readChangedObserver && this.readChangedObserver.off();
+        this.cronObserver && this.cronObserver.off();
+        this.appResumeSubscription && this.appResumeSubscription.unsubscribe();
+        this.pushObserver && this.pushObserver.unsubscribe();
+    };
+    AddonMessagesDiscussionsComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'addon-messages-discussions',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\messages\components\discussions\addon-messages-discussions.html"*/'<ion-content>\n\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshData($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n\n\n    <core-search-box *ngIf="search.enabled" (onSubmit)="searchMessage($event)" (onClear)="clearSearch($event)" [placeholder]=" \'addon.messages.message\' | translate" autocorrect="off" spellcheck="false" lengthCheck="2" [disabled]="!loaded"></core-search-box>\n\n\n\n    <core-loading [hideUntil]="loaded" [message]="loadingMessage">\n\n\n\n        <core-empty-box *ngIf="(!discussions || discussions.length <= 0) && !search.showResults" icon="chatbubbles" [message]="\'addon.messages.nomessages\' | translate"></core-empty-box>\n\n\n\n        <core-empty-box *ngIf="(!search.results || search.results.length <= 0) && search.showResults" icon="search" [message]="\'core.noresults\' | translate"></core-empty-box>\n\n\n\n        <ion-list *ngIf="search.showResults" no-margin>\n\n            <ion-item-divider color="light">\n\n                <h2>{{ \'core.searchresults\' | translate }}</h2>\n\n                <ion-note item-end>{{ search.results.length }}</ion-note>\n\n            </ion-item-divider>\n\n            <a ion-item text-wrap *ngFor="let result of search.results" [title]="result.fullname" (click)="gotoDiscussion(result.userid, result.messageid)" [class.core-split-item-selected]="result.userid == discussionUserId" detail-none>\n\n                <ion-avatar item-start>\n\n                    <img src="{{result.profileimageurl}}" [alt]="\'core.pictureof\' | translate:{$a: result.fullname}" core-external-content onError="this.src=\'assets/img/user-avatar.png\'">\n\n                </ion-avatar>\n\n                <h2><core-format-text [text]="result.fullname"></core-format-text></h2>\n\n                <p><core-format-text clean="true" singleLine="true" [text]="result.lastmessage"></core-format-text></p>\n\n            </a>\n\n        </ion-list>\n\n\n\n        <ion-list *ngIf="!search.showResults" no-margin>\n\n            <a ion-item text-wrap *ngFor="let discussion of discussions" [title]="discussion.fullname" (click)="gotoDiscussion(discussion.message.user)" [class.core-split-item-selected]="discussion.message.user == discussionUserId" detail-none>\n\n                <ion-avatar item-start>\n\n                    <img src="{{discussion.profileimageurl}}" [alt]="\'core.pictureof\' | translate:{$a: discussion.fullname}" core-external-content onError="this.src=\'assets/img/user-avatar.png\'">\n\n                </ion-avatar>\n\n                <h2>\n\n                    <core-format-text [text]="discussion.fullname"></core-format-text>\n\n                    <ion-note *ngIf="discussion.message.timecreated > 0 || discussion.unread">\n\n                        <span *ngIf="discussion.unread" class="core-primary-circle"></span>\n\n                        <span *ngIf="discussion.message.timecreated > 0">{{discussion.message.timecreated / 1000 | coreDateDayOrTime}}</span>\n\n                    </ion-note>\n\n                </h2>\n\n                <p><core-format-text clean="true" singleLine="true" [text]="discussion.message.message"></core-format-text></p>\n\n            </a>\n\n        </ion-list>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\messages\components\discussions\addon-messages-discussions.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */], __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_8__providers_app__["a" /* CoreAppProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["u" /* Platform */], __WEBPACK_IMPORTED_MODULE_7__providers_utils_utils__["a" /* CoreUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_9__addon_pushnotifications_providers_delegate__["a" /* AddonPushNotificationsDelegate */]])
+    ], AddonMessagesDiscussionsComponent);
+    return AddonMessagesDiscussionsComponent;
+}());
+
+//# sourceMappingURL=discussions.js.map
+
+/***/ }),
+
+/***/ 1908:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesContactsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_messages__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_events__ = __webpack_require__(12);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+/**
+ * Component that displays the list of contacts.
+ */
+var AddonMessagesContactsComponent = /** @class */ (function () {
+    function AddonMessagesContactsComponent(sitesProvider, translate, appProvider, messagesProvider, domUtils, navParams, eventsProvider) {
+        this.appProvider = appProvider;
+        this.messagesProvider = messagesProvider;
+        this.domUtils = domUtils;
+        this.eventsProvider = eventsProvider;
+        this.noSearchTypes = ['online', 'offline', 'blocked', 'strangers'];
+        this.loaded = false;
+        this.contactTypes = this.noSearchTypes;
+        this.searchType = 'search';
+        this.loadingMessage = '';
+        this.hasContacts = false;
+        this.contacts = {
+            search: []
+        };
+        this.searchString = '';
+        this.currentUserId = sitesProvider.getCurrentSiteUserId();
+        this.siteId = sitesProvider.getCurrentSiteId();
+        this.searchingMessages = translate.instant('core.searching');
+        this.loadingMessages = translate.instant('core.loading');
+        this.loadingMessage = this.loadingMessages;
+        this.discussionUserId = navParams.get('discussionUserId') || false;
+    }
+    /**
+     * Component loaded.
+     */
+    AddonMessagesContactsComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        if (this.discussionUserId) {
+            // There is a discussion to load, open the discussion in a new state.
+            this.gotoDiscussion(this.discussionUserId);
+        }
+        this.fetchData().then(function () {
+            if (!_this.discussionUserId && _this.hasContacts) {
+                var contact = void 0;
+                for (var x in _this.contacts) {
+                    if (_this.contacts[x].length > 0) {
+                        contact = _this.contacts[x][0];
+                        break;
+                    }
+                }
+                if (contact) {
+                    // Take first and load it.
+                    _this.gotoDiscussion(contact.id, true);
+                }
+            }
+        }).finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Refresh the data.
+     *
+     * @param {any} [refresher] Refresher.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonMessagesContactsComponent.prototype.refreshData = function (refresher) {
+        var _this = this;
+        var promise;
+        if (this.searchString) {
+            // User has searched, update the search.
+            promise = this.performSearch(this.searchString);
+        }
+        else {
+            // Update contacts.
+            promise = this.messagesProvider.invalidateAllContactsCache(this.currentUserId).then(function () {
+                return _this.fetchData();
+            });
+        }
+        return promise.finally(function () {
+            refresher.complete();
+        });
+    };
+    /**
+     * Fetch contacts.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonMessagesContactsComponent.prototype.fetchData = function () {
+        var _this = this;
+        this.loadingMessage = this.loadingMessages;
+        return this.messagesProvider.getAllContacts().then(function (contacts) {
+            for (var x in contacts) {
+                if (contacts[x].length > 0) {
+                    _this.contacts[x] = _this.sortUsers(contacts[x]);
+                }
+                else {
+                    _this.contacts[x] = [];
+                }
+            }
+            _this.clearSearch();
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingcontacts', true);
+        });
+    };
+    /**
+     * Sort user list by fullname
+     * @param  {any[]} list List to sort.
+     * @return {any[]}      Sorted list.
+     */
+    AddonMessagesContactsComponent.prototype.sortUsers = function (list) {
+        return list.sort(function (a, b) {
+            var compareA = a.fullname.toLowerCase(), compareB = b.fullname.toLowerCase();
+            return compareA.localeCompare(compareB);
+        });
+    };
+    /**
+     * Clear search and show all contacts again.
+     */
+    AddonMessagesContactsComponent.prototype.clearSearch = function () {
+        this.searchString = ''; // Reset searched string.
+        this.contactTypes = this.noSearchTypes;
+        this.hasContacts = false;
+        for (var x in this.contacts) {
+            if (this.contacts[x].length > 0) {
+                this.hasContacts = true;
+                return;
+            }
+        }
+    };
+    /**
+     * Search users from the UI.
+     *
+     * @param  {string}       query Text to search for.
+     * @return {Promise<any>}       Resolved when done.
+     */
+    AddonMessagesContactsComponent.prototype.search = function (query) {
+        var _this = this;
+        this.appProvider.closeKeyboard();
+        this.loaded = false;
+        this.loadingMessage = this.searchingMessages;
+        return this.performSearch(query).finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Perform the search of users.
+     *
+     * @param  {string}       query Text to search for.
+     * @return {Promise<any>}       Resolved when done.
+     */
+    AddonMessagesContactsComponent.prototype.performSearch = function (query) {
+        var _this = this;
+        return this.messagesProvider.searchContacts(query).then(function (result) {
+            _this.hasContacts = result.length > 0;
+            _this.searchString = query;
+            _this.contactTypes = ['search'];
+            _this.contacts['search'] = _this.sortUsers(result);
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingcontacts', true);
+        });
+    };
+    /**
+     * Navigate to a particular discussion.
+     *
+     * @param {number} discussionUserId Discussion Id to load.
+     * @param {boolean} [onlyWithSplitView=false]  Only go to Discussion if split view is on.
+     */
+    AddonMessagesContactsComponent.prototype.gotoDiscussion = function (discussionUserId, onlyWithSplitView) {
+        if (onlyWithSplitView === void 0) { onlyWithSplitView = false; }
+        this.discussionUserId = discussionUserId;
+        var params = {
+            discussion: discussionUserId,
+            onlyWithSplitView: onlyWithSplitView
+        };
+        this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_4__providers_messages__["a" /* AddonMessagesProvider */].SPLIT_VIEW_LOAD_EVENT, params, this.siteId);
+    };
+    AddonMessagesContactsComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'addon-messages-contacts',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\messages\components\contacts\addon-messages-contacts.html"*/'<ion-content>\n\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshData($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n\n\n    <core-search-box (onSubmit)="search($event)" (onClear)="clearSearch($event)" [placeholder]=" \'addon.messages.contactname\' | translate" autocorrect="off" spellcheck="false" lengthCheck="2" [disabled]="!loaded"></core-search-box>\n\n\n\n    <core-loading [hideUntil]="loaded" [message]="loadingMessage">\n\n        <core-empty-box *ngIf="!hasContacts && searchString == \'\'" icon="person" [message]="\'addon.messages.contactlistempty\' | translate"></core-empty-box>\n\n\n\n        <core-empty-box *ngIf="!hasContacts && searchString != \'\'" icon="person" [message]="\'addon.messages.nousersfound\' | translate"></core-empty-box>\n\n\n\n        <ion-list *ngFor="let contactType of contactTypes" no-margin>\n\n            <ng-container *ngIf="contacts[contactType] && (contacts[contactType].length > 0 || contactType === searchType)">\n\n                <ion-item-divider color="light">\n\n                    <h2>{{ \'addon.messages.type_\' + contactType | translate }}</h2>\n\n                    <ion-note item-end>{{ contacts[contactType].length }}</ion-note>\n\n                </ion-item-divider>\n\n                <ng-container *ngFor="let contact of contacts[contactType]">\n\n                    <!-- Don\'t show deleted users -->\n\n                    <a ion-item text-wrap *ngIf="contact.profileimageurl || contact.profileimageurlsmall"  [title]="contact.fullname" (click)="gotoDiscussion(contact.id)" [class.core-split-item-selected]="contact.id == discussionUserId" detail-none>\n\n                        <ion-avatar item-start>\n\n                            <img src="{{contact.profileimageurl || contact.profileimageurlsmall}}" [alt]="\'core.pictureof\' | translate:{$a: contact.fullname}" core-external-content onError="this.src=\'assets/img/user-avatar.png\'">\n\n                        </ion-avatar>\n\n                        <h2><core-format-text [text]="contact.fullname"></core-format-text></h2>\n\n                    </a>\n\n                </ng-container>\n\n            </ng-container>\n\n        </ion-list>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\messages\components\contacts\addon-messages-contacts.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_6__providers_app__["a" /* CoreAppProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_messages__["a" /* AddonMessagesProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_7__providers_events__["a" /* CoreEventsProvider */]])
+    ], AddonMessagesContactsComponent);
+    return AddonMessagesContactsComponent;
+}());
+
+//# sourceMappingURL=contacts.js.map
+
+/***/ }),
+
+/***/ 1929:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesContactsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_messages__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_split_view_split_view__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_tabs_tabs__ = __webpack_require__(134);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+/**
+ * Page that displays contacts and contact requests.
+ */
+var AddonMessagesContactsPage = /** @class */ (function () {
+    function AddonMessagesContactsPage(eventsProvider, sitesProvider, navCtrl, messagesProvider) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.messagesProvider = messagesProvider;
+        this.contactRequestsCount = 0;
+        this.selectedUserId = {
+            contacts: null,
+            requests: null,
+        };
+        this.siteId = sitesProvider.getCurrentSiteId();
+        // Update the contact requests badge.
+        this.contactRequestsCountObserver = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_4__providers_messages__["a" /* AddonMessagesProvider */].CONTACT_REQUESTS_COUNT_EVENT, function (data) {
+            _this.contactRequestsCount = data.count;
+        }, this.siteId);
+    }
+    /**
+     * Page being initialized.
+     */
+    AddonMessagesContactsPage.prototype.ngOnInit = function () {
+        this.messagesProvider.getContactRequestsCount(this.siteId); // Badge already updated by the observer.
+    };
+    /**
+     * Navigate to the search page.
+     */
+    AddonMessagesContactsPage.prototype.gotoSearch = function () {
+        this.navCtrl.push('AddonMessagesSearchPage');
+    };
+    /**
+     * User entered the page.
+     */
+    AddonMessagesContactsPage.prototype.ionViewDidEnter = function () {
+        if (!this.splitviewCtrl.isOn()) {
+            this.selectedUserId.contacts = null;
+            this.selectedUserId.requests = null;
+        }
+        this.tabsComponent && this.tabsComponent.ionViewDidEnter();
+    };
+    /**
+     * User left the page.
+     */
+    AddonMessagesContactsPage.prototype.ionViewDidLeave = function () {
+        this.tabsComponent && this.tabsComponent.ionViewDidLeave();
+    };
+    /**
+     * Set the selected user and open the conversation in the split view if needed.
+     *
+     * @param {string} tab Active tab: "contacts" or "requests".
+     * @param {number} [userId] Id of the selected user, undefined to use the last selected user in the tab.
+     * @param {boolean} [onInit=false] Whether the contact was selected on initial load.
+     */
+    AddonMessagesContactsPage.prototype.selectUser = function (tab, userId, onInit) {
+        if (onInit === void 0) { onInit = false; }
+        userId = userId || this.selectedUserId[tab];
+        if (!userId || userId == this.conversationUserId && this.splitviewCtrl.isOn()) {
+            // No user conversation to open or it is already opened.
+            return;
+        }
+        if (onInit && !this.splitviewCtrl.isOn()) {
+            // Do not open a conversation by default when split view is not visible.
+            return;
+        }
+        this.conversationUserId = userId;
+        this.selectedUserId[tab] = userId;
+        this.splitviewCtrl.push('AddonMessagesDiscussionPage', { userId: userId });
     };
     /**
      * Page destroyed.
      */
-    AddonNotificationsListPage.prototype.ngOnDestroy = function () {
-        this.cronObserver && this.cronObserver.off();
-        this.pushObserver && this.pushObserver.unsubscribe();
+    AddonMessagesContactsPage.prototype.ngOnDestroy = function () {
+        this.contactRequestsCountObserver && this.contactRequestsCountObserver.off();
     };
-    AddonNotificationsListPage = __decorate([
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_5__components_split_view_split_view__["a" /* CoreSplitViewComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_5__components_split_view_split_view__["a" /* CoreSplitViewComponent */])
+    ], AddonMessagesContactsPage.prototype, "splitviewCtrl", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_6__components_tabs_tabs__["a" /* CoreTabsComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_6__components_tabs_tabs__["a" /* CoreTabsComponent */])
+    ], AddonMessagesContactsPage.prototype, "tabsComponent", void 0);
+    AddonMessagesContactsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-notifications-list',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\notifications\pages\list\list.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.notifications.notifications\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="notificationsLoaded" (ionRefresh)="refreshNotifications($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="notificationsLoaded">\n        <div padding *ngIf="canMarkAllNotificationsAsRead">\n            <button ion-button block (click)="markAllNotificationsAsRead()" color="light" icon-start *ngIf="!loadingMarkAllNotificationsAsRead">\n                <core-icon name="fa-check"></core-icon>\n                {{ \'addon.notifications.markallread\' | translate }}\n            </button>\n            <button ion-button block color="light" icon-start *ngIf="loadingMarkAllNotificationsAsRead">\n                <ion-spinner></ion-spinner>\n            </button>\n        </div>\n        <ion-card *ngFor="let notification of notifications">\n            <ion-item>\n                <ion-avatar core-user-avatar [user]="notification" item-start [profileUrl]="notification.profileimageurlfrom" [fullname]="notification.userfromfullname" [userId]="notification.useridfrom"></ion-avatar>\n                <h2>{{notification.userfromfullname}}</h2>\n                <div item-end *ngIf="!notification.timeread"><core-icon name="fa-circle" color="primary"></core-icon></div>\n                <p>{{notification.timecreated | coreDateDayOrTime}}</p>\n            </ion-item>\n            <ion-item text-wrap>\n                <p><core-format-text [text]="notification.mobiletext | coreCreateLinks"></core-format-text></p>\n            </ion-item>\n            <addon-notifications-actions [contextUrl]="notification.contexturl" [courseId]="notification.courseid"></addon-notifications-actions>\n        </ion-card>\n        <core-empty-box *ngIf="!notifications || notifications.length <= 0" icon="notifications" [message]="\'addon.notifications.therearentnotificationsyet\' | translate"></core-empty-box>\n        <core-infinite-loading [enabled]="canLoadMore" (action)="loadMoreNotifications($event)" [error]="loadMoreError"></core-infinite-loading>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\notifications\pages\list\list.html"*/,
+            selector: 'page-addon-messages-contacts',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\messages\pages\contacts\contacts.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.messages.contacts\' | translate }}</ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button icon-only (click)="gotoSearch()" [attr.aria-label]="\'addon.messages.search\' | translate">\n\n                <ion-icon name="search"></ion-icon>\n\n            </button>\n\n            <!-- Add an empty context menu so discussion page can add items in split view, otherwise the menu disappears in some cases. -->\n\n            <core-context-menu></core-context-menu>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<core-split-view>\n\n    <ion-content>\n\n        <core-tabs>\n\n            <core-tab [title]="\'addon.messages.contacts\' | translate" (ionSelect)="selectUser(\'contacts\')">\n\n                <ng-template>\n\n                    <addon-messages-confirmed-contacts (onUserSelected)="selectUser(\'contacts\', $event.userId, $event.onInit)"></addon-messages-confirmed-contacts>\n\n                </ng-template>\n\n            </core-tab>\n\n            <core-tab [title]="\'addon.messages.requests\' | translate" [badge]="contactRequestsCount" (ionSelect)="selectUser(\'requests\')">\n\n                 <ng-template>\n\n                    <addon-messages-contact-requests (onUserSelected)="selectUser(\'requests\', $event.userId, $event.onInit)"></addon-messages-contact-requests>\n\n                </ng-template>\n\n            </core-tab>\n\n        </core-tabs>\n\n    </ion-content>\n\n</core-split-view>'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\messages\pages\contacts\contacts.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_events__["a" /* CoreEventsProvider */],
-            __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_text__["a" /* CoreTextUtilsProvider */],
-            __WEBPACK_IMPORTED_MODULE_6__providers_utils_utils__["a" /* CoreUtilsProvider */], __WEBPACK_IMPORTED_MODULE_7__providers_notifications__["a" /* AddonNotificationsProvider */],
-            __WEBPACK_IMPORTED_MODULE_8__addon_pushnotifications_providers_delegate__["a" /* AddonPushNotificationsDelegate */]])
-    ], AddonNotificationsListPage);
-    return AddonNotificationsListPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_4__providers_messages__["a" /* AddonMessagesProvider */]])
+    ], AddonMessagesContactsPage);
+    return AddonMessagesContactsPage;
 }());
 
-//# sourceMappingURL=list.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+//# sourceMappingURL=contacts.js.map
 
 /***/ })
 

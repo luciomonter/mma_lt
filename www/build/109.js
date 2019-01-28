@@ -1,31 +1,17 @@
 webpackJsonp([109],{
 
-<<<<<<< HEAD
-/***/ 1793:
-=======
-/***/ 1861:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1798:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonCompetencyCourseCompetenciesPageModule", function() { return AddonCompetencyCourseCompetenciesPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonMessagesConversationInfoPageModule", function() { return AddonMessagesConversationInfoPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(943);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__coursecompetencies__ = __webpack_require__(1917);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonFilesListPageModule", function() { return AddonFilesListPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__list__ = __webpack_require__(1989);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__conversation_info__ = __webpack_require__(1931);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -51,77 +37,38 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
-var AddonCompetencyCourseCompetenciesPageModule = /** @class */ (function () {
-    function AddonCompetencyCourseCompetenciesPageModule() {
+var AddonMessagesConversationInfoPageModule = /** @class */ (function () {
+    function AddonMessagesConversationInfoPageModule() {
     }
-    AddonCompetencyCourseCompetenciesPageModule = __decorate([
+    AddonMessagesConversationInfoPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__coursecompetencies__["a" /* AddonCompetencyCourseCompetenciesPage */],
+                __WEBPACK_IMPORTED_MODULE_3__conversation_info__["a" /* AddonMessagesConversationInfoPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__coursecompetencies__["a" /* AddonCompetencyCourseCompetenciesPage */]),
-                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild(),
-                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonCompetencyComponentsModule */]
-            ],
-        })
-    ], AddonCompetencyCourseCompetenciesPageModule);
-    return AddonCompetencyCourseCompetenciesPageModule;
-}());
-
-//# sourceMappingURL=coursecompetencies.module.js.map
-
-/***/ }),
-
-/***/ 1917:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonCompetencyCourseCompetenciesPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-=======
-var AddonFilesListPageModule = /** @class */ (function () {
-    function AddonFilesListPageModule() {
-    }
-    AddonFilesListPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__list__["a" /* AddonFilesListPage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__list__["a" /* AddonFilesListPage */]),
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__conversation_info__["a" /* AddonMessagesConversationInfoPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], AddonFilesListPageModule);
-    return AddonFilesListPageModule;
+    ], AddonMessagesConversationInfoPageModule);
+    return AddonMessagesConversationInfoPageModule;
 }());
 
-//# sourceMappingURL=list.module.js.map
+//# sourceMappingURL=conversation-info.module.js.map
 
 /***/ }),
 
-/***/ 1989:
+/***/ 1931:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonFilesListPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesConversationInfoPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_app__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_text__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_files__ = __webpack_require__(260);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_helper__ = __webpack_require__(962);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_messages__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(8);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -146,213 +93,118 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-<<<<<<< HEAD
-/**
- * Page that displays the list of competencies of a course.
- */
-var AddonCompetencyCourseCompetenciesPage = /** @class */ (function () {
-    function AddonCompetencyCourseCompetenciesPage(navParams) {
-        this.courseId = navParams.get('courseId');
-        this.userId = navParams.get('userId');
-    }
-    AddonCompetencyCourseCompetenciesPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-competency-coursecompetencies',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\competency\pages\coursecompetencies\coursecompetencies.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.competency.coursecompetencies\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<addon-competency-course class="core-avoid-header" [courseId]="courseId" [userId]="userId"></addon-competency-course>'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\competency\pages\coursecompetencies\coursecompetencies.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]])
-    ], AddonCompetencyCourseCompetenciesPage);
-    return AddonCompetencyCourseCompetenciesPage;
-}());
-
-//# sourceMappingURL=coursecompetencies.js.map
-=======
-
-
-
-
-
-
 
 
 /**
- * Page that displays the list of files.
+ * Page that displays the list of conversations, including group conversations.
  */
-var AddonFilesListPage = /** @class */ (function () {
-    function AddonFilesListPage(navParams, eventsProvider, sitesProvider, domUtils, translate, appProvider, filesProvider, filesHelper, textUtils) {
-        var _this = this;
-        this.sitesProvider = sitesProvider;
+var AddonMessagesConversationInfoPage = /** @class */ (function () {
+    function AddonMessagesConversationInfoPage(messagesProvider, domUtils, navParams, viewCtrl) {
+        this.messagesProvider = messagesProvider;
         this.domUtils = domUtils;
-        this.translate = translate;
-        this.appProvider = appProvider;
-        this.filesProvider = filesProvider;
-        this.filesHelper = filesHelper;
-        this.textUtils = textUtils;
-        this.title = navParams.get('title') || this.translate.instant('addon.files.files');
-        this.root = navParams.get('root');
-        this.path = navParams.get('path');
-        // Update visibility if current site info is updated.
-        this.updateSiteObserver = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_4__providers_events__["a" /* CoreEventsProvider */].SITE_UPDATED, function () {
-            _this.setVisibility();
-        }, sitesProvider.getCurrentSiteId());
+        this.viewCtrl = viewCtrl;
+        this.loaded = false;
+        this.members = [];
+        this.canLoadMore = false;
+        this.loadMoreError = false;
+        this.conversationId = navParams.get('conversationId');
     }
     /**
-     * View loaded.
+     * Component loaded.
      */
-    AddonFilesListPage.prototype.ionViewDidLoad = function () {
-        this.setVisibility();
-        this.userQuota = this.sitesProvider.getCurrentSite().getInfo().userquota;
-        if (!this.root) {
-            // Load private files by default.
-            if (this.showPrivateFiles) {
-                this.root = 'my';
+    AddonMessagesConversationInfoPage.prototype.ngOnInit = function () {
+        var _this = this;
+        this.fetchData().finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Fetch the required data.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonMessagesConversationInfoPage.prototype.fetchData = function () {
+        var _this = this;
+        // Get the conversation data first.
+        return this.messagesProvider.getConversation(this.conversationId, false, true, 0, 0).then(function (conversation) {
+            _this.conversation = conversation;
+            // Now get the members.
+            return _this.fetchMembers();
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'Error getting members.');
+        });
+    };
+    /**
+     * Get conversation members.
+     *
+     * @param {boolean} [loadingMore} Whether we are loading more data or just the first ones.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonMessagesConversationInfoPage.prototype.fetchMembers = function (loadingMore) {
+        var _this = this;
+        this.loadMoreError = false;
+        var limitFrom = loadingMore ? this.members.length : 0;
+        return this.messagesProvider.getConversationMembers(this.conversationId, limitFrom).then(function (data) {
+            if (loadingMore) {
+                _this.members = _this.members.concat(data.members);
             }
-            else if (this.showSiteFiles) {
-                this.root = 'site';
+            else {
+                _this.members = data.members;
             }
-        }
-        if (this.root) {
-            this.rootChanged();
-        }
-        else {
-            this.filesLoaded = true;
-        }
+            _this.canLoadMore = data.canLoadMore;
+        });
+    };
+    /**
+     * Function to load more members.
+     *
+     * @param {any} [infiniteComplete] Infinite scroll complete function. Only used from core-infinite-loading.
+     * @return {Promise<any>} Resolved when done.
+     */
+    AddonMessagesConversationInfoPage.prototype.loadMoreMembers = function (infiniteComplete) {
+        var _this = this;
+        return this.fetchMembers(true).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'Error getting members.');
+            _this.loadMoreError = true;
+        }).finally(function () {
+            infiniteComplete && infiniteComplete();
+        });
     };
     /**
      * Refresh the data.
      *
-     * @param {any} refresher Refresher.
-     */
-    AddonFilesListPage.prototype.refreshData = function (refresher) {
-        this.refreshFiles().finally(function () {
-            refresher.complete();
-        });
-    };
-    /**
-     * Function called when the root has changed.
-     */
-    AddonFilesListPage.prototype.rootChanged = function () {
-        var _this = this;
-        this.filesLoaded = false;
-        this.component = this.root == 'my' ? __WEBPACK_IMPORTED_MODULE_8__providers_files__["a" /* AddonFilesProvider */].PRIVATE_FILES_COMPONENT : __WEBPACK_IMPORTED_MODULE_8__providers_files__["a" /* AddonFilesProvider */].SITE_FILES_COMPONENT;
-        this.fetchFiles().finally(function () {
-            _this.filesLoaded = true;
-        });
-    };
-    /**
-     * Upload a new file.
-     */
-    AddonFilesListPage.prototype.uploadFile = function () {
-        var _this = this;
-        this.filesProvider.versionCanUploadFiles().then(function (canUpload) {
-            if (!canUpload) {
-                _this.domUtils.showAlertTranslated('core.notice', 'addon.files.erroruploadnotworking');
-            }
-            else if (!_this.appProvider.isOnline()) {
-                _this.domUtils.showErrorModal('core.fileuploader.errormustbeonlinetoupload', true);
-            }
-            else {
-                _this.filesHelper.uploadPrivateFile(_this.filesInfo).then(function () {
-                    // File uploaded, refresh the list.
-                    _this.filesLoaded = false;
-                    _this.refreshFiles().finally(function () {
-                        _this.filesLoaded = true;
-                    });
-                }).catch(function () {
-                    // Ignore errors, they're handled inside the function.
-                });
-            }
-        });
-    };
-    /**
-     * Set visibility of some items based on site data.
-     */
-    AddonFilesListPage.prototype.setVisibility = function () {
-        this.showPrivateFiles = this.filesProvider.canViewPrivateFiles();
-        this.showSiteFiles = this.filesProvider.canViewSiteFiles();
-        this.showUpload = this.filesProvider.canUploadFiles();
-    };
-    /**
-     * Fetch the files.
-     *
+     * @param {any} [refresher] Refresher.
      * @return {Promise<any>} Promise resolved when done.
      */
-    AddonFilesListPage.prototype.fetchFiles = function () {
-        var _this = this;
-        var promise;
-        if (!this.path) {
-            // The path is unknown, the user must be requesting a root.
-            if (this.root == 'site') {
-                this.title = this.translate.instant('addon.files.sitefiles');
-                promise = this.filesProvider.getSiteFiles();
-            }
-            else if (this.root == 'my') {
-                this.title = this.translate.instant('addon.files.files');
-                promise = this.filesProvider.getPrivateFiles().then(function (files) {
-                    if (_this.showUpload && _this.filesProvider.canGetPrivateFilesInfo() && _this.userQuota > 0) {
-                        // Get the info to calculate the available size.
-                        return _this.filesProvider.getPrivateFilesInfo().then(function (info) {
-                            _this.filesInfo = info;
-                            _this.spaceUsed = _this.textUtils.bytesToSize(info.filesizewithoutreferences, 1);
-                            _this.userQuotaReadable = _this.textUtils.bytesToSize(_this.userQuota, 1);
-                            return files;
-                        });
-                    }
-                    else {
-                        // User quota isn't useful, delete it.
-                        delete _this.userQuota;
-                    }
-                    return files;
-                });
-            }
-            else {
-                // Unknown root.
-                promise = Promise.reject(null);
-            }
-        }
-        else {
-            // Path is set, serve the files the user requested.
-            promise = this.filesProvider.getFiles(this.path);
-        }
-        return promise.then(function (files) {
-            _this.files = files;
-        }).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'addon.files.couldnotloadfiles', true);
-        });
-    };
-    /**
-     * Refresh the displayed files.
-     *
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonFilesListPage.prototype.refreshFiles = function () {
+    AddonMessagesConversationInfoPage.prototype.refreshData = function (refresher) {
         var _this = this;
         var promises = [];
-        promises.push(this.filesProvider.invalidateDirectory(this.root, this.path));
-        promises.push(this.filesProvider.invalidatePrivateFilesInfoForUser());
-        return Promise.all(promises).finally(function () {
-            return _this.fetchFiles();
+        promises.push(this.messagesProvider.invalidateConversation(this.conversationId));
+        promises.push(this.messagesProvider.invalidateConversationMembers(this.conversationId));
+        return Promise.all(promises).then(function () {
+            return _this.fetchData().finally(function () {
+                refresher && refresher.complete();
+            });
         });
     };
     /**
-     * Page destroyed.
+     * Close modal.
+     *
+     * @param {number} [userId] User conversation to load.
      */
-    AddonFilesListPage.prototype.ngOnDestroy = function () {
-        this.updateSiteObserver && this.updateSiteObserver.off();
+    AddonMessagesConversationInfoPage.prototype.closeModal = function (userId) {
+        this.viewCtrl.dismiss(userId);
     };
-    AddonFilesListPage = __decorate([
+    AddonMessagesConversationInfoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-files-list',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\files\pages\list\list.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="filesLoaded && (showPrivateFiles || showSiteFiles)" (ionRefresh)="refreshData($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <core-loading [hideUntil]="filesLoaded" *ngIf="showPrivateFiles || showSiteFiles">\n        <!-- Allow selecting the files to see: private or site. -->\n        <div padding *ngIf="showPrivateFiles && showSiteFiles && !path">\n            <ion-select [(ngModel)]="root" (ngModelChange)="rootChanged()" interface="popover" class="core-button-select">\n                <ion-option value="my">{{ \'addon.files.privatefiles\' | translate }}</ion-option>\n                <ion-option value="site">{{ \'addon.files.sitefiles\' | translate }}</ion-option>\n            </ion-select>\n        </div>\n\n        <!-- Display info about space used and space left. -->\n        <p class="core-info-card" *ngIf="userQuota && filesInfo && filesInfo.filecount > 0">{{ \'core.quotausage\' | translate:{$a: {used: spaceUsed, total: userQuotaReadable} } }}</p>\n\n        <!-- List of files. -->\n        <ion-list *ngIf="files && files.length > 0">\n            <ng-container *ngFor="let file of files">\n                <a *ngIf="file.isdir" ion-item class="item-media" [navPush]="\'AddonFilesListPage\'" [navParams]="{path: file.link, title: file.filename}">\n                    <img [src]="file.imgPath" alt="" role="presentation" item-start>\n                    <p>{{file.filename}}</p>\n                </a>\n                <core-file *ngIf="!file.isdir" [file]="file" [component]="component" [componentId]="file.contextid"></core-file>\n            </ng-container>\n        </ion-list>\n\n        <!-- Message telling there are no files. -->\n        <core-empty-box *ngIf="!files || !files.length" icon="folder" [message]="\'addon.files.emptyfilelist\' | translate"></core-empty-box>\n    </core-loading>\n\n    <!-- Upload a private file. -->\n    <ion-fab core-fab bottom end *ngIf="showUpload && root != \'site\' && !path">\n        <button ion-fab (click)="uploadFile()" [attr.aria-label]="\'core.fileuploader.uploadafile\' | translate">\n            <ion-icon name="add"></ion-icon>\n        </button>\n    </ion-fab>\n</ion-content>'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\files\pages\list\list.html"*/,
+            selector: 'page-addon-messages-conversation-info',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\messages\pages\conversation-info\conversation-info.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.messages.groupinfo\' | translate }}</ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n\n                <ion-icon name="close"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshData($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n\n\n    <core-loading [hideUntil]="loaded">\n\n        <ion-item text-center *ngIf="conversation">\n\n            <div class="item-avatar-center">\n\n                <img class="avatar" [src]="conversation.imageurl" core-external-content [alt]="conversation.name" role="presentation" onError="this.src=\'assets/img/group-avatar.png\'">\n\n            </div>\n\n            <h2><core-format-text [text]="conversation.name"></core-format-text></h2>\n\n            <p><core-format-text *ngIf="conversation.subname" [text]="conversation.subname"></core-format-text></p>\n\n            <p>{{ \'addon.messages.numparticipants\' | translate:{$a: conversation.membercount} }}</p>\n\n        </ion-item>\n\n\n\n        <a ion-item text-wrap *ngFor="let member of members" (click)="closeModal(member.id)" class="addon-messages-conversation-item">\n\n            <ion-avatar core-user-avatar [user]="member" [linkProfile]="false" [checkOnline]="member.showonlinestatus" item-start></ion-avatar>\n\n            <h2>\n\n                <core-format-text [text]="member.fullname"></core-format-text>\n\n                <core-icon name="fa-ban" *ngIf="member.isblocked" [attr.aria-label]="\'addon.messages.contactblocked\' | translate"></core-icon>\n\n            </h2>\n\n        </a>\n\n\n\n        <core-infinite-loading [enabled]="canLoadMore" (action)="loadMoreMembers($event)" [error]="loadMoreError"></core-infinite-loading>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\messages\pages\conversation-info\conversation-info.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */],
-            __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_3__providers_app__["a" /* CoreAppProvider */],
-            __WEBPACK_IMPORTED_MODULE_8__providers_files__["a" /* AddonFilesProvider */], __WEBPACK_IMPORTED_MODULE_9__providers_helper__["a" /* AddonFilesHelperProvider */],
-            __WEBPACK_IMPORTED_MODULE_7__providers_utils_text__["a" /* CoreTextUtilsProvider */]])
-    ], AddonFilesListPage);
-    return AddonFilesListPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__providers_messages__["a" /* AddonMessagesProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["D" /* ViewController */]])
+    ], AddonMessagesConversationInfoPage);
+    return AddonMessagesConversationInfoPage;
 }());
 
-//# sourceMappingURL=list.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+//# sourceMappingURL=conversation-info.js.map
 
 /***/ })
 

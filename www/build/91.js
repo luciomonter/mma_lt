@@ -1,35 +1,18 @@
 webpackJsonp([91],{
 
-<<<<<<< HEAD
-/***/ 1813:
-=======
-/***/ 1883:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1817:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModDataEntryPageModule", function() { return AddonModDataEntryPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModFeedbackFormPageModule", function() { return AddonModFeedbackFormPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_comments_components_components_module__ = __webpack_require__(387);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_compile_components_compile_html_compile_html_module__ = __webpack_require__(386);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_components_module__ = __webpack_require__(385);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__entry__ = __webpack_require__(1937);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModDataSearchPageModule", function() { return AddonModDataSearchPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(393);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__search__ = __webpack_require__(2011);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_compile_components_compile_html_compile_html_module__ = __webpack_require__(394);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(924);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__form__ = __webpack_require__(1950);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -56,94 +39,50 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
-
-
-var AddonModDataEntryPageModule = /** @class */ (function () {
-    function AddonModDataEntryPageModule() {
+var AddonModFeedbackFormPageModule = /** @class */ (function () {
+    function AddonModFeedbackFormPageModule() {
     }
-    AddonModDataEntryPageModule = __decorate([
+    AddonModFeedbackFormPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_8__entry__["a" /* AddonModDataEntryPage */],
+                __WEBPACK_IMPORTED_MODULE_6__form__["a" /* AddonModFeedbackFormPage */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
                 __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_7__components_components_module__["a" /* AddonModDataComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_6__core_compile_components_compile_html_compile_html_module__["a" /* CoreCompileHtmlComponentModule */],
-                __WEBPACK_IMPORTED_MODULE_5__core_comments_components_components_module__["a" /* CoreCommentsComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_8__entry__["a" /* AddonModDataEntryPage */]),
+                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* AddonModFeedbackComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__form__["a" /* AddonModFeedbackFormPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], AddonModDataEntryPageModule);
-    return AddonModDataEntryPageModule;
+    ], AddonModFeedbackFormPageModule);
+    return AddonModFeedbackFormPageModule;
 }());
 
-//# sourceMappingURL=entry.module.js.map
+//# sourceMappingURL=form.module.js.map
 
 /***/ }),
 
-/***/ 1937:
+/***/ 1950:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModDataEntryPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModFeedbackFormPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_utils_utils__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_groups__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__core_course_providers_course__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_data__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_helper__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_offline__ = __webpack_require__(148);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_sync__ = __webpack_require__(260);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_fields_delegate__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_components_module__ = __webpack_require__(385);
-=======
-var AddonModDataSearchPageModule = /** @class */ (function () {
-    function AddonModDataSearchPageModule() {
-    }
-    AddonModDataSearchPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__search__["a" /* AddonModDataSearchPage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModDataComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_6__core_compile_components_compile_html_compile_html_module__["a" /* CoreCompileHtmlComponentModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__search__["a" /* AddonModDataSearchPage */]),
-                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ],
-        })
-    ], AddonModDataSearchPageModule);
-    return AddonModDataSearchPageModule;
-}());
-
-//# sourceMappingURL=search.module.js.map
-
-/***/ }),
-
-/***/ 2011:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModDataSearchPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_utils__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(393);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_fields_delegate__ = __webpack_require__(66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_helper__ = __webpack_require__(202);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_network__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_feedback__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_helper__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_sync__ = __webpack_require__(257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_utils_utils__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__core_course_providers_course__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__core_login_providers_helper__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__core_contentlinks_providers_helper__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_sites__ = __webpack_require__(2);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -166,6 +105,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
 
 
 
@@ -175,422 +117,299 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-<<<<<<< HEAD
+
 
 
 
 
 
 /**
- * Page that displays the view entry page.
+ * Page that displays feedback form.
  */
-var AddonModDataEntryPage = /** @class */ (function () {
-    function AddonModDataEntryPage(params, utils, groupsProvider, domUtils, fieldsDelegate, courseProvider, dataProvider, dataOffline, dataHelper, sitesProvider, navCtrl, eventsProvider) {
+var AddonModFeedbackFormPage = /** @class */ (function () {
+    function AddonModFeedbackFormPage(navParams, feedbackProvider, appProvider, utils, domUtils, navCtrl, feedbackHelper, courseProvider, eventsProvider, feedbackSync, network, translate, loginHelper, linkHelper, sitesProvider, content, zone) {
+        var _this = this;
+        this.feedbackProvider = feedbackProvider;
+        this.appProvider = appProvider;
         this.utils = utils;
-        this.groupsProvider = groupsProvider;
         this.domUtils = domUtils;
-        this.fieldsDelegate = fieldsDelegate;
-        this.courseProvider = courseProvider;
-        this.dataProvider = dataProvider;
-        this.dataOffline = dataOffline;
-        this.dataHelper = dataHelper;
         this.navCtrl = navCtrl;
+        this.feedbackHelper = feedbackHelper;
+        this.courseProvider = courseProvider;
         this.eventsProvider = eventsProvider;
-        this.fields = {};
-        this.title = '';
-        this.moduleName = 'data';
-        this.component = __WEBPACK_IMPORTED_MODULE_8__providers_data__["a" /* AddonModDataProvider */].COMPONENT;
-        this.entryLoaded = false;
-        this.selectedGroup = 0;
-        this.offlineActions = [];
-        this.hasOffline = false;
-        this.cssTemplate = '';
-        this.entryRendered = '';
-        this.cssClass = '';
-        this.extraImports = [__WEBPACK_IMPORTED_MODULE_13__components_components_module__["a" /* AddonModDataComponentsModule */]];
-        this.module = params.get('module') || {};
-        this.entryId = params.get('entryId') || null;
-        this.courseId = params.get('courseId');
-        this.selectedGroup = params.get('group') || 0;
-        this.page = params.get('page') || null;
-        this.siteId = sitesProvider.getCurrentSiteId();
-        this.title = this.module.name;
-        this.moduleName = this.courseProvider.translateModuleName('data');
+        this.feedbackSync = feedbackSync;
+        this.translate = translate;
+        this.loginHelper = loginHelper;
+        this.linkHelper = linkHelper;
+        this.content = content;
+        this.forceLeave = false;
+        this.preview = false;
+        this.component = __WEBPACK_IMPORTED_MODULE_4__providers_feedback__["a" /* AddonModFeedbackProvider */].COMPONENT;
+        this.offline = false;
+        this.feedbackLoaded = false;
+        this.items = [];
+        this.hasPrevPage = false;
+        this.hasNextPage = false;
+        this.completed = false;
+        this.completedOffline = false;
+        this.module = navParams.get('module');
+        this.courseId = navParams.get('courseId');
+        this.currentPage = navParams.get('page');
+        this.title = navParams.get('title');
+        this.preview = !!navParams.get('preview');
+        this.componentId = navParams.get('moduleId') || this.module.id;
+        this.currentSite = sitesProvider.getCurrentSite();
+        // Refresh online status when changes.
+        this.onlineObserver = network.onchange().subscribe(function (online) {
+            // Execute the callback in the Angular zone, so change detection doesn't stop working.
+            zone.run(function () {
+                _this.offline = !online;
+            });
+        });
     }
     /**
      * View loaded.
      */
-    AddonModDataEntryPage.prototype.ionViewDidLoad = function () {
+    AddonModFeedbackFormPage.prototype.ionViewDidLoad = function () {
         var _this = this;
-        this.fetchEntryData();
-        // Refresh data if this discussion is synchronized automatically.
-        this.syncObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_11__providers_sync__["a" /* AddonModDataSyncProvider */].AUTO_SYNCED, function (data) {
-            if ((data.entryId == _this.entryId || data.offlineEntryId == _this.entryId) && _this.data.id == data.dataId) {
-                if (data.deleted) {
-                    // If deleted, go back.
-                    _this.navCtrl.pop();
-                }
-                else {
-                    _this.entryId = data.entryid;
-                    _this.entryLoaded = false;
-                    _this.fetchEntryData(true);
-                }
-            }
-        }, this.siteId);
-        // Refresh entry on change.
-        this.entryChangedObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_8__providers_data__["a" /* AddonModDataProvider */].ENTRY_CHANGED, function (data) {
-            if (data.entryId == _this.entryId && _this.data.id == data.dataId) {
-                if (data.deleted) {
-                    // If deleted, go back.
-                    _this.navCtrl.pop();
-                }
-                else {
-                    _this.entryLoaded = false;
-                    _this.fetchEntryData(true);
-                }
-            }
-        }, this.siteId);
-    };
-    /**
-     * Fetch the entry data.
-     *
-     * @param  {boolean}      refresh If refresh the current data or not.
-     * @return {Promise<any>}         Resolved when done.
-     */
-    AddonModDataEntryPage.prototype.fetchEntryData = function (refresh) {
-        var _this = this;
-        var fieldsArray;
-        return this.dataProvider.getDatabase(this.courseId, this.module.id).then(function (data) {
-            _this.title = data.name || _this.title;
-            _this.data = data;
-            _this.cssClass = 'addon-data-entries-' + data.id;
-            return _this.setEntryIdFromPage(data.id, _this.page, _this.selectedGroup).then(function () {
-                return _this.dataProvider.getDatabaseAccessInformation(data.id);
+        this.fetchData().then(function () {
+            _this.feedbackProvider.logView(_this.feedback.id, true).then(function () {
+                _this.courseProvider.checkModuleCompletion(_this.courseId, _this.module.completionstatus);
             });
-        }).then(function (accessData) {
-            _this.access = accessData;
-            return _this.groupsProvider.getActivityGroupInfo(_this.data.coursemodule, accessData.canmanageentries)
-                .then(function (groupInfo) {
-                _this.groupInfo = groupInfo;
-                // Check selected group is accessible.
-                if (groupInfo && groupInfo.groups && groupInfo.groups.length > 0) {
-                    if (!groupInfo.groups.some(function (group) { return _this.selectedGroup == group.id; })) {
-                        _this.selectedGroup = groupInfo.groups[0].id;
-                    }
-                }
-                return _this.dataOffline.getEntryActions(_this.data.id, _this.entryId);
-            });
-        }).then(function (actions) {
-            _this.offlineActions = actions;
-            _this.hasOffline = !!actions.length;
-            return _this.dataProvider.getFields(_this.data.id).then(function (fieldsData) {
-                _this.fields = _this.utils.arrayToObject(fieldsData, 'id');
-                return _this.dataHelper.getEntry(_this.data, _this.entryId, _this.offlineActions);
-            });
-        }).then(function (entry) {
-            entry = entry.entry;
-            _this.cssTemplate = _this.dataHelper.prefixCSS(_this.data.csstemplate, '.' + _this.cssClass);
-            // Index contents by fieldid.
-            entry.contents = _this.utils.arrayToObject(entry.contents, 'fieldid');
-            fieldsArray = _this.utils.objectToArray(_this.fields);
-            return _this.dataHelper.applyOfflineActions(entry, _this.offlineActions, fieldsArray);
-        }).then(function (entryData) {
-            _this.entry = entryData;
-            var actions = _this.dataHelper.getActions(_this.data, _this.access, _this.entry);
-            _this.entryRendered = _this.dataHelper.displayShowFields(_this.data.singletemplate, fieldsArray, _this.entry, 'show', actions);
-            _this.showComments = actions.comments;
-            var entries = {};
-            entries[_this.entryId] = _this.entry;
-            // Pass the input data to the component.
-            _this.jsData = {
-                fields: _this.fields,
-                entries: entries,
-                data: _this.data
-            };
-            return _this.dataHelper.getPageInfoByEntry(_this.data.id, _this.entryId, _this.selectedGroup).then(function (result) {
-                _this.previousId = result.previousId;
-                _this.nextId = result.nextId;
-            });
-        }).catch(function (message) {
-            if (!refresh) {
-                // Some call failed, retry without using cache since it might be a new activity.
-                return _this.refreshAllData();
-            }
-            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
-        }).finally(function () {
-            _this.domUtils.scrollToTop(_this.content);
-            _this.entryLoaded = true;
         });
     };
     /**
-     * Go to selected entry without changing state.
-     *
-     * @param  {number}       entry Entry Id where to go.
-     * @return {Promise<any>}       Resolved when done.
+     * View entered.
      */
-    AddonModDataEntryPage.prototype.gotoEntry = function (entry) {
-        this.entryId = entry;
-        this.page = null;
-        this.entryLoaded = false;
-        return this.fetchEntryData();
+    AddonModFeedbackFormPage.prototype.ionViewDidEnter = function () {
+        this.forceLeave = false;
     };
     /**
-     * Refresh all the data.
+     * Check if we can leave the page or not.
      *
-     * @return {Promise<any>} Promise resolved when done.
+     * @return {boolean | Promise<void>} Resolved if we can leave it, rejected if not.
      */
-    AddonModDataEntryPage.prototype.refreshAllData = function () {
-        var _this = this;
-        var promises = [];
-        promises.push(this.dataProvider.invalidateDatabaseData(this.courseId));
-        if (this.data) {
-            promises.push(this.dataProvider.invalidateEntryData(this.data.id, this.entryId));
-            promises.push(this.groupsProvider.invalidateActivityGroupInfo(this.data.coursemodule));
-            promises.push(this.dataProvider.invalidateEntriesData(this.data.id));
+    AddonModFeedbackFormPage.prototype.ionViewCanLeave = function () {
+        if (this.forceLeave) {
+            return true;
         }
-        return Promise.all(promises).finally(function () {
-            return _this.fetchEntryData(true);
-        });
-    };
-    /**
-     * Refresh the data.
-     *
-     * @param {any} [refresher] Refresher.
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonModDataEntryPage.prototype.refreshDatabase = function (refresher) {
-        if (this.entryLoaded) {
-            return this.refreshAllData().finally(function () {
-                refresher && refresher.complete();
-            });
-        }
-    };
-    /**
-     * Set group to see the database.
-     *
-     * @param  {number}       groupId Group identifier to set.
-     * @return {Promise<any>}         Resolved when done.
-     */
-    AddonModDataEntryPage.prototype.setGroup = function (groupId) {
-        var _this = this;
-        this.selectedGroup = groupId;
-        this.entryLoaded = false;
-        return this.setEntryIdFromPage(this.data.id, 0, this.selectedGroup).then(function () {
-            return _this.fetchEntryData();
-        });
-    };
-    /**
-     * Convenience function to translate page number to entry identifier.
-     *
-     * @param  {number}       dataId       Data Id.
-     * @param  {number}       [pageNumber] Page number where to go
-     * @param  {number}       group        Group Id to get the entry.
-     * @return {Promise<any>}              Resolved when done.
-     */
-    AddonModDataEntryPage.prototype.setEntryIdFromPage = function (dataId, pageNumber, group) {
-        var _this = this;
-        if (typeof pageNumber == 'number') {
-            return this.dataHelper.getPageInfoByPage(dataId, pageNumber, group).then(function (result) {
-                _this.entryId = result.entryId;
-                _this.page = null;
-            });
+        if (!this.preview) {
+            var responses = this.feedbackHelper.getPageItemsResponses(this.items);
+            if (this.items && !this.completed && this.originalData) {
+                // Form submitted. Check if there is any change.
+                if (!this.utils.basicLeftCompare(responses, this.originalData, 3)) {
+                    return this.domUtils.showConfirm(this.translate.instant('core.confirmcanceledit'));
+                }
+            }
         }
         return Promise.resolve();
     };
     /**
-     * Component being destroyed.
+     * Fetch all the data required for the view.
+     *
+     * @return {Promise<any>} Promise resolved when done.
      */
-    AddonModDataEntryPage.prototype.ngOnDestroy = function () {
-        this.syncObserver && this.syncObserver.off();
-        this.entryChangedObserver && this.entryChangedObserver.off();
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
-    ], AddonModDataEntryPage.prototype, "content", void 0);
-    AddonModDataEntryPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-data-entry',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\data\pages\entry\entry.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="entryLoaded" (ionRefresh)="refreshDatabase($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-loading [hideUntil]="entryLoaded">\n\n        <!-- Database entries found to be synchronized -->\n\n        <div class="core-warning-card" icon-start *ngIf="hasOffline">\n\n            <ion-icon name="warning"></ion-icon>\n\n            {{ \'core.hasdatatosync\' | translate: {$a: moduleName} }}\n\n        </div>\n\n\n\n        <ion-item text-wrap *ngIf="groupInfo && (groupInfo.separateGroups || groupInfo.visibleGroups)">\n\n            <ion-label id="addon-data-groupslabel" *ngIf="groupInfo.separateGroups">{{ \'core.groupsseparate\' | translate }}</ion-label>\n\n            <ion-label id="addon-data-groupslabel" *ngIf="groupInfo.visibleGroups">{{ \'core.groupsvisible\' | translate }}</ion-label>\n\n            <ion-select [(ngModel)]="selectedGroup" (ionChange)="setGroup(selectedGroup)" aria-labelledby="addon-data-groupslabel" interface="popover">\n\n                <ion-option *ngFor="let groupOpt of groupInfo.groups" [value]="groupOpt.id">{{groupOpt.name}}</ion-option>\n\n            </ion-select>\n\n        </ion-item>\n\n\n\n        <div class="addon-data-contents {{cssClass}}">\n\n            <style *ngIf="cssTemplate">\n\n                {{ cssTemplate }}\n\n            </style>\n\n\n\n            <core-compile-html [text]="entryRendered" [jsData]="jsData" [extraImports]="extraImports"></core-compile-html>\n\n        </div>\n\n\n\n        <ion-item *ngIf="data && entry">\n\n            <core-comments contextLevel="module" [instanceId]="data.coursemodule" component="mod_data" [itemId]="entry.id" area="database_entry"></core-comments>\n\n        </ion-item>\n\n\n\n        <ion-grid *ngIf="previousId || nextId">\n\n            <ion-row align-items-center>\n\n                <ion-col *ngIf="previousId">\n\n                    <button ion-button block outline icon-start (click)="gotoEntry(previousId)">\n\n                        <ion-icon name="arrow-back" md="ios-arrow-back"></ion-icon>\n\n                        {{ \'core.previous\' | translate }}\n\n                    </button>\n\n                </ion-col>\n\n                <ion-col *ngIf="nextId">\n\n                    <button ion-button block icon-end (click)="gotoEntry(nextId)">\n\n                        {{ \'core.next\' | translate }}\n\n                        <ion-icon name="arrow-forward" md="ios-arrow-forward"></ion-icon>\n\n                    </button>\n\n                </ion-col>\n\n            </ion-row>\n\n        </ion-grid>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\data\pages\entry\entry.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_utils_utils__["a" /* CoreUtilsProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_groups__["a" /* CoreGroupsProvider */],
-            __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_12__providers_fields_delegate__["a" /* AddonModDataFieldsDelegate */],
-            __WEBPACK_IMPORTED_MODULE_7__core_course_providers_course__["a" /* CoreCourseProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_data__["a" /* AddonModDataProvider */],
-            __WEBPACK_IMPORTED_MODULE_10__providers_offline__["a" /* AddonModDataOfflineProvider */], __WEBPACK_IMPORTED_MODULE_9__providers_helper__["a" /* AddonModDataHelperProvider */],
-            __WEBPACK_IMPORTED_MODULE_4__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_6__providers_events__["a" /* CoreEventsProvider */]])
-    ], AddonModDataEntryPage);
-    return AddonModDataEntryPage;
-}());
-
-//# sourceMappingURL=entry.js.map
-=======
-/**
- * Page that displays the search modal.
- */
-var AddonModDataSearchPage = /** @class */ (function () {
-    function AddonModDataSearchPage(params, viewCtrl, fb, utils, domUtils, fieldsDelegate, textUtils, dataHelper) {
+    AddonModFeedbackFormPage.prototype.fetchData = function () {
         var _this = this;
-        this.viewCtrl = viewCtrl;
-        this.utils = utils;
-        this.domUtils = domUtils;
-        this.fieldsDelegate = fieldsDelegate;
-        this.textUtils = textUtils;
-        this.dataHelper = dataHelper;
-        this.extraImports = [__WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* AddonModDataComponentsModule */]];
-        this.search = params.get('search');
-        this.fields = params.get('fields');
-        this.data = params.get('data');
-        var advanced = {};
-        if (typeof this.search.advanced == 'object') {
-            Object.keys(this.search.advanced).forEach(function (index) {
-                if (typeof _this.search.advanced[index] != 'undefined' && typeof _this.search.advanced[index].name != 'undefined') {
-                    advanced[_this.search.advanced[index].name] = _this.search.advanced[index].value ?
-                        _this.textUtils.parseJSON(_this.search.advanced[index].value) : '';
-                }
-                else {
-                    advanced[index] = _this.search.advanced[index] ?
-                        _this.textUtils.parseJSON(_this.search.advanced[index]) : '';
-                }
-            });
+        this.offline = !this.appProvider.isOnline();
+        return this.feedbackProvider.getFeedback(this.courseId, this.module.id).then(function (feedbackData) {
+            _this.feedback = feedbackData;
+            _this.title = _this.feedback.name || _this.title;
+            return _this.fetchAccessData();
+        }).then(function (accessData) {
+            if (!_this.preview && accessData.cansubmit && !accessData.isempty) {
+                return typeof _this.currentPage == 'undefined' ?
+                    _this.feedbackProvider.getResumePage(_this.feedback.id, _this.offline, true) :
+                    Promise.resolve(_this.currentPage);
+            }
+            else {
+                _this.preview = true;
+                return Promise.resolve(0);
+            }
+        }).catch(function (error) {
+            if (!_this.offline && !_this.utils.isWebServiceError(error)) {
+                // If it fails, go offline.
+                _this.offline = true;
+                return _this.feedbackProvider.getResumePage(_this.feedback.id, true);
+            }
+            return Promise.reject(error);
+        }).then(function (page) {
+            return _this.fetchFeedbackPageData(page || 0);
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
+            _this.forceLeave = true;
+            _this.navCtrl.pop();
+            return Promise.reject(null);
+        }).finally(function () {
+            _this.feedbackLoaded = true;
+        });
+    };
+    /**
+     * Fetch access information.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModFeedbackFormPage.prototype.fetchAccessData = function () {
+        var _this = this;
+        return this.feedbackProvider.getFeedbackAccessInformation(this.feedback.id, this.offline, true).catch(function (error) {
+            if (!_this.offline && !_this.utils.isWebServiceError(error)) {
+                // If it fails, go offline.
+                _this.offline = true;
+                return _this.feedbackProvider.getFeedbackAccessInformation(_this.feedback.id, true);
+            }
+            return Promise.reject(error);
+        }).then(function (accessData) {
+            _this.access = accessData;
+            return accessData;
+        });
+    };
+    AddonModFeedbackFormPage.prototype.fetchFeedbackPageData = function (page) {
+        var _this = this;
+        if (page === void 0) { page = 0; }
+        var promise;
+        this.items = [];
+        if (this.preview) {
+            promise = this.feedbackProvider.getItems(this.feedback.id);
         }
         else {
-            this.search.advanced.forEach(function (field) {
-                advanced[field.name] = field.value ? _this.textUtils.parseJSON(field.value) : '';
+            this.currentPage = page;
+            promise = this.feedbackProvider.getPageItemsWithValues(this.feedback.id, page, this.offline, true).catch(function (error) {
+                if (!_this.offline && !_this.utils.isWebServiceError(error)) {
+                    // If it fails, go offline.
+                    _this.offline = true;
+                    return _this.feedbackProvider.getPageItemsWithValues(_this.feedback.id, page, true);
+                }
+                return Promise.reject(error);
+            }).then(function (response) {
+                _this.hasPrevPage = !!response.hasprevpage;
+                _this.hasNextPage = !!response.hasnextpage;
+                return response;
             });
         }
-        this.search.advanced = advanced;
-        this.searchForm = fb.group({
-            text: [this.search.text],
-            sortBy: [this.search.sortBy || '0'],
-            sortDirection: [this.search.sortDirection || 'DESC'],
-            firstname: [this.search.advanced['firstname'] || ''],
-            lastname: [this.search.advanced['lastname'] || '']
-        });
-        this.fieldsArray = this.utils.objectToArray(this.fields);
-        this.advancedSearch = this.renderAdvancedSearchFields();
-    }
-    /**
-     * Displays Advanced Search Fields.
-     *
-     * @return {string}         Generated HTML.
-     */
-    AddonModDataSearchPage.prototype.renderAdvancedSearchFields = function () {
-        this.jsData = {
-            fields: this.fields,
-            form: this.searchForm,
-            search: this.search.advanced
-        };
-        var template = this.data.asearchtemplate || this.dataHelper.getDefaultTemplate('asearch', this.fieldsArray), replace, render;
-        // Replace the fields found on template.
-        this.fieldsArray.forEach(function (field) {
-            replace = '[[' + field.name + ']]';
-            replace = replace.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, '\\$&');
-            replace = new RegExp(replace, 'gi');
-            // Replace field by a generic directive.
-            render = '<addon-mod-data-field-plugin mode="search" [field]="fields[' + field.id +
-                ']" [form]="form" [search]="search"></addon-mod-data-field-plugin>';
-            template = template.replace(replace, render);
-        });
-        // Not pluginable other search elements.
-        // Replace firstname field by the text input.
-        replace = new RegExp('##firstname##', 'gi');
-        render = '<span [formGroup]="form"><ion-input type="text" name="firstname" \
-        [placeholder]="\'addon.mod_data.authorfirstname\' | translate" formControlName="firstname"></ion-input></span>';
-        template = template.replace(replace, render);
-        // Replace lastname field by the text input.
-        replace = new RegExp('##lastname##', 'gi');
-        render = '<span [formGroup]="form"><ion-input type="text" name="lastname" \
-        [placeholder]="\'addon.mod_data.authorlastname\' | translate" formControlName="lastname"></ion-input></span>';
-        template = template.replace(replace, render);
-        return template;
-    };
-    /**
-     * Retrieve the entered data in search in a form.
-     *
-     * @param {any} searchedData Array with the entered form values.
-     * @return {any[]}          Array with the answers.
-     */
-    AddonModDataSearchPage.prototype.getSearchDataFromForm = function (searchedData) {
-        var _this = this;
-        var advancedSearch = [];
-        // Filter and translate fields to each field plugin.
-        this.fieldsArray.forEach(function (field) {
-            var fieldData = _this.fieldsDelegate.getFieldSearchData(field, searchedData);
-            if (fieldData) {
-                fieldData.forEach(function (data) {
-                    data.value = JSON.stringify(data.value);
-                    // WS wants values in Json format.
-                    advancedSearch.push(data);
-                });
+        return promise.then(function (response) {
+            _this.items = response.items.map(function (itemData) {
+                return _this.feedbackHelper.getItemForm(itemData, _this.preview);
+            }).filter(function (itemData) {
+                // Filter items with errors.
+                return itemData;
+            });
+            if (!_this.preview) {
+                var itemsCopy = _this.utils.clone(_this.items); // Copy the array to avoid modifications.
+                _this.originalData = _this.feedbackHelper.getPageItemsResponses(itemsCopy);
             }
         });
-        // Not pluginable other search elements.
-        if (searchedData['firstname']) {
-            // WS wants values in Json format.
-            advancedSearch.push({
-                name: 'firstname',
-                value: JSON.stringify(searchedData['firstname'])
+    };
+    /**
+     * Function to allow page navigation through the questions form.
+     *
+     * @param  {boolean}       goPrevious If true it will go back to the previous page, if false, it will go forward.
+     * @return {Promise<void>}            Resolved when done.
+     */
+    AddonModFeedbackFormPage.prototype.gotoPage = function (goPrevious) {
+        var _this = this;
+        this.domUtils.scrollToTop(this.content);
+        this.feedbackLoaded = false;
+        var responses = this.feedbackHelper.getPageItemsResponses(this.items), formHasErrors = this.items.some(function (item) {
+            return item.isEmpty || item.hasError;
+        });
+        // Sync other pages first.
+        return this.feedbackSync.syncFeedback(this.feedback.id).catch(function () {
+            // Ignore errors.
+        }).then(function () {
+            return _this.feedbackProvider.processPage(_this.feedback.id, _this.currentPage, responses, goPrevious, formHasErrors, _this.courseId).then(function (response) {
+                var jumpTo = parseInt(response.jumpto, 10);
+                if (response.completed) {
+                    // Form is completed, show completion message and buttons.
+                    _this.items = [];
+                    _this.completed = true;
+                    _this.completedOffline = !!response.offline;
+                    _this.completionPageContents = response.completionpagecontents;
+                    _this.siteAfterSubmit = response.siteaftersubmit;
+                    _this.submitted = true;
+                    // Invalidate access information so user will see home page updated (continue form or completion messages).
+                    var promises = [];
+                    promises.push(_this.feedbackProvider.invalidateFeedbackAccessInformationData(_this.feedback.id));
+                    promises.push(_this.feedbackProvider.invalidateResumePageData(_this.feedback.id));
+                    return Promise.all(promises).then(function () {
+                        return _this.fetchAccessData();
+                    });
+                }
+                else if (isNaN(jumpTo) || jumpTo == _this.currentPage) {
+                    // Errors on questions, stay in page.
+                    return Promise.resolve();
+                }
+                else {
+                    _this.submitted = true;
+                    // Invalidate access information so user will see home page updated (continue form).
+                    _this.feedbackProvider.invalidateResumePageData(_this.feedback.id);
+                    // Fetch the new page.
+                    return _this.fetchFeedbackPageData(jumpTo);
+                }
             });
-        }
-        if (searchedData['lastname']) {
-            // WS wants values in Json format.
-            advancedSearch.push({
-                name: 'lastname',
-                value: JSON.stringify(searchedData['lastname'])
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
+            return Promise.reject(null);
+        }).finally(function () {
+            _this.feedbackLoaded = true;
+        });
+    };
+    /**
+     * Function to link implemented features.
+     */
+    AddonModFeedbackFormPage.prototype.showAnalysis = function () {
+        this.submitted = 'analysis';
+        this.feedbackHelper.openFeature('analysis', this.navCtrl, this.module, this.courseId);
+    };
+    /**
+     * Function to go to the page after submit.
+     */
+    AddonModFeedbackFormPage.prototype.continue = function () {
+        var _this = this;
+        if (this.siteAfterSubmit) {
+            var modal_1 = this.domUtils.showModalLoading();
+            this.linkHelper.handleLink(this.siteAfterSubmit).then(function (treated) {
+                if (!treated) {
+                    return _this.currentSite.openInBrowserWithAutoLoginIfSameSite(_this.siteAfterSubmit);
+                }
+            }).finally(function () {
+                modal_1.dismiss();
             });
-        }
-        return advancedSearch;
-    };
-    /**
-     * Close modal.
-     *
-     * @param {any} [data] Data to return to the page.
-     */
-    AddonModDataSearchPage.prototype.closeModal = function (data) {
-        this.viewCtrl.dismiss(data);
-    };
-    /**
-     * Toggles between advanced to normal search.
-     *
-     * @param {boolean} advanced True for advanced, false for basic.
-     */
-    AddonModDataSearchPage.prototype.changeAdvanced = function (advanced) {
-        this.search.searchingAdvanced = advanced;
-    };
-    /**
-     * Done editing.
-     *
-     * @param {Event} e Event.
-     */
-    AddonModDataSearchPage.prototype.searchEntries = function (e) {
-        e.preventDefault();
-        e.stopPropagation();
-        var searchedData = this.searchForm.value;
-        if (this.search.searchingAdvanced) {
-            this.search.advanced = this.getSearchDataFromForm(searchedData);
-            this.search.searching = this.search.advanced.length > 0;
         }
         else {
-            this.search.text = searchedData.text;
-            this.search.searching = this.search.text.length > 0;
+            // Use redirect to make the course the new history root (to avoid "loops" in history).
+            this.loginHelper.redirect('CoreCourseSectionPage', {
+                course: { id: this.courseId }
+            }, this.currentSite.getId());
         }
-        this.search.sortBy = searchedData.sortBy;
-        this.search.sortDirection = searchedData.sortDirection;
-        this.closeModal(this.search);
     };
-    AddonModDataSearchPage = __decorate([
+    /**
+     * Component being destroyed.
+     */
+    AddonModFeedbackFormPage.prototype.ngOnDestroy = function () {
+        if (this.submitted) {
+            var tab = this.submitted == 'analysis' ? 'analysis' : 'overview';
+            // If form has been submitted, the info has been already invalidated but we should update index view.
+            this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_4__providers_feedback__["a" /* AddonModFeedbackProvider */].FORM_SUBMITTED, { feedbackId: this.feedback.id, tab: tab });
+        }
+        this.onlineObserver && this.onlineObserver.unsubscribe();
+    };
+    AddonModFeedbackFormPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-data-search',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\mod\data\pages\search\search.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.mod_data.search\' | translate }}</ion-title>\n        <ion-buttons end>\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n                <ion-icon name="close"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <div class="fixed-content core-tabs-bar">\n        <a class="tab-slide" [attr.aria-selected]="!search.searchingAdvanced" (click)="changeAdvanced(false)">{{ \'addon.mod_data.search\' | translate}}</a>\n        <a class="tab-slide" [attr.aria-selected]="search.searchingAdvanced" (click)="changeAdvanced(true)">{{ \'addon.mod_data.advancedsearch\' | translate }}</a>\n    </div>\n    <form (ngSubmit)="searchEntries($event)" [formGroup]="searchForm">\n        <ion-list no-margin>\n            <ion-item [hidden]="search.searchingAdvanced">\n                <ion-input type="text" placeholder="{{ \'addon.mod_data.search\' | translate}}" [(ngModel)]="search.text" name="text" formControlName="text"></ion-input>\n            </ion-item>\n            <ion-item text-wrap>\n                <ion-label stacked>{{ \'core.sortby\' | translate }}</ion-label>\n                <ion-select interface="action-sheet" name="sortBy" formControlName="sortBy" [placeholder]="\'core.sortby\' | translate">\n                    <optgroup *ngIf="fieldsArray.length" label="{{ \'addon.mod_data.fields\' | translate }}">\n                        <ion-option *ngFor="let field of fieldsArray" [value]="field.id">{{field.name}}</ion-option>\n                    </optgroup>\n                    <optgroup label="{{ \'addon.mod_data.other\' | translate }}">\n                        <ion-option value="0">{{ \'addon.mod_data.timeadded\' | translate }}</ion-option>\n                        <ion-option value="-4">{{ \'addon.mod_data.timemodified\' | translate }}</ion-option>\n                        <ion-option value="-1">{{ \'addon.mod_data.authorfirstname\' | translate }}</ion-option>\n                        <ion-option value="-2">{{ \'addon.mod_data.authorlastname\' | translate }}</ion-option>\n                        <ion-option value="-3" *ngIf="data.approval">{{ \'addon.mod_data.approved\' | translate }}</ion-option>\n                    </optgroup>\n                </ion-select>\n            </ion-item>\n            <ion-list radio-group [(ngModel)]="search.sortDirection" name="sortDirection" formControlName="sortDirection">\n                <ion-item>\n                    <ion-label>{{ \'addon.mod_data.ascending\' | translate }}</ion-label>\n                    <ion-radio value="ASC"></ion-radio>\n                </ion-item>\n                <ion-item>\n                    <ion-label>{{ \'addon.mod_data.descending\' | translate }}</ion-label>\n                    <ion-radio value="DESC"></ion-radio>\n                </ion-item>\n            </ion-list>\n            <div padding [hidden]="!advancedSearch || !search.searchingAdvanced" class="addon-data-advanced-search">\n                <core-compile-html [text]="advancedSearch" [jsData]="jsData" [extraImports]="extraImports"></core-compile-html>\n            </div>\n        </ion-list>\n        <div padding>\n            <button ion-button block type="submit" icon-start>\n                <ion-icon name="search"></ion-icon>\n                {{ \'addon.mod_data.search\' | translate }}\n            </button>\n        </div>\n    </form>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\mod\data\pages\search\search.html"*/,
+            selector: 'page-addon-mod-feedback-form',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\mod\feedback\pages\form\form.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text  [text]=" title "></core-format-text></ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <core-loading [hideUntil]="feedbackLoaded">\n\n        <ng-container *ngIf="items && items.length">\n\n            <ion-list no-margin>\n\n                <ion-item text-wrap>\n\n                    <h2>{{ \'addon.mod_feedback.mode\' | translate }}</h2>\n\n                    <p *ngIf="access.isanonymous">{{ \'addon.mod_feedback.anonymous\' | translate }}</p>\n\n                    <p *ngIf="!access.isanonymous">{{ \'addon.mod_feedback.non_anonymous\' | translate }}</p>\n\n                </ion-item>\n\n                <ng-container *ngFor="let item of items">\n\n                    <ion-item-divider *ngIf="item.typ == \'pagebreak\'" color="light"></ion-item-divider>\n\n                    <ion-item text-wrap *ngIf="item.typ != \'pagebreak\'" [color]="item.dependitem > 0 ? \'light\' : \'\'" [class.core-danger-item]="item.isEmpty || item.hasError">\n\n                        <ion-label *ngIf="item.name" [core-mark-required]="item.required" stacked>\n\n                            <span *ngIf="feedback.autonumbering && item.itemnumber">{{item.itemnumber}}. </span>\n\n                            <core-format-text  [component]="component" [componentId]="componentId" [text]="item.name"></core-format-text>\n\n                        </ion-label>\n\n                        <div item-content class="addon-mod_feedback-form-content" *ngIf="item.template">\n\n                            <ng-container [ngSwitch]="item.template">\n\n                                <ng-container *ngSwitchCase="\'label\'">\n\n                                    <p><core-format-text [component]="component" [componentId]="componentId" [text]="item.presentation"></core-format-text></p>\n\n                                </ng-container>\n\n                                <ng-container *ngSwitchCase="\'textfield\'">\n\n                                    <ion-input type="text" [(ngModel)]="item.value" autocorrect="off" name="{{item.typ}}_{{item.id}}" maxlength="{{item.maxlength}}" [required]="item.required"></ion-input>\n\n                                </ng-container>\n\n                                <ng-container *ngSwitchCase="\'numeric\'">\n\n                                    <ion-input [required]="item.required" name="{{item.typ}}_{{item.id}}" type="number" [(ngModel)]="item.value"></ion-input>\n\n                                    <p *ngIf="item.hasError" color="error">{{ \'addon.mod_feedback.numberoutofrange\' | translate }} [{{item.rangefrom}}<span *ngIf="item.rangefrom && item.rangeto">, </span>{{item.rangeto}}]</p>\n\n                                </ng-container>\n\n                                <ng-container *ngSwitchCase="\'textarea\'">\n\n                                    <ion-textarea [required]="item.required" name="{{item.typ}}_{{item.id}}" [attr.aria-multiline]="true" [(ngModel)]="item.value"></ion-textarea>\n\n                                </ng-container>\n\n                                <ng-container *ngSwitchCase="\'multichoice-r\'">\n\n                                    <ion-list radio-group [(ngModel)]="item.value" [required]="item.required" name="{{item.typ}}_{{item.id}}">\n\n                                        <ion-item *ngFor="let option of item.choices">\n\n                                            <ion-label><core-format-text  [component]="component" [componentId]="componentId" [text]="option.label"></core-format-text></ion-label>\n\n                                            <ion-radio [value]="option.value"></ion-radio>\n\n                                        </ion-item>\n\n                                    </ion-list>\n\n                                </ng-container>\n\n                                <ion-list *ngSwitchCase="\'multichoice-c\'">\n\n                                    <ion-item *ngFor="let option of item.choices">\n\n                                        <ion-label><core-format-text  [component]="component" [componentId]="componentId" [text]="option.label"></core-format-text></ion-label>\n\n                                        <ion-checkbox [required]="item.required" name="{{item.typ}}_{{item.id}}" [(ngModel)]="option.checked" value="option.value"></ion-checkbox>\n\n                                    </ion-item>\n\n                                </ion-list>\n\n                                <ng-container *ngSwitchCase="\'multichoice-d\'">\n\n                                    <ion-select [required]="item.required" name="{{item.typ}}_{{item.id}}" [(ngModel)]="item.value" interface="popover">\n\n                                        <ion-option *ngFor="let option of item.choices" [value]="option.value"><core-format-text  [component]="component" [componentId]="componentId" [text]="option.label"></core-format-text></ion-option>\n\n                                    </ion-select>\n\n                                </ng-container>\n\n                                <ng-container *ngSwitchCase="\'captcha\'">\n\n                                    <core-recaptcha *ngIf="!preview && !offline" [publicKey]="item.captcha.recaptchapublickey" [model]="item" modelValueName="value"></core-recaptcha>\n\n                                    <div *ngIf="!preview && (!item.captcha || offline)" class="core-warning-card" icon-start>\n\n                                        <ion-icon name="warning"></ion-icon>\n\n                                        {{ \'addon.mod_feedback.captchaofflinewarning\' | translate }}\n\n                                    </div>\n\n                                </ng-container>\n\n                            </ng-container>\n\n                        </div>\n\n                    </ion-item>\n\n                </ng-container>\n\n                <ion-grid *ngIf="!preview">\n\n                    <ion-row align-items-center>\n\n                        <ion-col *ngIf="hasPrevPage">\n\n                            <button ion-button block outline icon-start (click)="gotoPage(true)">\n\n                                <ion-icon name="arrow-back"></ion-icon>\n\n                                {{ \'addon.mod_feedback.previous_page\' | translate }}\n\n                            </button>\n\n                        </ion-col>\n\n                        <ion-col *ngIf="hasNextPage">\n\n                            <button ion-button block icon-end (click)="gotoPage(false)">\n\n                                {{ \'addon.mod_feedback.next_page\' | translate }}\n\n                                <ion-icon name="arrow-forward"></ion-icon>\n\n                            </button>\n\n                        </ion-col>\n\n                        <ion-col *ngIf="!hasNextPage">\n\n                            <button ion-button block (click)="gotoPage(false)">\n\n                                {{ \'addon.mod_feedback.save_entries\' | translate }}\n\n                            </button>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-list>\n\n        </ng-container>\n\n\n\n        <div class="core-success-card" icon-start *ngIf="completed">\n\n            <ion-icon name="checkmark"></ion-icon>\n\n            <p *ngIf="!completionPageContents && !completedOffline">{{ \'addon.mod_feedback.this_feedback_is_already_submitted\' | translate }}</p>\n\n            <p *ngIf="!completionPageContents && completedOffline">{{ \'addon.mod_feedback.feedback_submitted_offline\' | translate }}</p>\n\n            <p *ngIf="completionPageContents"><core-format-text  [component]="component" componentId="componentId" [text]="completionPageContents"></core-format-text></p>\n\n        </div>\n\n\n\n        <ion-grid *ngIf="completed">\n\n            <ion-row align-items-center>\n\n                <ion-col *ngIf="access.canviewanalysis">\n\n                    <button ion-button block outline icon-start (click)="showAnalysis()">\n\n                        <ion-icon name="stats"></ion-icon>\n\n                        {{ \'addon.mod_feedback.completed_feedbacks\' | translate }}\n\n                    </button>\n\n                </ion-col>\n\n                <ion-col *ngIf="hasNextPage">\n\n                    <button ion-button block icon-end (click)="continue()">\n\n                        {{ \'core.continue\' | translate }}\n\n                        <ion-icon name="arrow-forward"></ion-icon>\n\n                    </button>\n\n                </ion-col>\n\n            </ion-row>\n\n        </ion-grid>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\mod\feedback\pages\form\form.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["E" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_utils__["a" /* CoreUtilsProvider */],
-            __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_7__providers_fields_delegate__["a" /* AddonModDataFieldsDelegate */],
-            __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__["a" /* CoreTextUtilsProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_helper__["a" /* AddonModDataHelperProvider */]])
-    ], AddonModDataSearchPage);
-    return AddonModDataSearchPage;
+        __param(15, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Optional */])()),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__providers_feedback__["a" /* AddonModFeedbackProvider */], __WEBPACK_IMPORTED_MODULE_9__providers_app__["a" /* CoreAppProvider */],
+            __WEBPACK_IMPORTED_MODULE_8__providers_utils_utils__["a" /* CoreUtilsProvider */], __WEBPACK_IMPORTED_MODULE_7__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_helper__["a" /* AddonModFeedbackHelperProvider */], __WEBPACK_IMPORTED_MODULE_11__core_course_providers_course__["a" /* CoreCourseProvider */],
+            __WEBPACK_IMPORTED_MODULE_10__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_6__providers_sync__["a" /* AddonModFeedbackSyncProvider */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_network__["a" /* Network */],
+            __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_12__core_login_providers_helper__["a" /* CoreLoginHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_13__core_contentlinks_providers_helper__["a" /* CoreContentLinksHelperProvider */], __WEBPACK_IMPORTED_MODULE_14__providers_sites__["a" /* CoreSitesProvider */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* NgZone */]])
+    ], AddonModFeedbackFormPage);
+    return AddonModFeedbackFormPage;
 }());
 
-//# sourceMappingURL=search.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+//# sourceMappingURL=form.js.map
 
 /***/ })
 

@@ -1,31 +1,17 @@
 webpackJsonp([62],{
 
-<<<<<<< HEAD
-/***/ 1843:
-=======
-/***/ 1914:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1849:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModScormIndexPageModule", function() { return AddonModScormIndexPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModWikiIndexPageModule", function() { return AddonModWikiIndexPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(960);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(1968);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModUrlIndexPageModule", function() { return AddonModUrlIndexPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(980);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(2044);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(963);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(1984);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -51,68 +37,37 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
-var AddonModScormIndexPageModule = /** @class */ (function () {
-    function AddonModScormIndexPageModule() {
+var AddonModWikiIndexPageModule = /** @class */ (function () {
+    function AddonModWikiIndexPageModule() {
     }
-    AddonModScormIndexPageModule = __decorate([
+    AddonModWikiIndexPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModScormIndexPage */],
+                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModWikiIndexPage */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModScormComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModScormIndexPage */]),
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModWikiComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModWikiIndexPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], AddonModScormIndexPageModule);
-    return AddonModScormIndexPageModule;
-=======
-var AddonModUrlIndexPageModule = /** @class */ (function () {
-    function AddonModUrlIndexPageModule() {
-    }
-    AddonModUrlIndexPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModUrlIndexPage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModUrlComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModUrlIndexPage */]),
-                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ],
-        })
-    ], AddonModUrlIndexPageModule);
-    return AddonModUrlIndexPageModule;
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+    ], AddonModWikiIndexPageModule);
+    return AddonModWikiIndexPageModule;
 }());
 
 //# sourceMappingURL=index.module.js.map
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 1968:
+/***/ 1984:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModScormIndexPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModWikiIndexPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(414);
-=======
-/***/ 2044:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModUrlIndexPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(428);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(417);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -139,73 +94,59 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
-<<<<<<< HEAD
- * Page that displays the SCORM entry page.
+ * Page that displays a wiki page.
  */
-var AddonModScormIndexPage = /** @class */ (function () {
-    function AddonModScormIndexPage(navParams) {
-=======
- * Page that displays a url.
- */
-var AddonModUrlIndexPage = /** @class */ (function () {
-    function AddonModUrlIndexPage(navParams) {
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+var AddonModWikiIndexPage = /** @class */ (function () {
+    function AddonModWikiIndexPage(navParams) {
         this.module = navParams.get('module') || {};
         this.courseId = navParams.get('courseId');
-        this.title = this.module.name;
+        this.action = navParams.get('action') || 'page';
+        this.pageId = navParams.get('pageId');
+        this.pageTitle = navParams.get('pageTitle');
+        this.wikiId = navParams.get('wikiId');
+        this.subwikiId = navParams.get('subwikiId');
+        this.userId = navParams.get('userId');
+        this.groupId = navParams.get('groupId');
+        this.title = this.pageTitle || this.module.name;
     }
     /**
-<<<<<<< HEAD
-     * Update some data based on the SCORM instance.
+     * Update some data based on the data received.
      *
-     * @param {any} scorm SCORM instance.
+     * @param {any} data The data received.
      */
-    AddonModScormIndexPage.prototype.updateData = function (scorm) {
-        this.title = scorm.name || this.title;
+    AddonModWikiIndexPage.prototype.updateData = function (data) {
+        if (typeof data == 'string') {
+            // We received the title to display.
+            this.title = data;
+        }
+        else {
+            // We received a wiki instance.
+            this.title = this.pageTitle || data.title || this.title;
+        }
     };
     /**
      * User entered the page.
      */
-    AddonModScormIndexPage.prototype.ionViewDidEnter = function () {
-        this.scormComponent.ionViewDidEnter();
+    AddonModWikiIndexPage.prototype.ionViewDidEnter = function () {
+        this.wikiComponent.ionViewDidEnter();
     };
     /**
      * User left the page.
      */
-    AddonModScormIndexPage.prototype.ionViewDidLeave = function () {
-        this.scormComponent.ionViewDidLeave();
+    AddonModWikiIndexPage.prototype.ionViewDidLeave = function () {
+        this.wikiComponent.ionViewDidLeave();
     };
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModScormIndexComponent */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModScormIndexComponent */])
-    ], AddonModScormIndexPage.prototype, "scormComponent", void 0);
-    AddonModScormIndexPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModWikiIndexComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModWikiIndexComponent */])
+    ], AddonModWikiIndexPage.prototype, "wikiComponent", void 0);
+    AddonModWikiIndexPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-scorm-index',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\scorm\pages\index\index.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <!-- The buttons defined by the component will be added in here. -->\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="scormComponent.loaded" (ionRefresh)="scormComponent.doRefresh($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n\n\n    <addon-mod-scorm-index [module]="module" [courseId]="courseId" (dataRetrieved)="updateData($event)"></addon-mod-scorm-index>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\scorm\pages\index\index.html"*/,
+            selector: 'page-addon-mod-wiki-index',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\mod\wiki\pages\index\index.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <!-- The buttons defined by the component will be added in here. -->\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="wikiComponent.loaded" (ionRefresh)="wikiComponent.doRefresh($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n\n\n    <addon-mod-wiki-index [module]="module" [courseId]="courseId" [action]="action" [pageId]="pageId" [pageTitle]="pageTitle" [wikiId]="wikiId" [subwikiId]="subwikiId" [userId]="userId" [groupId]="groupId" (dataRetrieved)="updateData($event)"></addon-mod-wiki-index>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\mod\wiki\pages\index\index.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]])
-    ], AddonModScormIndexPage);
-    return AddonModScormIndexPage;
-=======
-     * Update some data based on the url instance.
-     *
-     * @param {any} url Url instance.
-     */
-    AddonModUrlIndexPage.prototype.updateData = function (url) {
-        this.title = url.name || this.title;
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModUrlIndexComponent */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModUrlIndexComponent */])
-    ], AddonModUrlIndexPage.prototype, "urlComponent", void 0);
-    AddonModUrlIndexPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-url-index',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\mod\url\pages\index\index.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <!-- The buttons defined by the component will be added in here. -->\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="urlComponent.loaded" (ionRefresh)="urlComponent.doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <addon-mod-url-index [module]="module" [courseId]="courseId" (dataRetrieved)="updateData($event)"></addon-mod-url-index>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\mod\url\pages\index\index.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */]])
-    ], AddonModUrlIndexPage);
-    return AddonModUrlIndexPage;
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+    ], AddonModWikiIndexPage);
+    return AddonModWikiIndexPage;
 }());
 
 //# sourceMappingURL=index.js.map

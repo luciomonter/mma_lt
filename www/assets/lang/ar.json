@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
     "addon.badges.badges": "شارات",
     "addon.badges.expired": "عذراً، تم إغلاق هذا النشاط في {{$a}} وهو غير متوفر الآن.",
     "addon.calendar.calendarevents": "أحداث التقويم",
@@ -22,31 +21,6 @@
     "addon.coursecompletion.completiondate": "تاريخ إكمال المقرر",
     "addon.coursecompletion.couldnotloadreport": "لا يمكن تحميل تقرير إكمال المقرر، الرجاء المحاولة في وقت آخر",
     "addon.coursecompletion.coursecompletion": "إكمال المقرر الدراسي",
-=======
-    "addon.block_activitymodules.pluginname": "أنشطة",
-    "addon.block_sitemainmenu.pluginname": "القائمة الرئيسية",
-    "addon.calendar.calendar": "تقويم",
-    "addon.calendar.calendarevents": "أحداث التقويم",
-    "addon.calendar.errorloadevent": "خطأ في تحميل الحدث",
-    "addon.calendar.errorloadevents": "خطأ في تحميل الأحداث",
-    "addon.calendar.eventendtime": "وقت الانتهاء",
-    "addon.calendar.eventstarttime": "وقت البداء",
-    "addon.calendar.noevents": "لا يوجد أي أحداث",
-    "addon.calendar.notifications": "الإشعارات",
-    "addon.calendar.typecourse": "حدث منهج دراسي",
-    "addon.calendar.typegroup": "حدث مجموعة",
-    "addon.calendar.typesite": "حدث الموقع",
-    "addon.calendar.typeuser": "حدث المستخدم",
-    "addon.competency.errornocompetenciesfound": "لا يوجد أي قدرات موجودة",
-    "addon.competency.nocompetencies": "لا يوجد أي قدرات",
-    "addon.coursecompletion.complete": "مكتمل",
-    "addon.coursecompletion.completecourse": "قم بإتمام المقرر الدراسي",
-    "addon.coursecompletion.completed": "تم إكمال المقرر",
-    "addon.coursecompletion.completiondate": "تاريخ الإتمام",
-    "addon.coursecompletion.completionmenuitem": "الإكمال",
-    "addon.coursecompletion.couldnotloadreport": "لا يمكن تحميل تقرير إكمال المقرر، الرجاء المحاولة في وقت آخر",
-    "addon.coursecompletion.coursecompletion": "إكمال المقرر",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.coursecompletion.criteria": "معايير",
     "addon.coursecompletion.criteriagroup": "مجموعة المعايير",
     "addon.coursecompletion.criteriarequiredall": "كل المعايير في الأسفل مطلوبة",
@@ -57,41 +31,25 @@
     "addon.coursecompletion.pending": "معلق",
     "addon.coursecompletion.required": "مفروض",
     "addon.coursecompletion.requiredcriteria": "المعايير المطلوبة",
-<<<<<<< HEAD
     "addon.coursecompletion.requirement": "المتطلبات",
     "addon.coursecompletion.status": "الوضع",
-=======
-    "addon.coursecompletion.requirement": "متطلبات",
-    "addon.coursecompletion.status": "الحالة",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.coursecompletion.viewcoursereport": "عرض تقرير المقرر",
     "addon.files.couldnotloadfiles": "لا يمكن تحميل قائمة الملفات",
     "addon.files.emptyfilelist": "لا يوجد ملفات للعرض",
     "addon.files.files": "ملفات",
     "addon.files.privatefiles": "ملفات خاصة",
     "addon.files.sitefiles": "ملفات الموقع",
-<<<<<<< HEAD
     "addon.files.uploadfiles": "إرسل ملفات التغذية الراجعة",
     "addon.messages.addcontact": "أضف عنوان أتصال",
     "addon.messages.blockcontact": "أحجب عنوان  الأتصال",
     "addon.messages.blocknoncontacts": "امنع المستخدمين الذين ليسوا في قائمة اتصالاتي من مراسلتي",
     "addon.messages.contactlistempty": "قائمة الاتصال فارغة",
     "addon.messages.contacts": "عناوين اتصال",
-=======
-    "addon.messages.addcontact": "أضف جهة أتصال",
-    "addon.messages.addtoyourcontacts": "أضف جهات اتصاللك",
-    "addon.messages.blocknoncontacts": "امنع المستخدمين الذين ليسوا في قائمة اتصالاتي من مراسلتي",
-    "addon.messages.contactblocked": "تم حظر جهة الاتصال",
-    "addon.messages.contactlistempty": "قائمة الاتصال فارغة",
-    "addon.messages.contacts": "جهات اتصال",
-    "addon.messages.deleteallconfirm": "هل أنت متأكد من رغبتك بحذف كامل الحوار؟",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.messages.errordeletemessage": "خطأ عند حذف الرسالة",
     "addon.messages.message": "رسالة",
     "addon.messages.messagenotsent": "لم يتم إرسال الرسالة، يرجي المحاولة لاحقا",
     "addon.messages.messagepreferences": "مراجع الرسالة",
     "addon.messages.messages": "رسائل",
-<<<<<<< HEAD
     "addon.messages.mustbeonlinetosendmessages": "لابد أن تكون متصل بالأنترنت لكي ترسل أي رسائل",
     "addon.messages.newmessage": "رسالة جديدة",
     "addon.messages.nomessages": "لا توجد رسائل بعد",
@@ -99,22 +57,11 @@
     "addon.messages.removecontact": "ازل عنوان الاتصال",
     "addon.messages.send": "إرسل",
     "addon.messages.sendmessage": "إرسل رسالة",
-=======
-    "addon.messages.newmessage": "رسالة جديدة",
-    "addon.messages.nomessagesfound": "لم يتم العثور على إي رسالة",
-    "addon.messages.nousersfound": "لا يوجد مستخدمين",
-    "addon.messages.removecontact": "ازل جهة الاتصال",
-    "addon.messages.removefromyourcontacts": "حذف من قائمة جهات اتصالك",
-    "addon.messages.searchcombined": "البحث عن الأشخاص والرسائل",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.messages.type_offline": "غير متصل",
     "addon.messages.type_online": "متصل",
     "addon.messages.type_search": "نتائج البحث",
     "addon.messages.type_strangers": "رسائل أخرى",
-<<<<<<< HEAD
     "addon.messages.unblockcontact": "أزل الحجب عن عنوان الاتصال",
-=======
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_assign.addattempt": "اسمح بمحاولة أخرى",
     "addon.mod_assign.addnewattempt": "إضافة محاولة جديدة",
     "addon.mod_assign.addnewattemptfromprevious": "إضافة محاولة جديدة بناء على التسليم السابق",
@@ -140,10 +87,6 @@
     "addon.mod_assign.graded": "تم رصد درجة",
     "addon.mod_assign.gradeoutof": "الدرجة من {{$a}}",
     "addon.mod_assign.gradingstatus": "حالة التقييم",
-<<<<<<< HEAD
-=======
-    "addon.mod_assign.modulenameplural": "مهام",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_assign.noattempt": "لا توجد محاولات",
     "addon.mod_assign.notgraded": "لم يتم التقييم",
     "addon.mod_assign.numberofdraftsubmissions": "مسودات",
@@ -151,10 +94,7 @@
     "addon.mod_assign.numberofsubmissionsneedgrading": "بحاجة لتقييم",
     "addon.mod_assign.numberofsubmittedassignments": "مسلمة",
     "addon.mod_assign.numwords": "{{$a}} كلمات",
-<<<<<<< HEAD
     "addon.mod_assign.outof": "من {{$a}}",
-=======
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_assign.overdue": "<font color=\"red\"></font>فات موعد تسليم الوظيفة بـ: {{$a}}",
     "addon.mod_assign.savechanges": "حفظ التغييرات",
     "addon.mod_assign.submission": "تسليم",
@@ -167,7 +107,6 @@
     "addon.mod_assign.submitassignment": "تقديم مهمة",
     "addon.mod_assign.submittedearly": "تم تسليم الوظيفة مبكرة بـ{{$a}}",
     "addon.mod_assign.submittedlate": "تم تسليم الوظيفة متأخرة بـ{{$a}}",
-<<<<<<< HEAD
     "addon.mod_assign.timemodified": "وقت التعديل",
     "addon.mod_assign.timeremaining": "الزمن المتبقي",
     "addon.mod_assign_feedback_comments.pluginname": "تعليقات الإفادة",
@@ -175,14 +114,6 @@
     "addon.mod_assign_submission_comments.pluginname": "محادثة",
     "addon.mod_assign_submission_file.pluginname": "الملف المسلم",
     "addon.mod_assign_submission_onlinetext.pluginname": "محادثة",
-=======
-    "addon.mod_assign.timeremaining": "الزمن المتبقي",
-    "addon.mod_assign_feedback_comments.pluginname": "تعليقات الإفادة",
-    "addon.mod_assign_feedback_file.pluginname": "ملف التغذية الراجعة (الملاحظات)",
-    "addon.mod_assign_submission_file.pluginname": "الملف المسلم",
-    "addon.mod_book.errorchapter": "خطأ في قراءة فصل من فصول الكتاب.",
-    "addon.mod_book.modulenameplural": "كتب",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_chat.beep": "نغمة",
     "addon.mod_chat.currentusers": "المستخدمين الحاليين",
     "addon.mod_chat.enterchat": "أضغط هناء للدخول إلى المحادثة",
@@ -195,10 +126,6 @@
     "addon.mod_chat.messagebeepsyou": "{{$a}}  أرسل نغمة لك!",
     "addon.mod_chat.messageenter": "{{$a}}  دخل غرفة محادثة",
     "addon.mod_chat.messageexit": "{{$a}}  خرج من غرفة محادثة",
-<<<<<<< HEAD
-=======
-    "addon.mod_chat.modulenameplural": "محادثات",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_chat.nomessages": "لا توجد رسائل بعد",
     "addon.mod_chat.send": "إرسل",
     "addon.mod_chat.sessionstart": "ي  {{$a.date}}, ({{$a.fromnow}} وسوف تبدأ جلسة  الدردشة القادمة في من الآن",
@@ -206,10 +133,6 @@
     "addon.mod_choice.choiceoptions": "خيارات الاختيار",
     "addon.mod_choice.expired": "عذراً، تم إغلاق هذا النشاط في {{$a}} وهو غير متوفر الآن.",
     "addon.mod_choice.full": "(كامل)",
-<<<<<<< HEAD
-=======
-    "addon.mod_choice.modulenameplural": "الاختيارات",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_choice.noresultsviewable": "حالياً لا يمكن معاينة النتائج",
     "addon.mod_choice.notopenyet": "عذرا، هذا النشاط سيكون متوفر في {{$a}}",
     "addon.mod_choice.numberofuser": "عدد المستخدمين",
@@ -234,10 +157,6 @@
     "addon.mod_data.expired": "عذراً، تم إغلاق هذا النشاط في {{$a}} وهو غير متوفر الآن.",
     "addon.mod_data.fields": "حقول",
     "addon.mod_data.menuchoose": "اختار",
-<<<<<<< HEAD
-=======
-    "addon.mod_data.modulenameplural": "قواعد بيانات",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_data.more": "المزيد",
     "addon.mod_data.nomatch": "لم يتم العثور على مدخلات مطابقة!",
     "addon.mod_data.norecords": "لا يوجد مدخلات في قاعدة البيانات",
@@ -264,10 +183,6 @@
     "addon.mod_feedback.feedbackclose": "إغلاق الأفادة",
     "addon.mod_feedback.feedbackopen": "فتح الإفادة",
     "addon.mod_feedback.mode": "نمط",
-<<<<<<< HEAD
-=======
-    "addon.mod_feedback.modulenameplural": "إفادة",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_feedback.next_page": "الصفحة التالية",
     "addon.mod_feedback.non_anonymous": "سيتم تسجيل اسم المستخدم وعرضه مع الإجابات",
     "addon.mod_feedback.non_respondents_students": "غير مستجيبين",
@@ -285,10 +200,6 @@
     "addon.mod_feedback.started": "بداء",
     "addon.mod_feedback.this_feedback_is_already_submitted": "لقد قمت مسبقاً بإكمال هذا النشاط.",
     "addon.mod_folder.emptyfilelist": "لا يوجد أي ملفات ليتم إظهارها",
-<<<<<<< HEAD
-=======
-    "addon.mod_folder.modulenameplural": "مجلدات",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_forum.addanewdiscussion": "أضف موضوعا جديدا للنقاش",
     "addon.mod_forum.addanewquestion": "أضف سؤال جديد",
     "addon.mod_forum.addanewtopic": "أضف موضوع جديد",
@@ -302,43 +213,20 @@
     "addon.mod_forum.modeflatnewestfirst": "عرض الردود حسب الأحدث",
     "addon.mod_forum.modeflatoldestfirst": "عرض الردود حسب الأقدم",
     "addon.mod_forum.modenested": "عرض الردود حسب المداخلات",
-<<<<<<< HEAD
-=======
-    "addon.mod_forum.modulenameplural": "المنتديات",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_forum.posttoforum": "أضف المشاركة للمنتدى",
     "addon.mod_forum.re": "إعادة:",
     "addon.mod_forum.reply": "رد",
     "addon.mod_forum.subject": "الموضوع",
     "addon.mod_forum.unread": "لم يتم قرائتها",
     "addon.mod_forum.unreadpostsnumber": "{{$a}} مشاركات التي لم تقراء",
-<<<<<<< HEAD
     "addon.mod_glossary.attachment": "مرفقات",
     "addon.mod_glossary.browsemode": "النمط العرضي",
-=======
-    "addon.mod_glossary.addentry": "أضف مصطلح",
-    "addon.mod_glossary.aliases": "الكلمة الدّليليّة",
-    "addon.mod_glossary.attachment": "ملحق",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_glossary.byauthor": "التجميع طبقا للمؤلف",
     "addon.mod_glossary.bynewestfirst": "الأحدث أولا",
     "addon.mod_glossary.byrecentlyupdated": "تم تحديثه مؤخرا",
     "addon.mod_glossary.bysearch": "بحث",
-<<<<<<< HEAD
     "addon.mod_glossary.casesensitive": "استخدم التعابير المعتادة",
     "addon.mod_glossary.categories": "تصنيفات المقررات الدراسية",
-=======
-    "addon.mod_glossary.casesensitive": "هذه المصطلح يتطلب حالة احرف خاصة",
-    "addon.mod_glossary.categories": "تصنيفات",
-    "addon.mod_glossary.concept": "مفهوم",
-    "addon.mod_glossary.definition": "تعريف",
-    "addon.mod_glossary.entryusedynalink": "يجب ربط هذا المصطلح آليا",
-    "addon.mod_glossary.errconceptalreadyexists": "هذا المصطلح موجود مسبقاً. لا يمكن التكرار في هذا المسرد",
-    "addon.mod_glossary.fillfields": "حقول المفهوم والتعريف اجبارية",
-    "addon.mod_glossary.fullmatch": "قارن كل الكلمات فقط",
-    "addon.mod_glossary.linking": "ربط آلي",
-    "addon.mod_glossary.modulenameplural": "مسردات",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_imscp.deploymenterror": "خطاء في محتوى الحزمة",
     "addon.mod_imscp.showmoduledescription": "اظهر الوصف",
     "addon.mod_lesson.answer": "أجب",
@@ -346,10 +234,7 @@
     "addon.mod_lesson.averagescore": "متوسط الدرجة",
     "addon.mod_lesson.averagetime": "متوسط الوقت",
     "addon.mod_lesson.branchtable": "محتوى",
-<<<<<<< HEAD
     "addon.mod_lesson.cannotfinduser": "لم يتم إيجاد المستخدم المسمى \"{{$a}}\"",
-=======
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_lesson.completed": "تم",
     "addon.mod_lesson.congratulations": "مبروك - لقد وصلت إلى نهاية الدرس",
     "addon.mod_lesson.continue": "استمر",
@@ -368,10 +253,6 @@
     "addon.mod_lesson.lowscore": "أقل درجة",
     "addon.mod_lesson.lowtime": "أقل وقت",
     "addon.mod_lesson.modattemptsnoteacher": "معاينة الطالب تعمل فقط للطلاب",
-<<<<<<< HEAD
-=======
-    "addon.mod_lesson.modulenameplural": "دروس",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_lesson.noanswer": "لم تعطى إجابة",
     "addon.mod_lesson.nolessonattempts": "لم يتم إجراء محاولات مسبقة في هذا الدرس",
     "addon.mod_lesson.notcompleted": "لم يتم انهائه",
@@ -386,10 +267,7 @@
     "addon.mod_lesson.review": "مراجعة",
     "addon.mod_lesson.reviewlesson": "مراجعة الدرس",
     "addon.mod_lesson.reviewquestionback": "نعم، أرغب في المحاولة ثانياً",
-<<<<<<< HEAD
     "addon.mod_lesson.submit": "سلم",
-=======
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_lesson.thatsthecorrectanswer": "هذه إجابة صحيحة",
     "addon.mod_lesson.thatsthewronganswer": "هذه إجابة خاطئة",
     "addon.mod_lesson.timeremaining": "الزمن المتبقى",
@@ -397,7 +275,6 @@
     "addon.mod_lesson.welldone": "أحسنت!",
     "addon.mod_lesson.youranswer": "إجابتك",
     "addon.mod_lesson.youshouldview": "يجب أن تجب على الأقل: {{$a}}",
-<<<<<<< HEAD
     "addon.mod_lti.answer": "أجب",
     "addon.mod_lti.attempt": "محاولة:  {{$a}}",
     "addon.mod_lti.averagescore": "متوسط الدرجة",
@@ -444,9 +321,6 @@
     "addon.mod_lti.welldone": "أحسنت!",
     "addon.mod_lti.youranswer": "إجابتك",
     "addon.mod_lti.youshouldview": "يجب أن تجب على الأقل: {{$a}}",
-=======
-    "addon.mod_page.modulenameplural": "صفحات",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_quiz.attemptfirst": "المحاولة الأولى",
     "addon.mod_quiz.attemptlast": "المحاولة الأخيرة",
     "addon.mod_quiz.attemptnumber": "محاولة",
@@ -467,16 +341,10 @@
     "addon.mod_quiz.gradeaverage": "متوسط الدرجة",
     "addon.mod_quiz.gradehighest": "أعلى درجة",
     "addon.mod_quiz.grademethod": "أسلوب التقييم",
-<<<<<<< HEAD
     "addon.mod_quiz.hasdatatosync": "هذا الاختبار فيه بيانات يمكن الوصول إليها بدون اتصال بالانترنت وتحتاج للمزامنة",
     "addon.mod_quiz.marks": "الدرجات",
     "addon.mod_quiz.noquestions": "لم يتم إضافة أية أسئلة بعد",
     "addon.mod_quiz.outof": "من {{$a}}",
-=======
-    "addon.mod_quiz.marks": "الدرجات",
-    "addon.mod_quiz.modulenameplural": "اختبارات",
-    "addon.mod_quiz.noquestions": "لم يتم إضافة أية أسئلة بعد",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_quiz.overdue": "متأخر جدا",
     "addon.mod_quiz.preview": "معاينة",
     "addon.mod_quiz.previewquiznow": "معاينة الاستمارة الآن",
@@ -498,14 +366,7 @@
     "addon.mod_quiz.timeleft": "الوقت المتبقي",
     "addon.mod_quiz.timetaken": "الوقت المستغرق",
     "addon.mod_quiz.yourfinalgradeis": "درجتك النهائية عن هذا الاختبار هي {{$a}}",
-<<<<<<< HEAD
     "addon.mod_resource.openthefile": "افتح الملف",
-=======
-    "addon.mod_resource.modifieddate": "المُحدَّثة {{$a}}",
-    "addon.mod_resource.modulenameplural": "ملفات",
-    "addon.mod_resource.openthefile": "افتح الملف",
-    "addon.mod_resource.uploadeddate": "تم تحميلها {{$a}}",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_scorm.asset": "قييم",
     "addon.mod_scorm.attempts": "محاولات",
     "addon.mod_scorm.averageattempt": "متوسط المحاولات",
@@ -514,10 +375,7 @@
     "addon.mod_scorm.browsemode": "النمط العرضي",
     "addon.mod_scorm.completed": "تم",
     "addon.mod_scorm.contents": "محتويات",
-<<<<<<< HEAD
     "addon.mod_scorm.enter": "ادخل",
-=======
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_scorm.errordownloadscorm": "خطأ عن تنزيل الحزمة التعليمية: \"{{name}}\"",
     "addon.mod_scorm.failed": "فشل",
     "addon.mod_scorm.firstattempt": "المحاولة الأولى",
@@ -532,10 +390,6 @@
     "addon.mod_scorm.incomplete": "غير مكتمل",
     "addon.mod_scorm.lastattempt": "المحاولاة الأخيرة",
     "addon.mod_scorm.mode": "نمط",
-<<<<<<< HEAD
-=======
-    "addon.mod_scorm.modulenameplural": "حزم إسكورم",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_scorm.newattempt": "ابداء محاولة جديدة",
     "addon.mod_scorm.noattemptsallowed": "عدد المحاولات المسموح بها",
     "addon.mod_scorm.noattemptsmade": "عدد المحاولات التي قمت بها",
@@ -547,44 +401,25 @@
     "addon.mod_scorm.suspended": "معلّق",
     "addon.mod_survey.ifoundthat": "وجدت أن",
     "addon.mod_survey.ipreferthat": "أفضل أن",
-<<<<<<< HEAD
     "addon.mod_survey.responses": "إجابات",
     "addon.mod_survey.results": "نتائج",
-=======
-    "addon.mod_survey.modulenameplural": "استبيانات",
-    "addon.mod_survey.responses": "إجابات",
-    "addon.mod_survey.results": "النتائج",
-    "addon.mod_url.modulenameplural": "الروابط الإلكترونية",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_wiki.cannoteditpage": "لا يمكنك تحرير هذه الصفحة.",
     "addon.mod_wiki.createpage": "إنشاء صفحة",
     "addon.mod_wiki.editingpage": "تحرير الصفحخة: {{$a}}",
     "addon.mod_wiki.map": "خريطة",
-<<<<<<< HEAD
     "addon.mod_wiki.newpagetitle": "عنواو صفحة جديد",
     "addon.mod_wiki.nocontent": "لا يوجد محتوى في هذه الصفحة",
     "addon.mod_wiki.notingroup": "لا ينتمي إلى مجموعة",
     "addon.mod_wiki.page": "صفحة",
-=======
-    "addon.mod_wiki.modulenameplural": "ويكيات",
-    "addon.mod_wiki.newpagetitle": "عنواو صفحة جديد",
-    "addon.mod_wiki.nocontent": "لا يوجد محتوى في هذه الصفحة",
-    "addon.mod_wiki.notingroup": "لا ينتمي إلى مجموعة",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_wiki.pagename": "اسم الصفحة",
     "addon.mod_wiki.wrongversionlock": "قام مستخدم آخر بتحديث هذه الصفحة بينما كنت أنت تحررها، أصبحت تعديلاتك قديمة.",
     "addon.mod_workshop.assess": "قييم",
     "addon.mod_workshop.editsubmission": "حرر التسليم",
     "addon.mod_workshop.gradinggrade": "تقدير الدرجة",
-<<<<<<< HEAD
-=======
-    "addon.mod_workshop.modulenameplural": "ورش عمل",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_workshop.reassess": "اعد التقييم",
     "addon.mod_workshop_assessment_accumulative.dimensionnumber": "اوجه الدولار  {{$a}}",
     "addon.mod_workshop_assessment_accumulative.mustchoosegrade": "يجب انتقاء درجة لهذا الوجه",
     "addon.mod_workshop_assessment_comments.dimensionnumber": "{{$a}} اوجه الدولار",
-<<<<<<< HEAD
     "addon.mod_workshop_assessment_numerrors.dimensionnumber": "اوجه الدولار  {{$a}}",
     "addon.mod_workshop_assessment_rubric.dimensionnumber": "اوجه الدولار  {{$a}}",
     "addon.mod_workshop_assessment_rubric.mustchooseone": "لقد قمت باختيار هذه البنود",
@@ -592,27 +427,14 @@
     "addon.notes.coursenotes": "ملاحظات المقرر الدراسي",
     "addon.notes.note": "ملحوظة",
     "addon.notes.notes": "تحليلك وملاحظاتك الخاصة",
-=======
-    "addon.mod_workshop_assessment_rubric.mustchooseone": "لقد قمت باختيار هذه البنود",
-    "addon.notes.addnewnote": "إضافة ملاحظة جديدة",
-    "addon.notes.coursenotes": "ملاحظات المقرر الدراسي",
-    "addon.notes.nonotes": "لا يوجد إلى الآن أي ملاحظات من هذا النوع",
-    "addon.notes.note": "ملاحظة",
-    "addon.notes.notes": "ملاحظات",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.notes.personalnotes": "ملاحظات شخصية",
     "addon.notes.publishstate": "السياق",
     "addon.notes.sitenotes": "ملاحظات الموقع",
     "addon.notifications.errorgetnotifications": "خطأ في الحصول على الإشعارات",
-<<<<<<< HEAD
-=======
-    "addon.notifications.markallread": "أشر على الكل بمقروء",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.notifications.notificationpreferences": "تفضيلات الاشعار",
     "addon.notifications.notifications": "الإشعارات",
     "addon.notifications.therearentnotificationsyet": "لا توجد إشعارات",
     "assets.countries.AD": "أندورا",
-<<<<<<< HEAD
     "assets.countries.AE": "الامارات العربية المتحدة",
     "assets.countries.AF": "أفغانستان",
     "assets.countries.AG": "أنتيجوا وبربودا",
@@ -622,42 +444,22 @@
     "assets.countries.AN": "جزر الأنتيل الهولندية",
     "assets.countries.AO": "أنجولا",
     "assets.countries.AQ": "القطب الجنوبي",
-=======
-    "assets.countries.AE": "الإمارات العربية المتحدة",
-    "assets.countries.AF": "أفغانستان",
-    "assets.countries.AG": "أنتيغوا وبربودا",
-    "assets.countries.AI": "أنغيلا",
-    "assets.countries.AL": "ألبانيا",
-    "assets.countries.AM": "أرمينيا",
-    "assets.countries.AO": "أنغولا",
-    "assets.countries.AQ": "القارة القطبية الجنوبية",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.AR": "الأرجنتين",
     "assets.countries.AS": "ساموا الأمريكية",
     "assets.countries.AT": "النمسا",
     "assets.countries.AU": "أستراليا",
-<<<<<<< HEAD
     "assets.countries.AW": "آروبا",
     "assets.countries.AX": "جزر أولان",
     "assets.countries.AZ": "أذربيجان",
     "assets.countries.BA": "البوسنة والهرسك",
     "assets.countries.BB": "بربادوس",
     "assets.countries.BD": "بنجلاديش",
-=======
-    "assets.countries.AW": "أروبا",
-    "assets.countries.AX": "جزر آلاند",
-    "assets.countries.AZ": "أذربيجان",
-    "assets.countries.BA": "البوسنة والهرسك",
-    "assets.countries.BB": "بربادوس",
-    "assets.countries.BD": "بنغلاديش",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.BE": "بلجيكا",
     "assets.countries.BF": "بوركينا فاسو",
     "assets.countries.BG": "بلغاريا",
     "assets.countries.BH": "البحرين",
     "assets.countries.BI": "بوروندي",
     "assets.countries.BJ": "بنين",
-<<<<<<< HEAD
     "assets.countries.BM": "برمودا",
     "assets.countries.BN": "بروناي",
     "assets.countries.BO": "بوليفيا",
@@ -675,34 +477,12 @@
     "assets.countries.CG": "الكونغو - برازافيل",
     "assets.countries.CH": "سويسرا",
     "assets.countries.CI": "ساحل العاج",
-=======
-    "assets.countries.BL": "سانت بارتيليمي",
-    "assets.countries.BM": "برمودا",
-    "assets.countries.BN": "بروناي دار السلام",
-    "assets.countries.BO": "بوليفيا",
-    "assets.countries.BQ": "الجزر الكاريبية الهولندية: بونير، سينت أوستاتيوس وسابا",
-    "assets.countries.BR": "البرازيل",
-    "assets.countries.BS": "جزر البهاما",
-    "assets.countries.BT": "بوتان",
-    "assets.countries.BV": "جزيرة بوفيت",
-    "assets.countries.BW": "بوتسوانا",
-    "assets.countries.BY": "روسيا البيضاء",
-    "assets.countries.BZ": "بليز",
-    "assets.countries.CA": "كندا",
-    "assets.countries.CC": "كوكوس (كيلينغ) ، جزر",
-    "assets.countries.CD": "جمهورية الكونغو الديمقراطية",
-    "assets.countries.CF": "جمهورية أفريقيا الوسطى",
-    "assets.countries.CG": "الكونغو",
-    "assets.countries.CH": "سويسرا",
-    "assets.countries.CI": "كوت ديفوار",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.CK": "جزر كوك",
     "assets.countries.CL": "شيلي",
     "assets.countries.CM": "الكاميرون",
     "assets.countries.CN": "الصين",
     "assets.countries.CO": "كولومبيا",
     "assets.countries.CR": "كوستاريكا",
-<<<<<<< HEAD
     "assets.countries.CS": "صربيا والجبل الأسود",
     "assets.countries.CU": "كوبا",
     "assets.countries.CV": "الرأس الأخضر",
@@ -714,26 +494,12 @@
     "assets.countries.DK": "الدانمرك",
     "assets.countries.DM": "دومينيكا",
     "assets.countries.DO": "جمهورية الدومينيك",
-=======
-    "assets.countries.CU": "كوبا",
-    "assets.countries.CV": "الرأس الأخضر",
-    "assets.countries.CW": "كوراساو",
-    "assets.countries.CX": "جزيرة كريسماس",
-    "assets.countries.CY": "قبرص",
-    "assets.countries.CZ": "الجمهورية التشيكية",
-    "assets.countries.DE": "ألمانيا",
-    "assets.countries.DJ": "جيبوتي",
-    "assets.countries.DK": "الدنمارك",
-    "assets.countries.DM": "دومينيكا",
-    "assets.countries.DO": "جمهورية الدومينيكان",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.DZ": "الجزائر",
     "assets.countries.EC": "الاكوادور",
     "assets.countries.EE": "استونيا",
     "assets.countries.EG": "مصر",
     "assets.countries.EH": "الصحراء الغربية",
     "assets.countries.ER": "اريتريا",
-<<<<<<< HEAD
     "assets.countries.ES": "أسبانيا",
     "assets.countries.ET": "اثيوبيا",
     "assets.countries.FI": "فنلندا",
@@ -747,28 +513,11 @@
     "assets.countries.GD": "جرينادا",
     "assets.countries.GE": "جورجيا",
     "assets.countries.GF": "غويانا",
-=======
-    "assets.countries.ES": "إسبانيا",
-    "assets.countries.ET": "أثيوبيا",
-    "assets.countries.FI": "فنلندا",
-    "assets.countries.FJ": "فيجي",
-    "assets.countries.FK": "جزر فوكلاند (مالفيناس)",
-    "assets.countries.FM": "ميكرونيزيا من",
-    "assets.countries.FO": "جزر فارو",
-    "assets.countries.FR": "فرنسا",
-    "assets.countries.GA": "الغابون",
-    "assets.countries.GB": "المملكة المتحدة",
-    "assets.countries.GD": "غرينادا",
-    "assets.countries.GE": "جورجيا",
-    "assets.countries.GF": "غيانا الفرنسية",
-    "assets.countries.GG": "غيرنسي",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.GH": "غانا",
     "assets.countries.GI": "جبل طارق",
     "assets.countries.GL": "جرينلاند",
     "assets.countries.GM": "غامبيا",
     "assets.countries.GN": "غينيا",
-<<<<<<< HEAD
     "assets.countries.GP": "جوادلوب",
     "assets.countries.GQ": "غينيا الاستوائية",
     "assets.countries.GR": "اليونان",
@@ -793,47 +542,16 @@
     "assets.countries.IR": "ايران",
     "assets.countries.IS": "أيسلندا",
     "assets.countries.IT": "ايطاليا",
-=======
-    "assets.countries.GP": "غواديلوب",
-    "assets.countries.GQ": "غينيا الاستوائية",
-    "assets.countries.GR": "اليونان",
-    "assets.countries.GS": "جورجيا الجنوبية وجزر ساندويتش الجنوبية",
-    "assets.countries.GT": "غواتيمالا",
-    "assets.countries.GU": "غوام",
-    "assets.countries.GW": "غينيا بيساو",
-    "assets.countries.GY": "غيانا",
-    "assets.countries.HK": "هونج كونج",
-    "assets.countries.HM": "جزيرة هيرد وجزر ماكدونالد",
-    "assets.countries.HN": "هندوراس",
-    "assets.countries.HR": "كرواتيا",
-    "assets.countries.HT": "هايتي",
-    "assets.countries.HU": "هنغاريا",
-    "assets.countries.ID": "أندونيسيا",
-    "assets.countries.IE": "أيرلندا",
-    "assets.countries.IL": "إسرائيل",
-    "assets.countries.IM": "جزيرة مان",
-    "assets.countries.IN": "الهند",
-    "assets.countries.IO": "إقليم المحيط الهندي البريطاني",
-    "assets.countries.IQ": "العراق",
-    "assets.countries.IR": "جمهورية إيران الإسلامية",
-    "assets.countries.IS": "أيسلندا",
-    "assets.countries.IT": "إيطاليا",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.JE": "جيرسي",
     "assets.countries.JM": "جامايكا",
     "assets.countries.JO": "الأردن",
     "assets.countries.JP": "اليابان",
     "assets.countries.KE": "كينيا",
-<<<<<<< HEAD
     "assets.countries.KG": "قرغيزستان",
-=======
-    "assets.countries.KG": "قيرغيزستان",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.KH": "كمبوديا",
     "assets.countries.KI": "كيريباتي",
     "assets.countries.KM": "جزر القمر",
     "assets.countries.KN": "سانت كيتس ونيفيس",
-<<<<<<< HEAD
     "assets.countries.KP": "كوريا الشمالية",
     "assets.countries.KR": "كوريا الجنوبية",
     "assets.countries.KW": "الكويت",
@@ -885,65 +603,11 @@
     "assets.countries.NR": "نورو",
     "assets.countries.NU": "نيوي",
     "assets.countries.NZ": "نيوزيلاندا",
-=======
-    "assets.countries.KP": "جمهورية كوريا الديمقراطية الشعبية",
-    "assets.countries.KR": "جمهورية كوريا",
-    "assets.countries.KW": "الكويت",
-    "assets.countries.KY": "جزر كايمان",
-    "assets.countries.KZ": "كازاخستان",
-    "assets.countries.LA": "جمهورية لاوس الديمقراطية الشعبية",
-    "assets.countries.LB": "لبنان",
-    "assets.countries.LC": "سانت لوسيا",
-    "assets.countries.LI": "ليختنشتاين",
-    "assets.countries.LK": "سري لانكا",
-    "assets.countries.LR": "ليبيريا",
-    "assets.countries.LS": "ليسوتو",
-    "assets.countries.LT": "ليتوانيا",
-    "assets.countries.LU": "لوكسمبورغ",
-    "assets.countries.LV": "لاتفيا",
-    "assets.countries.LY": "الجماهيرية العربية الليبية",
-    "assets.countries.MA": "المغرب",
-    "assets.countries.MC": "موناكو",
-    "assets.countries.MD": "جمهورية مولدوفا",
-    "assets.countries.ME": "الجبل الأسود",
-    "assets.countries.MF": "سانت مارتن",
-    "assets.countries.MG": "مدغشقر",
-    "assets.countries.MH": "جزر مارشال",
-    "assets.countries.MK": "مقدونيا ، الجمهورية اليوغوسلافية السابقة",
-    "assets.countries.ML": "مالي",
-    "assets.countries.MM": "ميانمار",
-    "assets.countries.MN": "منغوليا",
-    "assets.countries.MO": "ماكاو",
-    "assets.countries.MP": "جزر ماريانا الشمالية",
-    "assets.countries.MQ": "مارتينيك",
-    "assets.countries.MR": "موريتانيا",
-    "assets.countries.MS": "مونتسيرات",
-    "assets.countries.MT": "مالطا",
-    "assets.countries.MU": "موريشيوس",
-    "assets.countries.MV": "جزر المالديف",
-    "assets.countries.MW": "ملاوي",
-    "assets.countries.MX": "المكسيك",
-    "assets.countries.MY": "ماليزيا",
-    "assets.countries.MZ": "موزامبيق",
-    "assets.countries.NA": "ناميبيا",
-    "assets.countries.NC": "كاليدونيا الجديدة",
-    "assets.countries.NE": "النيجر",
-    "assets.countries.NF": "جزيرة نورفولك",
-    "assets.countries.NG": "نيجيريا",
-    "assets.countries.NI": "نيكاراغوا",
-    "assets.countries.NL": "هولندا",
-    "assets.countries.NO": "النرويج",
-    "assets.countries.NP": "نيبال",
-    "assets.countries.NR": "ناورو",
-    "assets.countries.NU": "نيوي",
-    "assets.countries.NZ": "نيوزيلندا",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.OM": "عمان",
     "assets.countries.PA": "بنما",
     "assets.countries.PE": "بيرو",
     "assets.countries.PF": "بولينيزيا الفرنسية",
     "assets.countries.PG": "بابوا غينيا الجديدة",
-<<<<<<< HEAD
     "assets.countries.PH": "الفيلبين",
     "assets.countries.PK": "باكستان",
     "assets.countries.PL": "بولندا",
@@ -967,31 +631,6 @@
     "assets.countries.SE": "السويد",
     "assets.countries.SG": "سنغافورة",
     "assets.countries.SH": "سانت هيلنا",
-=======
-    "assets.countries.PH": "الفلبين",
-    "assets.countries.PK": "باكستان",
-    "assets.countries.PL": "بولندا",
-    "assets.countries.PM": "سان بيار وميكلون",
-    "assets.countries.PN": "بيتكيرن",
-    "assets.countries.PR": "بورتوريكو",
-    "assets.countries.PS": "الأراضي الفلسطينية والأراضي المحتلة",
-    "assets.countries.PT": "البرتغال",
-    "assets.countries.PW": "بالاو",
-    "assets.countries.PY": "باراغواي",
-    "assets.countries.QA": "قطر",
-    "assets.countries.RE": "réunion",
-    "assets.countries.RO": "رومانيا",
-    "assets.countries.RS": "صربيا",
-    "assets.countries.RU": "روسيا الاتحادية",
-    "assets.countries.RW": "رواندا",
-    "assets.countries.SA": "السعودية",
-    "assets.countries.SB": "جزر سليمان",
-    "assets.countries.SC": "سيشيل",
-    "assets.countries.SD": "سودان",
-    "assets.countries.SE": "السويد",
-    "assets.countries.SG": "سنغافورة",
-    "assets.countries.SH": "سانت هيلانة",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.SI": "سلوفينيا",
     "assets.countries.SJ": "سفالبارد وجان مايان",
     "assets.countries.SK": "سلوفاكيا",
@@ -1000,7 +639,6 @@
     "assets.countries.SN": "السنغال",
     "assets.countries.SO": "الصومال",
     "assets.countries.SR": "سورينام",
-<<<<<<< HEAD
     "assets.countries.ST": "ساو تومي وبرينسيبي",
     "assets.countries.SV": "السلفادور",
     "assets.countries.SY": "سوريا",
@@ -1016,29 +654,10 @@
     "assets.countries.TM": "تركمانستان",
     "assets.countries.TN": "تونس",
     "assets.countries.TO": "تونجا",
-=======
-    "assets.countries.ST": "سان تومي وبرينسيبي",
-    "assets.countries.SV": "السلفادور",
-    "assets.countries.SX": "سانت مارتن (الجزء الهولندي)",
-    "assets.countries.SY": "الجمهورية العربية السورية",
-    "assets.countries.SZ": "سوازيلاند",
-    "assets.countries.TC": "جزر تركس وكايكوس",
-    "assets.countries.TD": "تشاد",
-    "assets.countries.TF": "الأقاليم الجنوبية الفرنسية",
-    "assets.countries.TG": "توغو",
-    "assets.countries.TH": "تايلاند",
-    "assets.countries.TJ": "طاجيكستان",
-    "assets.countries.TK": "توكيلاو",
-    "assets.countries.TL": "تيمور الشرقية",
-    "assets.countries.TM": "تركمانستان",
-    "assets.countries.TN": "تونس",
-    "assets.countries.TO": "تونغا",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.TR": "تركيا",
     "assets.countries.TT": "ترينيداد وتوباغو",
     "assets.countries.TV": "توفالو",
     "assets.countries.TW": "تايوان",
-<<<<<<< HEAD
     "assets.countries.TZ": "تانزانيا",
     "assets.countries.UA": "أوكرانيا",
     "assets.countries.UG": "أوغندا",
@@ -1063,43 +682,6 @@
     "assets.countries.ZZ": "منطقة غير معرفة",
     "core.allparticipants": "كل المشاركين",
     "core.answer": "أجب",
-=======
-    "assets.countries.TZ": "جمهورية تنزانيا المتحدة",
-    "assets.countries.UA": "أوكرانيا",
-    "assets.countries.UG": "أوغندا",
-    "assets.countries.UM": "جزر الولايات المتحدة البعيدة الصغيرة",
-    "assets.countries.US": "الولايات المتحدة",
-    "assets.countries.UY": "أوروغواي",
-    "assets.countries.UZ": "أوزبكستان",
-    "assets.countries.VA": "دولة الفاتيكان",
-    "assets.countries.VC": "سانت فنسنت وغرينادين",
-    "assets.countries.VE": "فنزويلا",
-    "assets.countries.VG": "الجزر العذراء البريطانية",
-    "assets.countries.VI": "الجزر العذراء ، الولايات المتحدة",
-    "assets.countries.VN": "فيتنام",
-    "assets.countries.VU": "فانواتو",
-    "assets.countries.WF": "واليس وفوتونا",
-    "assets.countries.WS": "ساموا",
-    "assets.countries.YE": "يمني",
-    "assets.countries.YT": "مايوت",
-    "assets.countries.ZA": "جنوب أفريقيا",
-    "assets.countries.ZM": "زامبيا",
-    "assets.countries.ZW": "زيمبابوي",
-    "assets.mimetypes.application/msword": "وثيقة Word",
-    "assets.mimetypes.application/pdf": "وثيقة PDF",
-    "assets.mimetypes.application/vnd.ms-excel": "وثيقة أكسل",
-    "assets.mimetypes.application/vnd.ms-powerpoint": "عرض بور بوينت",
-    "assets.mimetypes.document/unknown": "ملف",
-    "assets.mimetypes.text/plain": "ملف نصي",
-    "assets.mimetypes.text/rtf": "وثيقة RTF",
-    "core.accounts": "حسابات",
-    "core.add": "أضف",
-    "core.agelocationverification": "التحقق من العمر والمكان",
-    "core.ago": "{{$a}} مضى",
-    "core.all": "الكل",
-    "core.allparticipants": "كل المشاركين",
-    "core.answer": "إجابة",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.answered": "تم الاجابة",
     "core.areyousure": "هل انت متأكد؟",
     "core.back": "العودة",
@@ -1110,11 +692,7 @@
     "core.choosedots": "اختر...",
     "core.clicktohideshow": "انقر للطي أو التوسيع",
     "core.close": "أغلق",
-<<<<<<< HEAD
     "core.comments": "تعليقاتك",
-=======
-    "core.comments": "تعليقات",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.commentscount": "التعليقات ({{$a}})",
     "core.completion-alt-auto-fail": "مكتمل (لم تحقق درحة النجاح)",
     "core.completion-alt-auto-n": "غير مكتمل",
@@ -1122,7 +700,6 @@
     "core.completion-alt-auto-y": "مكتمل",
     "core.completion-alt-manual-n": "غير مكتمل؛ حدد لجعل هذا العنصر مكتمل",
     "core.completion-alt-manual-y": "مكتمل؛ حدد لجعل هذا العنصر غير مكتمل",
-<<<<<<< HEAD
     "core.content": "المحتوى",
     "core.contentlinks.chooseaccount": "أختر الحساب",
     "core.continue": "استمر",
@@ -1132,26 +709,10 @@
     "core.course.couldnotloadsections": "لم يتم تحميل كل الأقسام، من فضلك حاول مرة أخرى لاحقاَ",
     "core.course.errordownloadingsection": "خطأ عن تنزيل الأقسام",
     "core.course.hiddenfromstudents": "مخفي عن الطلاب",
-=======
-    "core.considereddigitalminor": "تم تصنيفك كقاصر رقمي",
-    "core.content": "المحتوى",
-    "core.contentlinks.chooseaccount": "أختر الحساب",
-    "core.continue": "استمر",
-    "core.course": "مقرر دراسي",
-    "core.course.allsections": "كل الأقسام",
-    "core.course.contents": "المحتويات",
-    "core.course.couldnotloadsections": "لم يتم تحميل كل الأقسام، من فضلك حاول مرة أخرى لاحقاَ",
-    "core.course.coursesummary": "ملخص المقرر الدراسي",
-    "core.course.errordownloadingsection": "خطأ عن تنزيل الأقسام",
-    "core.course.hiddenfromstudents": "مخفي عن الطلاب",
-    "core.course.hiddenoncoursepage": "متوفر لكن غير مرئي على صفحة الصف",
-    "core.course.sections": "مجموعات",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.coursedetails": "تفاصيل المقرر الدراسي",
     "core.courses.allowguests": "يسمح للمستخدمين الضيوف بالدخول إلى هذا المقرر الدراسي",
     "core.courses.availablecourses": "المقررات الدراسية المتاحة",
     "core.courses.categories": "تصنيفات المقررات الدراسية",
-<<<<<<< HEAD
     "core.courses.courses": "المقررات الدراسية",
     "core.courses.enrolme": "سجلني",
     "core.courses.frontpage": "الصفحة الرئيسية",
@@ -1165,18 +726,6 @@
     "core.courses.paymentrequired": "هذا المقرر الدراسي غير مجانين لذا يجب دفع القيمة للدخول.",
     "core.courses.paypalaccepted": "تم قبول التبرع المدفوع",
     "core.courses.pluginname": "محادثة",
-=======
-    "core.courses.courses": "تصنيف المقررات الدراسية",
-    "core.courses.frontpage": "الصفحة الرئيسية",
-    "core.courses.mycourses": "مقرراتي الدراسية",
-    "core.courses.mymoodle": "مودل الخاص بي",
-    "core.courses.nocourses": "لا يوجد معلومات لمقرر دراسي ليتم اظهرها",
-    "core.courses.nocoursesyet": "لا توجد مقررات دراسية لهذه الفئة",
-    "core.courses.nosearchresults": "لا يوجد نتائج",
-    "core.courses.notenroled": "أنت لست مسجلاً كطالب في هذا المقرر",
-    "core.courses.paymentrequired": "هذا المقرر الدراسي غير مجانين لذا يجب دفع القيمة للدخول.",
-    "core.courses.paypalaccepted": "تم قبول التبرع المدفوع",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.courses.search": "بحث",
     "core.courses.searchcourses": "بحث مقررات دراسية",
     "core.courses.sendpaymentbutton": "ارسل القيمة المدفوعة عن طريق التبرع",
@@ -1185,24 +734,14 @@
     "core.days": "أيام",
     "core.decsep": ".",
     "core.delete": "حذف",
-<<<<<<< HEAD
     "core.deleting": "حذف",
     "core.description": "الوصف",
-=======
-    "core.description": "الوصف",
-    "core.digitalminor": "قاصر رقمي",
-    "core.digitalminor_desc": "لإنشاء حساب على هذا الموقع، الرجاء اسأل أحد الوالدين/ الوصي أن يتصل بهذا الشخص.",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.done": "تم",
     "core.download": "تحميل",
     "core.downloading": "يتم التنزيل",
     "core.edit": "حرر",
     "core.error": "خطاء",
     "core.errordownloading": "خطأ عن تنزيل الملف",
-<<<<<<< HEAD
-=======
-    "core.explanationdigitalminor": "هذه المعلومات مطلوبة لتحديد ما إذا كان عمرك يتجاوز سن الموافقة الرقمي. و هو العمر الذي يمكن فيه للفرد الموافقة على بنود وشروط تخزين و معالجة بياناته قانونياً.",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.filename": "اسم الملف",
     "core.fileuploader.audio": "صوتي",
     "core.fileuploader.camera": "الكاميرا",
@@ -1210,7 +749,6 @@
     "core.fileuploader.errorcapturingimage": "خطأ في التقاط الصورة",
     "core.fileuploader.errorcapturingvideo": "خطأ في التقاط الفيديو",
     "core.fileuploader.errormustbeonlinetoupload": "لابد أن تكون متصل بالأنترنت لكي يتم رفع الملفات",
-<<<<<<< HEAD
     "core.fileuploader.errorreadingfile": "خطاء في قراءة ملف \"{{$a}}\"",
     "core.fileuploader.file": "تم تسليم الملف بنجاح",
     "core.fileuploader.fileuploaded": "الملف الذي تم رفعه",
@@ -1219,42 +757,22 @@
     "core.fileuploader.readingfile": "يتم قراءة الملف",
     "core.fileuploader.uploadafile": "تحميل ملف",
     "core.fileuploader.uploading": "يتم التحميل",
-=======
-    "core.fileuploader.errorreadingfile": "خطأ في قراءة الملف",
-    "core.fileuploader.file": "ملف",
-    "core.fileuploader.filesofthesetypes": "أنواع الملفات المقبولة:",
-    "core.fileuploader.fileuploaded": "الملف الذي تم رفعه",
-    "core.fileuploader.more": "المزيد",
-    "core.fileuploader.readingfile": "يتم قراءة الملف",
-    "core.fileuploader.uploadafile": "إرفع ملف",
-    "core.fileuploader.uploading": "يتم الرفع",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.fileuploader.video": "فيديو",
     "core.folder": "مجلد",
     "core.forcepasswordchangenotice": "يجب عليك تغير كلمة المرور ليتسنى لك الاستمرار",
     "core.fulllistofcourses": "كل المقررات الدراسية",
     "core.grades.average": "متوسط",
-<<<<<<< HEAD
     "core.grades.feedback": "تقرير",
     "core.grades.grade": "درجة",
     "core.grades.grades": "درجات",
     "core.grades.itemname": "اسم البند",
-=======
-    "core.grades.feedback": "إفادة",
-    "core.grades.grade": "درجة",
-    "core.grades.gradeitem": "بند الدرجة",
-    "core.grades.grades": "درجات",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.grades.lettergrade": "درجة حرفية",
     "core.grades.nogradesreturned": "لا توجد درجات",
     "core.grades.nooutcome": "لا يوجد مخرجات تعلم",
     "core.grades.percentage": "النسبة",
     "core.grades.range": "مجال",
-<<<<<<< HEAD
     "core.grades.rank": "مستوى",
     "core.grades.viewgrades": "عرض الدرجات",
-=======
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.grades.weight": "الوزن",
     "core.groupsseparate": "مجموعات منفصلة",
     "core.groupsvisible": "مجموعات ظاهرة",
@@ -1264,22 +782,11 @@
     "core.hours": "ساعات",
     "core.info": "معلومات",
     "core.labelsep": ":",
-<<<<<<< HEAD
     "core.lastmodified": "آخر تعديل",
     "core.lastsync": "آخر تزامن",
     "core.list": "معاينة القائمة",
     "core.listsep": "،",
     "core.loading": "يتم التحميل",
-=======
-    "core.lastaccess": "آخر اتصال",
-    "core.lastmodified": "آخر تعديل",
-    "core.lastsync": "آخر تزامن",
-    "core.list": "قائمة",
-    "core.listsep": "،",
-    "core.loading": "يتم التحميل",
-    "core.location": "الموقع",
-    "core.login.auth_email": "يتم التسجيل الذاتي عن طريق البريد الإلكتروني",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.login.authenticating": "مصادقة",
     "core.login.cancel": "إلغاء",
     "core.login.connect": "دخول",
@@ -1296,7 +803,6 @@
     "core.login.helpmelogin": "<p>من أجل تسجيل الدخول، يرجى التحقق مما يلي:</p>\n١- إصدار موقع التعلم الإلكتروني مودل هو الإصدار ٢.٤ أو أعلى.<br />\n٢- قد مكن مسؤول موقع التعلم الإلكتروني مودل الوصول عبر تطبيق مودل.<br /><br />\n<p><a href='http://docs.moodle.org/en/Mobile_app' target='_blank'>لو لم تستطع الدخول من خلال موقع التعلم الإلكتروني مودل الخاص بك قم بالاتصال بمدير موقع التعلم الإلكتروني مودل الخاص بك وأطلب منه زيارة موقع وثائق موودل للحصول على معلومات أكثر تفصيلا والمساعدة.</a></p>\nلاختبار التطبيق باستخدام الموقع التجريبي لمودل ضع <b>student</b> أو <b>teacher</b> في حقل <b>عنوان الموقع</b> وانقر على زر <b>دخول</b>",
     "core.login.instructions": "تعليمات",
     "core.login.invalidaccount": "يرجى مراجعة تفاصيل تسجيل الدخول الخاصة بك أو الطلب من مسؤول موقع الويب الخاص بك للتحقق من تكوين موقع.",
-<<<<<<< HEAD
     "core.login.invalidemail": "عنوان البريد الإلكتروني غير صحيح",
     "core.login.invalidmoodleversion": "نسخة موودل غير صالحة. الحد الأدنى للنسخة المطلوبة هو:",
     "core.login.invalidsite": "رابط عنوان الموقع غير صالح.",
@@ -1307,19 +813,6 @@
     "core.login.missingemail": "العنوان البريدي  لم يتم تحدده",
     "core.login.missingfirstname": "الاسم الأول  لم يتم تحدده",
     "core.login.missinglastname": "الاسم الأخير  لم يتم تحدده",
-=======
-    "core.login.invaliddate": "تاريخ غير صحيح",
-    "core.login.invalidemail": "عنوان البريد الإلكتروني غير صحيح",
-    "core.login.invalidmoodleversion": "نسخة موودل غير صالحة. الحد الأدنى للنسخة المطلوبة هو:",
-    "core.login.invalidsite": "رابط عنوان الموقع غير صالح.",
-    "core.login.login": "دخول",
-    "core.login.loginbutton": "دخول",
-    "core.login.loginsteps": "للوصول الكامل لهذا الموقع, عليك أن تنشئ حسابا.",
-    "core.login.missingemail": "العنوان البريدي  لم يتم تحدده",
-    "core.login.missingfirstname": "الاسم الأول  لم يتم تحدده",
-    "core.login.missinglastname": "الاسم الأخير  لم يتم تحدده",
-    "core.login.mustconfirm": "أنت تحتاج إلى تأكيد الدخول",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.login.newaccount": "حساب مشترك جديد",
     "core.login.newsitedescription": "من فضلك أدخل رابط موقع نظام التعلم الإلكتروني مودل الخاص بك. لاحظ انه من الممكن أن يكون لم يتم إعداده للعمل مع هذا التطبيق.",
     "core.login.password": "كلمة المرور",
@@ -1330,15 +823,8 @@
     "core.login.policyagree": "يجب الموافقة على هذه الشروط للإستمرار في إستخدام الموقع. هل أنت موافق؟",
     "core.login.policyagreement": "شروط إتفاقية الموقع",
     "core.login.policyagreementclick": "رابط لاتفاقية سياسة الموقع",
-<<<<<<< HEAD
     "core.login.potentialidps": "هل تسجل الدخول عادة في مكان آخر قبل الوصول إلى هنا ؟<br />اختر من القائمة التالية لتسجل الدخول من مكانك المعتاد:",
     "core.login.reconnect": "إعادة الدخول",
-=======
-    "core.login.potentialidps": "قم بتسجيل الدخول باستخدام حسابك على:",
-    "core.login.profileinvaliddata": "قيمة غير صحيحة",
-    "core.login.reconnect": "إعادة الدخول",
-    "core.login.security_question": "سؤال حماية",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.login.selectacountry": "اختر دولة",
     "core.login.siteaddress": "عنوان الموقع",
     "core.login.siteurl": "رابط الموقع",
@@ -1351,20 +837,14 @@
     "core.login.usernotaddederror": "المستخدم \"{{$a}}\" لم يتم إضافته - خطاء غير معروف",
     "core.lostconnection": "فقدنا الاتصال تحتاج إلى إعادة الاتصال. المميز الخاص بك هو الآن غير صالح",
     "core.mainmenu.appsettings": "إعدادات التطبيق",
-<<<<<<< HEAD
     "core.mainmenu.changesite": "الخروج",
     "core.mainmenu.help": "مساعدة",
     "core.mainmenu.logout": "خروج",
     "core.mainmenu.mycourses": "مقرراتي الدراسية",
-=======
-    "core.mainmenu.help": "مساعدة",
-    "core.mainmenu.logout": "خروج",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.mainmenu.website": "الموقع",
     "core.maxsizeandattachments": "الحجم الأقصى للملفات الجديدة: {{$a.size}}, أقصى عدد للمرفقات: {{$a.attachments}}",
     "core.min": "الحد الأدنى",
     "core.mins": "دقائق",
-<<<<<<< HEAD
     "core.mod_assign": "مهمة",
     "core.mod_assignment": "مهمة",
     "core.mod_book": "كتاب",
@@ -1387,30 +867,6 @@
     "core.mod_wiki": "ويكي",
     "core.mod_workshop": "ورشة عمل",
     "core.moduleintro": "وصف",
-=======
-    "core.mod_assignment": "وظائف (2.2)",
-    "core.mod_book": "كتاب",
-    "core.mod_chat": "محادثة",
-    "core.mod_choice": "الاختيار",
-    "core.mod_data": "قاعدة بيانات",
-    "core.mod_database": "قاعدة بيانات",
-    "core.mod_feedback": "إفادة",
-    "core.mod_file": "ملف",
-    "core.mod_folder": "مجلد",
-    "core.mod_forum": "المنتدى",
-    "core.mod_glossary": "مسرد",
-    "core.mod_label": "ملصق",
-    "core.mod_lesson": "درس",
-    "core.mod_page": "صفحة",
-    "core.mod_quiz": "اختبار",
-    "core.mod_resource": "ملف",
-    "core.mod_survey": "استبيان",
-    "core.mod_url": "رابط إلكتروني",
-    "core.mod_wiki": "ويكي",
-    "core.mod_workshop": "ورشة عمل",
-    "core.moduleintro": "وصف",
-    "core.more": "المزيد",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.mygroups": "مجموعاتي",
     "core.name": "الاسم",
     "core.networkerrormsg": "لم يتم تمكين الشبكة أو أنها لا تعمل.",
@@ -1420,30 +876,20 @@
     "core.nocomments": "لا يوجد تعليقات",
     "core.nograde": "لا توجد درجة",
     "core.none": "لا يوجد",
-<<<<<<< HEAD
     "core.nopasswordchangeforced": "لا يمكنك الاستمرار دون تغيير كلمة مرورك، لكن يبدو أنه لا يوجد صفحة متوفرة لتغييرها. رجاءً قم بالاتصال بمدير مودل.",
-=======
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.nopermissions": "عذراً ولكنك لا تملك حالياً الصلاحيات لتقوم بهذا ({{$a}})",
     "core.noresults": "لا توجد نتائج",
     "core.notice": "إشعار",
     "core.now": "الآن",
     "core.numwords": "{{$a}} كلمات",
     "core.offline": "غير متصل بالأنترنت",
-<<<<<<< HEAD
     "core.online": "متصل بالإنترنت",
     "core.othergroups": "المجموعات الأخرى",
-=======
-    "core.ok": "تم",
-    "core.online": "متصل بالإنترنت",
-    "core.othergroups": "مجموعات أخرى",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.pagea": "صفحة {{$a}}",
     "core.paymentinstant": "استخدم الزر التالي لدفع الرسوم التسجيل خلال دقائق.",
     "core.phone": "هاتف",
     "core.pictureof": "صورة {{$a}}",
     "core.previous": "السابق",
-<<<<<<< HEAD
     "core.pulltorefresh": "اسحب للأسفل ليتم التحديث",
     "core.question.answer": "أجب",
     "core.question.answersaved": "تم حفظ الإجابة",
@@ -1466,164 +912,77 @@
     "core.save": "حفظ",
     "core.search": "بحث",
     "core.searching": "بحث في",
-=======
-    "core.proceed": "تمت معالجته",
-    "core.pulltorefresh": "اسحب للأسفل ليتم التحديث",
-    "core.question.answer": "إجابة",
-    "core.question.answersaved": "تم حفظ الإجابة",
-    "core.question.complete": "تم/كامل",
-    "core.question.correct": "صحيح/صح",
-    "core.question.feedback": "(تغذية راجعة (ملاحظات",
-    "core.question.incorrect": "خطأ",
-    "core.question.information": "معلومات",
-    "core.question.invalidanswer": "إجابة غير مكتملة",
-    "core.question.notanswered": "لم يتم الاجابة عليه",
-    "core.question.notyetanswered": "لم يتم الاجابة عليه بعد",
-    "core.question.partiallycorrect": "إجابة جزئية",
-    "core.question.questionno": "سؤال {{$a}}",
-    "core.question.requiresgrading": "يتطلب التصحيح",
-    "core.quotausage": "حتى الآن قد استخدمت {{$a.used}} من ال {{$a.total}} المسموحه",
-    "core.refresh": "تحديث",
-    "core.remove": "ازيح",
-    "core.required": "مفروض",
-    "core.resources": "المصادر",
-    "core.restore": "إسترجاع",
-    "core.save": "احفظ",
-    "core.search": "بحث",
-    "core.searching": "يتم البحث",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.searchresults": "نتائج البحث",
     "core.sec": "ثانية",
     "core.secs": "ثواني",
     "core.seemoredetail": "اضغط هنا لترى تفاصيل أكثر",
-<<<<<<< HEAD
     "core.send": "إرسل",
     "core.sending": "يتم الإرسال",
     "core.serverconnection": "خطأ في الاتصال بالخادم",
     "core.settings.about": "حول",
     "core.settings.cacheexpirationtime": "وقت انتهاء صلاحية ذاكرة التخزين المؤقت (بالميلي ثانية)",
     "core.settings.currentlanguage": "اللغة الحالية",
-=======
-    "core.send": "ارسال",
-    "core.sending": "يتم الإرسال",
-    "core.serverconnection": "خطأ في الاتصال بالخادم",
-    "core.settings.about": "حول",
-    "core.settings.currentlanguage": "اللغة الحالية",
-    "core.settings.debugdisplay": "أظهر الرسائل التصحيحية",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.settings.deletesitefiles": "هل أنت متأكد أنك تريد حذف الملفات التي تم تنزيلها من هذا الموقع  '{{sitename}}'؟",
     "core.settings.deviceinfo": "معلومات الجهاز",
     "core.settings.deviceos": "نظام تشغيل الجهاز",
     "core.settings.disableall": "تعطيل الإعلامات بشكل مؤقت",
     "core.settings.disabled": "مُعطِّل",
-<<<<<<< HEAD
     "core.settings.enabledebugging": "تمكين التصحيح",
     "core.settings.enabledownloadsection": "تفعيل تنزيل الأقسام",
     "core.settings.enabledownloadsectiondescription": "عطل هذا الخيار لكي تسرع تحميل أقسام المنهج",
-=======
-    "core.settings.enabledownloadsection": "تفعيل تنزيل الأقسام",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.settings.estimatedfreespace": "تقدير المساحة الحرة",
     "core.settings.general": "عام",
     "core.settings.language": "اللغة",
     "core.settings.license": "رخصة",
     "core.settings.localnotifavailable": "إشعارات محلية موجودة",
-<<<<<<< HEAD
     "core.settings.loggedin": "متواجد",
     "core.settings.loggedoff": "غير موجود",
     "core.settings.processorsettings": "اعدادات المعالج",
-=======
-    "core.settings.locked": "مغلق",
-    "core.settings.loggedin": "متواجد",
-    "core.settings.loggedoff": "غير موجود",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.settings.settings": "الإعدادات",
     "core.settings.sites": "المواقع",
     "core.settings.spaceusage": "المساحة المستخدمة",
     "core.settings.synchronization": "تزامن",
     "core.settings.synchronizenow": "زامن الأن",
-<<<<<<< HEAD
     "core.settings.synchronizing": "يتم التزامن",
-=======
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.settings.syncsettings": "إعدادات المزامنة",
     "core.settings.total": "مجموع",
     "core.settings.versioncode": "رمز الإصدار",
     "core.settings.versionname": "اسم الإصدار",
-<<<<<<< HEAD
     "core.sharedfiles.rename": "تغيير الاسم",
     "core.sharedfiles.replace": "استبدال",
     "core.show": "اظهر",
     "core.site": "الموقع",
     "core.sitehome.sitehome": "صفحة الموقع",
     "core.sitehome.sitenews": "أخبار الموقع",
-=======
-    "core.show": "عرض",
-    "core.showmore": "أظهر المزيد...",
-    "core.site": "الموقع",
-    "core.sitehome.sitehome": "صفحة الموقع",
-    "core.sitehome.sitenews": "أخبار الموقع",
-    "core.sitemaintenance": "هذا الموقع غير متاح الآن وذلك لاته تحت التصيانه",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.sizeb": "بايتز",
     "core.sizegb": "غيغابايت",
     "core.sizekb": "كيلو بايت",
     "core.sizemb": "ميغا بايب",
     "core.sortby": "إفرز بـ",
-<<<<<<< HEAD
     "core.start": "إبداء",
-=======
-    "core.strftimedate": "%d %B %Y",
-    "core.strftimedatefullshort": "%d/%m/%y",
-    "core.strftimedateshort": "%d %B",
-    "core.strftimedatetime": "%d %B %Y, %I:%M %p",
-    "core.strftimedatetimeshort": "%d/%m/%y، %H:%M",
-    "core.strftimedaydate": "%A, %d %B %Y",
-    "core.strftimedaydatetime": "%A, %d %B %Y, %I:%M %p",
-    "core.strftimedayshort": "%A, %d %B",
-    "core.strftimedaytime": "%a, %H:%M",
-    "core.strftimemonthyear": "%B %Y",
-    "core.strftimerecent": "%d %b, %H:%M",
-    "core.strftimerecentfull": "%a, %d %b %Y, %I:%M %p",
-    "core.strftimetime": "%I:%M %p",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.submit": "سلم",
     "core.success": "نجاح",
     "core.teachers": "معلمون",
     "core.thisdirection": "rtl",
-<<<<<<< HEAD
     "core.time": "وقت",
-=======
-    "core.time": "الوقت",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.timesup": "انتهى الوقت!",
     "core.today": "اليوم",
     "core.unexpectederror": "خطأ غير متوقع. الرجاء الإغلاق وإعادة فتح التطبيق للمحاولة مرة أخرى",
     "core.unknown": "غير معروف",
     "core.unlimited": "بلا حدود",
     "core.upgraderunning": "ًيتم ترقية الموقع، الرجاء إعادة المحاولة لاحقا.",
-<<<<<<< HEAD
     "core.user.address": "العنوان",
-=======
-    "core.user.address": "عنوان",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.user.city": "المدينة/البلدة",
     "core.user.contact": "جهة اتصال",
     "core.user.country": "الدولة",
     "core.user.description": "الوصف",
-<<<<<<< HEAD
     "core.user.details": "التفاصيل",
-=======
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.user.editingteacher": "معلم",
     "core.user.email": "عنوان البريد الإلكتروني",
     "core.user.emailagain": "إعادة إدخال البريد الإلكتروني للتأكيد ",
     "core.user.firstname": "الاسم الأول",
     "core.user.interests": "اهتمامات",
-<<<<<<< HEAD
     "core.user.invaliduser": "المستخدم غير صحيح",
-=======
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.user.lastname": "الاسم الأخير",
     "core.user.manager": "مدير",
     "core.user.newpicture": "صورة شخصية جديدة",
@@ -1632,25 +991,14 @@
     "core.user.phone1": "هاتف",
     "core.user.phone2": "رقم الهاتف المحمول",
     "core.user.roles": "أدوار",
-<<<<<<< HEAD
     "core.user.student": "طالب",
     "core.user.viewprofile": "عرض الحساب",
-=======
-    "core.user.student": "الطالب",
-    "core.user.teacher": "معلم بدون صلاحية التحرير",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.user.webpage": "صفحة إنترنت",
     "core.userdeleted": "تم حذف اشتراك هذا المستخدم",
     "core.userdetails": "تفاصيل المستخدم",
     "core.users": "المستخدمون",
     "core.view": "معاينه",
     "core.viewprofile": "عرض الحساب",
-<<<<<<< HEAD
-=======
-    "core.whatisyourage": "كم عمرك؟",
-    "core.wheredoyoulive": "في أي بلد عشت؟",
-    "core.whyisthisrequired": "ما لزوم هذا؟",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.year": "سنة",
     "core.years": "سنوات",
     "core.yes": "نعم"

@@ -1,31 +1,18 @@
 webpackJsonp([113],{
 
-<<<<<<< HEAD
-/***/ 1789:
-=======
-/***/ 1857:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1791:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonCalendarSettingsPageModule", function() { return AddonCalendarSettingsPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonCompetencyPlanListPageModule", function() { return AddonCompetencyPlanListPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__settings__ = __webpack_require__(1913);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(67);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonCompetencyCourseCompetenciesPageModule", function() { return AddonCompetencyCourseCompetenciesPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(960);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__coursecompetencies__ = __webpack_require__(1985);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__planlist__ = __webpack_require__(1924);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -51,71 +38,41 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
-var AddonCalendarSettingsPageModule = /** @class */ (function () {
-    function AddonCalendarSettingsPageModule() {
+
+var AddonCompetencyPlanListPageModule = /** @class */ (function () {
+    function AddonCompetencyPlanListPageModule() {
     }
-    AddonCalendarSettingsPageModule = __decorate([
+    AddonCompetencyPlanListPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_3__settings__["a" /* AddonCalendarSettingsPage */],
+                __WEBPACK_IMPORTED_MODULE_6__planlist__["a" /* AddonCompetencyPlanListPage */],
             ],
             imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
                 __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
                 __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__settings__["a" /* AddonCalendarSettingsPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__planlist__["a" /* AddonCompetencyPlanListPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], AddonCalendarSettingsPageModule);
-    return AddonCalendarSettingsPageModule;
+    ], AddonCompetencyPlanListPageModule);
+    return AddonCompetencyPlanListPageModule;
 }());
 
-//# sourceMappingURL=settings.module.js.map
+//# sourceMappingURL=planlist.module.js.map
 
 /***/ }),
 
-/***/ 1913:
+/***/ 1924:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonCalendarSettingsPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonCompetencyPlanListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_calendar__ = __webpack_require__(247);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
-=======
-var AddonCompetencyCourseCompetenciesPageModule = /** @class */ (function () {
-    function AddonCompetencyCourseCompetenciesPageModule() {
-    }
-    AddonCompetencyCourseCompetenciesPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__coursecompetencies__["a" /* AddonCompetencyCourseCompetenciesPage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__coursecompetencies__["a" /* AddonCompetencyCourseCompetenciesPage */]),
-                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild(),
-                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonCompetencyComponentsModule */]
-            ],
-        })
-    ], AddonCompetencyCourseCompetenciesPageModule);
-    return AddonCompetencyCourseCompetenciesPageModule;
-}());
-
-//# sourceMappingURL=coursecompetencies.module.js.map
-
-/***/ }),
-
-/***/ 1985:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonCompetencyCourseCompetenciesPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_split_view_split_view__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_competency__ = __webpack_require__(158);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -140,68 +97,87 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-<<<<<<< HEAD
+
 
 
 /**
- * Page that displays the calendar settings.
+ * Page that displays the list of learning plans.
  */
-var AddonCalendarSettingsPage = /** @class */ (function () {
-    function AddonCalendarSettingsPage(calendarProvider, eventsProvider, sitesProvider) {
-        this.calendarProvider = calendarProvider;
-        this.eventsProvider = eventsProvider;
-        this.sitesProvider = sitesProvider;
-        this.defaultTime = 0;
+var AddonCompetencyPlanListPage = /** @class */ (function () {
+    function AddonCompetencyPlanListPage(navParams, domUtils, competencyProvider) {
+        this.domUtils = domUtils;
+        this.competencyProvider = competencyProvider;
+        this.plansLoaded = false;
+        this.plans = [];
+        this.userId = navParams.get('userId');
     }
     /**
      * View loaded.
      */
-    AddonCalendarSettingsPage.prototype.ionViewDidLoad = function () {
+    AddonCompetencyPlanListPage.prototype.ionViewDidLoad = function () {
         var _this = this;
-        this.calendarProvider.getDefaultNotificationTime().then(function (time) {
-            _this.defaultTime = time;
+        if (this.planId) {
+            // There is a learning plan to load.
+            this.openPlan(this.planId);
+        }
+        this.fetchLearningPlans().then(function () {
+            if (!_this.planId && _this.splitviewCtrl.isOn() && _this.plans.length > 0) {
+                // Take first and load it.
+                _this.openPlan(_this.plans[0].id);
+            }
+        }).finally(function () {
+            _this.plansLoaded = true;
         });
     };
     /**
-     * Update default time.
+     * Fetches the learning plans and updates the view.
      *
-     * @param {number} newTime New time.
+     * @return {Promise<void>} Promise resolved when done.
      */
-    AddonCalendarSettingsPage.prototype.updateDefaultTime = function (newTime) {
-        this.calendarProvider.setDefaultNotificationTime(newTime);
-        this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_1__providers_calendar__["a" /* AddonCalendarProvider */].DEFAULT_NOTIFICATION_TIME_CHANGED, { time: newTime }, this.sitesProvider.getCurrentSiteId());
+    AddonCompetencyPlanListPage.prototype.fetchLearningPlans = function () {
+        var _this = this;
+        return this.competencyProvider.getLearningPlans(this.userId).then(function (plans) {
+            _this.plans = plans;
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'Error getting learning plans data.');
+        });
     };
-    AddonCalendarSettingsPage = __decorate([
+    /**
+     * Refreshes the learning plans.
+     *
+     * @param {any} refresher Refresher.
+     */
+    AddonCompetencyPlanListPage.prototype.refreshLearningPlans = function (refresher) {
+        var _this = this;
+        this.competencyProvider.invalidateLearningPlans(this.userId).finally(function () {
+            _this.fetchLearningPlans().finally(function () {
+                refresher.complete();
+            });
+        });
+    };
+    /**
+     * Opens a learning plan.
+     *
+     * @param {number} planId Learning plan to load.
+     */
+    AddonCompetencyPlanListPage.prototype.openPlan = function (planId) {
+        this.planId = planId;
+        this.splitviewCtrl.push('AddonCompetencyPlanPage', { planId: planId });
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_3__components_split_view_split_view__["a" /* CoreSplitViewComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_3__components_split_view_split_view__["a" /* CoreSplitViewComponent */])
+    ], AddonCompetencyPlanListPage.prototype, "splitviewCtrl", void 0);
+    AddonCompetencyPlanListPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-calendar-settings',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\calendar\pages\settings\settings.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.settings.settings\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-list>\n\n        <ion-item>\n\n            <ion-label>{{ \'addon.calendar.defaultnotificationtime\' | translate }}</ion-label>\n\n            <ion-select [(ngModel)]="defaultTime" (ionChange)="updateDefaultTime($event)" interface="popover">\n\n                <ion-option value="0">{{ \'core.settings.disabled\' | translate }}</ion-option>\n\n                <ion-option value="10">{{ 600 | coreDuration }}</ion-option>\n\n                <ion-option value="30">{{ 1800 | coreDuration }}</ion-option>\n\n                <ion-option value="60">{{ 3600 | coreDuration }}</ion-option>\n\n                <ion-option value="120">{{ 7200 | coreDuration }}</ion-option>\n\n                <ion-option value="360">{{ 21600 | coreDuration }}</ion-option>\n\n                <ion-option value="720">{{ 43200 | coreDuration }}</ion-option>\n\n                <ion-option value="1440">{{ 86400 | coreDuration }}</ion-option>\n\n            </ion-select>\n\n        </ion-item>\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\calendar\pages\settings\settings.html"*/,
+            selector: 'page-addon-competency-planlist',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\competency\pages\planlist\planlist.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.competency.userplans\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<core-split-view>\n\n    <ion-content>\n\n        <ion-refresher [enabled]="plansLoaded" (ionRefresh)="refreshLearningPlans($event)">\n\n            <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n        </ion-refresher>\n\n        <core-loading [hideUntil]="plansLoaded">\n\n            <core-empty-box *ngIf="plans.length == 0" icon="map" [message]="\'addon.competency.noplanswerecreated\' | translate">\n\n            </core-empty-box>\n\n            <ion-list *ngIf="plans.length > 0" no-margin>\n\n                <a ion-item text-wrap *ngFor="let plan of plans" [title]="plan.name" (click)="openPlan(plan.id)" [class.core-split-item-selected]="plan.id == planId">\n\n                    <h2>{{ plan.name }}</h2>\n\n                    <p *ngIf="plan.duedate > 0">{{ \'addon.competency.duedate\' | translate }}: {{ plan.duedate | coreToLocaleString }}</p>\n\n                </a>\n\n            </ion-list>\n\n        </core-loading>\n\n    </ion-content>\n\n</core-split-view>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\competency\pages\planlist\planlist.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__providers_calendar__["a" /* AddonCalendarProvider */], __WEBPACK_IMPORTED_MODULE_2__providers_events__["a" /* CoreEventsProvider */],
-            __WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */]])
-    ], AddonCalendarSettingsPage);
-    return AddonCalendarSettingsPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_competency__["a" /* AddonCompetencyProvider */]])
+    ], AddonCompetencyPlanListPage);
+    return AddonCompetencyPlanListPage;
 }());
 
-//# sourceMappingURL=settings.js.map
-=======
-/**
- * Page that displays the list of competencies of a course.
- */
-var AddonCompetencyCourseCompetenciesPage = /** @class */ (function () {
-    function AddonCompetencyCourseCompetenciesPage(navParams) {
-        this.courseId = navParams.get('courseId');
-        this.userId = navParams.get('userId');
-    }
-    AddonCompetencyCourseCompetenciesPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-competency-coursecompetencies',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\competency\pages\coursecompetencies\coursecompetencies.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.competency.coursecompetencies\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<addon-competency-course class="core-avoid-header" [courseId]="courseId" [userId]="userId"></addon-competency-course>'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\competency\pages\coursecompetencies\coursecompetencies.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */]])
-    ], AddonCompetencyCourseCompetenciesPage);
-    return AddonCompetencyCourseCompetenciesPage;
-}());
-
-//# sourceMappingURL=coursecompetencies.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+//# sourceMappingURL=planlist.js.map
 
 /***/ })
 

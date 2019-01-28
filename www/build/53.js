@@ -1,29 +1,17 @@
 webpackJsonp([53],{
 
-<<<<<<< HEAD
-/***/ 1854:
-=======
-/***/ 1925:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1860:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonNotesAddPageModule", function() { return AddonNotesAddPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreContentLinksChooseSitePageModule", function() { return CoreContentLinksChooseSitePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__add__ = __webpack_require__(1981);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__choose_site__ = __webpack_require__(1998);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CorePlaceholderPageModule", function() { return CorePlaceholderPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__placeholder__ = __webpack_require__(2058);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_module__ = __webpack_require__(13);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -43,81 +31,46 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-<<<<<<< HEAD
-=======
-// Code based on https://github.com/martinpritchardelevate/ionic-split-pane-demo
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 
 
 
 
 
-<<<<<<< HEAD
-var AddonNotesAddPageModule = /** @class */ (function () {
-    function AddonNotesAddPageModule() {
+
+var CoreContentLinksChooseSitePageModule = /** @class */ (function () {
+    function CoreContentLinksChooseSitePageModule() {
     }
-    AddonNotesAddPageModule = __decorate([
+    CoreContentLinksChooseSitePageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__add__["a" /* AddonNotesAddPage */]
+                __WEBPACK_IMPORTED_MODULE_2__choose_site__["a" /* CoreContentLinksChooseSitePage */]
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__add__["a" /* AddonNotesAddPage */]),
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__choose_site__["a" /* CoreContentLinksChooseSitePage */]),
                 __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ]
         })
-    ], AddonNotesAddPageModule);
-    return AddonNotesAddPageModule;
+    ], CoreContentLinksChooseSitePageModule);
+    return CoreContentLinksChooseSitePageModule;
 }());
 
-//# sourceMappingURL=add.module.js.map
+//# sourceMappingURL=choose-site.module.js.map
 
 /***/ }),
 
-/***/ 1981:
+/***/ 1998:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonNotesAddPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreContentLinksChooseSitePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_sites__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_notes__ = __webpack_require__(162);
-=======
-var CorePlaceholderPageModule = /** @class */ (function () {
-    function CorePlaceholderPageModule() {
-    }
-    CorePlaceholderPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__placeholder__["a" /* CoreSplitViewPlaceholderPage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_4__components_module__["a" /* CoreComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__placeholder__["a" /* CoreSplitViewPlaceholderPage */]),
-                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ],
-            exports: [
-                __WEBPACK_IMPORTED_MODULE_2__placeholder__["a" /* CoreSplitViewPlaceholderPage */]
-            ]
-        })
-    ], CorePlaceholderPageModule);
-    return CorePlaceholderPageModule;
-}());
-
-//# sourceMappingURL=placeholder.module.js.map
-
-/***/ }),
-
-/***/ 2058:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreSplitViewPlaceholderPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_delegate__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_helper__ = __webpack_require__(32);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -140,83 +93,84 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-<<<<<<< HEAD
+
 
 
 
 
 
 /**
- * Component that displays a text area for composing a note.
+ * Page to display the list of sites to choose one to perform a content link action.
  */
-var AddonNotesAddPage = /** @class */ (function () {
-    function AddonNotesAddPage(params, viewCtrl, appProvider, domUtils, notesProvider) {
-        this.viewCtrl = viewCtrl;
-        this.appProvider = appProvider;
+var CoreContentLinksChooseSitePage = /** @class */ (function () {
+    function CoreContentLinksChooseSitePage(navCtrl, navParams, contentLinksDelegate, sitesProvider, domUtils, contentLinksHelper) {
+        this.navCtrl = navCtrl;
+        this.contentLinksDelegate = contentLinksDelegate;
+        this.sitesProvider = sitesProvider;
         this.domUtils = domUtils;
-        this.notesProvider = notesProvider;
-        this.publishState = 'personal';
-        this.text = '';
-        this.processing = false;
-        this.userId = params.get('userId');
-        this.courseId = params.get('courseId');
+        this.contentLinksHelper = contentLinksHelper;
+        this.url = navParams.get('url');
     }
     /**
-     * Send the note or store it offline.
+     * Component being initialized.
      */
-    AddonNotesAddPage.prototype.addNote = function () {
+    CoreContentLinksChooseSitePage.prototype.ngOnInit = function () {
         var _this = this;
-        this.appProvider.closeKeyboard();
-        var loadingModal = this.domUtils.showModalLoading('core.sending', true);
-        // Freeze the add note button.
-        this.processing = true;
-        this.notesProvider.addNote(this.userId, this.courseId, this.publishState, this.text).then(function (sent) {
-            _this.viewCtrl.dismiss().finally(function () {
-                var message = sent ? 'addon.notes.eventnotecreated' : 'core.datastoredoffline';
-                _this.domUtils.showAlertTranslated('core.success', message);
+        if (!this.url) {
+            return this.leaveView();
+        }
+        // Get the action to perform.
+        this.contentLinksDelegate.getActionsFor(this.url).then(function (actions) {
+            _this.action = _this.contentLinksHelper.getFirstValidAction(actions);
+            if (!_this.action) {
+                return Promise.reject(null);
+            }
+            // Get the sites that can perform the action.
+            return _this.sitesProvider.getSites(_this.action.sites).then(function (sites) {
+                _this.sites = sites;
             });
-        }).catch(function (error) {
-            _this.domUtils.showErrorModal(error);
-            _this.processing = false;
+        }).catch(function () {
+            _this.domUtils.showErrorModal('core.contentlinks.errornosites', true);
+            _this.leaveView();
         }).finally(function () {
-            loadingModal.dismiss();
+            _this.loaded = true;
         });
     };
     /**
-     * Close modal.
+     * Cancel.
      */
-    AddonNotesAddPage.prototype.closeModal = function () {
-        this.viewCtrl.dismiss();
+    CoreContentLinksChooseSitePage.prototype.cancel = function () {
+        this.leaveView();
     };
-    AddonNotesAddPage = __decorate([
+    /**
+     * Perform the action on a certain site.
+     *
+     * @param {string} siteId Site ID.
+     */
+    CoreContentLinksChooseSitePage.prototype.siteClicked = function (siteId) {
+        this.action.action(siteId, this.navCtrl);
+    };
+    /**
+     * Cancel and leave the view.
+     */
+    CoreContentLinksChooseSitePage.prototype.leaveView = function () {
+        var _this = this;
+        this.sitesProvider.logout().finally(function () {
+            _this.navCtrl.setRoot('CoreLoginSitesPage');
+        });
+    };
+    CoreContentLinksChooseSitePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-notes-add',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\notes\pages\add\add.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.notes.addnewnote\' | translate }}</ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n\n                <ion-icon name="close"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n\n    <form name="itemEdit" (ngSubmit)="addNote()">\n\n        <ion-item>\n\n            <ion-label>{{ \'addon.notes.publishstate\' | translate }}</ion-label>\n\n            <ion-select [(ngModel)]="publishState" name="publishState" interface="popover">\n\n                <ion-option value="personal">{{ \'addon.notes.personalnotes\' | translate }}</ion-option>\n\n                <ion-option value="course">{{ \'addon.notes.coursenotes\' | translate }}</ion-option>\n\n                <ion-option value="site">{{ \'addon.notes.sitenotes\' | translate }}</ion-option>\n\n            </ion-select>\n\n        </ion-item>\n\n        <ion-item>\n\n            <ion-textarea placeholder="{{ \'addon.notes.note\' | translate }}" rows="5" [(ngModel)]="text" name="text" required="required"></ion-textarea>\n\n        </ion-item>\n\n        <button ion-button block margin-vertical type="submit" [disabled]="processing || text.length < 2">\n\n            {{ \'addon.notes.addnewnote\' | translate }}\n\n        </button>\n\n    </form>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\notes\pages\add\add.html"*/,
+            selector: 'page-core-content-links-choose-site',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\contentlinks\pages\choose-site\choose-site.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.contentlinks.chooseaccount\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <core-loading [hideUntil]="loaded">\n\n        <ion-list>\n\n            <ion-item text-wrap>\n\n                <p class="item-heading">{{ \'core.contentlinks.chooseaccounttoopenlink\' | translate }}</p>\n\n                <p>{{ url }}</p>\n\n            </ion-item>\n\n            <a ion-item *ngFor="let site of sites" (click)="siteClicked(site.id)">\n\n                <img [src]="site.avatar" item-start>\n\n                <h2>{{site.fullName}}</h2>\n\n                <p><core-format-text clean="true" [text]="site.siteName"></core-format-text></p>\n\n                <p>{{site.siteUrl}}</p>\n\n            </a>\n\n            <ion-item>\n\n                <button ion-button block (click)="cancel()">{{ \'core.login.cancel\' | translate }}</button>\n\n            </ion-item>\n\n        </ion-list>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\contentlinks\pages\choose-site\choose-site.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["D" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__providers_app__["a" /* CoreAppProvider */],
-            __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_notes__["a" /* AddonNotesProvider */]])
-    ], AddonNotesAddPage);
-    return AddonNotesAddPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__providers_delegate__["a" /* CoreContentLinksDelegate */],
+            __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_helper__["a" /* CoreContentLinksHelperProvider */]])
+    ], CoreContentLinksChooseSitePage);
+    return CoreContentLinksChooseSitePage;
 }());
 
-//# sourceMappingURL=add.js.map
-=======
-// Code based on https://github.com/martinpritchardelevate/ionic-split-pane-demo
-
-var CoreSplitViewPlaceholderPage = /** @class */ (function () {
-    function CoreSplitViewPlaceholderPage() {
-        // Nothing to do.
-    }
-    CoreSplitViewPlaceholderPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'core-placeholder',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\components\split-view\placeholder\core-placeholder.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>&nbsp;</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n    <core-empty-box icon="arrow-dropleft" [message]="\'core.emptysplit\' | translate"></core-empty-box>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\components\split-view\placeholder\core-placeholder.html"*/,
-        }),
-        __metadata("design:paramtypes", [])
-    ], CoreSplitViewPlaceholderPage);
-    return CoreSplitViewPlaceholderPage;
-}());
-
-//# sourceMappingURL=placeholder.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+//# sourceMappingURL=choose-site.js.map
 
 /***/ })
 

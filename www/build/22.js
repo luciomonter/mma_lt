@@ -1,32 +1,18 @@
 webpackJsonp([22],{
 
-<<<<<<< HEAD
-/***/ 1891:
-=======
-/***/ 1958:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1893:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreSettingsAboutPageModule", function() { return CoreSettingsAboutPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreSettingsSpaceUsagePageModule", function() { return CoreSettingsSpaceUsagePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about__ = __webpack_require__(2019);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__space_usage__ = __webpack_require__(2034);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pipes_pipes_module__ = __webpack_require__(67);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreSettingsGeneralPageModule", function() { return CoreSettingsGeneralPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__general__ = __webpack_require__(2090);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -52,86 +38,43 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
 
-var CoreSettingsAboutPageModule = /** @class */ (function () {
-    function CoreSettingsAboutPageModule() {
+var CoreSettingsSpaceUsagePageModule = /** @class */ (function () {
+    function CoreSettingsSpaceUsagePageModule() {
     }
-    CoreSettingsAboutPageModule = __decorate([
+    CoreSettingsSpaceUsagePageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_3__about__["a" /* CoreSettingsAboutPage */]
-=======
-var CoreSettingsGeneralPageModule = /** @class */ (function () {
-    function CoreSettingsGeneralPageModule() {
-    }
-    CoreSettingsGeneralPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_3__general__["a" /* CoreSettingsGeneralPage */]
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+                __WEBPACK_IMPORTED_MODULE_3__space_usage__["a" /* CoreSettingsSpaceUsagePage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
                 __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
-<<<<<<< HEAD
                 __WEBPACK_IMPORTED_MODULE_6__pipes_pipes_module__["a" /* CorePipesModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__about__["a" /* CoreSettingsAboutPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__space_usage__["a" /* CoreSettingsSpaceUsagePage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], CoreSettingsAboutPageModule);
-    return CoreSettingsAboutPageModule;
+    ], CoreSettingsSpaceUsagePageModule);
+    return CoreSettingsSpaceUsagePageModule;
 }());
 
-//# sourceMappingURL=about.module.js.map
+//# sourceMappingURL=space-usage.module.js.map
 
 /***/ }),
 
-/***/ 2019:
+/***/ 2034:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreSettingsAboutPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreSettingsSpaceUsagePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_device__ = __webpack_require__(392);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_app__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_file__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_init__ = __webpack_require__(95);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_lang__ = __webpack_require__(94);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_local_notifications__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__configconstants__ = __webpack_require__(73);
-=======
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__general__["a" /* CoreSettingsGeneralPage */]),
-                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ],
-        })
-    ], CoreSettingsGeneralPageModule);
-    return CoreSettingsGeneralPageModule;
-}());
-
-//# sourceMappingURL=general.module.js.map
-
-/***/ }),
-
-/***/ 2090:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreSettingsGeneralPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_app__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core_constants__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_config__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_file__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_lang__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_local_notifications__ = __webpack_require__(82);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__configconstants__ = __webpack_require__(75);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_filepool__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__ = __webpack_require__(8);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -161,139 +104,144 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
-
-
 /**
-<<<<<<< HEAD
- * Page that displays the about settings.
+ * Page that displays the space usage settings.
  */
-var CoreSettingsAboutPage = /** @class */ (function () {
-    function CoreSettingsAboutPage(platform, device, appProvider, fileProvider, initDelegate, langProvider, sitesProvider, localNotificationsProvider) {
-        var _this = this;
-        var currentSite = sitesProvider.getCurrentSite();
-        this.appName = appProvider.isDesktop() ? __WEBPACK_IMPORTED_MODULE_9__configconstants__["a" /* CoreConfigConstants */].desktopappname : __WEBPACK_IMPORTED_MODULE_9__configconstants__["a" /* CoreConfigConstants */].appname;
-        this.versionName = __WEBPACK_IMPORTED_MODULE_9__configconstants__["a" /* CoreConfigConstants */].versionname;
-        this.versionCode = __WEBPACK_IMPORTED_MODULE_9__configconstants__["a" /* CoreConfigConstants */].versioncode;
-        this.compilationTime = __WEBPACK_IMPORTED_MODULE_9__configconstants__["a" /* CoreConfigConstants */].compilationtime;
-        // Calculate the privacy policy to use.
-        this.privacyPolicy = currentSite.getStoredConfig('tool_mobile_apppolicy') || currentSite.getStoredConfig('sitepolicy') ||
-            __WEBPACK_IMPORTED_MODULE_9__configconstants__["a" /* CoreConfigConstants */].privacypolicy;
-        this.navigator = window.navigator;
-        if (window.location && window.location.href) {
-            var url = window.location.href;
-            this.locationHref = url.substr(0, url.indexOf('#'));
-        }
-        this.appReady = initDelegate.isReady() ? 'core.yes' : 'core.no';
-        this.deviceType = platform.is('tablet') ? 'core.tablet' : 'core.phone';
-        if (platform.is('android')) {
-            this.deviceOs = 'core.android';
-        }
-        else if (platform.is('ios')) {
-            this.deviceOs = 'core.ios';
-        }
-        else if (platform.is('windows')) {
-            this.deviceOs = 'core.windowsphone';
-        }
-        else {
-            var matches = navigator.userAgent.match(/\(([^\)]*)\)/);
-            if (matches && matches.length > 1) {
-                this.deviceOs = matches[1];
-            }
-            else {
-                this.deviceOs = 'core.unknown';
-            }
-        }
-        langProvider.getCurrentLanguage().then(function (lang) {
-            _this.currentLanguage = lang;
-        });
-        this.networkStatus = appProvider.isOnline() ? 'core.online' : 'core.offline';
-        this.wifiConnection = appProvider.isNetworkAccessLimited() ? 'core.no' : 'core.yes';
-        this.deviceWebWorkers = !!window['Worker'] && !!window['URL'] ? 'core.yes' : 'core.no';
-        this.device = device;
-        if (fileProvider.isAvailable()) {
-            fileProvider.getBasePath().then(function (basepath) {
-                _this.fileSystemRoot = basepath;
-                _this.fsClickable = fileProvider.usesHTMLAPI();
-            });
-        }
-        this.localNotifAvailable = localNotificationsProvider.isAvailable() ? 'core.yes' : 'core.no';
-    }
-    CoreSettingsAboutPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-settings-about',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\core\settings\pages\about\about.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.settings.about\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-item text-wrap>\n\n        <h2>{{ appName }} {{ versionName }}</h2>\n\n    </ion-item>\n\n    <ion-item-group>\n\n        <ion-item-divider text-wrap color="light">\n\n            {{ \'core.settings.license\' | translate }}\n\n        </ion-item-divider>\n\n        <ion-item text-wrap>\n\n            <h2>Apache 2.0</h2>\n\n            <p><a href="http://www.apache.org/licenses/LICENSE-2.0" core-link auto-login="no">http://www.apache.org/licenses/LICENSE-2.0</a></p>\n\n        </ion-item>\n\n    </ion-item-group>\n\n    <ion-item-group *ngIf="privacyPolicy">\n\n        <ion-item-divider text-wrap color="light">\n\n            {{ \'core.settings.privacypolicy\' | translate }}\n\n        </ion-item-divider>\n\n        <ion-item text-wrap>\n\n            <p><a [href]="privacyPolicy" core-link auto-login="no">{{ privacyPolicy }}</a></p>\n\n        </ion-item>\n\n    </ion-item-group>\n\n    <ion-item-group>\n\n        <ion-item-divider text-wrap color="light">\n\n            {{ \'core.settings.deviceinfo\' | translate }}\n\n        </ion-item-divider>\n\n        <ion-item text-wrap *ngIf="versionName">\n\n            <h2>{{ \'core.settings.versionname\' | translate}}</h2>\n\n            <p>{{ versionName }}</p>\n\n        </ion-item>\n\n        <ion-item text-wrap *ngIf="versionCode">\n\n            <h2>{{ \'core.settings.versioncode\' | translate}}</h2>\n\n            <p>{{ versionCode }}</p>\n\n        </ion-item>\n\n        <ion-item text-wrap *ngIf="compilationTime">\n\n            <h2>{{ \'core.settings.compilationtime\' | translate }}</h2>\n\n            <p>{{ compilationTime | coreFormatDate: "LLL Z" }}</p>\n\n        </ion-item>\n\n        <ion-item text-wrap *ngIf="fileSystemRoot">\n\n            <h2>{{ \'core.settings.filesystemroot\' | translate}}</h2>\n\n            <p><a *ngIf="fsClickable" [href]="fileSystemRoot" core-link auto-login="no">{{ fileSystemRoot }}</a></p>\n\n            <p *ngIf="!fsClickable">{{ fileSystemRoot }}</p>\n\n        </ion-item>\n\n        <ion-item text-wrap *ngIf="navigator && navigator.userAgent">\n\n            <h2>{{ \'core.settings.navigatoruseragent\' | translate}}</h2>\n\n            <p>{{ navigator.userAgent }}</p>\n\n        </ion-item>\n\n        <ion-item text-wrap *ngIf="navigator && navigator.language">\n\n            <h2>{{ \'core.settings.navigatorlanguage\' | translate}}</h2>\n\n            <p>{{ navigator.language }}</p>\n\n        </ion-item>\n\n        <ion-item text-wrap *ngIf="locationHref">\n\n            <h2>{{ \'core.settings.locationhref\' | translate}}</h2>\n\n            <p>{{ locationHref }}</p>\n\n        </ion-item>\n\n        <ion-item text-wrap *ngIf="appReady">\n\n            <h2>{{ \'core.settings.appready\' | translate}}</h2>\n\n            <p>{{ appReady | translate }}</p>\n\n        </ion-item>\n\n        <ion-item text-wrap *ngIf="deviceType">\n\n            <h2>{{ \'core.settings.displayformat\' | translate}}</h2>\n\n            <p>{{ deviceType | translate }}</p>\n\n        </ion-item>\n\n        <ion-item text-wrap *ngIf="deviceOs">\n\n            <h2>{{ \'core.settings.deviceos\' | translate}}</h2>\n\n            <p>{{ deviceOs | translate }}</p>\n\n        </ion-item>\n\n        <ion-item text-wrap *ngIf="currentLanguage">\n\n            <h2>{{ \'core.settings.currentlanguage\' | translate}}</h2>\n\n            <p>{{ currentLanguage }}</p>\n\n        </ion-item>\n\n        <ion-item text-wrap *ngIf="networkStatus">\n\n            <h2>{{ \'core.settings.networkstatus\' | translate}}</h2>\n\n            <p>{{ networkStatus | translate }}</p>\n\n        </ion-item>\n\n        <ion-item text-wrap *ngIf="wifiConnection">\n\n            <h2>{{ \'core.settings.wificonnection\' | translate}}</h2>\n\n            <p>{{ wifiConnection | translate }}</p>\n\n        </ion-item>\n\n        <ion-item text-wrap *ngIf="deviceWebWorkers">\n\n            <h2>{{ \'core.settings.devicewebworkers\' | translate}}</h2>\n\n            <p>{{ deviceWebWorkers | translate }}</p>\n\n        </ion-item>\n\n        <ion-item text-wrap *ngIf="device && device.cordova">\n\n            <h2>{{ \'core.settings.cordovaversion\' | translate}}</h2>\n\n            <p>{{ device.cordova }}</p>\n\n        </ion-item>\n\n        <ion-item text-wrap *ngIf="device && device.platform">\n\n            <h2>{{ \'core.settings.cordovadeviceplatform\' | translate}}</h2>\n\n            <p>{{ device.platform }}</p>\n\n        </ion-item>\n\n        <ion-item text-wrap *ngIf="device && device.version">\n\n            <h2>{{ \'core.settings.cordovadeviceosversion\' | translate}}</h2>\n\n            <p>{{ device.version }}</p>\n\n        </ion-item>\n\n        <ion-item text-wrap *ngIf="device && device.model">\n\n            <h2>{{ \'core.settings.cordovadevicemodel\' | translate}}</h2>\n\n            <p>{{ device.model }}</p>\n\n        </ion-item>\n\n        <ion-item text-wrap *ngIf="device && device.uuid">\n\n            <h2>{{ \'core.settings.cordovadeviceuuid\' | translate}}</h2>\n\n            <p>{{ device.uuid }}</p>\n\n        </ion-item>\n\n        <ion-item text-wrap *ngIf="localNotifAvailable">\n\n            <h2>{{ \'core.settings.localnotifavailable\' | translate}}</h2>\n\n            <p>{{ localNotifAvailable | translate }}</p>\n\n        </ion-item>\n\n    </ion-item-group>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\core\settings\pages\about\about.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["u" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_device__["a" /* Device */], __WEBPACK_IMPORTED_MODULE_3__providers_app__["a" /* CoreAppProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_file__["a" /* CoreFileProvider */],
-            __WEBPACK_IMPORTED_MODULE_5__providers_init__["a" /* CoreInitDelegate */], __WEBPACK_IMPORTED_MODULE_6__providers_lang__["a" /* CoreLangProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_sites__["a" /* CoreSitesProvider */],
-            __WEBPACK_IMPORTED_MODULE_7__providers_local_notifications__["a" /* CoreLocalNotificationsProvider */]])
-    ], CoreSettingsAboutPage);
-    return CoreSettingsAboutPage;
-}());
-
-//# sourceMappingURL=about.js.map
-=======
- * Page that displays the general settings.
- */
-var CoreSettingsGeneralPage = /** @class */ (function () {
-    function CoreSettingsGeneralPage(appProvider, configProvider, fileProvider, eventsProvider, langProvider, domUtils, localNotificationsProvider) {
-        var _this = this;
-        this.configProvider = configProvider;
-        this.eventsProvider = eventsProvider;
-        this.langProvider = langProvider;
+var CoreSettingsSpaceUsagePage = /** @class */ (function () {
+    function CoreSettingsSpaceUsagePage(filePoolProvider, sitesProvider, textUtils, translate, domUtils, appProvider) {
+        this.filePoolProvider = filePoolProvider;
+        this.sitesProvider = sitesProvider;
+        this.textUtils = textUtils;
+        this.translate = translate;
         this.domUtils = domUtils;
-        this.languages = {};
-        this.languageCodes = [];
-        this.languages = __WEBPACK_IMPORTED_MODULE_9__configconstants__["a" /* CoreConfigConstants */].languages;
-        this.languageCodes = Object.keys(this.languages);
-        langProvider.getCurrentLanguage().then(function (currentLanguage) {
-            _this.selectedLanguage = currentLanguage;
-        });
-        this.rteSupported = this.domUtils.isRichTextEditorSupported();
-        if (this.rteSupported) {
-            this.configProvider.get(__WEBPACK_IMPORTED_MODULE_2__core_constants__["a" /* CoreConstants */].SETTINGS_RICH_TEXT_EDITOR, true).then(function (richTextEditorEnabled) {
-                _this.richTextEditor = !!richTextEditorEnabled;
-            });
-        }
-        this.configProvider.get(__WEBPACK_IMPORTED_MODULE_2__core_constants__["a" /* CoreConstants */].SETTINGS_DEBUG_DISPLAY, false).then(function (debugDisplay) {
-            _this.debugDisplay = !!debugDisplay;
-        });
+        this.usageLoaded = false;
+        this.sites = [];
+        this.currentSiteId = '';
+        this.totalUsage = 0;
+        this.currentSiteId = this.sitesProvider.getCurrentSiteId();
     }
     /**
-     * Called when a new language is selected.
+     * View loaded.
      */
-    CoreSettingsGeneralPage.prototype.languageChanged = function () {
+    CoreSettingsSpaceUsagePage.prototype.ionViewDidLoad = function () {
         var _this = this;
-        this.langProvider.changeCurrentLanguage(this.selectedLanguage).finally(function () {
-            _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_5__providers_events__["a" /* CoreEventsProvider */].LANGUAGE_CHANGED);
+        this.fetchData().finally(function () {
+            _this.usageLoaded = true;
         });
     };
     /**
-     * Called when the rich text editor is enabled or disabled.
+     * Convenience function to calculate each site's usage, and the total usage.
+     *
+     * @return {Promise<any>} Resolved when done.
      */
-    CoreSettingsGeneralPage.prototype.richTextEditorChanged = function () {
-        this.configProvider.set(__WEBPACK_IMPORTED_MODULE_2__core_constants__["a" /* CoreConstants */].SETTINGS_RICH_TEXT_EDITOR, this.richTextEditor ? 1 : 0);
+    CoreSettingsSpaceUsagePage.prototype.calculateSizeUsage = function () {
+        var _this = this;
+        return this.sitesProvider.getSortedSites().then(function (sites) {
+            _this.sites = sites;
+            // Get space usage.
+            var promises = _this.sites.map(function (siteEntry) {
+                return _this.sitesProvider.getSite(siteEntry.id).then(function (site) {
+                    return site.getSpaceUsage().then(function (size) {
+                        siteEntry.spaceUsage = size;
+                    });
+                });
+            });
+            return Promise.all(promises);
+        });
     };
     /**
-     * Called when the debug display setting is enabled or disabled.
+     * Convenience function to calculate total usage.
      */
-    CoreSettingsGeneralPage.prototype.debugDisplayChanged = function () {
-        this.configProvider.set(__WEBPACK_IMPORTED_MODULE_2__core_constants__["a" /* CoreConstants */].SETTINGS_DEBUG_DISPLAY, this.debugDisplay ? 1 : 0);
-        this.domUtils.setDebugDisplay(this.debugDisplay);
+    CoreSettingsSpaceUsagePage.prototype.calculateTotalUsage = function () {
+        var total = 0;
+        this.sites.forEach(function (site) {
+            if (site.spaceUsage) {
+                total += parseInt(site.spaceUsage, 10);
+            }
+        });
+        this.totalUsage = total;
     };
-    CoreSettingsGeneralPage = __decorate([
+    /**
+     * Convenience function to calculate space usage.
+     *
+     * @return {Promise<any>} Resolved when done.
+     */
+    CoreSettingsSpaceUsagePage.prototype.fetchData = function () {
+        var _this = this;
+        var promises = [
+            this.calculateSizeUsage().then(function () { return _this.calculateTotalUsage(); }),
+        ];
+        return Promise.all(promises);
+    };
+    /**
+     * Refresh the data.
+     *
+     * @param {any} refresher Refresher.
+     */
+    CoreSettingsSpaceUsagePage.prototype.refreshData = function (refresher) {
+        this.fetchData().finally(function () {
+            refresher.complete();
+        });
+    };
+    /**
+     * Convenience function to update site size, along with total usage.
+     *
+     * @param {any} site Site object with space usage.
+     * @param {number} newUsage New space usage of the site in bytes.
+     */
+    CoreSettingsSpaceUsagePage.prototype.updateSiteUsage = function (site, newUsage) {
+        var oldUsage = site.spaceUsage;
+        site.spaceUsage = newUsage;
+        this.totalUsage -= oldUsage - newUsage;
+    };
+    /**
+     * Deletes files of a site.
+     *
+     * @param {any} siteData Site object with space usage.
+     */
+    CoreSettingsSpaceUsagePage.prototype.deleteSiteFiles = function (siteData) {
+        var _this = this;
+        this.textUtils.formatText(siteData.siteName).then(function (siteName) {
+            var title = _this.translate.instant('core.settings.deletesitefilestitle');
+            var message = _this.translate.instant('core.settings.deletesitefiles', { sitename: siteName });
+            _this.domUtils.showConfirm(message, title).then(function () {
+                return _this.sitesProvider.getSite(siteData.id);
+            }).then(function (site) {
+                site.deleteFolder().then(function () {
+                    _this.filePoolProvider.clearAllPackagesStatus(site.id);
+                    _this.filePoolProvider.clearFilepool(site.id);
+                    _this.updateSiteUsage(siteData, 0);
+                }).catch(function (error) {
+                    if (error && error.code === FileError.NOT_FOUND_ERR) {
+                        // Not found, set size 0.
+                        _this.filePoolProvider.clearAllPackagesStatus(site.id);
+                        _this.updateSiteUsage(siteData, 0);
+                    }
+                    else {
+                        // Error, recalculate the site usage.
+                        _this.domUtils.showErrorModal('core.settings.errordeletesitefiles', true);
+                        site.getSpaceUsage().then(function (size) {
+                            _this.updateSiteUsage(siteData, size);
+                        });
+                    }
+                });
+            }).catch(function () {
+                // Ignore cancelled confirmation modal.
+            });
+        });
+    };
+    CoreSettingsSpaceUsagePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-settings-general',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\settings\pages\general\general.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'core.settings.general\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-item text-wrap>\n        <ion-label><h2>{{ \'core.settings.language\' | translate }}</h2></ion-label>\n        <ion-select [(ngModel)]="selectedLanguage" (ngModelChange)="languageChanged()" interface="action-sheet">\n            <ion-option *ngFor="let code of languageCodes" [value]="code">{{ languages[code] }}</ion-option>\n        </ion-select>\n    </ion-item>\n    <ion-item text-wrap *ngIf="rteSupported">\n        <ion-label>\n            <h2>{{ \'core.settings.enablerichtexteditor\' | translate }}</h2>\n            <p>{{ \'core.settings.enablerichtexteditordescription\' | translate }}</p>\n        </ion-label>\n        <ion-toggle [(ngModel)]="richTextEditor" (ngModelChange)="richTextEditorChanged()"></ion-toggle>\n    </ion-item>\n    <ion-item text-wrap>\n        <ion-label>\n            <h2>{{ \'core.settings.debugdisplay\' | translate }}</h2>\n            <p>{{ \'core.settings.debugdisplaydescription\' | translate }}</p>\n        </ion-label>\n        <ion-toggle [(ngModel)]="debugDisplay" (ngModelChange)="debugDisplayChanged()"></ion-toggle>\n    </ion-item>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\settings\pages\general\general.html"*/,
+            selector: 'page-core-settings-space-usage',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\settings\pages\space-usage\space-usage.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.settings.spaceusage\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="usageLoaded" (ionRefresh)="refreshData($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-loading [hideUntil]="usageLoaded">\n\n        <ion-item *ngFor="let site of sites" [class.core-primary-item]="site.id == currentSiteId">\n\n            <h2><core-format-text [text]="site.siteName"></core-format-text></h2>\n\n            <p>{{ site.fullName }}</p>\n\n            <p item-end>{{ site.spaceUsage | coreBytesToSize }}</p>\n\n            <button ion-button icon-only clear color="danger" item-end (click)="deleteSiteFiles(site)" [hidden]="!site.spaceUsage > \'0\'" [attr.aria-label]="\'core.settings.deletesitefilestitle\' | translate">\n\n                <ion-icon name="trash"></ion-icon>\n\n            </button>\n\n        </ion-item>\n\n        <ion-item-divider color="light">\n\n            <p>{{ \'core.settings.total\' | translate }}</p>\n\n            <p item-end>{{ totalUsage | coreBytesToSize }}</p>\n\n        </ion-item-divider>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\settings\pages\space-usage\space-usage.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__providers_app__["a" /* CoreAppProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_config__["a" /* CoreConfigProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_file__["a" /* CoreFileProvider */],
-            __WEBPACK_IMPORTED_MODULE_5__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_6__providers_lang__["a" /* CoreLangProvider */],
-            __WEBPACK_IMPORTED_MODULE_7__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
-            __WEBPACK_IMPORTED_MODULE_8__providers_local_notifications__["a" /* CoreLocalNotificationsProvider */]])
-    ], CoreSettingsGeneralPage);
-    return CoreSettingsGeneralPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__providers_filepool__["a" /* CoreFilepoolProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__["a" /* CoreTextUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_1__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__providers_app__["a" /* CoreAppProvider */]])
+    ], CoreSettingsSpaceUsagePage);
+    return CoreSettingsSpaceUsagePage;
 }());
 
-//# sourceMappingURL=general.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+//# sourceMappingURL=space-usage.js.map
 
 /***/ })
 

@@ -1,31 +1,17 @@
 webpackJsonp([58],{
 
-<<<<<<< HEAD
-/***/ 1848:
-=======
-/***/ 1918:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1853:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModWikiIndexPageModule", function() { return AddonModWikiIndexPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModWorkshopPhaseInfoPageModule", function() { return AddonModWorkshopPhaseInfoPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(964);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(1974);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModWorkshopEditSubmissionPageModule", function() { return AddonModWorkshopEditSubmissionPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__edit_submission__ = __webpack_require__(2048);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__phase__ = __webpack_require__(1988);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_compile_components_compile_html_compile_html_module__ = __webpack_require__(386);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -51,82 +37,37 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
-var AddonModWikiIndexPageModule = /** @class */ (function () {
-    function AddonModWikiIndexPageModule() {
+var AddonModWorkshopPhaseInfoPageModule = /** @class */ (function () {
+    function AddonModWorkshopPhaseInfoPageModule() {
     }
-    AddonModWikiIndexPageModule = __decorate([
+    AddonModWorkshopPhaseInfoPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModWikiIndexPage */],
+                __WEBPACK_IMPORTED_MODULE_4__phase__["a" /* AddonModWorkshopPhaseInfoPage */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModWikiComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModWikiIndexPage */]),
+                __WEBPACK_IMPORTED_MODULE_5__core_compile_components_compile_html_compile_html_module__["a" /* CoreCompileHtmlComponentModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_4__phase__["a" /* AddonModWorkshopPhaseInfoPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], AddonModWikiIndexPageModule);
-    return AddonModWikiIndexPageModule;
+    ], AddonModWorkshopPhaseInfoPageModule);
+    return AddonModWorkshopPhaseInfoPageModule;
 }());
 
-//# sourceMappingURL=index.module.js.map
+//# sourceMappingURL=phase.module.js.map
 
 /***/ }),
 
-/***/ 1974:
+/***/ 1988:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModWikiIndexPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModWorkshopPhaseInfoPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(417);
-=======
-var AddonModWorkshopEditSubmissionPageModule = /** @class */ (function () {
-    function AddonModWorkshopEditSubmissionPageModule() {
-    }
-    AddonModWorkshopEditSubmissionPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__edit_submission__["a" /* AddonModWorkshopEditSubmissionPage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__edit_submission__["a" /* AddonModWorkshopEditSubmissionPage */]),
-                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ],
-        })
-    ], AddonModWorkshopEditSubmissionPageModule);
-    return AddonModWorkshopEditSubmissionPageModule;
-}());
-
-//# sourceMappingURL=edit-submission.module.js.map
-
-/***/ }),
-
-/***/ 2048:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModWorkshopEditSubmissionPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_sync__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_file_session__ = __webpack_require__(124);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_utils_text__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_fileuploader_providers_fileuploader__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_workshop__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_helper__ = __webpack_require__(139);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_offline__ = __webpack_require__(120);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_utils_utils__ = __webpack_require__(5);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -152,420 +93,60 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-<<<<<<< HEAD
 /**
- * Page that displays a wiki page.
+ * Page that displays the phase info modal.
  */
-var AddonModWikiIndexPage = /** @class */ (function () {
-    function AddonModWikiIndexPage(navParams) {
-        this.module = navParams.get('module') || {};
-        this.courseId = navParams.get('courseId');
-        this.action = navParams.get('action') || 'page';
-        this.pageId = navParams.get('pageId');
-        this.pageTitle = navParams.get('pageTitle');
-        this.wikiId = navParams.get('wikiId');
-        this.subwikiId = navParams.get('subwikiId');
-        this.userId = navParams.get('userId');
-        this.groupId = navParams.get('groupId');
-        this.title = this.pageTitle || this.module.name;
+var AddonModWorkshopPhaseInfoPage = /** @class */ (function () {
+    function AddonModWorkshopPhaseInfoPage(params, viewCtrl, utils) {
+        this.viewCtrl = viewCtrl;
+        this.utils = utils;
+        this.phases = params.get('phases');
+        this.workshopPhase = params.get('workshopPhase');
+        var externalUrl = params.get('externalUrl');
+        // Treat phases.
+        for (var x in this.phases) {
+            this.phases[x].tasks.forEach(function (task) {
+                if (!task.link && (task.code == 'examples' || task.code == 'prepareexamples')) {
+                    // Add links to manage examples.
+                    task.link = externalUrl;
+                }
+            });
+            var action = this.phases[x].actions.find(function (action) {
+                return action.url && action.type == 'switchphase';
+            });
+            this.phases[x].switchUrl = action ? action.url : '';
+        }
     }
     /**
-     * Update some data based on the data received.
+     * Close modal.
+     */
+    AddonModWorkshopPhaseInfoPage.prototype.closeModal = function () {
+        this.viewCtrl.dismiss();
+    };
+    /**
+     * Open task.
      *
-     * @param {any} data The data received.
+     * @param {any} task Task to be done.
      */
-    AddonModWikiIndexPage.prototype.updateData = function (data) {
-        if (typeof data == 'string') {
-            // We received the title to display.
-            this.title = data;
+    AddonModWorkshopPhaseInfoPage.prototype.runTask = function (task) {
+        if (task.code == 'submit') {
+            // This will close the modal and go to the submit.
+            this.viewCtrl.dismiss(true);
         }
-        else {
-            // We received a wiki instance.
-            this.title = this.pageTitle || data.title || this.title;
+        else if (task.link) {
+            this.utils.openInBrowser(task.link);
         }
     };
-    /**
-     * User entered the page.
-     */
-    AddonModWikiIndexPage.prototype.ionViewDidEnter = function () {
-        this.wikiComponent.ionViewDidEnter();
-    };
-    /**
-     * User left the page.
-     */
-    AddonModWikiIndexPage.prototype.ionViewDidLeave = function () {
-        this.wikiComponent.ionViewDidLeave();
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModWikiIndexComponent */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModWikiIndexComponent */])
-    ], AddonModWikiIndexPage.prototype, "wikiComponent", void 0);
-    AddonModWikiIndexPage = __decorate([
+    AddonModWorkshopPhaseInfoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-wiki-index',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\wiki\pages\index\index.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <!-- The buttons defined by the component will be added in here. -->\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="wikiComponent.loaded" (ionRefresh)="wikiComponent.doRefresh($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n\n\n    <addon-mod-wiki-index [module]="module" [courseId]="courseId" [action]="action" [pageId]="pageId" [pageTitle]="pageTitle" [wikiId]="wikiId" [subwikiId]="subwikiId" [userId]="userId" [groupId]="groupId" (dataRetrieved)="updateData($event)"></addon-mod-wiki-index>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\wiki\pages\index\index.html"*/,
+            selector: 'page-addon-mod-workshop-phase-info',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\mod\workshop\pages\phase\phase.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.mod_workshop.userplan\' | translate }}</ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n\n                <ion-icon name="close"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-list>\n\n        <ng-container *ngFor="let phase of phases">\n\n            <ion-item-divider color="light" [class.core-workshop-phase-selected]="workshopPhase == phase.code">\n\n                <h2>{{ phase.title }}</h2>\n\n                <p text-wrap *ngIf="workshopPhase == phase.code">{{ \'addon.mod_workshop.userplancurrentphase\' | translate }}</p>\n\n            </ion-item-divider>\n\n            <a ion-item text-wrap *ngIf="phase.switchUrl" [href]="phase.switchUrl" detail-none>\n\n                <ion-icon item-start name="swap"></ion-icon>\n\n                {{ \'addon.mod_workshop.switchphase\' + phase.code | translate }}\n\n                <ion-icon item-end name="open"></ion-icon>\n\n            </a>\n\n            <a ion-item text-wrap *ngFor="let task of phase.tasks" [class.item-dimmed]="phase.code != workshopPhase" (click)="runTask(task)" detail-none>\n\n                <ion-icon item-start name="radio-button-off" *ngIf="task.completed == null"></ion-icon>\n\n                <ion-icon item-start name="close-circle" color="danger" *ngIf="task.completed == \'\'"></ion-icon>\n\n                <ion-icon item-start name="information-circle" color="info" *ngIf="task.completed == \'info\'"></ion-icon>\n\n                <ion-icon item-start name="checkmark-circle" color="success" *ngIf="task.completed == \'1\'"></ion-icon>\n\n\n\n                <h2 text-wrap>{{task.title}}</h2>\n\n                <p *ngIf="task.details"><core-format-text [text]="task.details"></core-format-text></p>\n\n                <ion-icon item-end *ngIf="task.link && task.code != \'submit\'" name="open"></ion-icon>\n\n            </a>\n\n        </ng-container>\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\mod\workshop\pages\phase\phase.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]])
-    ], AddonModWikiIndexPage);
-    return AddonModWikiIndexPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["D" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__providers_utils_utils__["a" /* CoreUtilsProvider */]])
+    ], AddonModWorkshopPhaseInfoPage);
+    return AddonModWorkshopPhaseInfoPage;
 }());
 
-//# sourceMappingURL=index.js.map
-=======
-
-
-
-
-
-
-
-
-
-
-
-/**
- * Page that displays the workshop edit submission.
- */
-var AddonModWorkshopEditSubmissionPage = /** @class */ (function () {
-    function AddonModWorkshopEditSubmissionPage(navParams, sitesProvider, fileUploaderProvider, workshopProvider, workshopOffline, workshopHelper, navCtrl, fileSessionprovider, syncProvider, textUtils, domUtils, fb, translate, eventsProvider) {
-        this.fileUploaderProvider = fileUploaderProvider;
-        this.workshopProvider = workshopProvider;
-        this.workshopOffline = workshopOffline;
-        this.workshopHelper = workshopHelper;
-        this.navCtrl = navCtrl;
-        this.fileSessionprovider = fileSessionprovider;
-        this.syncProvider = syncProvider;
-        this.textUtils = textUtils;
-        this.domUtils = domUtils;
-        this.fb = fb;
-        this.translate = translate;
-        this.eventsProvider = eventsProvider;
-        this.submission = {
-            id: 0,
-            title: '',
-            content: '',
-            attachmentfiles: [],
-        };
-        this.loaded = false;
-        this.component = __WEBPACK_IMPORTED_MODULE_11__providers_workshop__["a" /* AddonModWorkshopProvider */].COMPONENT;
-        this.originalData = {};
-        this.hasOffline = false;
-        this.editing = false;
-        this.forceLeave = false;
-        this.isDestroyed = false;
-        this.textAvailable = false;
-        this.textRequired = false;
-        this.fileAvailable = false;
-        this.fileRequired = false;
-        this.module = navParams.get('module');
-        this.courseId = navParams.get('courseId');
-        this.access = navParams.get('access');
-        this.submissionId = navParams.get('submissionId');
-        this.workshopId = this.module.instance;
-        this.componentId = this.module.id;
-        this.userId = sitesProvider.getCurrentSiteUserId();
-        this.siteId = sitesProvider.getCurrentSiteId();
-        this.editForm = new __WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* FormGroup */]({});
-        this.editForm.addControl('title', this.fb.control('', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].required));
-        this.editForm.addControl('content', this.fb.control(''));
-    }
-    /**
-     * Component being initialized.
-     */
-    AddonModWorkshopEditSubmissionPage.prototype.ngOnInit = function () {
-        if (!this.isDestroyed) {
-            // Block the workshop.
-            this.syncProvider.blockOperation(this.component, this.workshopId);
-        }
-        this.fetchSubmissionData();
-    };
-    /**
-     * Check if we can leave the page or not.
-     *
-     * @return {boolean|Promise<void>} Resolved if we can leave it, rejected if not.
-     */
-    AddonModWorkshopEditSubmissionPage.prototype.ionViewCanLeave = function () {
-        var _this = this;
-        if (this.forceLeave) {
-            return true;
-        }
-        var promise;
-        // Check if data has changed.
-        if (!this.hasDataChanged()) {
-            promise = Promise.resolve();
-        }
-        else {
-            // Show confirmation if some data has been modified.
-            promise = this.domUtils.showConfirm(this.translate.instant('core.confirmcanceledit'));
-        }
-        return promise.then(function () {
-            if (_this.submission.attachmentfiles) {
-                // Delete the local files from the tmp folder.
-                _this.fileUploaderProvider.clearTmpFiles(_this.submission.attachmentfiles);
-            }
-        });
-    };
-    /**
-     * Fetch the submission data.
-     *
-     * @return {Promise<void>} Resolved when done.
-     */
-    AddonModWorkshopEditSubmissionPage.prototype.fetchSubmissionData = function () {
-        var _this = this;
-        return this.workshopProvider.getWorkshop(this.courseId, this.module.id).then(function (workshopData) {
-            _this.workshop = workshopData;
-            _this.textAvailable = (_this.workshop.submissiontypetext != __WEBPACK_IMPORTED_MODULE_11__providers_workshop__["a" /* AddonModWorkshopProvider */].SUBMISSION_TYPE_DISABLED);
-            _this.textRequired = (_this.workshop.submissiontypetext == __WEBPACK_IMPORTED_MODULE_11__providers_workshop__["a" /* AddonModWorkshopProvider */].SUBMISSION_TYPE_REQUIRED);
-            _this.fileAvailable = (_this.workshop.submissiontypefile != __WEBPACK_IMPORTED_MODULE_11__providers_workshop__["a" /* AddonModWorkshopProvider */].SUBMISSION_TYPE_DISABLED);
-            _this.fileRequired = (_this.workshop.submissiontypefile == __WEBPACK_IMPORTED_MODULE_11__providers_workshop__["a" /* AddonModWorkshopProvider */].SUBMISSION_TYPE_REQUIRED);
-            _this.editForm.controls.content.setValidators(_this.textRequired ? __WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].required : null);
-            if (_this.submissionId > 0) {
-                _this.editing = true;
-                return _this.workshopHelper.getSubmissionById(_this.workshopId, _this.submissionId).then(function (submissionData) {
-                    _this.submission = submissionData;
-                    var canEdit = (_this.userId == submissionData.authorid && _this.access.cansubmit &&
-                        _this.access.modifyingsubmissionallowed);
-                    if (!canEdit) {
-                        // Should not happen, but go back if does.
-                        _this.forceLeavePage();
-                        return;
-                    }
-                });
-            }
-            else if (!_this.access.cansubmit || !_this.access.creatingsubmissionallowed) {
-                // Should not happen, but go back if does.
-                _this.forceLeavePage();
-                return;
-            }
-        }).then(function () {
-            return _this.workshopOffline.getSubmissions(_this.workshopId).then(function (submissionsActions) {
-                if (submissionsActions && submissionsActions.length) {
-                    _this.hasOffline = true;
-                    var actions = _this.workshopHelper.filterSubmissionActions(submissionsActions, _this.editing ?
-                        _this.submission.id : 0);
-                    return _this.workshopHelper.applyOfflineData(_this.submission, actions);
-                }
-                else {
-                    _this.hasOffline = false;
-                }
-            }).finally(function () {
-                _this.originalData.title = _this.submission.title;
-                _this.originalData.content = _this.submission.content;
-                _this.originalData.attachmentfiles = [];
-                _this.submission.attachmentfiles.forEach(function (file) {
-                    var filename;
-                    if (file.filename) {
-                        filename = file.filename;
-                    }
-                    else {
-                        // We don't have filename, extract it from the path.
-                        filename = file.filepath[0] == '/' ? file.filepath.substr(1) : file.filepath;
-                    }
-                    _this.originalData.attachmentfiles.push({
-                        filename: filename,
-                        fileurl: file.fileurl
-                    });
-                });
-            });
-        }).then(function () {
-            _this.editForm.controls['title'].setValue(_this.submission.title);
-            _this.editForm.controls['content'].setValue(_this.submission.content);
-            var submissionId = _this.submission.id || 'newsub';
-            _this.fileSessionprovider.setFiles(_this.component, _this.workshopId + '_' + submissionId, _this.submission.attachmentfiles || []);
-            _this.loaded = true;
-        }).catch(function (message) {
-            _this.loaded = false;
-            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
-            _this.forceLeavePage();
-        });
-    };
-    /**
-     * Force leaving the page, without checking for changes.
-     */
-    AddonModWorkshopEditSubmissionPage.prototype.forceLeavePage = function () {
-        this.forceLeave = true;
-        this.navCtrl.pop();
-    };
-    /**
-     * Get the form input data.
-     *
-     * @return {any} Object with all the info.
-     */
-    AddonModWorkshopEditSubmissionPage.prototype.getInputData = function () {
-        var submissionId = this.submission.id || 'newsub';
-        var values = {
-            title: this.editForm.value.title,
-            content: null,
-            attachmentfiles: []
-        };
-        if (this.textAvailable) {
-            values.content = this.editForm.value.content || '';
-        }
-        if (this.fileAvailable) {
-            values.attachmentfiles = this.fileSessionprovider.getFiles(this.component, this.workshopId + '_' + submissionId) || [];
-        }
-        return values;
-    };
-    /**
-     * Check if data has changed.
-     *
-     * @return {boolean} True if changed or false if not.
-     */
-    AddonModWorkshopEditSubmissionPage.prototype.hasDataChanged = function () {
-        if (!this.loaded) {
-            return false;
-        }
-        var inputData = this.getInputData();
-        if (!this.originalData || typeof this.originalData.title == 'undefined') {
-            // There is no original data, assume it hasn't changed.
-            return false;
-        }
-        if (this.originalData.title != inputData.title || this.textAvailable && this.originalData.content != inputData.content) {
-            return true;
-        }
-        if (this.fileAvailable) {
-            return this.fileUploaderProvider.areFileListDifferent(inputData.attachmentfiles, this.originalData.attachmentfiles);
-        }
-        return false;
-    };
-    /**
-     * Pull to refresh.
-     *
-     * @param {any} refresher Refresher.
-     */
-    AddonModWorkshopEditSubmissionPage.prototype.refreshSubmission = function (refresher) {
-        var _this = this;
-        if (this.loaded) {
-            var promises = [];
-            promises.push(this.workshopProvider.invalidateSubmissionData(this.workshopId, this.submission.id));
-            promises.push(this.workshopProvider.invalidateSubmissionsData(this.workshopId));
-            Promise.all(promises).finally(function () {
-                return _this.fetchSubmissionData();
-            }).finally(function () {
-                refresher.complete();
-            });
-        }
-    };
-    /**
-     * Save the submission.
-     */
-    AddonModWorkshopEditSubmissionPage.prototype.save = function () {
-        var _this = this;
-        // Check if data has changed.
-        if (this.hasDataChanged()) {
-            this.saveSubmission().then(function () {
-                // Go back to entry list.
-                _this.forceLeavePage();
-            }).catch(function () {
-                // Nothing to do.
-            });
-        }
-        else {
-            // Nothing to save, just go back.
-            this.forceLeavePage();
-        }
-    };
-    /**
-     * Send submission and save.
-     *
-     * @return {Promise<any>} Resolved when done.
-     */
-    AddonModWorkshopEditSubmissionPage.prototype.saveSubmission = function () {
-        var _this = this;
-        var inputData = this.getInputData();
-        if (!inputData.title) {
-            this.domUtils.showAlertTranslated('core.notice', 'addon.mod_workshop.submissionrequiredtitle');
-            return Promise.reject(null);
-        }
-        var noText = this.textUtils.htmlIsBlank(inputData.content);
-        var noFiles = !inputData.attachmentfiles.length;
-        if (this.textRequired && noText || this.fileRequired && noFiles || noText && noFiles) {
-            this.domUtils.showAlertTranslated('core.notice', 'addon.mod_workshop.submissionrequiredcontent');
-            return Promise.reject(null);
-        }
-        var allowOffline = true, saveOffline = false;
-        var modal = this.domUtils.showModalLoading('core.sending', true), submissionId = this.submission.id;
-        // Add some HTML to the message if needed.
-        if (this.textAvailable) {
-            inputData.content = this.textUtils.formatHtmlLines(inputData.content);
-        }
-        // Upload attachments first if any.
-        allowOffline = !inputData.attachmentfiles.length;
-        return this.workshopHelper.uploadOrStoreSubmissionFiles(this.workshopId, this.submission.id, inputData.attachmentfiles, this.editing, saveOffline).catch(function () {
-            // Cannot upload them in online, save them in offline.
-            saveOffline = true;
-            allowOffline = true;
-            return _this.workshopHelper.uploadOrStoreSubmissionFiles(_this.workshopId, _this.submission.id, inputData.attachmentfiles, _this.editing, saveOffline);
-        }).then(function (attachmentsId) {
-            if (!saveOffline && !_this.fileAvailable) {
-                attachmentsId = null;
-            }
-            if (_this.editing) {
-                if (saveOffline) {
-                    // Save submission in offline.
-                    return _this.workshopOffline.saveSubmission(_this.workshopId, _this.courseId, inputData.title, inputData.content, attachmentsId, submissionId, 'update').then(function () {
-                        // Don't return anything.
-                    });
-                }
-                // Try to send it to server.
-                // Don't allow offline if there are attachments since they were uploaded fine.
-                return _this.workshopProvider.updateSubmission(_this.workshopId, submissionId, _this.courseId, inputData.title, inputData.content, attachmentsId, undefined, allowOffline);
-            }
-            if (saveOffline) {
-                // Save submission in offline.
-                return _this.workshopOffline.saveSubmission(_this.workshopId, _this.courseId, inputData.title, inputData.content, attachmentsId, submissionId, 'add').then(function () {
-                    // Don't return anything.
-                });
-            }
-            // Try to send it to server.
-            // Don't allow offline if there are attachments since they were uploaded fine.
-            return _this.workshopProvider.addSubmission(_this.workshopId, _this.courseId, inputData.title, inputData.content, attachmentsId, undefined, submissionId, allowOffline);
-        }).then(function (newSubmissionId) {
-            var data = {
-                workshopId: _this.workshopId,
-                cmId: _this.module.cmid
-            };
-            if (newSubmissionId && submissionId) {
-                // Data sent to server, delete stored files (if any).
-                _this.workshopOffline.deleteSubmissionAction(_this.workshopId, submissionId, _this.editing ? 'update' : 'add');
-                _this.workshopHelper.deleteSubmissionStoredFiles(_this.workshopId, submissionId, _this.editing);
-                data['submissionId'] = newSubmissionId;
-            }
-            var promise = newSubmissionId ? _this.workshopProvider.invalidateSubmissionData(_this.workshopId, newSubmissionId) :
-                Promise.resolve();
-            return promise.finally(function () {
-                _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_11__providers_workshop__["a" /* AddonModWorkshopProvider */].SUBMISSION_CHANGED, data, _this.siteId);
-                // Delete the local files from the tmp folder.
-                _this.fileUploaderProvider.clearTmpFiles(inputData.attachmentfiles);
-            });
-        }).catch(function (message) {
-            _this.domUtils.showErrorModalDefault(message, 'Cannot save submission');
-        }).finally(function () {
-            modal.dismiss();
-        });
-    };
-    /**
-     * Component being destroyed.
-     */
-    AddonModWorkshopEditSubmissionPage.prototype.ngOnDestroy = function () {
-        this.isDestroyed = true;
-        this.syncProvider.unblockOperation(this.component, this.workshopId);
-    };
-    AddonModWorkshopEditSubmissionPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-workshop-edit-submission',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\mod\workshop\pages\edit-submission\edit-submission.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.mod_workshop.editsubmission\' | translate }}</ion-title>\n        <ion-buttons end>\n            <button ion-button clear (click)="save()" [attr.aria-label]="\'core.save\' | translate">\n                {{ \'core.save\' | translate }}\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshSubmission($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="loaded">\n        <form ion-list [formGroup]="editForm" *ngIf="workshop">\n            <ion-item text-wrap>\n                <ion-label stacked core-mark-required="true">{{ \'addon.mod_workshop.submissiontitle\' | translate }}</ion-label>\n                <ion-input name="title" type="text" [placeholder]="\'addon.mod_workshop.submissiontitle\' | translate" formControlName="title"></ion-input>\n            </ion-item>\n\n            <ion-item *ngIf="textAvailable">\n                <ion-label stacked [core-mark-required]="textRequired">{{ \'addon.mod_workshop.submissioncontent\' | translate }}</ion-label>\n                <core-rich-text-editor item-content [control]="editForm.controls[\'content\']" formControlName="content" [placeholder]="\'addon.mod_workshop.submissioncontent\' | translate"  name="content" [component]="component" [componentId]="componentId"></core-rich-text-editor>\n            </ion-item>\n\n            <core-attachments *ngIf="fileAvailable" [files]="submission.attachmentfiles" [maxSize]="workshop.maxbytes" [maxSubmissions]="workshop.nattachments" [component]="component" [componentId]="workshop.cmid" allowOffline="true" [acceptedTypes]="workshop.submissionfiletypes" [required]="fileRequired"></core-attachments>\n        </form>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\mod\workshop\pages\edit-submission\edit-submission.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_10__core_fileuploader_providers_fileuploader__["a" /* CoreFileUploaderProvider */],
-            __WEBPACK_IMPORTED_MODULE_11__providers_workshop__["a" /* AddonModWorkshopProvider */], __WEBPACK_IMPORTED_MODULE_13__providers_offline__["a" /* AddonModWorkshopOfflineProvider */],
-            __WEBPACK_IMPORTED_MODULE_12__providers_helper__["a" /* AddonModWorkshopHelperProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_7__providers_file_session__["a" /* CoreFileSessionProvider */], __WEBPACK_IMPORTED_MODULE_6__providers_sync__["a" /* CoreSyncProvider */],
-            __WEBPACK_IMPORTED_MODULE_9__providers_utils_text__["a" /* CoreTextUtilsProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */],
-            __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_4__providers_events__["a" /* CoreEventsProvider */]])
-    ], AddonModWorkshopEditSubmissionPage);
-    return AddonModWorkshopEditSubmissionPage;
-}());
-
-//# sourceMappingURL=edit-submission.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+//# sourceMappingURL=phase.js.map
 
 /***/ })
 

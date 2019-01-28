@@ -1,32 +1,17 @@
 webpackJsonp([71],{
 
-<<<<<<< HEAD
-/***/ 1833:
-=======
-/***/ 1903:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1837:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModLessonUserRetakePageModule", function() { return AddonModLessonUserRetakePageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModQuizIndexPageModule", function() { return AddonModQuizIndexPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__user_retake__ = __webpack_require__(1957);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModPageIndexPageModule", function() { return AddonModPageIndexPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(973);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(2031);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(956);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(1970);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -52,80 +37,37 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
-
-var AddonModLessonUserRetakePageModule = /** @class */ (function () {
-    function AddonModLessonUserRetakePageModule() {
+var AddonModQuizIndexPageModule = /** @class */ (function () {
+    function AddonModQuizIndexPageModule() {
     }
-    AddonModLessonUserRetakePageModule = __decorate([
+    AddonModQuizIndexPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_6__user_retake__["a" /* AddonModLessonUserRetakePage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__user_retake__["a" /* AddonModLessonUserRetakePage */]),
-                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ],
-        })
-    ], AddonModLessonUserRetakePageModule);
-    return AddonModLessonUserRetakePageModule;
-}());
-
-//# sourceMappingURL=user-retake.module.js.map
-
-/***/ }),
-
-/***/ 1957:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModLessonUserRetakePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_time__ = __webpack_require__(22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__core_user_providers_user__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_lesson__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_helper__ = __webpack_require__(935);
-=======
-var AddonModPageIndexPageModule = /** @class */ (function () {
-    function AddonModPageIndexPageModule() {
-    }
-    AddonModPageIndexPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModPageIndexPage */],
+                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModQuizIndexPage */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModPageComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModPageIndexPage */]),
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModQuizComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModQuizIndexPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], AddonModPageIndexPageModule);
-    return AddonModPageIndexPageModule;
+    ], AddonModQuizIndexPageModule);
+    return AddonModQuizIndexPageModule;
 }());
 
 //# sourceMappingURL=index.module.js.map
 
 /***/ }),
 
-/***/ 2031:
+/***/ 1970:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModPageIndexPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModQuizIndexPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(422);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(411);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -151,229 +93,49 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
 /**
- * Page that displays a retake made by a certain user.
+ * Page that displays the quiz entry page.
  */
-var AddonModLessonUserRetakePage = /** @class */ (function () {
-    function AddonModLessonUserRetakePage(navParams, sitesProvider, textUtils, translate, domUtils, userProvider, timeUtils, lessonProvider, lessonHelper) {
-        this.textUtils = textUtils;
-        this.translate = translate;
-        this.domUtils = domUtils;
-        this.userProvider = userProvider;
-        this.timeUtils = timeUtils;
-        this.lessonProvider = lessonProvider;
-        this.lessonHelper = lessonHelper;
-        this.component = __WEBPACK_IMPORTED_MODULE_8__providers_lesson__["a" /* AddonModLessonProvider */].COMPONENT;
-        this.lessonId = navParams.get('lessonId');
-        this.courseId = navParams.get('courseId');
-        this.userId = navParams.get('userId') || sitesProvider.getCurrentSiteUserId();
-        this.retakeNumber = navParams.get('retake');
-    }
-    /**
-     * Component being initialized.
-     */
-    AddonModLessonUserRetakePage.prototype.ngOnInit = function () {
-        var _this = this;
-        // Fetch the data.
-        this.fetchData().finally(function () {
-            _this.loaded = true;
-        });
-    };
-    /**
-     * Change the retake displayed.
-     *
-     * @param {number} retakeNumber The new retake number.
-     */
-    AddonModLessonUserRetakePage.prototype.changeRetake = function (retakeNumber) {
-        var _this = this;
-        this.loaded = false;
-        this.setRetake(retakeNumber).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'Error getting attempt.');
-        }).finally(function () {
-            _this.loaded = true;
-        });
-    };
-    /**
-     * Pull to refresh.
-     *
-     * @param {any} refresher Refresher.
-     */
-    AddonModLessonUserRetakePage.prototype.doRefresh = function (refresher) {
-        this.refreshData().finally(function () {
-            refresher.complete();
-        });
-    };
-    /**
-     * Get lesson and retake data.
-     *
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonModLessonUserRetakePage.prototype.fetchData = function () {
-        var _this = this;
-        return this.lessonProvider.getLessonById(this.courseId, this.lessonId).then(function (lessonData) {
-            _this.lesson = lessonData;
-            // Get the retakes overview for all participants.
-            return _this.lessonProvider.getRetakesOverview(_this.lesson.id);
-        }).then(function (data) {
-            // Search the student.
-            var student;
-            if (data && data.students) {
-                for (var i = 0; i < data.students.length; i++) {
-                    if (data.students[i].id == _this.userId) {
-                        student = data.students[i];
-                        break;
-                    }
-                }
-            }
-            if (!student) {
-                // Student not found.
-                return Promise.reject(_this.translate.instant('addon.mod_lesson.cannotfinduser'));
-            }
-            if (!student.attempts || !student.attempts.length) {
-                // No retakes.
-                return Promise.reject(_this.translate.instant('addon.mod_lesson.cannotfindattempt'));
-            }
-            student.bestgrade = _this.textUtils.roundToDecimals(student.bestgrade, 2);
-            student.attempts.forEach(function (retake) {
-                if (_this.retakeNumber == retake.try) {
-                    // The retake specified as parameter exists. Use it.
-                    _this.selectedRetake = _this.retakeNumber;
-                }
-                retake.label = _this.lessonHelper.getRetakeLabel(retake);
-            });
-            if (!_this.selectedRetake) {
-                // Retake number not specified or not valid, use the last retake.
-                _this.selectedRetake = student.attempts[student.attempts.length - 1].try;
-            }
-            // Get the profile image of the user.
-            return _this.userProvider.getProfile(student.id, _this.courseId, true).then(function (user) {
-                student.profileimageurl = user.profileimageurl;
-                return student;
-            }).catch(function () {
-                // Error getting profile, resolve promise without adding any extra data.
-                return student;
-            });
-        }).then(function (student) {
-            _this.student = student;
-            return _this.setRetake(_this.selectedRetake);
-        }).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'Error getting data.', true);
-        });
-    };
-    /**
-     * Refreshes data.
-     *
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonModLessonUserRetakePage.prototype.refreshData = function () {
-        var _this = this;
-        var promises = [];
-        promises.push(this.lessonProvider.invalidateLessonData(this.courseId));
-        if (this.lesson) {
-            promises.push(this.lessonProvider.invalidateRetakesOverview(this.lesson.id));
-            promises.push(this.lessonProvider.invalidateUserRetakesForUser(this.lesson.id, this.userId));
-        }
-        return Promise.all(promises).catch(function () {
-            // Ignore errors.
-        }).then(function () {
-            return _this.fetchData();
-        });
-    };
-    /**
-     * Set the retake to view and load its data.
-     *
-     * @param {number}retakeNumber Retake number to set.
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonModLessonUserRetakePage.prototype.setRetake = function (retakeNumber) {
-        var _this = this;
-        this.selectedRetake = retakeNumber;
-        return this.lessonProvider.getUserRetake(this.lessonId, retakeNumber, this.userId).then(function (data) {
-            if (data && data.completed != -1) {
-                // Completed.
-                data.userstats.grade = _this.textUtils.roundToDecimals(data.userstats.grade, 2);
-                data.userstats.timetakenReadable = _this.timeUtils.formatTime(data.userstats.timetotake);
-            }
-            if (data && data.answerpages) {
-                // Format pages data.
-                data.answerpages.forEach(function (page) {
-                    if (_this.lessonProvider.answerPageIsContent(page)) {
-                        page.isContent = true;
-                        if (page.answerdata && page.answerdata.answers) {
-                            page.answerdata.answers.forEach(function (answer) {
-                                // Content pages only have 1 valid field in the answer array.
-                                answer[0] = _this.lessonHelper.getContentPageAnswerDataFromHtml(answer[0]);
-                            });
-                        }
-                    }
-                    else if (_this.lessonProvider.answerPageIsQuestion(page)) {
-                        page.isQuestion = true;
-                        if (page.answerdata && page.answerdata.answers) {
-                            page.answerdata.answers.forEach(function (answer) {
-                                // Only the first field of the answer array requires to be parsed.
-                                answer[0] = _this.lessonHelper.getQuestionPageAnswerDataFromHtml(answer[0]);
-                            });
-                        }
-                    }
-                });
-            }
-            _this.retake = data;
-        });
-    };
-    AddonModLessonUserRetakePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-lesson-user-retake',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\lesson\pages\user-retake\user-retake.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.mod_lesson.detailedstats\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="loaded" (ionRefresh)="doRefresh($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n\n\n    <core-loading [hideUntil]="loaded">\n\n        <ion-list *ngIf="student">\n\n            <!-- Student data. -->\n\n            <a ion-item text-wrap core-user-link [userId]="student.id" [courseId]="courseId" [title]="student.fullname">\n\n                <ion-avatar *ngIf="student.profileimageurl" item-start>\n\n                    <img [src]="student.profileimageurl" [alt]="\'core.pictureof\' | translate:{$a: student.fullname}" core-external-content role="presentation">\n\n                </ion-avatar>\n\n                <h2>{{student.fullname}}</h2>\n\n                <core-progress-bar [progress]="student.bestgrade"></core-progress-bar>\n\n            </a>\n\n\n\n            <!-- Retake selector if there is more than one retake. -->\n\n            <ion-item text-wrap *ngIf="student.attempts && student.attempts.length > 1">\n\n                <ion-label id="addon-mod_lesson-retakeslabel">{{ \'addon.mod_lesson.attemptheader\' | translate }}</ion-label>\n\n                <ion-select [(ngModel)]="selectedRetake" (ionChange)="changeRetake(selectedRetake)" aria-labelledby="addon-mod_lesson-retakeslabel" interface="popover">\n\n                    <ion-option *ngFor="let retake of student.attempts" [value]="retake.try">{{retake.label}}</ion-option>\n\n                </ion-select>\n\n            </ion-item>\n\n\n\n            <!-- Retake stats. -->\n\n            <div *ngIf="retake && retake.userstats && retake.userstats.gradeinfo" class="addon-mod_lesson-userstats">\n\n                <ion-item text-wrap>\n\n                    <ion-row>\n\n                        <ion-col>\n\n                            <p class="item-heading">{{ \'addon.mod_lesson.grade\' | translate }}</p>\n\n                            <p>{{ \'core.percentagenumber\' | translate:{$a: retake.userstats.grade} }}</p>\n\n                        </ion-col>\n\n\n\n                        <ion-col>\n\n                            <p class="item-heading">{{ \'addon.mod_lesson.rawgrade\' | translate }}</p>\n\n                            <p>{{ retake.userstats.gradeinfo.earned }} / {{ retake.userstats.gradeinfo.total }}</p>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-item>\n\n                <ion-item text-wrap>\n\n                    <p class="item-heading">{{ \'addon.mod_lesson.timetaken\' | translate }}</p>\n\n                    <p>{{ retake.userstats.timetakenReadable }}</p>\n\n                </ion-item>\n\n                <ion-item text-wrap>\n\n                    <p class="item-heading">{{ \'addon.mod_lesson.completed\' | translate }}</p>\n\n                    <p>{{ retake.userstats.completed * 1000 | coreFormatDate:"dfmediumdate" }}</p>\n\n                </ion-item>\n\n            </div>\n\n\n\n            <!-- Not completed, no stats. -->\n\n            <ion-item text-wrap *ngIf="retake && (!retake.userstats || !retake.userstats.gradeinfo)">\n\n                {{ \'addon.mod_lesson.notcompleted\' | translate }}\n\n            </ion-item>\n\n\n\n            <!-- Pages. -->\n\n            <ng-container *ngIf="retake">\n\n                <!-- The "text-dimmed" class does nothing, but the same goes for the "dimmed" class in Moodle. -->\n\n                <ion-card *ngFor="let page of retake.answerpages" class="addon-mod_lesson-answerpage" [ngClass]="{\'text-dimmed\': page.grayout}">\n\n                    <ion-card-header text-wrap>\n\n                        <h2>{{page.qtype}}: {{page.title}}</h2>\n\n                    </ion-card-header>\n\n                    <ion-item text-wrap>\n\n                        <p class="item-heading">{{ \'addon.mod_lesson.question\' | translate }}</p>\n\n                        <p><core-format-text [component]="component" [componentId]="lesson.coursemodule" [maxHeight]="50" [text]="page.contents"></core-format-text></p>\n\n                    </ion-item>\n\n                    <ion-item text-wrap>\n\n                        <p class="item-heading">{{ \'addon.mod_lesson.answer\' | translate }}</p>\n\n                    </ion-item>\n\n                    <ion-item text-wrap *ngIf="!page.answerdata || !page.answerdata.answers || !page.answerdata.answers.length">\n\n                        <p>{{ \'addon.mod_lesson.didnotanswerquestion\' | translate }}</p>\n\n                    </ion-item>\n\n                    <div *ngIf="page.answerdata && page.answerdata.answers && page.answerdata.answers.length" class="addon-mod_lesson-answer">\n\n                        <div *ngFor="let answer of page.answerdata.answers">\n\n                            <ion-item text-wrap *ngIf="page.isContent">\n\n                                <!-- Content page, display a button and the content. -->\n\n                                <ion-row>\n\n                                    <ion-col>\n\n                                        <button ion-button block color="light" [disabled]="true">{{ answer[0].buttonText }}</button>\n\n                                    </ion-col>\n\n                                    <ion-col>\n\n                                        <p [innerHTML]="answer[0].content"></p>\n\n                                    </ion-col>\n\n                                </ion-row>\n\n                            </ion-item>\n\n\n\n                            <div *ngIf="page.isQuestion">\n\n                                <!-- Question page, show the right input for the answer. -->\n\n\n\n                                <!-- Truefalse or matching. -->\n\n                                <ion-item text-wrap *ngIf="answer[0].isCheckbox" [ngClass]="{\'addon-mod_lesson-highlight\': answer[0].highlight}">\n\n                                    <ion-label>\n\n                                        <p><core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[0].content"></core-format-text></p>\n\n                                        <ion-badge *ngIf="answer[1]" color="dark">\n\n                                            <core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[1]"></core-format-text>\n\n                                        </ion-badge>\n\n                                    </ion-label>\n\n                                    <ion-checkbox [attr.name]="answer[0].name" [ngModel]="answer[0].checked" [disabled]="true" item-end>\n\n                                    </ion-checkbox>\n\n                                </ion-item>\n\n\n\n                                <!-- Short answer or numeric. -->\n\n                                <ion-item text-wrap *ngIf="answer[0].isText">\n\n                                    <p>{{ answer[0].value }}</p>\n\n                                    <ion-badge *ngIf="answer[1]" color="dark">\n\n                                        <core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[1]"></core-format-text>\n\n                                    </ion-badge>\n\n                                </ion-item>\n\n\n\n                                <!-- Matching. -->\n\n                                <ion-item text-wrap *ngIf="answer[0].isSelect">\n\n                                    <ion-row>\n\n                                        <ion-col>\n\n                                            <p><core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]=" answer[0].content"></core-format-text></p>\n\n                                        </ion-col>\n\n                                        <ion-col>\n\n                                            <p>{{answer[0].value}}</p>\n\n                                            <ion-badge *ngIf="answer[1]" color="dark">\n\n                                                <core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[1]"></core-format-text>\n\n                                            </ion-badge>\n\n                                        </ion-col>\n\n                                    </ion-row>\n\n                                </ion-item>\n\n\n\n                                <!-- Essay or couldn\'t determine. -->\n\n                                <ion-item text-wrap *ngIf="!answer[0].isCheckbox && !answer[0].isText && !answer[0].isSelect">\n\n                                    <p><core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[0]"></core-format-text></p>\n\n                                    <ion-badge *ngIf="answer[1]" color="dark">\n\n                                        <core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[1]"></core-format-text>\n\n                                    </ion-badge>\n\n                                </ion-item>\n\n                            </div>\n\n\n\n                            <ion-item text-wrap *ngIf="!page.isContent && !page.isQuestion">\n\n                                <!-- Another page (end of branch, ...). -->\n\n                                <p><core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[0]"></core-format-text></p>\n\n                                <ion-badge *ngIf="answer[1]" color="dark">\n\n                                    <core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[1]"></core-format-text>\n\n                                </ion-badge>\n\n                            </ion-item>\n\n                        </div>\n\n\n\n                        <ion-item text-wrap *ngIf="page.answerdata.response">\n\n                            <p class="item-heading">{{ \'addon.mod_lesson.response\' | translate }}</p>\n\n                            <p><core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="page.answerdata.response"></core-format-text></p>\n\n                        </ion-item>\n\n                        <ion-item text-wrap *ngIf="page.answerdata.score">\n\n                            <p>{{page.answerdata.score}}</p>\n\n                        </ion-item>\n\n                    </div>\n\n                </ion-card>\n\n            </ng-container>\n\n        </ion-list>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\mod\lesson\pages\user-retake\user-retake.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__["a" /* CoreTextUtilsProvider */],
-            __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
-            __WEBPACK_IMPORTED_MODULE_7__core_user_providers_user__["a" /* CoreUserProvider */], __WEBPACK_IMPORTED_MODULE_6__providers_utils_time__["a" /* CoreTimeUtilsProvider */],
-            __WEBPACK_IMPORTED_MODULE_8__providers_lesson__["a" /* AddonModLessonProvider */], __WEBPACK_IMPORTED_MODULE_9__providers_helper__["a" /* AddonModLessonHelperProvider */]])
-    ], AddonModLessonUserRetakePage);
-    return AddonModLessonUserRetakePage;
-}());
-
-//# sourceMappingURL=user-retake.js.map
-=======
-/**
- * Page that displays a page.
- */
-var AddonModPageIndexPage = /** @class */ (function () {
-    function AddonModPageIndexPage(navParams) {
+var AddonModQuizIndexPage = /** @class */ (function () {
+    function AddonModQuizIndexPage(navParams) {
         this.module = navParams.get('module') || {};
         this.courseId = navParams.get('courseId');
         this.title = this.module.name;
     }
     /**
-     * Update some data based on the page instance.
+     * Update some data based on the quiz instance.
      *
-     * @param {any} page Page instance.
+     * @param {any} quiz Quiz instance.
      */
-    AddonModPageIndexPage.prototype.updateData = function (page) {
-        this.title = page.name || this.title;
+    AddonModQuizIndexPage.prototype.updateData = function (quiz) {
+        this.title = quiz.name || this.title;
+    };
+    /**
+     * User entered the page.
+     */
+    AddonModQuizIndexPage.prototype.ionViewDidEnter = function () {
+        this.quizComponent.ionViewDidEnter();
+    };
+    /**
+     * User left the page.
+     */
+    AddonModQuizIndexPage.prototype.ionViewDidLeave = function () {
+        this.quizComponent.ionViewDidLeave();
     };
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModPageIndexComponent */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModPageIndexComponent */])
-    ], AddonModPageIndexPage.prototype, "pageComponent", void 0);
-    AddonModPageIndexPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModQuizIndexComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModQuizIndexComponent */])
+    ], AddonModQuizIndexPage.prototype, "quizComponent", void 0);
+    AddonModQuizIndexPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-page-index',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\mod\page\pages\index\index.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <!-- The buttons defined by the component will be added in here. -->\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="pageComponent.loaded" (ionRefresh)="pageComponent.doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <addon-mod-page-index [module]="module" [courseId]="courseId" (dataRetrieved)="updateData($event)"></addon-mod-page-index>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\mod\page\pages\index\index.html"*/,
+            selector: 'page-addon-mod-quiz-index',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\mod\quiz\pages\index\index.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <!-- The buttons defined by the component will be added in here. -->\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="quizComponent.loaded" (ionRefresh)="quizComponent.doRefresh($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n\n\n    <addon-mod-quiz-index [module]="module" [courseId]="courseId" (dataRetrieved)="updateData($event)"></addon-mod-quiz-index>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\mod\quiz\pages\index\index.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */]])
-    ], AddonModPageIndexPage);
-    return AddonModPageIndexPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]])
+    ], AddonModQuizIndexPage);
+    return AddonModQuizIndexPage;
 }());
 
 //# sourceMappingURL=index.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 
 /***/ })
 

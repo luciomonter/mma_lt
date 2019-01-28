@@ -1,32 +1,18 @@
 webpackJsonp([108],{
 
-<<<<<<< HEAD
-/***/ 1795:
-=======
-/***/ 1862:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1797:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonCompetencyPlanPageModule", function() { return AddonCompetencyPlanPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonMessagesDiscussionPageModule", function() { return AddonMessagesDiscussionPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__plan__ = __webpack_require__(1919);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonMessageOutputAirnotifierDevicesPageModule", function() { return AddonMessageOutputAirnotifierDevicesPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__devices__ = __webpack_require__(1990);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__discussion__ = __webpack_require__(1930);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pipes_pipes_module__ = __webpack_require__(67);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -52,78 +38,53 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
 
-var AddonCompetencyPlanPageModule = /** @class */ (function () {
-    function AddonCompetencyPlanPageModule() {
+var AddonMessagesDiscussionPageModule = /** @class */ (function () {
+    function AddonMessagesDiscussionPageModule() {
     }
-    AddonCompetencyPlanPageModule = __decorate([
+    AddonMessagesDiscussionPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_6__plan__["a" /* AddonCompetencyPlanPage */],
-=======
-var AddonMessageOutputAirnotifierDevicesPageModule = /** @class */ (function () {
-    function AddonMessageOutputAirnotifierDevicesPageModule() {
-    }
-    AddonMessageOutputAirnotifierDevicesPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__devices__["a" /* AddonMessageOutputAirnotifierDevicesPage */],
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+                __WEBPACK_IMPORTED_MODULE_3__discussion__["a" /* AddonMessagesDiscussionPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
-<<<<<<< HEAD
-                __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__plan__["a" /* AddonCompetencyPlanPage */]),
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_6__pipes_pipes_module__["a" /* CorePipesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__discussion__["a" /* AddonMessagesDiscussionPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], AddonCompetencyPlanPageModule);
-    return AddonCompetencyPlanPageModule;
+    ], AddonMessagesDiscussionPageModule);
+    return AddonMessagesDiscussionPageModule;
 }());
 
-//# sourceMappingURL=plan.module.js.map
+//# sourceMappingURL=discussion.module.js.map
 
 /***/ }),
 
-/***/ 1919:
+/***/ 1930:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonCompetencyPlanPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesDiscussionPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_app__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_split_view_split_view__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_competency__ = __webpack_require__(159);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_helper__ = __webpack_require__(391);
-=======
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__devices__["a" /* AddonMessageOutputAirnotifierDevicesPage */]),
-                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ],
-        })
-    ], AddonMessageOutputAirnotifierDevicesPageModule);
-    return AddonMessageOutputAirnotifierDevicesPageModule;
-}());
-
-//# sourceMappingURL=devices.module.js.map
-
-/***/ }),
-
-/***/ 1990:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessageOutputAirnotifierDevicesPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__addon_pushnotifications_providers_pushnotifications__ = __webpack_require__(257);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_airnotifier__ = __webpack_require__(402);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_messages__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_sync__ = __webpack_require__(394);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__core_user_providers_user__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_utils_utils__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_logger__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__classes_animations__ = __webpack_require__(939);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_ts_md5_dist_md5__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_ts_md5_dist_md5___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_ts_md5_dist_md5__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_moment__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_moment__);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -146,248 +107,642 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-<<<<<<< HEAD
-var __param = (this && this.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
 
 
 
 
-=======
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+
+
+
+
+
+
+
 
 
 
 
 /**
-<<<<<<< HEAD
- * Page that displays a learning plan.
+ * Page that displays a message discussion page.
  */
-var AddonCompetencyPlanPage = /** @class */ (function () {
-    function AddonCompetencyPlanPage(navCtrl, navParams, translate, appProvider, domUtils, svComponent, competencyProvider, competencyHelperProvider) {
+var AddonMessagesDiscussionPage = /** @class */ (function () {
+    function AddonMessagesDiscussionPage(eventsProvider, sitesProvider, navParams, userProvider, navCtrl, messagesSync, domUtils, messagesProvider, logger, utils, appProvider, translate) {
+        var _this = this;
+        this.eventsProvider = eventsProvider;
+        this.userProvider = userProvider;
         this.navCtrl = navCtrl;
-        this.translate = translate;
+        this.messagesSync = messagesSync;
+        this.domUtils = domUtils;
+        this.messagesProvider = messagesProvider;
+        this.utils = utils;
         this.appProvider = appProvider;
-        this.domUtils = domUtils;
-        this.svComponent = svComponent;
-        this.competencyProvider = competencyProvider;
-        this.competencyHelperProvider = competencyHelperProvider;
-        this.planLoaded = false;
-        this.planId = navParams.get('planId');
-=======
- * Page that displays the list of devices.
- */
-var AddonMessageOutputAirnotifierDevicesPage = /** @class */ (function () {
-    function AddonMessageOutputAirnotifierDevicesPage(domUtils, airnotifierProivder, pushNotificationsProvider) {
-        this.domUtils = domUtils;
-        this.airnotifierProivder = airnotifierProivder;
-        this.pushNotificationsProvider = pushNotificationsProvider;
-        this.devices = [];
-        this.devicesLoaded = false;
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+        this.translate = translate;
+        this.unreadMessageFrom = 0;
+        this.messagesBeingSent = 0;
+        this.pagesLoaded = 1;
+        this.lastMessage = { text: '', timecreated: 0 };
+        this.keepMessageMap = {};
+        this.oldContentHeight = 0;
+        this.loaded = false;
+        this.showKeyboard = false;
+        this.canLoadMore = false;
+        this.messages = [];
+        this.showDelete = false;
+        this.canDelete = false;
+        this.scrollBottom = true;
+        this.viewDestroyed = false;
+        this.siteId = sitesProvider.getCurrentSiteId();
+        this.currentUserId = sitesProvider.getCurrentSiteUserId();
+        this.logger = logger.getInstance('AddonMessagesDiscussionPage');
+        this.userId = navParams.get('userId');
+        this.showKeyboard = navParams.get('showKeyboard');
+        // Refresh data if this discussion is synchronized automatically.
+        this.syncObserver = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_6__providers_sync__["a" /* AddonMessagesSyncProvider */].AUTO_SYNCED, function (data) {
+            if (data.userId == _this.userId) {
+                // Fetch messages.
+                _this.fetchData();
+                // Show first warning if any.
+                if (data.warnings && data.warnings[0]) {
+                    _this.domUtils.showErrorModal(data.warnings[0]);
+                }
+            }
+        }, this.siteId);
     }
     /**
-     * View loaded.
+     * Adds a new message to the message list.
+     *
+     * @param {any} message Message to be added.
+     * @param {boolean} [keep=true] If set the keep flag or not.
      */
-<<<<<<< HEAD
-    AddonCompetencyPlanPage.prototype.ionViewDidLoad = function () {
-        var _this = this;
-        this.fetchLearningPlan().finally(function () {
-            _this.planLoaded = true;
-        });
+    AddonMessagesDiscussionPage.prototype.addMessage = function (message, keep) {
+        if (keep === void 0) { keep = true; }
+        // Use smallmessage instead of message ID because ID changes when a message is read.
+        message.hash = __WEBPACK_IMPORTED_MODULE_13_ts_md5_dist_md5__["Md5"].hashAsciiStr(message.smallmessage) + '#' + message.timecreated + '#' + message.useridfrom;
+        if (typeof this.keepMessageMap[message.hash] === 'undefined') {
+            // Message not added to the list. Add it now.
+            this.messages.push(message);
+        }
+        // Message needs to be kept in the list.
+        this.keepMessageMap[message.hash] = keep;
     };
     /**
-     * Fetches the learning plan and updates the view.
+     * Remove a message if it shouldn't be in the list anymore.
      *
-     * @return {Promise<void>} Promise resolved when done.
+     * @param {string} hash Hash of the message to be removed.
      */
-    AddonCompetencyPlanPage.prototype.fetchLearningPlan = function () {
+    AddonMessagesDiscussionPage.prototype.removeMessage = function (hash) {
+        if (this.keepMessageMap[hash]) {
+            // Selected to keep it, clear the flag.
+            this.keepMessageMap[hash] = false;
+            return;
+        }
+        delete this.keepMessageMap[hash];
+        var position = this.messages.findIndex(function (message) {
+            return message.hash == hash;
+        });
+        if (position > 0) {
+            this.messages.splice(position, 1);
+        }
+    };
+    /**
+     * Runs when the page has loaded. This event only happens once per page being created.
+     * If a page leaves but is cached, then this event will not fire again on a subsequent viewing.
+     * Setup code for the page.
+     */
+    AddonMessagesDiscussionPage.prototype.ionViewDidLoad = function () {
         var _this = this;
-        return this.competencyProvider.getLearningPlan(this.planId).then(function (plan) {
-            plan.plan.statusname = _this.getStatusName(plan.plan.status);
-            // Get the user profile image.
-            _this.competencyHelperProvider.getProfile(plan.plan.userid).then(function (user) {
-                _this.user = user;
+        // Disable the profile button if we're already coming from a profile.
+        var backViewPage = this.navCtrl.getPrevious() && this.navCtrl.getPrevious().component.name;
+        this.showProfileLink = !backViewPage || backViewPage !== 'CoreUserProfilePage';
+        // Get the user profile to retrieve the user fullname and image.
+        this.userProvider.getProfile(this.userId, undefined, true).then(function (user) {
+            if (!_this.title) {
+                _this.title = user.fullname;
+            }
+            _this.profileLink = user.profileimageurl;
+        });
+        // Synchronize messages if needed.
+        this.messagesSync.syncDiscussion(this.userId).catch(function () {
+            // Ignore errors.
+        }).then(function (warnings) {
+            if (warnings && warnings[0]) {
+                _this.domUtils.showErrorModal(warnings[0]);
+            }
+            // Fetch the messages for the first time.
+            return _this.fetchData().then(function () {
+                if (!_this.title && _this.messages.length) {
+                    // Didn't receive the fullname via argument. Try to get it from messages.
+                    // It's possible that name cannot be resolved when no messages were yet exchanged.
+                    if (_this.messages[0].useridto != _this.currentUserId) {
+                        _this.title = _this.messages[0].usertofullname || '';
+                    }
+                    else {
+                        _this.title = _this.messages[0].userfromfullname || '';
+                    }
+                }
+            }).catch(function (error) {
+                _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingmessages', true);
+            }).finally(function () {
+                _this.checkCanDelete();
+                _this.resizeContent();
+                _this.loaded = true;
             });
-            _this.plan = plan;
-        }).catch(function (message) {
-            _this.domUtils.showErrorModalDefault(message, 'Error getting learning plan data.');
+        });
+        // Recalculate footer position when keyboard is shown or hidden.
+        this.keyboardObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_3__providers_events__["a" /* CoreEventsProvider */].KEYBOARD_CHANGE, function (kbHeight) {
+            _this.content.resize();
         });
     };
     /**
-     * Navigates to a particular competency.
-     *
-     * @param {number} competencyId
+     * Runs when the page has fully entered and is now the active page.
+     * This event will fire, whether it was the first load or a cached page.
      */
-    AddonCompetencyPlanPage.prototype.openCompetency = function (competencyId) {
-        var navCtrl = this.svComponent ? this.svComponent.getMasterNav() : this.navCtrl;
-        if (this.appProvider.isWide()) {
-            navCtrl.push('AddonCompetencyCompetenciesPage', { competencyId: competencyId, planId: this.planId });
+    AddonMessagesDiscussionPage.prototype.ionViewDidEnter = function () {
+        this.setPolling();
+    };
+    /**
+     * Runs when the page is about to leave and no longer be the active page.
+     */
+    AddonMessagesDiscussionPage.prototype.ionViewWillLeave = function () {
+        this.unsetPolling();
+    };
+    /**
+     * Convenience function to fetch messages.
+     * @return {Promise<any>} Resolved when done.
+     */
+    AddonMessagesDiscussionPage.prototype.fetchData = function () {
+        var _this = this;
+        this.logger.debug("Polling new messages for discussion with user '" + this.userId + "'");
+        if (this.messagesBeingSent > 0) {
+            // We do not poll while a message is being sent or we could confuse the user.
+            // Otherwise, his message would disappear from the list, and he'd have to wait for the interval to check for messages.
+            return Promise.reject(null);
+        }
+        else if (this.fetching) {
+            // Already fetching.
+            return Promise.reject(null);
+        }
+        this.fetching = true;
+        // Wait for synchronization process to finish.
+        return this.messagesSync.waitForSync(this.userId).then(function () {
+            // Fetch messages. Invalidate the cache before fetching.
+            return _this.messagesProvider.invalidateDiscussionCache(_this.userId).catch(function () {
+                // Ignore errors.
+            });
+        }).then(function () {
+            return _this.getDiscussion(_this.pagesLoaded);
+        }).then(function (messages) {
+            if (_this.viewDestroyed) {
+                return Promise.resolve();
+            }
+            // Check if we are at the bottom to scroll it after render.
+            _this.scrollBottom = _this.domUtils.getScrollHeight(_this.content) - _this.domUtils.getScrollTop(_this.content) ===
+                _this.domUtils.getContentHeight(_this.content);
+            if (_this.messagesBeingSent > 0) {
+                // Ignore polling due to a race condition.
+                return Promise.reject(null);
+            }
+            // Add new messages to the list and mark the messages that should still be displayed.
+            messages.forEach(function (message) {
+                _this.addMessage(message);
+            });
+            // Remove messages that shouldn't be in the list anymore.
+            for (var hash in _this.keepMessageMap) {
+                _this.removeMessage(hash);
+            }
+            // Sort the messages.
+            _this.messagesProvider.sortMessages(_this.messages);
+            // Notify that there can be a new message.
+            _this.notifyNewMessage();
+            // Mark retrieved messages as read if they are not.
+            _this.markMessagesAsRead();
+        }).finally(function () {
+            _this.fetching = false;
+        });
+    };
+    /**
+     * Get a discussion. Can load several "pages".
+     *
+     * @param  {number}  pagesToLoad          Number of pages to load.
+     * @param  {number}  [lfReceivedUnread=0] Number of unread received messages already fetched, so fetch will be done from this.
+     * @param  {number}  [lfReceivedRead=0]   Number of read received messages already fetched, so fetch will be done from this.
+     * @param  {number}  [lfSentUnread=0]     Number of unread sent messages already fetched, so fetch will be done from this.
+     * @param  {number}  [lfSentRead=0]       Number of read sent messages already fetched, so fetch will be done from this.
+     * @return {Promise<any>}  Resolved when done.
+     */
+    AddonMessagesDiscussionPage.prototype.getDiscussion = function (pagesToLoad, lfReceivedUnread, lfReceivedRead, lfSentUnread, lfSentRead) {
+        var _this = this;
+        if (lfReceivedUnread === void 0) { lfReceivedUnread = 0; }
+        if (lfReceivedRead === void 0) { lfReceivedRead = 0; }
+        if (lfSentUnread === void 0) { lfSentUnread = 0; }
+        if (lfSentRead === void 0) { lfSentRead = 0; }
+        // Only get offline messages if we're loading the first "page".
+        var excludePending = lfReceivedUnread > 0 || lfReceivedRead > 0 || lfSentUnread > 0 || lfSentRead > 0;
+        // Get next messages.
+        return this.messagesProvider.getDiscussion(this.userId, excludePending, lfReceivedUnread, lfReceivedRead, lfSentUnread, lfSentRead).then(function (result) {
+            pagesToLoad--;
+            if (pagesToLoad > 0 && result.canLoadMore) {
+                // More pages to load. Calculate new limit froms.
+                result.messages.forEach(function (message) {
+                    if (!message.pending) {
+                        if (message.useridfrom == _this.userId) {
+                            if (message.read) {
+                                lfReceivedRead++;
+                            }
+                            else {
+                                lfReceivedUnread++;
+                            }
+                        }
+                        else {
+                            if (message.read) {
+                                lfSentRead++;
+                            }
+                            else {
+                                lfSentUnread++;
+                            }
+                        }
+                    }
+                });
+                // Get next messages.
+                return _this.getDiscussion(pagesToLoad, lfReceivedUnread, lfReceivedRead, lfSentUnread, lfSentRead)
+                    .then(function (nextMessages) {
+                    return result.messages.concat(nextMessages);
+                });
+            }
+            else {
+                // No more messages to load, return them.
+                _this.canLoadMore = result.canLoadMore;
+                return result.messages;
+            }
+        });
+    };
+    /**
+     * Mark messages as read.
+     */
+    AddonMessagesDiscussionPage.prototype.markMessagesAsRead = function () {
+        var _this = this;
+        var readChanged = false;
+        var promises = [];
+        if (this.messagesProvider.isMarkAllMessagesReadEnabled()) {
+            var messageUnreadFound = false;
+            // Mark all messages at a time if one messages is unread.
+            for (var x in this.messages) {
+                var message = this.messages[x];
+                // If an unread message is found, mark all messages as read.
+                if (message.useridfrom != this.currentUserId && message.read == 0) {
+                    messageUnreadFound = true;
+                    break;
+                }
+            }
+            if (messageUnreadFound) {
+                this.setUnreadLabelPosition();
+                promises.push(this.messagesProvider.markAllMessagesRead(this.userId).then(function () {
+                    readChanged = true;
+                    // Mark all messages as read.
+                    _this.messages.forEach(function (message) {
+                        message.read = 1;
+                    });
+                }));
+            }
         }
         else {
-            navCtrl.push('AddonCompetencyCompetencyPage', { competencyId: competencyId, planId: this.planId });
-        }
-    };
-    /**
-     * Convenience function to get the status name translated.
-     *
-     * @param {number} status
-     * @return {string}
-     */
-    AddonCompetencyPlanPage.prototype.getStatusName = function (status) {
-        var statusTranslateName;
-        switch (status) {
-            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].STATUS_DRAFT:
-                statusTranslateName = 'draft';
-                break;
-            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].REVIEW_STATUS_IN_REVIEW:
-                statusTranslateName = 'inreview';
-                break;
-            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].REVIEW_STATUS_WAITING_FOR_REVIEW:
-                statusTranslateName = 'waitingforreview';
-                break;
-            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].STATUS_ACTIVE:
-                statusTranslateName = 'active';
-                break;
-            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].STATUS_COMPLETE:
-                statusTranslateName = 'complete';
-                break;
-            default:
-                // We can use the current status name.
-                return String(status);
-        }
-        return this.translate.instant('addon.competency.planstatus' + statusTranslateName);
-    };
-    /**
-     * Refreshes the learning plan.
-     *
-     * @param {any} refresher Refresher.
-     */
-    AddonCompetencyPlanPage.prototype.refreshLearningPlan = function (refresher) {
-        var _this = this;
-        this.competencyProvider.invalidateLearningPlan(this.planId).finally(function () {
-            _this.fetchLearningPlan().finally(function () {
-=======
-    AddonMessageOutputAirnotifierDevicesPage.prototype.ionViewDidLoad = function () {
-        this.fetchDevices();
-    };
-    /**
-     * Fetches the list of devices.
-     *
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    AddonMessageOutputAirnotifierDevicesPage.prototype.fetchDevices = function () {
-        var _this = this;
-        return this.airnotifierProivder.getUserDevices().then(function (devices) {
-            var pushId = _this.pushNotificationsProvider.getPushId();
-            // Convert enabled to boolean and search current device.
-            devices.forEach(function (device) {
-                device.enable = !!device.enable;
-                device.current = pushId && pushId == device.pushid;
+            this.setUnreadLabelPosition();
+            // Mark each message as read one by one.
+            this.messages.forEach(function (message) {
+                // If the message is unread, call this.messagesProvider.markMessageRead.
+                if (message.useridfrom != _this.currentUserId && message.read == 0) {
+                    promises.push(_this.messagesProvider.markMessageRead(message.id).then(function () {
+                        readChanged = true;
+                        message.read = 1;
+                    }));
+                }
             });
-            _this.devices = devices;
-        }).catch(function (message) {
-            _this.domUtils.showErrorModal(message);
-        }).finally(function () {
-            _this.devicesLoaded = true;
-        });
-    };
-    /**
-     * Update list of devices after a certain time. The purpose is to store the updated data, it won't be reflected in the view.
-     */
-    AddonMessageOutputAirnotifierDevicesPage.prototype.updateDevicesAfterDelay = function () {
-        var _this = this;
-        // Cancel pending updates.
-        if (this.updateTimeout) {
-            clearTimeout(this.updateTimeout);
         }
-        this.updateTimeout = setTimeout(function () {
-            _this.updateTimeout = null;
-            _this.updateDevices();
-        }, 5000);
-    };
-    /**
-     * Fetch devices. The purpose is to store the updated data, it won't be reflected in the view.
-     */
-    AddonMessageOutputAirnotifierDevicesPage.prototype.updateDevices = function () {
-        var _this = this;
-        this.airnotifierProivder.invalidateUserDevices().finally(function () {
-            _this.airnotifierProivder.getUserDevices();
+        Promise.all(promises).finally(function () {
+            if (readChanged) {
+                _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].READ_CHANGED_EVENT, {
+                    userId: _this.userId
+                }, _this.siteId);
+            }
         });
     };
     /**
-     * Refresh the list of devices.
-     *
-     * @param {any} refresher Refresher.
+     * Notify the last message found so discussions list controller can tell if last message should be updated.
      */
-    AddonMessageOutputAirnotifierDevicesPage.prototype.refreshDevices = function (refresher) {
+    AddonMessagesDiscussionPage.prototype.notifyNewMessage = function () {
+        var last = this.messages[this.messages.length - 1];
+        var trigger = false;
+        if (!last) {
+            this.lastMessage = { text: '', timecreated: 0 };
+            trigger = true;
+        }
+        else if (last.text !== this.lastMessage.text || last.timecreated !== this.lastMessage.timecreated) {
+            this.lastMessage = { text: last.text, timecreated: last.timecreated };
+            trigger = true;
+        }
+        if (trigger) {
+            // Update discussions last message.
+            this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].NEW_MESSAGE_EVENT, {
+                userId: this.userId,
+                message: this.lastMessage.text,
+                timecreated: this.lastMessage.timecreated
+            }, this.siteId);
+            // Update navBar links and buttons.
+            var newCanDelete = (last && last.id && this.messages.length == 1) || this.messages.length > 1;
+            if (this.canDelete != newCanDelete) {
+                this.checkCanDelete();
+            }
+        }
+    };
+    /**
+     * Set the place where the unread label position has to be.
+     */
+    AddonMessagesDiscussionPage.prototype.setUnreadLabelPosition = function () {
+        if (this.unreadMessageFrom != 0) {
+            return;
+        }
+        var previousMessageRead = false;
+        for (var x in this.messages) {
+            var message = this.messages[x];
+            if (message.useridfrom != this.currentUserId) {
+                // Place unread from message label only once.
+                message.unreadFrom = message.read == 0 && previousMessageRead;
+                if (message.unreadFrom) {
+                    // Save where the label is placed.
+                    this.unreadMessageFrom = parseInt(message.id, 10);
+                    break;
+                }
+                previousMessageRead = message.read != 0;
+            }
+        }
+        // Do not update the message unread from label on next refresh.
+        if (this.unreadMessageFrom == 0) {
+            // Using negative to indicate the label is not placed but should not be placed.
+            this.unreadMessageFrom = -1;
+        }
+    };
+    /**
+     * Check if there's any message in the list that can be deleted.
+     */
+    AddonMessagesDiscussionPage.prototype.checkCanDelete = function () {
+        // All messages being sent should be at the end of the list.
+        var first = this.messages[0];
+        this.canDelete = first && !first.sending;
+    };
+    /**
+     * Hide unread label when sending messages.
+     */
+    AddonMessagesDiscussionPage.prototype.hideUnreadLabel = function () {
+        if (this.unreadMessageFrom > 0) {
+            for (var x in this.messages) {
+                var message = this.messages[x];
+                if (message.id == this.unreadMessageFrom) {
+                    message.unreadFrom = false;
+                    break;
+                }
+            }
+            // Label hidden.
+            this.unreadMessageFrom = -1;
+        }
+    };
+    /**
+     * Wait until fetching is false.
+     * @return {Promise<void>} Resolved when done.
+     */
+    AddonMessagesDiscussionPage.prototype.waitForFetch = function () {
         var _this = this;
-        this.airnotifierProivder.invalidateUserDevices().finally(function () {
-            _this.fetchDevices().finally(function () {
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
-                refresher.complete();
+        if (!this.fetching) {
+            return Promise.resolve();
+        }
+        var deferred = this.utils.promiseDefer();
+        setTimeout(function () {
+            return _this.waitForFetch().finally(function () {
+                deferred.resolve();
+            });
+        }, 400);
+        return deferred.promise;
+    };
+    /**
+     * Set a polling to get new messages every certain time.
+     */
+    AddonMessagesDiscussionPage.prototype.setPolling = function () {
+        var _this = this;
+        if (!this.polling) {
+            // Start polling.
+            this.polling = setInterval(function () {
+                _this.fetchData().catch(function () {
+                    // Ignore errors.
+                });
+            }, __WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */].POLL_INTERVAL);
+        }
+    };
+    /**
+     * Unset polling.
+     */
+    AddonMessagesDiscussionPage.prototype.unsetPolling = function () {
+        if (this.polling) {
+            this.logger.debug("Cancelling polling for conversation with user '" + this.userId + "'");
+            clearInterval(this.polling);
+            this.polling = undefined;
+        }
+    };
+    /**
+     * Copy message to clipboard
+     *
+     * @param {string} text Message text to be copied.
+     */
+    AddonMessagesDiscussionPage.prototype.copyMessage = function (text) {
+        this.utils.copyToClipboard(text);
+    };
+    /**
+     * Function to delete a message.
+     *
+     * @param {any} message  Message object to delete.
+     * @param {number} index Index where the mesasge is to delete it from the view.
+     */
+    AddonMessagesDiscussionPage.prototype.deleteMessage = function (message, index) {
+        var _this = this;
+        var langKey = message.pending ? 'core.areyousure' : 'addon.messages.deletemessageconfirmation';
+        this.domUtils.showConfirm(this.translate.instant(langKey)).then(function () {
+            var modal = _this.domUtils.showModalLoading('core.deleting', true);
+            return _this.messagesProvider.deleteMessage(message).then(function () {
+                // Remove message from the list without having to wait for re-fetch.
+                _this.messages.splice(index, 1);
+                _this.removeMessage(message.hash);
+                _this.notifyNewMessage();
+                _this.fetchData(); // Re-fetch messages to update cached data.
+            }).finally(function () {
+                modal.dismiss();
+            });
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.messages.errordeletemessage', true);
+        });
+    };
+    /**
+     * Function to load previous messages.
+     *
+     * @param {any} [infiniteScroll] Infinite scroll object.
+     * @return {Promise<any>} Resolved when done.
+     */
+    AddonMessagesDiscussionPage.prototype.loadPrevious = function (infiniteScroll) {
+        var _this = this;
+        // If there is an ongoing fetch, wait for it to finish.
+        return this.waitForFetch().finally(function () {
+            _this.pagesLoaded++;
+            _this.fetchData().catch(function (error) {
+                _this.pagesLoaded--;
+                _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingmessages', true);
+            }).finally(function () {
+                infiniteScroll.complete();
             });
         });
     };
-<<<<<<< HEAD
-    AddonCompetencyPlanPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-competency-plan',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\competency\pages\plan\plan.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title *ngIf="plan">{{plan.plan.name}}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="planLoaded" (ionRefresh)="refreshLearningPlan($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-loading [hideUntil]="planLoaded">\n\n        <ion-card *ngIf="user">\n\n            <ion-item text-wrap>\n\n                <ion-avatar *ngIf="user.profileimageurl && user.profileimageurl !== true" item-start>\n\n                    <img  [src]="user.profileimageurl" [alt]="\'core.pictureof\' | translate:{$a: user.fullname}" core-external-content>\n\n                </ion-avatar>\n\n                <span *ngIf="user.profileimageurl === true" item-start>\n\n                    <ion-icon name="person"></ion-icon>\n\n                </span>\n\n                <h2><core-format-text [text]="user.fullname"></core-format-text></h2>\n\n            </ion-item>\n\n       </ion-card>\n\n        <ion-card *ngIf="plan">\n\n            <ion-list>\n\n                <ion-item text-wrap>\n\n                    <strong>{{ \'addon.competency.status\' | translate }}</strong>:\n\n                    {{ plan.plan.statusname }}\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="plan.plan.duedate > 0">\n\n                    <strong>{{ \'addon.competency.duedate\' | translate }}</strong>:\n\n                    {{ plan.plan.duedate | coreToLocaleString }}\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="plan.plan.template">\n\n                    <strong>{{ \'addon.competency.template\' | translate }}</strong>:\n\n                    {{ plan.plan.template.shortname }}\n\n                </ion-item>\n\n                <ion-item text-wrap>\n\n                    <strong>{{ \'addon.competency.progress\' | translate }}</strong>:\n\n                    {{ \'addon.competency.xcompetenciesproficientoutofy\' | translate: {$a: {x: plan.proficientcompetencycount, y: plan.competencycount} } }}\n\n                    <core-progress-bar [progress]="plan.proficientcompetencypercentage" [text]="plan.proficientcompetencypercentageformatted"></core-progress-bar>\n\n                </ion-item>\n\n            </ion-list>\n\n        </ion-card>\n\n        <ion-card *ngIf="plan">\n\n            <ion-card-header text-wrap>{{ \'addon.competency.learningplancompetencies\' | translate }}</ion-card-header>\n\n            <ion-list>\n\n                <ion-item text-wrap *ngIf="plan.competencycount == 0">\n\n                    {{ \'addon.competency.nocompetencies\' | translate }}\n\n                </ion-item>\n\n                <a ion-item text-wrap *ngFor="let competency of plan.competencies" (click)="openCompetency(competency.competency.id)" [title]="competency.competency.shortname">\n\n                    {{competency.competency.shortname}} <small>{{competency.competency.idnumber}}</small>\n\n                    <ion-badge item-end [color]="competency.usercompetency.proficiency ? \'success\' : \'danger\'">{{ competency.usercompetency.gradename }}</ion-badge>\n\n                </a>\n\n            </ion-list>\n\n        </ion-card>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\addon\competency\pages\plan\plan.html"*/,
-        }),
-        __param(5, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Optional */])()),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */],
-            __WEBPACK_IMPORTED_MODULE_3__providers_app__["a" /* CoreAppProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
-            __WEBPACK_IMPORTED_MODULE_5__components_split_view_split_view__["a" /* CoreSplitViewComponent */], __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */],
-            __WEBPACK_IMPORTED_MODULE_7__providers_helper__["a" /* AddonCompetencyHelperProvider */]])
-    ], AddonCompetencyPlanPage);
-    return AddonCompetencyPlanPage;
-}());
-
-//# sourceMappingURL=plan.js.map
-=======
     /**
-     * Enable or disable a certain device.
-     *
-     * @param {any} device The device object.
-     * @param {boolean} enable True to enable the device, false to disable it.
+     * Content or scroll has been resized. For content, only call it if it's been added on top.
      */
-    AddonMessageOutputAirnotifierDevicesPage.prototype.enableDevice = function (device, enable) {
+    AddonMessagesDiscussionPage.prototype.resizeContent = function () {
         var _this = this;
-        device.updating = true;
-        this.airnotifierProivder.enableDevice(device.id, enable).then(function () {
-            // Update the list of devices since it was modified.
-            _this.updateDevicesAfterDelay();
-        }).catch(function (message) {
-            // Show error and revert change.
-            _this.domUtils.showErrorModal(message);
-            device.enable = !device.enable;
-        }).finally(function () {
-            device.updating = false;
+        var top = this.content.getContentDimensions().scrollTop;
+        this.content.resize();
+        // Wait for new content height to be calculated.
+        setTimeout(function () {
+            // Visible content size changed, maintain the bottom position.
+            if (!_this.viewDestroyed && _this.content && _this.domUtils.getContentHeight(_this.content) != _this.oldContentHeight) {
+                if (!top) {
+                    top = _this.content.getContentDimensions().scrollTop;
+                }
+                top += _this.oldContentHeight - _this.domUtils.getContentHeight(_this.content);
+                _this.oldContentHeight = _this.domUtils.getContentHeight(_this.content);
+                _this.domUtils.scrollTo(_this.content, 0, top, 0);
+            }
         });
+    };
+    /**
+     * Scroll bottom when render has finished.
+     */
+    AddonMessagesDiscussionPage.prototype.scrollToBottom = function () {
+        var _this = this;
+        // Check if scroll is at bottom. If so, scroll bottom after rendering since there might be something new.
+        if (this.scrollBottom) {
+            // Need a timeout to leave time to the view to be rendered.
+            setTimeout(function () {
+                if (!_this.viewDestroyed) {
+                    _this.domUtils.scrollToBottom(_this.content, 0);
+                }
+            });
+            this.scrollBottom = false;
+        }
+    };
+    /**
+     * Sends a message to the server.
+     * @param {string} text Message text.
+     */
+    AddonMessagesDiscussionPage.prototype.sendMessage = function (text) {
+        var _this = this;
+        var message;
+        this.hideUnreadLabel();
+        this.showDelete = false;
+        this.scrollBottom = true;
+        message = {
+            pending: true,
+            sending: true,
+            useridfrom: this.currentUserId,
+            smallmessage: text,
+            text: text,
+            timecreated: new Date().getTime()
+        };
+        this.addMessage(message, false);
+        this.messagesBeingSent++;
+        // If there is an ongoing fetch, wait for it to finish.
+        // Otherwise, if a message is sent while fetching it could disappear until the next fetch.
+        this.waitForFetch().finally(function () {
+            _this.messagesProvider.sendMessage(_this.userId, text).then(function (data) {
+                var promise;
+                _this.messagesBeingSent--;
+                if (data.sent) {
+                    // Message was sent, fetch messages right now.
+                    promise = _this.fetchData();
+                }
+                else {
+                    promise = Promise.reject(null);
+                }
+                promise.catch(function () {
+                    // Fetch failed or is offline message, mark the message as sent.
+                    // If fetch is successful there's no need to mark it because the fetch will already show the message received.
+                    message.sending = false;
+                    if (data.sent) {
+                        // Message sent to server, not pending anymore.
+                        message.pending = false;
+                    }
+                    else if (data.message) {
+                        message.timecreated = data.message.timecreated;
+                    }
+                    _this.notifyNewMessage();
+                });
+            }).catch(function (error) {
+                _this.messagesBeingSent--;
+                // Only close the keyboard if an error happens.
+                // We want the user to be able to send multiple messages without the keyboard being closed.
+                _this.appProvider.closeKeyboard();
+                _this.domUtils.showErrorModalDefault(error, 'addon.messages.messagenotsent', true);
+                _this.removeMessage(message.hash);
+            });
+        });
+    };
+    /**
+     * Check date should be shown on message list for the current message.
+     * If date has changed from previous to current message it should be shown.
+     *
+     * @param {any} message       Current message where to show the date.
+     * @param {any} [prevMessage] Previous message where to compare the date with.
+     * @return {boolean}  If date has changed and should be shown.
+     */
+    AddonMessagesDiscussionPage.prototype.showDate = function (message, prevMessage) {
+        if (!prevMessage) {
+            // First message, show it.
+            return true;
+        }
+        else if (message.pending) {
+            // If pending, it has no date, not show.
+            return false;
+        }
+        // Check if day has changed.
+        return !__WEBPACK_IMPORTED_MODULE_14_moment__(message.timecreated).isSame(prevMessage.timecreated, 'day');
+    };
+    /**
+     * Toggles delete state.
+     */
+    AddonMessagesDiscussionPage.prototype.toggleDelete = function () {
+        this.showDelete = !this.showDelete;
     };
     /**
      * Page destroyed.
      */
-    AddonMessageOutputAirnotifierDevicesPage.prototype.ngOnDestroy = function () {
-        // If there is a pending action to update devices, execute it right now.
-        if (this.updateTimeout) {
-            clearTimeout(this.updateTimeout);
-            this.updateDevices();
-        }
+    AddonMessagesDiscussionPage.prototype.ngOnDestroy = function () {
+        // Unset again, just in case.
+        this.unsetPolling();
+        this.syncObserver && this.syncObserver.off();
+        this.keyboardObserver && this.keyboardObserver.off();
+        this.viewDestroyed = true;
     };
-    AddonMessageOutputAirnotifierDevicesPage = __decorate([
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
+    ], AddonMessagesDiscussionPage.prototype, "content", void 0);
+    AddonMessagesDiscussionPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-message-output-airnotifier-devices',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\messageoutput\airnotifier\pages\devices\devices.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.messageoutput_airnotifier.processorsettingsdesc\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="devicesLoaded" (ionRefresh)="refreshDevices($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="devicesLoaded">\n        <ion-list>\n            <ion-item text-wrap *ngFor="let device of devices">\n                <ion-label [class.core-bold]="device.current">\n                    {{ device.model }}\n                    <span *ngIf="device.current">({{ \'core.currentdevice\' | translate }})</span>\n                </ion-label>\n                <ion-spinner *ngIf="device.updating" item-end></ion-spinner>\n                <ion-toggle [disabled]="device.updating" [(ngModel)]="device.enable" (ngModelChange)="enableDevice(device, device.enable)"></ion-toggle>\n            </ion-item>\n        </ion-list>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\addon\messageoutput\airnotifier\pages\devices\devices.html"*/,
+            selector: 'page-addon-messages-discussion',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\messages\pages\discussion\discussion.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end></ion-buttons>\n\n    </ion-navbar>\n\n    <core-navbar-buttons end>\n\n        <button ion-button icon-only clear="true" (click)="toggleDelete()" [hidden]="!canDelete">\n\n            <ion-icon name="trash"></ion-icon>\n\n        </button>\n\n        <a [hidden]="!showProfileLink" core-user-link [userId]="userId" [attr.aria-label]=" \'core.user.viewprofile\' | translate">\n\n            <img class="button core-bar-button-image" [src]="profileLink" core-external-content onError="this.src=\'assets/img/user-avatar.png\'">\n\n        </a>\n\n    </core-navbar-buttons>\n\n</ion-header>\n\n<ion-content class="has-footer">\n\n    <core-loading [hideUntil]="loaded">\n\n        <!-- Load previous messages. -->\n\n        <ion-infinite-scroll [enabled]="canLoadMore" (ionInfinite)="loadPrevious($event)" position="top">\n\n           <ion-infinite-scroll-content></ion-infinite-scroll-content>\n\n        </ion-infinite-scroll>\n\n        <ion-list class="addon-messages-discussion-container" [attr.aria-live]="polite">\n\n            <ng-container *ngFor="let message of messages; index as index; last as last">\n\n                <ion-chip *ngIf="showDate(message, messages[index - 1])" class="addon-messages-date" color="light">\n\n                    <ion-label>{{ message.timecreated | coreFormatDate: "LL" }}</ion-label>\n\n                </ion-chip>\n\n\n\n                <ion-chip class="addon-messages-unreadfrom" *ngIf="message.unreadFrom" color="light">\n\n                    <ion-label>{{ \'addon.messages.newmessages\' | translate:{$a: title} }}</ion-label>\n\n                    <ion-icon name="arrow-round-down"></ion-icon>\n\n                </ion-chip>\n\n\n\n                <ion-item text-wrap (longPress)="copyMessage(message.smallmessage)" class="addon-message" [class.addon-message-mine]="message.useridfrom == currentUserId" [@coreSlideInOut]="message.useridfrom == currentUserId ? \'\' : \'fromLeft\'">\n\n                    <!-- Some messages have <p> and some others don\'t. Add a <p> so they all have same styles. -->\n\n                    <p class="addon-message-text">\n\n                        <core-format-text (afterRender)="last && scrollToBottom()" [text]="message.text"></core-format-text>\n\n                    </p>\n\n                    <ion-note *ngIf="!message.pending">\n\n                        {{ message.timecreated | coreFormatDate: "dftimedate" }}\n\n                    </ion-note>\n\n                    <ion-note *ngIf="message.pending"><ion-icon name="time"></ion-icon></ion-note>\n\n\n\n                    <button ion-button icon-only clear="true" *ngIf="!message.sending && showDelete" (click)="deleteMessage(message, index)" class="addon-messages-delete-button" [@coreSlideInOut]="\'fromRight\'" [attr.aria-label]=" \'addon.messages.deletemessage\' | translate">\n\n                        <ion-icon name="trash" color="danger"></ion-icon>\n\n                    </button>\n\n                </ion-item>\n\n            </ng-container>\n\n        </ion-list>\n\n        <core-empty-box *ngIf="!messages || messages.length <= 0" icon="chatbubbles" [message]="\'addon.messages.nomessages\' | translate"></core-empty-box>\n\n    </core-loading>\n\n</ion-content>\n\n<ion-footer color="light" class="footer-adjustable">\n\n    <ion-toolbar color="light" position="bottom">\n\n        <core-send-message-form (onSubmit)="sendMessage($event)" [showKeyboard]="showKeyboard" [placeholder]="\'addon.messages.newmessage\' | translate" (onResize)="resizeContent()"></core-send-message-form>\n\n    </ion-toolbar>\n\n</ion-footer>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\messages\pages\discussion\discussion.html"*/,
+            animations: [__WEBPACK_IMPORTED_MODULE_12__classes_animations__["b" /* coreSlideInOut */]]
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_airnotifier__["a" /* AddonMessageOutputAirnotifierProvider */],
-            __WEBPACK_IMPORTED_MODULE_2__addon_pushnotifications_providers_pushnotifications__["a" /* AddonPushNotificationsProvider */]])
-    ], AddonMessageOutputAirnotifierDevicesPage);
-    return AddonMessageOutputAirnotifierDevicesPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_7__core_user_providers_user__["a" /* CoreUserProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_6__providers_sync__["a" /* AddonMessagesSyncProvider */],
+            __WEBPACK_IMPORTED_MODULE_8__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_messages__["a" /* AddonMessagesProvider */], __WEBPACK_IMPORTED_MODULE_10__providers_logger__["a" /* CoreLoggerProvider */],
+            __WEBPACK_IMPORTED_MODULE_9__providers_utils_utils__["a" /* CoreUtilsProvider */], __WEBPACK_IMPORTED_MODULE_11__providers_app__["a" /* CoreAppProvider */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */]])
+    ], AddonMessagesDiscussionPage);
+    return AddonMessagesDiscussionPage;
 }());
 
-//# sourceMappingURL=devices.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+//# sourceMappingURL=discussion.js.map
 
 /***/ })
 

@@ -3,52 +3,17 @@
     "addon.badges.badges": "Märken",
     "addon.badges.contact": "Kontakt",
     "addon.badges.dateawarded": "Utfärdandedatum",
-<<<<<<< HEAD
     "addon.badges.expired": "Den här aktiviteten är stängd på {{$a}} och den är inte längre tillgänglig.",
-=======
-    "addon.badges.expired": "Förfallen",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.badges.expirydate": "Förfallodatum",
     "addon.badges.issuancedetails": "Förfallande av märke",
     "addon.badges.issuerdetails": "Utfärdarens detaljer",
     "addon.badges.issuername": "Utfärdarens namn",
-<<<<<<< HEAD
     "addon.badges.nobadges": "Det finns inga märken tillgängliga.",
     "addon.calendar.calendarevents": "Kalenderhändelser",
     "addon.calendar.errorloadevent": "Fel vid inläsning av händelse.",
     "addon.calendar.errorloadevents": "Fel vid inläsning av händelser",
     "addon.calendar.noevents": "Inga deadlines för aktiviteter",
     "addon.calendar.notifications": "Administration",
-=======
-    "addon.badges.issuerurl": "Utfärdarens URL",
-    "addon.badges.nobadges": "Det finns inga märken tillgängliga.",
-    "addon.badges.warnexpired": "(Det här märket har förfallit!)",
-    "addon.block_activitymodules.pluginname": "Aktiviteter",
-    "addon.block_myoverview.future": "Kommande",
-    "addon.block_myoverview.inprogress": "Pågående",
-    "addon.block_myoverview.morecourses": "Fler kurser",
-    "addon.block_myoverview.nocourses": "Inga kurser",
-    "addon.block_myoverview.past": "Tidigare",
-    "addon.block_myoverview.pluginname": "Kursöversikt",
-    "addon.block_sitemainmenu.pluginname": "Huvudmeny",
-    "addon.calendar.calendar": "Kalender",
-    "addon.calendar.calendarevents": "Kalenderhändelser",
-    "addon.calendar.errorloadevent": "Fel vid inläsning av händelse.",
-    "addon.calendar.errorloadevents": "Fel vid inläsning av händelser",
-    "addon.calendar.eventendtime": "Sluttid/datum",
-    "addon.calendar.eventstarttime": "Starttid/datum",
-    "addon.calendar.gotoactivity": "Gå till aktivitete",
-    "addon.calendar.noevents": "Det finns inga händelser",
-    "addon.calendar.notifications": "Notifikationer",
-    "addon.calendar.typecategory": "Händelse för kategori",
-    "addon.calendar.typeclose": "Stäng händelse",
-    "addon.calendar.typecourse": "Händelse för kurs",
-    "addon.calendar.typedue": "",
-    "addon.calendar.typegradingdue": "",
-    "addon.calendar.typegroup": "Händelse för grupp",
-    "addon.calendar.typesite": "Händelse för webbplats",
-    "addon.calendar.typeuser": "Händelse för användare",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.competency.activities": "Aktiviteter",
     "addon.competency.competencies": "Kompetenser",
     "addon.competency.competenciesmostoftennotproficientincourse": "Kompetenser som oftast ej uppnåtts i denna kurs",
@@ -56,11 +21,7 @@
     "addon.competency.coursecompetencyratingsarenotpushedtouserplans": "Bedömning av kompetenser i denna kurs kommer inte att påverka studieplaner.",
     "addon.competency.coursecompetencyratingsarepushedtouserplans": "Bedömning av kompetenser i denna kurs uppdateras omedelbart i studieplanerna.",
     "addon.competency.crossreferencedcompetencies": "Korsrefererade kompetenser.",
-<<<<<<< HEAD
     "addon.competency.duedate": "Stoppdatum/tid",
-=======
-    "addon.competency.duedate": "Sista datum",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.competency.evidence": "Verifiering",
     "addon.competency.evidence_competencyrule": "Regeln för kompetensen uppfylldes.",
     "addon.competency.evidence_coursecompleted": "Kursen '{{$a}}' genomfördes.",
@@ -75,10 +36,7 @@
     "addon.competency.learningplans": "Studieplaner",
     "addon.competency.myplans": "Mina studieplaner",
     "addon.competency.noactivities": "Inga aktiviteter",
-<<<<<<< HEAD
     "addon.competency.nocompetencies": "Inga kompetenser har skapats för detta ramverk",
-=======
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.competency.nocrossreferencedcompetencies": "Inga andra kompetenser har korsrefererats till denna kompetens.",
     "addon.competency.noevidence": "Inga verifieringar",
     "addon.competency.noplanswerecreated": "Inga studieplaner var skapade.",
@@ -100,18 +58,10 @@
     "addon.competency.userplans": "Studieplaner",
     "addon.competency.xcompetenciesproficientoutofy": "{{$a.x}} av {{$a.y}} kompetenser är uppnådda",
     "addon.competency.xcompetenciesproficientoutofyincourse": "Du har uppnått  {{$a.x}} av {{$a.y}} kompetenser i denna kurs..",
-<<<<<<< HEAD
     "addon.coursecompletion.complete": "Komplett",
     "addon.coursecompletion.completecourse": "",
     "addon.coursecompletion.completed": "Slutfört",
     "addon.coursecompletion.completiondate": "Datum för fullföljande",
-=======
-    "addon.coursecompletion.complete": "",
-    "addon.coursecompletion.completecourse": "Fullföljd kurs",
-    "addon.coursecompletion.completed": "Slutfört",
-    "addon.coursecompletion.completiondate": "Datum för fullföljande",
-    "addon.coursecompletion.completionmenuitem": "Fullföljning",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.coursecompletion.couldnotloadreport": "Det gick inte att läsa in rapporten för fullföljande av kursen, vänligen försök igen senare .",
     "addon.coursecompletion.coursecompletion": "Fullgörande av kurs",
     "addon.coursecompletion.criteria": "Kriterier",
@@ -124,7 +74,6 @@
     "addon.coursecompletion.pending": "Avvaktar",
     "addon.coursecompletion.required": "Obligatorisk",
     "addon.coursecompletion.requiredcriteria": "Obligatoriskt kriterium",
-<<<<<<< HEAD
     "addon.coursecompletion.requirement": "Krav",
     "addon.coursecompletion.status": "Status för märke",
     "addon.coursecompletion.viewcoursereport": "Visa kursrapport",
@@ -146,33 +95,10 @@
     "addon.messages.contacts": "Kontakter",
     "addon.messages.deletemessage": "Radera meddelande",
     "addon.messages.deletemessageconfirmation": "Vill du verkligen radera detta meddelande?\nDet kommer bara att raderas från din egen meddelandehistorik. Användaren som har skickat/fått meddelandet kan fortfarande se det.",
-=======
-    "addon.coursecompletion.requirement": "Förhandskrav",
-    "addon.coursecompletion.status": "Status",
-    "addon.coursecompletion.viewcoursereport": "Visa kursrapport",
-    "addon.files.couldnotloadfiles": "Listan över filer kunde inte läsas in.",
-    "addon.files.emptyfilelist": "Det finns inga filer att visa.",
-    "addon.files.files": "Filer",
-    "addon.files.privatefiles": "Privata filer",
-    "addon.files.sitefiles": "Webbplatsens filer",
-    "addon.messages.addcontact": "Lägg till kontakt",
-    "addon.messages.addtoyourcontacts": "Lägg till dina kontakter",
-    "addon.messages.blocknoncontacts": "Blockera alla nya meddelanden från personer som inte finns med på min kontaktlista.",
-    "addon.messages.contactableprivacy": "Acceptera meddelanden från:",
-    "addon.messages.contactableprivacy_coursemember": "Mina kontaker och alla i mina kurser",
-    "addon.messages.contactableprivacy_onlycontacts": "Bara mina kontakter",
-    "addon.messages.contactableprivacy_site": "Alla på denna webbplats",
-    "addon.messages.contactblocked": "Kontakt blockerad",
-    "addon.messages.contactlistempty": "kontaktlista är tom",
-    "addon.messages.contactname": "Kontakt namn",
-    "addon.messages.contacts": "Kontakter",
-    "addon.messages.deleteallconfirm": "Vill du verkligen radera hela denna konversation?",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.messages.errordeletemessage": "Fel vid borttagning av meddelandet",
     "addon.messages.errorwhileretrievingcontacts": "Fel vid hämtning av kontakter från servern.",
     "addon.messages.errorwhileretrievingdiscussions": "Fel vid hämtning  av diskussionerna från servern.",
     "addon.messages.errorwhileretrievingmessages": "Fel vid hämtning meddelanden från servern.",
-<<<<<<< HEAD
     "addon.messages.message": "Meddelandets brödtext",
     "addon.messages.messagenotsent": "Meddelandet skickades inte, försök igen senare.",
     "addon.messages.messagepreferences": "Välj inställningar för meddelanden",
@@ -184,29 +110,12 @@
     "addon.messages.removecontact": "Ta bort kontakt",
     "addon.messages.send": "skicka",
     "addon.messages.sendmessage": "Skicka meddelande",
-=======
-    "addon.messages.message": "Meddelande",
-    "addon.messages.messagenotsent": "Meddelandet skickades inte, försök igen senare.",
-    "addon.messages.messagepreferences": "Välj inställningar för meddelanden",
-    "addon.messages.messages": "Meddelanden",
-    "addon.messages.newmessage": "Nytt meddelande",
-    "addon.messages.nomessagesfound": "Det gick inte att hitta några nya meddelanden",
-    "addon.messages.noncontacts": "Icke-kontakter",
-    "addon.messages.nousersfound": "Inga användare hittades",
-    "addon.messages.removecontact": "Ta bort kontakt",
-    "addon.messages.removefromyourcontacts": "Ta bort från dina kontakter",
-    "addon.messages.searchcombined": "Sök personer och meddelanden",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.messages.type_blocked": "blockerad",
     "addon.messages.type_offline": "Offline",
     "addon.messages.type_online": "Online",
     "addon.messages.type_search": "Sökresultat",
     "addon.messages.type_strangers": "Andra",
-<<<<<<< HEAD
     "addon.messages.unblockcontact": "Ta bort blockering av användare",
-=======
-    "addon.messages.you": "Du:",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_assign.addattempt": "Tillåt ett nytt försök",
     "addon.mod_assign.addnewattempt": "Lägg till ett nytt försök",
     "addon.mod_assign.addnewattemptfromprevious": "Lägg till ett nytt försök baserat på tidigare inlämning",
@@ -233,18 +142,10 @@
     "addon.mod_assign.editingstatus": "Redigerar status",
     "addon.mod_assign.editsubmission": "Redigera min inskickade uppgiftslösning",
     "addon.mod_assign.extensionduedate": "Förlängning av stoppdatum",
-<<<<<<< HEAD
     "addon.mod_assign.grade": "Betyg/omdöme",
     "addon.mod_assign.graded": "Betygssatt",
     "addon.mod_assign.gradedby": "Betygssatt av",
     "addon.mod_assign.gradedon": "Betygssatt den",
-=======
-    "addon.mod_assign.grade": "Betyg",
-    "addon.mod_assign.graded": "Betygssatt",
-    "addon.mod_assign.gradedby": "Betygssatt av",
-    "addon.mod_assign.gradedon": "Betygssatt den",
-    "addon.mod_assign.gradelocked": "Detta betyg är låst eller skrevs över i betygsboken/betygsrapporten.",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_assign.gradeoutof": "Betyg ur {{$a}}",
     "addon.mod_assign.gradingstatus": "Betygssättningsstatus",
     "addon.mod_assign.groupsubmissionsettings": "Gruppinlämning inställningar",
@@ -258,22 +159,12 @@
     "addon.mod_assign.markingworkflowstatereadyforrelease": "Redo för",
     "addon.mod_assign.markingworkflowstatereadyforreview": "Bedöming färdig",
     "addon.mod_assign.markingworkflowstatereleased": "Released",
-<<<<<<< HEAD
     "addon.mod_assign.multipleteams": "Medlem av mer än en grupp",
-=======
-    "addon.mod_assign.modulenameplural": "Uppgifter",
-    "addon.mod_assign.multipleteams": "Medlem av mer än en grupp",
-    "addon.mod_assign.multipleteams_desc": "Denna inlämning är en gruppuppgift. Just nu är du medlem i flera grupper. För att kunna göra en inlämning måste du ingår i endast en grupp. V.g. be din lärare att ändra din grupptillhörighet.",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_assign.noattempt": "Inga försök",
     "addon.mod_assign.nomoresubmissionsaccepted": "Inga fler inlämningar accepteras",
     "addon.mod_assign.noonlinesubmissions": "Denna inlämningsuppgift kräver inte att du lämnar in något online.",
     "addon.mod_assign.nosubmission": "Inget har lämnats in för denna inlämningsuppgift",
     "addon.mod_assign.noteam": "Inte medlem i någon grupp",
-<<<<<<< HEAD
-=======
-    "addon.mod_assign.noteam_desc": "Denna inlämning är en gruppuppgift. Just nu är du inte medlem i någon grupp. V.g. be din lärare att lägga in dig i en grupp.",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_assign.notgraded": "Ej betygssatt",
     "addon.mod_assign.numberofdraftsubmissions": "Utkast",
     "addon.mod_assign.numberofparticipants": "Deltagare",
@@ -307,24 +198,12 @@
     "addon.mod_assign.userswhoneedtosubmit": "Användare som behöver lämna in: {{$a}}",
     "addon.mod_assign.userwithid": "Användare men Id {{id}}",
     "addon.mod_assign.viewsubmission": "Visa inlämning",
-<<<<<<< HEAD
     "addon.mod_assign_feedback_comments.pluginname": "Återkoppling/kommentarer",
     "addon.mod_assign_feedback_editpdf.pluginname": "Kommentera PDF",
     "addon.mod_assign_submission_comments.pluginname": "Inlämningskommentarer",
     "addon.mod_assign_submission_file.pluginname": "Filinlämningar",
     "addon.mod_assign_submission_onlinetext.pluginname": "Namn  på plugin-program för arkiv",
     "addon.mod_book.errorchapter": "Fel vid läsning av kapitel i boken.",
-=======
-    "addon.mod_assign.wordlimit": "Maxgräns för antal ord",
-    "addon.mod_assign_feedback_comments.pluginname": "Återkoppling/kommentarer",
-    "addon.mod_assign_feedback_editpdf.pluginname": "Kommentera PDF",
-    "addon.mod_assign_feedback_file.pluginname": "Maximal filstorlek",
-    "addon.mod_assign_submission_comments.pluginname": "Inlämningskommentarer",
-    "addon.mod_assign_submission_file.pluginname": "Filinlämningar",
-    "addon.mod_assign_submission_onlinetext.pluginname": "Online textinlämning",
-    "addon.mod_book.errorchapter": "Fel vid läsning av bokkapitel",
-    "addon.mod_book.modulenameplural": "Böcker",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_chat.beep": "pipsignal",
     "addon.mod_chat.currentusers": "Aktuella användare",
     "addon.mod_chat.enterchat": "Klicka här för att gå in i direktsamtalet nu",
@@ -337,10 +216,6 @@
     "addon.mod_chat.messagebeepsyou": "{{$a}} har just skickat en pipsignal till Dig",
     "addon.mod_chat.messageenter": "{{$a}} har precis kommit in i detta direktsamtal",
     "addon.mod_chat.messageexit": "{{$a}} har lämnat det här direktsamtalet",
-<<<<<<< HEAD
-=======
-    "addon.mod_chat.modulenameplural": "Direktsamtal",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_chat.mustbeonlinetosendmessages": "Du måste vara online för att skicka meddelanden",
     "addon.mod_chat.nomessages": "Inga meddelanden än",
     "addon.mod_chat.send": "Skicka",
@@ -351,10 +226,6 @@
     "addon.mod_choice.errorgetchoice": "Fel vid hämtning av opinionsdata",
     "addon.mod_choice.expired": "Den här aktiviteten är stängd på {{$a}} och den är inte längre tillgänglig.",
     "addon.mod_choice.full": "(Full)",
-<<<<<<< HEAD
-=======
-    "addon.mod_choice.modulenameplural": "Opinionsundersökningar",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_choice.noresultsviewable": "Det går f.n. inte att visa resultaten.",
     "addon.mod_choice.notopenyet": "Den här aktiviteten är tyvärr inte tillgänglig förrän {{$a}}",
     "addon.mod_choice.numberofuser": "Antal användare",
@@ -382,13 +253,7 @@
     "addon.mod_data.entrieslefttoaddtoview": "Du måste lägga till {{$a.entrieslefttoview}} fler bidrag innan Du kan få se de andra deltagarnas bidrag.",
     "addon.mod_data.expired": "Den här aktiviteten stängdes tyvärr den {{$a}} och är inte längre tillgänglig.",
     "addon.mod_data.fields": "Fält",
-<<<<<<< HEAD
     "addon.mod_data.menuchoose": "Välj...",
-=======
-    "addon.mod_data.foundrecords": "Funna poster: {{$a.num}}/{{$a.max}} (<a href=\"{{$a.reseturl}}\">Filter för återställning</a>)",
-    "addon.mod_data.menuchoose": "Välj...",
-    "addon.mod_data.modulenameplural": "Databaser",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_data.more": "Fler",
     "addon.mod_data.nomatch": "Det gick inte att hitta några matchande bidrag!",
     "addon.mod_data.norecords": "Det finns inga bidrag i databasen",
@@ -417,10 +282,6 @@
     "addon.mod_feedback.feedbackopen": "Öppna denna Egen enkät vid den här tiden",
     "addon.mod_feedback.mapcourses": "\"Mappa\" Egen enkät till kurser",
     "addon.mod_feedback.mode": "Läge",
-<<<<<<< HEAD
-=======
-    "addon.mod_feedback.modulenameplural": "Egen enkät",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_feedback.next_page": "Nästa sida",
     "addon.mod_feedback.non_anonymous": "Inte-anonym",
     "addon.mod_feedback.non_anonymous_entries": "Inga anonyma bidrag",
@@ -440,11 +301,7 @@
     "addon.mod_feedback.started": "startad",
     "addon.mod_feedback.this_feedback_is_already_submitted": "Du har redan fullföljt den här Egen enkät",
     "addon.mod_folder.emptyfilelist": "Det finns inga filer att visa",
-<<<<<<< HEAD
     "addon.mod_folder.errorwhilegettingfolder": "Fel vid hämtning av mapp-data",
-=======
-    "addon.mod_folder.modulenameplural": "Mappar",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_forum.addanewdiscussion": "Lägg till ett nytt diskussionsämne",
     "addon.mod_forum.addanewquestion": "Lägg till en ny fråga",
     "addon.mod_forum.addanewtopic": "Lägg till ett nytt ämne",
@@ -467,10 +324,6 @@
     "addon.mod_forum.modeflatnewestfirst": "Visa svarslista, med det senaste först",
     "addon.mod_forum.modeflatoldestfirst": "Visa svarslista, med det äldsta först",
     "addon.mod_forum.modenested": "Visa svar i nästlad form",
-<<<<<<< HEAD
-=======
-    "addon.mod_forum.modulenameplural": "Forum",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_forum.numdiscussions": "{{numdiscussions}} diskussioner",
     "addon.mod_forum.numreplies": "{{numreplies}} svar",
     "addon.mod_forum.posttoforum": "Publicera inlägget i forumet",
@@ -479,21 +332,13 @@
     "addon.mod_forum.subject": "Ämne",
     "addon.mod_forum.unread": "Oläst",
     "addon.mod_forum.unreadpostsnumber": "{{$a}} olästa inlägg",
-<<<<<<< HEAD
     "addon.mod_glossary.attachment": "Bifoga märke med meddelande",
     "addon.mod_glossary.browsemode": "Läge för förhandsgranskning",
-=======
-    "addon.mod_glossary.addentry": "Lägg till bidrag",
-    "addon.mod_glossary.aliases": "Synonymer",
-    "addon.mod_glossary.attachment": "Bifogad fil",
-    "addon.mod_glossary.browsemode": "Bläddrar bland poster",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_glossary.byalphabet": "Alfabetiskt",
     "addon.mod_glossary.byauthor": "Sortera efter författare",
     "addon.mod_glossary.bynewestfirst": "Nyaste först",
     "addon.mod_glossary.byrecentlyupdated": "Nyligen uppdaterade",
     "addon.mod_glossary.bysearch": "Sök",
-<<<<<<< HEAD
     "addon.mod_glossary.casesensitive": "Använd standarduttryck",
     "addon.mod_glossary.categories": "Kurskategorier",
     "addon.mod_glossary.entrypendingapproval": "Detta inlägg väntar på godkännande",
@@ -503,26 +348,6 @@
     "addon.mod_glossary.noentriesfound": "Inga inlägg hittades",
     "addon.mod_glossary.searchquery": "",
     "addon.mod_imscp.deploymenterror": "Innehållspaket fel!",
-=======
-    "addon.mod_glossary.casesensitive": "Det här bidraget gör <br />gör skillnad på stor och liten bokstav",
-    "addon.mod_glossary.categories": "Kategorier",
-    "addon.mod_glossary.concept": "Begrepp",
-    "addon.mod_glossary.definition": "Definition",
-    "addon.mod_glossary.entrypendingapproval": "Detta inlägg väntar på godkännande",
-    "addon.mod_glossary.entryusedynalink": "Det här bidraget bör<br /> vara automatiskt länkat",
-    "addon.mod_glossary.errconceptalreadyexists": "Det här begreppet finns redan med. Det är inte tillåtet med dubbleringar i den här ord- och begreppslistan.",
-    "addon.mod_glossary.errorloadingentries": "Ett fel uppstod vid inläsning av inläggen",
-    "addon.mod_glossary.errorloadingentry": "Ett fel uppstod vid inläsning av inlägget",
-    "addon.mod_glossary.errorloadingglossary": "Ett fel uppstod vid inläsning av ordboken",
-    "addon.mod_glossary.fillfields": "'Begrepp' och definition' är obligatoriska fält",
-    "addon.mod_glossary.fullmatch": "Matcha hela ord bara<br /><small>när de är automatiskt länkade</small>",
-    "addon.mod_glossary.linking": "Automatisk länkning",
-    "addon.mod_glossary.modulenameplural": "Ord- och begreppslistor",
-    "addon.mod_glossary.noentriesfound": "Inga inlägg hittades",
-    "addon.mod_glossary.searchquery": "",
-    "addon.mod_imscp.deploymenterror": "Fel med innehållspaket!",
-    "addon.mod_imscp.modulenameplural": "Innehållspaket av typ IMS",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_imscp.showmoduledescription": "Visa beskrivning",
     "addon.mod_lesson.answer": "Svar",
     "addon.mod_lesson.attempt": "Försök: {{$a}}",
@@ -562,10 +387,6 @@
     "addon.mod_lesson.lowtime": "Låg tid",
     "addon.mod_lesson.maximumnumberofattemptsreached": "Du har uppnått maximalt antal tillåtna försök - Du flyttas nu vidare till nästa sida.",
     "addon.mod_lesson.modattemptsnoteacher": "Upprepad visning för studenter/elever/deltagare/lärande fungerar bara för dem.",
-<<<<<<< HEAD
-=======
-    "addon.mod_lesson.modulenameplural": "Lektioner",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_lesson.noanswer": "Det finns inget angivet svar",
     "addon.mod_lesson.nolessonattempts": "Det har inte gjorts några försök att genomföra den här lektionen.",
     "addon.mod_lesson.notcompleted": "Inte avslutad",
@@ -605,10 +426,6 @@
     "addon.mod_lti.errorinvalidlaunchurl": "URL är ogiltig",
     "addon.mod_lti.launchactivity": "Starta aktiviteten",
     "addon.mod_page.errorwhileloadingthepage": "Fel vid laddning av sidans innehåll.",
-<<<<<<< HEAD
-=======
-    "addon.mod_page.modulenameplural": "Sidor",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_quiz.attemptfirst": "Första försök",
     "addon.mod_quiz.attemptlast": "Senaste försök",
     "addon.mod_quiz.attemptnumber": "Försök",
@@ -617,11 +434,6 @@
     "addon.mod_quiz.comment": "Kommentar",
     "addon.mod_quiz.completedon": "Fullgjord den",
     "addon.mod_quiz.confirmclose": "Du håller på att avsluta det här försöket. När Du väl har avslutat försöket kommer Du inte längre att kunna ändra Dina svar.",
-<<<<<<< HEAD
-=======
-    "addon.mod_quiz.confirmstart": "Det här testet har en tidsbegränsning på {{$a}}. Tiden startar då du öppnar testet och du måste lämna in dina svar innen tiden är slut. Är du säker på att du vill börja nu?",
-    "addon.mod_quiz.confirmstartheader": "Test med tidsbegränsning",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_quiz.connectionerror": "Nätverksanslutning förlorade (autospara misslyckades).\n\nAnteckna alla svar som angavs på webbplatsen de sista minuterna på papper, försöka sedan att återansluta.\n\nNär anslutningen har återupprättats, bör dina svar sparas och detta meddelande kommer att försvinna.",
     "addon.mod_quiz.continueattemptquiz": "Fortsätt med det senaste försöket",
     "addon.mod_quiz.continuepreview": "Fortsätt med den senaste förhandsgranskningen",
@@ -633,10 +445,6 @@
     "addon.mod_quiz.grademethod": "Betygsättningsmetod",
     "addon.mod_quiz.gradesofar": "{{$a.method}}: {{$a.mygrade}} / {{$a.quizgrade}}.",
     "addon.mod_quiz.marks": "Poäng",
-<<<<<<< HEAD
-=======
-    "addon.mod_quiz.modulenameplural": "Test",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_quiz.mustbesubmittedby": "Detta försöket måste skickas in av {{$a}}.",
     "addon.mod_quiz.noquestions": "Inga frågor har ännu lagts till",
     "addon.mod_quiz.noreviewattempt": "Du har inte rätt att granska det här försöket. ",
@@ -650,10 +458,6 @@
     "addon.mod_quiz.preview": "Förhandsgranska",
     "addon.mod_quiz.previewquiznow": "Förhandsgranska testet nu",
     "addon.mod_quiz.question": "Fråga",
-<<<<<<< HEAD
-=======
-    "addon.mod_quiz.quiznavigation": "Navigation i test",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_quiz.quizpassword": "Lösenord för test",
     "addon.mod_quiz.reattemptquiz": "Gör om testet",
     "addon.mod_quiz.requirepasswordmessage": "För att få göra testet måste Du ha tillgång tilll lösenordet",
@@ -679,10 +483,6 @@
     "addon.mod_quiz.timetaken": "Tid för genomförande",
     "addon.mod_quiz.yourfinalgradeis": "Ditt slutgiltiga betyg för detta test är {{$a}}.",
     "addon.mod_resource.errorwhileloadingthecontent": "Fel vid laddning av innehåll.",
-<<<<<<< HEAD
-=======
-    "addon.mod_resource.modulenameplural": "Filer",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_resource.openthefile": "Öppna filen",
     "addon.mod_scorm.asset": "Tillgång",
     "addon.mod_scorm.assetlaunched": "Tillgång - visad",
@@ -718,10 +518,6 @@
     "addon.mod_scorm.incomplete": "Inte komplett",
     "addon.mod_scorm.lastattempt": "Senaste försöket",
     "addon.mod_scorm.mode": "Läge",
-<<<<<<< HEAD
-=======
-    "addon.mod_scorm.modulenameplural": "Scormpaket (flera)",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_scorm.newattempt": "Påbörja ett nytt försök",
     "addon.mod_scorm.noattemptsallowed": "Antal tillåtna försök",
     "addon.mod_scorm.noattemptsmade": "Antal försök som Du har genomfört",
@@ -741,17 +537,9 @@
     "addon.mod_survey.errorgetsurvey": "Fel vid hämtning av enkätdata",
     "addon.mod_survey.ifoundthat": "Jag har funnit att",
     "addon.mod_survey.ipreferthat": "Jag föredrar att",
-<<<<<<< HEAD
     "addon.mod_survey.responses": "Svar",
     "addon.mod_survey.results": "Resultat",
     "addon.mod_url.accessurl": "Gå till webbadressen",
-=======
-    "addon.mod_survey.modulenameplural": "Färdiga enkäter",
-    "addon.mod_survey.responses": "Svar",
-    "addon.mod_survey.results": "Resultat",
-    "addon.mod_url.accessurl": "Gå till webbadressen",
-    "addon.mod_url.modulenameplural": "URLer",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_url.pointingtourl": "Resursens pekar till följande webbadress",
     "addon.mod_wiki.cannoteditpage": "Du kan inte redigera den här sidan.",
     "addon.mod_wiki.createpage": "Skapa sida",
@@ -760,18 +548,11 @@
     "addon.mod_wiki.errornowikiavailable": "Det finns ingen Wiki tillgänglig som kan visas",
     "addon.mod_wiki.gowikihome": "Wiki hem",
     "addon.mod_wiki.map": "Karta",
-<<<<<<< HEAD
-=======
-    "addon.mod_wiki.modulenameplural": "Wikis",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_wiki.newpagehdr": "Ny sida",
     "addon.mod_wiki.newpagetitle": "Ny titel på sida",
     "addon.mod_wiki.nocontent": "Det finns inget innehåll för den här sidan",
     "addon.mod_wiki.notingroup": "Inte i grupp",
-<<<<<<< HEAD
     "addon.mod_wiki.page": "Sida",
-=======
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_wiki.pageexists": "Den här sidan finns redan, länkning dit pågår",
     "addon.mod_wiki.pagename": "Namn på sida",
     "addon.mod_wiki.subwiki": "Subwiki",
@@ -786,15 +567,8 @@
     "addon.mod_workshop.assessmentsettings": "Inställningar för bedömning/värdering/betygssättning",
     "addon.mod_workshop.assessmentweight": "Bedömnings viktning",
     "addon.mod_workshop.assignedassessments": "Tilldelade inlämningar att bedöma",
-<<<<<<< HEAD
     "addon.mod_workshop.conclusion": "Slutsats",
     "addon.mod_workshop.createsubmission": "Skicka in",
-=======
-    "addon.mod_workshop.assignedassessmentsnone": "Du har ingen tilldelad inlämning att bedöma",
-    "addon.mod_workshop.conclusion": "Slutsats",
-    "addon.mod_workshop.createsubmission": "Skicka in",
-    "addon.mod_workshop.deletesubmission": "Radera inlämning",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_workshop.editsubmission": "Redigera inskickad uppgiftslösning",
     "addon.mod_workshop.feedbackauthor": "Återkoppling för författaren",
     "addon.mod_workshop.feedbackby": "Återkoppling från {{$a}}",
@@ -808,19 +582,11 @@
     "addon.mod_workshop.gradinggradecalculated": "Beräknade betyg för bedömning",
     "addon.mod_workshop.gradinggradeof": "Betyg för bedömning (av {{$a}})",
     "addon.mod_workshop.gradinggradeover": "Åsidosätt betyg för bedömning",
-<<<<<<< HEAD
-=======
-    "addon.mod_workshop.modulenameplural": "Workshops",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_workshop.nogradeyet": "Inga betyg än",
     "addon.mod_workshop.notassessed": "Ännu inte bedömd",
     "addon.mod_workshop.notoverridden": "Ej överskriden",
     "addon.mod_workshop.noyoursubmission": "Du har inte skickat in Ditt arbete ännu",
-<<<<<<< HEAD
     "addon.mod_workshop.overallfeedback": "övergripande återkoppling",
-=======
-    "addon.mod_workshop.overallfeedback": "Övergripande återkoppling",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.mod_workshop.publishedsubmissions": "Inskickade uppgiftslösningar som har offentliggjorts",
     "addon.mod_workshop.publishsubmission": "Publicera inlämning",
     "addon.mod_workshop.publishsubmission_help": "Publicerade inlämningar är tillgängliga för andra när workshopen är stängd.",
@@ -831,7 +597,6 @@
     "addon.mod_workshop.submissiongrade": "Bedömning/värdering/betygssättning av inskickat bidrag",
     "addon.mod_workshop.submissiongradeof": "Betyg för inlämning (från {{$a}})",
     "addon.mod_workshop.submissiontitle": "Titel",
-<<<<<<< HEAD
     "addon.mod_workshop.weightinfo": "Viktning: {{$a}}",
     "addon.mod_workshop.yourassessment": "Din bedömning",
     "addon.mod_workshop.yourgrades": "Dina betyg",
@@ -850,36 +615,10 @@
     "addon.notifications.errorgetnotifications": "Fel att få meddelanden",
     "addon.notifications.notificationpreferences": "Välj inställningar för notiser",
     "addon.notifications.notifications": "Administration",
-=======
-    "addon.mod_workshop.userplan": "Workshop planerare",
-    "addon.mod_workshop.weightinfo": "Viktning: {{$a}}",
-    "addon.mod_workshop.yourassessment": "Bedömning/värdering/betygssättning av dig själv",
-    "addon.mod_workshop.yourassessmentfor": "Din utvärdering av {{$a}}",
-    "addon.mod_workshop.yourgrades": "Dina betyg",
-    "addon.mod_workshop.yoursubmission": "Din inlämning",
-    "addon.mod_workshop_assessment_accumulative.dimensioncommentfor": "Kommentar till {{$a}}",
-    "addon.mod_workshop_assessment_accumulative.dimensiongradefor": "Betyg för {{$a}}",
-    "addon.mod_workshop_assessment_comments.dimensioncommentfor": "Kommentar till {{$a}}",
-    "addon.mod_workshop_assessment_numerrors.dimensioncommentfor": "Kommentar till {{$a}}",
-    "addon.mod_workshop_assessment_numerrors.dimensiongradefor": "Betyg för {{$a}}",
-    "addon.notes.addnewnote": "Lägg till en ny anteckning",
-    "addon.notes.coursenotes": "Anteckningar för kurs",
-    "addon.notes.nonotes": "Det finns ännu inga anteckningar av den här typen",
-    "addon.notes.note": "Anteckning",
-    "addon.notes.notes": "Anteckningar",
-    "addon.notes.personalnotes": "Personliga anteckningar",
-    "addon.notes.publishstate": "Sammanhang",
-    "addon.notes.sitenotes": "Anteckningar på webbplatsnivå",
-    "addon.notes.userwithid": "Användare med ID {{id}}",
-    "addon.notifications.errorgetnotifications": "Fel att få meddelanden",
-    "addon.notifications.notificationpreferences": "Välj inställningar för notiser",
-    "addon.notifications.notifications": "Meddelanden",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "addon.notifications.therearentnotificationsyet": "Det finns inga meddelanden",
     "assets.countries.AD": "Andorra",
     "assets.countries.AE": "Förenade Arabemiraten",
     "assets.countries.AF": "Afghanistan",
-<<<<<<< HEAD
     "assets.countries.AG": "Antigua och Barbuda",
     "assets.countries.AI": "Anguilla",
     "assets.countries.AL": "Albanien",
@@ -889,57 +628,32 @@
     "assets.countries.AQ": "Antarktis",
     "assets.countries.AR": "Argentina",
     "assets.countries.AS": "Amerikanska Samoa",
-=======
-    "assets.countries.AI": "Anguilla",
-    "assets.countries.AL": "Albanien",
-    "assets.countries.AM": "Armenien",
-    "assets.countries.AO": "Angola",
-    "assets.countries.AQ": "Antarktis",
-    "assets.countries.AR": "Argentina",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.AT": "Österrike",
     "assets.countries.AU": "Australien",
     "assets.countries.AW": "Aruba",
     "assets.countries.AX": "Åland",
-<<<<<<< HEAD
     "assets.countries.AZ": "Azerbajdzjan",
     "assets.countries.BA": "Bosnien och Hercegovina",
-=======
-    "assets.countries.AZ": "Azerbadjan",
-    "assets.countries.BA": "Bosnien och Herzegovina",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.BB": "Barbados",
     "assets.countries.BD": "Bangladesh",
     "assets.countries.BE": "Belgien",
     "assets.countries.BF": "Burkina Faso",
     "assets.countries.BG": "Bulgarien",
-<<<<<<< HEAD
     "assets.countries.BH": "Bahrain",
     "assets.countries.BI": "Burundi",
     "assets.countries.BJ": "Benin",
     "assets.countries.BL": "S:t Barthélemy",
     "assets.countries.BM": "Bermuda",
     "assets.countries.BN": "Brunei",
-=======
-    "assets.countries.BH": "Bahrein",
-    "assets.countries.BI": "Burundi",
-    "assets.countries.BJ": "Benin",
-    "assets.countries.BL": "Saint Barthélemy",
-    "assets.countries.BM": "Bermudas",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.BO": "Bolivia",
     "assets.countries.BR": "Brasilien",
     "assets.countries.BS": "Bahamas",
     "assets.countries.BT": "Bhutan",
-<<<<<<< HEAD
     "assets.countries.BV": "Bouvetön",
-=======
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.BW": "Botswana",
     "assets.countries.BY": "Vitryssland",
     "assets.countries.BZ": "Belize",
     "assets.countries.CA": "Kanada",
-<<<<<<< HEAD
     "assets.countries.CC": "Kokosöarna",
     "assets.countries.CD": "Kongo-Kinshasa",
     "assets.countries.CF": "Centralafrikanska republiken",
@@ -947,27 +661,15 @@
     "assets.countries.CH": "Schweiz",
     "assets.countries.CI": "Elfenbenskusten",
     "assets.countries.CK": "Cooköarna",
-=======
-    "assets.countries.CF": "Centralafrikanska Republiken",
-    "assets.countries.CG": "Kongo",
-    "assets.countries.CH": "Schweiz",
-    "assets.countries.CI": "Elfenbenskusten",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.CL": "Chile",
     "assets.countries.CM": "Kamerun",
     "assets.countries.CN": "Kina",
     "assets.countries.CO": "Colombia",
     "assets.countries.CR": "Costa Rica",
-<<<<<<< HEAD
     "assets.countries.CS": "Serbien och Montenegro",
     "assets.countries.CU": "Kuba",
     "assets.countries.CV": "Kap Verde",
     "assets.countries.CX": "Julön",
-=======
-    "assets.countries.CU": "Kuba",
-    "assets.countries.CV": "Kap Verde",
-    "assets.countries.CW": "Curaçao",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.CY": "Cypern",
     "assets.countries.CZ": "Tjeckien",
     "assets.countries.DE": "Tyskland",
@@ -984,11 +686,7 @@
     "assets.countries.ES": "Spanien",
     "assets.countries.ET": "Etiopien",
     "assets.countries.FI": "Finland",
-<<<<<<< HEAD
     "assets.countries.FJ": "Fiji",
-=======
-    "assets.countries.FJ": "Fijiöarna",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.FK": "Falklandsöarna",
     "assets.countries.FM": "Mikronesien",
     "assets.countries.FO": "Färöarna",
@@ -1005,23 +703,15 @@
     "assets.countries.GM": "Gambia",
     "assets.countries.GN": "Guinea",
     "assets.countries.GP": "Guadeloupe",
-<<<<<<< HEAD
     "assets.countries.GQ": "Ekvatorialguinea",
     "assets.countries.GR": "Grekland",
     "assets.countries.GS": "Sydgeorgien och Södra Sandwichöarna",
-=======
-    "assets.countries.GR": "Grekland",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.GT": "Guatemala",
     "assets.countries.GU": "Guam",
     "assets.countries.GW": "Guinea-Bissau",
     "assets.countries.GY": "Guyana",
-<<<<<<< HEAD
     "assets.countries.HK": "Hongkong (S.A.R. Kina)",
     "assets.countries.HM": "Heard- och McDonaldöarna",
-=======
-    "assets.countries.HK": "Hong Kong",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.HN": "Honduras",
     "assets.countries.HR": "Kroatien",
     "assets.countries.HT": "Haiti",
@@ -1029,13 +719,9 @@
     "assets.countries.ID": "Indonesien",
     "assets.countries.IE": "Irland",
     "assets.countries.IL": "Israel",
-<<<<<<< HEAD
     "assets.countries.IM": "Isle of Man",
     "assets.countries.IN": "Indien",
     "assets.countries.IO": "Brittiska Indiska oceanöarna",
-=======
-    "assets.countries.IN": "Indien",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.IQ": "Irak",
     "assets.countries.IR": "Iran",
     "assets.countries.IS": "Island",
@@ -1045,7 +731,6 @@
     "assets.countries.JO": "Jordanien",
     "assets.countries.JP": "Japan",
     "assets.countries.KE": "Kenya",
-<<<<<<< HEAD
     "assets.countries.KG": "Kirgizistan",
     "assets.countries.KH": "Kambodja",
     "assets.countries.KI": "Kiribati",
@@ -1059,21 +744,6 @@
     "assets.countries.LA": "Laos",
     "assets.countries.LB": "Libanon",
     "assets.countries.LC": "S:t Lucia",
-=======
-    "assets.countries.KG": "Kirgistan",
-    "assets.countries.KH": "Kambodja",
-    "assets.countries.KI": "Kiribati",
-    "assets.countries.KM": "Comoros",
-    "assets.countries.KN": "Saint Kitts And Nevis",
-    "assets.countries.KP": "Nordkorea",
-    "assets.countries.KR": "Sydkorea",
-    "assets.countries.KW": "Kuwait",
-    "assets.countries.KY": "Cayman Islands",
-    "assets.countries.KZ": "Kazakhstan",
-    "assets.countries.LA": "Laos",
-    "assets.countries.LB": "Libanon",
-    "assets.countries.LC": "Saint Lucia",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.LI": "Liechtenstein",
     "assets.countries.LK": "Sri Lanka",
     "assets.countries.LR": "Liberia",
@@ -1086,29 +756,17 @@
     "assets.countries.MC": "Monaco",
     "assets.countries.MD": "Moldavien",
     "assets.countries.ME": "Montenegro",
-<<<<<<< HEAD
     "assets.countries.MF": "S:t Martin",
     "assets.countries.MG": "Madagaskar",
     "assets.countries.MH": "Marshallöarna",
-=======
-    "assets.countries.MF": "Saint Martin",
-    "assets.countries.MG": "Madagaskar",
-    "assets.countries.MH": "Marshall öarna",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.MK": "Makedonien",
     "assets.countries.ML": "Mali",
     "assets.countries.MM": "Myanmar",
     "assets.countries.MN": "Mongoliet",
-<<<<<<< HEAD
     "assets.countries.MO": "Macao (S.A.R. Kina)",
     "assets.countries.MP": "Nordmarianerna",
     "assets.countries.MQ": "Martinique",
     "assets.countries.MR": "Mauretanien",
-=======
-    "assets.countries.MO": "Macao",
-    "assets.countries.MQ": "Martinique",
-    "assets.countries.MR": "Mauritanien",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.MS": "Montserrat",
     "assets.countries.MT": "Malta",
     "assets.countries.MU": "Mauritius",
@@ -1116,7 +774,6 @@
     "assets.countries.MW": "Malawi",
     "assets.countries.MX": "Mexiko",
     "assets.countries.MY": "Malaysia",
-<<<<<<< HEAD
     "assets.countries.MZ": "Moçambique",
     "assets.countries.NA": "Namibia",
     "assets.countries.NC": "Nya Kaledonien",
@@ -1125,16 +782,6 @@
     "assets.countries.NG": "Nigeria",
     "assets.countries.NI": "Nicaragua",
     "assets.countries.NL": "Nederländerna",
-=======
-    "assets.countries.MZ": "Mozambique",
-    "assets.countries.NA": "Mozambique",
-    "assets.countries.NC": "Nya Kaledonien",
-    "assets.countries.NE": "Niger",
-    "assets.countries.NF": "Norfolk Island",
-    "assets.countries.NG": "Nigeria",
-    "assets.countries.NI": "Nicaragua",
-    "assets.countries.NL": "Holland",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.NO": "Norge",
     "assets.countries.NP": "Nepal",
     "assets.countries.NR": "Nauru",
@@ -1143,7 +790,6 @@
     "assets.countries.OM": "Oman",
     "assets.countries.PA": "Panama",
     "assets.countries.PE": "Peru",
-<<<<<<< HEAD
     "assets.countries.PF": "Franska Polynesien",
     "assets.countries.PG": "Papua Nya Guinea",
     "assets.countries.PH": "Filippinerna",
@@ -1153,17 +799,6 @@
     "assets.countries.PN": "Pitcairn",
     "assets.countries.PR": "Puerto Rico",
     "assets.countries.PS": "Palestinska territoriet",
-=======
-    "assets.countries.PF": "French Polynesia",
-    "assets.countries.PG": "Papua Nya Guinea",
-    "assets.countries.PH": "Filipinerna",
-    "assets.countries.PK": "Pakistan",
-    "assets.countries.PL": "Polen",
-    "assets.countries.PM": "Saint Pierre And Miquelon",
-    "assets.countries.PN": "Pitcairn",
-    "assets.countries.PR": "Puerto Rico",
-    "assets.countries.PS": "Palestina",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.PT": "Portugal",
     "assets.countries.PW": "Palau",
     "assets.countries.PY": "Paraguay",
@@ -1174,31 +809,20 @@
     "assets.countries.RU": "Ryssland",
     "assets.countries.RW": "Rwanda",
     "assets.countries.SA": "Saudiarabien",
-<<<<<<< HEAD
     "assets.countries.SB": "Salomonöarna",
-=======
-    "assets.countries.SB": "Solomon öarna",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.SC": "Seychellerna",
     "assets.countries.SD": "Sudan",
     "assets.countries.SE": "Sverige",
     "assets.countries.SG": "Singapore",
-<<<<<<< HEAD
     "assets.countries.SH": "S:t Helena",
     "assets.countries.SI": "Slovenien",
     "assets.countries.SJ": "Svalbard och Jan Mayen",
-=======
-    "assets.countries.SH": "St. Helena",
-    "assets.countries.SI": "Slovenien",
-    "assets.countries.SJ": "Svalbard och Jan Mayen-öarna",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.SK": "Slovakien",
     "assets.countries.SL": "Sierra Leone",
     "assets.countries.SM": "San Marino",
     "assets.countries.SN": "Senegal",
     "assets.countries.SO": "Somalia",
     "assets.countries.SR": "Surinam",
-<<<<<<< HEAD
     "assets.countries.ST": "São Tomé och Príncipe",
     "assets.countries.SV": "El Salvador",
     "assets.countries.SY": "Syrien",
@@ -1211,35 +835,16 @@
     "assets.countries.TJ": "Tadzjikistan",
     "assets.countries.TK": "Tokelau",
     "assets.countries.TL": "Östtimor",
-=======
-    "assets.countries.ST": "Sao Tome And Principe",
-    "assets.countries.SV": "El Salvador",
-    "assets.countries.SY": "Syrien",
-    "assets.countries.SZ": "Swaziland",
-    "assets.countries.TC": "Turks And Caicos Islands",
-    "assets.countries.TD": "Tcad",
-    "assets.countries.TF": "French Southern Territories",
-    "assets.countries.TG": "Togo",
-    "assets.countries.TH": "Thailand",
-    "assets.countries.TJ": "Tajikistan",
-    "assets.countries.TK": "Tokelau",
-    "assets.countries.TL": "Timor-Leste",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.TM": "Turkmenistan",
     "assets.countries.TN": "Tunisien",
     "assets.countries.TO": "Tonga",
     "assets.countries.TR": "Turkiet",
-<<<<<<< HEAD
     "assets.countries.TT": "Trinidad och Tobago",
-=======
-    "assets.countries.TT": "Trinidad ochTobago",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.TV": "Tuvalu",
     "assets.countries.TW": "Taiwan",
     "assets.countries.TZ": "Tanzania",
     "assets.countries.UA": "Ukraina",
     "assets.countries.UG": "Uganda",
-<<<<<<< HEAD
     "assets.countries.UM": "USA:s yttre öar",
     "assets.countries.US": "USA",
     "assets.countries.UY": "Uruguay",
@@ -1252,53 +857,13 @@
     "assets.countries.VN": "Vietnam",
     "assets.countries.VU": "Vanuatu",
     "assets.countries.WF": "Wallis- och Futunaöarna",
-=======
-    "assets.countries.UM": "United States Minor Outlying Islands",
-    "assets.countries.US": "USA",
-    "assets.countries.UY": "Uruguay",
-    "assets.countries.UZ": "Uzbekistan",
-    "assets.countries.VA": "Vatikanen",
-    "assets.countries.VC": "Saint Vincent And The Grenadines",
-    "assets.countries.VE": "Venezuela",
-    "assets.countries.VG": "Virgin Islands, British",
-    "assets.countries.VI": "Virgin Islands, U.S.",
-    "assets.countries.VN": "Vietnam",
-    "assets.countries.VU": "Vanuatu",
-    "assets.countries.WF": "Wallis And Futuna",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "assets.countries.WS": "Samoa",
     "assets.countries.YE": "Jemen",
     "assets.countries.YT": "Mayotte",
     "assets.countries.ZA": "Sydafrika",
     "assets.countries.ZM": "Zambia",
     "assets.countries.ZW": "Zimbabwe",
-<<<<<<< HEAD
     "assets.countries.ZZ": "okänd eller ogiltig regionkod",
-=======
-    "assets.mimetypes.application/epub_zip": "EPUB bok",
-    "assets.mimetypes.application/msword": "Word-dokument",
-    "assets.mimetypes.application/pdf": "PDF-dokument",
-    "assets.mimetypes.application/vnd.moodle.backup": "Moodle säkerhetskopia",
-    "assets.mimetypes.application/vnd.ms-excel": "Kalkylblad Excel",
-    "assets.mimetypes.application/vnd.ms-powerpoint": "Powerpoint presentation",
-    "assets.mimetypes.application/vnd.openxmlformats-officedocument.presentationml.presentation": "Powerpoint presentation",
-    "assets.mimetypes.application/vnd.openxmlformats-officedocument.presentationml.slideshow": "Powerpoint bildspel",
-    "assets.mimetypes.application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": "Excel",
-    "assets.mimetypes.application/vnd.openxmlformats-officedocument.spreadsheetml.template": "Excel-mall",
-    "assets.mimetypes.application/vnd.openxmlformats-officedocument.wordprocessingml.document": "Word-dokument",
-    "assets.mimetypes.archive": "Arkiv ({{$a.EXT}})",
-    "assets.mimetypes.audio": "Ljudfil ({{$a.EXT}})",
-    "assets.mimetypes.default": "{{$a.mimetype}}",
-    "assets.mimetypes.document/unknown": "fil",
-    "assets.mimetypes.image": "Bild ({{$a.MIMETYPE2}})",
-    "assets.mimetypes.text/html": "HTML-dokument",
-    "assets.mimetypes.text/plain": "textfil",
-    "assets.mimetypes.text/rtf": "RTF-dokument",
-    "core.accounts": "Konton",
-    "core.add": "Lägg till",
-    "core.ago": "För {{$a}} sedan",
-    "core.all": "Alla",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.allparticipants": "Alla deltagare",
     "core.android": "Android",
     "core.answer": "Svar",
@@ -1315,11 +880,7 @@
     "core.clicktohideshow": "Klicka för att expandera eller fälla ihop",
     "core.clicktoseefull": "Klicka för att se hela innehållet",
     "core.close": "Stäng",
-<<<<<<< HEAD
     "core.comments": "Dina kommentarer",
-=======
-    "core.comments": "Kommentarer",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.commentscount": "Kommentarer ({{$a}})",
     "core.completion-alt-auto-fail": "Fullföljd (uppnådde inte godkänt resultat)",
     "core.completion-alt-auto-n": "Inte avslutad: {{$a}}",
@@ -1343,35 +904,22 @@
     "core.course.contents": "Innehåll",
     "core.course.couldnotloadsectioncontent": "Det gick inte att läsa sektionens innehåll. Vänligen försök igen senare.",
     "core.course.couldnotloadsections": "Det gick inte att läsa sektionen. Vänligen försök igen senare.",
-<<<<<<< HEAD
-=======
-    "core.course.coursesummary": "Sammanfattning av kurs",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.course.errordownloadingsection": "Fel vid nedladdning av sektion",
     "core.course.errorgetmodule": "Fel vid hämtning av data",
     "core.course.hiddenfromstudents": "Dolt för studenter/deltagare/elever/lärande",
     "core.course.nocontentavailable": "Inget innehåll tillgängligt för tillfället.",
     "core.course.overriddennotice": "Ditt sammanfattningsbetyg för den här aktiviteten har justerats manuellt.",
-<<<<<<< HEAD
-=======
-    "core.course.sections": "Sektioner",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.coursedetails": "Kursinformation",
     "core.courses.allowguests": "Denna kurs tillåter gäster.",
     "core.courses.availablecourses": "Tillgängliga kurser",
     "core.courses.categories": "Kurskategorier",
     "core.courses.confirmselfenrol": "Är du säker att du vill registrera dig i den här kursen ?",
     "core.courses.courses": "Kurser",
-<<<<<<< HEAD
     "core.courses.enrolme": "Koppla mig",
-=======
-    "core.courses.enrolme": "Registrera mig",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.courses.errorloadcourses": "Ett fel uppstod vid inläsning av kursen",
     "core.courses.errorsearching": "Fel uppstod vid sökning",
     "core.courses.errorselfenrol": "Fel uppstod vid registrering",
     "core.courses.filtermycourses": "Filtrera mina kurser",
-<<<<<<< HEAD
     "core.courses.frontpage": "Ingångssidan",
     "core.courses.future": "Kommande",
     "core.courses.inprogress": "Pågående",
@@ -1394,43 +942,21 @@
     "core.courses.paypalaccepted": "Betalningar via Paypal accepterade",
     "core.courses.pluginname": "Kursöversikt",
     "core.courses.search": "Sök...",
-=======
-    "core.courses.frontpage": "Ingångssida",
-    "core.courses.mycourses": "Mina kurser",
-    "core.courses.mymoodle": "Mitt Moodle",
-    "core.courses.nocourses": "Det finns ingen kursinformation att visa.",
-    "core.courses.nocoursesyet": "Inga kurser i denna kategori",
-    "core.courses.nosearchresults": "Inga resultat",
-    "core.courses.notenroled": "Du är inte registrerad i den här kursen",
-    "core.courses.notenrollable": "Du kan inte självregistrera dig i kursen",
-    "core.courses.password": "Kursnyckel",
-    "core.courses.paymentrequired": "För att få tillgång till den här kursen måste Du betala först.",
-    "core.courses.paypalaccepted": "Betalningar via Paypal accepterade",
-    "core.courses.search": "Sök",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.courses.searchcourses": "Sök kurser",
     "core.courses.searchcoursesadvice": "Du kan använda knappen \"Sök kurser\" för att få tillgång som gäst eller registrera dig på kurser som tillåter det .",
     "core.courses.selfenrolment": "Kursnyckel (Student)",
     "core.courses.sendpaymentbutton": "Skicka betalning via Paypal",
-<<<<<<< HEAD
     "core.courses.sortbycourses": "Sortera efter kurser",
     "core.courses.sortbydates": "Sortera efter datum",
     "core.courses.timeline": "Tidslinje",
-=======
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.courses.totalcoursesearchresults": "Total antal kurser: {{$a}}",
     "core.date": "Datum",
     "core.day": "dag",
     "core.days": "dagar",
     "core.decsep": ",",
     "core.delete": "Ta bort",
-<<<<<<< HEAD
     "core.deleting": "Tar bort",
     "core.description": "Introduktion",
-=======
-    "core.deleting": "ta bort",
-    "core.description": "Beskrivning",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.dfdayweekmonth": "ddd, D MMM",
     "core.dflastweekdate": "ddd",
     "core.dfmediumdate": "",
@@ -1448,11 +974,7 @@
     "core.erroropenfilenoextension": "Fel vid öppning av filen: Filen saknar definition",
     "core.erroropenpopup": "Aktiviteten försöker öppna en popup . Detta stöds inte i den här appen.",
     "core.filename": "Filnamn",
-<<<<<<< HEAD
     "core.fileuploader.audio": "Ljudfil ({{$a.EXT}})",
-=======
-    "core.fileuploader.audio": "Audio",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.fileuploader.camera": "Kamera",
     "core.fileuploader.confirmuploadfile": "Du är på väg att ladda upp {{size}}. Är du säker på att du vill fortsätta?",
     "core.fileuploader.errorcapturingaudio": "Fel med att spela in ljud",
@@ -1461,33 +983,21 @@
     "core.fileuploader.errorgettingimagealbum": "Fel att få bild från album.",
     "core.fileuploader.errormustbeonlinetoupload": "Du måste vara online för att ladda upp filer.",
     "core.fileuploader.errornoapp": "Du behöver att ha en app installerat för att utföra den här åtgärden.",
-<<<<<<< HEAD
     "core.fileuploader.errorreadingfile": "Fel i samband med läsningen av filen  \"{{$a}}\"",
     "core.fileuploader.errorwhileuploading": "Ett fel uppstod under filöverföringen.",
     "core.fileuploader.file": "Filinlämningar",
     "core.fileuploader.filesofthesetypes": "Dessa filtyper kan bifogas i inlämningsuppgiften",
-=======
-    "core.fileuploader.errorreadingfile": "Fel vid läsning av fil.",
-    "core.fileuploader.errorwhileuploading": "Ett fel uppstod under filöverföringen.",
-    "core.fileuploader.file": "Fil",
-    "core.fileuploader.filesofthesetypes": "Accepterade filtyper:",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.fileuploader.fileuploaded": "Fil laddades upp",
     "core.fileuploader.invalidfiletype": "filtypen {{$a}} kan inte accepteras",
     "core.fileuploader.more": "Fler",
     "core.fileuploader.photoalbums": "Fotoalbum",
     "core.fileuploader.readingfile": "Läsa fil",
     "core.fileuploader.uploadafile": "Ladda upp en fil",
-<<<<<<< HEAD
     "core.fileuploader.uploading": "Laddar upp...",
-=======
-    "core.fileuploader.uploading": "Laddar upp",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.fileuploader.video": "Video",
     "core.folder": "Katalog",
     "core.forcepasswordchangenotice": "Du måste använda Ditt lösenord för att kunna fortsätta.",
     "core.fulllistofcourses": "Alla kurser",
-<<<<<<< HEAD
     "core.grades.average": "Medel",
     "core.grades.badgrade": "Det betyg som har avgivits är ogiltigt",
     "core.grades.contributiontocoursetotal": "Bidrag till totalen för kursen",
@@ -1495,26 +1005,13 @@
     "core.grades.grade": "Betyg/omdöme",
     "core.grades.grades": "Betyg",
     "core.grades.itemname": "Namn på komponent",
-=======
-    "core.grades.average": "Medelvärde",
-    "core.grades.badgrade": "Det betyg som har avgivits är ogiltigt",
-    "core.grades.contributiontocoursetotal": "Bidrag till totalen för kursen",
-    "core.grades.feedback": "Återkoppling",
-    "core.grades.grade": "Betyg",
-    "core.grades.gradeitem": "Komponent för betyg/omdöme",
-    "core.grades.grades": "Betyg/omdömen",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.grades.lettergrade": "Bokstavsbetyg/omdöme",
     "core.grades.nogradesreturned": "Inga bokstavsbetyg har returnerats",
     "core.grades.nooutcome": "Inget resultat",
     "core.grades.percentage": "Procenttal",
     "core.grades.range": "Omfång",
-<<<<<<< HEAD
     "core.grades.rank": "Rangordna",
     "core.grades.viewgrades": "Visa betyg/omdömen",
-=======
-    "core.grades.rank": "Ranking",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.grades.weight": "vikt",
     "core.groupsseparate": "Olika grupper",
     "core.groupsvisible": "Synliga grupper",
@@ -1523,16 +1020,11 @@
     "core.hour": "timme",
     "core.hours": "timmar",
     "core.humanreadablesize": "{{size}} {{unit}}",
-<<<<<<< HEAD
     "core.image": "Bild ({{$a.MIMETYPE2}})",
-=======
-    "core.image": "Bild",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.imageviewer": "Bildvisare",
     "core.info": "Information",
     "core.ios": "IOS",
     "core.labelsep": ":",
-<<<<<<< HEAD
     "core.lastmodified": "Senast modifierad",
     "core.lastsync": "Senaste synkronisering",
     "core.list": "Visa lista",
@@ -1542,18 +1034,6 @@
     "core.login.cancel": "Avbryt",
     "core.login.confirmdeletesite": "Är du säker på att du vill ta bort webbsidan {{sitename}}?",
     "core.login.connect": "Anslut",
-=======
-    "core.lastaccess": "Senaste access",
-    "core.lastmodified": "Senast modifierad",
-    "core.list": "Lista",
-    "core.listsep": ";",
-    "core.location": "Plats",
-    "core.login.auth_email": "E-postbaserad autenticering",
-    "core.login.authenticating": "Autentisera",
-    "core.login.cancel": "Avbryt",
-    "core.login.confirmdeletesite": "Är du säker på att du vill ta bort webbsidan {{sitename}}?",
-    "core.login.connect": "Anslut!",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.login.connecttomoodle": "Anslut till Moodle",
     "core.login.createaccount": "Skapa mitt nya konto",
     "core.login.createuserandpass": "Skapa ett nytt användarnamn och lösenord för att logga in med.",
@@ -1569,18 +1049,10 @@
     "core.login.helpmelogin": "<p> För att logga in måste du kontrollera att: </ p> 1. Moodle webbplats är version 2.4 eller högre <br /> 2. Moodle administratören har aktiverat Mobil åtkomst <br... /> <br /> <p> För att testa appen på en Moodle demo site skriv <i> lärare </ i> eller <i> elev </ i> i <i>  i fält för Användarnamn </ i>och klicka på <b> Lägg till knapp </ b>. </ p> <a href='http://docs.moodle.org/en/Mobile_app' target='_blank'> Besök Moodle webbplats för mer detaljerad Moodle information och hjälp. </ a> </ p>",
     "core.login.instructions": "Instruktioner",
     "core.login.invalidaccount": "Kontrollera dina inloggningsuppgifter stämmer eller be webbplatsadministratören att kontrollera webbplatsens konfiguration",
-<<<<<<< HEAD
     "core.login.invalidemail": "Ogiltig e-postadress",
     "core.login.invalidmoodleversion": "Ogiltig Moodle version. Lägsta version som krävs är",
     "core.login.invalidsite": "Den webbadress är ogiltig.",
     "core.login.invalidurl": "Ogiltig url",
-=======
-    "core.login.invaliddate": "Ogiltigt datum",
-    "core.login.invalidemail": "Ogiltig e-postadress",
-    "core.login.invalidmoodleversion": "Ogiltig Moodle version. Lägsta version som krävs är",
-    "core.login.invalidsite": "Den webbadress är ogiltig.",
-    "core.login.invalidurl": "Ogiltig URL angiven",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.login.localmobileunexpectedresponse": "Kontrollen för Moodle mobila funktioner returnerade  ett oväntat svar. Du kommer att autentiseras med mobila standard tjänsten.",
     "core.login.login": "Logga in",
     "core.login.loginbutton": "Logga In!",
@@ -1590,10 +1062,6 @@
     "core.login.missingfirstname": "Förnamn saknas",
     "core.login.missinglastname": "Efternamn saknas",
     "core.login.mobileservicesnotenabled": "Mobila tjänster är inte aktiverade på din sida. Vänligen kontakta din Moodleadministrator om du tycker att mobil åtkomst ska aktiveras.",
-<<<<<<< HEAD
-=======
-    "core.login.mustconfirm": "Du måste bekräfta Din inloggning.",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.login.newaccount": "Nytt konto",
     "core.login.newsitedescription": "Ange webbadressen till din Moodle webbplats. Observera att den kan vara konfigurerad så att den inte fungerar med appen",
     "core.login.notloggedin": "Du måste vara inloggad.",
@@ -1606,10 +1074,6 @@
     "core.login.policyagreement": "Avtal angående webbplatsens policy.",
     "core.login.policyagreementclick": "Klicka här för att läsa avtalet angående webbplatsens policy.",
     "core.login.potentialidps": "Logga in med ditt konto på:",
-<<<<<<< HEAD
-=======
-    "core.login.profileinvaliddata": "Ogiltigt värde",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.login.reconnect": "Anslut",
     "core.login.reconnectdescription": "Din autentiseringsnyckel är ogiltig eller har upphört att gälla. Anslut till sidan på nytt",
     "core.login.reconnectssodescription": "Din autentiseringsnyckel är ogiltig eller har upphört att gälla. Anslut till sidan på nytt. Du måste logga in på webbsidan via ett webbläsarfönster",
@@ -1630,15 +1094,11 @@
     "core.mainmenu.changesite": "Byt webbsida",
     "core.mainmenu.help": "Hjälp",
     "core.mainmenu.logout": "Logga ut",
-<<<<<<< HEAD
     "core.mainmenu.mycourses": "Mina kurser",
-=======
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.mainmenu.website": "Webbsida",
     "core.maxsizeandattachments": "Maximal storlek för nya filer: {{$a.size}}, max bilagor: {{$a.attachments}}",
     "core.min": "minut",
     "core.mins": "minuter",
-<<<<<<< HEAD
     "core.mod_assign": "Uppgift",
     "core.mod_assignment": "Uppgift",
     "core.mod_book": "Bok",
@@ -1647,15 +1107,6 @@
     "core.mod_data": "Databas",
     "core.mod_database": "Databas",
     "core.mod_external-tool": "External Tool",
-=======
-    "core.mod_assign": "Inlämningsuppgift",
-    "core.mod_assignment": "Uppgift (2.2)",
-    "core.mod_book": "Bok",
-    "core.mod_chat": "Direktsamtal",
-    "core.mod_choice": "Opinionsundersökning",
-    "core.mod_data": "Databas",
-    "core.mod_database": "Databas",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.mod_feedback": "Egen enkät",
     "core.mod_file": "Fil",
     "core.mod_folder": "Mapp",
@@ -1665,7 +1116,6 @@
     "core.mod_imscp": "Innehållspaket av typ IMS",
     "core.mod_label": "Etikett",
     "core.mod_lesson": "Lektion",
-<<<<<<< HEAD
     "core.mod_lti": "External tool",
     "core.mod_page": "Sida",
     "core.mod_quiz": "Test",
@@ -1676,18 +1126,6 @@
     "core.mod_wiki": "Wiki",
     "core.mod_workshop": "Workshop",
     "core.moduleintro": "Beskrivning",
-=======
-    "core.mod_page": "Sida",
-    "core.mod_quiz": "Test",
-    "core.mod_resource": "Resurs",
-    "core.mod_scorm": "SCORM-paket",
-    "core.mod_survey": "Färdig enkät",
-    "core.mod_url": "URL",
-    "core.mod_wiki": "Wiki",
-    "core.mod_workshop": "Workshop",
-    "core.moduleintro": "Beskrivning",
-    "core.more": "mer",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.mygroups": "Mina grupper",
     "core.name": "Namn",
     "core.networkerrormsg": "Nätverket är inte aktiverat eller fungerar inte",
@@ -1697,22 +1135,14 @@
     "core.nocomments": "Inga kommentarer",
     "core.nograde": "Inget betyg",
     "core.none": "Ingen",
-<<<<<<< HEAD
     "core.nopasswordchangeforced": "Du kan inte gå vidare utan att ändra Ditt lösenord, men det finns inte någon sida tillgänglig för att ändra det. Var snäll och kontakta Din administratör för Moodle.",
-=======
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.nopermissions": "Du har tyvärr f.n. inte tillstånd att göra detta ({{$a}})",
     "core.noresults": "Inga resultat",
     "core.notapplicable": "n/a",
     "core.notice": "Meddelande",
     "core.now": "nu",
     "core.numwords": "{{$a}} ord",
-<<<<<<< HEAD
     "core.offline": "Ingen inlämning online krävs",
-=======
-    "core.offline": "Frånkopplat läge",
-    "core.ok": "OK",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.online": "Uppkopplad",
     "core.openfullimage": "Klick här för att visa bilden i full storlek",
     "core.openinbrowser": "Öppna i webbläsare",
@@ -1729,7 +1159,6 @@
     "core.question.complete": "Komplett",
     "core.question.correct": "Rätt",
     "core.question.feedback": "Återkoppling",
-<<<<<<< HEAD
     "core.question.incorrect": "Felaktigt",
     "core.question.information": "Information",
     "core.question.invalidanswer": "Ofullständigt svar",
@@ -1746,69 +1175,34 @@
     "core.save": "Spara",
     "core.search": "Sök...",
     "core.searching": "Sök i ",
-=======
-    "core.question.incorrect": "Felaktig",
-    "core.question.information": "Information",
-    "core.question.invalidanswer": "Ofullständigt svar",
-    "core.question.notanswered": "Ej besvarad",
-    "core.question.notyetanswered": "Inte besvarad än",
-    "core.question.partiallycorrect": "Delvis korrekt",
-    "core.question.questionno": "Fråga {{$a}}",
-    "core.question.requiresgrading": "Kräver rättning",
-    "core.refresh": "Uppdatera",
-    "core.remove": "Ta bort",
-    "core.required": "Obligatorisk",
-    "core.requireduserdatamissing": "Den här användaren saknar vissa nödvändiga profildata. Vänligen fyll i uppgifterna i din Moodle och försök igen. <br>{{$a}}",
-    "core.resources": "Resurser",
-    "core.restore": "Återställ",
-    "core.search": "Sök",
-    "core.searching": "Söker",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.searchresults": "Sökresultat",
     "core.sec": "Sekund",
     "core.secs": "Sekunder",
     "core.seemoredetail": "Klicka här för att se fler detaljer",
-<<<<<<< HEAD
     "core.send": "skicka",
-=======
-    "core.send": "Skicka",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.sending": "Skickar",
     "core.serverconnection": "Fel vid anslutning till servern",
     "core.settings.about": "Om",
     "core.settings.appready": "Appen är redo",
-<<<<<<< HEAD
     "core.settings.cacheexpirationtime": "Cache utgångs tid (millisekunder)",
-=======
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.settings.cordovadevicemodel": "",
     "core.settings.cordovadeviceosversion": "",
     "core.settings.cordovadeviceplatform": "",
     "core.settings.cordovadeviceuuid": "",
     "core.settings.cordovaversion": "",
-<<<<<<< HEAD
     "core.settings.credits": "",
     "core.settings.currentlanguage": "Nuvarande språk",
-=======
-    "core.settings.currentlanguage": "Nuvarande språk",
-    "core.settings.debugdisplay": "Visa felmeddelande (debug)",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.settings.deletesitefiles": "Är du säker på att du vill ta bort de nedladdade filerna från den här webbplatsen?",
     "core.settings.deletesitefilestitle": "Ta bort platsfiler",
     "core.settings.deviceinfo": "Info mobil enhet",
     "core.settings.deviceos": "Mobil enhet operativsystem",
     "core.settings.devicewebworkers": "Enheten stödjer Web Workers",
     "core.settings.disableall": "Tillfälligt inaktivera meddelanden",
-<<<<<<< HEAD
     "core.settings.disabled": "Avaktiverat",
     "core.settings.displayformat": "Visningsformat",
     "core.settings.enabledebugging": "Aktivera felsökning",
     "core.settings.enabledownloadsection": "Aktivera hämtning sektioner",
     "core.settings.enabledownloadsectiondescription": "Inaktivera detta alternativ för att snabba upp inläsning av kursens sektioner",
-=======
-    "core.settings.displayformat": "Visningsformat",
-    "core.settings.enabledownloadsection": "Aktivera hämtning sektioner",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.settings.enablesyncwifi": "Tillåt synk bara via Wi-Fi",
     "core.settings.errordeletesitefiles": "Fel vid borttagning av webbplatsfiler.",
     "core.settings.errorsyncsite": "Fel vid synkronisering. Kontrollera din Internetanslutning och försök igen",
@@ -1819,10 +1213,6 @@
     "core.settings.license": "Licens",
     "core.settings.localnotifavailable": "Lokala meddelanden tillgängliga",
     "core.settings.locationhref": "Webbvisning URL",
-<<<<<<< HEAD
-=======
-    "core.settings.locked": "låst",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.settings.loggedin": "Uppkopplad",
     "core.settings.loggedoff": "Inte uppkopplad",
     "core.settings.navigatorlanguage": "Navigator språk",
@@ -1832,68 +1222,33 @@
     "core.settings.settings": "Inställningar",
     "core.settings.sites": "Webbplatser",
     "core.settings.spaceusage": "Utrymmesanvändning",
-<<<<<<< HEAD
     "core.settings.storagetype": "Lagringstyp",
     "core.settings.synchronization": "Synkronisering",
     "core.settings.synchronizenow": "Synkronisera nu",
     "core.settings.synchronizing": "Synkronisera",
     "core.settings.syncsettings": "Synkronisation inställningar",
     "core.settings.syncsitesuccess": "Webbsidedata synkroniserades och alla cachar ogiltigförklarades",
-=======
-    "core.settings.synchronization": "Synkronisering",
-    "core.settings.synchronizenow": "Synkronisera nu",
-    "core.settings.syncsettings": "Synkronisation inställningar",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.settings.total": "Totalt",
     "core.settings.versioncode": "Version kod",
     "core.settings.versionname": "Version namn",
     "core.settings.wificonnection": "WiFi-anslutning",
-<<<<<<< HEAD
     "core.sharedfiles.rename": "Döp om",
     "core.sharedfiles.replace": "Byt ut",
     "core.show": "Visa",
     "core.site": "Webbplats",
     "core.sitehome.sitehome": "Hem för webbplats",
     "core.sitehome.sitenews": "Webbplatsnyheter",
-=======
-    "core.show": "Visa",
-    "core.showmore": "Visa mer...",
-    "core.site": "Webbplats",
-    "core.sitehome.sitehome": "Hem för webbplats",
-    "core.sitehome.sitenews": "Webbplatsnyheter",
-    "core.sitemaintenance": "Det pågår f.n underhåll på webbplatsen och det är för tillfället inte tillgänglig.",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.sizeb": "bytes",
     "core.sizegb": "Gb",
     "core.sizekb": "Kb",
     "core.sizemb": "Mb",
     "core.sizetb": "Tb",
     "core.sortby": "Sortera enligt",
-<<<<<<< HEAD
     "core.start": "Starta",
-=======
-    "core.strftimedate": "%d %B %Y",
-    "core.strftimedatefullshort": "%d/%m/%y",
-    "core.strftimedateshort": "%d %B",
-    "core.strftimedatetime": "%d %B %Y, %H:%M",
-    "core.strftimedatetimeshort": "%d/%m/%Y %H:%M",
-    "core.strftimedaydate": "%A, %d %B %Y",
-    "core.strftimedaydatetime": "%A, %d %B %Y, %H:%M",
-    "core.strftimedayshort": "%A, %d %B",
-    "core.strftimedaytime": "%a, %H:%M",
-    "core.strftimemonthyear": "%B %Y",
-    "core.strftimerecent": "%d %b, %H:%M",
-    "core.strftimerecentfull": "%a, %d %b %Y, %H:%M",
-    "core.strftimetime": "%H:%M",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.submit": "Skicka",
     "core.success": "Framgång",
     "core.tablet": "Tablet",
     "core.teachers": "Distanslärare/<br />handledare/<br />coacher",
-<<<<<<< HEAD
-=======
-    "core.thisdirection": "ltr",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.time": "Tid",
     "core.timesup": "Tiden är slut!",
     "core.today": "Idag",
@@ -1907,52 +1262,33 @@
     "core.user.city": "Stad/ort",
     "core.user.contact": "Kontakt",
     "core.user.country": "Land",
-<<<<<<< HEAD
     "core.user.description": "Introduktion",
     "core.user.details": "Detaljer",
     "core.user.detailsnotavailable": "Detaljerna till denna användare är inte tillgängliga för dig.",
     "core.user.editingteacher": "Lärare",
-=======
-    "core.user.description": "Beskrivning",
-    "core.user.detailsnotavailable": "Detaljerna till denna användare är inte tillgängliga för dig.",
-    "core.user.editingteacher": "Distanslärare/<br />handledare/<br />coach etc",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.user.email": "E-postadress",
     "core.user.emailagain": "E-post (igen)",
     "core.user.firstname": "Förnamn",
     "core.user.interests": "Intressen",
-<<<<<<< HEAD
     "core.user.invaliduser": "Ogiltig användare",
     "core.user.lastname": "Efternamn",
     "core.user.manager": "Manager",
-=======
-    "core.user.lastname": "Efternamn",
-    "core.user.manager": "Administratör",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.user.newpicture": "Ny bild",
     "core.user.noparticipants": "Inga deltagare hittades för denna kurs",
     "core.user.participants": "Deltagare",
     "core.user.phone1": "Telefon",
     "core.user.phone2": "Mobiltelefon",
     "core.user.roles": "Roller",
-<<<<<<< HEAD
     "core.user.student": "Student/elev/deltagare/lärande",
     "core.user.teacher": "Icke editerande lärare",
     "core.user.viewprofile": "Visa profil",
-=======
-    "core.user.student": "Lärande",
-    "core.user.teacher": "Icke-redigerande lärare",
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.user.webpage": "Webbsida",
     "core.userdeleted": "Ditt användarkonto har tagits bort.",
     "core.userdetails": "Detaljer om användare",
     "core.users": "Användare",
     "core.view": "Visa",
     "core.viewprofile": "Visa profil",
-<<<<<<< HEAD
     "core.whoops": "Hoppsan!",
-=======
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     "core.windowsphone": "Windows Phone",
     "core.wsfunctionnotavailable": "Webbtjänstfunktion är inte tillgänglig.",
     "core.year": "år",

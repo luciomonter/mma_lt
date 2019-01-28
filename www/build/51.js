@@ -1,30 +1,17 @@
 webpackJsonp([51],{
 
-<<<<<<< HEAD
-/***/ 1857:
-=======
-/***/ 1927:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1861:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CorePlaceholderPageModule", function() { return CorePlaceholderPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreCourseSectionSelectorPageModule", function() { return CoreCourseSectionSelectorPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__placeholder__ = __webpack_require__(1986);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_module__ = __webpack_require__(16);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreContentLinksChooseSitePageModule", function() { return CoreContentLinksChooseSitePageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__choose_site__ = __webpack_require__(2060);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__section_selector__ = __webpack_require__(1999);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -44,84 +31,43 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-<<<<<<< HEAD
-// Code based on https://github.com/martinpritchardelevate/ionic-split-pane-demo
-=======
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 
 
 
 
 
-<<<<<<< HEAD
-var CorePlaceholderPageModule = /** @class */ (function () {
-    function CorePlaceholderPageModule() {
+
+var CoreCourseSectionSelectorPageModule = /** @class */ (function () {
+    function CoreCourseSectionSelectorPageModule() {
     }
-    CorePlaceholderPageModule = __decorate([
+    CoreCourseSectionSelectorPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__placeholder__["a" /* CoreSplitViewPlaceholderPage */],
+                __WEBPACK_IMPORTED_MODULE_5__section_selector__["a" /* CoreCourseSectionSelectorPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_4__components_module__["a" /* CoreComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__placeholder__["a" /* CoreSplitViewPlaceholderPage */]),
-                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild()
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__section_selector__["a" /* CoreCourseSectionSelectorPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
-            exports: [
-                __WEBPACK_IMPORTED_MODULE_2__placeholder__["a" /* CoreSplitViewPlaceholderPage */]
-            ]
         })
-    ], CorePlaceholderPageModule);
-    return CorePlaceholderPageModule;
+    ], CoreCourseSectionSelectorPageModule);
+    return CoreCourseSectionSelectorPageModule;
 }());
 
-//# sourceMappingURL=placeholder.module.js.map
+//# sourceMappingURL=section-selector.module.js.map
 
 /***/ }),
 
-/***/ 1986:
+/***/ 1999:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreSplitViewPlaceholderPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreCourseSectionSelectorPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-=======
-
-var CoreContentLinksChooseSitePageModule = /** @class */ (function () {
-    function CoreContentLinksChooseSitePageModule() {
-    }
-    CoreContentLinksChooseSitePageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__choose_site__["a" /* CoreContentLinksChooseSitePage */]
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__choose_site__["a" /* CoreContentLinksChooseSitePage */]),
-                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ]
-        })
-    ], CoreContentLinksChooseSitePageModule);
-    return CoreContentLinksChooseSitePageModule;
-}());
-
-//# sourceMappingURL=choose-site.module.js.map
-
-/***/ }),
-
-/***/ 2060:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreContentLinksChooseSitePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_delegate__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_helper__ = __webpack_require__(20);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_helper__ = __webpack_require__(21);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -144,103 +90,44 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-<<<<<<< HEAD
-// Code based on https://github.com/martinpritchardelevate/ionic-split-pane-demo
-
-var CoreSplitViewPlaceholderPage = /** @class */ (function () {
-    function CoreSplitViewPlaceholderPage() {
-        // Nothing to do.
-    }
-    CoreSplitViewPlaceholderPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'core-placeholder',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\components\split-view\placeholder\core-placeholder.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>&nbsp;</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n    <core-empty-box icon="arrow-dropleft" [message]="\'core.emptysplit\' | translate"></core-empty-box>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\components\split-view\placeholder\core-placeholder.html"*/,
-        }),
-        __metadata("design:paramtypes", [])
-    ], CoreSplitViewPlaceholderPage);
-    return CoreSplitViewPlaceholderPage;
-}());
-
-//# sourceMappingURL=placeholder.js.map
-=======
-
-
-
 
 
 
 /**
- * Page to display the list of sites to choose one to perform a content link action.
+ * Page that displays course section selector.
  */
-var CoreContentLinksChooseSitePage = /** @class */ (function () {
-    function CoreContentLinksChooseSitePage(navCtrl, navParams, contentLinksDelegate, sitesProvider, domUtils, contentLinksHelper) {
-        this.navCtrl = navCtrl;
-        this.contentLinksDelegate = contentLinksDelegate;
-        this.sitesProvider = sitesProvider;
-        this.domUtils = domUtils;
-        this.contentLinksHelper = contentLinksHelper;
-        this.url = navParams.get('url');
+var CoreCourseSectionSelectorPage = /** @class */ (function () {
+    function CoreCourseSectionSelectorPage(navParams, courseHelper, viewCtrl) {
+        this.viewCtrl = viewCtrl;
+        this.sections = navParams.get('sections');
+        this.selected = navParams.get('selected');
     }
     /**
-     * Component being initialized.
+     * Close the modal.
      */
-    CoreContentLinksChooseSitePage.prototype.ngOnInit = function () {
-        var _this = this;
-        if (!this.url) {
-            return this.leaveView();
-        }
-        // Get the action to perform.
-        this.contentLinksDelegate.getActionsFor(this.url).then(function (actions) {
-            _this.action = _this.contentLinksHelper.getFirstValidAction(actions);
-            if (!_this.action) {
-                return Promise.reject(null);
-            }
-            // Get the sites that can perform the action.
-            return _this.sitesProvider.getSites(_this.action.sites).then(function (sites) {
-                _this.sites = sites;
-            });
-        }).catch(function () {
-            _this.domUtils.showErrorModal('core.contentlinks.errornosites', true);
-            _this.leaveView();
-        }).finally(function () {
-            _this.loaded = true;
-        });
+    CoreCourseSectionSelectorPage.prototype.closeModal = function () {
+        this.viewCtrl.dismiss();
     };
     /**
-     * Cancel.
-     */
-    CoreContentLinksChooseSitePage.prototype.cancel = function () {
-        this.leaveView();
-    };
-    /**
-     * Perform the action on a certain site.
+     * Select a section.
      *
-     * @param {string} siteId Site ID.
+     * @param {any} section Selected section object.
      */
-    CoreContentLinksChooseSitePage.prototype.siteClicked = function (siteId) {
-        this.action.action(siteId, this.navCtrl);
+    CoreCourseSectionSelectorPage.prototype.selectSection = function (section) {
+        if (section.uservisible !== false) {
+            this.viewCtrl.dismiss(section);
+        }
     };
-    /**
-     * Cancel and leave the view.
-     */
-    CoreContentLinksChooseSitePage.prototype.leaveView = function () {
-        var _this = this;
-        this.sitesProvider.logout().finally(function () {
-            _this.navCtrl.setRoot('CoreLoginSitesPage');
-        });
-    };
-    CoreContentLinksChooseSitePage = __decorate([
+    CoreCourseSectionSelectorPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-content-links-choose-site',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\contentlinks\pages\choose-site\choose-site.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'core.contentlinks.chooseaccount\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <core-loading [hideUntil]="loaded">\n        <ion-list>\n            <ion-item text-wrap>\n                <p class="item-heading">{{ \'core.contentlinks.chooseaccounttoopenlink\' | translate }}</p>\n                <p>{{ url }}</p>\n            </ion-item>\n            <a ion-item *ngFor="let site of sites" (click)="siteClicked(site.id)">\n                <img [src]="site.avatar" item-start>\n                <h2>{{site.fullName}}</h2>\n                <p><core-format-text clean="true" [text]="site.siteName"></core-format-text></p>\n                <p>{{site.siteUrl}}</p>\n            </a>\n            <ion-item>\n                <button ion-button block (click)="cancel()">{{ \'core.login.cancel\' | translate }}</button>\n            </ion-item>\n        </ion-list>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\contentlinks\pages\choose-site\choose-site.html"*/,
+            selector: 'page-core-course-section-selector',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\course\pages\section-selector\section-selector.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.course.sections\' | translate }}</ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n\n                <ion-icon name="close"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ng-container *ngFor="let section of sections">\n\n        <a ion-item *ngIf="section.hasContent" text-wrap (click)="selectSection(section)" [class.core-primary-item]="selected.id == section.id" [class.item-dimmed]="section.visible === 0 || section.uservisible === false" detail-none>\n\n            <core-icon name="fa-folder" item-start></core-icon>\n\n            <h2><core-format-text [text]="section.formattedName || section.name"></core-format-text></h2>\n\n            <ion-badge color="secondary" *ngIf="section.visible === 0 && section.uservisible !== false">{{ \'core.course.hiddenfromstudents\' | translate }}</ion-badge>\n\n            <ion-badge color="secondary" *ngIf="section.availabilityinfo"><core-format-text  [text]=" section.availabilityinfo"></core-format-text></ion-badge>\n\n        </a>\n\n    </ng-container>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\course\pages\section-selector\section-selector.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__providers_delegate__["a" /* CoreContentLinksDelegate */],
-            __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
-            __WEBPACK_IMPORTED_MODULE_5__providers_helper__["a" /* CoreContentLinksHelperProvider */]])
-    ], CoreContentLinksChooseSitePage);
-    return CoreContentLinksChooseSitePage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_helper__["a" /* CoreCourseHelperProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["D" /* ViewController */]])
+    ], CoreCourseSectionSelectorPage);
+    return CoreCourseSectionSelectorPage;
 }());
 
-//# sourceMappingURL=choose-site.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+//# sourceMappingURL=section-selector.js.map
 
 /***/ })
 

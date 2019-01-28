@@ -1,32 +1,17 @@
 webpackJsonp([41],{
 
-<<<<<<< HEAD
-/***/ 1868:
-=======
-/***/ 1938:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1874:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreCoursesSearchPageModule", function() { return CoreCoursesSearchPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreGradesCoursePageModule", function() { return CoreGradesCoursePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__search__ = __webpack_require__(1996);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(923);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreCoursesSelfEnrolPasswordPageModule", function() { return CoreCoursesSelfEnrolPasswordPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__self_enrol_password__ = __webpack_require__(2070);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__course__ = __webpack_require__(2015);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(930);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -52,71 +37,37 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
-
-var CoreCoursesSearchPageModule = /** @class */ (function () {
-    function CoreCoursesSearchPageModule() {
+var CoreGradesCoursePageModule = /** @class */ (function () {
+    function CoreGradesCoursePageModule() {
     }
-    CoreCoursesSearchPageModule = __decorate([
+    CoreGradesCoursePageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_3__search__["a" /* CoreCoursesSearchPage */],
-=======
-var CoreCoursesSelfEnrolPasswordPageModule = /** @class */ (function () {
-    function CoreCoursesSelfEnrolPasswordPageModule() {
-    }
-    CoreCoursesSelfEnrolPasswordPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__self_enrol_password__["a" /* CoreCoursesSelfEnrolPasswordPage */]
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+                __WEBPACK_IMPORTED_MODULE_4__course__["a" /* CoreGradesCoursePage */]
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
-<<<<<<< HEAD
-                __WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* CoreCoursesComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__search__["a" /* CoreCoursesSearchPage */]),
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* CoreGradesComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_4__course__["a" /* CoreGradesCoursePage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ],
         })
-    ], CoreCoursesSearchPageModule);
-    return CoreCoursesSearchPageModule;
+    ], CoreGradesCoursePageModule);
+    return CoreGradesCoursePageModule;
 }());
 
-//# sourceMappingURL=search.module.js.map
+//# sourceMappingURL=course.module.js.map
 
 /***/ }),
 
-/***/ 1996:
+/***/ 2015:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreCoursesSearchPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreGradesCoursePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_courses__ = __webpack_require__(40);
-=======
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__self_enrol_password__["a" /* CoreCoursesSelfEnrolPasswordPage */]),
-                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild(),
-            ]
-        })
-    ], CoreCoursesSelfEnrolPasswordPageModule);
-    return CoreCoursesSelfEnrolPasswordPageModule;
-}());
-
-//# sourceMappingURL=self-enrol-password.module.js.map
-
-/***/ }),
-
-/***/ 2070:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreCoursesSelfEnrolPasswordPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_sites__ = __webpack_require__(2);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -141,111 +92,25 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-<<<<<<< HEAD
 
 /**
- * Page that allows searching for courses.
+ * Page that displays a course grades.
  */
-var CoreCoursesSearchPage = /** @class */ (function () {
-    function CoreCoursesSearchPage(domUtils, coursesProvider) {
-        this.domUtils = domUtils;
-        this.coursesProvider = coursesProvider;
-        this.total = 0;
-        this.page = 0;
-        this.currentSearch = '';
+var CoreGradesCoursePage = /** @class */ (function () {
+    function CoreGradesCoursePage(navParams, sitesProvider) {
+        this.courseId = navParams.get('courseId');
+        this.userId = navParams.get('userId') || sitesProvider.getCurrentSiteUserId();
     }
-    /**
-     * Search a new text.
-     *
-     * @param {string} text The text to search.
-     */
-    CoreCoursesSearchPage.prototype.search = function (text) {
-        this.currentSearch = text;
-        this.courses = undefined;
-        this.page = 0;
-        var modal = this.domUtils.showModalLoading('core.searching', true);
-        this.searchCourses().finally(function () {
-            modal.dismiss();
-        });
-    };
-    /**
-     * Load more results.
-     *
-     * @param {any} infiniteScroll The infinit scroll instance.
-     */
-    CoreCoursesSearchPage.prototype.loadMoreResults = function (infiniteScroll) {
-        this.searchCourses().finally(function () {
-            infiniteScroll.complete();
-        });
-    };
-    /**
-     * Search courses or load the next page of current search.
-     *
-     * @return {Promise<any>} Promise resolved when done.
-     */
-    CoreCoursesSearchPage.prototype.searchCourses = function () {
-        var _this = this;
-        return this.coursesProvider.search(this.currentSearch, this.page).then(function (response) {
-            if (_this.page === 0) {
-                _this.courses = response.courses;
-            }
-            else {
-                _this.courses = _this.courses.concat(response.courses);
-            }
-            _this.total = response.total;
-            _this.page++;
-            _this.canLoadMore = _this.courses.length < _this.total;
-        }).catch(function (error) {
-            _this.canLoadMore = false;
-            _this.domUtils.showErrorModalDefault(error, 'core.courses.errorsearching', true);
-        });
-    };
-    CoreCoursesSearchPage = __decorate([
+    CoreGradesCoursePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-courses-search',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\core\courses\pages\search\search.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.courses.searchcourses\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <core-search-box (onSubmit)="search($event)" [placeholder]="\'core.courses.search\' | translate" [searchLabel]="\'core.courses.search\' | translate" autoFocus="true" showClear="false"></core-search-box>\n\n\n\n    <div *ngIf="courses">\n\n        <ion-item-divider color="light">{{ \'core.courses.totalcoursesearchresults\' | translate:{$a: total} }}</ion-item-divider>\n\n        <core-empty-box *ngIf="total == 0" icon="search" [message]="\'core.courses.nosearchresults\' | translate"></core-empty-box>\n\n        <core-courses-course-list-item *ngFor="let course of courses" [course]="course"></core-courses-course-list-item>\n\n        <ion-infinite-scroll [enabled]="canLoadMore" (ionInfinite)="loadMoreResults($event)">\n\n            <ion-infinite-scroll-content></ion-infinite-scroll-content>\n\n        </ion-infinite-scroll>\n\n    </div>\n\n</ion-content>\n\n\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\core\courses\pages\search\search.html"*/,
+            selector: 'page-core-grades-course',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\grades\pages\course\course.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.grades.grades\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<core-grades-course class="core-avoid-header" [courseId]="courseId" [userId]="userId"></core-grades-course>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\grades\pages\course\course.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__providers_courses__["a" /* CoreCoursesProvider */]])
-    ], CoreCoursesSearchPage);
-    return CoreCoursesSearchPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */]])
+    ], CoreGradesCoursePage);
+    return CoreGradesCoursePage;
 }());
 
-//# sourceMappingURL=search.js.map
-=======
-/**
- * Page that displays a form to enter a password to self enrol in a course.
- */
-var CoreCoursesSelfEnrolPasswordPage = /** @class */ (function () {
-    function CoreCoursesSelfEnrolPasswordPage(viewCtrl) {
-        this.viewCtrl = viewCtrl;
-    }
-    /**
-     * Close help modal.
-     */
-    CoreCoursesSelfEnrolPasswordPage.prototype.close = function () {
-        this.viewCtrl.dismiss();
-    };
-    /**
-     * Submit password.
-     *
-     * @param {Event} e Event.
-     * @param {string} password Password to submit.
-     */
-    CoreCoursesSelfEnrolPasswordPage.prototype.submitPassword = function (e, password) {
-        e.preventDefault();
-        e.stopPropagation();
-        this.viewCtrl.dismiss(password);
-    };
-    CoreCoursesSelfEnrolPasswordPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-courses-self-enrol-password',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\courses\pages\self-enrol-password\self-enrol-password.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'core.courses.selfenrolment\' | translate }}</ion-title>\n\n        <ion-buttons end>\n            <button ion-button icon-only (click)="close()" [attr.aria-label]="\'core.close\' | translate">\n                <ion-icon name="close"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <form ion-list #f="ngForm" (ngSubmit)="submitPassword($event, f.value.password)">\n        <ion-item>\n            <core-show-password item-content [name]="\'password\'">\n                <ion-input text-wrap class="core-ioninput-password" name="password" type="password" placeholder="{{ \'core.courses.password\' | translate }}" ngModel [core-auto-focus] [clearOnEdit]="false"></ion-input>\n            </core-show-password>\n        </ion-item>\n        <ion-item>\n            <button ion-button block [disabled]="!f.value.password">{{ \'core.courses.enrolme\' | translate }}</button>\n        </ion-item>\n    </form>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\courses\pages\self-enrol-password\self-enrol-password.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["E" /* ViewController */]])
-    ], CoreCoursesSelfEnrolPasswordPage);
-    return CoreCoursesSelfEnrolPasswordPage;
-}());
-
-//# sourceMappingURL=self-enrol-password.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+//# sourceMappingURL=course.js.map
 
 /***/ })
 

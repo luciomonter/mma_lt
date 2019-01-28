@@ -1,31 +1,18 @@
 webpackJsonp([15],{
 
-<<<<<<< HEAD
-/***/ 1894:
-=======
-/***/ 1965:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1900:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreSiteHomeIndexPageModule", function() { return CoreSiteHomeIndexPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreUserAboutPageModule", function() { return CoreUserAboutPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__index__ = __webpack_require__(2022);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(931);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreSitePluginsModuleIndexPageModule", function() { return CoreSitePluginsModuleIndexPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__module_index__ = __webpack_require__(2097);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(956);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about__ = __webpack_require__(2041);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(388);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -51,76 +38,44 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
-var CoreSiteHomeIndexPageModule = /** @class */ (function () {
-    function CoreSiteHomeIndexPageModule() {
+
+var CoreUserAboutPageModule = /** @class */ (function () {
+    function CoreUserAboutPageModule() {
     }
-    CoreSiteHomeIndexPageModule = __decorate([
+    CoreUserAboutPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_4__index__["a" /* CoreSiteHomeIndexPage */],
+                __WEBPACK_IMPORTED_MODULE_3__about__["a" /* CoreUserAboutPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* CoreSiteHomeComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_4__index__["a" /* CoreSiteHomeIndexPage */]),
+                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* CoreUserComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__about__["a" /* CoreUserAboutPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ]
+            ],
         })
-    ], CoreSiteHomeIndexPageModule);
-    return CoreSiteHomeIndexPageModule;
+    ], CoreUserAboutPageModule);
+    return CoreUserAboutPageModule;
 }());
 
-//# sourceMappingURL=index.module.js.map
+//# sourceMappingURL=about.module.js.map
 
 /***/ }),
 
-/***/ 2022:
+/***/ 2041:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreSiteHomeIndexPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreUserAboutPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_course_providers_helper__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_index_index__ = __webpack_require__(932);
-=======
-/**
- * Module to lazy load the page.
- */
-var CoreSitePluginsModuleIndexPageModule = /** @class */ (function () {
-    function CoreSitePluginsModuleIndexPageModule() {
-    }
-    CoreSitePluginsModuleIndexPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_4__module_index__["a" /* CoreSitePluginsModuleIndexPage */]
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* CoreSitePluginsComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_4__module_index__["a" /* CoreSitePluginsModuleIndexPage */]),
-                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ]
-        })
-    ], CoreSitePluginsModuleIndexPageModule);
-    return CoreSitePluginsModuleIndexPageModule;
-}());
-
-//# sourceMappingURL=module-index.module.js.map
-
-/***/ }),
-
-/***/ 2097:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreSitePluginsModuleIndexPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_module_index_module_index__ = __webpack_require__(262);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_user__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_helper__ = __webpack_require__(932);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_sites__ = __webpack_require__(2);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -146,69 +101,89 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-<<<<<<< HEAD
+
+
+
 
 
 /**
- * Page that displays site home index.
+ * Page that displays an user about page.
  */
-var CoreSiteHomeIndexPage = /** @class */ (function () {
-    function CoreSiteHomeIndexPage(navParams, navCtrl, courseHelper, sitesProvider) {
-        var module = navParams.get('module');
-        if (module) {
-            courseHelper.openModule(navCtrl, module, sitesProvider.getCurrentSite().getSiteHomeId());
-        }
-    }
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_4__components_index_index__["a" /* CoreSiteHomeIndexComponent */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_4__components_index_index__["a" /* CoreSiteHomeIndexComponent */])
-    ], CoreSiteHomeIndexPage.prototype, "siteHomeComponent", void 0);
-    CoreSiteHomeIndexPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-sitehome-index',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\core\sitehome\pages\index\index.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.sitehome.sitehome\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="siteHomeComponent && siteHomeComponent.dataLoaded" (ionRefresh)="siteHomeComponent.doRefresh($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-sitehome-index></core-sitehome-index>\n\n</ion-content>'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\core\sitehome\pages\index\index.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_3__core_course_providers_helper__["a" /* CoreCourseHelperProvider */],
-            __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */]])
-    ], CoreSiteHomeIndexPage);
-    return CoreSiteHomeIndexPage;
-}());
-
-//# sourceMappingURL=index.js.map
-=======
-/**
- * Page to render the index page of a module site plugin.
- */
-var CoreSitePluginsModuleIndexPage = /** @class */ (function () {
-    function CoreSitePluginsModuleIndexPage(params) {
-        this.title = params.get('title');
-        this.module = params.get('module');
-        this.courseId = params.get('courseId');
+var CoreUserAboutPage = /** @class */ (function () {
+    function CoreUserAboutPage(navParams, userProvider, userHelper, domUtils, eventsProvider, sanitizer, sitesProvider, platform) {
+        this.userProvider = userProvider;
+        this.userHelper = userHelper;
+        this.domUtils = domUtils;
+        this.eventsProvider = eventsProvider;
+        this.sanitizer = sanitizer;
+        this.sitesProvider = sitesProvider;
+        this.platform = platform;
+        this.userLoaded = false;
+        this.hasContact = false;
+        this.hasDetails = false;
+        this.isAndroid = false;
+        this.user = {};
+        this.userId = navParams.get('userId');
+        this.courseId = navParams.get('courseId');
+        this.isAndroid = this.platform.is('android');
+        this.siteId = this.sitesProvider.getCurrentSite().getId();
     }
     /**
-     * Refresh the data.
+     * View loaded.
+     */
+    CoreUserAboutPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        this.fetchUser().finally(function () {
+            _this.userLoaded = true;
+        });
+    };
+    /**
+     * Fetches the user and updates the view.
+     */
+    CoreUserAboutPage.prototype.fetchUser = function () {
+        var _this = this;
+        return this.userProvider.getProfile(this.userId, this.courseId).then(function (user) {
+            if (user.address) {
+                user.address = _this.userHelper.formatAddress(user.address, user.city, user.country);
+                user.encodedAddress = _this.sanitizer.bypassSecurityTrustUrl((_this.isAndroid ? 'geo:0,0?q=' : 'http://maps.google.com?q=') + encodeURIComponent(user.address));
+            }
+            _this.hasContact = user.email || user.phone1 || user.phone2 || user.city || user.country || user.address;
+            _this.hasDetails = user.url || user.interests || (user.customfields && user.customfields.length > 0);
+            _this.user = user;
+            _this.title = user.fullname;
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'core.user.errorloaduser', true);
+        });
+    };
+    /**
+     * Refresh the user.
      *
      * @param {any} refresher Refresher.
      */
-    CoreSitePluginsModuleIndexPage.prototype.refreshData = function (refresher) {
-        this.content.doRefresh().finally(function () {
-            refresher.complete();
+    CoreUserAboutPage.prototype.refreshUser = function (refresher) {
+        var _this = this;
+        this.userProvider.invalidateUserCache(this.userId).finally(function () {
+            _this.fetchUser().finally(function () {
+                _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_3__providers_user__["a" /* CoreUserProvider */].PROFILE_REFRESHED, {
+                    courseId: _this.courseId, userId: _this.userId,
+                    user: _this.user
+                }, _this.siteId);
+                refresher && refresher.complete();
+            });
         });
     };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_module_index_module_index__["a" /* CoreSitePluginsModuleIndexComponent */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_module_index_module_index__["a" /* CoreSitePluginsModuleIndexComponent */])
-    ], CoreSitePluginsModuleIndexPage.prototype, "content", void 0);
-    CoreSitePluginsModuleIndexPage = __decorate([
+    CoreUserAboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-site-plugins-module-index',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\siteplugins\pages\module-index\module-index.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ title }}</ion-title>\n\n        <ion-buttons end>\n            <!-- If the site plugin defines some buttons using core-nav-buttons, they will be added here. -->\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="content && content.content && content.content.dataLoaded" (ionRefresh)="refreshData($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-site-plugins-module-index [module]="module" [courseId]="courseId"></core-site-plugins-module-index>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\siteplugins\pages\module-index\module-index.html"*/,
+            selector: 'page-core-user-about',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\user\pages\about\about.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="userLoaded" (ionRefresh)="refreshUser($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-loading [hideUntil]="userLoaded">\n\n        <div *ngIf="user">\n\n            <ion-item-group *ngIf="hasContact">\n\n                <ion-item-divider color="light">{{ \'core.user.contact\' | translate}}</ion-item-divider>\n\n                <ion-item text-wrap *ngIf="user.email">\n\n                    <h2>{{ \'core.user.email\' | translate }}</h2>\n\n                    <p><a href="mailto:{{user.email}}" core-link auto-login="no">\n\n                        <core-format-text [text]="user.email"></core-format-text>\n\n                    </a></p>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="user.phone1">\n\n                    <h2>{{ \'core.user.phone1\' | translate}}</h2>\n\n                    <p><a href="tel:{{user.phone1}}" core-link auto-login="no">\n\n                        <core-format-text [text]="user.phone1"></core-format-text>\n\n                    </a></p>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="user.phone2">\n\n                    <h2>{{ \'core.user.phone2\' | translate}}</h2>\n\n                    <p><a href="tel:{{user.phone2}}" core-link auto-login="no">\n\n                        <core-format-text [text]="user.phone2"></core-format-text>\n\n                    </a></p>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="user.address">\n\n                    <h2>{{ \'core.user.address\' | translate}}</h2>\n\n                    <p><a [href]="user.encodedAddress" core-link auto-login="no">\n\n                            <core-format-text [text]="user.address"></core-format-text>\n\n                        </a>\n\n                    </p>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="user.city && !user.address">\n\n                    <h2>{{ \'core.user.city\' | translate}}</h2>\n\n                    <p><core-format-text [text]="user.city"></core-format-text></p>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="user.country && !user.address">\n\n                    <h2>{{ \'core.user.country\' | translate}}</h2>\n\n                    <p><core-format-text [text]="user.country"></core-format-text></p>\n\n                </ion-item>\n\n            </ion-item-group>\n\n            <ion-item-group *ngIf="hasDetails">\n\n                <ion-item-divider color="light">{{ \'core.userdetails\' | translate}}</ion-item-divider>\n\n                <ion-item text-wrap *ngIf="user.url">\n\n                    <h2>{{ \'core.user.webpage\' | translate}}</h2>\n\n                    <p><a href="{{user.url}}" core-link>\n\n                        <core-format-text [text]="user.url"></core-format-text>\n\n                    </a></p>\n\n                </ion-item>\n\n                <ion-item text-wrap *ngIf="user.interests">\n\n                    <h2>{{ \'core.user.interests\' | translate}}</h2>\n\n                    <p><core-format-text [text]="user.interests"></core-format-text></p>\n\n                </ion-item>\n\n                <core-user-profile-field *ngFor="let field of user.customfields" [field]="field"></core-user-profile-field>\n\n            </ion-item-group>\n\n            <ion-item-group *ngIf="user.description">\n\n                <ion-item-divider color="light">{{ \'core.user.description\' | translate}}</ion-item-divider>\n\n                <ion-item text-wrap>\n\n                    <p><core-format-text [text]="user.description"></core-format-text></p>\n\n                </ion-item>\n\n            </ion-item-group>\n\n        </div>\n\n        <core-empty-box *ngIf="!user || (!hasContact && !hasDetails && !user.description)" icon="person" [message]=" \'core.user.detailsnotavailable\' | translate"></core-empty-box>\n\n    </core-loading>'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\user\pages\about\about.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */]])
-    ], CoreSitePluginsModuleIndexPage);
-    return CoreSitePluginsModuleIndexPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_user__["a" /* CoreUserProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_helper__["a" /* CoreUserHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_6__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["c" /* DomSanitizer */],
+            __WEBPACK_IMPORTED_MODULE_7__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["u" /* Platform */]])
+    ], CoreUserAboutPage);
+    return CoreUserAboutPage;
 }());
 
-//# sourceMappingURL=module-index.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+//# sourceMappingURL=about.js.map
 
 /***/ })
 

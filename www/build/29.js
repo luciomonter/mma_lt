@@ -1,25 +1,14 @@
 webpackJsonp([29],{
 
-<<<<<<< HEAD
-/***/ 1880:
-=======
-/***/ 1950:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1886:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreLoginSiteErrorPageModule", function() { return CoreLoginSiteErrorPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreLoginSitePageModule", function() { return CoreLoginSitePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__site_error__ = __webpack_require__(2008);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreLoginSiteHelpPageModule", function() { return CoreLoginSiteHelpPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__site_help__ = __webpack_require__(2082);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__site__ = __webpack_require__(2027);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
 // (C) Copyright 2015 Martin Dougiamas
@@ -46,67 +35,41 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
-var CoreLoginSiteErrorPageModule = /** @class */ (function () {
-    function CoreLoginSiteErrorPageModule() {
+var CoreLoginSitePageModule = /** @class */ (function () {
+    function CoreLoginSitePageModule() {
     }
-    CoreLoginSiteErrorPageModule = __decorate([
+    CoreLoginSitePageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__site_error__["a" /* CoreLoginSiteErrorPage */]
+                __WEBPACK_IMPORTED_MODULE_2__site__["a" /* CoreLoginSitePage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__site_error__["a" /* CoreLoginSiteErrorPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__site__["a" /* CoreLoginSitePage */]),
                 __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild()
             ]
         })
-    ], CoreLoginSiteErrorPageModule);
-    return CoreLoginSiteErrorPageModule;
+    ], CoreLoginSitePageModule);
+    return CoreLoginSitePageModule;
 }());
 
-//# sourceMappingURL=site-error.module.js.map
+//# sourceMappingURL=site.module.js.map
 
 /***/ }),
 
-/***/ 2008:
+/***/ 2027:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreLoginSiteErrorPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreLoginSitePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-=======
-var CoreLoginSiteHelpPageModule = /** @class */ (function () {
-    function CoreLoginSiteHelpPageModule() {
-    }
-    CoreLoginSiteHelpPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__site_help__["a" /* CoreLoginSiteHelpPage */]
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__site_help__["a" /* CoreLoginSiteHelpPage */]),
-                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild(),
-            ]
-        })
-    ], CoreLoginSiteHelpPageModule);
-    return CoreLoginSiteHelpPageModule;
-}());
-
-//# sourceMappingURL=site-help.module.js.map
-
-/***/ }),
-
-/***/ 2082:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreLoginSiteHelpPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__configconstants__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_helper__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_forms__ = __webpack_require__(20);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -131,56 +94,115 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
+
+
+
+
+
 /**
-<<<<<<< HEAD
- * Component that displays an error when trying to connect to a site.
+ * Page to enter or select the site URL to connect to.
  */
-var CoreLoginSiteErrorPage = /** @class */ (function () {
-    function CoreLoginSiteErrorPage(viewCtrl, params) {
-        this.viewCtrl = viewCtrl;
-        this.siteUrl = params.get('siteUrl');
-        this.issue = params.get('issue');
+var CoreLoginSitePage = /** @class */ (function () {
+    function CoreLoginSitePage(navParams, navCtrl, fb, appProvider, sitesProvider, loginHelper, modalCtrl, domUtils) {
+        this.navCtrl = navCtrl;
+        this.appProvider = appProvider;
+        this.sitesProvider = sitesProvider;
+        this.loginHelper = loginHelper;
+        this.modalCtrl = modalCtrl;
+        this.domUtils = domUtils;
+        this.displayAsButtons = false;
+        this.showKeyboard = false;
+        this.showKeyboard = !!navParams.get('showKeyboard');
+        var url = '';
+        // Load fixed sites if they're set.
+        if (this.loginHelper.hasSeveralFixedSites()) {
+            this.fixedSites = this.loginHelper.getFixedSites();
+            this.displayAsButtons = __WEBPACK_IMPORTED_MODULE_5__configconstants__["a" /* CoreConfigConstants */].multisitesdisplay == 'buttons';
+            url = this.fixedSites[0].url;
+        }
+        this.siteForm = fb.group({
+            siteUrl: [url, __WEBPACK_IMPORTED_MODULE_7__angular_forms__["h" /* Validators */].required]
+        });
     }
     /**
-     * Close modal.
+     * Try to connect to a site.
      */
-    CoreLoginSiteErrorPage.prototype.closeModal = function () {
-        this.viewCtrl.dismiss();
+    CoreLoginSitePage.prototype.connect = function (url) {
+        var _this = this;
+        this.appProvider.closeKeyboard();
+        if (!url) {
+            this.domUtils.showErrorModal('core.login.siteurlrequired', true);
+            return;
+        }
+        if (!this.appProvider.isOnline()) {
+            this.domUtils.showErrorModal('core.networkerrormsg', true);
+            return;
+        }
+        var modal = this.domUtils.showModalLoading(), siteData = this.sitesProvider.getDemoSiteData(url);
+        if (siteData) {
+            // It's a demo site.
+            this.sitesProvider.getUserToken(siteData.url, siteData.username, siteData.password).then(function (data) {
+                return _this.sitesProvider.newSite(data.siteUrl, data.token, data.privateToken).then(function () {
+                    return _this.loginHelper.goToSiteInitialPage();
+                }, function (error) {
+                    _this.domUtils.showErrorModal(error);
+                });
+            }, function (error) {
+                _this.loginHelper.treatUserTokenError(siteData.url, error);
+            }).finally(function () {
+                modal.dismiss();
+            });
+        }
+        else {
+            // Not a demo site.
+            this.sitesProvider.checkSite(url).then(function (result) {
+                if (result.warning) {
+                    _this.domUtils.showErrorModal(result.warning, true, 4000);
+                }
+                if (_this.loginHelper.isSSOLoginNeeded(result.code)) {
+                    // SSO. User needs to authenticate in a browser.
+                    _this.loginHelper.confirmAndOpenBrowserForSSOLogin(result.siteUrl, result.code, result.service, result.config && result.config.launchurl);
+                }
+                else {
+                    _this.navCtrl.push('CoreLoginCredentialsPage', { siteUrl: result.siteUrl, siteConfig: result.config });
+                }
+            }, function (error) {
+                _this.showLoginIssue(url, error);
+            }).finally(function () {
+                modal.dismiss();
+            });
+        }
     };
-    CoreLoginSiteErrorPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-login-site-error',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\core\login\pages\site-error\site-error.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.error\' | translate }}</ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n\n                <ion-icon name="close"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n\n    <h3>{{ \'core.whoops\' | translate }}</h3>\n\n    <p>{{ \'core.login.problemconnectingerror\' | translate }}</p>\n\n    <p padding>{{siteUrl}}</p>\n\n    <p>{{ \'core.login.problemconnectingerrorcontinue\' | translate }}</p>\n\n    <button ion-button block (click)="closeModal()">{{ \'core.tryagain\' | translate }}</button>\n\n    <h3>{{ \'core.login.stillcantconnect\' | translate }}</h3>\n\n    <p>{{ \'core.login.contactyouradministrator\' | translate }}</p>\n\n    <p *ngIf="issue">\n\n        {{ \'core.login.contactyouradministratorissue\' | translate:{$a: \'\'} }}\n\n    </p>\n\n    <p *ngIf="issue">\n\n        <core-format-text [text]="issue"></core-format-text>\n\n    </p>\n\n</ion-content>\n\n\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\core\login\pages\site-error\site-error.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["D" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]])
-    ], CoreLoginSiteErrorPage);
-    return CoreLoginSiteErrorPage;
-}());
-
-//# sourceMappingURL=site-error.js.map
-=======
- * Component that displays some help regarding the CoreLoginSitePage.
- */
-var CoreLoginSiteHelpPage = /** @class */ (function () {
-    function CoreLoginSiteHelpPage(viewCtrl) {
-        this.viewCtrl = viewCtrl;
-    }
     /**
-     * Close help modal.
+     * Show a help modal.
      */
-    CoreLoginSiteHelpPage.prototype.closeHelp = function () {
-        this.viewCtrl.dismiss();
+    CoreLoginSitePage.prototype.showHelp = function () {
+        var modal = this.modalCtrl.create('CoreLoginSiteHelpPage');
+        modal.present();
     };
-    CoreLoginSiteHelpPage = __decorate([
+    /**
+     * Show an error that aims people to solve the issue.
+     *
+     * @param {string} url The URL the user was trying to connect to.
+     * @param {string} error Error to display.
+     */
+    CoreLoginSitePage.prototype.showLoginIssue = function (url, error) {
+        var modal = this.modalCtrl.create('CoreLoginSiteErrorPage', { siteUrl: url, issue: error });
+        modal.present();
+    };
+    CoreLoginSitePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-login-site-help',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\login\pages\site-help\site-help.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'core.login.help\' | translate }}</ion-title>\n\n        <ion-buttons end>\n            <button ion-button icon-only (click)="closeHelp()" [attr.aria-label]="\'core.close\' | translate">\n                <ion-icon name="close"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content padding>\n    <core-format-text [text]="\'core.login.helpmelogin\' | translate"></core-format-text>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\login\pages\site-help\site-help.html"*/,
+            selector: 'page-core-login-site',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\login\pages\site\site.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.login.connecttomoodle\' | translate }}</ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button icon-only (click)="showHelp()" [attr.aria-label]="\'core.help\' | translate">\n\n                <ion-icon name="help-circle"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content class="core-center-view">\n\n    <div class="box">\n\n        <div text-center padding>\n\n            <img src="assets/img/login_logo.png" class="avatar-full login-logo" role="presentation">\n\n        </div>\n\n        <form ion-list [formGroup]="siteForm" (ngSubmit)="connect(siteForm.value.siteUrl)">\n\n            <!-- Form to input the site URL if there are no fixed sites. -->\n\n            <div *ngIf="!fixedSites">\n\n                <p padding>{{ \'core.login.newsitedescription\' | translate }}</p>\n\n                <ion-item>\n\n                    <ion-input type="url" name="url" placeholder="{{ \'core.login.siteaddress\' | translate }}" formControlName="siteUrl" [core-auto-focus]="showKeyboard"></ion-input>\n\n                </ion-item>\n\n            </div>\n\n\n\n            <!-- Pick the site from a list of fixed sites. -->\n\n            <div *ngIf="fixedSites" text-wrap>\n\n                <!-- Display them using a select. -->\n\n                <ion-item *ngIf="!displayAsButtons" margin-vertical>\n\n                    <ion-label stacked for="siteSelect">{{ \'core.login.selectsite\' | translate }}</ion-label>\n\n                    <ion-select formControlName="siteUrl" name="url" placeholder="{{ \'core.login.siteaddress\' | translate }}" interface="popover">\n\n                        <ion-option *ngFor="let site of fixedSites" [value]="site.url">{{site.name}}</ion-option>\n\n                    </ion-select>\n\n                </ion-item>\n\n\n\n                <!-- Display them using buttons. -->\n\n                <div *ngIf="displayAsButtons">\n\n                    <p class="padding no-padding-bottom">{{ \'core.login.selectsite\' | translate }}</p>\n\n                    <a *ngFor="let site of fixedSites" ion-button block (click)="connect(site.url)" title="{{site.name}}" margin-bottom>{{site.name}}</a>\n\n                </div>\n\n            </div>\n\n\n\n            <button *ngIf="!fixedSites || !displayAsButtons" ion-button block [disabled]="!siteForm.valid">{{ \'core.login.connect\' | translate }}</button>\n\n        </form>\n\n    </div>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\login\pages\site\site.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["E" /* ViewController */]])
-    ], CoreLoginSiteHelpPage);
-    return CoreLoginSiteHelpPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_7__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_2__providers_app__["a" /* CoreAppProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_6__providers_helper__["a" /* CoreLoginHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["p" /* ModalController */], __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */]])
+    ], CoreLoginSitePage);
+    return CoreLoginSitePage;
 }());
 
-//# sourceMappingURL=site-help.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+//# sourceMappingURL=site.js.map
 
 /***/ })
 

@@ -1,33 +1,17 @@
 webpackJsonp([19],{
 
-<<<<<<< HEAD
-/***/ 1889:
-=======
-/***/ 1959:
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/***/ 1896:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreSettingsSpaceUsagePageModule", function() { return CoreSettingsSpaceUsagePageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreSharedFilesListPageModule", function() { return CoreSharedFilesListPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__space_usage__ = __webpack_require__(2017);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__list__ = __webpack_require__(2037);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pipes_pipes_module__ = __webpack_require__(67);
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreSettingsSynchronizationPageModule", function() { return CoreSettingsSynchronizationPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__synchronization__ = __webpack_require__(2091);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pipes_pipes_module__ = __webpack_require__(63);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -53,80 +37,42 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-
-<<<<<<< HEAD
-var CoreSettingsSpaceUsagePageModule = /** @class */ (function () {
-    function CoreSettingsSpaceUsagePageModule() {
+var CoreSharedFilesListPageModule = /** @class */ (function () {
+    function CoreSharedFilesListPageModule() {
     }
-    CoreSettingsSpaceUsagePageModule = __decorate([
+    CoreSharedFilesListPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_3__space_usage__["a" /* CoreSettingsSpaceUsagePage */]
-=======
-var CoreSettingsSynchronizationPageModule = /** @class */ (function () {
-    function CoreSettingsSynchronizationPageModule() {
-    }
-    CoreSettingsSynchronizationPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_3__synchronization__["a" /* CoreSettingsSynchronizationPage */]
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+                __WEBPACK_IMPORTED_MODULE_2__list__["a" /* CoreSharedFilesListPage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
                 __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
-                __WEBPACK_IMPORTED_MODULE_6__pipes_pipes_module__["a" /* CorePipesModule */],
-<<<<<<< HEAD
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__space_usage__["a" /* CoreSettingsSpaceUsagePage */]),
-                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__list__["a" /* CoreSharedFilesListPage */]),
+                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ]
         })
-    ], CoreSettingsSpaceUsagePageModule);
-    return CoreSettingsSpaceUsagePageModule;
+    ], CoreSharedFilesListPageModule);
+    return CoreSharedFilesListPageModule;
 }());
 
-//# sourceMappingURL=space-usage.module.js.map
+//# sourceMappingURL=list.module.js.map
 
 /***/ }),
 
-/***/ 2017:
+/***/ 2037:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreSettingsSpaceUsagePage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreSharedFilesListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_app__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_filepool__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__ = __webpack_require__(8);
-=======
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__synchronization__["a" /* CoreSettingsSynchronizationPage */]),
-                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
-            ],
-        })
-    ], CoreSettingsSynchronizationPageModule);
-    return CoreSettingsSynchronizationPageModule;
-}());
-
-//# sourceMappingURL=synchronization.module.js.map
-
-/***/ }),
-
-/***/ 2091:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreSettingsSynchronizationPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core_constants__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_config__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_settings_providers_helper__ = __webpack_require__(955);
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_file__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_text__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_sharedfiles__ = __webpack_require__(400);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -156,236 +102,159 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 /**
-<<<<<<< HEAD
- * Page that displays the space usage settings.
+ * Modal to display the list of shared files.
  */
-var CoreSettingsSpaceUsagePage = /** @class */ (function () {
-    function CoreSettingsSpaceUsagePage(filePoolProvider, sitesProvider, textUtils, translate, domUtils, appProvider) {
-        this.filePoolProvider = filePoolProvider;
+var CoreSharedFilesListPage = /** @class */ (function () {
+    function CoreSharedFilesListPage(viewCtrl, navParams, sharedFilesProvider, sitesProvider, textUtils, translate, fileProvider, eventsProvider, navCtrl) {
+        this.viewCtrl = viewCtrl;
+        this.sharedFilesProvider = sharedFilesProvider;
         this.sitesProvider = sitesProvider;
         this.textUtils = textUtils;
         this.translate = translate;
-        this.domUtils = domUtils;
-        this.usageLoaded = false;
-        this.sites = [];
-        this.currentSiteId = '';
-        this.totalUsage = 0;
-        this.currentSiteId = this.sitesProvider.getCurrentSiteId();
-=======
- * Page that displays the synchronization settings.
- */
-var CoreSettingsSynchronizationPage = /** @class */ (function () {
-    function CoreSettingsSynchronizationPage(configProvider, eventsProvider, sitesProvider, domUtils, settingsHelper) {
-        var _this = this;
-        this.configProvider = configProvider;
+        this.fileProvider = fileProvider;
         this.eventsProvider = eventsProvider;
-        this.sitesProvider = sitesProvider;
-        this.domUtils = domUtils;
-        this.settingsHelper = settingsHelper;
-        this.sites = [];
-        this.sitesLoaded = false;
-        this.currentSiteId = '';
-        this.syncOnlyOnWifi = false;
-        this.isDestroyed = false;
-        this.currentSiteId = this.sitesProvider.getCurrentSiteId();
-        this.sitesObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_2__providers_events__["a" /* CoreEventsProvider */].SITE_UPDATED, function (data) {
-            _this.sitesProvider.getSite(data.siteId).then(function (site) {
-                var siteInfo = site.getInfo();
-                var siteEntry = _this.sites.find(function (siteEntry) { return siteEntry.id == site.id; });
-                if (siteEntry) {
-                    siteEntry.siteUrl = siteInfo.siteurl;
-                    siteEntry.siteName = siteInfo.sitename;
-                    siteEntry.fullName = siteInfo.fullname;
-                }
-            });
-        });
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+        this.navCtrl = navCtrl;
+        this.path = '';
+        this.siteId = navParams.get('siteId') || this.sitesProvider.getCurrentSiteId();
+        this.mimetypes = navParams.get('mimetypes');
+        this.isModal = !!navParams.get('isModal');
+        this.manage = !!navParams.get('manage');
+        this.pick = !!navParams.get('pick');
+        this.path = navParams.get('path') || '';
     }
     /**
-     * View loaded.
+     * Component being initialized.
      */
-<<<<<<< HEAD
-    CoreSettingsSpaceUsagePage.prototype.ionViewDidLoad = function () {
+    CoreSharedFilesListPage.prototype.ngOnInit = function () {
         var _this = this;
-        this.fetchData().finally(function () {
-            _this.usageLoaded = true;
-        });
-    };
-    /**
-     * Convenience function to calculate each site's usage, and the total usage.
-     *
-     * @return {Promise<any>} Resolved when done.
-     */
-    CoreSettingsSpaceUsagePage.prototype.calculateSizeUsage = function () {
-        var _this = this;
-        return this.sitesProvider.getSortedSites().then(function (sites) {
-            _this.sites = sites;
-            // Get space usage.
-            var promises = _this.sites.map(function (siteEntry) {
-                return _this.sitesProvider.getSite(siteEntry.id).then(function (site) {
-                    return site.getSpaceUsage().then(function (size) {
-                        siteEntry.spaceUsage = size;
-                    });
+        this.loadFiles();
+        // Listen for new files shared with the app.
+        this.shareObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_3__providers_events__["a" /* CoreEventsProvider */].FILE_SHARED, function (data) {
+            if (data.siteId == _this.siteId) {
+                // File was stored in current site, refresh the list.
+                _this.filesLoaded = false;
+                _this.loadFiles().finally(function () {
+                    _this.filesLoaded = true;
                 });
-            });
-            return Promise.all(promises);
-        });
-    };
-    /**
-     * Convenience function to calculate total usage.
-     */
-    CoreSettingsSpaceUsagePage.prototype.calculateTotalUsage = function () {
-        var total = 0;
-        this.sites.forEach(function (site) {
-            if (site.spaceUsage) {
-                total += parseInt(site.spaceUsage, 10);
             }
         });
-        this.totalUsage = total;
     };
     /**
-     * Convenience function to calculate space usage.
+     * Load the files.
      *
-     * @return {Promise<any>} Resolved when done.
+     * @return {Promise<any>} Promise resolved when done.
      */
-    CoreSettingsSpaceUsagePage.prototype.fetchData = function () {
+    CoreSharedFilesListPage.prototype.loadFiles = function () {
         var _this = this;
-        var promises = [
-            this.calculateSizeUsage().then(function () { return _this.calculateTotalUsage(); }),
-        ];
-        return Promise.all(promises);
+        if (this.path) {
+            this.title = this.fileProvider.getFileAndDirectoryFromPath(this.path).name;
+        }
+        else {
+            this.title = this.translate.instant('core.sharedfiles.sharedfiles');
+        }
+        return this.sharedFilesProvider.getSiteSharedFiles(this.siteId, this.path, this.mimetypes).then(function (files) {
+            _this.files = files;
+            _this.filesLoaded = true;
+        });
     };
     /**
-     * Refresh the data.
+     * Close modal.
+     */
+    CoreSharedFilesListPage.prototype.closeModal = function () {
+        this.viewCtrl.dismiss();
+    };
+    /**
+     * Refresh the list of files.
      *
      * @param {any} refresher Refresher.
      */
-    CoreSettingsSpaceUsagePage.prototype.refreshData = function (refresher) {
-        this.fetchData().finally(function () {
+    CoreSharedFilesListPage.prototype.refreshFiles = function (refresher) {
+        this.loadFiles().finally(function () {
             refresher.complete();
         });
     };
     /**
-     * Convenience function to update site size, along with total usage.
+     * Called when a file is deleted. Remove the file from the list.
      *
-     * @param {any} site Site object with space usage.
-     * @param {number} newUsage New space usage of the site in bytes.
+     * @param {number} index Position of the file.
      */
-    CoreSettingsSpaceUsagePage.prototype.updateSiteUsage = function (site, newUsage) {
-        var oldUsage = site.spaceUsage;
-        site.spaceUsage = newUsage;
-        this.totalUsage -= oldUsage - newUsage;
+    CoreSharedFilesListPage.prototype.fileDeleted = function (index) {
+        this.files.splice(index, 1);
     };
     /**
-     * Deletes files of a site.
+     * Called when a file is renamed. Update the list.
      *
-     * @param {any} siteData Site object with space usage.
+     * @param {number} index Position of the file.
+     * @param {any} data Data containing the new FileEntry.
      */
-    CoreSettingsSpaceUsagePage.prototype.deleteSiteFiles = function (siteData) {
-        var _this = this;
-        this.textUtils.formatText(siteData.siteName).then(function (siteName) {
-            var title = _this.translate.instant('core.settings.deletesitefilestitle');
-            var message = _this.translate.instant('core.settings.deletesitefiles', { sitename: siteName });
-            _this.domUtils.showConfirm(message, title).then(function () {
-                return _this.sitesProvider.getSite(siteData.id);
-            }).then(function (site) {
-                site.deleteFolder().then(function () {
-                    _this.filePoolProvider.clearAllPackagesStatus(site.id);
-                    _this.filePoolProvider.clearFilepool(site.id);
-                    _this.updateSiteUsage(siteData, 0);
-                }).catch(function (error) {
-                    if (error && error.code === FileError.NOT_FOUND_ERR) {
-                        // Not found, set size 0.
-                        _this.filePoolProvider.clearAllPackagesStatus(site.id);
-                        _this.updateSiteUsage(siteData, 0);
-                    }
-                    else {
-                        // Error, recalculate the site usage.
-                        _this.domUtils.showErrorModal('core.settings.errordeletesitefiles', true);
-                        site.getSpaceUsage().then(function (size) {
-                            _this.updateSiteUsage(siteData, size);
-                        });
-                    }
-                });
-            }).catch(function () {
-                // Ignore cancelled confirmation modal.
+    CoreSharedFilesListPage.prototype.fileRenamed = function (index, data) {
+        this.files[index] = data.file;
+    };
+    /**
+     * Open a subfolder.
+     *
+     * @param {any} folder The folder to open.
+     */
+    CoreSharedFilesListPage.prototype.openFolder = function (folder) {
+        var path = this.textUtils.concatenatePaths(this.path, folder.name);
+        if (this.isModal) {
+            // In Modal we don't want to open a new page because we cannot dismiss the modal from the new page.
+            this.path = path;
+            this.filesLoaded = false;
+            this.loadFiles();
+        }
+        else {
+            this.navCtrl.push('CoreSharedFilesListPage', {
+                path: path,
+                manage: this.manage,
+                pick: this.pick,
+                siteId: this.siteId,
+                mimetypes: this.mimetypes,
+                isModal: this.isModal
             });
-        });
+        }
     };
-    CoreSettingsSpaceUsagePage = __decorate([
+    /**
+     * Change site loaded.
+     *
+     * @param {string} id Site to load.
+     */
+    CoreSharedFilesListPage.prototype.changeSite = function (id) {
+        this.siteId = id;
+        this.path = '';
+        this.filesLoaded = false;
+        this.loadFiles();
+    };
+    /**
+     * A file was picked.
+     *
+     * @param {any} file Picked file.
+     */
+    CoreSharedFilesListPage.prototype.filePicked = function (file) {
+        this.viewCtrl.dismiss(file);
+    };
+    /**
+     * Component destroyed.
+     */
+    CoreSharedFilesListPage.prototype.ngOnDestroy = function () {
+        if (this.shareObserver) {
+            this.shareObserver.off();
+        }
+    };
+    CoreSharedFilesListPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-settings-space-usage',template:/*ion-inline-start:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\core\settings\pages\space-usage\space-usage.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.settings.spaceusage\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="usageLoaded" (ionRefresh)="refreshData($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-loading [hideUntil]="usageLoaded">\n\n        <ion-item *ngFor="let site of sites" [class.core-primary-item]="site.id == currentSiteId">\n\n            <h2><core-format-text [text]="site.siteName"></core-format-text></h2>\n\n            <p>{{ site.fullName }}</p>\n\n            <p item-end>{{ site.spaceUsage | coreBytesToSize }}</p>\n\n            <button ion-button icon-only clear color="danger" item-end (click)="deleteSiteFiles(site)" [hidden]="!site.spaceUsage > \'0\'" [attr.aria-label]="\'core.settings.deletesitefilestitle\' | translate">\n\n                <ion-icon name="trash"></ion-icon>\n\n            </button>\n\n        </ion-item>\n\n        <ion-item-divider color="light">\n\n            <p>{{ \'core.settings.total\' | translate }}</p>\n\n            <p item-end>{{ totalUsage | coreBytesToSize }}</p>\n\n        </ion-item-divider>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\BCC_mobapp\bcc_custom_mma\src\core\settings\pages\space-usage\space-usage.html"*/,
+            selector: 'page-core-shared-files-list',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\sharedfiles\pages\list\list.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n\n\n        <ion-buttons end *ngIf="isModal">\n\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n\n                <ion-icon name="close"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="filesLoaded" (ionRefresh)="refreshFiles($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <!-- Allow selecting the site to view. -->\n\n    <core-site-picker [hidden]="!filesLoaded" [initialSite]="siteId" (siteSelected)="changeSite($event)"></core-site-picker>\n\n    <ion-item-divider color="light"></ion-item-divider>\n\n    <core-loading [hideUntil]="filesLoaded">\n\n        <ion-list *ngIf="files && files.length > 0">\n\n            <div *ngFor="let file of files; let idx = index">\n\n                <core-local-file *ngIf="file.isFile" [file]="file" [manage]="manage" [overrideClick]="pick" (onClick)="filePicked(file)" (onDelete)="fileDeleted(idx)" (onRename)="fileRenamed(idx, $event)"></core-local-file>\n\n                <a ion-item text-wrap class="item-media" *ngIf="!file.isFile" (click)="openFolder(file)">\n\n                    <img src="assets/img/files/folder-64.png" alt="{{ \'core.folder\' | translate }}" role="presentation" item-start>\n\n                    <p>{{ file.name }}</p>\n\n                </a>\n\n            </div>\n\n        </ion-list>\n\n        <core-empty-box *ngIf="files && !files.length && manage" icon="folder" [message]="\'core.sharedfiles.nosharedfiles\' | translate"></core-empty-box>\n\n        <core-empty-box *ngIf="files && !files.length && !manage" icon="folder" [message]="\'core.sharedfiles.nosharedfilestoupload\' | translate"></core-empty-box>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\core\sharedfiles\pages\list\list.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__providers_filepool__["a" /* CoreFilepoolProvider */],
-            __WEBPACK_IMPORTED_MODULE_4__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__["a" /* CoreTextUtilsProvider */],
-            __WEBPACK_IMPORTED_MODULE_1__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__providers_app__["a" /* CoreAppProvider */]])
-    ], CoreSettingsSpaceUsagePage);
-    return CoreSettingsSpaceUsagePage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["D" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_7__providers_sharedfiles__["a" /* CoreSharedFilesProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_6__providers_utils_text__["a" /* CoreTextUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_file__["a" /* CoreFileProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */]])
+    ], CoreSharedFilesListPage);
+    return CoreSharedFilesListPage;
 }());
 
-//# sourceMappingURL=space-usage.js.map
-=======
-    CoreSettingsSynchronizationPage.prototype.ionViewDidLoad = function () {
-        var _this = this;
-        this.sitesProvider.getSortedSites().then(function (sites) {
-            _this.sites = sites;
-        }).finally(function () {
-            _this.sitesLoaded = true;
-        });
-        this.configProvider.get(__WEBPACK_IMPORTED_MODULE_1__core_constants__["a" /* CoreConstants */].SETTINGS_SYNC_ONLY_ON_WIFI, true).then(function (syncOnlyOnWifi) {
-            _this.syncOnlyOnWifi = !!syncOnlyOnWifi;
-        });
-    };
-    /**
-     * Called when sync only on wifi setting is enabled or disabled.
-     */
-    CoreSettingsSynchronizationPage.prototype.syncOnlyOnWifiChanged = function () {
-        this.configProvider.set(__WEBPACK_IMPORTED_MODULE_1__core_constants__["a" /* CoreConstants */].SETTINGS_SYNC_ONLY_ON_WIFI, this.syncOnlyOnWifi ? 1 : 0);
-    };
-    /**
-     * Syncrhonizes a site.
-     *
-     * @param {string} siteId Site ID.
-     */
-    CoreSettingsSynchronizationPage.prototype.synchronize = function (siteId) {
-        var _this = this;
-        this.settingsHelper.synchronizeSite(this.syncOnlyOnWifi, siteId).catch(function (error) {
-            if (_this.isDestroyed) {
-                return;
-            }
-            _this.domUtils.showErrorModalDefault(error, 'core.settings.errorsyncsite', true);
-        });
-    };
-    /**
-     * Returns true if site is beeing synchronized.
-     *
-     * @param {string} siteId Site ID.
-     * @return {boolean} True if site is beeing synchronized, false otherwise.
-     */
-    CoreSettingsSynchronizationPage.prototype.isSynchronizing = function (siteId) {
-        return !!this.settingsHelper.getSiteSyncPromise(siteId);
-    };
-    /**
-     * Page destroyed.
-     */
-    CoreSettingsSynchronizationPage.prototype.ngOnDestroy = function () {
-        this.isDestroyed = true;
-        this.sitesObserver && this.sitesObserver.off();
-    };
-    CoreSettingsSynchronizationPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-settings-synchronization',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\settings\pages\synchronization\synchronization.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'core.settings.synchronization\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <core-loading [hideUntil]="sitesLoaded">\n        <ion-item-divider>\n            <p>{{ \'core.settings.syncsettings\' | translate }}</p>\n        </ion-item-divider>\n        <ion-item text-wrap>\n            <ion-label>{{ \'core.settings.enablesyncwifi\' | translate }}</ion-label>\n            <ion-toggle item-end [(ngModel)]="syncOnlyOnWifi" (ngModelChange)="syncOnlyOnWifiChanged()">\n            </ion-toggle>\n        </ion-item>\n        <ion-item-divider>\n            <p>{{ \'core.settings.sites\' | translate }}</p>\n        </ion-item-divider>\n        <ion-item *ngFor="let site of sites" [class.core-primary-selected-item]="site.id == currentSiteId" text-wrap>\n            <h2><core-format-text [text]="site.siteName"></core-format-text></h2>\n            <p>{{ site.fullName }}</p>\n            <p>{{ site.siteUrl }}</p>\n            <button ion-button icon-only clear item-end *ngIf="!isSynchronizing(site.id)" (click)="synchronize(site.id)" [title]="site.siteName" [attr.aria-label]="\'core.settings.synchronizenow\' | translate">\n                <ion-icon name="sync"></ion-icon>\n            </button>\n            <ion-spinner item-end *ngIf="isSynchronizing(site.id)"></ion-spinner>\n        </ion-item>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\settings\pages\synchronization\synchronization.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_5__providers_config__["a" /* CoreConfigProvider */], __WEBPACK_IMPORTED_MODULE_2__providers_events__["a" /* CoreEventsProvider */],
-            __WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
-            __WEBPACK_IMPORTED_MODULE_6__core_settings_providers_helper__["a" /* CoreSettingsHelper */]])
-    ], CoreSettingsSynchronizationPage);
-    return CoreSettingsSynchronizationPage;
-}());
-
-//# sourceMappingURL=synchronization.js.map
->>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
+//# sourceMappingURL=list.js.map
 
 /***/ })
 
