@@ -113,8 +113,6 @@ import { AddonNotificationsModule } from '@addon/notifications/notifications.mod
 import { AddonRemoteThemesModule } from '@addon/remotethemes/remotethemes.module';
 import { AddonQbehaviourModule } from '@addon/qbehaviour/qbehaviour.module';
 import { AddonQtypeModule } from '@addon/qtype/qtype.module';
-// AX_Lucio
-import { AddonAxificationsModule } from '@addon/axifications/axifications.module';
 
 
 // For translate loader. AoT requires an exported function for factories.
@@ -221,7 +219,6 @@ export const CORE_PROVIDERS: any[] = [
         AddonMessagesModule,
         AddonNotesModule,
         AddonNotificationsModule,
-		AddonAxificationsModule,
         AddonPushNotificationsModule,
         AddonRemoteThemesModule,
         AddonQbehaviourModule,
