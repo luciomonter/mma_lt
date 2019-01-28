@@ -74,5 +74,5 @@ export class CoreConfigConstants {
     static skipssoconfirmation = false;
     static forcedefaultlanguage = false;
     static privacypolicy = 'https://www.skilla.com/privacy_policy_cookie.asp?id=1#privacy1';
-    static compilationtime = 1548695501734;
+    static compilationtime = 1548695802061;
 }
