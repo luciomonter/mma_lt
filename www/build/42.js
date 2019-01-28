@@ -1,10 +1,15 @@
 webpackJsonp([42],{
 
+<<<<<<< HEAD
 /***/ 1866:
+=======
+/***/ 1937:
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+<<<<<<< HEAD
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreCoursesMyOverviewPageModule", function() { return CoreCoursesMyOverviewPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
@@ -14,6 +19,16 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(923);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__core_sitehome_components_components_module__ = __webpack_require__(931);
+=======
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreCoursesSearchPageModule", function() { return CoreCoursesSearchPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__search__ = __webpack_require__(2069);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(167);
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -40,6 +55,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+<<<<<<< HEAD
 
 var CoreCoursesMyOverviewPageModule = /** @class */ (function () {
     function CoreCoursesMyOverviewPageModule() {
@@ -48,11 +64,21 @@ var CoreCoursesMyOverviewPageModule = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_3__my_overview__["a" /* CoreCoursesMyOverviewPage */],
+=======
+var CoreCoursesSearchPageModule = /** @class */ (function () {
+    function CoreCoursesSearchPageModule() {
+    }
+    CoreCoursesSearchPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_3__search__["a" /* CoreCoursesSearchPage */],
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
                 __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
                 __WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* CoreCoursesComponentsModule */],
+<<<<<<< HEAD
                 __WEBPACK_IMPORTED_MODULE_7__core_sitehome_components_components_module__["a" /* CoreSiteHomeComponentsModule */],
                 __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__my_overview__["a" /* CoreCoursesMyOverviewPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
@@ -88,6 +114,28 @@ var CoreCoursesMyOverviewPageModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_moment__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_tabs_tabs__ = __webpack_require__(135);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__core_sitehome_components_index_index__ = __webpack_require__(932);
+=======
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__search__["a" /* CoreCoursesSearchPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], CoreCoursesSearchPageModule);
+    return CoreCoursesSearchPageModule;
+}());
+
+//# sourceMappingURL=search.module.js.map
+
+/***/ }),
+
+/***/ 2069:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreCoursesSearchPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_courses__ = __webpack_require__(33);
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -113,6 +161,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -578,6 +627,77 @@ var CoreCoursesMyOverviewPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=my-overview.js.map
+=======
+/**
+ * Page that allows searching for courses.
+ */
+var CoreCoursesSearchPage = /** @class */ (function () {
+    function CoreCoursesSearchPage(domUtils, coursesProvider) {
+        this.domUtils = domUtils;
+        this.coursesProvider = coursesProvider;
+        this.total = 0;
+        this.loadMoreError = false;
+        this.page = 0;
+        this.currentSearch = '';
+    }
+    /**
+     * Search a new text.
+     *
+     * @param {string} text The text to search.
+     */
+    CoreCoursesSearchPage.prototype.search = function (text) {
+        this.currentSearch = text;
+        this.courses = undefined;
+        this.page = 0;
+        var modal = this.domUtils.showModalLoading('core.searching', true);
+        this.searchCourses().finally(function () {
+            modal.dismiss();
+        });
+    };
+    /**
+     * Load more results.
+     *
+     * @param {any} [infiniteComplete] Infinite scroll complete function. Only used from core-infinite-loading.
+     */
+    CoreCoursesSearchPage.prototype.loadMoreResults = function (infiniteComplete) {
+        this.searchCourses().finally(function () {
+            infiniteComplete && infiniteComplete();
+        });
+    };
+    /**
+     * Search courses or load the next page of current search.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    CoreCoursesSearchPage.prototype.searchCourses = function () {
+        var _this = this;
+        this.loadMoreError = false;
+        return this.coursesProvider.search(this.currentSearch, this.page).then(function (response) {
+            if (_this.page === 0) {
+                _this.courses = response.courses;
+            }
+            else {
+                _this.courses = _this.courses.concat(response.courses);
+            }
+            _this.total = response.total;
+            _this.page++;
+            _this.canLoadMore = _this.courses.length < _this.total;
+        }).catch(function (error) {
+            _this.loadMoreError = true; // Set to prevent infinite calls with infinite-loading.
+            _this.domUtils.showErrorModalDefault(error, 'core.courses.errorsearching', true);
+        });
+    };
+    CoreCoursesSearchPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-core-courses-search',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\courses\pages\search\search.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'core.courses.searchcourses\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <core-search-box (onSubmit)="search($event)" [placeholder]="\'core.courses.search\' | translate" [searchLabel]="\'core.courses.search\' | translate" autoFocus="true" showClear="false"></core-search-box>\n\n    <div *ngIf="courses">\n        <ion-item-divider>{{ \'core.courses.totalcoursesearchresults\' | translate:{$a: total} }}</ion-item-divider>\n        <core-empty-box *ngIf="total == 0" icon="search" [message]="\'core.courses.nosearchresults\' | translate"></core-empty-box>\n        <core-courses-course-list-item *ngFor="let course of courses" [course]="course"></core-courses-course-list-item>\n        <core-infinite-loading [enabled]="canLoadMore" (action)="loadMoreResults($event)" [error]="loadMoreError"></core-infinite-loading>\n    </div>\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\courses\pages\search\search.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__providers_courses__["a" /* CoreCoursesProvider */]])
+    ], CoreCoursesSearchPage);
+    return CoreCoursesSearchPage;
+}());
+
+//# sourceMappingURL=search.js.map
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 
 /***/ })
 

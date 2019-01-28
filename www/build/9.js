@@ -1,15 +1,27 @@
 webpackJsonp([9],{
 
+<<<<<<< HEAD
 /***/ 1900:
+=======
+/***/ 1970:
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+<<<<<<< HEAD
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreViewerIframePageModule", function() { return CoreViewerIframePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__iframe__ = __webpack_require__(2028);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
+=======
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreViewerImagePageModule", function() { return CoreViewerImagePageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__image__ = __webpack_require__(2102);
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
 // (C) Copyright 2015 Martin Dougiamas
 //
@@ -35,6 +47,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+<<<<<<< HEAD
 var CoreViewerIframePageModule = /** @class */ (function () {
     function CoreViewerIframePageModule() {
     }
@@ -65,6 +78,38 @@ var CoreViewerIframePageModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_sites__ = __webpack_require__(2);
+=======
+var CoreViewerImagePageModule = /** @class */ (function () {
+    function CoreViewerImagePageModule() {
+    }
+    CoreViewerImagePageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_3__image__["a" /* CoreViewerImagePage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__image__["a" /* CoreViewerImagePage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ]
+        })
+    ], CoreViewerImagePageModule);
+    return CoreViewerImagePageModule;
+}());
+
+//# sourceMappingURL=image.module.js.map
+
+/***/ }),
+
+/***/ 2102:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreViewerImagePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(3);
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -91,6 +136,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
+<<<<<<< HEAD
  * Page to display a URL in an iframe.
  */
 var CoreViewerIframePage = /** @class */ (function () {
@@ -122,6 +168,34 @@ var CoreViewerIframePage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=iframe.js.map
+=======
+ * Page to view an image. If opened as a modal, it will have a button to close the modal.
+ */
+var CoreViewerImagePage = /** @class */ (function () {
+    function CoreViewerImagePage(viewCtrl, params, translate) {
+        this.viewCtrl = viewCtrl;
+        this.title = params.get('title') || translate.instant('core.imageviewer');
+        this.image = params.get('image');
+        this.component = params.get('component');
+        this.componentId = params.get('componentId');
+    }
+    /**
+     * Close modal.
+     */
+    CoreViewerImagePage.prototype.closeModal = function () {
+        this.viewCtrl.dismiss();
+    };
+    CoreViewerImagePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-core-viewer-image',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\viewer\pages\image\image.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ title }}</ion-title>\n\n        <ion-buttons end>\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n                <ion-icon name="close"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-scroll zoom="true" maxZoom="2" class="core-zoom-pane" scrollX="true" scrollY="true">\n        <img [src]="image" [alt]="title" core-external-content [component]="component" [componentId]="componentId">\n    </ion-scroll>\n</ion-content>\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt\src\core\viewer\pages\image\image.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["E" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1__ngx_translate_core__["c" /* TranslateService */]])
+    ], CoreViewerImagePage);
+    return CoreViewerImagePage;
+}());
+
+//# sourceMappingURL=image.js.map
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 
 /***/ })
 

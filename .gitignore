@@ -22,12 +22,19 @@ dist/
 node_modules/
 tmp/
 temp/
+<<<<<<< HEAD
 hooks/
+=======
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 platforms/
 /plugins/
 /plugins/android.json
 /plugins/ios.json
+<<<<<<< HEAD
 #www/
+=======
+!www/README.md
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 $RECYCLE.BIN/
 
 .DS_Store
@@ -39,4 +46,7 @@ e2e/build
 !/desktop/assets/
 !/desktop/electron.js
 src/configconstants.ts
+<<<<<<< HEAD
 src/assets/lang
+=======
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d

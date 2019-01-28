@@ -1,10 +1,20 @@
 {
+<<<<<<< HEAD
   "name": "skillamoodlemobile",
+=======
+  "name": "moodlemobile",
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
   "integrations": {
     "cordova": {},
     "gulp": {}
   },
   "type": "ionic-angular",
   "watchPatterns": [],
+<<<<<<< HEAD
   "pro_id": "com.skilla.bcc_moodlemobile"
 }
+=======
+  "pro_id": "com.moodle.moodlemobile",
+  "id": "com.moodle.moodlemobile"
+}
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d

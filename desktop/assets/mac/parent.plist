@@ -14,5 +14,10 @@
     <true/>
     <key>com.apple.security.files.user-selected.read-only</key>
     <true/>
+<<<<<<< HEAD
+=======
+    <key>com.apple.security.device.audio-input</key>
+    <true/>
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
   </dict>
 </plist>

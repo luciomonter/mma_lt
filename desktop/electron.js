@@ -5,6 +5,10 @@ const path = require('path');
 const url = require('url');
 const fs = require('fs');
 const os = require('os');
+<<<<<<< HEAD
+=======
+const userAgent = 'MoodleMobile';
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -64,6 +68,12 @@ function createWindow() {
     mainWindow.on('focus', () => {
         mainWindow.webContents.send('coreAppFocused'); // Send an event to the main window.
     });
+<<<<<<< HEAD
+=======
+
+    // Append some text to the user agent.
+    mainWindow.webContents.setUserAgent(mainWindow.webContents.getUserAgent() + ' ' + userAgent);
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 }
 
 // This method will be called when Electron has finished initialization and is ready to create browser windows.

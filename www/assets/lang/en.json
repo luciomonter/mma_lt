@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "addon.axifications.axificationpreferences": "AX-itification preferences",
     "addon.axifications.axifications": "Ax-ifications",
@@ -1604,3 +1605,6 @@
     "core.years": "years",
     "core.yes": "Yes"
 }
+=======
+{}
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d

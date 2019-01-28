@@ -9,6 +9,10 @@ var gulp = require('gulp'),
     flatten = require('gulp-flatten'),
     npmPath = require('path'),
     File = gutil.File,
+<<<<<<< HEAD
+=======
+    exec = require('child_process').exec,
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
     license = '' +
         '// (C) Copyright 2015 Martin Dougiamas\n' +
         '//\n' +
@@ -24,6 +28,7 @@ var gulp = require('gulp'),
         '// See the License for the specific language governing permissions and\n' +
         '// limitations under the License.\n\n';
 
+<<<<<<< HEAD
 // Get the names of the JSON files inside a directory.
 function getFilenames(dir) {
     if (fs.existsSync(dir)) {
@@ -35,6 +40,8 @@ function getFilenames(dir) {
     }
 }
 
+=======
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 /**
  * Copy a property from one object to another, adding a prefix to the key if needed.
  * @param {Object} target Object to copy the properties to.
@@ -75,7 +82,12 @@ function treatMergedData(data) {
     var mergedOrdered = {};
 
     for (var filepath in data) {
+<<<<<<< HEAD
         var pathSplit = filepath.split('/');
+=======
+        var pathSplit = filepath.split('/'),
+            prefix;
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 
         pathSplit.pop();
 
@@ -120,14 +132,21 @@ function treatMergedData(data) {
 }
 
 /**
+<<<<<<< HEAD
  * Build lang files.
  *
  * @param  {String[]} filenames Names of the language files.
+=======
+ * Build lang file.
+ *
+ * @param  {String} language    Language to translate.
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
  * @param  {String[]} langPaths Paths to the possible language files.
  * @param  {String}   buildDest Path where to leave the built files.
  * @param  {Function} done      Function to call when done.
  * @return {Void}
  */
+<<<<<<< HEAD
 function buildLangs(filenames, langPaths, buildDest, done) {
     if (!filenames || !filenames.length) {
         // If no filenames supplied, stop. Maybe it's an empty lang folder.
@@ -185,6 +204,47 @@ function buildLangs(filenames, langPaths, buildDest, done) {
             .pipe(gulp.dest(buildDest))
             .on('end', taskFinished);
     });
+=======
+function buildLang(language, langPaths, buildDest, done) {
+    var filename = language + '.json',
+        data = {},
+        firstFile = null;
+
+    var paths = langPaths.map(function(path) {
+        if (path.slice(-1) != '/') {
+            path = path + '/';
+        }
+        return path + language + '.json';
+    });
+
+    gulp.src(paths, { allowEmpty: true })
+        .pipe(slash())
+        .pipe(clipEmptyFiles())
+        .pipe(through(function(file) {
+            if (!firstFile) {
+                firstFile = file;
+            }
+            return treatFile(file, data);
+        }, function() {
+            /* This implementation is based on gulp-jsoncombine module.
+             * https://github.com/reflog/gulp-jsoncombine */
+            if (firstFile) {
+                var joinedPath = path.join(firstFile.base, language+'.json');
+
+                var joinedFile = new File({
+                    cwd: firstFile.cwd,
+                    base: firstFile.base,
+                    path: joinedPath,
+                    contents: treatMergedData(data)
+                });
+
+                this.emit('data', joinedFile);
+            }
+            this.emit('end');
+        }))
+        .pipe(gulp.dest(buildDest))
+        .on('end', done);
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 }
 
 // Delete a folder and all its contents.
@@ -204,10 +264,14 @@ function deleteFolderRecursive(path) {
 }
 
 // List of app lang files. To be used only if cannot get it from filesystem.
+<<<<<<< HEAD
 var appLangFiles = ['ar.json', 'bg.json', 'ca.json', 'cs.json', 'da.json', 'de.json', 'en.json', 'es-mx.json', 'es.json', 'eu.json',
     'fa.json', 'fr.json', 'he.json', 'hu.json', 'it.json', 'ja.json', 'nl.json', 'pl.json', 'pt-br.json', 'pt.json', 'ro.json',
     'ru.json', 'sv.json', 'tr.json', 'zh-cn.json', 'zh-tw.json'],
     paths = {
+=======
+var paths = {
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
         src: './src',
         assets: './src/assets',
         lang: [
@@ -220,6 +284,7 @@ var appLangFiles = ['ar.json', 'bg.json', 'ca.json', 'cs.json', 'da.json', 'de.j
         config: './src/config.json',
     };
 
+<<<<<<< HEAD
 gulp.task('default', ['lang', 'config']);
 
 gulp.task('watch', function() {
@@ -236,10 +301,16 @@ gulp.task('lang', function(done) {
     var filenames = getFilenames(paths.lang[0]);
 
     buildLangs(filenames, paths.lang, path.join(paths.assets, 'lang'), done);
+=======
+// Build the language files into a single file per language.
+gulp.task('lang', function(done) {
+    buildLang('en', paths.lang, path.join(paths.assets, 'lang'), done);
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 });
 
 // Convert config.json into a TypeScript class.
 gulp.task('config', function(done) {
+<<<<<<< HEAD
     gulp.src(paths.config)
         .pipe(through(function(file) {
             // Convert the contents of the file into a TypeScript class.
@@ -290,6 +361,79 @@ gulp.task('config', function(done) {
         .pipe(rename('configconstants.ts'))
         .pipe(gulp.dest(paths.src))
         .on('end', done);
+=======
+    // Get the last commit.
+    exec('git log -1 --pretty=format:"%H"', function (err, commit, stderr) {
+        if (err) {
+            console.error('An error occurred while getting the last commit: ' + err);
+        } else if (stderr) {
+            console.error('An error occurred while getting the last commit: ' + stderr);
+        }
+
+        gulp.src(paths.config)
+            .pipe(through(function(file) {
+                // Convert the contents of the file into a TypeScript class.
+                // Disable the rule variable-name in the file.
+                var config = JSON.parse(file.contents.toString()),
+                    contents = license + '// tslint:disable: variable-name\n' + 'export class CoreConfigConstants {\n',
+                    that = this;
+
+                for (var key in config) {
+                    var value = config[key];
+                    if (typeof value == 'string') {
+                        // Wrap the string in ' and scape them.
+                        value = "'" + value.replace(/([^\\])'/g, "$1\\'") + "'";
+                    } else if (typeof value != 'number' && typeof value != 'boolean') {
+                        // Stringify with 4 spaces of indentation, and then add 4 more spaces in each line.
+                        value = JSON.stringify(value, null, 4).replace(/^(?:    )/gm, '        ').replace(/^(?:})/gm, '    }');
+                        // Replace " by ' in values.
+                        value = value.replace(/: "([^"]*)"/g, ": '$1'");
+
+                        // Check if the keys have "-" in it.
+                        var matches = value.match(/"([^"]*\-[^"]*)":/g);
+                        if (matches) {
+                            // Replace " by ' in keys. We cannot remove them because keys have chars like '-'.
+                            value = value.replace(/"([^"]*)":/g, "'$1':");
+                        } else {
+                            // Remove ' in keys.
+                            value = value.replace(/"([^"]*)":/g, "$1:");
+                        }
+
+                        // Add type any to the key.
+                        key = key + ': any';
+                    }
+
+                    // If key has quotation marks, remove them.
+                    if (key[0] == '"') {
+                        key = key.substr(1, key.length - 2);
+                    }
+                    contents += '    static ' + key + ' = ' + value + ';\n';
+                }
+
+                // Add compilation info.
+                contents += '    static compilationtime = ' + Date.now() + ';\n';
+                contents += '    static lastcommit = \'' + commit + '\';\n';
+
+                contents += '}\n';
+
+                file.contents = new Buffer(contents);
+                this.emit('data', file);
+            }))
+            .pipe(rename('configconstants.ts'))
+            .pipe(gulp.dest(paths.src))
+            .on('end', done);
+    });
+});
+
+gulp.task('default', gulp.parallel('lang', 'config'));
+
+gulp.task('watch', function() {
+    var langsPaths = paths.lang.map(function(path) {
+        return path + 'en.json';
+    });
+    gulp.watch(langsPaths, { interval: 500 }, gulp.parallel('lang'));
+    gulp.watch(paths.config, { interval: 500 }, gulp.parallel('config'));
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
 });
 
 var templatesSrc = [
@@ -306,7 +450,11 @@ var templatesSrc = [
 gulp.task('copy-component-templates', function(done) {
     deleteFolderRecursive(templatesDest);
 
+<<<<<<< HEAD
     gulp.src(templatesSrc)
+=======
+    gulp.src(templatesSrc, { allowEmpty: true })
+>>>>>>> 5632a65c1fdc0002876490b68e6dc6621a0dd43d
         .pipe(flatten())
         .pipe(gulp.dest(templatesDest))
         .on('end', done);
