@@ -120,12 +120,15 @@
     <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
     <gap:plugin name="cordova-clipboard" source="npm" />
     <gap:plugin name="nl.kingsquare.cordova.background-audio" source="npm" />
+	
     <gap:plugin name="phonegap-plugin-push" source="git" version="https://github.com/moodlemobile/phonegap-plugin-push.git#moodle">
         <param name="SENDER_ID" value="117648747151" />
     </gap:plugin>
+	
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
         <param name="URL_SCHEME" value="ltmma" />
     </gap:plugin>
+	
     <gap:plugin name="ionic-plugin-keyboard" source="npm" />
     <gap:plugin name="cordova-plugin-zip" source="npm" />
     <gap:plugin name="cordova-sqlite-evcore-extbuild-free" source="npm" />
@@ -530,4 +533,10 @@
         </array>
     </config-file>
     <content src="index.html" />
+	<config-file platform="ios" target="*-Release.plist" parent="aps-environment">
+		<string>production</string>
+	</config-file>
+	<config-file platform="ios" target="*-Debug.plist" parent="aps-environment">
+		<string>development</string>
+	</config-file>	
 </widget>
