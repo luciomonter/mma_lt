@@ -17,8 +17,8 @@ export class CoreConfigConstants {
     static app_id = 'com.skilla.ltmoodlemobile';
     static appname = 'Skilla LT2019';
     static desktopappname = 'Skilla LT2019';
-    static versioncode = 362045;
-    static versionname = '3.6.245';
+    static versioncode = 362046;
+    static versionname = '3.6.246';
     static cache_expiration_time = 300000;
     static default_lang = 'en';
     static languages: any = {
@@ -74,5 +74,5 @@ export class CoreConfigConstants {
     static skipssoconfirmation = false;
     static forcedefaultlanguage = false;
     static privacypolicy = 'https://www.skilla.com/privacy_policy_cookie.asp?id=1#privacy1';
-    static compilationtime = 1548761227970;
+    static compilationtime = 1548761767965;
 }
