@@ -1,0 +1,8 @@
+ion-app.app-root page-core-viewer-iframe {
+    core-loading .core-loading-content {
+        height: 100%;
+    }    
+	.iframe_without_margin_bottom {
+        margin-bottom:0 !important;
+    }
+}
