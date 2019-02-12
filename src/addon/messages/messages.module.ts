@@ -87,6 +87,8 @@ export class AddonMessagesModule {
         settingsDelegate.registerHandler(settingsHandler);
 
         // Sync some discussions when device goes online.
+		console.log("-----------------------------------------  MSG subscribe");
+		alert("ciao");
         network.onConnect().subscribe(() => {
             // Execute the callback in the Angular zone, so change detection doesn't stop working.
             zone.run(() => {
