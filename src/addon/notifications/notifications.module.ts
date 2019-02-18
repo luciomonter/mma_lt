@@ -63,7 +63,10 @@ export class AddonNotificationsModule {
                 }
 
                 notificationsProvider.invalidateNotificationsList().finally(() => {
+					alert("notify m1");
                     linkHelper.goInSite(undefined, 'AddonNotificationsListPage', undefined, notification.site);
+					alert("notify m2");
+					alert("notify m3: " + notification.site);
                 });
             });
         };
