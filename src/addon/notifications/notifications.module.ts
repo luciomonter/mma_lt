@@ -56,16 +56,6 @@ export class AddonNotificationsModule {
         cronDelegate.register(cronHandler);
 
         const notificationClicked = (notification: any): void => {
-			alert("notify m1.5");
-			setTimeout(function(){ alert("notify m1.5"); }, 9000);
-			for (var property in notification) {
-				if (notification.hasOwnProperty(property)) {
-					// do stuff
-					alert("notify m1.5 prop: "+property+" :: " + notification[property]);
-				}
-			}			
-			alert("notify m1.5 notification.site:: " + notification.site);
-			
             sitesProvider.isFeatureDisabled('CoreMainMenuDelegate_AddonNotifications', notification.site).then((disabled) => {
                 if (disabled) {
                     // Notifications are disabled, stop.
@@ -92,6 +82,15 @@ export class AddonNotificationsModule {
 			alert("notify m0");
 			setTimeout(function(){ alert("notify m0"); }, 9000);
 
+			for (var property in notification) {
+				if (notification.hasOwnProperty(property)) {
+					// do stuff
+					alert("notify m1.5 prop: "+property+" :: " + notification[property]);
+				}
+			}			
+			alert("notify m1.5 notification.site:: " + notification.site);			
+			
+			
             if (utils.isTrueOrOne(notification.notif)) {
                 notificationClicked(notification);
 
