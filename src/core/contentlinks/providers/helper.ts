@@ -74,6 +74,7 @@ export class CoreContentLinksHelperProvider {
      * @param {string} [siteId] Site ID. If not defined, current site.
      */
     goInSite(navCtrl: NavController, pageName: string, pageParams: any, siteId?: string): void {
+		alert("goInSite");
         siteId = siteId || this.sitesProvider.getCurrentSiteId();
         if (navCtrl && siteId == this.sitesProvider.getCurrentSiteId()) {
             navCtrl.push(pageName, pageParams);
