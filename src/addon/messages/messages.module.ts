@@ -118,6 +118,9 @@ export class AddonMessagesModule {
 
         // Register push notification clicks.
         pushNotificationsDelegate.on('click').subscribe((notification) => {
+			alert("MESSAGE: notify m0");
+			setTimeout(function(){ alert("MESSAGE: notify m0"); }, 9000);		
+			
             if (utils.isFalseOrZero(notification.notif)) {
                 notificationClicked(notification);
 

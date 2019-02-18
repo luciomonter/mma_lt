@@ -56,9 +56,6 @@ export class AddonNotificationsModule {
         cronDelegate.register(cronHandler);
 
         const notificationClicked = (notification: any): void => {
-			alert("notify m0");
-			setTimeout(function(){ alert("notify m0"); }, 9000);
-			
             sitesProvider.isFeatureDisabled('CoreMainMenuDelegate_AddonNotifications', notification.site).then((disabled) => {
                 if (disabled) {
                     // Notifications are disabled, stop.
@@ -82,6 +79,9 @@ export class AddonNotificationsModule {
 
         // Register push notification clicks.
         pushNotificationsDelegate.on('click').subscribe((notification) => {
+			alert("notify m0");
+			setTimeout(function(){ alert("notify m0"); }, 9000);
+
             if (utils.isTrueOrOne(notification.notif)) {
                 notificationClicked(notification);
 
