@@ -88,7 +88,7 @@ export class AddonMessagesModule {
 
         // Sync some discussions when device goes online.
 		console.log("-----------------------------------------  MSG subscribe");
-		alert("ciao"); 
+		//alert("ciao"); 
         network.onConnect().subscribe(() => {
             // Execute the callback in the Angular zone, so change detection doesn't stop working.
             zone.run(() => {
@@ -118,9 +118,6 @@ export class AddonMessagesModule {
 
         // Register push notification clicks.
         pushNotificationsDelegate.on('click').subscribe((notification) => {
-			alert("MESSAGE: notify m0");
-			setTimeout(function(){ alert("MESSAGE: notify m0"); }, 9000);		
-			
             if (utils.isFalseOrZero(notification.notif)) {
                 notificationClicked(notification);
 

@@ -17,6 +17,7 @@ import { AddonAxificationsProvider } from './providers/axifications';
 import { AddonAxificationsMainMenuHandler } from './providers/mainmenu-handler';
 import { CoreContentLinksHelperProvider } from '@core/contentlinks/providers/helper';
 import { CoreMainMenuDelegate } from '@core/mainmenu/providers/delegate';
+import { AddonPushNotificationsDelegate } from '@addon/pushnotifications/providers/delegate';
 
 // List of providers (without handlers).
 export const ADDON_AXIFICATIONS_PROVIDERS: any[] = [
@@ -38,17 +39,44 @@ export class AddonAxificationsModule {
     constructor(mainMenuDelegate: CoreMainMenuDelegate, 
 			mainMenuHandler: AddonAxificationsMainMenuHandler,
 			linkHelper: CoreContentLinksHelperProvider, 
-            axificationsProvider: AddonAxificationsProvider) 			
+            axificationsProvider: AddonAxificationsProvider,
+			pushNotificationsDelegate: AddonPushNotificationsDelegate) 			
 			
 		{
 			mainMenuDelegate.registerHandler(mainMenuHandler);
 
         const axificationClicked = (axification: any): void => {
-		
-			linkHelper.goInSite(undefined, 'AddonAxificationsListPage', undefined, axification.site);
+			alert("--axificationClicked axification.moduleId: " + axification.moduleId);
+			axificationsProvider.invalidateNotificationsList().finally(() => {
+				linkHelper.goInSite(undefined, 'AddonNotificationsListPage', undefined, notification.site);
+			});		
 
         };
 
+
+        // Register push notification clicks.
+        pushNotificationsDelegate.on('click').subscribe((notification) => {
+			alert("AX-notify m0");
+
+			for (var property in notification) {
+				if (notification.hasOwnProperty(property)) {
+					// do stuff
+					alert("AX-notify m1.5 prop: "+property+" :: " + notification[property]);
+				}
+			}			
+			
+			/// only for axficationsss:
+			if (notification.hasOwnProperty("axurlparams")) {
+				notificationClicked(notification.axurlparams);
+				return true;
+			}
+			
+        });		
+		
+		
+		
+		
+		
         
     }
 }
