@@ -22,6 +22,7 @@ import { HttpParams, HttpClient, HttpHeaders } from '@angular/common/http';
 import { HttpErrorResponse, HttpResponse } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError, retry } from 'rxjs/operators';
+import { CoreContentLinksHelperProvider } from '@core/contentlinks/providers/helper';
 
 
 /**
@@ -48,9 +49,17 @@ export class AddonAxificationsListPage {
 			navParams: NavParams, 
 			private _http: HttpClient,
             private sitesProvider: CoreSitesProvider,			
-			private axificationsProvider: AddonAxificationsProvider) 
+			private axificationsProvider: AddonAxificationsProvider,
+			linkHelper: CoreContentLinksHelperProvider, 
+			) 
 	{
-			
+	
+		/*
+		/// try to navigate APP
+		console.log("------------------------------muscolar");
+		//linkHelper.goInSite(undefined, 'CoreCoursesMyCoursesPage', undefined, undefined);			
+		linkHelper.handleLink("https://lt.skilla.com/mod/scorm/view.php?id=56");			
+		*/
     }
   
     /** 
@@ -58,6 +67,9 @@ export class AddonAxificationsListPage {
      */
     ionViewDidLoad(): void { 
 
+
+	
+		/*
 		var site = this.sitesProvider.getCurrentSite()
 
 		// Get username and fullname.  
@@ -85,7 +97,7 @@ export class AddonAxificationsListPage {
         });	
 		
 		/// binding to bottom menu
-		/*
+		
 		jQuery("a.tab-button").click(function() {
 			console.log("change TAB");
 			

@@ -46,9 +46,9 @@ export class AddonAxificationsModule {
 			mainMenuDelegate.registerHandler(mainMenuHandler);
 
         const axificationClicked = (axification: any): void => {
-			alert("--axificationClicked axification.moduleId: " + axification.moduleId);
+			//alert("--axificationClicked axification.moduleId: " + axification.moduleId);
 			axificationsProvider.invalidateNotificationsList().finally(() => {
-				linkHelper.goInSite(undefined, 'CoreCoursesMyCoursesPage', undefined, notification.site);
+				linkHelper.handleLink(axification.urltogo);	
 			});		
 
         };

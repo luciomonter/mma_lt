@@ -209,6 +209,7 @@ var AddonAxificationsActionsComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_operators__ = __webpack_require__(938);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_operators___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_operators__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__core_contentlinks_providers_helper__ = __webpack_require__(31);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -239,11 +240,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 /**
  * Page that displays the list of axifications.
  */
 var AddonAxificationsListPage = /** @class */ (function () {
-    function AddonAxificationsListPage(navParams, _http, sitesProvider, axificationsProvider) {
+    function AddonAxificationsListPage(navParams, _http, sitesProvider, axificationsProvider, linkHelper) {
         this._http = _http;
         this.sitesProvider = sitesProvider;
         this.axificationsProvider = axificationsProvider;
@@ -255,34 +257,46 @@ var AddonAxificationsListPage = /** @class */ (function () {
         this.loadingMarkAllAxificationsAsRead = false;
         this.readCount = 0;
         this.unreadCount = 0;
+        /*
+        /// try to navigate APP
+        console.log("------------------------------muscolar");
+        //linkHelper.goInSite(undefined, 'CoreCoursesMyCoursesPage', undefined, undefined);
+        linkHelper.handleLink("https://lt.skilla.com/mod/scorm/view.php?id=56");
+        */
     }
     /**
      * View loaded.
      */
     AddonAxificationsListPage.prototype.ionViewDidLoad = function () {
-        var _this = this;
-        var site = this.sitesProvider.getCurrentSite();
-        // Get username and fullname.  
-        /// BCC SVIL: 
+        /*
+        var site = this.sitesProvider.getCurrentSite()
+
+        // Get username and fullname.
+        /// BCC SVIL:
         var AUTH_USER_KEY_wsToken = "8c98e14eef68957f1aacb7451388b4e2";
-        /// BCC TEST: 
-        //var AUTH_USER_KEY_wsToken = "eb15b5da943a5546296e027bee29f1b1"; 
-        /// BCC PROD:  
-        //var AUTH_USER_KEY_wsToken = "6c7eb64adb7bbcadbedf13dbdd85ae99"; 
-        var userId = site.getUserId();
+        /// BCC TEST:
+        //var AUTH_USER_KEY_wsToken = "eb15b5da943a5546296e027bee29f1b1";
+        /// BCC PROD:
+        //var AUTH_USER_KEY_wsToken = "6c7eb64adb7bbcadbedf13dbdd85ae99";
+        
+        var userId =  site.getUserId();
         var fullName = site.getInfo().fullname;
         var userName = site.getInfo().username;
         var siteUrl = site.getURL();
+
         var wantsURL = siteUrl + "/local/axperformance/splash.php";
         var functionOnWS = 'auth_userkey_request_login_url';
+        
         //var responseFromWs = this.getMyLoginUrl(userName,wantsURL,AUTH_USER_KEY_wsToken,siteUrl,functionOnWS);
-        this.getMyLoginUrl(userName, wantsURL, AUTH_USER_KEY_wsToken, siteUrl, functionOnWS)
-            .subscribe(function (resp) {
-            _this.safeLoginUrl = resp.loginurl + '&wantsurl=' + encodeURI(wantsURL);
-            _this.hideUntil = true;
+        
+        this.getMyLoginUrl(userName,wantsURL,AUTH_USER_KEY_wsToken,siteUrl,functionOnWS)
+        .subscribe(resp => {
+            this.safeLoginUrl = resp.loginurl + '&wantsurl=' + encodeURI(wantsURL);
+            this.hideUntil = true;
         });
+        
         /// binding to bottom menu
-        /*
+        
         jQuery("a.tab-button").click(function() {
             console.log("change TAB");
             
@@ -375,12 +389,10 @@ var AddonAxificationsListPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-addon-axifications-list',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\axifications\pages\list\list.html"*/'﻿	<div class="core-loading-container" *ngIf="!hideUntil">\n\n		<span class="core-loading-spinner spinner-ax-valutazione">\n\n			<ion-spinner></ion-spinner>\n\n		</span>\n\n	</div>	 \n\n    <core-iframe id="embeded_iframe" class="core-iframe iframe" scrolling="yes"  [src]="safeLoginUrl" *ngIf="hideUntil"></core-iframe>\n\n\n\n	\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\axifications\pages\list\list.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["b" /* HttpClient */],
-            __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */],
-            __WEBPACK_IMPORTED_MODULE_3__providers_axifications__["a" /* AddonAxificationsProvider */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["b" /* HttpClient */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["b" /* HttpClient */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__providers_axifications__["a" /* AddonAxificationsProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__providers_axifications__["a" /* AddonAxificationsProvider */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_7__core_contentlinks_providers_helper__["a" /* CoreContentLinksHelperProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__core_contentlinks_providers_helper__["a" /* CoreContentLinksHelperProvider */]) === "function" && _e || Object])
     ], AddonAxificationsListPage);
     return AddonAxificationsListPage;
+    var _a, _b, _c, _d, _e;
 }());
 
 //# sourceMappingURL=list.js.map
