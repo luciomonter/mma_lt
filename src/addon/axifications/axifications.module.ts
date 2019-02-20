@@ -46,10 +46,10 @@ export class AddonAxificationsModule {
 			mainMenuDelegate.registerHandler(mainMenuHandler);
 
         const axificationClicked = (axification: any): void => {
-			alert("--axificationClicked axification.moduleId: " + axification.urltogo);
-			axificationsProvider.invalidateNotificationsList().finally(() => {
+			//alert("--axificationClicked axification.moduleId: " + axification.urltogo);
+			axificationsProvider.invalidateAxificationsList().finally(() => {
 				linkHelper.handleLink(axification.urltogo);	
-				alert("AFTER--axificationClicked axification.moduleId: " + axification.urltogo);
+				//alert("AFTER--axificationClicked axification.moduleId: " + axification.urltogo);
 			});		
 
         };
