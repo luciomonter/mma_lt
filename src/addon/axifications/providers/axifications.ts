@@ -307,7 +307,7 @@ export class AddonAxificationsProvider {
         return this.sitesProvider.wsAvailableInCurrentSite('message_popup_get_unread_popup_notification_count');
     }
 
-    /**
+    /** 
      * Returns whether or not the notification preferences are enabled for the current site.
      *
      * @return {boolean} True if enabled, false otherwise.
