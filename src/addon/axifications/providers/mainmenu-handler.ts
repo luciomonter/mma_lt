@@ -41,7 +41,9 @@ export class AddonAxificationsMainMenuHandler implements CoreMainMenuHandler {
      * @return {boolean} Whether or not the handler is enabled on a site level.
      */
     isEnabled(): boolean | Promise<boolean> {
-        return true;
+		/// Lucio: true = voce di menu, false la nasconde
+	
+        return false;
     }
 
     /**

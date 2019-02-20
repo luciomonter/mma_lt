@@ -88,7 +88,6 @@ export class AddonNotificationsModule {
 					alert("notify m1.5 prop: "+property+" :: " + notification[property]);
 				}
 			}			
-			alert("notify m1.5 notification.site:: " + notification.site);			
 			
 			
             if (utils.isTrueOrOne(notification.notif)) {

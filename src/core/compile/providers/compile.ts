@@ -112,6 +112,7 @@ import { ADDON_MOD_WIKI_PROVIDERS } from '@addon/mod/wiki/wiki.module';
 import { ADDON_MOD_WORKSHOP_PROVIDERS } from '@addon/mod/workshop/workshop.module';
 import { ADDON_NOTES_PROVIDERS } from '@addon/notes/notes.module';
 import { ADDON_NOTIFICATIONS_PROVIDERS } from '@addon/notifications/notifications.module';
+import { ADDON_AXIFICATIONS_PROVIDERS } from '@addon/axifications/axifications.module';
 import { ADDON_PUSHNOTIFICATIONS_PROVIDERS } from '@addon/pushnotifications/pushnotifications.module';
 import { ADDON_REMOTETHEMES_PROVIDERS } from '@addon/remotethemes/remotethemes.module';
 

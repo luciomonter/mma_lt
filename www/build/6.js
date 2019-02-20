@@ -1,19 +1,19 @@
 webpackJsonp([6],{
 
-/***/ 1856:
+/***/ 1784:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonNotificationsListPageModule", function() { return AddonNotificationsListPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonAxificationsListPageModule", function() { return AddonAxificationsListPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(1992);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__list__ = __webpack_require__(1994);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(1914);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__list__ = __webpack_require__(1916);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -41,41 +41,41 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var AddonNotificationsListPageModule = /** @class */ (function () {
-    function AddonNotificationsListPageModule() {
+var AddonAxificationsListPageModule = /** @class */ (function () {
+    function AddonAxificationsListPageModule() {
     }
-    AddonNotificationsListPageModule = __decorate([
+    AddonAxificationsListPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_7__list__["a" /* AddonNotificationsListPage */],
+                __WEBPACK_IMPORTED_MODULE_7__list__["a" /* AddonAxificationsListPage */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
                 __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
                 __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_7__list__["a" /* AddonNotificationsListPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_7__list__["a" /* AddonAxificationsListPage */]),
                 __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild(),
-                __WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* AddonNotificationsComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* AddonAxificationsComponentsModule */],
             ],
         })
-    ], AddonNotificationsListPageModule);
-    return AddonNotificationsListPageModule;
+    ], AddonAxificationsListPageModule);
+    return AddonAxificationsListPageModule;
 }());
 
 //# sourceMappingURL=list.module.js.map
 
 /***/ }),
 
-/***/ 1992:
+/***/ 1914:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonNotificationsComponentsModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonAxificationsComponentsModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__actions_actions__ = __webpack_require__(1993);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__actions_actions__ = __webpack_require__(1915);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -100,13 +100,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var AddonNotificationsComponentsModule = /** @class */ (function () {
-    function AddonNotificationsComponentsModule() {
+var AddonAxificationsComponentsModule = /** @class */ (function () {
+    function AddonAxificationsComponentsModule() {
     }
-    AddonNotificationsComponentsModule = __decorate([
+    AddonAxificationsComponentsModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_4__actions_actions__["a" /* AddonNotificationsActionsComponent */]
+                __WEBPACK_IMPORTED_MODULE_4__actions_actions__["a" /* AddonAxificationsActionsComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_1__angular_common__["b" /* CommonModule */],
@@ -115,22 +115,22 @@ var AddonNotificationsComponentsModule = /** @class */ (function () {
             ],
             providers: [],
             exports: [
-                __WEBPACK_IMPORTED_MODULE_4__actions_actions__["a" /* AddonNotificationsActionsComponent */]
+                __WEBPACK_IMPORTED_MODULE_4__actions_actions__["a" /* AddonAxificationsActionsComponent */]
             ],
         })
-    ], AddonNotificationsComponentsModule);
-    return AddonNotificationsComponentsModule;
+    ], AddonAxificationsComponentsModule);
+    return AddonAxificationsComponentsModule;
 }());
 
 //# sourceMappingURL=components.module.js.map
 
 /***/ }),
 
-/***/ 1993:
+/***/ 1915:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonNotificationsActionsComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonAxificationsActionsComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__core_contentlinks_providers_delegate__ = __webpack_require__(33);
 // (C) Copyright 2015 Martin Dougiamas
@@ -158,17 +158,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Component that displays the actions for a notification.
+ * Component that displays the actions for a axification.
  */
-var AddonNotificationsActionsComponent = /** @class */ (function () {
-    function AddonNotificationsActionsComponent(contentLinksDelegate) {
+var AddonAxificationsActionsComponent = /** @class */ (function () {
+    function AddonAxificationsActionsComponent(contentLinksDelegate) {
         this.contentLinksDelegate = contentLinksDelegate;
         this.actions = [];
     }
     /**
      * Component being initialized.
      */
-    AddonNotificationsActionsComponent.prototype.ngOnInit = function () {
+    AddonAxificationsActionsComponent.prototype.ngOnInit = function () {
         var _this = this;
         this.contentLinksDelegate.getActionsFor(this.contextUrl, this.courseId).then(function (actions) {
             _this.actions = actions;
@@ -177,38 +177,38 @@ var AddonNotificationsActionsComponent = /** @class */ (function () {
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
         __metadata("design:type", String)
-    ], AddonNotificationsActionsComponent.prototype, "contextUrl", void 0);
+    ], AddonAxificationsActionsComponent.prototype, "contextUrl", void 0);
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
         __metadata("design:type", Number)
-    ], AddonNotificationsActionsComponent.prototype, "courseId", void 0);
-    AddonNotificationsActionsComponent = __decorate([
+    ], AddonAxificationsActionsComponent.prototype, "courseId", void 0);
+    AddonAxificationsActionsComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'addon-notifications-actions',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\notifications\components\actions\addon-notifications-actions.html"*/'<ion-row *ngIf="actions && actions.length > 0" justify-content-around>\n\n    <ion-col *ngFor="let action of actions">\n\n        <button ion-button icon-left clear small block (click)="action.action()">\n\n            <ion-icon name="{{action.icon}}"></ion-icon>\n\n            {{ action.message | translate }}\n\n        </button>\n\n    </ion-col>\n\n</ion-row>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\notifications\components\actions\addon-notifications-actions.html"*/,
+            selector: 'addon-axifications-actions',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\axifications\components\actions\addon-axifications-actions.html"*/'<ion-row *ngIf="actions && actions.length > 0" justify-content-around>\n\n    <ion-col *ngFor="let action of actions">\n\n        <button ion-button icon-left clear small block (click)="action.action()">\n\n            <ion-icon name="{{action.icon}}"></ion-icon>\n\n            {{ action.message | translate }}\n\n        </button>\n\n    </ion-col>\n\n</ion-row>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\axifications\components\actions\addon-axifications-actions.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__core_contentlinks_providers_delegate__["a" /* CoreContentLinksDelegate */]])
-    ], AddonNotificationsActionsComponent);
-    return AddonNotificationsActionsComponent;
+    ], AddonAxificationsActionsComponent);
+    return AddonAxificationsActionsComponent;
 }());
 
 //# sourceMappingURL=actions.js.map
 
 /***/ }),
 
-/***/ 1994:
+/***/ 1916:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonNotificationsListPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonAxificationsListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_utils_dom__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_text__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_events__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sites__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_utils__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_notifications__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__addon_pushnotifications_providers_delegate__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_axifications__ = __webpack_require__(942);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_common_http__ = __webpack_require__(150);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_operators__ = __webpack_require__(938);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_operators___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_operators__);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -235,208 +235,152 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
-
+/// Lucio for different WS
 
 
 
 /**
- * Page that displays the list of notifications.
+ * Page that displays the list of axifications.
  */
-var AddonNotificationsListPage = /** @class */ (function () {
-    function AddonNotificationsListPage(navParams, domUtils, eventsProvider, sitesProvider, textUtils, utils, notificationsProvider, pushNotificationsDelegate) {
-        this.domUtils = domUtils;
-        this.eventsProvider = eventsProvider;
+var AddonAxificationsListPage = /** @class */ (function () {
+    function AddonAxificationsListPage(navParams, _http, sitesProvider, axificationsProvider) {
+        this._http = _http;
         this.sitesProvider = sitesProvider;
-        this.textUtils = textUtils;
-        this.utils = utils;
-        this.notificationsProvider = notificationsProvider;
-        this.pushNotificationsDelegate = pushNotificationsDelegate;
-        this.notifications = [];
-        this.notificationsLoaded = false;
+        this.axificationsProvider = axificationsProvider;
+        this.hideUntil = false;
+        this.axifications = [];
+        this.axificationsLoaded = false;
         this.canLoadMore = false;
-        this.canMarkAllNotificationsAsRead = false;
-        this.loadingMarkAllNotificationsAsRead = false;
+        this.canMarkAllAxificationsAsRead = false;
+        this.loadingMarkAllAxificationsAsRead = false;
         this.readCount = 0;
         this.unreadCount = 0;
     }
     /**
      * View loaded.
      */
-    AddonNotificationsListPage.prototype.ionViewDidLoad = function () {
+    AddonAxificationsListPage.prototype.ionViewDidLoad = function () {
         var _this = this;
-        this.fetchNotifications().finally(function () {
-            _this.notificationsLoaded = true;
+        var site = this.sitesProvider.getCurrentSite();
+        // Get username and fullname.  
+        /// BCC SVIL: 
+        var AUTH_USER_KEY_wsToken = "8c98e14eef68957f1aacb7451388b4e2";
+        /// BCC TEST: 
+        //var AUTH_USER_KEY_wsToken = "eb15b5da943a5546296e027bee29f1b1"; 
+        /// BCC PROD:  
+        //var AUTH_USER_KEY_wsToken = "6c7eb64adb7bbcadbedf13dbdd85ae99"; 
+        var userId = site.getUserId();
+        var fullName = site.getInfo().fullname;
+        var userName = site.getInfo().username;
+        var siteUrl = site.getURL();
+        var wantsURL = siteUrl + "/local/axperformance/splash.php";
+        var functionOnWS = 'auth_userkey_request_login_url';
+        //var responseFromWs = this.getMyLoginUrl(userName,wantsURL,AUTH_USER_KEY_wsToken,siteUrl,functionOnWS);
+        this.getMyLoginUrl(userName, wantsURL, AUTH_USER_KEY_wsToken, siteUrl, functionOnWS)
+            .subscribe(function (resp) {
+            _this.safeLoginUrl = resp.loginurl + '&wantsurl=' + encodeURI(wantsURL);
+            _this.hideUntil = true;
         });
-        this.cronObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_7__providers_notifications__["a" /* AddonNotificationsProvider */].READ_CRON_EVENT, function () { return _this.refreshNotifications(); }, this.sitesProvider.getCurrentSiteId());
-        this.pushObserver = this.pushNotificationsDelegate.on('receive').subscribe(function (notification) {
-            // New notification received. If it's from current site, refresh the data.
-            if (_this.utils.isTrueOrOne(notification.notif) && _this.sitesProvider.isCurrentSite(notification.site)) {
-                _this.refreshNotifications();
-            }
-        });
-    };
-    /**
-     * Convenience function to get notifications. Gets unread notifications first.
-     *
-     * @param {boolean} refreh Whether we're refreshing data.
-     * @return {Promise<any>} Resolved when done.
-     */
-    AddonNotificationsListPage.prototype.fetchNotifications = function (refresh) {
-        var _this = this;
-        if (refresh) {
-            this.readCount = 0;
-            this.unreadCount = 0;
-        }
-        var limit = __WEBPACK_IMPORTED_MODULE_7__providers_notifications__["a" /* AddonNotificationsProvider */].LIST_LIMIT;
-        return this.notificationsProvider.getUnreadNotifications(this.unreadCount, limit).then(function (unread) {
-            var promises = [];
-            unread.forEach(_this.formatText.bind(_this));
-            /* Don't add the unread notifications to this.notifications yet. If there are no unread notifications
-               that causes that the "There are no notifications" message is shown in pull to refresh. */
-            _this.unreadCount += unread.length;
-            if (unread.length < limit) {
-                // Limit not reached. Get read notifications until reach the limit.
-                var readLimit_1 = limit - unread.length;
-                promises.push(_this.notificationsProvider.getReadNotifications(_this.readCount, readLimit_1).then(function (read) {
-                    read.forEach(_this.formatText.bind(_this));
-                    _this.readCount += read.length;
-                    if (refresh) {
-                        _this.notifications = unread.concat(read);
-                    }
-                    else {
-                        _this.notifications = _this.notifications.concat(unread, read);
-                    }
-                    _this.canLoadMore = read.length >= readLimit_1;
-                }).catch(function (error) {
-                    if (unread.length == 0) {
-                        _this.domUtils.showErrorModalDefault(error, 'addon.notifications.errorgetnotifications', true);
-                        _this.canLoadMore = false; // Set to false to prevent infinite calls with infinite-loading.
-                    }
-                }));
-            }
-            else {
-                if (refresh) {
-                    _this.notifications = unread;
-                }
-                else {
-                    _this.notifications = _this.notifications.concat(unread);
-                }
-                _this.canLoadMore = true;
-            }
-            return Promise.all(promises).then(function () {
-                // Mark retrieved notifications as read if they are not.
-                _this.markNotificationsAsRead(unread);
-            });
-        }).catch(function (error) {
-            _this.domUtils.showErrorModalDefault(error, 'addon.notifications.errorgetnotifications', true);
-            _this.canLoadMore = false; // Set to false to prevent infinite calls with infinite-loading.
-        });
-    };
-    /**
-     * Mark all notifications as read.
-     */
-    AddonNotificationsListPage.prototype.markAllNotificationsAsRead = function () {
-        var _this = this;
-        this.loadingMarkAllNotificationsAsRead = true;
-        this.notificationsProvider.markAllNotificationsAsRead().catch(function () {
-            // Omit failure.
-        }).finally(function () {
-            var siteId = _this.sitesProvider.getCurrentSiteId();
-            _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_7__providers_notifications__["a" /* AddonNotificationsProvider */].READ_CHANGED_EVENT, null, siteId);
-            _this.notificationsProvider.getUnreadNotificationsCount().then(function (unread) {
-                _this.canMarkAllNotificationsAsRead = unread > 0;
-                _this.loadingMarkAllNotificationsAsRead = false;
-            });
-        });
-    };
-    /**
-     * Mark notifications as read.
-     *
-     * @param {any[]} notifications Array of notification objects.
-     */
-    AddonNotificationsListPage.prototype.markNotificationsAsRead = function (notifications) {
-        var _this = this;
-        var promise;
-        if (notifications.length > 0) {
-            var promises = notifications.map(function (notification) {
-                return _this.notificationsProvider.markNotificationRead(notification.id);
-            });
-            promise = Promise.all(promises).catch(function () {
-                // Ignore errors.
-            }).finally(function () {
-                _this.notificationsProvider.invalidateNotificationsList().finally(function () {
-                    var siteId = _this.sitesProvider.getCurrentSiteId();
-                    _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_7__providers_notifications__["a" /* AddonNotificationsProvider */].READ_CHANGED_EVENT, null, siteId);
+        /// binding to bottom menu
+        /*
+        jQuery("a.tab-button").click(function() {
+            console.log("change TAB");
+            
+            if( !(jQuery("ion-header.header").is(':visible') )){
+                jQuery("ion-header.header").show('slide', { direction: "up" }, 500, function() {
+                    $("div.scroll-content").css("margin-top","51px");
                 });
-            });
+            }
+            
+            
+        });
+        */
+    };
+    AddonAxificationsListPage.prototype.getMyLoginUrl = function (usernameToLogin, wantsUrl, wsToken, moodleDomain, functionNameOnWS) {
+        var serverUrl = moodleDomain + '/webservice/rest/server.php' + '?wstoken=' + wsToken + '&wsfunction=' + functionNameOnWS + '&moodlewsrestformat=json';
+        // console.log( "ax jQuery ready1!" );
+        var userToWs = { user: { username: usernameToLogin } };
+        return this._http.post(serverUrl, userToWs, {
+            headers: new __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["d" /* HttpHeaders */]()
+                .set('Content-Type', 'application/x-www-form-urlencoded')
+        })
+            .pipe(Object(__WEBPACK_IMPORTED_MODULE_6_rxjs_operators__["catchError"])(this.handleError) // then handle the error
+        );
+        /*
+        /// INTERNAL APP APPROACH
+        var site = this.sitesProvider.getCurrentSite()
+        const preSets = {
+            getFromCache: false,
+            wstoken:wsToken,
+            saveToCache: false
+        };
+        var siteResponse = site.read(functionNameOnWS, userToWs, preSets);
+        */
+        /*
+        /// JQUERY APPROACH
+        var wantsUrltoAdd = '&wantsurl=' + encodeURI(wantsUrl);
+        var bindToApp = this;
+        jQuery.post( serverUrl, "user[username]="+usernameToLogin)
+          .done(function( data ) {
+            //alert( "Data Loaded: " + data );
+            console.log(data.loginurl);
+            loginUrl = data.loginurl + wantsUrltoAdd;
+            bindToApp.afterDirectLoginUrlObtained(loginUrl);
+        });
+        */
+    };
+    AddonAxificationsListPage.prototype.handleError = function (error) {
+        if (error.error instanceof ErrorEvent) {
+            // A client-side or network error occurred. Handle it accordingly.
+            console.error('An error occurred:', error.error.message);
         }
         else {
-            promise = Promise.resolve();
+            // The backend returned an unsuccessful response code.
+            // The response body may contain clues as to what went wrong,
+            console.error("Backend returned code " + error.status + ", " +
+                ("body was: " + error.error));
         }
-        promise.finally(function () {
-            // Check if mark all notifications as read is enabled and there are some to read.
-            if (_this.notificationsProvider.isMarkAllNotificationsAsReadEnabled()) {
-                _this.loadingMarkAllNotificationsAsRead = true;
-                return _this.notificationsProvider.getUnreadNotificationsCount().then(function (unread) {
-                    _this.canMarkAllNotificationsAsRead = unread > 0;
-                    _this.loadingMarkAllNotificationsAsRead = false;
-                });
-            }
-            _this.canMarkAllNotificationsAsRead = false;
-        });
+        // return an observable with a user-facing error message
+        return Object(__WEBPACK_IMPORTED_MODULE_5_rxjs__["throwError"])('Something bad happened; please try again later.');
     };
+    /*
+    afterDirectLoginUrlObtained(loginUrl): void {
+        // console.log("goo:: " + loginUrl);
+        //this.currentLoginUrl = loginUrl;
+        
+        
+        //jQuery("#embeded_iframe").attr("src",loginUrl);
+        
+        
+    }
+    */
     /**
-     * Refresh notifications.
+     * Refresh axifications.
      *
      * @param {any} [refresher] Refresher.
      */
-    AddonNotificationsListPage.prototype.refreshNotifications = function (refresher) {
-        var _this = this;
-        this.notificationsProvider.invalidateNotificationsList().finally(function () {
-            return _this.fetchNotifications(true).finally(function () {
-                if (refresher) {
-                    refresher.complete();
-                }
-            });
-        });
-    };
-    /**
-     * Load more results.
-     *
-     * @param {any} infiniteScroll The infinit scroll instance.
-     */
-    AddonNotificationsListPage.prototype.loadMoreNotifications = function (infiniteScroll) {
-        this.fetchNotifications().finally(function () {
-            infiniteScroll.complete();
-        });
-    };
-    /**
-     * Formats the text of a notification.
-     *
-     * @param {any} notification The notification object.
-     */
-    AddonNotificationsListPage.prototype.formatText = function (notification) {
-        var text = notification.mobiletext.replace(/-{4,}/ig, '');
-        notification.mobiletext = this.textUtils.replaceNewLines(text, '<br>');
+    AddonAxificationsListPage.prototype.refreshAxifications = function (refresher) {
+        // console.log("refreshAxifications");
     };
     /**
      * Page destroyed.
      */
-    AddonNotificationsListPage.prototype.ngOnDestroy = function () {
+    AddonAxificationsListPage.prototype.ngOnDestroy = function () {
+        /*
         this.cronObserver && this.cronObserver.off();
         this.pushObserver && this.pushObserver.unsubscribe();
+        */
     };
-    AddonNotificationsListPage = __decorate([
+    AddonAxificationsListPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-notifications-list',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\notifications\pages\list\list.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'addon.notifications.notifications\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher [enabled]="notificationsLoaded" (ionRefresh)="refreshNotifications($event)">\n\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n\n    </ion-refresher>\n\n    <core-loading [hideUntil]="notificationsLoaded">\n\n        <div padding *ngIf="canMarkAllNotificationsAsRead">\n\n            <button ion-button block (click)="markAllNotificationsAsRead()" color="light" icon-start *ngIf="!loadingMarkAllNotificationsAsRead">\n\n                <core-icon name="fa-check"></core-icon>\n\n                {{ \'addon.notifications.markallread\' | translate }}\n\n            </button>\n\n            <button ion-button block color="light" icon-start *ngIf="loadingMarkAllNotificationsAsRead">\n\n                <ion-spinner></ion-spinner>\n\n            </button>\n\n        </div>\n\n        <ion-card *ngFor="let notification of notifications">\n\n            <ion-item>\n\n                <ion-avatar item-start core-user-link [userId]="notification.useridfrom" [courseId]="notification.courseid">\n\n                    <img [src]="notification.profileimageurlfrom || \'assets/img/user-avatar.png\'" core-external-content [alt]="\'core.pictureof\' | translate:{$a: notification.userfromfullname}" role="presentation">\n\n                </ion-avatar>\n\n                <h2>{{notification.userfromfullname}}</h2>\n\n                <div item-end *ngIf="!notification.timeread"><core-icon name="fa-circle" color="primary"></core-icon></div>\n\n                <p>{{notification.timecreated | coreDateDayOrTime}}</p>\n\n            </ion-item>\n\n            <ion-item text-wrap>\n\n                <p><core-format-text [text]="notification.mobiletext | coreCreateLinks"></core-format-text></p>\n\n            </ion-item>\n\n            <addon-notifications-actions [contextUrl]="notification.contexturl" [courseId]="notification.courseid"></addon-notifications-actions>\n\n        </ion-card>\n\n        <core-empty-box *ngIf="!notifications || notifications.length <= 0" icon="notifications" [message]="\'addon.notifications.therearentnotificationsyet\' | translate"></core-empty-box>\n\n        <ion-infinite-scroll [enabled]="canLoadMore" (ionInfinite)="loadMoreNotifications($event)">\n\n            <ion-infinite-scroll-content></ion-infinite-scroll-content>\n\n        </ion-infinite-scroll>\n\n    </core-loading>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\notifications\pages\list\list.html"*/,
+            selector: 'page-addon-axifications-list',template:/*ion-inline-start:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\axifications\pages\list\list.html"*/'﻿	<div class="core-loading-container" *ngIf="!hideUntil">\n\n		<span class="core-loading-spinner spinner-ax-valutazione">\n\n			<ion-spinner></ion-spinner>\n\n		</span>\n\n	</div>	 \n\n    <core-iframe id="embeded_iframe" class="core-iframe iframe" scrolling="yes"  [src]="safeLoginUrl" *ngIf="hideUntil"></core-iframe>\n\n\n\n	\n\n'/*ion-inline-end:"C:\wamp\www\AX-LT_2019\mma_lt2\src\addon\axifications\pages\list\list.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_events__["a" /* CoreEventsProvider */],
-            __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_text__["a" /* CoreTextUtilsProvider */],
-            __WEBPACK_IMPORTED_MODULE_6__providers_utils_utils__["a" /* CoreUtilsProvider */], __WEBPACK_IMPORTED_MODULE_7__providers_notifications__["a" /* AddonNotificationsProvider */],
-            __WEBPACK_IMPORTED_MODULE_8__addon_pushnotifications_providers_delegate__["a" /* AddonPushNotificationsDelegate */]])
-    ], AddonNotificationsListPage);
-    return AddonNotificationsListPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["b" /* HttpClient */],
+            __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_axifications__["a" /* AddonAxificationsProvider */]])
+    ], AddonAxificationsListPage);
+    return AddonAxificationsListPage;
 }());
 
 //# sourceMappingURL=list.js.map
