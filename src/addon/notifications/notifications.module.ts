@@ -63,11 +63,7 @@ export class AddonNotificationsModule {
                 }
 
                 notificationsProvider.invalidateNotificationsList().finally(() => {
-					setTimeout(function(){ alert("notify m1"); }, 9000);
-					
                     linkHelper.goInSite(undefined, 'AddonNotificationsListPage', undefined, notification.site);
-					setTimeout(function(){ alert("notify m2"); }, 9000);
-					setTimeout(function(){ alert("notify m3: " + notification.site); }, 9000);
                 });
             });
         };
@@ -79,20 +75,8 @@ export class AddonNotificationsModule {
 
         // Register push notification clicks.
         pushNotificationsDelegate.on('click').subscribe((notification) => {
-			alert("notify m0");
-			setTimeout(function(){ alert("notify m0"); }, 9000);
-
-			for (var property in notification) {
-				if (notification.hasOwnProperty(property)) {
-					// do stuff
-					alert("notify m1.5 prop: "+property+" :: " + notification[property]);
-				}
-			}			
-			
-			
             if (utils.isTrueOrOne(notification.notif)) {
                 notificationClicked(notification);
-
                 return true;
             }
         });

@@ -67,7 +67,7 @@ export class AddonAxificationsModule {
 			
 			/// only for axficationsss:
 			if (notification.hasOwnProperty("axurlparams")) {
-				notificationClicked(notification.axurlparams);
+				axificationClicked(notification.axurlparams);
 				return true;
 			}
 			
