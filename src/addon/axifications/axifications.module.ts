@@ -48,7 +48,7 @@ export class AddonAxificationsModule {
         const axificationClicked = (axification: any): void => {
 			alert("--axificationClicked axification.moduleId: " + axification.moduleId);
 			axificationsProvider.invalidateNotificationsList().finally(() => {
-				linkHelper.goInSite(undefined, 'AddonNotificationsListPage', undefined, notification.site);
+				linkHelper.goInSite(undefined, 'CoreCoursesMyCoursesPage', undefined, notification.site);
 			});		
 
         };
@@ -56,15 +56,14 @@ export class AddonAxificationsModule {
 
         // Register push notification clicks.
         pushNotificationsDelegate.on('click').subscribe((notification) => {
-			alert("AX-notify m0");
-
+			/*
 			for (var property in notification) {
 				if (notification.hasOwnProperty(property)) {
 					// do stuff
 					alert("AX-notify m1.5 prop: "+property+" :: " + notification[property]);
 				}
 			}			
-			
+			*/
 			/// only for axficationsss:
 			if (notification.hasOwnProperty("axurlparams")) {
 				axificationClicked(notification.axurlparams);

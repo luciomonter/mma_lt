@@ -62,7 +62,7 @@ export class AddonPushNotificationsDelegate {
      * @return {Subject<any>} Observer to subscribe.
      */
     on(eventName: string): Subject<any> {
-		alert("eventName on delegate: notify m0");
+		//alert("eventName on delegate: notify m0");
         if (typeof this.observables[eventName] == 'undefined') {
             const eventNames = Object.keys(this.observables).join(', ');
             this.logger.warn(`'${eventName}' event name is not allowed. Use one of the following: '${eventNames}'.`);
